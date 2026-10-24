@@ -1,0 +1,11 @@
+---
+title: Find an idea worth keeping
+description: "Search the analysis, or follow a subject across editions."
+permalink: /search/
+eyebrow: Search the work
+---
+<form class="search-form" role="search" action="/search/"><label for="search-input">Search articles</label><input id="search-input" class="form-control" type="search" name="q" placeholder="Models, security, operations…" autocomplete="off"><button class="btn search-button" type="submit">Search</button></form>
+<div class="topic-filters" role="group" aria-label="Filter by topic"><button class="filter-button" data-filter="all" aria-pressed="true">All topics</button>{% for section in site.sections %}<button class="filter-button" data-filter="{{ section.slug }}" aria-pressed="false">{{ section.name }}</button>{% endfor %}</div>
+<p id="search-status" class="meta" aria-live="polite"></p>
+<div id="search-results">{% assign articles = site.articles | sort: 'edition_date' | reverse %}{% for article in articles %}{% include story-row.html article=article %}{% endfor %}</div>
+<noscript><p>All articles are listed above. Use your browser’s Find command to search this page.</p></noscript>

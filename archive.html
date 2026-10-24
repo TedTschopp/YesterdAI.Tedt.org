@@ -1,0 +1,7 @@
+---
+title: The archive
+description: "A day-by-day record of what changed in enterprise AI, and why it mattered."
+permalink: /archive/
+eyebrow: Every edition, in context
+---
+<div class="archive-list">{% assign editions = site.editions | sort: 'edition_date' | reverse %}{% for edition in editions %}<article class="archive-row"><time class="meta" datetime="{{ edition.edition_date }}">{{ edition.edition_date | date: '%b %-d, %Y' }}</time><div><h2><a href="{{ edition.url }}">{{ edition.title | escape }}</a></h2><p class="body-sm">{{ edition.description | escape }}</p></div><span class="meta">{{ edition.article_ids.size }} {% if edition.article_ids.size == 1 %}analysis{% else %}analyses{% endif %}{% if edition.retrospective %}<br>Retrospective{% endif %}</span></article>{% endfor %}</div>

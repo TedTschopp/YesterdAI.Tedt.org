@@ -1,0 +1,51 @@
+title: Yesterday in AI
+description: "What changed in enterprise AI, why it matters, and what to do next. A publication of Ted Tschopp’s Public Workbench."
+url: https://yesterdai.tedt.org
+baseurl: ""
+timezone: America/Los_Angeles
+lang: en
+author: Yesterday in AI
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+strict_front_matter: true
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
+  editions:
+    output: true
+    permalink: /editions/:name/
+defaults:
+  - scope: {path: "", type: articles}
+    values: {layout: article}
+  - scope: {path: "", type: editions}
+    values: {layout: edition}
+  - scope: {path: ""}
+    values: {layout: page}
+exclude:
+  - AGENTS.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - scripts
+  - tests
+  - prompts
+  - docs
+  - vendor
+  - .venv
+  - .cache
+  - test-results
+  - Makefile
+  - LICENSE
+kramdown:
+  input: GFM
+  hard_wrap: false
+sections:
+  - {name: Big Moves, slug: big-moves, tag: bigmoves, description: "The decisions changing the market."}
+  - {name: Enterprise Ops, slug: enterprise-ops, tag: ops, description: "Where capability meets the work."}
+  - {name: Vendors, slug: vendors, tag: vendors, description: "Models, platforms, and the choices they create."}
+  - {name: Security, slug: security, tag: security, description: "The boundaries that need to hold."}
+  - {name: Policy, slug: policy, tag: policy, description: "Rules, accountability, and public decisions."}
+

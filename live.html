@@ -1,0 +1,10 @@
+---
+title: The live wire
+description: "A wider view of the AI news landscape. Ranked by the source feed; linked directly to the reporting."
+permalink: /live/
+eyebrow: From the feeds
+---
+<div class="wire-toolbar"><span class="live-label"><span class="live-dot" aria-hidden="true"></span> Refreshed hourly</span><p class="meta">Snapshot updated: <time datetime="{{ site.data.wire.last_success_at }}">{{ site.data.wire.last_success_at | date: '%b %-d, %Y · %H:%M %z' }}</time></p></div>
+<p class="small">These are supplied feed summaries, separate from our researched daily articles. Feed dates are shown at their supplied precision. Ranking and ratings belong to the upstream feed.</p>
+<div class="wire-list">{% for item in site.data.wire.items %}<article class="wire-row"><span class="number">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><div><div class="story-meta"><span class="meta">{{ item.publisher | escape }}</span>{% if item.rating %}<span class="status">{{ item.rating }}</span>{% endif %}{% if item.technical_rating %}<span class="status">Tech: {{ item.technical_rating }}</span>{% endif %}</div><h2><a href="{{ item.url }}">{{ item.title | escape }} ↗</a></h2><p class="body-sm">{{ item.summary | escape }}</p><time class="meta" datetime="{{ item.date_published }}">Feed date: {{ item.date_published | date: '%b %-d, %Y' }}{% if item.date_precision != 'day' %} · {{ item.date_published | date: '%H:%M %z' }}{% endif %}</time></div></article>{% endfor %}</div>
+<p class="small">Source: <a href="https://rss.tedt.org/feeds/top.json">TedTschopp News Graph — Top Stories ↗</a></p>

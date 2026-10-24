@@ -1,0 +1,65 @@
+name: Refresh live news
+
+on:
+  schedule:
+    - cron: '27 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: refresh-wire
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Verify importer behavior
+        run: python -m unittest discover -s tests
+      - name: Fetch, reconcile, and commit changed snapshots
+        id: commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/publish.py refresh
+            if git diff --quiet -- _data/wire.json _data/discovery.json; then
+              echo 'changed=false' >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            git add _data/wire.json _data/discovery.json
+            git commit -m 'content: refresh live news snapshots'
+            if git push origin HEAD:main; then
+              echo 'changed=true' >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+          exit 1
+      - name: Explicitly deploy bot commits and retry failed deployments
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          latest=$(gh run list --workflow deploy.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion')
+          if [ '${{ steps.commit.outputs.changed }}' = 'true' ] || [ "$latest" = 'failure' ] || [ "$latest" = 'cancelled' ]; then
+            gh workflow run deploy.yml --ref main
+          fi
+      - name: Record refresh outcome
+        if: always()
+        run: |
+          echo 'Live-news refresh: ${{ job.status }}' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Dated editions and article assets are managed by the separate daily Codex task.' >> "$GITHUB_STEP_SUMMARY"

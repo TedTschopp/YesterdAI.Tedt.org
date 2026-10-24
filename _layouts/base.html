@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% assign meta_title = page.title | default: site.title %}
+  {% assign meta_description = page.description | default: page.summary | default: site.description %}
+  <title>{% if meta_title != site.title %}{{ meta_title | escape }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ meta_description | escape }}">
+  <meta name="theme-color" content="#101820">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/logos/monogram.svg' | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="Yesterday in AI" href="{{ '/feed.xml' | absolute_url }}">
+  <link rel="alternate" type="application/feed+json" title="Yesterday in AI" href="{{ '/feed.json' | absolute_url }}">
+  <meta property="og:site_name" content="Yesterday in AI">
+  <meta property="og:title" content="{{ meta_title | escape }}">
+  <meta property="og:description" content="{{ meta_description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if page.collection == 'articles' %}article{% else %}website{% endif %}">
+  <meta name="twitter:card" content="{% if page.hero %}summary_large_image{% else %}summary{% endif %}">
+  {% if page.hero %}<meta property="og:image" content="{{ page.hero.path | absolute_url }}">
+  <meta property="og:image:alt" content="{{ page.hero.alt | escape }}">{% endif %}
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/tokens.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/brand.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-nav">
+    <nav class="yia-container nav-inner" aria-label="Main navigation">
+      <a class="brand-link" href="{{ '/' | relative_url }}"><img src="{{ '/assets/logos/logo-wordmark-inverse.svg' | relative_url }}" width="181" height="32" alt="Yesterday in AI"></a>
+      <div class="nav-links">
+        <a href="/"{% if page.url == '/' %} aria-current="page"{% endif %}>Today</a>
+        <a href="/live/"{% if page.url == '/live/' %} aria-current="page"{% endif %}>Live news</a>
+        <a href="/archive/"{% if page.url == '/archive/' %} aria-current="page"{% endif %}>Archive</a>
+        <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+        <a href="/search/"{% if page.url == '/search/' %} aria-current="page"{% endif %}>Search</a>
+      </div>
+      <button class="theme-button" type="button" data-theme-toggle aria-label="Switch to dark theme">Dark</button>
+    </nav>
+  </header>
+  <main id="main">{{ content }}</main>
+  <footer class="yia-container site-footer">
+    <div class="footer-intro">
+      <a href="/" class="footer-logo"><img src="/assets/logos/logo-wordmark.svg" class="logo-light" width="181" height="32" alt="Yesterday in AI"><img src="/assets/logos/logo-wordmark-inverse.svg" class="logo-dark" width="181" height="32" alt="Yesterday in AI"></a>
+      <p class="body-sm">What changed. What matters. What comes next.</p>
+      <p class="small">From <a href="https://tedt.org/">Ted Tschopp’s Public Workbench</a>.</p>
+    </div>
+    <div><p class="eyebrow">Read on your terms</p><ul class="footer-links"><li><a href="/archive/">Past editions</a></li><li><a href="/feed.xml">RSS feed</a></li><li><a href="/feed.json">JSON feed</a></li><li><a href="https://github.com/TedTschopp/YesterdAI.Tedt.org">Source on GitHub ↗</a></li></ul></div>
+    <div><p class="eyebrow">A note on the work</p><p class="small">Prepared with AI assistance. Original reporting is credited throughout; analysis and illustrations are clearly identified.</p><a class="small" href="/about/#editorial-method">Our editorial method →</a></div>
+    <div class="footer-bottom"><span class="small">© {{ 'now' | date: '%Y' }} Ted Tschopp</span><a class="small" href="#top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>

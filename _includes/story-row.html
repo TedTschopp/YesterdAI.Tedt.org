@@ -1,0 +1,5 @@
+{% assign story = include.article %}
+<article class="story-row" data-section="{{ story.section | slugify }}">
+  <div><p class="story-meta"><span class="tag tag-{{ story.section | slugify }}">{{ story.section }}</span><span class="meta">{{ story.reading_minutes }} min read</span></p><h3><a href="{{ story.url }}">{{ story.title | escape }}</a></h3><p class="body-sm">{{ story.summary | escape }}</p><p class="body-sm"><strong>As a leader:</strong> {{ story.leader_action | escape }}</p><p class="body-sm"><strong>As an individual:</strong> {{ story.individual_action | escape }}</p></div>
+  <a class="story-thumbnail" href="{{ story.url }}" tabindex="-1" aria-hidden="true"><img src="{{ story.hero.path }}" alt="" width="{{ story.hero.width }}" height="{{ story.hero.height }}" loading="lazy"></a>
+</article>

@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{% assign articles = site.articles | sort: 'published_at' | reverse %}{"version":"https://jsonfeed.org/version/1.1","title":"Yesterday in AI","home_page_url":{{ '/' | absolute_url | jsonify }},"feed_url":{{ '/feed.json' | absolute_url | jsonify }},"description":{{ site.description | jsonify }},"language":"en","items":[{% for article in articles limit: 50 %}{% unless forloop.first %},{% endunless %}{"id":{{ article.url | absolute_url | jsonify }},"url":{{ article.url | absolute_url | jsonify }},"title":{{ article.title | jsonify }},"summary":{{ article.summary | jsonify }},"content_html":{{ article.content | jsonify }},"image":{{ article.hero.path | absolute_url | jsonify }},"date_published":{{ article.published_at | jsonify }},"tags":[{{ article.section | jsonify }}],"authors":[{"name":"Yesterday in AI"}]}{% endfor %}]}
