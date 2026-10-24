@@ -1,0 +1,83 @@
+{
+  "test_id": "ted-voice-full-publication-2026-10-24",
+  "verified_at": "2026-10-24T23:53:59.942989Z",
+  "article_url": "https://yesterdai.tedt.org/articles/kapitsa-local-inference-operations/",
+  "edition_url": "https://yesterdai.tedt.org/editions/2026-10-24/",
+  "hero_url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp",
+  "word_count": 915,
+  "checks": {
+    "homepage_and_edition_article_references": true,
+    "archive_to_edition_to_article_navigation": true,
+    "canonical_article_prose_byline_disclosures_and_structured_data": true,
+    "new_and_existing_heroes_match_committed_bytes": true,
+    "rss_json_and_sitemap_article_entries": true,
+    "word_count_and_historical_source_boundary": true
+  },
+  "responses": [
+    {
+      "url": "https://yesterdai.tedt.org/",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 14870
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-24/",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 14930
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/kapitsa-local-inference-operations/",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 17209
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 16164
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.xml",
+      "status": 200,
+      "content_type": "application/xml",
+      "bytes": 13279
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.json",
+      "status": 200,
+      "content_type": "application/json",
+      "bytes": 151429
+    },
+    {
+      "url": "https://yesterdai.tedt.org/archive/",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 6892
+    },
+    {
+      "url": "https://yesterdai.tedt.org/sitemap.xml",
+      "status": 200,
+      "content_type": "application/xml",
+      "bytes": 3813
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 16084
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 24218
+    }
+  ],
+  "hero_sha256": {
+    "/assets/images/kapitsa-local-inference-operations.webp": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+    "/assets/images/litellm-release-authority.webp": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+    "/assets/images/pew-task-level-adoption.webp": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105"
+  }
+}

@@ -1,6 +1,6 @@
 ---
 test_id: ted-voice-full-publication-2026-10-24
-state: ready
+state: complete
 authorized_by: Ted Tschopp
 authorized_at: '2026-10-24T23:39:30Z'
 edition_date: '2026-10-24'
@@ -21,6 +21,16 @@ hero_sha256: 45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3
 word_count: 915
 validation: '24 unit tests; 7 editions / 23 articles; strict Jekyll; 36 rendered pages: passed'
 run_record: docs/runs/2026-10-24-full-publication.md
+completed_at: '2026-10-24T23:54:36.124675Z'
+content_commit: 68a264b95bf2b808a1242702a8af0dfaf279d671
+deployment_run_id: 40144486458
+deployment_run_url: https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40144486458
+deployment_conclusion: success
+public_verified_at: '2026-10-24T23:53:59.942989Z'
+article_url: https://yesterdai.tedt.org/articles/kapitsa-local-inference-operations/
+edition_url: https://yesterdai.tedt.org/editions/2026-10-24/
+hero_url: https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp
+public_verification_record: docs/runs/2026-10-24-full-publication-verification.json
 ---
 
 # One-time full publication test authorized by Ted

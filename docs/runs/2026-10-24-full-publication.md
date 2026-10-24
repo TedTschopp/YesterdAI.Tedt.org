@@ -1,14 +1,19 @@
 ---
 test_id: ted-voice-full-publication-2026-10-24
-state: ready
+state: complete
 edition_date: '2026-10-24'
 article_id: art_51c071c2515ec8fe
 article_slug: kapitsa-local-inference-operations
+completed_at: '2026-10-24T23:54:36.124675Z'
+content_commit: 68a264b95bf2b808a1242702a8af0dfaf279d671
+deployment_run_url: https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40144486458
+public_verified_at: '2026-10-24T23:53:59.942989Z'
+word_count: 915
 ---
 
 # October 24 Full-Publication Test
 
-One new 915-word analysis and one new original hero are complete and locally validated. Automatic publication is authorized by the bounded request. Deployment and public verification remain pending at this checkpoint.
+Published one new 915-word analysis and one new original hero. The exact content commit passed GitHub Pages build and deployment, and all public checks passed. The one-time request is complete and cannot authorize another article or illustration.
 
 The worktree started clean at `origin/main` 6733a3bd0b3cd4be9e727cca6e592b7892bcd97d in `/Users/tedtschopp/Developer/yesterdai-publication-20261024`. The main checkout was preserved. The request was pending and neither its article nor hero existed. No new edition was created.
 
@@ -52,7 +57,7 @@ All four required checks passed before the ready checkpoint:
 
 Additional inspection confirmed the new homepage and edition article links, archive edition link, RSS and JSON entries, canonical URL, and publication disclosures. Both prior October 24 articles and heroes are byte-identical to the base revision. The original retrospective flag, preparation timestamp, cutoff, window start, and prior source notes are preserved. The edition has an actual modification time and a dated addition note. All tracked changes are confined to allowed editorial paths.
 
-## Publication Checkpoint
+## Publication and Public Verification
 
 Intended article: https://yesterdai.tedt.org/articles/kapitsa-local-inference-operations/
 
@@ -60,7 +65,11 @@ Edition: https://yesterdai.tedt.org/editions/2026-10-24/
 
 Hero: https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp
 
-Next action at this ready checkpoint: commit complete editorial files and run `scripts/publish.py ship`, then verify the exact GitHub Pages deployment and public pages, feeds, and hero bytes. The request can authorize no second article or illustration.
+The ready checkpoint was committed as `68a264b95bf2b808a1242702a8af0dfaf279d671` and published through `scripts/publish.py ship`, which repeated the four checks and safely reconciled with origin/main without a force-push. GitHub Actions [Build and publish run 40144486458](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40144486458) completed successfully at 2026-10-24T23:53:07Z for that exact commit; both build and deploy jobs succeeded. No deployment retry was needed.
+
+Public verification completed at 2026-10-24T23:53:59.942989Z. Ten requested URLs returned HTTP 200. The new article’s live prose matches the local built article, with its canonical URL, source links, byline, AI disclosures, generated-image dimensions, and publication metadata intact. Homepage and edition link directly to it. The archive displays the updated three-analysis edition and navigates through that edition to the article, following the existing archive design. RSS, JSON Feed, and sitemap contain the article. The new and both preserved heroes match the repository assets byte for byte. The article remains 915 words and all cited source timestamps precede the historical cutoff. Results and exact public URLs are saved in `docs/runs/2026-10-24-full-publication-verification.json`.
+
+Request marked complete at 2026-10-24T23:54:36.124675Z. This final audit and completed request are shipped as a separate editorial commit through the same guarded workflow; its exact workflow outcome is checked before the Scheduled result and automation memory are finalized. No additional content is authorized by this test.
 
 ## Material Omissions
 
