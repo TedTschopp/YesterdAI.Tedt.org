@@ -2,6 +2,8 @@
 
 The publication is **Yesterday in AI**. The outlined **YesterdAI** logo is the mark, with accessible name “Yesterday in AI.” It is an endorsed publication of Ted Tschopp’s Public Workbench, not the AI skills catalog at AI.Tedt.org.
 
+Article prose follows the `ted-writing-style` skill and [the project voice policy](ted-writing-style.md). Use the technology/strategy mode for enterprise AI reporting, with concrete openings, visible reasoning, useful comparisons, conversational clarity, and practical human consequences. Preserve factual attribution and the publication byline; do not invent Ted's personal testimony. The design rules below govern presentation and hero artwork.
+
 ## Interface
 
 The checked-in `assets/css/tokens.css` and `assets/css/brand.css` originate in Ted’s `design-yesterday-in-ai` skill, aligned with preview.tedt.org on October 23, 2026. Use those role tokens rather than inventing new colors or fonts.

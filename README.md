@@ -16,6 +16,8 @@ The feeds at https://rss.tedt.org/ai_rss_feed.json and https://rss.tedt.org/feed
 
 The seven launch editions are explicitly retrospective. Their reporting windows and historical feed commits are separate from their actual preparation and article publication dates.
 
+New articles use Ted's `ted-writing-style` skill in technology/strategy mode, with the portable [article voice policy](docs/ted-writing-style.md). The publication byline and AI-assistance disclosure remain in place.
+
 ## Content interface
 
 - `_articles/<stable-slug>.md`: article front matter and Markdown analysis; public URL `/articles/<stable-slug>/`.
