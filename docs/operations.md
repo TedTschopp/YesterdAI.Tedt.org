@@ -26,3 +26,9 @@ To roll back a bad publication, revert its source commit in GitHub, run checks, 
 ## Hosting
 
 Canonical URL: https://yesterdai.tedt.org. GitHub Pages uses an Actions build. The Cloudflare CNAME is DNS-only and points to tedtschopp.github.io. GitHub supplies the origin certificate and enforces HTTPS once provisioning completes. The legacy tedt.org newsletter redirects only after the new publication is verified.
+
+The daily standalone schedule is `publish-yesterday-in-ai`, configured at 5 a.m. in the computer’s America/Los_Angeles local timezone. The floating local-time schedule follows its daylight-saving transition; the edition validator independently enforces the Pacific cutoff. Keep the computer’s timezone Pacific. The first unattended run follows launch; the isolated-worktree publisher was exercised separately during launch.
+
+The Cloudflare record ID is `0ab2e56ab41753a5a29baef7cab18417`. The dedicated redirect lives in zone ruleset `2087d71c5be749d097a13a869aef0485`, rule `19bdf4fb4323434f9620a613c08f5107`, reference `yesterdai_legacy_newsletter`. It matches only the three `/Daily-Report/AI` variants on tedt.org and www.tedt.org, returns 301, and preserves query strings. Do not remove other zone rules during rollback.
+
+TedT.org migration PR [#244](https://github.com/TedTschopp/tedt.org/pull/244) removes the source and compiled legacy newsletter workflows and adds a source-level fallback. The pre-migration source revision is `506148a84f60dc7e8d38008bed5bb998f65432e0`; migration commit is `041f823e783c19deb74034e22d2511bcf995d73d`. Restore those specific files from Git history if rollback becomes necessary, rather than resetting the whole repository.
