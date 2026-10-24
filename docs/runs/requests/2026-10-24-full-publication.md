@@ -1,6 +1,6 @@
 ---
 test_id: ted-voice-full-publication-2026-10-24
-state: pending
+state: ready
 authorized_by: Ted Tschopp
 authorized_at: '2026-10-24T23:39:30Z'
 edition_date: '2026-10-24'
@@ -14,6 +14,13 @@ source_verification: publisher_api
 source_commit: 5c489cc69b397d2088aa165f9017129b4a724b7a
 source_commit_at: '2026-10-23T22:35:46Z'
 historical_feed_snapshot: 923ac0dcbfb49c724e6e7a304bd5cf1f5d920ee3
+ready_at: '2026-10-24T23:52:21.036327Z'
+article_checkpoint: _articles/kapitsa-local-inference-operations.md
+hero_checkpoint: assets/images/kapitsa-local-inference-operations.webp
+hero_sha256: 45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3
+word_count: 915
+validation: '24 unit tests; 7 editions / 23 articles; strict Jekyll; 36 rendered pages: passed'
+run_record: docs/runs/2026-10-24-full-publication.md
 ---
 
 # One-time full publication test authorized by Ted

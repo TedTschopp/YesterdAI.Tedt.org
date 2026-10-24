@@ -1,0 +1,84 @@
+{
+  "test_id": "ted-voice-full-publication-2026-10-24",
+  "verified_at": "2026-10-24T23:50:17Z",
+  "edition_date": "2026-10-24",
+  "cutoff": "2026-10-24T12:00:00Z",
+  "window_start": "2026-10-23T00:00:00Z",
+  "release": {
+    "api_url": "https://api.github.com/repos/nace-ai/kapitsa/releases/tags/v0.2.15",
+    "id": 422379728,
+    "published_at": "2026-10-23T22:59:15Z",
+    "updated_at": "2026-10-23T23:01:34Z",
+    "tag": "v0.2.15",
+    "tag_object": "2cbe658e52c9d910e81725d92427a3437719b107",
+    "commit": "5c489cc69b397d2088aa165f9017129b4a724b7a",
+    "commit_at": "2026-10-23T22:35:46Z"
+  },
+  "source_blobs": [
+    {
+      "path": "README.md",
+      "sha": "9349457484738ee6c7be532c2f83a9a10dd11c7a"
+    },
+    {
+      "path": "docs/usage.md",
+      "sha": "fb666feca278b395aeabe5040c6bd72f289ecaa2"
+    },
+    {
+      "path": "docs/kflash.md",
+      "sha": "9f0f4f9608ee36b4daff60d26433742a4fd4dbff"
+    },
+    {
+      "path": "docs/benchmarks.md",
+      "sha": "1ef38b7322db346ce3243a68ec12d97c1ff42daf"
+    }
+  ],
+  "historical_feed": {
+    "repository": "TedTschopp/rss.tedt.org",
+    "commit": "923ac0dcbfb49c724e6e7a304bd5cf1f5d920ee3",
+    "path": "feeds/top.json",
+    "blob": "aec345f495d0d9d0486bb21190656e34d3acf1ee",
+    "title": "TedTschopp News Graph - Top Stories",
+    "item": {
+      "id": "sty_ff49f6dec1d5eca2",
+      "url": "https://github.com/nace-ai/kapitsa",
+      "title": "Kapitsa launches as an Apple Silicon inference engine running Qwen, Flint, and other models locally with faster decoding and prompt reading on M1 to M5 Macs [ * ] [ ◼ ]",
+      "content_text": "Kapitsa is an inference engine designed for Apple Silicon Macs that runs models like Qwen, Nemotron, and Recursive's Flint locally, targeting coding agents and serving OpenAI and Anthropic APIs. It supports Macs with M1 or newer chips running macOS 14 Sonoma or later and offers command-line tools for model management and benchmarking. The engine achieves faster decoding speeds than competitors such as llama.cpp and Recursive's own engine across various Mac models, with features like tree speculative decoding, SSD prefix caching, and prompt prefill optimizations. Kapitsa also enables multi-request throughput improvements and supports running models across multiple Macs on a network to handle larger models. These performance enhancements position Kapitsa as a leading local inference solution on Apple Silicon, providing developers with efficient AI model execution and integration capabilities directly on their Macs without relying solely on cloud services.",
+      "date_published": "2026-10-24T07:00:38Z"
+    }
+  },
+  "current_feed_refresh": {
+    "checked_at": "2026-10-24T23:47:37.006099Z",
+    "curated": 235,
+    "top": 76,
+    "wire": 76
+  },
+  "deduplication": {
+    "available_editions": [
+      "2026-10-18",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24"
+    ],
+    "articles_checked": 22,
+    "full_coverage_matches": 0
+  },
+  "excluded_sources": [
+    "v0.2.16: after edition cutoff",
+    "v0.2.17: after edition cutoff",
+    "Current main-branch documentation: outside immutable retrospective source boundary"
+  ],
+  "independent_execution": "Kapitsa was not installed or executed; no independent benchmarks performed.",
+  "hero": {
+    "generation_tool": "image_gen",
+    "generated_at": "2026-10-24T23:48:32.368740Z",
+    "path": "/assets/images/kapitsa-local-inference-operations.webp",
+    "width": 1734,
+    "height": 907,
+    "sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+    "source_png_sha256": "553f6288565ddbc1acaf6c2a61080f87a2ff5d65af4a0e2a84bf4e3299e0e267",
+    "bytes": 16164
+  }
+}
