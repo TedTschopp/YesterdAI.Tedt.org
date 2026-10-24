@@ -1,7 +1,7 @@
 {% assign edition = include.edition %}
 {% assign ordered = site.articles | sort: 'rank' %}
 {% assign lead = nil %}
-{% for article in ordered %}{% if edition.article_ids contains article.article_id %}{% assign lead = article %}{% break %}{% endif %}{% endfor %}
+{% for section in site.sections %}{% for article in ordered %}{% if edition.article_ids contains article.article_id and article.section == section.name %}{% assign lead = article %}{% break %}{% endif %}{% endfor %}{% if lead %}{% break %}{% endif %}{% endfor %}
 <div class="yia-container edition-shell">
   <header class="edition-masthead">
     <div class="edition-kicker"><p class="eyebrow">A daily field guide to enterprise AI</p><a class="meta" href="/feed.xml">Read via RSS ↗</a></div>
@@ -13,21 +13,12 @@
   <div class="edition-layout">
     <div class="edition-main">
       <section class="tldr-panel" aria-labelledby="tldr-heading"><div class="section-header"><span class="number">01</span><h2 id="tldr-heading" class="eyebrow">TL;DR</h2><span class="meta">The short version</span></div><ol>{% for point in edition.tldr %}<li>{{ point | escape }}</li>{% endfor %}</ol></section>
-      {% if lead %}<article class="lead-story">
-        <a class="hero-link" href="{{ lead.url }}" tabindex="-1" aria-hidden="true"><img class="hero-image" src="{{ lead.hero.path }}" alt="" width="{{ lead.hero.width }}" height="{{ lead.hero.height }}" fetchpriority="high"></a>
-        <div class="story-meta"><span class="tag tag-{{ lead.section | slugify }}">{{ lead.section }}</span><span class="meta">{{ lead.reading_minutes }} min read</span></div>
-        <h2 class="lead-title"><a href="{{ lead.url }}">{{ lead.title | escape }}</a></h2>
-        <p class="lead-summary">{{ lead.summary | escape }}</p>
-        <p class="body-sm"><strong>As a leader:</strong> {{ lead.leader_action | escape }}</p>
-        <p class="body-sm"><strong>As an individual:</strong> {{ lead.individual_action | escape }}</p>
-        <a class="text-link" href="{{ lead.url }}">Read the analysis →</a>
-      </article>{% endif %}
       {% assign section_count = 1 %}
       {% for section in site.sections %}
-        {% assign count = 0 %}{% for article in ordered %}{% if edition.article_ids contains article.article_id and article.section == section.name and article.article_id != lead.article_id %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
+        {% assign count = 0 %}{% for article in ordered %}{% if edition.article_ids contains article.article_id and article.section == section.name %}{% assign count = count | plus: 1 %}{% endif %}{% endfor %}
         {% if count > 0 %}{% assign section_count = section_count | plus: 1 %}
         <section class="edition-section"><div class="section-header"><span class="number">0{{ section_count }}</span><h2>{{ section.name }}</h2><span class="meta">{{ count }} {% if count == 1 %}story{% else %}stories{% endif %}</span></div><p class="section-deck body-sm">{{ section.description }}</p>
-        {% for article in ordered %}{% if edition.article_ids contains article.article_id and article.section == section.name and article.article_id != lead.article_id %}{% include story-row.html article=article %}{% endif %}{% endfor %}</section>
+        {% for article in ordered %}{% if edition.article_ids contains article.article_id and article.section == section.name %}{% if article.article_id == lead.article_id %}{% include lead-story.html article=article %}{% else %}{% include story-row.html article=article %}{% endif %}{% endif %}{% endfor %}</section>
         {% endif %}
       {% endfor %}
       {% if edition.quick_hits.size > 0 %}<section class="edition-section"><div class="section-header"><h2>Quick Hits</h2><span class="meta">Worth a look</span></div><ul class="quick-hits">{% for item in edition.quick_hits %}<li><a href="{{ item.url }}">{{ item.title | escape }} ↗</a><p class="body-sm">{{ item.summary | escape }}</p></li>{% endfor %}</ul></section>{% endif %}
@@ -36,7 +27,7 @@
       <div class="edition-pagination"><a class="text-link" href="/archive/">Browse every edition →</a><a class="text-link" href="/live/">What is moving now ↗</a></div>
     </div>
     <aside class="edition-rail" aria-label="More from Yesterday in AI">
-      <section class="rail-card"><span class="live-label"><span class="live-dot" aria-hidden="true"></span> From the feeds</span><h2 class="rail-title">The news keeps moving.</h2><p class="body-sm">Ranked stories from across the AI landscape, refreshed hourly as source feeds change.</p>{% for item in site.data.wire.items limit: 5 %}<article class="rail-story"><span class="meta">{{ forloop.index | prepend: '0' }} / {{ item.publisher | escape }}</span><h3><a href="{{ item.url }}">{{ item.title | escape }} ↗</a></h3></article>{% endfor %}<a class="text-link" href="/live/">Open the live wire →</a>{% if site.data.wire.last_success_at %}<p class="meta">Checked {{ site.data.wire.last_success_at | date: '%b %-d, %H:%M %z' }}</p>{% endif %}</section>
+      <section class="rail-card"><span class="live-label"><span class="live-dot" aria-hidden="true"></span> From the feeds</span><h2 class="rail-title">The news keeps moving.</h2><p class="body-sm">Ranked stories from across the AI landscape, refreshed hourly as source feeds change.</p>{% for item in site.data.wire.items limit: 5 %}<article class="rail-story"><span class="meta">{{ forloop.index | prepend: '0' }} / {{ item.publisher | escape }}</span><h3><a href="{{ item.url }}">{{ item.title | escape }} ↗</a></h3></article>{% endfor %}<a class="text-link" href="/live/">Open the live wire →</a>{% if site.data.wire.last_success_at %}<p class="meta">Snapshot updated {{ site.data.wire.last_success_at | date: '%b %-d, %H:%M %z' }}</p>{% endif %}</section>
       <section class="rail-note"><p class="eyebrow">A little less noise.</p><h2>Read the source.<br>Keep your judgment.</h2><p class="body-sm">News and analysis for the people who have to make AI work. Every claim has a trail back to the reporting.</p><a class="text-link" href="/about/">About this publication →</a></section>
       <section class="rail-note"><p class="eyebrow">The workbench</p><p class="body-sm">Ideas, experiments, and the work behind the work.</p><a class="text-link" href="https://tedt.org/">Visit TedT.org ↗</a></section>
     </aside>

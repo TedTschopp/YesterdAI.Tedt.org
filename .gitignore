@@ -10,6 +10,7 @@ __pycache__/
 *.pyc
 .DS_Store
 test-results/
+.playwright-mcp/
 .env
 .env.*
 !.env.example

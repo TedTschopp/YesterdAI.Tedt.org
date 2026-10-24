@@ -37,7 +37,7 @@ Inspect the generated output. Copy the selected image into the project and optim
 
 ## Assemble and publish atomically
 
-Write `_editions/YYYY-MM-DD.md` with the exact cutoff and window start, actual preparation timestamp, article IDs in reading order, 3–5 TL;DR points, eligible Quick Hits, Looking Ahead grounded in the included news, and truthful source notes. Hide empty topical sections. `retrospective` is false for normal daily production. A valid genuinely quiet day may use `quiet_day: true`, with clear notes about successfully checked feeds and exclusions; source or tool failures do not qualify.
+Write `_editions/YYYY-MM-DD.md` with the exact cutoff and window start, actual preparation timestamp, article IDs in reading order, 3–5 TL;DR points, eligible Quick Hits, Looking Ahead grounded in the included news, and truthful source notes. Each Quick Hit records its original `source_published_at`, `verification`, and any date-only precision. Hide empty topical sections. `retrospective` is false for normal daily production. A valid genuinely quiet day may use `quiet_day: true`, `discovery_status: ok`, and a concrete `quiet_day_reason`, with clear notes about successfully checked feeds and exclusions; source or tool failures do not qualify.
 
 Write a short durable production record under `docs/runs/`, including discovered, excluded, deduplicated, and published counts; skipped-source reasons; image outcomes; and deployment outcome. Do not commit full scraped source pages or credentials. Routine writes are confined to `_articles/`, `_editions/`, `_data/`, `assets/images/`, and `docs/runs/`.
 

@@ -164,13 +164,13 @@ def refresh(root=ROOT):
 
 def read_document(path):
     raw = Path(path).read_text(encoding='utf-8')
-    parts = raw.split('---', 2)
-    if len(parts) != 3 or parts[0].strip():
+    front = re.match(r'\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|\Z)', raw, re.S)
+    if not front:
         raise ValueError(f'{path}: missing front matter')
-    metadata = yaml.safe_load(parts[1])
+    metadata = yaml.safe_load(front.group(1))
     if not isinstance(metadata, dict):
         raise ValueError(f'{path}: front matter must be a mapping')
-    return metadata, parts[2].strip()
+    return metadata, raw[front.end():].strip()
 
 
 def word_count(body):
@@ -217,14 +217,21 @@ def validate(root=ROOT, allow_empty=False):
         require(len(ed['article_ids']) == len(set(ed['article_ids'])), f'{label}: repeated article ID')
         require(isinstance(ed.get('tldr'), list) and len(ed['tldr']) > 0, f'{label}: TL;DR required')
         require(ed['article_ids'] or ed.get('quiet_day') is True, f'{label}: empty edition needs verified quiet_day flag')
+        if not ed['article_ids']:
+            require(ed.get('discovery_status') == 'ok' and ed.get('quiet_day_reason'), f'{label}: quiet day requires successful discovery and an editorial reason')
         require(ed.get('source_snapshot') or not ed.get('retrospective'), f'{label}: retrospective snapshot required')
         require(parse_time(ed['prepared_at']) >= expected, f'{label}: cannot claim preparation before cutoff')
+        for item in ed.get('quick_hits', []):
+            canonical_url(item['url'])
+            require(item.get('title') and item.get('summary'), f'{label}: Quick Hit title and summary required')
+            require(item.get('verification') in {'jsonld', 'meta', 'visible', 'publisher_api'}, f'{label}: Quick Hit original date verification required')
+            require(in_window(item['source_published_at'], ed['cutoff'], item.get('date_precision', 'second')), f'{label}: Quick Hit outside coverage window')
         editions[file.stem] = ed
     require(allow_empty or editions, 'No editions available for publication')
     for file in sorted((root / '_articles').glob('*.md')):
         a, body = read_document(file)
         label = f'Article {file.stem}'
-        for key in ('article_id', 'title', 'summary', 'section', 'edition_date', 'published_at', 'eligibility', 'sources', 'hero', 'leader_action', 'individual_action', 'feed_summary', 'feed_name'):
+        for key in ('article_id', 'story_key', 'title', 'summary', 'section', 'edition_date', 'published_at', 'eligibility', 'sources', 'hero', 'leader_action', 'individual_action', 'feed_summary', 'feed_name'):
             require(a.get(key), f'{label}: {key} required')
         require(a['article_id'] not in articles, f'{label}: duplicate ID')
         require(a['section'] in SECTIONS, f'{label}: invalid section')
@@ -269,6 +276,7 @@ def validate(root=ROOT, allow_empty=False):
             repeated = a['_canonical'] == prior['_canonical'] or (a.get('story_key') and a.get('story_key') == prior.get('story_key'))
             if gap <= 7 and repeated:
                 require(a.get('update_of') == prior['article_id'] and a.get('substantive_update'), f'{a["_file"]}: duplicate coverage needs a documented substantive update')
+                require(parse_time(a['eligibility']['published_at']) > parse_time(editions[str(prior['edition_date'])]['cutoff']), f'{a["_file"]}: substantive development must follow the previous edition cutoff')
     print(f'Validated {len(editions)} editions, {len(articles)} complete researched articles and heroes.')
     return len(editions), len(articles)
 
@@ -318,6 +326,6 @@ def main():
 if __name__ == '__main__':
     try:
         main()
-    except (ValueError, KeyError, OSError, subprocess.CalledProcessError) as error:
+    except (ValueError, KeyError, OSError, yaml.YAMLError, subprocess.CalledProcessError) as error:
         print(f'Publication stopped: {error}', file=sys.stderr)
         sys.exit(1)

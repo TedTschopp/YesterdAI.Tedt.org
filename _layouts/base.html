@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% assign meta_title = page.title | default: site.title %}
   {% assign meta_description = page.description | default: page.summary | default: site.description %}
+  {% assign newest_article = site.articles | sort: 'published_at' | last %}
+  {% assign share_image = page.hero | default: newest_article.hero %}
   <title>{% if meta_title != site.title %}{{ meta_title | escape }} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ meta_description | escape }}">
   <meta name="theme-color" content="#101820">
@@ -17,9 +19,13 @@
   <meta property="og:description" content="{{ meta_description | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="{% if page.collection == 'articles' %}article{% else %}website{% endif %}">
-  <meta name="twitter:card" content="{% if page.hero %}summary_large_image{% else %}summary{% endif %}">
-  {% if page.hero %}<meta property="og:image" content="{{ page.hero.path | absolute_url }}">
-  <meta property="og:image:alt" content="{{ page.hero.alt | escape }}">{% endif %}
+  <meta name="twitter:card" content="{% if share_image %}summary_large_image{% else %}summary{% endif %}">
+  {% if share_image %}<meta property="og:image" content="{{ share_image.path | absolute_url }}">
+  <meta property="og:image:alt" content="{{ share_image.alt | escape }}">
+  <meta property="og:image:width" content="{{ share_image.width }}">
+  <meta property="og:image:height" content="{{ share_image.height }}">
+  <meta name="twitter:image" content="{{ share_image.path | absolute_url }}">
+  <meta name="twitter:image:alt" content="{{ share_image.alt | escape }}">{% endif %}
   <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
   <link rel="stylesheet" href="{{ '/assets/css/tokens.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/brand.css' | relative_url }}">
