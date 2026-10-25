@@ -1,6 +1,6 @@
 # Reader and publishing contract
 
-Version 2.0.1. Approved October 24, 2026; headline, metadata, and caption preferences refined by Ted the same day.
+Version 2.0.2. The reader contract was approved October 24, 2026; Ted changed the daily article target to 3–5 on October 25. Headline, metadata, and caption preferences remain as approved October 24.
 
 This document and the checked-in brand/voice policy define the publication. Daily producers fill the content contracts; they do not redesign templates, change typography, or update visual baselines.
 
@@ -58,7 +58,9 @@ Keep inline attributed source passages in the preserved launch archive. Its orig
 
 ## Edition contracts
 
-Up to eight researched stories, from the same two discovery feeds, with verified original publication or substantive-update times in the preceding 36 elapsed hours at 5 a.m. America/Los_Angeles. Preserve seven-day deduplication and historical cutoffs.
+Target 3–5 complete researched articles per new daily edition, from the same two discovery feeds, with verified original publication or substantive-update times in the preceding 36 elapsed hours at 5 a.m. America/Los_Angeles. Briefs and analyses each count as an article; Quick Hits do not. Preserve seven-day deduplication and historical cutoffs.
+
+Research additional viable candidates before accepting fewer than three articles. When the evidence supports fewer, publish only verified material and record the shortfall and exclusions in docs/runs and Scheduled. Never pad articles, split one development, or weaken eligibility to meet the target. Completed published editions keep their original membership and counts.
 
 lead_article_id identifies editorial importance independently of section order. tldr entries use {article_id, text}. Legacy text-only entries still render with article links. A verified quiet day can use text explaining successful discovery without inventing a story.
 

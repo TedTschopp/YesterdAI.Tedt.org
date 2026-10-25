@@ -3,6 +3,7 @@
 ## Two independent producers
 
 - The standalone Codex task begins editorial production at 5 a.m. America/Los_Angeles daily, using the configured gpt-6.1-sol model and max reasoning. Its durable instructions are `prompts/daily-edition.md`.
+- New daily editions target 3–5 complete articles. Briefs and analyses count; Quick Hits do not. The producer researches further before accepting fewer than three, preserves evidence and eligibility requirements, and reports any shortfall in the run record and Scheduled.
 - `Refresh live news` runs at minute 27 of each hour in GitHub Actions. It records every successful check separately from content-change time, fetches both feeds, preserves upstream ranking and ratings, excludes malformed individual links with an exclusion record, and replaces last-known-good data only after both feeds validate. No model API is used.
 
 `Build and publish` validates editorial content, runs Python/JavaScript tests, builds Jekyll and Pagefind, checks rendered links/feeds, then runs browser/accessibility and fixed-content visual checks before deployment to GitHub Pages. Pull requests validate without deployment. Bot refreshes explicitly dispatch deployment; they do not depend on a bot commit starting another workflow.
@@ -35,7 +36,7 @@ TedT.org migration PR [#244](https://github.com/TedTschopp/tedt.org/pull/244) re
 
 ## Reader-contract rollout and regression checks
 
-Version 2.0.0 is defined in docs/reader-contract.md. New formats are backward compatible; original publication dates, identities, source records, heading anchors, and article hero bytes are protected. Revisions use modified_at. Existing source passages remain verbatim; do not import later developments into historical coverage.
+Version 2.0.2 is defined in docs/reader-contract.md. The 3–5-article target applies to new unpublished editions; historical editions and the eight-story regression fixtures remain supported. Formats are backward compatible; original publication dates, identities, source records, heading anchors, and article hero bytes are protected. Revisions use modified_at. Existing source passages remain verbatim; do not import later developments into historical coverage.
 
 Local publication checks are make check: Python tests, editorial validation, Jekyll, Pagefind, rendered-contract checks, JavaScript state tests, and static publication smoke. Local interactive review uses CUA. GitHub is the interactive deployment gate, with Chromium and WebKit checks and fixed-content visual baselines. The editor does not need to install or control a local browser through a shell script.
 
