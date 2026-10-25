@@ -1,0 +1,110 @@
+{
+  "verified_at": "2026-10-25T12:14:33.498492Z",
+  "content_commit": "3493a826eef7500d03f4ca890f549114d512ca2e",
+  "urls": [
+    {
+      "url": "https://yesterdai.tedt.org/",
+      "final_url": "https://yesterdai.tedt.org/",
+      "status": 200,
+      "bytes": 10845,
+      "sha256": "6fe8d836d1c822f869b2ad3d5423eea4ff968f6bfe703585b6b26b530c775915"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-25/",
+      "final_url": "https://yesterdai.tedt.org/editions/2026-10-25/",
+      "status": 200,
+      "bytes": 12435,
+      "sha256": "8a09b40c8139b8ae2262675648c8a11adecfef37ff9597ed918117846609121d"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/google-agent-guidance-enforcement/",
+      "final_url": "https://yesterdai.tedt.org/articles/google-agent-guidance-enforcement/",
+      "status": 200,
+      "bytes": 18139,
+      "sha256": "e588e904ec127c7db5b594f1b42f848c9fefce1c8fd16d8351cfe3b7597e5c8e"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/php-old-flaws-operating-pressure/",
+      "final_url": "https://yesterdai.tedt.org/articles/php-old-flaws-operating-pressure/",
+      "status": 200,
+      "bytes": 13252,
+      "sha256": "468801ef6f1a20f1b171871cf53ed735af937b5a0e57b25b3c9bc62de5f1eb58"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp",
+      "final_url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp",
+      "status": 200,
+      "bytes": 20022,
+      "sha256": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/archive/",
+      "final_url": "https://yesterdai.tedt.org/archive/",
+      "status": 200,
+      "bytes": 11246,
+      "sha256": "1a29f2438726331341c0f9f622af27e3d560d1c42de93e12801036399e17ca54"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/search/",
+      "final_url": "https://yesterdai.tedt.org/search/",
+      "status": 200,
+      "bytes": 21649,
+      "sha256": "00def8edd848c63e53466d7458d90217d2c2bd6ae467c720517a2b412ac2c413"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.xml",
+      "final_url": "https://yesterdai.tedt.org/feed.xml",
+      "status": 200,
+      "bytes": 102792,
+      "sha256": "2cb8ee71db047d83fe90ea02127d056e80fd690bb6104b3d5ff052d704dcfd15"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.json",
+      "final_url": "https://yesterdai.tedt.org/feed.json",
+      "status": 200,
+      "bytes": 98435,
+      "sha256": "99b981b5d86ead8fea5f1e7c8a2106af9bd40f167c511481b05eaa0b697251d4"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/sitemap.xml",
+      "final_url": "https://yesterdai.tedt.org/sitemap.xml",
+      "status": 200,
+      "bytes": 5114,
+      "sha256": "c45600a99198cca1c44d0911670cc713494733f4c1fc349df1d15b0645ee8b6b"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/about/",
+      "final_url": "https://yesterdai.tedt.org/about/",
+      "status": 200,
+      "bytes": 8361,
+      "sha256": "c56486b181149b430fcbefb263f15aa1ae302b17991615b77e6c907fa08ee63a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/pagefind/pagefind.js",
+      "final_url": "https://yesterdai.tedt.org/pagefind/pagefind.js",
+      "status": 200,
+      "bytes": 45555,
+      "sha256": "252d272bd34d483d19a752060f6a065114d15ab12c42d8f905ca565e2768a009"
+    }
+  ],
+  "page_checks": [
+    {
+      "path": "/editions/2026-10-25/",
+      "title_metadata_canonical_and_body_match": true
+    },
+    {
+      "path": "/articles/google-agent-guidance-enforcement/",
+      "title_metadata_canonical_and_body_match": true
+    },
+    {
+      "path": "/articles/php-old-flaws-operating-pressure/",
+      "title_metadata_canonical_and_body_match": true
+    }
+  ],
+  "hero_bytes_match": true,
+  "homepage_and_edition_links": true,
+  "publication_homepage_metadata": true,
+  "selected_json_feed_items_equal_built_items": true,
+  "rss_and_sitemap_membership": true,
+  "footer_and_about_disclosures_present": true
+}

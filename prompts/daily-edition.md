@@ -20,7 +20,9 @@ Verify original publication or a substantive update using publisher JSON-LD, met
 
 Deduplicate URLs and developments across seven days, including different coverage of the same event. A follow-up requires a later substantive development, update_of, and an explanation. Preserve summaries and ratings as attributed inputs.
 
-Select up to eight researched stories. Choose a 200–400-word brief for a focused finding, or a 600–1,200-word analysis when evidence merits mechanisms, implications, and practitioner detail. No analysis quota. Publish fewer when warranted; never stretch weak evidence to fill space.
+Produce 3–5 complete researched articles per new daily edition. Quick Hits are supplementary links and do not count toward the article target. Choose a 200–400-word brief for a focused finding, or a 600–1,200-word analysis when evidence merits mechanisms, implications, and practitioner detail. No analysis quota.
+
+Continue researching eligible candidates from both discovery feeds until at least three distinct articles are supported or the viable candidates are exhausted. Choose up to five by evidence and reader need. If fewer than three can be verified, publish only the supported articles and report the shortfall and exclusions in docs/runs and Scheduled. Never pad a story, split one development into multiple articles, recycle seven-day coverage, or relax the 36-hour window to reach the target. Apply this target to future unpublished editions; preserve the membership and counts of completed published editions.
 
 Read the source and preserve meaningful limits. Classify it as preprint, vendor, reporting, research, or practitioner. Distinguish announced claims from independent validation, and interpretation from reported fact. Corroborate where needed rather than enforcing an arbitrary source count.
 

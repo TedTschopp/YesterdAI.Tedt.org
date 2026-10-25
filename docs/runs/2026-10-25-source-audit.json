@@ -1,0 +1,750 @@
+{
+  "run_at": "2026-10-25T12:09:03.234548Z",
+  "reader_contract": "2.0.1",
+  "cutoff": "2026-10-25T05:00:00-07:00",
+  "window_start": "2026-10-24T00:00:00Z",
+  "workflow_base": "e96468f",
+  "feeds": {
+    "curated": {
+      "url": "https://rss.tedt.org/ai_rss_feed.json",
+      "normalized_items": 229,
+      "malformed_excluded": [
+        {
+          "id": "2e6b008d7907924a9c4c56743403e3af",
+          "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+        }
+      ],
+      "feed_dated_window_candidates": 0
+    },
+    "top": {
+      "url": "https://rss.tedt.org/feeds/top.json",
+      "normalized_items": 78,
+      "malformed_excluded": [
+        {
+          "id": "sty_3454341b80e65083",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_ff35959bd5a23fb8",
+          "reason": "malformed item fields"
+        }
+      ],
+      "feed_dated_window_candidates": 45
+    }
+  },
+  "post_cutoff_refresh_at": "2026-10-25T12:03:45.964339Z",
+  "previous_editions": 7,
+  "previous_articles": 24,
+  "selected_articles": 2,
+  "selected_quick_hits": 1,
+  "review_counts": {
+    "original_outside_window": 6,
+    "not_selected_after_editorial_triage": 25,
+    "original_source_inaccessible": 2,
+    "repackaged_older_development": 7,
+    "uncertain_substantive_update_date": 1,
+    "selected": 3,
+    "retrospective_without_new_development": 1
+  },
+  "candidate_review": [
+    {
+      "feed": "top",
+      "feed_id": "sty_218a5f87fc40a166",
+      "feed_published_at": "2026-10-24T23:11:54Z",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "title": "Report: America lost over 200,000 media, film, and arts jobs in four years amid AI rise, with movie and sound recording sectors hardest hit [ * ] [ ◻ ]",
+      "disposition": "original_outside_window",
+      "reason": "Publisher JSON-LD datePublished and dateModified: 2026-09-27T14:01:59+00:00; no substantive October 24 update established."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_56717aca2d465ff6",
+      "feed_published_at": "2026-10-25T01:33:49Z",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "title": "Cerebras deploys multi-trillion parameter AI models using multiple WSE-3T wafers with 44 GB on-chip memory each [ * ] [ ◼ ]",
+      "disposition": "original_outside_window",
+      "reason": "Visible publication October 22, 2026; article:modified_time 2026-10-22T18:58:30Z."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_9580b7d48c930773",
+      "feed_published_at": "2026-10-25T03:56:01Z",
+      "url": "https://github.com/slee-persis/GVS5H",
+      "title": "GVS5H method enables five Qwen3.8-27B models to match Fable 5's coding performance on LiveCodeBench hard problems [ ~ ] [ ◼ ]",
+      "disposition": "original_outside_window",
+      "reason": "GitHub API: created_at 2026-08-26T20:56:52Z, pushed_at 2026-09-23T18:02:34Z, latest commit 707e21296bfa032250f10bdde4afaff7ec998f71 dated September 23; no release or substantive October 24 update."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_fc787e5888115826",
+      "feed_published_at": "2026-10-24T18:04:57Z",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "title": "Researchers find AI-generated text uses more complex linguistic features than human writing, potentially reducing readability due to optimization for information density over communication [ ~ ] [ ◻ ]",
+      "disposition": "original_outside_window",
+      "reason": "arXiv original submission October 21, 2026; no later substantive version shown."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_75a2d603a2891e43",
+      "feed_published_at": "2026-10-25T07:09:35Z",
+      "url": "https://medium.com/@ai_news/argus-might-be-one-of-the-most-impressive-open-source-cybersecurity-projects-released-this-year-118043bd0c8c",
+      "title": "Open-source platform Argus launches AI agents to automate cyber threat detection and response [ * ] [ ◼ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_8c197af5860c67b0",
+      "feed_published_at": "2026-10-24T15:57:17Z",
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+      "title": "EPFL develops LogSync neural chip to decode cross-regional brain interactions and identify cognitive and emotional states in real time for psychiatric therapy [ ~ ] [ ◼ ]",
+      "disposition": "original_outside_window",
+      "reason": "Publisher article:published_time 2026-10-23 and visible date October 23; entire possible source day precedes the window."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2a51b52ad38f7e16",
+      "feed_published_at": "2026-10-25T06:38:17Z",
+      "url": "https://www.youtube.com/watch?v=ZumXpZzDsgo",
+      "title": "Video explores concerns about AI's impact on cognitive abilities and brain function",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_0a334665a17b4eac",
+      "feed_published_at": "2026-10-25T06:44:53Z",
+      "url": "https://taskwire.si",
+      "title": "TaskWire launches MCP-based taskboard to manage AI agent workflows with exclusive task claims and status tracking [ ~ ] [ ◼ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_eff1976658edf239",
+      "feed_published_at": "2026-10-25T06:39:46Z",
+      "url": "https://seowins.net/",
+      "title": "SEO Wins launches free SEO audit and AI search tools with no sign-up required [ ~ ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_437a89731ad98ba1",
+      "feed_published_at": "2026-10-25T07:22:43Z",
+      "url": "https://melty.gg",
+      "title": "Melty launches platform to merge games with AI-driven mashups and mods, enabling one-click multiplayer and AI-assisted creation [ ~ ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_6a5b8ffcc7ebb1a2",
+      "feed_published_at": "2026-10-25T07:15:51Z",
+      "url": "https://www.red5.net/blog/ai-detection-is-set-to-transform-live-streaming/",
+      "title": "Red5 plans AI detection service with real-time frame extraction to enhance live streaming analytics and content moderation [ * ] [ ◼ ]",
+      "disposition": "original_outside_window",
+      "reason": "Publisher JSON-LD original 2025-09-12T12:14:05-05:00; modified 2026-09-10T06:32:13-05:00."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_517e13289e2c938f",
+      "feed_published_at": "2026-10-25T07:30:11Z",
+      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+      "title": "OpenAI offers up to 90% discounts to win major customers from Anthropic, slowing Anthropic's growth amid rising price competition [ * ] [ ◼ ]",
+      "disposition": "original_source_inaccessible",
+      "reason": "Followed to original The Information article anthropics-margin-is-openais-opportunity; HTTP 403 and web-tool access failure. Did not turn secondary reported discounts into established contract terms."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_73835b2c7197bf72",
+      "feed_published_at": "2026-10-25T06:55:22Z",
+      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+      "title": "Researchers release OpenMobile-2, an open-source AI smartphone agent trained on 110+ simulated apps, achieving top performance among open models on real Android devices [ ~ ] [ ◼ ]",
+      "disposition": "repackaged_older_development",
+      "reason": "Underlying arXiv paper 2610.14157 was submitted October 9, 2026; secondary explanation does not establish a new release or substantive source update."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_30224ce6f1f38414",
+      "feed_published_at": "2026-10-25T07:51:59Z",
+      "url": "https://www.youtube.com/watch?v=iIm3f1qTvp8",
+      "title": "Video examines accuracy and challenges of AI-generated historical content [ ~ ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_f9343ab673784bd3",
+      "feed_published_at": "2026-10-25T03:25:18Z",
+      "url": "https://www.reddit.com/r/opensource/s/Vmk5Fd1N8H",
+      "title": "Discussion on Reddit argues tokens lack value and questions the future of AI",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_d9d531acde8412af",
+      "feed_published_at": "2026-10-25T03:53:52Z",
+      "url": "https://kevinkelly.substack.com/p/most-improbable-agent-of-you",
+      "title": "Kevin Kelly argues society prefers a single dominant AI over multiple competing AIs",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_d43fc72be0c5d019",
+      "feed_published_at": "2026-10-25T03:25:36Z",
+      "url": "https://four-leaf.ai/jobs",
+      "title": "Four-Leaf launches job matching service with live openings scraped from company career pages and ghost-job checks",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_3702a9c04b9af690",
+      "feed_published_at": "2026-10-25T03:25:15Z",
+      "url": "https://ai.jagular.io",
+      "title": "AI Jagular launches AI Heat Map aggregating data from over 140 news feeds",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_3659e0ce761ad664",
+      "feed_published_at": "2026-10-25T03:34:51Z",
+      "url": "https://aiweekly.co/alerts/anthropic-open-sources-claude-code-sandbox-under-apache-20",
+      "title": "Anthropic open-sources Claude Code's sandbox-runtime as Apache-2.0 npm package with macOS, Linux, and Windows support [ ~ ] [ ◼ ]",
+      "disposition": "repackaged_older_development",
+      "reason": "AI Weekly story October 24 is a web-signal summary of the repository; latest publisher release v0.0.81 was October 20 at 01:01:41Z. No fresh release or original reporting established."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_c1eabb35fa10c269",
+      "feed_published_at": "2026-10-25T03:16:39Z",
+      "url": "https://github.com/zephium-browser/Zephium",
+      "title": "Zephium launches an open-source browser and integrated work environment with AI agent collaboration and native ad blocking on WebKit and WebView2 engines [ ~ ] [ ◼ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_81dc499654eeb536",
+      "feed_published_at": "2026-10-24T21:29:12Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_759328459430aa44",
+      "feed_published_at": "2026-10-24T18:32:21Z",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "title": "Pennsylvania will require labels on AI-generated ads [ * ] [ ◻ ]",
+      "disposition": "repackaged_older_development",
+      "reason": "General Assembly history confirms SB 806/Act 99 approved October 22. The October 24 report adds no verified new legislative event; final text also exempts text-only content, omitted from the broad feed description."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_062ecdf0c640629b",
+      "feed_published_at": "2026-10-24T19:00:00Z",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "title": "The AI graveyard: a running list of projects and startups that didn't make it [ ~ ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_4fd47377a9f1a37b",
+      "feed_published_at": "2026-10-24T14:00:00Z",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX0N0ZWVJZjFXUjdmLTdoRVdJbzkwVDBYaXM1eHN3aEdPbm4zTXNhdjJrbTdHdkQyQTJ5ZWRBMGdheFRKeUFjMFNGbWRZdHhnZWh2YXdDZDV2R2JTazNmaU5kTk9oVmQ2a0hnUzl3V2dtSWE0U2ZOZjB5TElicGVxOE1sSQ?oc=5",
+      "title": "Anthropic's Margin is OpenAI's Opportunity",
+      "disposition": "original_source_inaccessible",
+      "reason": "Same original The Information report as the discount item; source not accessible for verification."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_ae0f0780bc813232",
+      "feed_published_at": "2026-10-24T20:35:29Z",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nNVRycmlWXzJTdWtVSVZMbkN2SlVsVEhpUTktdFVuX1g0RmNGNjV4WUhaTjlCMTZmVEg1dWVlSkRWUjJuWGd4bXNvU2dqOXFScG9QMnNrUmJNMmZKNXJtMmp3?oc=5",
+      "title": "Who Is Dario Amodei? The Anthropic CEO Behind Claude - The Profile | Polina Pompliano [ ~ ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_d23369ed16418af4",
+      "feed_published_at": "2026-10-24T16:00:00Z",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "title": "Block's new voice model sounds eerily human [ ~ ] [ ◼ ]",
+      "disposition": "repackaged_older_development",
+      "reason": "The story embeds October 23 vendor announcements; no substantive October 24 model release or availability update established."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_9d9ae72fa6a32bf1",
+      "feed_published_at": "2026-10-24T15:19:33Z",
+      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+      "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked [ * ] [ ◼ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_8f266769a917f274",
+      "feed_published_at": "2026-10-24T14:34:05Z",
+      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
+      "title": "AI makes junior patent attorneys instantly better but may quietly stunt their professional growth [ * ] [ ◼ ]",
+      "disposition": "uncertain_substantive_update_date",
+      "reason": "NBER w35720 original metadata September 7, 2026; visible revision month October 2026 has no verified day/time or substantive change within the window. Do not date it from The Decoder summary."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_d573496a4d81102e",
+      "feed_published_at": "2026-10-24T15:00:00Z",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "title": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats. [ ~ ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2cf893e0bfd9e6b2",
+      "feed_published_at": "2026-10-24T18:57:00Z",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yVi1sdEgxYmx2THJJODdIVTVFLUVTbXN0ZGFKQzB5TW5BZHFRb29JTTJNZUtjR25Palc4Ymo3SnVSeWhvU0xHb0hyMllRNUQ0NFU0RlhfZ1BKODBvRXhWdzdZY3Q2UUU3bHFlQnRyamtnR19xR01mZTBR?oc=5",
+      "title": "Forget Anthropic: Biotech Is Quietly Dominating the IPO Sphere - Barron's",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_0ecc97a8403e0ead",
+      "feed_published_at": "2026-10-24T14:09:46Z",
+      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
+      "title": "Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss [ ~ ] [ ◻ ]",
+      "disposition": "repackaged_older_development",
+      "reason": "Same October 23 Block Dessa development as other coverage; no verified in-window primary change."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_e387797e5267d0ca",
+      "feed_published_at": "2026-10-24T14:00:00Z",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "Here are the top AI agents that can live in your text messages [ ~ ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_ecf0a3bf601085e4",
+      "feed_published_at": "2026-10-24T12:00:00Z",
+      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable [ * ] [ ◼ ]",
+      "disposition": "selected",
+      "reason": "Original publisher timestamp verified; original reporting or practitioner publication, with older context dated separately."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_319ecb8d22a0a936",
+      "feed_published_at": "2026-10-24T11:14:32Z",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "title": "Building Reasoning Models from the Ground Up: A Full Video Course [ ~ ] [ ◻ ]",
+      "disposition": "selected",
+      "reason": "Original publisher timestamp verified; original reporting or practitioner publication, with older context dated separately."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_77d7d2bfade49080",
+      "feed_published_at": "2026-10-24T08:34:00Z",
+      "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/",
+      "title": "Google's Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM [ * ] [ ◼ ]",
+      "disposition": "selected",
+      "reason": "Original publisher timestamp verified; original reporting or practitioner publication, with older context dated separately."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_ca0b43a393829ed4",
+      "feed_published_at": "2026-10-24T11:12:36Z",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache [ * ] [ ⬢ ]",
+      "disposition": "repackaged_older_development",
+      "reason": "Underlying original OpenAI report is October 23, outside this edition window. New secondary timing does not refresh it."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_8c39dc73bd8244c9",
+      "feed_published_at": "2026-10-24T14:53:07Z",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUXVnUHMtSllmR05NWHBYYURqWGF6MmtzaXpZVmppTXRmYUFxbUlKT0tYTWozZUJoNE1HbXp5U2dRRjVjTWozZmQ1UVJEd2FhNTY3ZDl2LWJmTkZtTTJWRjNZdjFIMmJoR2Z5aXFYTkhCdVBibXJUZHByZUthM3p4WDlKWXBlYU5KZTYwWmI2UEdHMmppTndYQmlnYXRtVTNVR2ZB?oc=5",
+      "title": "Grok Bot Will Route Your Tasks to Claude. The Moat Just Moved to the Switchboard. - Forkast News",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_b735ea1a6cd23078",
+      "feed_published_at": "2026-10-24T09:21:39Z",
+      "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+      "title": "Fancy harnesses make coding agents more expensive but not better, study finds [ ~ ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_b23030cf4dc6e596",
+      "feed_published_at": "2026-10-24T13:55:00Z",
+      "url": "https://futurism.com/artificial-intelligence/banks-preparing-ai-financial-catastrophe",
+      "title": "Banks Preparing for Aftermath of Unprecedented Catastrophe Caused by AI [ * ] [ ◼ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_fb0d7707cd1f209e",
+      "feed_published_at": "2026-10-24T12:53:00Z",
+      "url": "https://futurism.com/artificial-intelligence/character-ai-horror-show-bankrupt",
+      "title": "We Investigated Character.AI and Found a Horror Show. Now It's Bankrupt. [ ! ] [ ◼ ]",
+      "disposition": "retrospective_without_new_development",
+      "reason": "October 24 retrospective explicitly dates the bankruptcy to the prior week and reprises earlier investigations. No new filing or independently verified in-window development established."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2ef1933be2afbddb",
+      "feed_published_at": "2026-10-24T11:51:00Z",
+      "url": "https://futurism.com/future-society/ai-billionaires-elections-backfiring",
+      "title": "AI Billionaires Are Flooding Money Into Politics to Influence Elections, But It's Backfiring [ ~ ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_792c70080642cee2",
+      "feed_published_at": "2026-10-24T11:00:28Z",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVU9MLWFpZDVudzJmT3hlT3JlN0V3R25ZNHRISDd5QkdwcWFfSUJSS18yLVk2WkM0ZG8yRjBXX1ZwVUNBNW5IbklBU1RKMm9EVlp6eUlJLXFidHJQc1Voc0dVdEhzVDBBRW0yNmxOb3FfQ3RhVGRlXzc4ek9oUXB4aDZqX2FrMExvUkxSOHVDVDd5c0toMG5oTg?oc=5",
+      "title": "'Most likely to kick some ass': Before founding Anthropic, Dario Amodei was a standout at Lowell - San Francisco Chronicle",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_029347a1f04662fc",
+      "feed_published_at": "2026-10-24T10:53:00Z",
+      "url": "https://futurism.com/artificial-intelligence/meta-board-zuckerberg-ai-spending-compensation",
+      "title": "Behind the Scenes, Meta's Board Is Battling With Mark Zuckerberg Over His Out-of-Control AI Spending [ * ] [ ◻ ]",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_5379d0749ab9b1ce",
+      "feed_published_at": "2026-10-24T05:14:46Z",
+      "url": "https://news.google.com/rss/articles/CBMiMkFVX3lxTE9KUlpuaWtVOGw0VTlVRGlxYVdJZUZRQ3BPakJPYVQ5UjNyaGQyVHk3RWdn?oc=5",
+      "title": "AI teammates that finish the work | Grok Bot",
+      "disposition": "repackaged_older_development",
+      "reason": "Followed topic to official Introducing Grok Bot announcement dated August 11, 2026; current landing page is undated. No substantive in-window release established."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_08c59a763c5b7ad6",
+      "feed_published_at": "2026-10-24T06:32:15Z",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTXdscXJRNl9NTmM4d0RQdTdYUFBCUmNqejhjRjMxT0RPNjRPREpxcGVOckNkcUw3Z2tXY2NpRXVoX0V6Mk9CQmdwNV91S0dNZ1lQVy0wZmJKQldOeF9vMFJ1bHdwcVhXa3ZDUC1IQWJJa3FCSmk4OTU2QVhmYy1PVmVTTk5yY1dxWkhBSmZON3oyb3VmRHBEd1Y3TlhVRXZsOEpoMUR3?oc=5",
+      "title": "AI plays role in regulatory capture - Minot Daily News",
+      "disposition": "not_selected_after_editorial_triage",
+      "reason": "Lower enterprise decision value, roundup/opinion/profile, broad commentary, or insufficient original dated evidence to justify a researched article. No original-source eligibility is asserted."
+    }
+  ],
+  "source_records": [
+    {
+      "url": "https://arxiv.org/abs/2610.29162",
+      "retrieved_on": "2026-10-25",
+      "sha256": "347679da78ae0b63988a7661c2fa367b2ae66f9135f455cfcbfb335f34f6fac8",
+      "publisher_dates": [],
+      "publisher_meta": [
+        [
+          "citation_date",
+          "2026/10/21"
+        ],
+        [
+          "citation_online_date",
+          "2026/10/21"
+        ]
+      ]
+    },
+    {
+      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
+      "retrieved_on": "2026-10-25",
+      "sha256": "7aa8624ec1aaf02abc7fc13203fefd055822435c9f71e724e99a6d81e7826c7d",
+      "publisher_dates": [
+        "\"datePublished\":\"2026-10-24T14:34:05+00:00\"",
+        "\"dateModified\":\"2026-10-24T14:35:15+00:00\"",
+        "\"datePublished\":\"2026-10-24T14:34:05+00:00\"",
+        "\"dateModified\":\"2026-10-24T14:35:15+00:00\"",
+        "\"datePublished\": \"2026-10-24T16:34:05+02:00\"",
+        "\"dateModified\": \"2026-10-24T16:35:15+02:00\""
+      ],
+      "publisher_meta": [
+        [
+          "article:publisher",
+          "https://www.facebook.com/TheDecoderDE/"
+        ],
+        [
+          "article:published_time",
+          "2026-10-24T14:34:05+00:00"
+        ],
+        [
+          "article:modified_time",
+          "2026-10-24T14:35:15+00:00"
+        ]
+      ]
+    },
+    {
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "retrieved_on": "2026-10-25",
+      "sha256": "787c5082bb3d376dc67871ee586fd07062e384ba00023e06ab32399c96dac4b8",
+      "publisher_dates": [
+        "\"datePublished\":\"2026-09-27T14:01:59+00:00\"",
+        "\"dateModified\":\"2026-09-27T14:01:59+00:00\""
+      ],
+      "publisher_meta": [
+        [
+          "article:modified_time",
+          "2026-09-27T17:16:10.147Z"
+        ]
+      ]
+    },
+    {
+      "url": "https://github.com/slee-persis/GVS5H",
+      "retrieved_on": "2026-10-25",
+      "sha256": "9b75cab055647c0a92b3a30de856de5c463c45c0a40424681b9e2c121c488124",
+      "publisher_dates": [],
+      "publisher_meta": [
+        [
+          "react-import-map",
+          "react,react-dom,react-dom/client,react-dom/profiling,react-is,react-reconciler,react/compiler-runtime,react/jsx-dev-runtime,react/jsx-runtime,scheduler@d5750093facf"
+        ],
+        [
+          null,
+          null
+        ],
+        [
+          "github-code-view-meta-stats",
+          null
+        ]
+      ]
+    },
+    {
+      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+      "retrieved_on": "2026-10-25",
+      "sha256": "790bef5909c3ebbed064eeea38bd5f63891c3e8c4924f5e29f5fbc2ac757ef6c",
+      "publisher_dates": [
+        "\"datePublished\":\"2026-10-25T06:55:22+00:00\"",
+        "\"datePublished\":\"2026-10-25T06:55:22+00:00\""
+      ],
+      "publisher_meta": [
+        [
+          "article:publisher",
+          "https://www.facebook.com/TheDecoderDE/"
+        ],
+        [
+          "article:published_time",
+          "2026-10-25T06:55:22+00:00"
+        ]
+      ]
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/",
+      "retrieved_on": "2026-10-25",
+      "sha256": "76bdb41a2090c52f4f27fcff3f826d187b3c7cb80a105d9c29d994aec557abb5",
+      "publisher_dates": [
+        "\"datePublished\": \"2026-10-24T08:34:00+0000\"",
+        "\"dateModified\": \"2026-10-24T08:34:00+0000\""
+      ],
+      "publisher_meta": [
+        [
+          null,
+          "private,no-cache,no-store,must-revalidate"
+        ]
+      ]
+    },
+    {
+      "url": "https://aiweekly.co/alerts/anthropic-open-sources-claude-code-sandbox-under-apache-20",
+      "retrieved_on": "2026-10-25",
+      "sha256": "49e29940b9db1fad8abea0fcbb8314468df8eee5fc59d65a5ea342539dab6067",
+      "publisher_dates": [
+        "\"datePublished\":\"2026-10-24T12:37:52+00:00\"",
+        "\"dateModified\":\"2026-10-24T13:30:02+00:00\""
+      ],
+      "publisher_meta": [
+        [
+          "description",
+          "Anthropic has released the sandbox that runs behind Claude Code as an open-source npm package, `@anthropic-ai/sandbox-runtime`, under the Apache-2.0…"
+        ],
+        [
+          "og:description",
+          "Anthropic has released the sandbox that runs behind Claude Code as an open-source npm package, `@anthropic-ai/sandbox-runtime`, under the Apache-2.0…"
+        ],
+        [
+          "twitter:description",
+          "Anthropic has released the sandbox that runs behind Claude Code as an open-source npm package, `@anthropic-ai/sandbox-runtime`, under the Apache-2.0…"
+        ]
+      ]
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "retrieved_on": "2026-10-25",
+      "sha256": "48ad8d0f7ddc7aa0a6811f50651152988198d099f7bea285f3e5ccdf213508b9",
+      "publisher_dates": [
+        "\"datePublished\":\"2026-10-24T18:32:21+00:00\"",
+        "\"dateModified\":\"2026-10-24T18:32:21+00:00\""
+      ],
+      "publisher_meta": [
+        [
+          "article:published_time",
+          "2026-10-24T18:32:21+00:00"
+        ],
+        [
+          "article:modified_time",
+          "2026-10-24T18:32:21+00:00"
+        ],
+        [
+          "parsely-pub-date",
+          "2026-10-24T18:32:21+00:00"
+        ]
+      ]
+    },
+    {
+      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "retrieved_on": "2026-10-25",
+      "sha256": "84c41c700f4ec8bf5cc100d5f26773ba248e77fb8ba0e3ddcc522413122a99be",
+      "publisher_dates": [
+        "\"dateModified\":\"2026-10-24T08:00:00.000-04:00\"",
+        "\"datePublished\":\"2026-10-24T08:00:00.000-04:00\""
+      ],
+      "publisher_meta": [
+        [
+          "article:published_time",
+          "2026-10-24T12:00:00.000Z"
+        ],
+        [
+          "article:modified_time",
+          "2026-10-24T12:00:00.000Z"
+        ]
+      ]
+    },
+    {
+      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+      "retrieved_on": "2026-10-25",
+      "sha256": "d122d101b68e56b8b6d789b23e3c0e38ff18d48d61b1da75667c3ff478604412",
+      "publisher_dates": [
+        "\"datePublished\":\"2026-10-25T07:30:11+00:00\"",
+        "\"dateModified\":\"2026-10-25T07:31:55+00:00\"",
+        "\"datePublished\":\"2026-10-25T07:30:11+00:00\"",
+        "\"dateModified\":\"2026-10-25T07:31:55+00:00\""
+      ],
+      "publisher_meta": [
+        [
+          "article:publisher",
+          "https://www.facebook.com/TheDecoderDE/"
+        ],
+        [
+          "article:published_time",
+          "2026-10-25T07:30:11+00:00"
+        ],
+        [
+          "article:modified_time",
+          "2026-10-25T07:31:55+00:00"
+        ]
+      ]
+    },
+    {
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "retrieved_on": "2026-10-25",
+      "sha256": "e2e192036e1ae2a19df7f27d931c012cfaac656a1976c98d11086b00cd35193d",
+      "publisher_dates": [
+        "\"datePublished\":\"2026-10-24T11:14:32+00:00\"",
+        "\"dateModified\":\"2026-10-24T11:14:32+00:00\""
+      ],
+      "publisher_meta": [
+        [
+          "description",
+          "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch."
+        ],
+        [
+          "og:description",
+          "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch."
+        ],
+        [
+          "twitter:description",
+          "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch."
+        ],
+        [
+          "article:modified_time",
+          "2026-10-24T22:23:53.776Z"
+        ]
+      ]
+    },
+    {
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "retrieved_on": "2026-10-25",
+      "sha256": "24548b6bfb0cff1a813021e99c4102ba11c6cb0c3a870f631976897b43f6440b",
+      "publisher_dates": [],
+      "publisher_meta": [
+        [
+          "article:modified_time",
+          "2026-10-22T18:58:30Z"
+        ]
+      ]
+    },
+    {
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+      "retrieved_on": "2026-10-25",
+      "sha256": "85fab621f2f8dc2c387dc898e410dca2f521552c42a06810a855c70c1d88910c",
+      "publisher_dates": [],
+      "publisher_meta": [
+        [
+          "citation_date",
+          "23.10.26"
+        ],
+        [
+          "twitter:description",
+          "EPFL researchers have developed an implantable neural chip that tracks communication across brain regions, identifying cognitive and emotional states in real time."
+        ],
+        [
+          "og:description",
+          "EPFL researchers have developed an implantable neural chip that tracks communication across brain regions, identifying cognitive and emotional states in real time."
+        ],
+        [
+          "article:published_time",
+          "2026-10-23"
+        ]
+      ]
+    },
+    {
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent/",
+      "retrieved_on": "2026-10-25",
+      "sha256": "fd696431e050cd00590c138410970641820701c756f897d747394b537ceffcf1",
+      "date_evidence": "Google blog published_time 2026-09-30T13:11:29-0700",
+      "role": "older primary context for new InfoQ original reporting"
+    },
+    {
+      "url": "https://docs.cloud.google.com/mcp/prevent-read-write-tool-use",
+      "retrieved_on": "2026-10-25",
+      "sha256": "3e79d8d23caa5b2931e9d866b980c67ce8fdc5a81576d6c56bd6514b8479a1bd",
+      "date_evidence": "Visible Last updated 2026-10-22 UTC",
+      "role": "older primary context for new InfoQ original reporting"
+    }
+  ],
+  "additional_primary_evidence": [
+    {
+      "url": "https://api.github.com/repos/GoogleCloudPlatform/data-agent-kit-plugin/commits?per_page=1&until=2026-10-25T12:00:00Z",
+      "source_commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+      "committed_at": "2026-10-13T22:21:26Z",
+      "role": "Pinned primary source for skill, not eligibility"
+    },
+    {
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "published_day": "2026-10-21",
+      "role": "Older primary context; release identifiers and structural remediation account read in full"
+    }
+  ]
+}
