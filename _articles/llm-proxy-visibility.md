@@ -2,8 +2,8 @@
 article_id: art_313154ba192d9eb5
 story_key: https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on
 title: Your AI gateway should make the work observable
-summary: 'A practitioner’s case for running an LLM proxy raises an operational question: can your team explain
-  which application called which model, under whose credentials, and with what result?'
+summary: 'A practitioner’s case for running an LLM proxy raises an operational question: can your team explain which
+  application called which model, under whose credentials, and with what result?'
 section: Enterprise Ops
 edition_date: '2026-10-19'
 published_at: '2026-10-24T22:21:03.137685Z'
@@ -27,8 +27,8 @@ hero:
   path: /assets/images/llm-proxy-visibility.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
-    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
     Four thin slate paths from four small application squares on the left converge through a single narrow orange
     observation gate in the center. The paths then separate toward three slate model endpoints on the right. Tiny
@@ -39,9 +39,8 @@ hero:
   width: 1536
   height: 804
   alt: Several distinct application paths pass through an orange observation gate before reaching model endpoints.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
-leader_action: Require a traceable identity and an accountable operator for each application using a shared AI
-  gateway.
+  caption: The shared observation gate keeps distinct application paths visible as they reach model endpoints.
+leader_action: Require a traceable identity and an accountable operator for each application using a shared AI gateway.
 individual_action: Trace one real request from the client through the gateway to the provider before relying on
   aggregate usage charts.
 feed_name: TedTschopp News Graph - Top Stories
@@ -64,7 +63,7 @@ topics:
 - governance
 evidence_type: practitioner
 reader_job: Determine whether the team can explain an AI request and support its failure path.
-modified_at: '2026-10-25T02:23:35.252714Z'
+modified_at: '2026-10-25T03:42:17.530845Z'
 legacy_anchors:
 - start-with-one-request
 - separate-identity-from-convenience
@@ -73,7 +72,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 A token bill can show consumption without explaining why a person received the wrong answer. Start the gateway discussion with the request that an operator needs to reconstruct.
 
 In a [practitioner’s argument for operating an LLM proxy](https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/), the useful part is the operational inventory: a controlled endpoint, records of which key called which model, virtual credentials, and the ability to change a provider without rebuilding every client. The author describes a personal and work practice, rather than presenting a controlled comparison or a universal product recommendation.

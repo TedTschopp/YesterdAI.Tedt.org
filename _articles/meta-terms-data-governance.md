@@ -27,19 +27,20 @@ hero:
   path: /assets/images/meta-terms-data-governance.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
-    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
     Two clean rectangular document panels lie side by side on a horizontal hairline. Thin slate text-like rules
-    stop at the middle boundary. One orange geometric bracket isolates a small removed rectangle between them,
-    while a set of fine parallel data paths continues below. A precise visual metaphor for the difference between
-    changing contract wording and proving what happens to data.
+    stop at the middle boundary. One orange geometric bracket isolates a small removed rectangle between them, while
+    a set of fine parallel data paths continues below. A precise visual metaphor for the difference between changing
+    contract wording and proving what happens to data.
   generated_at: '2026-10-24T22:10:25.275Z'
   tool: image_gen
   width: 1536
   height: 805
   alt: An orange bracket highlights removed wording between two document panels while data paths continue underneath.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
+  caption: The highlighted wording changes while data paths remain, showing why revised terms should prompt a review
+    of where information travels.
 leader_action: Connect vendor-terms monitoring to an owned inventory of the business accounts, domains, and content
   involved.
 individual_action: Preserve the relevant terms version and bring the actual data flow to the contract discussion.
@@ -60,7 +61,7 @@ topics:
 - security
 evidence_type: reporting
 reader_job: Translate a vendor-terms notice into an accountable review of the relevant data relationship.
-modified_at: '2026-10-25T02:25:06.949699Z'
+modified_at: '2026-10-25T03:42:17.530845Z'
 legacy_anchors:
 - find-the-relationship-before-debating-the-clause
 - separate-statements-from-observations
@@ -69,7 +70,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 A revised sentence arrives in a platform's terms. Put it beside the account, content, and configuration it could affect. That is where a wording discussion becomes work somebody can own.
 
 [TechCrunch reports that Meta removed commercial-terms language](https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/) after concerns about how it might apply to scraping and AI training. The report also records Meta’s explanation that its clarification concerned advertising and business products and did not change its web-crawling practices. Those are reported statements about the wording and the company’s position. They do not, by themselves, establish a legal conclusion about a particular enterprise’s content.

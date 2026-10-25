@@ -1,6 +1,7 @@
 require 'cgi'
 require 'time'
 require 'date'
+require 'json'
 
 module YesterdayReader
   def edition_articles(edition)
@@ -65,11 +66,10 @@ module YesterdayReader
 
   def share_image_for(page)
     site = @context.registers[:site]
+    return site.config['share_image'] if page['url'] == '/'
     return page['hero'] if page['hero']
     return page['share_image'] if page['share_image'].is_a?(Hash)
-    edition = if page['url'] == '/'
-      site.collections['editions'].docs.max_by { |e| e.data['edition_date'].to_s }
-    elsif page['collection'] == 'editions'
+    edition = if page['collection'] == 'editions'
       page
     end
     if edition
@@ -77,6 +77,50 @@ module YesterdayReader
       return lead.data['hero'] if lead && lead.data['hero']
     end
     site.config['share_image']
+  end
+
+  def image_mime(path)
+    { '.webp' => 'image/webp', '.png' => 'image/png', '.jpg' => 'image/jpeg', '.jpeg' => 'image/jpeg' }[File.extname(path.to_s)] || 'image/png'
+  end
+
+  def json_script(value)
+    JSON.generate(value).gsub('<', '\\u003c').gsub('>', '\\u003e').gsub('&', '\\u0026')
+  end
+
+  def publication_schema(page)
+    site = @context.registers[:site]
+    origin = site.config['url'].sub(%r{/$}, '')
+    canonical = origin + page['url']
+    publisher = { '@type' => 'Organization', '@id' => origin + '/#publisher', 'name' => site.config['title'],
+      'url' => origin + '/', 'logo' => { '@type' => 'ImageObject', 'url' => origin + '/assets/logos/monogram.svg' } }
+    website_id = origin + '/#website'
+    entity = { '@type' => 'WebPage', '@id' => canonical, 'url' => canonical, 'name' => page['title'],
+      'description' => page['description'] || page['summary'] || site.config['description'],
+      'inLanguage' => site.config['lang'], 'isPartOf' => { '@id' => website_id } }
+    if page['url'] == '/'
+      entity = { '@type' => 'WebSite', '@id' => website_id, 'url' => origin + '/', 'name' => site.config['title'],
+        'alternateName' => 'YesterdAI', 'description' => site.config['description'], 'inLanguage' => site.config['lang'],
+        'publisher' => { '@id' => publisher['@id'] } }
+    elsif page['collection'] == 'articles'
+      entity = { '@type' => 'NewsArticle', '@id' => canonical + '#article', 'url' => canonical,
+        'headline' => page['title'], 'description' => page['summary'], 'datePublished' => page['published_at'],
+        'dateModified' => page['modified_at'] || page['published_at'], 'inLanguage' => site.config['lang'],
+        'articleSection' => page['section'], 'keywords' => page['topics'] || [], 'isAccessibleForFree' => true,
+        'mainEntityOfPage' => { '@type' => 'WebPage', '@id' => canonical },
+        'author' => { '@type' => 'Organization', 'name' => site.config['author'], 'url' => origin + '/about/' },
+        'publisher' => { '@id' => publisher['@id'] }, 'isPartOf' => { '@id' => website_id } }
+      if page['hero']
+        hero = page['hero']
+        entity['image'] = [{ '@type' => 'ImageObject', 'url' => origin + hero['path'],
+          'width' => hero['width'], 'height' => hero['height'], 'caption' => hero['caption'] }]
+      end
+    elsif page['collection'] == 'editions'
+      entity['@type'] = 'CollectionPage'
+      entity['mainEntity'] = { '@type' => 'ItemList', 'itemListElement' => edition_articles(page).each_with_index.map { |article, index|
+        { '@type' => 'ListItem', 'position' => index + 1, 'url' => origin + article.url, 'name' => article.data['title'] }
+      } }
+    end
+    { '@context' => 'https://schema.org', '@graph' => [publisher, entity] }
   end
 end
 

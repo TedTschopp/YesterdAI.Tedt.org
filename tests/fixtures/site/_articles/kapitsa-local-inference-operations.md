@@ -2,9 +2,8 @@
 article_id: art_51c071c2515ec8fe
 story_key: https://github.com/nace-ai/kapitsa
 title: Kapitsa brings the control room onto your Mac
-summary: Kapitsa v0.2.15 pairs serving fixes with qualified performance claims. Running
-  a coding model locally makes network access, retained conversations, and service
-  recovery decisions part of the team's work.
+summary: Kapitsa v0.2.15 pairs serving fixes with qualified performance claims. Running a coding model locally makes
+  network access, retained conversations, and service recovery decisions part of the team's work.
 section: Vendors
 edition_date: '2026-10-24'
 published_at: '2026-10-24T23:50:17Z'
@@ -19,9 +18,8 @@ eligibility:
   published_at: '2026-10-23T22:59:15Z'
   precision: second
   verification: publisher_api
-  evidence: GitHub release API id=422379728, tag_name=v0.2.15, published_at=2026-10-23T22:59:15Z,
-    updated_at=2026-10-23T23:01:34Z; annotated tag 2cbe658e52c9d910e81725d92427a3437719b107
-    resolves to source commit 5c489cc69b397d2088aa165f9017129b4a724b7a
+  evidence: GitHub release API id=422379728, tag_name=v0.2.15, published_at=2026-10-23T22:59:15Z, updated_at=2026-10-23T23:01:34Z;
+    annotated tag 2cbe658e52c9d910e81725d92427a3437719b107 resolves to source commit 5c489cc69b397d2088aa165f9017129b4a724b7a
   discovered_url: https://github.com/nace-ai/kapitsa
   verified_at: '2026-10-24T23:50:17Z'
   source_commit: 5c489cc69b397d2088aa165f9017129b4a724b7a
@@ -61,69 +59,59 @@ sources:
   date_basis: Pinned source-commit timestamp; historical documentation snapshot
 hero:
   path: /assets/images/kapitsa-local-inference-operations.webp
-  prompt: 'Create a wide landscape editorial hero for Yesterday in AI, approximately
-    1.91:1. International Typographic Style translated into a crisp conceptual graphic:
-    warm ivory paper (#F8F6F0), deep slate (#101820), restrained burnt-orange (#BF4714)
-    signal, fine hairlines, precise geometry, ample negative space, flat matte finish.
-    One clear visual relationship tied to this article. No text, letters, logos, gradients,
-    photographic people, robots, watermarks, or decorative texture. Keep all essential
-    forms comfortably inside the frame. Article-specific subject: running an inference
-    engine on a local Mac still requires an explicit network boundary. Show a large
-    thin rectangular workstation enclosure, with a small solid slate computational
-    core inside. A fine horizontal connection leads from that core through one clear
-    burnt-orange gate in the enclosure''s right edge to two small peer-machine outlines
-    outside. Use two small quiet slate operator-control marks inside the enclosure
-    below the core, connected by fine rules, to suggest the local service must be
-    maintained. The boundary and its single controllable connection are the dominant
-    idea. No Apple marks, no interfaces, no pseudo-writing, no arrows, no additional
-    accent colors. Strictly flat 2D geometry with generous warm-paper negative space,
-    clear at thumbnail size, no shadows or 3D perspective. Generate at least 1536
-    pixels wide.'
+  prompt: 'Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. International Typographic
+    Style translated into a crisp conceptual graphic: warm ivory paper (#F8F6F0), deep slate (#101820), restrained
+    burnt-orange (#BF4714) signal, fine hairlines, precise geometry, ample negative space, flat matte finish. One
+    clear visual relationship tied to this article. No text, letters, logos, gradients, photographic people, robots,
+    watermarks, or decorative texture. Keep all essential forms comfortably inside the frame. Article-specific subject:
+    running an inference engine on a local Mac still requires an explicit network boundary. Show a large thin rectangular
+    workstation enclosure, with a small solid slate computational core inside. A fine horizontal connection leads
+    from that core through one clear burnt-orange gate in the enclosure''s right edge to two small peer-machine
+    outlines outside. Use two small quiet slate operator-control marks inside the enclosure below the core, connected
+    by fine rules, to suggest the local service must be maintained. The boundary and its single controllable connection
+    are the dominant idea. No Apple marks, no interfaces, no pseudo-writing, no arrows, no additional accent colors.
+    Strictly flat 2D geometry with generous warm-paper negative space, clear at thumbnail size, no shadows or 3D
+    perspective. Generate at least 1536 pixels wide.'
   generated_at: '2026-10-24T23:48:32.368740Z'
   tool: image_gen
   width: 1734
   height: 907
-  alt: A slate inference core inside a workstation boundary connects through an orange
-    gate to two peer computers, with operator controls below.
-  caption: A conceptual illustration of a local inference service, its operator controls,
-    and its network boundary.
-leader_action: Assign an owner to a bounded local-inference pilot and approve its
-  network, retention, and recovery choices before evaluating task outcomes.
-individual_action: Record the engine, model, and actual request destination, then
-  check a long request and a recoverable failure on the approved pilot.
+  alt: A slate inference core inside a workstation boundary connects through an orange gate to two peer computers,
+    with operator controls below.
+  caption: The inference core sits inside a workstation boundary with network gates and controls, bringing the operating
+    choices of local AI into view.
+leader_action: Assign an owner to a bounded local-inference pilot and approve its network, retention, and recovery
+  choices before evaluating task outcomes.
+individual_action: Record the engine, model, and actual request destination, then check a long request and a recoverable
+  failure on the approved pilot.
 feed_name: TedTschopp News Graph - Top Stories
-feed_summary: Kapitsa is an inference engine designed for Apple Silicon Macs that
-  runs models like Qwen, Nemotron, and Recursive's Flint locally, targeting coding
-  agents and serving OpenAI and Anthropic APIs. It supports Macs with M1 or newer
-  chips running macOS 14 Sonoma or later and offers command-line tools for model management
-  and benchmarking. The engine achieves faster decoding speeds than competitors such
-  as llama.cpp and Recursive's own engine across various Mac models, with features
-  like tree speculative decoding, SSD prefix caching, and prompt prefill optimizations.
-  Kapitsa also enables multi-request throughput improvements and supports running
-  models across multiple Macs on a network to handle larger models. These performance
-  enhancements position Kapitsa as a leading local inference solution on Apple Silicon,
-  providing developers with efficient AI model execution and integration capabilities
-  directly on their Macs without relying solely on cloud services.
-feed_title: Kapitsa launches as an Apple Silicon inference engine running Qwen, Flint,
-  and other models locally with faster decoding and prompt reading on M1 to M5 Macs
-  [ * ] [ ◼ ]
+feed_summary: Kapitsa is an inference engine designed for Apple Silicon Macs that runs models like Qwen, Nemotron,
+  and Recursive's Flint locally, targeting coding agents and serving OpenAI and Anthropic APIs. It supports Macs
+  with M1 or newer chips running macOS 14 Sonoma or later and offers command-line tools for model management and
+  benchmarking. The engine achieves faster decoding speeds than competitors such as llama.cpp and Recursive's own
+  engine across various Mac models, with features like tree speculative decoding, SSD prefix caching, and prompt
+  prefill optimizations. Kapitsa also enables multi-request throughput improvements and supports running models
+  across multiple Macs on a network to handle larger models. These performance enhancements position Kapitsa as
+  a leading local inference solution on Apple Silicon, providing developers with efficient AI model execution and
+  integration capabilities directly on their Macs without relying solely on cloud services.
+feed_title: Kapitsa launches as an Apple Silicon inference engine running Qwen, Flint, and other models locally
+  with faster decoding and prompt reading on M1 to M5 Macs [ * ] [ ◼ ]
 feed_published_at: '2026-10-24T07:00:38Z'
 feed_snapshot: 923ac0dcbfb49c724e6e7a304bd5cf1f5d920ee3
 rating: Important
 technical_rating: Important
 format: analysis
 takeaways:
-- Kapitsa v0.2.15 combines serving fixes with qualified performance claims; the release’s
-  pinned documentation describes network and persistent-cache choices.
-- Record the actual request destination, retained state, and recovery owner before
-  evaluating a local-inference workflow.
+- Kapitsa v0.2.15 combines serving fixes with qualified performance claims; the release’s pinned documentation describes
+  network and persistent-cache choices.
+- Record the actual request destination, retained state, and recovery owner before evaluating a local-inference
+  workflow.
 topics:
 - infrastructure
 - security
 - economics-adoption
 evidence_type: vendor
-reader_job: Decide which network, retention, and recovery responsibilities accompany
-  local model serving.
+reader_job: Decide which network, retention, and recovery responsibilities accompany local model serving.
 modified_at: '2026-10-25T02:23:35.247096Z'
 legacy_anchors:
 - choose-where-the-boundary-sits
@@ -134,7 +122,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 A server on your laptop is still a server. Bringing computation closer to a developer also brings choices about network access, retained work, and service recovery onto that machine.
 
 [Kapitsa's October 23 release, v0.2.15](https://github.com/nace-ai/kapitsa/releases/tag/v0.2.15), makes those responsibilities unusually visible. Alongside speed work, it includes input-handling fixes, packaging changes, and explicit testing qualifications. The [README at that release's source commit](https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/README.md) describes an Apple silicon inference engine for local coding models, with OpenAI and Anthropic API interfaces.

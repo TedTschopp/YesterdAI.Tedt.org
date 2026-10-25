@@ -27,35 +27,35 @@ hero:
   path: /assets/images/pew-task-level-adoption.webp
   prompt: 'Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
-    clean vector-like edges delivered as a raster. Subject: the difference between general use of a tool and use
-    for one specific task. Composition: a large fine slate circular outline contains many small slate geometric
-    activity markers; within it, a clearly smaller orange outlined region contains only a few markers, connected
-    to a precise external task-shaped bracket on the right. Conceptual illustration rather than a literal statistical
-    chart, with no quantities implied. No text, letters, numbers, logos, flags, voting symbols, gradients, shadows,
-    photographic people, robots, watermarks, grain, or decorative texture. All essential forms comfortably inside
-    the frame.'
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. Subject: the difference between general use of a tool and use for one
+    specific task. Composition: a large fine slate circular outline contains many small slate geometric activity
+    markers; within it, a clearly smaller orange outlined region contains only a few markers, connected to a precise
+    external task-shaped bracket on the right. Conceptual illustration rather than a literal statistical chart,
+    with no quantities implied. No text, letters, numbers, logos, flags, voting symbols, gradients, shadows, photographic
+    people, robots, watermarks, grain, or decorative texture. All essential forms comfortably inside the frame.'
   generated_at: '2026-10-24T22:42:49.965Z'
   tool: image_gen
   width: 1536
   height: 806
   alt: A broad slate circle representing general use contains a much smaller orange task-specific region beside
     a precise scope bracket.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
+  caption: The smaller orange region distinguishes use for a particular task from the wider circle of general chatbot
+    use.
 leader_action: Define adoption for a specific user task and measure successful outcomes separately from general
   chatbot access or activity.
 individual_action: Check the denominator and the question behind an adoption statistic before applying it to another
   setting.
 feed_name: TedTschopp News Graph - Top Stories
 feed_summary: A Pew Research Center survey of 5,273 U.S. adults conducted in October 2026 found that only about
-  8% of Americans are using AI chatbots like ChatGPT, Copilot, or Gemini to obtain information related to the
-  2026 midterm elections. Most users seek details on candidates' issue positions, fact-checking claims, and candidates'
+  8% of Americans are using AI chatbots like ChatGPT, Copilot, or Gemini to obtain information related to the 2026
+  midterm elections. Most users seek details on candidates' issue positions, fact-checking claims, and candidates'
   backgrounds, while fewer use chatbots for voting logistics or voting advice. The survey also revealed demographic
   differences, with adults under 50 more likely to use chatbots for election information (11%) compared to those
   50 and older (4%). Overall, despite increased general use of AI chatbots, traditional sources remain the primary
   means for election-related information among the public.
-feed_title: Pew Research Center finds only 8% of Americans use AI chatbots for 2026 election information, with
-  younger adults more likely to do so
+feed_title: Pew Research Center finds only 8% of Americans use AI chatbots for 2026 election information, with younger
+  adults more likely to do so
 rating: ''
 writing_style: ted-writing-style
 writing_style_version: 1.0.0
@@ -69,7 +69,7 @@ topics:
 - evaluation
 evidence_type: research
 reader_job: Interpret an adoption percentage without applying it to a population or task it did not measure.
-modified_at: '2026-10-25T02:26:50.296465Z'
+modified_at: '2026-10-25T03:42:17.530845Z'
 legacy_anchors:
 - name-the-behavior-the-organization-needs
 - keep-the-denominator-in-view
@@ -79,7 +79,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 When somebody says people are using AI, what work do they mean? An account, an occasional conversation, and reliance on a tool for a particular task describe different kinds of adoption.
 
 [Pew Research Center’s October 23 report](https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/) makes that distinction visible. In its survey of 5,273 U.S. adults, 8% say they are using AI chatbots for information related to the 2026 elections. The report contrasts that figure with much broader general chatbot use. This is a U.S. public-opinion study about a specific information task, not a measure of enterprise adoption or a finding about the quality of chatbot answers.

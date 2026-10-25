@@ -30,6 +30,8 @@ Use one Markdown article with a stable ID/slug and existing source/eligibility/e
 
 Write a concrete opening, visible reasoning, and useful consequence in Ted's voice. Use an analogy only when it explains the mechanism. Keep paragraphs readable, avoid repeated consultant advice, and make the specific finding apparent early.
 
+Use AP headline capitalization: first word, proper nouns/acronyms, and the first word after a colon. Keep brand and model names accurate. Review headlines manually rather than applying a title-case transform. Use the same article title and summary for article-specific search/social metadata; homepage metadata describes the publication.
+
 Link reported facts inline. Keep source facts, uncertainty, original dates, and version-specific qualifications together. Never invent quotes, benchmarks, deployments, installations, review claims, or personal experiences. Use publication authorship and truthful AI disclosure.
 
 Answer the reader_job. Analyses include useful practitioner detail under a clear subhead with the stable for-practitioners anchor. Briefs can supply that detail within their narrower structure. Avoid boilerplate when the finding needs another explanation.
@@ -41,6 +43,8 @@ Review the complete draft against its sources and reader/voice contracts. Check 
 Use built-in image_gen for each distinct new analysis. Read the imagegen skill and project art direction. New briefs may omit illustrations; preserve an existing brief's attached hero.
 
 Generate one original wide, subject-specific paper/slate/orange graphic. No baked-in text/logos, robots, misleading charts, gradients, or documentary-photo claims. Inspect it, optimize to WebP with a long edge of at least 1,200px, and record actual dimensions, prompt, tool, timestamp, alt text, and caption. Reuse it on retries.
+
+Write a caption explaining what the image shows and how it relates to this particular story. Prefer one sentence; never exceed two. Do not use generic captions such as AI-generated editorial illustration. Keep the AI disclosure in the publication’s footer and About page.
 
 Retry an image failure once, then retain unfinished work and fail the run. Never evade a failure by relabeling the analysis or substituting a generic asset.
 
