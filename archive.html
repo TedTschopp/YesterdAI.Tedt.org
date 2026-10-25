@@ -1,7 +1,14 @@
 ---
 title: The archive
-description: "A day-by-day record of what changed in enterprise AI, and why it mattered."
+description: "Find a day’s coverage, then follow the stories that mattered."
 permalink: /archive/
 eyebrow: Every edition, in context
+job: recover
 ---
-<div class="archive-list">{% assign editions = site.editions | sort: 'edition_date' | reverse %}{% for edition in editions %}<article class="archive-row"><time class="meta" datetime="{{ edition.edition_date }}">{{ edition.edition_date | date: '%b %-d, %Y' }}</time><div><h2><a href="{{ edition.url }}">{{ edition.title | escape }}</a></h2><p class="body-sm">{{ edition.description | escape }}</p></div><span class="meta">{{ edition.article_ids.size }} {% if edition.article_ids.size == 1 %}analysis{% else %}analyses{% endif %}{% if edition.retrospective %}<br>Retrospective{% endif %}</span></article>{% endfor %}</div>
+{% assign editions = site.editions | sort: 'edition_date' | reverse %}
+{% assign months = editions | group_by_exp: 'edition', "edition.edition_date | date: '%B %Y'" %}
+<nav class="archive-months" aria-label="Jump to a month">{% for month in months %}<a href="#{{ month.name | slugify }}">{{ month.name }}</a>{% endfor %}</nav>
+{% for month in months %}<section class="archive-month" aria-labelledby="{{ month.name | slugify }}"><div class="section-header"><h2 id="{{ month.name | slugify }}">{{ month.name }}</h2></div>
+{% for edition in month.items %}{% assign stories = edition | edition_articles %}
+<article class="archive-row"><p class="meta"><time datetime="{{ edition.edition_date }}">{{ edition.edition_date | reader_date: '%a, %b %-d' }}</time>{% if edition.retrospective %}<span class="small retrospective-label">Retrospective</span>{% endif %}</p><div><h3><a href="{{ edition.url }}">{{ edition.title | escape }}</a></h3><ul class="archive-headlines">{% for story in stories limit: 3 %}<li><a href="{{ story.url }}">{{ story.title | escape }}</a></li>{% endfor %}</ul><a class="small" href="{{ edition.url }}">Read {% if stories.size == 1 %}the story{% else %}all {{ stories.size }} stories{% endif %} →</a></div></article>
+{% endfor %}</section>{% endfor %}

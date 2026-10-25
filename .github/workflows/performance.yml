@@ -1,0 +1,34 @@
+name: Publication performance
+
+on:
+  schedule:
+    - cron: '13 11 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Measure the public mobile reading surfaces
+        run: node scripts/performance.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: performance-lab
+          path: test-results/performance.json
+      - name: Record lab limits
+        if: always()
+        run: |
+          echo 'Lighthouse mobile lab budgets: median LCP <= 2.5s, CLS <= 0.1, TBT <= 200ms.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'TBT is a lab proxy, not a measured field INP result. Field data requires an adequate real-reader sample.' >> "$GITHUB_STEP_SUMMARY"

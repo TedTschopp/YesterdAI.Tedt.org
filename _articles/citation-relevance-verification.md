@@ -9,7 +9,7 @@ edition_date: '2026-10-22'
 published_at: '2026-10-24T22:46:52.117360Z'
 retrospective: true
 rank: 4
-reading_minutes: 4
+reading_minutes: 2
 eligibility:
   url: https://arxiv.org/abs/2610.29812v1
   published_at: '2026-10-21T14:35:56Z'
@@ -27,13 +27,13 @@ hero:
   path: /assets/images/citation-relevance-verification.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
-    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
+    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
     Three open slate document rectangles each contain a distinctive small geometric evidence shape. A thin slate
     reference line connects a claim tile to a document with a mismatched shape, while an orange correction line
-    connects it to the matching shape in another document. Minimal graphic showing that a valid reference link is
-    different from relevant supporting evidence.
+    connects it to the matching shape in another document. Minimal graphic showing that a valid reference link
+    is different from relevant supporting evidence.
   generated_at: '2026-10-24T22:30:24.847Z'
   tool: image_gen
   width: 1536
@@ -43,13 +43,13 @@ hero:
   caption: A conceptual illustration of the mechanism discussed in this analysis.
 leader_action: Require evidence of claim-to-source relevance in retrieval evaluations, alongside checks that citations
   resolve.
-individual_action: Open the cited material and verify the specific claim and context before treating the link as
-  support.
+individual_action: Open the cited material and verify the specific claim and context before treating the link
+  as support.
 feed_name: TedTschopp News Graph - Top Stories
 feed_summary: 'arXiv:2610.29812v1 Announce Type: cross Abstract: Literature-searching language agents are becoming
-  a standard component of scientific assistants for the life sciences, yet there is little controlled evidence on
-  which parts of their harness matter. We run a controlled ablation on biomedical claim verification (SciFact) with
-  the live PubMed API as the only tool. Holding the backbone and output format fixed, we compare four harnesses:
+  a standard component of scientific assistants for the life sciences, yet there is little controlled evidence
+  on which parts of their harness matter. We run a controlled ablation on biomedical claim verification (SciFact)
+  with the live PubMed API as the only tool. Holding the backbone and output format fixed, we compare four harnesses:
   closed-book answering, single-shot retrieval using the claim as the query, a ReAct-style agent that writes its
   own PubMed queries, and an oracle given the gold abstracts, each with two efficient frontier backbones. Naive
   single-shot retrieval finds the gold paper for only 6% of claims and turns overconfident errors into abstentions
@@ -64,51 +64,47 @@ feed_summary: 'arXiv:2610.29812v1 Announce Type: cross Abstract: Literature-sear
 feed_title: 'Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents [ ~ ] [ ◼ ]'
 rating: Optional
 writing_style: ted-writing-style
-writing_style_version: '1.0.0'
+writing_style_version: 1.0.0
+format: brief
+takeaways:
+- A valid publication identifier can point to a real paper that does not support the answer’s claim.
+- Check link validity, relevance, and claim support separately; distinguish retrieval failures from interpretation
+  failures.
+topics:
+- evaluation
+- security
+evidence_type: preprint
+reader_job: Verify the relationship between a specific answer and the evidence cited for it.
+modified_at: '2026-10-25T02:21:48.083484Z'
+legacy_anchors:
+- define-what-the-reference-must-establish
+- separate-search-from-interpretation
+- preserve-scope-and-version
+- make-insufficient-evidence-an-acceptable-result
+- audit-a-small-set-of-real-answers
+- actions-heading
+editorial_contract: 2
 ---
 
-Open the reference beside a confident sentence and ask where the evidence is. The link may work perfectly. The paper may be real. You still need to find the part that supports the sentence you were asked to believe. That small step between opening a source and checking its meaning is where a citation becomes useful evidence.
+Open the reference beside a confident sentence. The link may work and the paper may be real. Where is the passage that supports this particular claim?
 
 A [preprint on biomedical claim-verification agents](https://arxiv.org/abs/2610.29812v1) studies that distinction using a controlled task and PubMed retrieval. The authors report that closed-book models often supplied identifiers for real papers while those papers rarely supported the claims being checked. Their experiments also separate retrieval limitations from the performance possible when relevant abstracts are supplied. The study is narrow and some comparisons are not statistically resolved at its sample size.
 
-Follow the connection all the way through: a claim, a retrieved passage, and the conclusion someone draws from that passage. Each step has a job. A citation check becomes more useful when the reviewer can see whether the evidence actually carries the meaning that the answer assigns to it.
-
 ## Define what the reference must establish
 
-Before scoring a response, identify the claims that require support and the kind of evidence appropriate to each. A source can establish that a company made an announcement without independently validating the announcement’s performance claim. A policy document can describe a rule without proving that it applied to a particular historical case.
+A company announcement can establish that a claim was made without independently validating its benchmark. A real paper can discuss the topic while failing to support the conclusion attributed to it.
 
-Those distinctions should be part of the evaluation rubric. Ask whether the cited material is relevant, whether it supports the strength of the statement, and whether important conditions or limitations survived the summary. A working URL is a useful preliminary check, but it cannot answer those questions.
+Keep the unit of review small: a claim, its cited passage, and the strength of the conclusion. Record link validity, relevance, and support separately. A longer bibliography does not repair a missing connection.
 
-Give the reviewer a claim and the passage meant to support it. A page full of references can leave that connection for the reader to reconstruct. Keeping the unit small makes the work more manageable: locate the evidence, read it in context, and decide whether it supports this particular statement. The bibliography can grow after those connections are clear.
+Version matters as well. The current procedure may answer today's question while being unsuitable for a question about an earlier decision. Retain the document version or retrieval date and the passage actually used.
 
 ## Separate search from interpretation
+{: #for-practitioners }
 
-A retrieval failure and an interpretation failure need different remedies. If the relevant evidence never reaches the model, revising the answer prompt may have limited value. If the evidence is present but the conclusion misstates it, expanding the search may add noise without addressing the error.
+Compare ordinary retrieval with a controlled condition that supplies reviewed relevant material. Inspect what reaches the model. Missing evidence and a misread passage need different remedies.
 
-Use a controlled evaluation that can distinguish the two. Compare ordinary retrieval with a condition where reviewed relevant material is supplied. Inspect the returned passages, not just the query or the final answer. This makes it possible to locate a bottleneck before choosing a new model or indexing strategy.
+Include a genuine, on-topic source that does not establish the particular claim. That control tests whether the system confuses relevance with support. Give an unresolved claim a legitimate outcome: insufficient evidence, clarification, or an accountable review.
 
-The paper’s controlled design is useful precisely because it exposes that separation. Its numerical results should remain attached to its task, tools, and sample. An enterprise needs a corresponding evaluation on the documents and decisions its own application handles.
+Keep the study's results attached to its task, tools, and sample. Some comparisons were not statistically resolved; an enterprise needs evidence from its own documents before treating the findings as a local performance estimate.
 
-## Preserve scope and version
-
-Source relevance includes time and context. An accurate citation to the wrong version of a procedure can still mislead a user making a current decision. Retain the document identifier, version or retrieval date where available, and the passage used to support the claim.
-
-When the source changes, decide which question the user is asking. Do they need the current rule, or the rule that applied at an earlier date? The newest search result may be useful for the first request and unsuitable for the second. Keep that choice visible so the reviewer can follow the answer back to the version that actually supports it.
-
-This is particularly important for a retrospective analysis. The preparation date of an answer does not establish when the evidence became available. The evaluation should make later information visible instead of allowing it to improve an earlier decision invisibly.
-
-## Make insufficient evidence an acceptable result
-
-Some questions will remain unresolved by the retrieved material. The application should have a supported way to say so, ask for clarification, or send the question to an accountable reviewer. A requirement to provide a definite answer to every input can encourage a polished conclusion from inadequate evidence.
-
-Measure that behavior alongside answer accuracy. A system that properly identifies an unsupported claim is doing useful work, provided the user understands what remains unknown and how to proceed. The review should distinguish that result from a retrieval error presented as a confident answer.
-
-Do not assume that adding more references solves the problem. Additional sources can improve coverage, but only if their relationship to the claim is examined. A longer bibliography can otherwise give the same weak inference a more impressive appearance.
-
-Add a control case containing a genuine source that discusses the topic but does not establish the particular claim. This tests whether the review can distinguish relevance from support. A source can pass a link check and still require the answer to be narrowed or withdrawn.
-
-## Audit a small set of real answers
-
-Choose a sample of consequential answers from an existing retrieval application. For each supported statement, ask a reviewer to open the source, locate the evidence, and judge whether the wording preserves its scope. Record link validity, relevance, and support as separate findings.
-
-Keep the disagreements and use them to improve retrieval and response, with cases you can return to in later evaluations. This is a practical quality check for evidence handling, not a medical recommendation or a universal finding about scientific assistants. When you next open the reference beside a confident sentence, stay with it long enough to locate what the sentence is asking it to prove.
+This is an evidence-handling quality check, not a medical recommendation or a universal result about scientific assistants. The useful next step is to open a few consequential answers and locate the evidence each sentence is asking its reference to carry.

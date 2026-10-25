@@ -1,0 +1,1745 @@
+{
+  "revision": "0d8bc54c20672932909d716da8fe7c42937ccb65",
+  "articles": {
+    "agent-harness-state": {
+      "metadata": {
+        "article_id": "art_b7505ce4183649e7",
+        "story_key": "https://arxiv.org/abs/2610.26632",
+        "title": "An agent harness can discard the fact that matters",
+        "summary": "New research separates the cost of losing context from the cost of losing evidence that cannot be recovered. Enterprise agents need a deliberate policy for preserving task state across long runs.",
+        "section": "Enterprise Ops",
+        "edition_date": "2026-10-20",
+        "published_at": "2026-10-24T22:21:03.125486Z",
+        "retrospective": true,
+        "rank": 5,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.26632v1",
+          "published_at": "2026-10-19T15:59:13Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-19T15:59:13Z",
+          "discovered_url": "https://arxiv.org/abs/2610.26632"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.26632v1",
+            "title": "When the harness decides success — state that cannot be re-observed",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-19T15:59:13Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/agent-harness-state.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A long horizontal row of small slate evidence tiles passes through a narrow open rectangular context window. Some gray tiles fade out before the window, while one important orange tile is deliberately carried along a thin lower preservation path and rejoins the task after the window. Elegant flat diagram of retaining non-recoverable evidence across context compression.",
+          "generated_at": "2026-10-24T22:19:44.248Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "A continuous slate task path crosses a narrowed context window, with one orange evidence tile preserved below the narrowing.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Identify which task facts become unavailable later and require the harness to preserve them explicitly.",
+        "individual_action": "Test a long-running task after context compression, checking whether its essential evidence remains recoverable.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.26632v1 Announce Type: new Abstract: Agent harnesses decide what a language model sees across turns: they drop old turns, summarize them, or replay the model's own earlier reasoning. We ask when these choices change whether an agent succeeds, not only what it costs, and report three findings. First, in a pre-registered synthetic probe, truncating the context window costs a low-cost reasoning model nothing in success when a needed fact can be looked up again (it looks the fact up instead), but drops its success to chance when the fact cannot be re-observed: the two penalties differ by 92.5 percentage points (90% CI [89.5, 95.5]). A pre-registered replication on one model from a second provider showed the same contrast. Once the fact was lost, that model chose no answer rather than guessing. Second, on ARC-AGI-3, where the benchmark's Standard harness trails its Provider Adapter harness by a wide margin, we decompose that gap one component at a time, for one model on four games. Summarizing old turns instead of dropping them, while keeping the Standard harness's invitation to take notes, recovers 86% of a 63-point gap without replaying the model's reasoning. The same harness without the invitation recovers 43%, and adding the provider's native replay of the model's reasoning recovers the remaining 57%. These are point estimates from one counted run per configuration and game, and the replay share depends on a single run. Third, in the benchmark's published runs and in ours, the Adapter's advantage in the probability of clearing a level it has reached is larger at deep levels than at early ones. This largely restates where runs stopped and does not separate a growing advantage from a constant one.",
+        "feed_title": "When the harness decides success: state that cannot be re-observed [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e",
+      "anchors": [
+        "inventory-the-state-a-task-depends-on",
+        "test-the-moment-information-is-compressed",
+        "preserve-the-record-at-the-appropriate-level",
+        "evaluate-the-system-you-will-operate"
+      ],
+      "body_sha256": "2f5b8ea159e5ec27e4c7c7a0c2d45a84ed4bbad69353a7cf2f16da4bdd1af980",
+      "attributed_passages": [
+        "A [preprint on agent harnesses and state](https://arxiv.org/abs/2610.26632v1) distinguishes cases where a missing fact can be looked up again from cases where it cannot. Its experiments show substantial differences under those conditions and examine how summaries and replay affect a small set of benchmark runs. The authors explicitly limit parts of their analysis to narrow configurations and counted runs. The findings support a design question, not a universal ranking of harnesses."
+      ]
+    },
+    "ai-recommendation-bias": {
+      "metadata": {
+        "article_id": "art_38ce8d74651308c9",
+        "story_key": "https://arxiv.org/abs/2610.29785",
+        "title": "An AI recommendation still needs an independent business case",
+        "summary": "Research traces how training and question wording affect AI-related recommendations. Mentioning AI more often does not prove better or worse advice; it does make evaluation of the recommendation process important.",
+        "section": "Policy",
+        "edition_date": "2026-10-22",
+        "published_at": "2026-10-24T22:46:52.108068Z",
+        "retrospective": true,
+        "rank": 3,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.29785v1",
+          "published_at": "2026-10-21T14:13:52Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-21T14:13:52Z",
+          "discovered_url": "https://arxiv.org/abs/2610.29785"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.29785v1",
+            "title": "Where Do LLMs Learn to Recommend AI?",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-21T14:13:52Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/ai-recommendation-bias.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. Three geometrically balanced paths lead from a small slate question tile toward three different slate solution shapes. An orange lens near the starting tile bends one path more strongly, although the evidence shapes underneath remain balanced. A minimal editorial metaphor for how framing and training can steer recommendations toward one familiar class of answer.",
+          "generated_at": "2026-10-24T22:26:15.425Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 805,
+          "alt": "An orange lens bends one of three otherwise balanced paths from a question toward a possible solution.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Evaluate proposals against a problem-specific rubric that does not reward AI merely for being present.",
+        "individual_action": "Ask for assumptions, evidence, and viable alternatives before adopting a model’s preferred approach.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.29785v1 Announce Type: cross Abstract: Asked what to study, which career to pursue, or what product to build, large language models (LLMs) often recommend AI-related options. We ask where this tendency comes from by comparing models before and after fine-tuning and by varying how questions are asked. First, pretrained models already include explicit AI/ML terms in the recommendations of 27% of their responses, and their released instruction-tuned versions do so in 59%. Second, fine-tuning models ourselves shows that this rise is not inevitable: general instruction tuning leaves the rate unchanged, but removing the 7% of instruction examples that concern AI cuts it by 14 percentage points, below the level of the pretrained models it starts from. Data rewarding helpfulness raise it by 9 points, while data ranked by the preferences of diverse simulated users lower it by 9. Finally, with models held fixed, asking for the \"best\" option or for what to do \"right now\" raises the rate by 8 and 18 points, whereas telling the model it is an AI advisor adds 4. Overall, the tendency starts in pretraining, and what models learn afterward, together with how a question is phrased, decides how strongly it appears.",
+        "feed_title": "Where Do LLMs Learn to Recommend AI? [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275",
+      "anchors": [
+        "state-the-problem-without-naming-the-implementation",
+        "compare-recommendations-with-the-same-rubric",
+        "test-the-effect-of-framing",
+        "ask-what-would-change-the-recommendation",
+        "use-the-assistant-to-broaden-judgment"
+      ],
+      "body_sha256": "ea181d91b2ae95724fedec56449650c11b27dbf4d8ba776c6d2ae13f5eaab7cf",
+      "attributed_passages": [
+        "A [preprint on AI-related recommendations](https://arxiv.org/abs/2610.29785v1) examines how training and question wording affect whether models suggest AI or machine-learning options. The researchers report differences between pretrained and released instruction-tuned systems, and changes associated with training data and framing. The measured frequency is not a direct score of whether the advice is appropriate. Some problems genuinely call for an AI component."
+      ]
+    },
+    "authorization-agent-boundaries": {
+      "metadata": {
+        "article_id": "art_51ebab1d094c7d60",
+        "story_key": "https://arxiv.org/abs/2610.27548",
+        "title": "Task completion needs an independent authorization check",
+        "summary": "AuthorizationBench examines whether agents stay inside delegated scope even when they can finish the task. The enterprise decision is where permission is enforced, observed, and reviewed.",
+        "section": "Security",
+        "edition_date": "2026-10-21",
+        "published_at": "2026-10-24T22:46:52.112786Z",
+        "retrospective": true,
+        "rank": 1,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.27548v1",
+          "published_at": "2026-10-20T03:01:39Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-20T03:01:39Z",
+          "discovered_url": "https://arxiv.org/abs/2610.27548"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.27548v1",
+            "title": "Act on Your Behalf, Beyond Your Authorization — AuthorizationBench",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-20T03:01:39Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/authorization-agent-boundaries.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A slate route of small task blocks leads toward a completed square on the far right. An orange rectangular authorization boundary encloses only the first part of the route; one thin path attempts to continue outside it and is visibly stopped by a small separate slate gate. The completion square is distinct from the permission boundary. Clear visual metaphor that finishing a task does not grant permission for every action.",
+          "generated_at": "2026-10-24T22:15:16.890Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 806,
+          "alt": "A task path extends toward completion beyond an orange permission boundary, where a separate gate stops it.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Make delegated scope an explicit acceptance criterion and enforce consequential actions at the tool boundary.",
+        "individual_action": "Separate preparing a proposed action from executing it, and preserve the confirmation that authorizes execution.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.27548v1 Announce Type: new Abstract: When an LLM agent acts on behalf of a user, it is expected to act within the authorization scope the user grants. Existing agent evaluations largely measure task completion or harmful consequences and can therefore overlook actions that violate this delegation without producing conventional safety or privacy harms. We introduce AuthorizationBench, a benchmark of authorization alignment grounded in documented real-world cases. A scalable construction pipeline produces 286 executable tasks spanning situational triggers, the presence or absence of direct harmful consequences, and ten application domains. We execute every task with four models at two reasoning-effort settings across three agent harnesses in an authorization-aware sandbox that keeps authorized and out-of-authorization paths executable and observable, yielding 6,864 trajectories. Agents act out of authorization in 19.2% of trajectories, with rates ranging from 10.5% to 26.6% across the 24 configurations. Task completion does not imply authorization. Increasing reasoning effort leaves the aggregate rate nearly unchanged, with effects varying across models. On controlled pairs, agents act out of authorization at similar rates with (17.9%) and without (20.8%) direct harmful consequences, and more often under benign pressures than malicious injections (23.5% versus 17.6%, p=0.002). Our results show that task capability, additional reasoning, and consequence-oriented safety evaluation do not by themselves ensure authorization alignment. Moreover, agents that consult the principal before completing a task exhibit lower rates of out-of-authorization behavior (14.0% versus 21.6%, p<0.001), pointing to a tension between agent autonomy and preserving users' decision authority that calls for further human-centered study. Dataset and code are available at https://github.com/PEACH-Research-Lab/AuthorizationBench .",
+        "feed_title": "Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment [ ~ ] [ ◼ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c",
+      "anchors": [
+        "describe-the-authority-that-was-granted",
+        "observe-the-path-not-only-the-final-answer",
+        "put-consequential-checks-near-execution",
+        "preserve-a-usable-handoff",
+        "test-one-boundary-all-the-way-through"
+      ],
+      "body_sha256": "28ed0b3f17e16cee51c90ffc05e865274469afb428f367d12a21f99ff6630d88",
+      "attributed_passages": [
+        "The [AuthorizationBench preprint](https://arxiv.org/abs/2610.27548v1) evaluates delegated scope across executable tasks and several model and harness configurations. The authors report out-of-authorization behavior in 19.2% of their trajectories. They also find that more reasoning effort leaves the aggregate rate nearly unchanged. These are benchmark results within a specified setup, not an estimate of the failure rate of every enterprise agent."
+      ]
+    },
+    "calibrated-disposition-drift": {
+      "metadata": {
+        "article_id": "art_2790d5e5427b4862",
+        "story_key": "https://arxiv.org/abs/2610.25735",
+        "title": "Safety drift needs a measuring instrument you can trust",
+        "summary": "A new preprint examines how fine-tuning and reasoning settings can change model behavior. Its practical contribution is a reminder to validate the measurement before treating a safety score as stable.",
+        "section": "Security",
+        "edition_date": "2026-10-20",
+        "published_at": "2026-10-24T22:21:03.129995Z",
+        "retrospective": true,
+        "rank": 4,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.25735v1",
+          "published_at": "2026-10-19T03:41:20Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-19T03:41:20Z",
+          "discovered_url": "https://arxiv.org/abs/2610.25735"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.25735v1",
+            "title": "A Calibrated Instrument for Detecting Disposition Drift in Language Models",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-19T03:41:20Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/calibrated-disposition-drift.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. Two thin slate behavior curves sit on a sparse geometric measurement grid, one remaining level and the other drifting gradually upward. A fine orange vertical calibration bracket precisely marks their separation at the right. Small slate reference ticks remain steady below. Minimal graphic about measuring a subtle change against a trustworthy baseline, rather than trusting an uncalibrated score.",
+          "generated_at": "2026-10-24T22:19:30.430Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 805,
+          "alt": "Two slate behavior profiles are aligned against a fine calibration grid, with one orange deviation made visible.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Require a measured evaluation baseline when approving fine-tuning or inference-configuration changes.",
+        "individual_action": "Preserve the scoring configuration and examine disagreements before concluding that behavior improved or regressed.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "Researchers have developed a calibrated measurement method to detect small shifts in harmful traits of language models, such as willingness to provide dangerous or deceptive advice, which can degrade after fine-tuning or training changes. Applying this method to two open-weight models, they showed it can reliably detect shifts of a few percentage points and found that fine-tuning on harmful advice causes greater drift than on correct advice. Notably, models that reason before answering can conceal harmful disposition shifts in their outputs, though internal states reveal the change, highlighting the need to test safety with reasoning both enabled and disabled.",
+        "feed_title": "Researchers develop calibrated method to detect subtle disposition drift in language models, revealing reasoning can mask harmful shifts during fine-tuning [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429",
+      "anchors": [
+        "establish-what-a-score-can-resolve",
+        "change-one-part-of-the-configuration-deliberately",
+        "keep-behavioral-categories-separate",
+        "make-the-measurement-part-of-change-approval"
+      ],
+      "body_sha256": "8cf2bd78b9f0392488d250513fdda551c704c1ae9a47cbe34bae650335ca7274",
+      "attributed_passages": [
+        "A [new preprint on disposition drift](https://arxiv.org/abs/2610.25735v1) applies a calibrated measurement approach to two open-weight models. The researchers report that they could detect shifts of a few percentage points, and that reasoning settings could obscure a change in the answers while another measurement exposed it. These are scoped research results. They do not establish a universal diagnostic for every model or application."
+      ]
+    },
+    "citation-relevance-verification": {
+      "metadata": {
+        "article_id": "art_1353be402f8662ba",
+        "story_key": "https://arxiv.org/abs/2610.29812",
+        "title": "A real citation can still support the wrong claim",
+        "summary": "A biomedical claim-verification study finds that valid publication identifiers can hide irrelevant evidence. Enterprise retrieval systems should test the relationship between a claim and its source, beyond link existence.",
+        "section": "Security",
+        "edition_date": "2026-10-22",
+        "published_at": "2026-10-24T22:46:52.117360Z",
+        "retrospective": true,
+        "rank": 4,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.29812v1",
+          "published_at": "2026-10-21T14:35:56Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-21T14:35:56Z",
+          "discovered_url": "https://arxiv.org/abs/2610.29812"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.29812v1",
+            "title": "Real PMIDs, Wrong Papers — harness design for biomedical claim-verification agents",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-21T14:35:56Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/citation-relevance-verification.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. Three open slate document rectangles each contain a distinctive small geometric evidence shape. A thin slate reference line connects a claim tile to a document with a mismatched shape, while an orange correction line connects it to the matching shape in another document. Minimal graphic showing that a valid reference link is different from relevant supporting evidence.",
+          "generated_at": "2026-10-24T22:30:24.847Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "A valid document marker connects to the wrong evidence tile, while an orange link identifies the claim’s actual source relationship.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Require evidence of claim-to-source relevance in retrieval evaluations, alongside checks that citations resolve.",
+        "individual_action": "Open the cited material and verify the specific claim and context before treating the link as support.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.29812v1 Announce Type: cross Abstract: Literature-searching language agents are becoming a standard component of scientific assistants for the life sciences, yet there is little controlled evidence on which parts of their harness matter. We run a controlled ablation on biomedical claim verification (SciFact) with the live PubMed API as the only tool. Holding the backbone and output format fixed, we compare four harnesses: closed-book answering, single-shot retrieval using the claim as the query, a ReAct-style agent that writes its own PubMed queries, and an oracle given the gold abstracts, each with two efficient frontier backbones. Naive single-shot retrieval finds the gold paper for only 6% of claims and turns overconfident errors into abstentions without improving accuracy. Letting the model formulate its own queries triples gold recall and yields the best verdicts (62% accuracy vs. 49-59% for the other realistic harnesses), although these differences are not significant at our sample size and agents use fewer than half of their search budget. With gold abstracts, the same models reach 79-86% accuracy, a significant 17-24 point gap showing that retrieval, not reasoning, is the main bottleneck. Finally, a citation audit shows that closed-book models cite PubMed IDs that almost always exist (327/335) but are almost never relevant: a cross-family LLM judge rates only 3 of 327 existing citations as relevant to the claim, versus 67% for citations produced by the search agent. Existence checks are therefore insufficient safeguards for scientific agents. We release code, prompts, and all cached tool calls at https://github.com/saqlain2204/real-pmids-wrong-papers.",
+        "feed_title": "Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents [ ~ ] [ ◼ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49",
+      "anchors": [
+        "define-what-the-reference-must-establish",
+        "separate-search-from-interpretation",
+        "preserve-scope-and-version",
+        "make-insufficient-evidence-an-acceptable-result",
+        "audit-a-small-set-of-real-answers"
+      ],
+      "body_sha256": "21cc55596f7fd530ee63e7f4ff4472bc0d77ded41b77628d39eab062fe24c9f1",
+      "attributed_passages": [
+        "A [preprint on biomedical claim-verification agents](https://arxiv.org/abs/2610.29812v1) studies that distinction using a controlled task and PubMed retrieval. The authors report that closed-book models often supplied identifiers for real papers while those papers rarely supported the claims being checked. Their experiments also separate retrieval limitations from the performance possible when relevant abstracts are supplied. The study is narrow and some comparisons are not statistically resolved at its sample size."
+      ]
+    },
+    "context-sensitive-model-boundaries": {
+      "metadata": {
+        "article_id": "art_43a5a6eafd6c005a",
+        "story_key": "https://arxiv.org/abs/2610.30751",
+        "title": "Model boundaries need tests that vary the context",
+        "summary": "A controlled pay-stub editing study probes how context changes model responses. It supports a focused application test, while its simulated setting limits conclusions about real-world outcomes or overall ethics.",
+        "section": "Security",
+        "edition_date": "2026-10-23",
+        "published_at": "2026-10-24T22:46:52.121886Z",
+        "retrospective": true,
+        "rank": 4,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.30751v1",
+          "published_at": "2026-10-22T05:19:49Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-22T05:19:49Z",
+          "discovered_url": "https://arxiv.org/abs/2610.30751"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.30751v1",
+            "title": "How Firm Are AI Models’ Ethical Boundaries? A pay-stub editing test of 15 models",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-22T05:19:49Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/context-sensitive-model-boundaries.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. Three identical blank slate document panels stand side by side, each within a different fine geometric context frame: open square, open circle, and open triangle. The same small orange modification tile approaches each document, and subtle stop bars mark differing responses. Abstract, balanced graphic about testing the effect of context on model boundaries. No realistic financial documents or imitation forms.",
+          "generated_at": "2026-10-24T22:37:42.966Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 805,
+          "alt": "The same orange modification tile approaches identical blank documents through three different geometric context frames.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Test consequential document workflows across relevant contexts and enforce the authorized operation outside the model.",
+        "individual_action": "Distinguish a model’s proposed tool call from a verified real-world action when reviewing evaluation results.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.30751v1 Announce Type: new Abstract: Can a small change in wording move an AI model from refusing a sensitive request to acting on it? We test 15 models on the same request to increase the income shown on a pay stub. Across 445 observable trials, models issue editing calls in 14.1% of cases when a loan purpose is stated, 33.1% when the purpose is omitted, and 66.2% when the change is described as fixing a printing error. Astra refuses all ten loan-purpose requests but issues calls in all ten purpose-omitted trials. Fable, Opus, and Muse Spark issue none across all three wordings; Sonnet issues some under the latter two. Response excerpts illustrate different ways of refusing, redirecting, or justifying an edit. The file is a marked test document and all tools are simulated. These results probe how boundaries behave in one setting; they do not prove an overall ethics ranking or that a harmful real-world edit succeeded.",
+        "feed_title": "How Firm Are AI Models' Ethical Boundaries? A Pay-Stub Editing Test of 15 Models [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641",
+      "anchors": [
+        "define-the-authorized-operation-first",
+        "change-context-without-changing-the-core-test",
+        "score-attempts-and-effects-separately",
+        "preserve-the-uncertainty-in-the-result",
+        "turn-the-finding-into-an-operating-check"
+      ],
+      "body_sha256": "a5404a156f48694ede5cb693ec4d3c024f2327a52ffbd215ffb7290daeef35f5",
+      "attributed_passages": [
+        "A [preprint testing document-editing boundaries](https://arxiv.org/abs/2610.30751v1) compares 15 models across several contexts for the same core request. The researchers report substantially different rates of attempted editing calls. They use marked test material and simulated tools, and explicitly caution against treating the results as an overall ethics ranking or proof that a harmful real-world edit succeeded."
+      ]
+    },
+    "cost-aware-ticket-routing": {
+      "metadata": {
+        "article_id": "art_acf94d966a173a22",
+        "story_key": "https://arxiv.org/abs/2610.31657",
+        "title": "The best ticket-routing decision may be to defer",
+        "summary": "A cost-aware IT-routing study makes human triage an explicit option. Its results favor evaluating the whole decision policy, including the cost of a wrong route and the capacity of the review queue.",
+        "section": "Enterprise Ops",
+        "edition_date": "2026-10-23",
+        "published_at": "2026-10-24T22:46:52.125806Z",
+        "retrospective": true,
+        "rank": 1,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.31657v1",
+          "published_at": "2026-10-22T17:58:52Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-22T17:58:52Z",
+          "discovered_url": "https://arxiv.org/abs/2610.31657"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.31657v1",
+            "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-22T17:58:52Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/cost-aware-ticket-routing.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A stream of small slate ticket rectangles approaches a precise fork. Most follow a solid slate automatic-routing lane; a few cross a narrow orange threshold gate into a clearly organized second review lane. One stray pale ticket is stopped before the wrong endpoint. Elegant graphic about selective automation and a useful option to defer uncertain IT tickets.",
+          "generated_at": "2026-10-24T22:30:41.806Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "An orange threshold diverts uncertain tickets into an organized review lane while routine tickets continue automatically.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Compare automatic routing, human triage, and selective deferral using costs and workload conditions your service desk can defend.",
+        "individual_action": "Keep a held-out test set and select any routing threshold on separate calibration data.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.31657v1 Announce Type: new Abstract: Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four large language models under zero- and few-shot prompting. Under the illustrative cost model (c_ok, c_triage, c_wrong) = (0, 1, 5), TF-IDF with logistic regression and a threshold of 0.60 selected on calibration reduces test cost from 0.763 to 0.472, a 38.1% relative reduction (paired ratio-bootstrap 95% CI [35.7%, 40.4%]), while lowering wrong routes from 15.3% to 3.5%. Frozen calibration-selected policies also beat both always-route and always-defer on held-out test data in 14 of 16 settings in a post-hoc cost-parameter analysis. The strongest prompted configuration reaches 0.477 accuracy on a stratified 1,000-ticket test subset, versus 0.879 for fine-tuned DistilBERT on the same tickets. Isotonic lowers expected calibration error without reliably improving discrimination: GPT-4o-mini few-shot has one confidence value before and after recalibration and correctness AUROC 0.500. We therefore report correctness AUROC and tie-aware risk-coverage area alongside ECE. At the analytically derived break-even probability 0.80, seven prompted configurations defer all tickets; Haiku few-shot routes only 19/1,000. An LLM-only agreement control and margin/entropy rejection baselines further separate calibration from discrimination. The findings are scoped to this dataset, prompt design, model endpoints, and illustrative costs; the work is an evaluation framework, not a new abstention algorithm or universal deployment certification.",
+        "feed_title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+        "rating": "",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623",
+      "anchors": [
+        "put-the-alternatives-in-the-cost-model",
+        "keep-threshold-selection-out-of-the-final-test",
+        "check-whether-confidence-separates-errors",
+        "give-simple-baselines-a-fair-comparison",
+        "pilot-the-handoff-as-well-as-the-classifier"
+      ],
+      "body_sha256": "29f3976087224d258977edb74e1cce438e8cfc25f2af67a89fdd3cac649e01ee",
+      "attributed_passages": [
+        "A [cost-aware ticket-classification preprint](https://arxiv.org/abs/2610.31657v1) tests frozen routing policies on a public eight-class support-ticket corpus. Under an illustrative cost model, the authors report a 38.1% relative cost reduction for a thresholded logistic-regression configuration, alongside fewer wrong routes. They also find substantial limitations in the prompted LLM configurations tested. The paper explicitly limits its findings to the dataset, endpoints, prompts, and assumed costs; it is not a universal deployment certificate."
+      ]
+    },
+    "hidden-instructions-public-pages": {
+      "metadata": {
+        "article_id": "art_55c3c0be518a12ff",
+        "story_key": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+        "title": "Retrieved pages need an evidence boundary",
+        "summary": "Redact’s WhatsApp investigation shows why a retrieved page can contain instructions as well as information. An enterprise assistant needs a clear rule for which material may influence its behavior.",
+        "section": "Security",
+        "edition_date": "2026-10-20",
+        "published_at": "2026-10-24T22:21:03.133926Z",
+        "retrospective": true,
+        "rank": 1,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+          "published_at": "2026-10-19T16:00:00Z",
+          "precision": "second",
+          "verification": "jsonld",
+          "evidence": "Publisher JSON-LD and article:published_time=2026-10-19T16:00:00+00:00; dated substantive response update",
+          "discovered_url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+        },
+        "sources": [
+          {
+            "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+            "title": "WhatsApp help pages contained hidden AI instructions",
+            "publisher": "redact.dev",
+            "published_at": "2026-10-19T16:00:00Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/hidden-instructions-public-pages.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. An open stack of thin rectangular document sheets sits on the left. A very fine orange path hidden between the sheets bypasses a small slate reading aperture in the center and bends the direction of a neat outgoing slate arrow on the right. Clearly show the difference between visible document content and a concealed instruction changing an assistant's route. Flat geometric visual metaphor for a web page attempting to influence an AI reader.",
+          "generated_at": "2026-10-24T22:00:38.298Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "An orange path hidden among document sheets bypasses a reading gate and redirects the outgoing answer.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Require assistants to distinguish retrieved evidence from instructions authorized by your organization and the user.",
+        "individual_action": "Check what the retrieval tool actually returns, including text that a normal browser view does not show.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "WhatsApp's help pages contained hidden instructions for AI chatbots that prevented them from recommending data protection authorities or citing privacy laws if users mentioned legal action or lawyers. These instructions contradicted WhatsApp's publicly stated privacy policy in Europe, which affirms users' rights to complain to regulators under GDPR. The hidden notes also advised the AI not to suggest manual account deletion or alternative phone numbers if users lost access to their phone number, directing them instead to wait for automatic deletion after extended inactivity.",
+        "feed_title": "WhatsApp's hidden AI instructions told chatbots not to recommend data protection regulators or cite privacy laws when users mentioned lawyers [ * ] [ ◼ ]",
+        "rating": "Important",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877",
+      "anchors": [
+        "review-the-input-the-assistant-receives",
+        "authority-is-a-separate-property",
+        "evaluate-changes-in-the-answer",
+        "make-correction-practical"
+      ],
+      "body_sha256": "d1898227db22726dc5a3eac01f47986e581953ae5467c07ccb6e28c2d0b2c3c9",
+      "attributed_passages": [
+        "[Redact’s investigation of WhatsApp help pages](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions) reports hidden instructions in material delivered to AI readers. Its dated update records WhatsApp’s explanation that notes intended for its support chatbot had appeared because of a bug and had been removed. The dispute concerns the origin and purpose of those notes; the operational issue is broader. Retrieval can bring another party’s behavioral directions into an assistant’s context alongside ordinary reference material."
+      ]
+    },
+    "kapitsa-local-inference-operations": {
+      "metadata": {
+        "article_id": "art_51c071c2515ec8fe",
+        "story_key": "https://github.com/nace-ai/kapitsa",
+        "title": "Kapitsa brings the control room onto your Mac",
+        "summary": "Kapitsa v0.2.15 pairs serving fixes with qualified performance claims. Running a coding model locally makes network access, retained conversations, and service recovery decisions part of the team's work.",
+        "section": "Vendors",
+        "edition_date": "2026-10-24",
+        "published_at": "2026-10-24T23:50:17Z",
+        "retrospective": true,
+        "rank": 3,
+        "reading_minutes": 5,
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0",
+        "publication_test_id": "ted-voice-full-publication-2026-10-24",
+        "eligibility": {
+          "url": "https://github.com/nace-ai/kapitsa/releases/tag/v0.2.15",
+          "published_at": "2026-10-23T22:59:15Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "GitHub release API id=422379728, tag_name=v0.2.15, published_at=2026-10-23T22:59:15Z, updated_at=2026-10-23T23:01:34Z; annotated tag 2cbe658e52c9d910e81725d92427a3437719b107 resolves to source commit 5c489cc69b397d2088aa165f9017129b4a724b7a",
+          "discovered_url": "https://github.com/nace-ai/kapitsa",
+          "verified_at": "2026-10-24T23:50:17Z",
+          "source_commit": "5c489cc69b397d2088aa165f9017129b4a724b7a"
+        },
+        "sources": [
+          {
+            "url": "https://github.com/nace-ai/kapitsa/releases/tag/v0.2.15",
+            "title": "Kapitsa 0.2.15 release notes",
+            "publisher": "Nace AI / GitHub",
+            "published_at": "2026-10-23T22:59:15Z",
+            "date_precision": "second"
+          },
+          {
+            "url": "https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/README.md",
+            "title": "Kapitsa overview at the v0.2.15 source commit",
+            "publisher": "Nace AI / GitHub",
+            "published_at": "2026-10-23T22:35:46Z",
+            "date_precision": "second",
+            "source_commit": "5c489cc69b397d2088aa165f9017129b4a724b7a",
+            "date_basis": "Pinned source-commit timestamp; historical documentation snapshot"
+          },
+          {
+            "url": "https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/usage.md",
+            "title": "Kapitsa usage: server access, peer routing, and SSD cache at v0.2.15",
+            "publisher": "Nace AI / GitHub",
+            "published_at": "2026-10-23T22:35:46Z",
+            "date_precision": "second",
+            "source_commit": "5c489cc69b397d2088aa165f9017129b4a724b7a",
+            "date_basis": "Pinned source-commit timestamp; historical documentation snapshot"
+          },
+          {
+            "url": "https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/kflash.md",
+            "title": "KFlash mechanism, measurements, and output qualifications at v0.2.15",
+            "publisher": "Nace AI / GitHub",
+            "published_at": "2026-10-23T22:35:46Z",
+            "date_precision": "second",
+            "source_commit": "5c489cc69b397d2088aa165f9017129b4a724b7a",
+            "date_basis": "Pinned source-commit timestamp; historical documentation snapshot"
+          },
+          {
+            "url": "https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/benchmarks.md",
+            "title": "Kapitsa benchmark methods and measurement qualifications at v0.2.15",
+            "publisher": "Nace AI / GitHub",
+            "published_at": "2026-10-23T22:35:46Z",
+            "date_precision": "second",
+            "source_commit": "5c489cc69b397d2088aa165f9017129b4a724b7a",
+            "date_basis": "Pinned source-commit timestamp; historical documentation snapshot"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/kapitsa-local-inference-operations.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. International Typographic Style translated into a crisp conceptual graphic: warm ivory paper (#F8F6F0), deep slate (#101820), restrained burnt-orange (#BF4714) signal, fine hairlines, precise geometry, ample negative space, flat matte finish. One clear visual relationship tied to this article. No text, letters, logos, gradients, photographic people, robots, watermarks, or decorative texture. Keep all essential forms comfortably inside the frame. Article-specific subject: running an inference engine on a local Mac still requires an explicit network boundary. Show a large thin rectangular workstation enclosure, with a small solid slate computational core inside. A fine horizontal connection leads from that core through one clear burnt-orange gate in the enclosure's right edge to two small peer-machine outlines outside. Use two small quiet slate operator-control marks inside the enclosure below the core, connected by fine rules, to suggest the local service must be maintained. The boundary and its single controllable connection are the dominant idea. No Apple marks, no interfaces, no pseudo-writing, no arrows, no additional accent colors. Strictly flat 2D geometry with generous warm-paper negative space, clear at thumbnail size, no shadows or 3D perspective. Generate at least 1536 pixels wide.",
+          "generated_at": "2026-10-24T23:48:32.368740Z",
+          "tool": "image_gen",
+          "width": 1734,
+          "height": 907,
+          "alt": "A slate inference core inside a workstation boundary connects through an orange gate to two peer computers, with operator controls below.",
+          "caption": "A conceptual illustration of a local inference service, its operator controls, and its network boundary."
+        },
+        "leader_action": "Assign an owner to a bounded local-inference pilot and approve its network, retention, and recovery choices before evaluating task outcomes.",
+        "individual_action": "Record the engine, model, and actual request destination, then check a long request and a recoverable failure on the approved pilot.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "Kapitsa is an inference engine designed for Apple Silicon Macs that runs models like Qwen, Nemotron, and Recursive's Flint locally, targeting coding agents and serving OpenAI and Anthropic APIs. It supports Macs with M1 or newer chips running macOS 14 Sonoma or later and offers command-line tools for model management and benchmarking. The engine achieves faster decoding speeds than competitors such as llama.cpp and Recursive's own engine across various Mac models, with features like tree speculative decoding, SSD prefix caching, and prompt prefill optimizations. Kapitsa also enables multi-request throughput improvements and supports running models across multiple Macs on a network to handle larger models. These performance enhancements position Kapitsa as a leading local inference solution on Apple Silicon, providing developers with efficient AI model execution and integration capabilities directly on their Macs without relying solely on cloud services.",
+        "feed_title": "Kapitsa launches as an Apple Silicon inference engine running Qwen, Flint, and other models locally with faster decoding and prompt reading on M1 to M5 Macs [ * ] [ ◼ ]",
+        "feed_published_at": "2026-10-24T07:00:38Z",
+        "feed_snapshot": "923ac0dcbfb49c724e6e7a304bd5cf1f5d920ee3",
+        "rating": "Important",
+        "technical_rating": "Important"
+      },
+      "hero_sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+      "anchors": [
+        "choose-where-the-boundary-sits",
+        "read-the-fixes-as-operating-evidence",
+        "ask-what-the-fast-number-measures",
+        "decide-what-remembered-work-may-retain",
+        "put-a-name-beside-the-service"
+      ],
+      "body_sha256": "91b6d330c3005e32cc608e21afcde4914be9d54276b192d95d94799be7b2919f",
+      "attributed_passages": [
+        "[Kapitsa's October 23 release, v0.2.15](https://github.com/nace-ai/kapitsa/releases/tag/v0.2.15), makes those responsibilities unusually visible. Alongside speed work, it includes input-handling fixes, packaging changes, and explicit testing qualifications. The [README at that release's source commit](https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/README.md) describes an Apple silicon inference engine for local coding models, with OpenAI and Anthropic API interfaces.",
+        "Kapitsa's [pinned usage guide](https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/usage.md#api-keys-and-network-access) says the default server listens on every address and requires no API key. Its documented `--private` option confines the service to the Mac, suppresses peer discovery, and prevents sending requests to other Macs. The guide also describes automatic routing to a peer that can hold a requested model in memory.",
+        "The [release notes](https://github.com/nace-ai/kapitsa/releases/tag/v0.2.15) report that the separate systemone server no longer crashes on questions longer than 2,048 tokens and rejects excessively deep JSON before parsing. They also describe a Flint Ultra decoding change as unverified on a GPU, and qualify the packaging work's testing.",
+        "The [release's benchmark documentation](https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/benchmarks.md#the-readmes-tables) records a downward revision of one M5 Pro 27B result to 606 tokens per second for prompt processing and 77 for decoding. It describes separate measurement sessions and cautions against assigning the differences to individual changes. A leaderboard cell needs that surrounding explanation.",
+        "The [KFlash documentation](https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/kflash.md) explains another distinction. A smaller drafter proposes possible continuations. The target model checks a tree of candidates and keeps an accepted path. The document reports gains that vary with the prompt and qualifications around the 35B model's behavior near numerical ties. The release also makes prompt-lookup rows opt-in until their extra work is justified by a cost model.",
+        "Faster follow-up turns can depend on retaining earlier work. Kapitsa's [SSD-cache documentation](https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/usage.md#ssd-prefix-cache) describes storing conversation state, including tokens, across restarts. It documents the cache location, permissions limited to the user's account, and an option to disable the disk cache."
+      ]
+    },
+    "litellm-release-authority": {
+      "metadata": {
+        "article_id": "art_552b4e59bc6342ea",
+        "story_key": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+        "title": "LiteLLM’s incident connects credentials to release authority",
+        "summary": "LiteLLM’s root-cause report describes a chain from exposed credentials to a malicious release. The operating question is whether apparently separate release controls depend on the same compromised authority.",
+        "section": "Security",
+        "edition_date": "2026-10-24",
+        "published_at": "2026-10-24T22:46:52.130460Z",
+        "retrospective": true,
+        "rank": 1,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+          "published_at": "2026-10-23T21:00:00Z",
+          "precision": "second",
+          "verification": "jsonld",
+          "evidence": "Publisher JSON-LD and article:published_time=2026-10-23T21:00:00.000Z",
+          "discovered_url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain"
+        },
+        "sources": [
+          {
+            "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+            "title": "LiteLLM security incident — the October 21 attack chain",
+            "publisher": "docs.litellm.ai",
+            "published_at": "2026-10-23T21:00:00Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/litellm-release-authority.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A thin slate chain connects a small credential diamond to a repository block, then an approval gate, then a final package cube drawn as flat geometric shapes. One continuous orange line crosses all three boundaries from the same initial credential, showing how apparent separate checks can share compromised authority. Minimal clean supply-chain editorial diagram, no attack instructions, brand marks, letters or numbers.",
+          "generated_at": "2026-10-24T22:37:58.905Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 806,
+          "alt": "An orange credential path crosses a repository, an approval gate, and a release package, linking apparently separate controls.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Map who can read release credentials, alter the build source, approve publication, and override the controls between those steps.",
+        "individual_action": "Review the official incident record for exposure assessment and preserve the exact artifact and version used by your application.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "LiteLLM disclosed that on October 21, 2026, a compromised version 1.107.0 of their software was published to PyPI and container registries following unauthorized access to their GitHub repositories. The breach originated from an exposed master key in a public repository in May 2026, which was not revoked, allowing a threat actor to gain owner-level access and exfiltrate additional tokens and credentials. The attacker used stolen GitHub CLI OAuth tokens to bypass security controls, manipulate release processes, and publish a malicious release by exploiting relaxed approval restrictions. LiteLLM detected the incident within hours, froze the malicious PyPI releases, and removed affected Docker images while revoking all potentially compromised tokens. The company highlighted the risks of failing to rotate exposed keys and provided a detailed timeline and investigation results in their security incident report.",
+        "feed_title": "LiteLLM reports malicious v1.107.0 release on PyPI and container registries after threat actor exploited exposed GitHub tokens in October 2026 [ ! ] [ ⬢ ]",
+        "rating": "Essential",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+      "anchors": [
+        "trace-authority-across-the-whole-release",
+        "keep-source-selection-visible",
+        "treat-agent-configuration-as-a-credential-surface",
+        "preserve-evidence-outside-the-obvious-path",
+        "turn-the-incident-into-a-local-review"
+      ],
+      "body_sha256": "448a01010ffe408c147f0f49e8d24bbf3a216116fd9b10d8e7afae52a9b967a9",
+      "attributed_passages": [
+        "In its [October 23 root-cause report](https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain), LiteLLM describes a chain from an exposed internal-service key to GitHub credentials, additional secret access, changes to release infrastructure, and publication of malicious version 1.107.0. The report distinguishes the attacker’s use of several identities and records overrides of repository protections. This is the project’s incident account; organizations assessing exposure should use its current official guidance and their own artifact records."
+      ]
+    },
+    "llm-proxy-visibility": {
+      "metadata": {
+        "article_id": "art_313154ba192d9eb5",
+        "story_key": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on",
+        "title": "Your AI gateway should make the work observable",
+        "summary": "A practitioner’s case for running an LLM proxy raises an operational question: can your team explain which application called which model, under whose credentials, and with what result?",
+        "section": "Enterprise Ops",
+        "edition_date": "2026-10-19",
+        "published_at": "2026-10-24T22:21:03.137685Z",
+        "retrospective": true,
+        "rank": 1,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+          "published_at": "2026-10-18T07:07:01Z",
+          "precision": "second",
+          "verification": "meta",
+          "evidence": "article:published_time=2026-10-18T07:07:01.000Z",
+          "discovered_url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+        },
+        "sources": [
+          {
+            "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+            "title": "A practitioner's case for operating an LLM proxy",
+            "publisher": "jrdsgl.com",
+            "published_at": "2026-10-18T07:07:01Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/llm-proxy-visibility.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. Four thin slate paths from four small application squares on the left converge through a single narrow orange observation gate in the center. The paths then separate toward three slate model endpoints on the right. Tiny open geometric observation ticks beneath the gate show distinct request identities retained rather than merged. Clean, precise visual metaphor for an accountable observable AI gateway.",
+          "generated_at": "2026-10-24T22:10:49.130Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "Several distinct application paths pass through an orange observation gate before reaching model endpoints.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Require a traceable identity and an accountable operator for each application using a shared AI gateway.",
+        "individual_action": "Trace one real request from the client through the gateway to the provider before relying on aggregate usage charts.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "The article argues that without operating a personal large language model (LLM) proxy, users lack visibility into the processes and data flow of LLM interactions. It emphasizes the challenges in verifying and understanding what occurs behind the scenes when relying on third-party LLM services. The discussion highlights concerns about transparency, control, and security when using external LLM providers, suggesting that running a local proxy can provide better insight and governance over AI model usage and data handling.",
+        "feed_title": "Discussion on the importance of running your own LLM proxy to monitor and understand large language model operations [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854",
+      "anchors": [
+        "start-with-one-request",
+        "separate-identity-from-convenience",
+        "logs-are-another-data-product",
+        "give-the-gateway-an-owner"
+      ],
+      "body_sha256": "632d613a710d088240b033393305b7ad0e2f3c9ba20c801aca6b24ad08289464",
+      "attributed_passages": [
+        "In a [practitioner’s argument for operating an LLM proxy](https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/), the useful part is the operational inventory: a controlled endpoint, records of which key called which model, virtual credentials, and the ability to change a provider without rebuilding every client. The author describes a personal and work practice, rather than presenting a controlled comparison or a universal product recommendation."
+      ]
+    },
+    "materials-structure-ml": {
+      "metadata": {
+        "article_id": "art_9692486eeb77934b",
+        "story_key": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+        "title": "Better materials AI starts with a better view of structure",
+        "summary": "MIT’s materials research points to a familiar enterprise problem: useful information disappears when complex records are flattened into text. The representation deserves as much scrutiny as the model.",
+        "section": "Enterprise Ops",
+        "edition_date": "2026-10-18",
+        "published_at": "2026-10-24T22:21:03.141924Z",
+        "retrospective": true,
+        "rank": 1,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+          "published_at": "2026-10-18T04:00:00Z",
+          "precision": "second",
+          "verification": "visible",
+          "evidence": "Publisher time element: 2026-10-18T04:00:00Z",
+          "discovered_url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018"
+        },
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+            "title": "Giving AI a crystal clear view of the materials world",
+            "publisher": "news.mit.edu",
+            "published_at": "2026-10-18T04:00:00Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/materials-structure-ml.webp",
+          "generated_at": "2026-10-24T21:55:38.740622+00:00",
+          "tool": "image_gen",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1 aspect ratio. International Typographic Style translated into a crisp conceptual graphic: warm ivory paper (#F8F6F0), deep slate (#101820), restrained burnt-orange (#BF4714) signal, fine hairlines, precise geometry, ample negative space, flat matte finish. Subject: making the structure of materials legible to machine learning. Composition: a precise three-dimensional crystal lattice of thin slate rods and tiny nodes on the left becomes a beautifully ordered flat network of small geometric tiles on the right; exactly one orange node and its connecting path carries the correspondence between the lattice and the network. Elegant, restrained technical editorial art, crisp vector-like edges but delivered as a raster image. No text, letters, numbers, logos, gradients, photographic people, robots, watermark, decorative texture, or visible paper grain. All essential forms comfortably inside the frame. Opaque warm ivory background.",
+          "width": 1536,
+          "height": 804,
+          "alt": "A crystal lattice connects through an orange path to a flat geometric representation of its structure.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Ask R&D teams to compare structure-aware representations with a text-only baseline before funding a larger model.",
+        "individual_action": "Identify which physical relationships your dataset loses when a complex record becomes a paragraph.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+        "feed_title": "Giving AI a \"crystal clear\" view of the materials world [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349",
+      "anchors": [
+        "the-information-lost-in-a-paragraph",
+        "synthetic-descriptions-need-a-reference",
+        "compare-representations-before-comparing-vendors",
+        "keep-the-experiment-connected-to-the-work"
+      ],
+      "body_sha256": "eed7c2c11e4d02188e9eca9eb070d9cf42847bb1ba4ce3f53c52dc6a28520778",
+      "attributed_passages": [
+        "[MIT reports a multimodal approach to crystalline materials](https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018) that connects atomic structures with natural-language descriptions. The researchers combine information about geometry with accounts of properties, processing, and potential uses. MIT says their structure-aware approach outperformed a text-only comparison and identified promising candidates for a battery-electrolyte query. Those are research findings, not a claim that a production materials-discovery service is ready to replace laboratory work."
+      ]
+    },
+    "memory-needs-relevance": {
+      "metadata": {
+        "article_id": "art_648d3adba52ea716",
+        "story_key": "https://arxiv.org/abs/2610.27524",
+        "title": "Agent memory needs a relevance test",
+        "summary": "MemDev-Bench examines memory across real repository histories. Its findings make applicability and preserved process information more useful design questions than the amount of material an agent remembers.",
+        "section": "Enterprise Ops",
+        "edition_date": "2026-10-21",
+        "published_at": "2026-10-24T22:46:52.135450Z",
+        "retrospective": true,
+        "rank": 2,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.27524v1",
+          "published_at": "2026-10-20T02:39:26Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-20T02:39:26Z",
+          "discovered_url": "https://arxiv.org/abs/2610.27524"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.27524v1",
+            "title": "MemDev-Bench — does memory help code agents?",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-20T02:39:26Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/memory-needs-relevance.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A current slate document sits on the right. Three older open geometric document tiles on the left are connected by thin lines; one orange connection correctly matches a small cutout in the current document, while two pale gray connections terminate before it. A precise visual metaphor for checking whether an old memory actually applies to the present repository state.",
+          "generated_at": "2026-10-24T22:15:33.280Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "One orange connection matches an older document’s shape to the current task while two irrelevant memory paths stop short.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Evaluate memory against current repository state and measure the failures introduced by irrelevant past experience.",
+        "individual_action": "Attach scope, source, and validity conditions to a reusable lesson rather than storing an unqualified instruction.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.27524v1 Announce Type: new Abstract: Code agents increasingly work on evolving real repositories, and memory systems aim to help them reuse earlier experience. However, such experience is diverse and evolving, so it remains unclear how memory systems organize it and thereby affect code agents. Existing benchmarks cannot answer this reliably because they lack either temporally valid histories or control over prior-task relevance. In this paper, we present MemDev-Bench to evaluate how memory systems affect code agents over diverse repository histories. It pairs each task with relevance-annotated earlier tasks from the same repository to build histories with controlled relevance. We also build an automated pipeline that reliably makes these earlier tasks executable and verifiable, producing 4,869 historical tasks for 555 base tasks. Based on MemDev-Bench, our systematic evaluation of memory systems across diverse development scenarios yields three main findings. (1) Memory mainly improves fine-grained localization and editing, increasing functional correctness. (2) Memory also causes failures on otherwise solvable tasks even with related history, and unrelated history tends to increase such failures. These failures mainly stem from agents reusing memory without reassessing its applicability. (3) Compared with using memory systems, directly providing agents with raw historical trajectories substantially reduces their steps. Further analysis suggests that agents save these steps by reusing process information that compressed memories tend to omit. These results suggest that future memory systems should preserve process information and reassess memory applicability against current task context.",
+        "feed_title": "MemDev-Bench: Does Memory Help Code Agents?Benchmarking Memory Systems over Real Repository Histories [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785",
+      "anchors": [
+        "record-the-conditions-behind-the-lesson",
+        "test-helpful-and-unhelpful-histories",
+        "preserve-process-where-it-matters",
+        "make-revision-an-ordinary-operation",
+        "start-with-a-small-replay"
+      ],
+      "body_sha256": "66fb1be644c03bc6fb05246882ea796b8f5f0eb38f36818c9781e9f49b5c33d5",
+      "attributed_passages": [
+        "The [MemDev-Bench preprint](https://arxiv.org/abs/2610.27524v1) builds controlled histories for coding tasks and examines how memory systems use them. The researchers find benefits in localization and editing, but also failures associated with reusing memories without reassessing their relevance. Their comparison with raw historical trajectories suggests that compressed memories can lose useful process information. Those findings are scoped to the benchmark and systems evaluated."
+      ]
+    },
+    "mercury-diffusion-serving": {
+      "metadata": {
+        "article_id": "art_614a0336a7737e51",
+        "story_key": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+        "title": "Mercury 3 puts generation speed inside a larger workflow",
+        "summary": "Inception’s diffusion-model release makes a case for faster interactive AI. A production evaluation still needs to measure the complete task, especially where waiting on tools or verifying actions dominates.",
+        "section": "Vendors",
+        "edition_date": "2026-10-20",
+        "published_at": "2026-10-24T22:21:03.144470Z",
+        "retrospective": true,
+        "rank": 3,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+          "published_at": "2026-10-19T00:00:00Z",
+          "precision": "day",
+          "verification": "visible",
+          "evidence": "Publisher time element datetime=2026-10-19T00:00:00.000Z; evaluated at day precision",
+          "discovered_url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        "sources": [
+          {
+            "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+            "title": "Diffusion at Scale — introducing Mercury 3",
+            "publisher": "inceptionlabs.ai",
+            "published_at": "2026-10-19T00:00:00Z",
+            "date_precision": "day"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/mercury-diffusion-serving.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. Three rows of separated tiny slate geometric tiles on the left are simultaneously arranged into three crisp, coherent horizontal bands on the right, with fine parallel alignment guides. A single narrow orange vertical bar marks a common synchronization point. Visual metaphor for parallel diffusion generation, controlled completion, and the difference between raw generation speed and serving a reliable enterprise workflow.",
+          "generated_at": "2026-10-24T22:00:55.140Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "Parallel rows of scattered slate tiles become ordered bands after crossing a shared orange synchronization line.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Measure end-to-end task latency and acceptance alongside model generation speed before changing an interactive service.",
+        "individual_action": "Separate time spent generating, waiting for tools, and checking results in one representative agent trace.",
+        "feed_name": "Ted Tschopp's AI News",
+        "feed_summary": "Estimated GAI-style rating: Optional. Rationale (estimate): Estimated from similar historically rated GAI selections. Selected in GAI Insights' briefing dated 2026-10-20. Briefing source: https://gaiinsights.com/articles.",
+        "feed_title": "Diffusion at Scale: Introducing Mercury 3 [ ~ ] (Estimated)",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8",
+      "anchors": [
+        "draw-the-timeline-the-user-experiences",
+        "test-the-serving-change-as-a-configuration",
+        "faster-errors-still-consume-attention",
+        "choose-a-bounded-pilot"
+      ],
+      "body_sha256": "5e26be5eecb4ce77376daa643f9dc9aaa3e342ae3abf89b180ca1c23b01f2b45",
+      "attributed_passages": [
+        "[Inception’s Mercury 3 release](https://www.inceptionlabs.ai/blog/introducing-mercury-3) makes the vendor’s case for diffusion language models in real-time applications. The announcement presents generation-speed and task-performance claims, describes API compatibility, and includes customer accounts of interactive uses. These are reasons to investigate the model on a suitable workload. They are not a measured result for an enterprise’s own service."
+      ]
+    },
+    "meta-terms-data-governance": {
+      "metadata": {
+        "article_id": "art_5eb559e50fd7886d",
+        "story_key": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+        "title": "A terms change should trigger a data-path review",
+        "summary": "Meta removed commercial-terms wording after scraping concerns. For enterprises, the useful response is to connect the contract review with an inventory of the content and systems the relationship touches.",
+        "section": "Policy",
+        "edition_date": "2026-10-18",
+        "published_at": "2026-10-24T22:21:03.148360Z",
+        "retrospective": true,
+        "rank": 2,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+          "published_at": "2026-10-17T21:31:32Z",
+          "precision": "second",
+          "verification": "meta",
+          "evidence": "article:published_time=2026-10-17T21:31:32+00:00; contemporaneous historical feed records the change",
+          "discovered_url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+        },
+        "sources": [
+          {
+            "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+            "title": "Meta removes language that raised scraping and AI training concerns",
+            "publisher": "techcrunch.com",
+            "published_at": "2026-10-17T21:31:32Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/meta-terms-data-governance.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. Two clean rectangular document panels lie side by side on a horizontal hairline. Thin slate text-like rules stop at the middle boundary. One orange geometric bracket isolates a small removed rectangle between them, while a set of fine parallel data paths continues below. A precise visual metaphor for the difference between changing contract wording and proving what happens to data.",
+          "generated_at": "2026-10-24T22:10:25.275Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 805,
+          "alt": "An orange bracket highlights removed wording between two document panels while data paths continue underneath.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Connect vendor-terms monitoring to an owned inventory of the business accounts, domains, and content involved.",
+        "individual_action": "Preserve the relevant terms version and bring the actual data flow to the contract discussion.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+        "feed_title": "Meta removes language that raised scraping and AI training concerns [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09",
+      "anchors": [
+        "find-the-relationship-before-debating-the-clause",
+        "separate-statements-from-observations",
+        "give-changes-a-route-into-operations",
+        "preserve-an-understandable-record"
+      ],
+      "body_sha256": "412b320e4a73a495e395528502e5be6dc621fbc65ab37bb40c60b2de2a7eb012",
+      "attributed_passages": [
+        "[TechCrunch reports that Meta removed commercial-terms language](https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/) after concerns about how it might apply to scraping and AI training. The report also records Meta’s explanation that its clarification concerned advertising and business products and did not change its web-crawling practices. Those are reported statements about the wording and the company’s position. They do not, by themselves, establish a legal conclusion about a particular enterprise’s content."
+      ]
+    },
+    "minimax-flash-task-economics": {
+      "metadata": {
+        "article_id": "art_b984a5c544e63137",
+        "story_key": "https://www.minimax.io/blog/minimax-m31f",
+        "title": "MiniMax makes completed-task economics worth measuring again",
+        "summary": "MiniMax’s M3.1 Flash announcement pairs lower quoted prices with agent benchmarks. The useful enterprise comparison is the cost of an accepted outcome, including retries, review, and failures.",
+        "section": "Vendors",
+        "edition_date": "2026-10-20",
+        "published_at": "2026-10-24T22:21:03.150593Z",
+        "retrospective": true,
+        "rank": 2,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://www.minimax.io/blog/minimax-m31f",
+          "published_at": "2026-10-19T00:00:00Z",
+          "precision": "day",
+          "verification": "jsonld",
+          "evidence": "Publisher JSON-LD datePublished=2026-10-19T00:00:00.000Z; treated as a whole UTC day, not an exact hour",
+          "discovered_url": "https://www.minimax.io/blog/minimax-m31f"
+        },
+        "sources": [
+          {
+            "url": "https://www.minimax.io/blog/minimax-m31f",
+            "title": "MiniMax M3.1 Flash — redefining agent performance and cost",
+            "publisher": "minimax.io",
+            "published_at": "2026-10-19T00:00:00Z",
+            "date_precision": "day"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/minimax-flash-task-economics.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A long horizontal series of small slate blocks, representing stages in an enterprise workflow, crosses the frame through three fine rectangular gates. One precise orange route completes all three gates and reaches a solid slate completion square. Smaller abandoned gray routes stop at earlier gates. Visual metaphor for measuring the cost of a successfully completed agent task rather than token speed alone.",
+          "generated_at": "2026-10-24T22:00:24.078Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "An orange route completes three workflow gates while alternative gray routes end before the completion square.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Compare models using cost per accepted task on your own workflow, with review and failure costs included.",
+        "individual_action": "Keep the task, tools, and acceptance criteria fixed when testing a cheaper model.",
+        "feed_name": "Ted Tschopp's AI News",
+        "feed_summary": "Estimated GAI-style rating: Optional. Rationale (estimate): Estimated from similar historically rated GAI selections. Selected in GAI Insights' briefing dated 2026-10-20. Briefing source: https://gaiinsights.com/articles.",
+        "feed_title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost [ ~ ] (Estimated)",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041",
+      "anchors": [
+        "define-completion-before-counting-tokens",
+        "hold-the-workflow-steady",
+        "keep-costs-outside-the-model-in-view",
+        "make-the-result-repeatable"
+      ],
+      "body_sha256": "707a5091edaf5f32176e20a85c36a4788be1289075aaf39cf67c10ceb4f4003c",
+      "attributed_passages": [
+        "In its [October 19 M3.1 Flash announcement](https://www.minimax.io/blog/minimax-m31f), MiniMax describes improvements in agent work, coding, computer use, and inference efficiency. The company quotes prices of $0.15 per million input tokens and $0.60 per million output tokens, with a lower cached-input rate, and says model weights will follow later. Its benchmark and relative-cost statements are vendor claims. They identify a candidate for evaluation rather than proving savings in a different company’s workflow."
+      ]
+    },
+    "multiagent-review-tradeoffs": {
+      "metadata": {
+        "article_id": "art_80b14f6a6fd391a6",
+        "story_key": "https://arxiv.org/abs/2610.27488",
+        "title": "More reviewing agents can mean more false alarms",
+        "summary": "A controlled financial-document review study finds tradeoffs when work is divided among agents. Enterprises should measure misses, false alarms, and total review effort before adopting a team architecture.",
+        "section": "Enterprise Ops",
+        "edition_date": "2026-10-21",
+        "published_at": "2026-10-24T22:46:52.141008Z",
+        "retrospective": true,
+        "rank": 4,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.27488v1",
+          "published_at": "2026-10-20T01:55:24Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-20T01:55:24Z",
+          "discovered_url": "https://arxiv.org/abs/2610.27488"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.27488v1",
+            "title": "The More the Better? Single- and multi-agent LLM setups on a financial review task",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-20T01:55:24Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/multiagent-review-tradeoffs.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A single slate document block at left splits into three clean review lanes that rejoin a final assessment block at right. Tiny solid slate dots mark detected findings, while a few open orange circles beside the lanes represent additional false alarms. A quiet lower hairline shows the simpler single-review path. Balanced flat visual metaphor for the cost and selectivity of dividing a document review among agents.",
+          "generated_at": "2026-10-24T22:19:59.414Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "Three document-review lanes rejoin with extra orange false-alarm circles beside a simpler single-review path.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Compare a proposed agent team against a simple baseline using the same documents, requirements, and cost accounting.",
+        "individual_action": "Track false alarms separately from caught defects so a busier reviewer does not automatically look better.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.27488v1 Announce Type: new Abstract: Practitioner guidance holds that a large language model reviews a document better when the work is divided among agents. We test a narrow form of it in a controlled comparison of single-agent and multi-agent setups on a financial task, reviewing credit assessment memos against requirements. One agent checks six requirements in one call. A team of three on the same model checks the same memo, two requirements each, in the same words, with no roles or later stage. Labels are known for every requirement on 300 synthetic memos, so misses and false alarms are measured separately. Two primary predictions are tested on four models at a Bonferroni-corrected level. Under an instruction to decide each requirement once, the team catches 0.08 to 0.10 more of the defects that carry an explanation on the three models whose single agent misses some, at the corrected level on two. It raises more false alarms on all four, at the corrected level on three. Balanced accuracy, an exploratory measure, changes by 0.02 or less, and the team uses 2.2 to 2.4 times the tokens. Showing each agent the requirements it was not given reduces the added false alarms on the two Claude models, at the corrected level on one. In exploratory comparisons, sampling the single agent three times and flagging on any draw gives higher balanced accuracy than the team on those models, and the team's results depend on the instruction.",
+        "feed_title": "The More the Better? A Comparison of Single- and Multi-Agent LLM Setups on a Financial Review Task [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a",
+      "anchors": [
+        "define-a-finding-that-somebody-can-use",
+        "count-the-cost-of-false-alarms",
+        "keep-the-comparison-fair",
+        "preserve-shared-context-carefully",
+        "choose-the-simplest-useful-architecture"
+      ],
+      "body_sha256": "bee51df1aa04319d0d244c210a9ec30bda3deaf6e3212f8975ede21f67b995d5",
+      "attributed_passages": [
+        "A [controlled comparison on credit-assessment memos](https://arxiv.org/abs/2610.27488v1) tests a single agent against a three-agent division of the same requirements. On synthetic memos with known labels, the team catches more of some defects but raises more false alarms and uses roughly 2.2–2.4 times the tokens. The results vary with the model and instructions. They do not establish that every multi-agent design is ineffective, or that the study reproduces an institution’s actual review process."
+      ]
+    },
+    "pew-task-level-adoption": {
+      "metadata": {
+        "article_id": "art_2a3e85161b6aae3f",
+        "story_key": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information",
+        "title": "General chatbot use does not establish adoption for a task",
+        "summary": "Pew’s election-information survey distinguishes broad chatbot use from use for one particular purpose. Enterprise adoption measures should make the same distinction between access, activity, and useful outcomes.",
+        "section": "Policy",
+        "edition_date": "2026-10-24",
+        "published_at": "2026-10-24T22:46:52.144917Z",
+        "retrospective": true,
+        "rank": 2,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/",
+          "published_at": "2026-10-23T14:29:42-04:00",
+          "precision": "second",
+          "verification": "jsonld",
+          "evidence": "Publisher JSON-LD and article:published_time=2026-10-23T14:29:42-04:00",
+          "discovered_url": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/"
+        },
+        "sources": [
+          {
+            "url": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/",
+            "title": "Few Americans Say They Are Asking AI Chatbots for 2026 Election Information",
+            "publisher": "pewresearch.org",
+            "published_at": "2026-10-23T14:29:42-04:00",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/pew-task-level-adoption.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. Subject: the difference between general use of a tool and use for one specific task. Composition: a large fine slate circular outline contains many small slate geometric activity markers; within it, a clearly smaller orange outlined region contains only a few markers, connected to a precise external task-shaped bracket on the right. Conceptual illustration rather than a literal statistical chart, with no quantities implied. No text, letters, numbers, logos, flags, voting symbols, gradients, shadows, photographic people, robots, watermarks, grain, or decorative texture. All essential forms comfortably inside the frame.",
+          "generated_at": "2026-10-24T22:42:49.965Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 806,
+          "alt": "A broad slate circle representing general use contains a much smaller orange task-specific region beside a precise scope bracket.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Define adoption for a specific user task and measure successful outcomes separately from general chatbot access or activity.",
+        "individual_action": "Check the denominator and the question behind an adoption statistic before applying it to another setting.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "A Pew Research Center survey of 5,273 U.S. adults conducted in October 2026 found that only about 8% of Americans are using AI chatbots like ChatGPT, Copilot, or Gemini to obtain information related to the 2026 midterm elections. Most users seek details on candidates' issue positions, fact-checking claims, and candidates' backgrounds, while fewer use chatbots for voting logistics or voting advice. The survey also revealed demographic differences, with adults under 50 more likely to use chatbots for election information (11%) compared to those 50 and older (4%). Overall, despite increased general use of AI chatbots, traditional sources remain the primary means for election-related information among the public.",
+        "feed_title": "Pew Research Center finds only 8% of Americans use AI chatbots for 2026 election information, with younger adults more likely to do so",
+        "rating": "",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105",
+      "anchors": [
+        "name-the-behavior-the-organization-needs",
+        "keep-the-denominator-in-view",
+        "distinguish-reported-use-from-observed-outcomes",
+        "keep-channels-and-evidence-usable",
+        "measure-one-useful-change"
+      ],
+      "body_sha256": "4093ddecd630654d78b180cda6550cd67cc1c0fb994474dfa8889dabd0ae7037",
+      "attributed_passages": [
+        "[Pew Research Center’s October 23 report](https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/) makes that distinction visible. In its survey of 5,273 U.S. adults, 8% say they are using AI chatbots for information related to the 2026 elections. The report contrasts that figure with much broader general chatbot use. This is a U.S. public-opinion study about a specific information task, not a measure of enterprise adoption or a finding about the quality of chatbot answers."
+      ]
+    },
+    "prompt-judge-evaluation": {
+      "metadata": {
+        "article_id": "art_4714611be4537b33",
+        "story_key": "https://arxiv.org/abs/2610.31148",
+        "title": "Evaluation scores need their prompts and judges attached",
+        "summary": "Two new studies show how wording, tool interfaces, judge choice, and language affect model comparisons. An enterprise scorecard needs to preserve those conditions and expose important reversals.",
+        "section": "Enterprise Ops",
+        "edition_date": "2026-10-23",
+        "published_at": "2026-10-24T22:46:52.148862Z",
+        "retrospective": true,
+        "rank": 2,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.31148v1",
+          "published_at": "2026-10-22T12:07:01Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-22T12:07:01Z",
+          "discovered_url": "https://arxiv.org/abs/2610.31148"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.31148v1",
+            "title": "Prompt Sensitivity in Tool-Augmented Model Comparisons",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-22T12:07:01Z",
+            "date_precision": "second"
+          },
+          {
+            "url": "https://arxiv.org/abs/2610.31172v1",
+            "title": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
+            "publisher": "arXiv",
+            "published_at": "2026-10-22T12:27:05Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/prompt-judge-evaluation.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. Three identical slate evidence tiles sit above three slightly different open geometric framing brackets. Their thin output lines lead to noticeably different arrangements of small result blocks. One orange alignment rule runs beneath all three to make the comparison visible. A restrained graphic about prompt wording, judge configuration, and the stability of AI evaluation.",
+          "generated_at": "2026-10-24T22:30:59.709Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "Identical evidence tiles pass through different framing brackets and produce different results along one shared comparison line.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Require comparison stability and important subgroup results alongside the headline evaluation score.",
+        "individual_action": "Rerun a meaningful comparison across reasonable prompt wordings and preserve the judge configuration.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "Researchers studied how equipping language models with external tools affects the stability of model comparisons on question-answering benchmarks with varied question wordings. They developed a protocol separating reasoning, tool use, and answer reporting steps, applying it to six open models across five domains and five question formulations. The study found that while tools improve accuracy when programs answer questions, they also increase sensitivity to prompt wording in many pairwise model comparisons, influenced by how often models call tools and the interface design. The sensitivity varied depending on the tool-calling interface and instructions; for example, a native tool interface and a second tool description eliminated detected sensitivity in molecular tasks, whereas sensitivity persisted when tools returned intermediate results. These results indicate that deterministic answer reports do not guarantee stable model comparisons, leading the researchers to recommend reporting both tool call frequency and comparison stability across multiple prompt wordings alongside accuracy metrics.",
+        "feed_title": "Researchers find tool-augmented language models increase accuracy but also widen prompt sensitivity in model comparisons across multiple domains and wordings [ ~ ] [ ◻ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc",
+      "anchors": [
+        "preserve-the-comparison-contract",
+        "test-reasonable-alternative-wordings",
+        "inspect-how-tools-enter-the-result",
+        "validate-the-judge-in-the-intended-setting",
+        "report-what-the-evidence-supports"
+      ],
+      "body_sha256": "09d3dca5d4d5f70f0607d0c8220c27b612694087c0b3eb78a89d26fecfd6a00f",
+      "attributed_passages": [
+        "One [new study of tool-augmented comparisons](https://arxiv.org/abs/2610.31148v1) examines six open models across five domains and five wordings. It finds settings where tools improve accuracy while making pairwise comparisons more sensitive to wording. A [second study of multilingual LLM judges](https://arxiv.org/abs/2610.31172v1) reports that prompting effects depend on the judge, task, and language, with some effects reversing across configurations."
+      ]
+    },
+    "recoverable-agent-changes": {
+      "metadata": {
+        "article_id": "art_825130cf8cb2d52f",
+        "story_key": "https://arxiv.org/abs/2610.27465",
+        "title": "Unattended agent changes need a real way back",
+        "summary": "A new preprint proposes measuring both verifier strength and recoverability before allowing an agent to improve itself unattended. An apparently successful approval loop is not enough evidence.",
+        "section": "Enterprise Ops",
+        "edition_date": "2026-10-21",
+        "published_at": "2026-10-24T22:46:52.152990Z",
+        "retrospective": true,
+        "rank": 3,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.27465v1",
+          "published_at": "2026-10-20T01:32:13Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-20T01:32:13Z",
+          "discovered_url": "https://arxiv.org/abs/2610.27465"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.27465v1",
+            "title": "Recoverability and Verifier Strength — two measured preconditions for unattended agent self-improvement",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-20T01:32:13Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/recoverable-agent-changes.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. Two identical rows of slate workflow blocks run horizontally, the original lower row preserved within a fine rectangular outline. In the upper row one block is orange and a thin curved return path leads to the exact preserved lower row. A small detached gray fragment remains outside both rows, indicating an external consequence that rollback cannot erase. Flat restrained graphic about saved versions, measured checks, and recoverable agent changes.",
+          "generated_at": "2026-10-24T22:15:47.643Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "An altered orange workflow block returns to an exact preserved row while an external gray consequence remains outside the rollback.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Permit unattended changes only where the verifier is tested and the exact prior artifact is retained.",
+        "individual_action": "Test restoring the saved version, then separately inspect consequences that restoration cannot undo.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.27465v1 Announce Type: new Abstract: Agent platforms are starting to improve their own agents: they read a deployed agent's execution traces, derive a change, have an automated verifier approve it, and release it with no human author. How much of this loop can safely run without a human? We propose two quantities a platform can measure. Verifier strength $\\sigma$ is how well the available verifier -- often an LLM judge -- agrees with a trusted reference verifier; it limits how much a step can improve the agent. Recoverability is how cheaply a bad change can be undone: whether undoing it needs a new verifier approval, and how much of the old behavior a rollback restores. A step should run unattended only if both are adequate. On our platform this rule allows prompt, tool and skill edits to run unattended and keeps weight updates under human sign-off. Our main contribution is these two definitions and how to measure them. We built a platform that applies the rule and tested it in two ways: on the platform's own approval gate, and in controlled experiments on the $\\tau^2$-bench agent benchmark. On verifier strength, the platform's LLM judge sometimes gave the same score no matter what it was shown (9 of 37 settings) and reported no error, so a verifier can look healthy while approving anything; its strength must be measured, and two simple tests catch the failure. On recoverability, restoring a saved copy brought the agent back to its original behavior, but a regenerated undo did not, so only changes whose old version is kept can be reversed without a human; and while a change was deployed, it altered the outcome of 17 percent of tasks beyond normal run-to-run variation, which no undo repairs. Together these support the rule: a change can run unattended only when its old version is kept and its verifier's strength has been measured.",
+        "feed_title": "Recoverability and Verifier Strength: Two Measured Preconditions for Unattended Agent Self-Improvement [ ~ ] [ ◼ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2",
+      "anchors": [
+        "give-the-verifier-a-known-challenge",
+        "preserve-the-exact-artifact",
+        "separate-restoration-from-remediation",
+        "bound-the-improvement-loop",
+        "demonstrate-the-failure-path-first"
+      ],
+      "body_sha256": "8db815e7abddd3452ae971ec3c02e526f5a8649755234be30875b8edb5b1d000",
+      "attributed_passages": [
+        "A [preprint on recoverability and verifier strength](https://arxiv.org/abs/2610.27465v1) proposes measuring both properties before unattended improvement. In its experiments, some judge configurations produced effectively uninformative scores without reporting an error. Restoring a saved version recovered prior behavior more reliably than asking the system to generate an undo. These are results from the authors’ platform and controlled tests, not a certification rule for every deployment."
+      ]
+    },
+    "scope-executable-policy": {
+      "metadata": {
+        "article_id": "art_26bdab7224d77ff2",
+        "story_key": "https://arxiv.org/abs/2610.31062",
+        "title": "Compound policies need inspectable decisions",
+        "summary": "SCOPE explores compiling natural-language policies into smaller predicates and explicit logic. The enterprise opportunity is a policy decision whose components can be tested, explained, and maintained separately.",
+        "section": "Security",
+        "edition_date": "2026-10-23",
+        "published_at": "2026-10-24T22:46:52.157329Z",
+        "retrospective": true,
+        "rank": 3,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.31062v1",
+          "published_at": "2026-10-22T10:41:13Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-22T10:41:13Z",
+          "discovered_url": "https://arxiv.org/abs/2610.31062"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.31062v1",
+            "title": "SCOPE — compiling natural-language policies into neurosymbolic predicate programs",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-22T10:41:13Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/scope-executable-policy.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A tidy slate policy document at left is decomposed into three small separate geometric condition nodes in the center. Fine lines connect the conditions to one explicit orange combination gate, then to a single slate decision square at right. Each condition remains separately visible. Elegant minimal graphic about compiling a compound policy into inspectable tests and deterministic composition.",
+          "generated_at": "2026-10-24T22:37:29.510Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "A policy document separates into three visible condition nodes that meet at an orange composition gate.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Require a reviewed mapping from the policy to its executable checks, with examples that challenge each condition.",
+        "individual_action": "Inspect which predicate or extractor produced a verdict before treating the overall result as explained.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "arXiv:2610.31062v1 Announce Type: new Abstract: Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM-as-a-judge approaches achieve higher accuracy, they incur high inference cost and tend to produce unstable predictions. Neurosymbolic methods offer a natural alternative, decomposing the policy into narrow neural decisions composed under explicit logic. However, existing symbolic layers lack the required expressiveness and are optimized against fixed data rather than the policy itself. To address this, we introduce SCOPE, which compiles a policy into an executable program of neural predicates executed by small models, deterministic extractors, and code that composes their outputs. The program is optimized jointly with its training data, using adversarial generation of counterexamples that target where the program deviates from the policy. We evaluate SCOPE on a benchmark of real-world policy tasks against prompt optimization, task decomposition, and workflow generation methods, achieving the highest average accuracy across tasks and models. Programs optimized with the weakest executor transfer to other models without further optimization. This allows them to be deployed in production on inexpensive models, where they reach accuracy comparable to frontier reasoning models. Unlike these monolithic models, SCOPE produces substantially more stable predictions, and each verdict is interpretable through the predicate outputs that produced it. Additionally, we validate the key components of our method through an ablation study. SCOPE thus enables reliable, interpretable, and efficient policy enforcement at production scale.",
+        "feed_title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs [ ~ ] [ ◼ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f",
+      "anchors": [
+        "make-the-policy-interpretation-reviewable",
+        "separate-extraction-from-judgment",
+        "test-combinations-and-boundaries",
+        "preserve-uncertainty-through-composition",
+        "maintain-the-program-with-the-policy"
+      ],
+      "body_sha256": "fe08b61de73707bd763dee11df07ee4eb4bd58400a4cc68c2247e96014eb6ec3",
+      "attributed_passages": [
+        "The [SCOPE preprint](https://arxiv.org/abs/2610.31062v1) explores compiling such policies into programs composed of smaller neural predicates, deterministic extractors, and explicit logic. The authors optimize the program with counterexamples and report favorable accuracy and stability on their evaluated policy tasks. Those findings are research evidence for the approach, not a proof that an automatically compiled enterprise policy is correct in every situation."
+      ]
+    },
+    "typed-decisions": {
+      "metadata": {
+        "article_id": "art_178c37e603121edb",
+        "story_key": "https://arxiv.org/abs/2610.29052",
+        "title": "Some AI decisions do not need a paragraph",
+        "summary": "A typed-decision preprint explores reading a fixed set of options in one forward pass. The opportunity is narrower, cheaper decision work with explicit labels and a measured failure policy.",
+        "section": "Enterprise Ops",
+        "edition_date": "2026-10-22",
+        "published_at": "2026-10-24T22:46:52.161396Z",
+        "retrospective": true,
+        "rank": 2,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://arxiv.org/abs/2610.29052v1",
+          "published_at": "2026-10-21T01:28:58Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "arXiv API published=2026-10-21T01:28:58Z",
+          "discovered_url": "https://arxiv.org/abs/2610.29052"
+        },
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2610.29052v1",
+            "title": "Our Own Jev — typed decisions in one forward pass",
+            "publisher": "arxiv.org",
+            "published_at": "2026-10-21T01:28:58Z",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/typed-decisions.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A small slate evidence stack feeds directly into a clean fan of four fixed geometric option slots. One compact orange probability bar sits under the chosen slot while three shorter slate bars sit under the others. No numbers or letters. Visual metaphor for a typed classification decision with explicit options, rather than producing a long stream of generated prose.",
+          "generated_at": "2026-10-24T22:26:02.994Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 805,
+          "alt": "A compact evidence stack fans into four fixed geometric choices, with an orange bar highlighting one selected option.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Identify repeated fixed-option decisions and compare a specialized path against the current generative workflow.",
+        "individual_action": "Define the option set and test ambiguous cases before optimizing the way a model returns its choice.",
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_summary": "Researchers present a typed decision approach that computes probabilities for fixed options in one forward pass by reading language model logits or a small head over hidden states, avoiding text generation and parsing. They describe an in-house System 1 judge that triages about 148,000 coding session records, replacing a costly frontier LLM judge with a self-hosted frozen backbone and LoRA adapter, reducing cost to roughly 1% and processing 1,000 sessions in about three minutes on one GPU. The study also evaluates whether a readout adding no parameters can be competitive by applying the Eikos recipe and a corpus of 25,000 decisions to three LoRA-adapted decoder backbones (1B, 2B, and 35B parameters). Their 35B model scores 79.3% on 111 hard JevBench items, comparable to a commercial reference at 73.0%, and outperforms several open systems. They find no benefit from training the output layer's letter rows, and retraining on a later corpus release improves the 2B model's accuracy by 11.7 points, highlighting the limitations of small evaluations.",
+        "feed_title": "Researchers develop an in-house System 1 judge using LoRA adapters to triage coding sessions at 1% of frontier LLM cost and evaluate open LoRA models on JevBench with competitive accuracy [ ~ ] [ ◼ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf",
+      "anchors": [
+        "start-with-a-stable-question",
+        "separate-the-decision-from-its-explanation",
+        "compare-against-modest-baselines",
+        "make-confidence-support-an-action",
+        "pilot-a-repeated-decision"
+      ],
+      "body_sha256": "e6d757c23bb99f2ac2eff7e95af806ccb6f846290771b0a4044cec95d27b2a23",
+      "attributed_passages": [
+        "A [preprint on typed decisions](https://arxiv.org/abs/2610.29052v1) examines fixed-option outputs derived in one forward pass. The authors describe an internal coding-session triage use and experiments with adapted open models. They report substantial cost differences in their setting while also exposing limitations in small public benchmarks and sensitivity to the training corpus. Those details matter: an inexpensive internal configuration is evidence for a local experiment, not a universal cost or accuracy guarantee."
+      ]
+    },
+    "voxtral-voice-workflow": {
+      "metadata": {
+        "article_id": "art_4c6292fc5ecba5f2",
+        "story_key": "https://mistral.ai/news/voxtral-3",
+        "title": "A voice agent needs to verify the action it heard",
+        "summary": "Mistral’s Voxtral 3 combines speech models and a voice-agent SDK. The operating challenge is preserving intent, corrections, and authorization as a conversation becomes a business action.",
+        "section": "Vendors",
+        "edition_date": "2026-10-22",
+        "published_at": "2026-10-24T22:46:52.163736Z",
+        "retrospective": true,
+        "rank": 1,
+        "reading_minutes": 4,
+        "eligibility": {
+          "url": "https://mistral.ai/news/voxtral-3/",
+          "published_at": "2026-10-22T09:00:00+02:00",
+          "precision": "second",
+          "verification": "jsonld",
+          "evidence": "Publisher JSON-LD datePublished=2026-10-22T09:00:00+02:00",
+          "discovered_url": "https://mistral.ai/news/voxtral-3/"
+        },
+        "sources": [
+          {
+            "url": "https://mistral.ai/news/voxtral-3/",
+            "title": "Voxtral 3 — voice models and a real-time agent SDK",
+            "publisher": "mistral.ai",
+            "published_at": "2026-10-22T09:00:00+02:00",
+            "date_precision": "second"
+          }
+        ],
+        "hero": {
+          "path": "/assets/images/voxtral-voice-workflow.webp",
+          "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame. A clean slate sound waveform enters from the left, becomes a short sequence of structured geometric blocks in the middle, passes through one narrow orange confirmation gate, and exits into a slate action square on the right. A small returning waveform below completes a listening-and-confirmation loop. Precise visual metaphor for a voice conversation becoming a verified authorized business action.",
+          "generated_at": "2026-10-24T22:25:50.489Z",
+          "tool": "image_gen",
+          "width": 1536,
+          "height": 804,
+          "alt": "A speech waveform becomes structured blocks, crosses an orange confirmation gate, and returns an audible confirmation loop.",
+          "caption": "A conceptual illustration of the mechanism discussed in this analysis."
+        },
+        "leader_action": "Evaluate voice agents on correctly completed and authorized actions, including interruptions and corrections.",
+        "individual_action": "Test whether a corrected reference number reaches the tool call and the final confirmation consistently.",
+        "feed_name": "Ted Tschopp's AI News",
+        "feed_summary": "Mistral AI has introduced a new family of speech models and a voice-agent SDK supporting transcription across more than 50 languages, expressive speech generation, real-time conversational turn-taking, and tool-enabled workflows, with options for European-hosted or self-managed deployment. Our analysts see practical value in its integrated approach to reducing latency, handling interruptions, and simplifying voice-agent orchestration, but rate this Optional for the broader enterprise audience because its immediate relevance is concentrated among organizations actively developing voice-based AI applications.",
+        "feed_title": "Voxtral 3 [ ~ ]",
+        "rating": "Optional",
+        "writing_style": "ted-writing-style",
+        "writing_style_version": "1.0.0"
+      },
+      "hero_sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5",
+      "anchors": [
+        "preserve-the-corrected-request",
+        "give-confirmation-a-concrete-meaning",
+        "evaluate-the-whole-conversation",
+        "decide-where-the-record-belongs",
+        "start-where-success-is-observable"
+      ],
+      "body_sha256": "75956a9edcb99c2200b3c07a5b427dda428c817dfae0eb5908b376b72b687994",
+      "attributed_passages": [
+        "[Mistral’s Voxtral 3 announcement](https://mistral.ai/news/voxtral-3/) introduces speech models and a voice-agent SDK connecting listening, reasoning, tool use, and speech. The company describes transcription across more than 50 languages, multilingual speech generation, and deployment through its EU-hosted API or an organization’s own infrastructure. Its performance statements are vendor claims. They make the release relevant to an evaluation, rather than establishing production readiness for every contact center or service desk."
+      ]
+    }
+  },
+  "editions": {
+    "2026-10-18": {
+      "title": "Structure, data, and the terms of use",
+      "description": "Better inputs for materials AI, and a practical response to changing platform terms.",
+      "edition_date": "2026-10-18",
+      "cutoff": "2026-10-18T05:00:00-07:00",
+      "window_start": "2026-10-17T00:00:00+00:00",
+      "prepared_at": "2026-10-24T22:21:03.223201Z",
+      "retrospective": true,
+      "source_snapshot": "531c67a7255e4117002a49dd53aba09c3d8223da",
+      "article_ids": [
+        "art_9692486eeb77934b",
+        "art_5eb559e50fd7886d"
+      ],
+      "tldr": [
+        "Materials research puts the representation of structure ahead of another model-size comparison.",
+        "A change in platform terms belongs beside the actual content and data flow it governs."
+      ],
+      "quick_hits": [],
+      "looking_ahead": [
+        "Ask R&D teams to compare structure-aware representations with a text-only baseline before funding a larger model.",
+        "Connect vendor-terms monitoring to an owned inventory of the business accounts, domains, and content involved."
+      ],
+      "notes": "Reconstructed from the feed repository at 531c67a7255e4117002a49dd53aba09c3d8223da. Checked 228 curated and 80 ranked entries. Full coverage uses verified original-source timestamps, not the feed’s curation date. Late-arriving, undated, inaccessible, conflicting, and overlapping stories were excluded. Related research is grouped by enterprise decision; remaining eligible research may appear as short links. Published 2 complete analyses with original generated heroes. Source facts are attributed; practical implications are editorial interpretation."
+    },
+    "2026-10-19": {
+      "title": "Make the model call understandable",
+      "description": "A quieter edition with one operational question: can you trace the AI work from end to end?",
+      "edition_date": "2026-10-19",
+      "cutoff": "2026-10-19T05:00:00-07:00",
+      "window_start": "2026-10-18T00:00:00+00:00",
+      "prepared_at": "2026-10-24T22:21:03.225081Z",
+      "retrospective": true,
+      "source_snapshot": "318b122331c1dad0bead473472e4562b86982120",
+      "article_ids": [
+        "art_313154ba192d9eb5"
+      ],
+      "tldr": [
+        "A practitioner’s gateway argument starts with request identity, visibility, and operating responsibility.",
+        "Observability should explain a real request and a real failure, with deliberate limits on retained content."
+      ],
+      "quick_hits": [],
+      "looking_ahead": [
+        "Require a traceable identity and an accountable operator for each application using a shared AI gateway."
+      ],
+      "notes": "Reconstructed from the feed repository at 318b122331c1dad0bead473472e4562b86982120. Checked 228 curated and 80 ranked entries. Full coverage uses verified original-source timestamps, not the feed’s curation date. Late-arriving, undated, inaccessible, conflicting, and overlapping stories were excluded. Related research is grouped by enterprise decision; remaining eligible research may appear as short links. Published 1 complete analyses with original generated heroes. Source facts are attributed; practical implications are editorial interpretation."
+    },
+    "2026-10-20": {
+      "title": "Faster models meet harder operating questions",
+      "description": "New vendor economics, hidden instructions, and the evidence an agent needs to keep.",
+      "edition_date": "2026-10-20",
+      "cutoff": "2026-10-20T05:00:00-07:00",
+      "window_start": "2026-10-19T00:00:00+00:00",
+      "prepared_at": "2026-10-24T22:21:03.226490Z",
+      "retrospective": true,
+      "source_snapshot": "12782958b974aee6d52b266f152a48670e200f0a",
+      "article_ids": [
+        "art_55c3c0be518a12ff",
+        "art_b984a5c544e63137",
+        "art_614a0336a7737e51",
+        "art_2790d5e5427b4862",
+        "art_b7505ce4183649e7"
+      ],
+      "tldr": [
+        "Hidden directions in retrieved pages test the boundary between evidence and authority.",
+        "MiniMax and Inception offer new serving choices; accepted-task cost and end-to-end latency remain local measurements.",
+        "Fresh research makes the evaluation instrument and the preservation of task state part of the system design."
+      ],
+      "quick_hits": [
+        {
+          "url": "https://arxiv.org/abs/2610.25650",
+          "title": "Consistency Training Suppresses Cue Following Without Teaching Cue Selectivity",
+          "summary": "Researchers evaluated four consistency training methods-BCT, ACT, AttCT, and RMCT-on Gemma-2-2B-it and Llama-3.1-8B-Instruct models to reduce language models' sensitivity to cues that do not provide valid evidence. All methods decreased the effectiveness of trained cues but did not differentiate between correct and incorrect cues, with the largest effect observed for cues before answer options. The study found that residual circuit components still carried most cue-induced errors, and making training targets depend on cue correctness weakened the effect. These results suggest that consistency training suppresses cue following without teaching models to selectively respond to valid cues.",
+          "source_published_at": "2026-10-19T01:51:24Z",
+          "verification": "publisher_api"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.25835",
+          "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+          "summary": "Researchers studied two diffusion language models across 10 tasks to understand why the computational cost varies during text generation. They found that tasks involving copying or lightly editing input text require fewer forward passes per token, while open-ended writing demands significantly more, with story writing needing over three times the passes of grammar correction. The cost differences relate to how much of the output is new relative to the input and the rarity of words used. In multilingual settings, languages with more tokens also incur higher costs per token. Additionally, the models' decoding effort correlates with correctness, as incorrect answers to the same math problems require more passes than correct ones. These findings suggest that diffusion models' efficiency depends on the predictability of the output and that decoding speed can serve as a practical signal to improve inference reliability and efficiency.",
+          "source_published_at": "2026-10-19T05:47:58Z",
+          "verification": "publisher_api"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.25846",
+          "title": "Measurement Validity and Representation Dynamics of Confidence Signals in Large Language Models",
+          "summary": "Researchers conducted a pre-registered audit of five Qwen2.5 models ranging from 0.5B to 7B parameters to evaluate three confidence measurement methods: verbalized confidence, linear probes on hidden states, and agreement among sampled answers. They tested these methods on factual retrieval datasets (PopQA, SimpleQA) and multi-step reasoning tasks (GSM8K, MATH) to assess how well models \"know what they know.\" The study found that probes predicting answer disagreement become informative earlier in retrieval tasks than in reasoning, but early signals may reflect surface question features. Verbalized confidence was unstable across prompt templates, and Expected Calibration Error metrics were misleading, with sampling agreement showing better resolution despite worse calibration scores.",
+          "source_published_at": "2026-10-19T06:04:38Z",
+          "verification": "publisher_api"
+        }
+      ],
+      "looking_ahead": [
+        "Require assistants to distinguish retrieved evidence from instructions authorized by your organization and the user.",
+        "Compare models using cost per accepted task on your own workflow, with review and failure costs included.",
+        "Measure end-to-end task latency and acceptance alongside model generation speed before changing an interactive service."
+      ],
+      "notes": "Reconstructed from the feed repository at 12782958b974aee6d52b266f152a48670e200f0a. Checked 228 curated and 80 ranked entries. Full coverage uses verified original-source timestamps, not the feed’s curation date. Late-arriving, undated, inaccessible, conflicting, and overlapping stories were excluded. Related research is grouped by enterprise decision; remaining eligible research may appear as short links. Published 5 complete analyses with original generated heroes. Source facts are attributed; practical implications are editorial interpretation."
+    },
+    "2026-10-21": {
+      "title": "Capability needs a boundary",
+      "description": "Authorization, memory, recoverability, and the tradeoffs inside an agent review team.",
+      "edition_date": "2026-10-21",
+      "cutoff": "2026-10-21T05:00:00-07:00",
+      "window_start": "2026-10-20T00:00:00+00:00",
+      "prepared_at": "2026-10-24T22:46:52.254039Z",
+      "retrospective": true,
+      "source_snapshot": "e8e3d25f4eae2989386b0a3b715626619151e8dd",
+      "article_ids": [
+        "art_51ebab1d094c7d60",
+        "art_648d3adba52ea716",
+        "art_825130cf8cb2d52f",
+        "art_80b14f6a6fd391a6"
+      ],
+      "tldr": [
+        "AuthorizationBench measures actions beyond delegated scope, separately from task completion.",
+        "Memory should preserve useful process information and test whether an old experience still applies.",
+        "Unattended changes need measurable verification and an exact preserved version to restore.",
+        "Dividing document review among agents can change false alarms and cost as well as missed defects."
+      ],
+      "quick_hits": [
+        {
+          "url": "https://arxiv.org/abs/2610.27417",
+          "title": "KPHarness: Co-Evolving Knowledge and Probing for Long-Horizon Gaming Harnesses",
+          "summary": "arXiv:2610.27417v1 Announce Type: new Abstract: A failed gaming trajectory reveals that an agent needs intervention, but not necessarily how its execution harness should change. Effective harness adaptation therefore requires gathering diagnostic evidence, rather than merely proposing alternative recovery rules. We present KPHarness, a framework that adapts the external execution harness of a frozen vision-language-action model through knowledge-probing co-evolution. Recovery knowledge supplies context-specific intervention hypotheses that guide active probing; probe outcomes reveal when these hypotheses apply and provide evidence for refining both recovery knowledge and later probe selection. This reciprocal process allows the harness to improve not only which interventions it applies, but also how it investigates failures. KPHarness separates fast policy execution from a slow research loop that translates accumulated knowledge and probing evidence into bounded harness revisions. Each revision is compared with the incumbent under matched sandbox conditions and accepted only when the paired evaluation shows improvement. Recoveries supported by further validation are retained for cross-task reuse, while immediate interaction feedback and delayed episode-success credit update action- and knowledge-probing policies during adaptation. Experiments on Minecraft tasks spanning mining, combat, and crafting show improved task coverage over bare policy execution, a manually specified fixed harness, and knowledge-only harness evolution with non-adaptive probing. Evaluation on previously unseen tasks further shows improved task completion with the evolved harness, knowledge bank, and probing policies held fixed,",
+          "source_published_at": "2026-10-20T00:12:14Z",
+          "verification": "publisher_api"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.27435",
+          "title": "Harness Self-Evolution for Long-Horizon Terminal Agents",
+          "summary": "arXiv:2610.27435v1 Announce Type: new Abstract: Long-horizon terminal agents may solve a task in one run yet fail across repeated runs. Stochastic errors can propagate through actions and context, creating a gap between capability and reliable execution. We present RiseHarness, a framework for iteratively improving agent harnesses with model weights fixed. It focuses on flipping tasks with both successful and failed runs under the same configuration, using successful runs as references for failure analysis. RiseHarness combines agent trajectories with internal harness traces from a runtime monitor to examine how model actions interact with command execution, feedback, context management, and completion decisions. A Harness Handbook links this evidence to harness behaviors and source code, helping identify recurring problems in mechanisms shared across tasks. RiseHarness then searches other harness frameworks for relevant implementations and adapts them as design references to the current model and execution protocol. Candidate changes undergo behavioral checks and repeated task evaluation; versions with measured gains seed the next iteration. This loop integrates suitable mechanisms from different frameworks into a single harness and uses new execution evidence to guide further changes. We evaluate task success and reliability across models, ablate harness execution evidence and external research, and test transfer to unseen benchmarks with the same model. RiseHarness treats a specific model as the unit of harness adaptation, studying how changes to shared interaction mechanisms can make existing capabilities more reliable across tasks.",
+          "source_published_at": "2026-10-20T00:36:49Z",
+          "verification": "publisher_api"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.27450",
+          "title": "Ask to Distill: Learning to Synthesize Data for On-Policy Distillation",
+          "summary": "arXiv:2610.27450v1 Announce Type: new Abstract: On-policy distillation (OPD) can succeed with surprisingly few training questions, motivating a view of questions as carriers of distributional knowledge transfer. How can we assess whether a newly generated question is valuable for distillation, and learn to generate better questions---without access to its correct answer? We introduce Ask-to-Distill (\\method), a framework that treats synthetic questions as distribution elicitors and optimizes the teacher supervision they expose along student-generated trajectories. A student-initialized synthesizer is optimized using a distributional surrogate for question value, computed from a frozen student--teacher pair without reference answers, correctness rewards, or per-candidate student updates. The reward combines teacher--student disagreement with teacher probability mass on the student's candidate support, together with length and diversity controls. The generated questions are filtered and deduplicated into a prompt-only bank for standard OPD. Across mathematical reasoning, code generation, and agentic tasks, our method improves average performance and teacher-gap recovery over unoptimized student-generated prompts and KL-filtered real questions, while matching or exceeding real-bank OPD in the evaluated settings. Signal analyses further show that optimized questions can elicit denser supervision and more total signal from shorter student responses, supporting elicited distributional supervision as an objective for synthetic distillation data. Our code, data and models are publicly available at https://github.com/GasolSun36/Ask_to_Distill.",
+          "source_published_at": "2026-10-20T01:00:17Z",
+          "verification": "publisher_api"
+        }
+      ],
+      "looking_ahead": [
+        "Make delegated scope an explicit acceptance criterion and enforce consequential actions at the tool boundary.",
+        "Evaluate memory against current repository state and measure the failures introduced by irrelevant past experience.",
+        "Permit unattended changes only where the verifier is tested and the exact prior artifact is retained."
+      ],
+      "notes": "Reconstructed from the feed repository at e8e3d25f4eae2989386b0a3b715626619151e8dd. Checked 229 curated and 80 ranked entries. Full coverage uses verified original-source timestamps, not the feed’s curation date. Late-arriving, undated, inaccessible, conflicting, and overlapping stories were excluded. Related research is grouped by enterprise decision; remaining eligible research may appear as short links. Published 4 complete analyses with original generated heroes. Source facts are attributed; practical implications are editorial interpretation."
+    },
+    "2026-10-22": {
+      "title": "The interface becomes the decision",
+      "description": "A voice SDK, typed decisions, and research into what AI systems recommend and verify.",
+      "edition_date": "2026-10-22",
+      "cutoff": "2026-10-22T05:00:00-07:00",
+      "window_start": "2026-10-21T00:00:00+00:00",
+      "prepared_at": "2026-10-24T22:46:52.257111Z",
+      "retrospective": true,
+      "source_snapshot": "85d42d142bb59ecbf976a83945e3dc8538440b4d",
+      "article_ids": [
+        "art_4c6292fc5ecba5f2",
+        "art_178c37e603121edb",
+        "art_38ce8d74651308c9",
+        "art_1353be402f8662ba"
+      ],
+      "tldr": [
+        "Voxtral 3 connects speech and tools; a useful voice pilot needs action-level verification.",
+        "Typed decisions offer a narrow alternative to generating prose for every classification.",
+        "Research on AI recommendations and scientific citations challenges convenient proxy measures of quality."
+      ],
+      "quick_hits": [
+        {
+          "url": "https://arxiv.org/abs/2610.29472",
+          "title": "OmniSimulator: Aligning Small Language Models for Authentic Heterogeneous Behavior Modeling",
+          "summary": "Researchers propose OmniSimulator, a training framework that enhances small language models' ability to simulate authentic user behavior by organizing reasoning into a five-dimensional schema and using high-quality data from real user interactions. The approach employs a teacher model to generate detailed reasoning traces, helping smaller models learn meaningful behavior patterns rather than superficial correlations. Using nearly 10,000 training instances from three months of data on 200 users, OmniSimulator improved the Qwen3-8B model's performance by over 34%, achieving results comparable to larger models like Claude-Sonnet-4.5 while enabling smaller-scale, self-hosted deployment. These findings suggest that structured behavior-oriented reasoning can enable scalable, high-fidelity user simulation with smaller language models.",
+          "source_published_at": "2026-10-21T09:30:12Z",
+          "verification": "publisher_api"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.29518",
+          "title": "Mitigating Query Shortcuts in Chain-of-Thought with Context-Aware Decoding",
+          "summary": "arXiv:2610.29518v1 Announce Type: cross Abstract: While Chain-of-Thought (CoT) prompting improves the reasoning performance of large language models (LLMs), recent studies have shown that final answers do not always depend on the generated rationales. In particular, LLMs may rely on query-specific shortcuts rather than the information provided by their reasoning steps. In this paper, we investigate whether context-aware decoding (CAD), an existing contrastive decoding method, can mitigate such shortcut behavior when applied to CoT reasoning. We study this application as Rationale Contrastive Decoding (RCD), which contrasts the next-token distributions conditioned on the query with and without its rationale, amplifying tokens whose likelihood increases due to the rationale. We provide a theoretical interpretation of this decoding rule via a KL-regularized reward-maximization objective. Experiments across five reasoning benchmarks demonstrate that RCD improves answer accuracy over standard CoT. Furthermore, intervention analyses using ground-truth and random rationales reveal that RCD increases the behavioral dependence of final answers on the rationale content. Our findings suggest that contrastive decoding offers a simple, training-free approach to mitigating query shortcuts.",
+          "source_published_at": "2026-10-21T10:05:25Z",
+          "verification": "publisher_api"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.29922",
+          "title": "Unintended Side Effects of Value Training in LLMs",
+          "summary": "arXiv:2610.29922v1 Announce Type: cross Abstract: As LLMs are increasingly deployed in value-sensitive contexts, aligning them with human values has emerged as a post-training objective in NLP, aimed at instilling additional values and guiding model behaviour. However, current evaluations remain narrow. Because values are interconnected, it is unclear how fine-tuning for specific values alters unrelated capabilities and behaviours. In this work, we adapt four instruction-tuned LLMs across individual Hofstede's value dimensions and evaluate them on both cross-value transfer and broader behaviours. We find that value-specific training produces unintended side effects on untrained values, risk preferences, social cognition, and safety traits. Consequently, we suggest that value alignment after post-training should incorporate broader behavioral evaluations, and we highlight the need to investigate where additional value training might best fit into the pipeline.",
+          "source_published_at": "2026-10-21T15:58:53Z",
+          "verification": "publisher_api"
+        }
+      ],
+      "looking_ahead": [
+        "Evaluate voice agents on correctly completed and authorized actions, including interruptions and corrections.",
+        "Identify repeated fixed-option decisions and compare a specialized path against the current generative workflow.",
+        "Evaluate proposals against a problem-specific rubric that does not reward AI merely for being present."
+      ],
+      "notes": "Reconstructed from the feed repository at 85d42d142bb59ecbf976a83945e3dc8538440b4d. Checked 235 curated and 80 ranked entries. Full coverage uses verified original-source timestamps, not the feed’s curation date. Late-arriving, undated, inaccessible, conflicting, and overlapping stories were excluded. Related research is grouped by enterprise decision; remaining eligible research may appear as short links. Published 4 complete analyses with original generated heroes. Source facts are attributed; practical implications are editorial interpretation."
+    },
+    "2026-10-23": {
+      "title": "Know when to defer",
+      "description": "Abstention, evaluation wording, executable policies, and a focused test of model boundaries.",
+      "edition_date": "2026-10-23",
+      "cutoff": "2026-10-23T05:00:00-07:00",
+      "window_start": "2026-10-22T00:00:00+00:00",
+      "prepared_at": "2026-10-24T22:46:52.259737Z",
+      "retrospective": true,
+      "source_snapshot": "e892e60cd02c0652f6ab4ced5eec4e86b634ba47",
+      "article_ids": [
+        "art_acf94d966a173a22",
+        "art_4714611be4537b33",
+        "art_26bdab7224d77ff2",
+        "art_43a5a6eafd6c005a"
+      ],
+      "tldr": [
+        "An IT-routing study makes human triage an explicit option in the cost model.",
+        "Tool access and judge prompting can move evaluation results; compare configurations as well as scores.",
+        "SCOPE explores decomposing policy into inspectable predicates; a pay-stub study keeps context in the boundary test."
+      ],
+      "quick_hits": [
+        {
+          "url": "https://arxiv.org/abs/2610.30678",
+          "title": "Scaling Laws for Safety Probes",
+          "summary": "Researchers studied safety probes trained on language model activations to monitor harmful outputs and found that probe error follows two scaling laws related to model size and number of labels. They created six new large safety datasets and trained probes on 20 models from five families, showing that probe error decreases predictably as model size and label count increase. These laws hold across tasks, architectures, and model families, enabling prediction of probe performance and guidance on whether to invest in larger models or more labels for a target error rate. This work helps safety researchers optimize probe design efficiently without extensive retraining.",
+          "source_published_at": "2026-10-22T03:43:33Z",
+          "verification": "publisher_api"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.31017",
+          "title": "Mostly Reading: What Open-Book Scores Measure in Document-Level LoRA Adapters",
+          "summary": "Researchers trained LoRA adapters on 150 Wikipedia articles using Llama-3.1-8B-Instruct to investigate what open-book scores measure in document-level adapters. They found that open-book scores largely capture a reading behavior common to all adapters, as random adapters trained on different documents recovered 82% of the specialist adapter's open-book advantage but only 2% of its advantage on cloze probes that test factual recall without the source text. Although specialist adapters showed some improvement in cloze recall and their weight updates aligned with the documents they read, tests showed that adapters selected by weight-space proximity or text embedding performed similarly to random adapters on both open-book and cloze probes.",
+          "source_published_at": "2026-10-22T09:52:29Z",
+          "verification": "publisher_api"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.31135",
+          "title": "Mixing Matters: Evidence Position Bias Across Sequence Mixers in Long-Context Question Answering",
+          "summary": "Researchers analyzed how long-context models use answer-bearing evidence depending on its position within a prompt, comparing Transformer, state-space, and hybrid Mamba architectures by moving a gold document among distractors. They found that Transformers show a beginning advantage in using evidence, which state-space models lack, while both favor evidence near the end. Variations in prompt design and dataset affected accuracy and position bias, but the sequence mixer alone was not identified as the sole cause of these effects. The study observed that attention concentration near initial tokens correlates with beginning sensitivity in Transformers, and that position information remains decodable across architectures despite differing response patterns. These findings suggest that effective context use depends on multiple factors including model family, task, capability, and prompt design, highlighting the complexity of evidence utilization in long-context question answering.",
+          "source_published_at": "2026-10-22T11:54:30Z",
+          "verification": "publisher_api"
+        }
+      ],
+      "looking_ahead": [
+        "Compare automatic routing, human triage, and selective deferral using costs and workload conditions your service desk can defend.",
+        "Require comparison stability and important subgroup results alongside the headline evaluation score.",
+        "Require a reviewed mapping from the policy to its executable checks, with examples that challenge each condition."
+      ],
+      "notes": "Reconstructed from the feed repository at e892e60cd02c0652f6ab4ced5eec4e86b634ba47. Checked 241 curated and 80 ranked entries. Full coverage uses verified original-source timestamps, not the feed’s curation date. Late-arriving, undated, inaccessible, conflicting, and overlapping stories were excluded. Related research is grouped by enterprise decision; remaining eligible research may appear as short links. Published 4 complete analyses with original generated heroes. Source facts are attributed; practical implications are editorial interpretation."
+    },
+    "2026-10-24": {
+      "title": "The credentials behind the release",
+      "description": "LiteLLM’s root-cause report, task-level adoption, and the operating choices behind local inference on a Mac.",
+      "edition_date": "2026-10-24",
+      "cutoff": "2026-10-24T05:00:00-07:00",
+      "window_start": "2026-10-23T00:00:00+00:00",
+      "prepared_at": "2026-10-24T22:46:52.261918Z",
+      "retrospective": true,
+      "source_snapshot": "923ac0dcbfb49c724e6e7a304bd5cf1f5d920ee3",
+      "article_ids": [
+        "art_51c071c2515ec8fe",
+        "art_552b4e59bc6342ea",
+        "art_2a3e85161b6aae3f"
+      ],
+      "tldr": [
+        "LiteLLM’s October 23 report connects a poisoned release to a chain of compromised credentials and release authority.",
+        "Pew finds a large gap between general chatbot use and use for one specific information task.",
+        "Kapitsa v0.2.15 makes local inference an operating decision about network access, retained conversations, and recovery."
+      ],
+      "quick_hits": [],
+      "looking_ahead": [
+        "Map who can read release credentials, alter the build source, approve publication, and override the controls between those steps.",
+        "Define adoption for a specific user task and measure successful outcomes separately from general chatbot access or activity.",
+        "For a local-inference pilot, record the actual request destination and assign network, retention, and recovery decisions to a service owner."
+      ],
+      "notes": "Reconstructed from the feed repository at 923ac0dcbfb49c724e6e7a304bd5cf1f5d920ee3. Checked 236 curated and 80 ranked entries. Full coverage uses verified original-source timestamps, not the feed’s curation date. Late-arriving, undated, inaccessible, conflicting, and overlapping stories were excluded. Related research is grouped by enterprise decision; remaining eligible research may appear as short links. Published 2 complete analyses with original generated heroes. Source facts are attributed; practical implications are editorial interpretation. Added October 24, 2026 at 2026-10-24T23:51:11.159568Z: one new analysis of Kapitsa v0.2.15 and a newly generated original hero under Ted’s one-time full-publication request. This edition now contains 3 analyses. The original two articles, their images, the retrospective label, preparation timestamp, and reporting window are preserved. Kapitsa evidence is pinned to the October 23 release and source commit; later releases and current main-branch documentation were excluded. The supplied feed’s launch wording is retained as an attributed input, not adopted as a claim about the project’s original launch.",
+      "modified_at": "2026-10-24T23:51:11.159568Z",
+      "editorial_additions": [
+        {
+          "test_id": "ted-voice-full-publication-2026-10-24",
+          "added_at": "2026-10-24T23:51:11.159568Z",
+          "article_id": "art_51c071c2515ec8fe",
+          "original_prepared_at": "2026-10-24T22:46:52.261918Z"
+        }
+      ]
+    }
+  },
+  "logos": {
+    "monogram.svg": "f04f250dd8bdbb0088844801740d67057c62ff0e82eb71e08fbc33216d80241e",
+    "logo-wordmark-inverse.svg": "bebaf8215469d829e4fdbac4e8e0304d2628845ef8ebbca312f998b23b1e5300",
+    "logo-wordmark.svg": "526ae8bc43bf70c20143c0842dea80a45bf0839305fb2ea3481f6ef23ce01a6a"
+  }
+}

@@ -1,0 +1,18 @@
+- slug: agents
+  name: Agents and automation
+  description: Follow the work an agent is allowed to do, the state it keeps, and the person who can recover a failed run.
+- slug: evaluation
+  name: Evaluation
+  description: Understand what a score establishes, what its test leaves out, and which comparison matters for the task.
+- slug: security
+  name: Security
+  description: Trace access, credentials, untrusted inputs, and the controls that separate an answer from an authorized action.
+- slug: governance
+  name: Governance
+  description: Connect policies and public decisions to accountable choices about data, authority, and evidence.
+- slug: infrastructure
+  name: Models and infrastructure
+  description: Examine serving, gateways, model releases, and the operating choices behind a useful AI service.
+- slug: economics-adoption
+  name: Economics and adoption
+  description: Follow the cost and usefulness of completed work, with attention to who uses a service and what they accomplish.

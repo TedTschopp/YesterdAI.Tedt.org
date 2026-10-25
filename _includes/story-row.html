@@ -1,5 +1,10 @@
 {% assign story = include.article %}
-<article class="story-row" data-section="{{ story.section | slugify }}">
-  <a class="story-thumbnail" href="{{ story.url }}" tabindex="-1" aria-hidden="true"><img src="{{ story.hero.path }}" alt="" width="{{ story.hero.width }}" height="{{ story.hero.height }}" loading="lazy"></a>
-  <div><p class="story-meta"><span class="tag tag-{{ story.section | slugify }}">{{ story.section }}</span><span class="meta">{{ story.reading_minutes }} min read</span></p><h3><a href="{{ story.url }}">{{ story.title | escape }}</a></h3><p class="body-sm">{{ story.summary | escape }}</p><p class="body-sm"><strong>As a leader:</strong> {{ story.leader_action | escape }}</p><p class="body-sm"><strong>As an individual:</strong> {{ story.individual_action | escape }}</p></div>
+{% assign heading = include.heading | default: 'h3' %}
+<article class="story-row{% if include.featured %} story-featured{% endif %}" data-article-id="{{ story.article_id }}" data-section="{{ story.section | slugify }}">
+  <div class="story-meta"><span class="tag tag-{{ story.section | slugify }}">{{ story.section }}</span><span class="meta">{{ story.format | default: 'analysis' | capitalize }} · {{ story.content | reading_time }} min</span>{% if include.featured %}<span class="eyebrow">Lead story</span>{% endif %}</div>
+  <{{ heading }} class="story-title"><a href="{{ story.url }}">{{ story.title | escape }}</a></{{ heading }}>
+  {% if story.hero %}<a class="story-thumbnail" href="{{ story.url }}" tabindex="-1" aria-hidden="true"><img src="{{ story.hero.path }}" alt="" width="{{ story.hero.width }}" height="{{ story.hero.height }}" loading="lazy"></a>{% endif %}
+  <p class="story-summary">{{ story.summary | escape }}</p>
+  {% if include.audience == 'leader' %}<p class="body-sm"><strong>The decision:</strong> {{ story.leader_action | escape }}</p>{% else %}<p class="body-sm"><strong>As a leader:</strong> {{ story.leader_action | escape }}</p><p class="body-sm"><strong>As a practitioner:</strong> {{ story.individual_action | escape }}</p>{% endif %}
+  {% assign source = story.sources | first %}<p class="story-source small"><a href="{{ source.url }}">{{ source.publisher | escape }} ↗</a><span>{{ story.evidence_type | source_kind_label }}</span></p>
 </article>

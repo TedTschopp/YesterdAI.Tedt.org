@@ -1,0 +1,19 @@
+{
+  "name": "yesterday-in-ai",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "index": "pagefind --site _site --glob 'articles/**/index.html'",
+    "test:smoke": "node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs",
+    "test:browser": "playwright test",
+    "test:visual": "playwright test tests/browser/visual.spec.js",
+    "test:visual:update": "playwright test tests/browser/visual.spec.js --update-snapshots"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "chrome-launcher": "1.2.2",
+    "lighthouse": "13.5.0",
+    "pagefind": "1.5.2"
+  }
+}

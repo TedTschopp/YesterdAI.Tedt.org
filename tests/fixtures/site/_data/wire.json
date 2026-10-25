@@ -1,0 +1,32 @@
+{
+  "source_url": "https://rss.tedt.org/feeds/top.json",
+  "last_success_at": "2026-10-24T19:00:00Z",
+  "items": [
+    {
+      "id": "sty_ff35959bd5a23fb8",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "canonical_url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "title": "Apollo Chief Economist says AI has delivered no financial gains outside the tech sector, with flat revenue and profit margins for S&P 493 firms through 2026",
+      "summary": "Apollo's Chief Economist reports that despite heavy investment and hype, artificial intelligence has not improved revenue per worker, profit margins, or productivity growth outside the major tech companies known as the Mag 7. While the Mag 7 show rising revenue and margins, the broader S&P 493 firms remain flat, leading mainstream corporate America to view AI spending as a cost rather than a growth driver. The analysis highlights that venture-backed companies continue to increase AI token spending, but most corporations are reluctant to pay for the latest AI models. The report suggests that AI's impact on the economy will remain limited unless mainstream companies can leverage AI to boost revenue and profits, which may be challenging due to AI's lack of judgment, accountability, and understanding of complex business factors like culture and ethics. The findings imply that the broader economic benefits of AI depend on its adoption and effectiveness beyond the tech giants, with no current evidence of improved financial performance in most sectors.",
+      "publisher": "apollo.com",
+      "date_published": "2026-10-24T19:47:19Z",
+      "date_precision": "second",
+      "rating": "Optional",
+      "technical_rating": "Informational"
+    },
+    {
+      "id": "sty_218a5f87fc40a166",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "canonical_url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "title": "Report: US loses over 200,000 media, film, and arts jobs in four years amid rise of AI and industry shifts",
+      "summary": "The United States has lost more than 200,000 jobs in media, film, and the arts over the past four years, with about 50,000 lost in the last year alone. This decline coincides with the emergence of AI technologies capable of producing digital art, alongside other factors like industry consolidation and offshoring. The movie and sound recording sector, including Hollywood, has been the hardest hit, losing nearly one-third of its workforce during this period. While it is difficult to isolate AI's exact impact due to limited transparency from media firms, the consistent job losses across digital arts subsectors contrast with growth in in-person entertainment, suggesting AI may be a contributing factor.",
+      "publisher": "apricitas.io",
+      "date_published": "2026-10-24T23:11:54Z",
+      "date_precision": "second",
+      "rating": "",
+      "technical_rating": ""
+    }
+  ],
+  "last_checked_at": "2026-10-24T19:00:00Z",
+  "last_changed_at": "2026-10-24T19:00:00Z"
+}

@@ -1,0 +1,5 @@
+{% assign story = include.article %}
+<article class="compact-story" data-article-id="{{ story.article_id }}">
+  <p class="meta"><time datetime="{{ story.edition_date }}">{{ story.edition_date | reader_date: '%b %-d, %Y' }}</time> · {{ story.section }} · {{ story.format | default: 'analysis' | capitalize }} · {{ story.content | reading_time }} min</p>
+  <h2><a href="{{ story.url }}">{{ story.title | escape }}</a></h2><p class="body-sm">{{ story.summary | escape }}</p>
+</article>

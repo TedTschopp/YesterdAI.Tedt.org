@@ -1,0 +1,4 @@
+---
+layout: null
+---
+{% assign latest = site.editions | sort: 'edition_date' | last %}{"version":1,"latest_edition":{{ latest.edition_date | jsonify }},"wire_checked_at":{{ site.data.wire.last_checked_at | default: site.data.wire.last_success_at | jsonify }},"wire_changed_at":{{ site.data.wire.last_changed_at | default: site.data.wire.last_success_at | jsonify }}}

@@ -16,7 +16,7 @@ End with a consequence, a practical next step, an earned challenge, or a return 
 
 ## Keep the truth and the genre
 
-- Preserve the 800–1,200-word news-analysis contract, source links, original publication dates, cutoff, and other editorial rules.
+- Use the versioned brief (200–400 words) and analysis (600–1,200 words) formats. Preserve source links, original publication dates, cutoff, and the reader/section jobs in `docs/reader-contract.md`.
 - Never invent a first-person experience, opinion, faith claim, memory, relationship, emotion, quotation, deployment, or benchmark for Ted.
 - Retain the Yesterday in AI publication byline and AI-assistance disclosure. Applying a voice does not imply Ted personally wrote or reviewed an automated article.
 - Prefer the technology/strategy mode. Blend organizational-change reasoning when the story concerns how people work together. Do not introduce personal, spiritual, fictional, or RPG material without a relevant request.

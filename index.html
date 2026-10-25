@@ -3,4 +3,4 @@ layout: base
 title: Yesterday in AI
 ---
 {% assign latest = site.editions | sort: 'edition_date' | last %}
-{% if latest %}{% include edition.html edition=latest %}{% else %}<div class="yia-container page-shell"><p class="eyebrow">Yesterday in AI</p><h1>The next edition is taking shape.</h1><p class="lede">A daily field guide to enterprise AI, from Ted Tschopp’s Public Workbench.</p><a href="/live/">Read the live news →</a></div>{% endif %}
+{% include briefing.html edition=latest %}
