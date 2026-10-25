@@ -1,10 +1,1 @@
-{% assign lead = include.article %}
-<article class="lead-story">
-        <a class="hero-link" href="{{ lead.url }}" tabindex="-1" aria-hidden="true"><img class="hero-image" src="{{ lead.hero.path }}" alt="" width="{{ lead.hero.width }}" height="{{ lead.hero.height }}" fetchpriority="high"></a>
-        <div class="story-meta"><span class="tag tag-{{ lead.section | slugify }}">{{ lead.section }}</span><span class="meta">{{ lead.reading_minutes }} min read</span></div>
-        <h3 class="lead-title"><a href="{{ lead.url }}">{{ lead.title | escape }}</a></h3>
-        <p class="lead-summary">{{ lead.summary | escape }}</p>
-        <p class="body-sm"><strong>As a leader:</strong> {{ lead.leader_action | escape }}</p>
-        <p class="body-sm"><strong>As an individual:</strong> {{ lead.individual_action | escape }}</p>
-        <a class="text-link" href="{{ lead.url }}">Read the analysis →</a>
-      </article>
+{% include story-row.html article=include.article heading='h2' audience='leader' featured=true %}

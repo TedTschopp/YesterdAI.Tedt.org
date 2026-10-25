@@ -11,6 +11,8 @@ __pycache__/
 .DS_Store
 test-results/
 .playwright-mcp/
+node_modules/
+playwright-report/
 .env
 .env.*
 !.env.example

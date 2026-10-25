@@ -9,13 +9,14 @@ edition_date: '2026-10-20'
 published_at: '2026-10-24T22:21:03.133926Z'
 retrospective: true
 rank: 1
-reading_minutes: 4
+reading_minutes: 3
 eligibility:
   url: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions
   published_at: '2026-10-19T16:00:00Z'
   precision: second
   verification: jsonld
-  evidence: Publisher JSON-LD and article:published_time=2026-10-19T16:00:00+00:00; dated substantive response update
+  evidence: Publisher JSON-LD and article:published_time=2026-10-19T16:00:00+00:00; dated substantive response
+    update
   discovered_url: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions
 sources:
 - url: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions
@@ -27,13 +28,14 @@ hero:
   path: /assets/images/hidden-instructions-public-pages.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
-    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
+    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
-    An open stack of thin rectangular document sheets sits on the left. A very fine orange path hidden between the
-    sheets bypasses a small slate reading aperture in the center and bends the direction of a neat outgoing slate
-    arrow on the right. Clearly show the difference between visible document content and a concealed instruction
-    changing an assistant's route. Flat geometric visual metaphor for a web page attempting to influence an AI reader.
+    An open stack of thin rectangular document sheets sits on the left. A very fine orange path hidden between
+    the sheets bypasses a small slate reading aperture in the center and bends the direction of a neat outgoing
+    slate arrow on the right. Clearly show the difference between visible document content and a concealed instruction
+    changing an assistant's route. Flat geometric visual metaphor for a web page attempting to influence an AI
+    reader.
   generated_at: '2026-10-24T22:00:38.298Z'
   tool: image_gen
   width: 1536
@@ -47,53 +49,74 @@ individual_action: Check what the retrieval tool actually returns, including tex
 feed_name: TedTschopp News Graph - Top Stories
 feed_summary: WhatsApp's help pages contained hidden instructions for AI chatbots that prevented them from recommending
   data protection authorities or citing privacy laws if users mentioned legal action or lawyers. These instructions
-  contradicted WhatsApp's publicly stated privacy policy in Europe, which affirms users' rights to complain to regulators
-  under GDPR. The hidden notes also advised the AI not to suggest manual account deletion or alternative phone numbers
-  if users lost access to their phone number, directing them instead to wait for automatic deletion after extended
-  inactivity.
+  contradicted WhatsApp's publicly stated privacy policy in Europe, which affirms users' rights to complain to
+  regulators under GDPR. The hidden notes also advised the AI not to suggest manual account deletion or alternative
+  phone numbers if users lost access to their phone number, directing them instead to wait for automatic deletion
+  after extended inactivity.
 feed_title: WhatsApp's hidden AI instructions told chatbots not to recommend data protection regulators or cite
   privacy laws when users mentioned lawyers [ * ] [ ◼ ]
 rating: Important
 writing_style: ted-writing-style
-writing_style_version: '1.0.0'
+writing_style_version: 1.0.0
+format: analysis
+takeaways:
+- Redact reported hidden directions in WhatsApp help material; its update records WhatsApp’s explanation that
+  chatbot notes appeared through a bug and were removed.
+- Compare clean and altered retrieval payloads, checking omissions and attempted actions as well as the final
+  answer.
+topics:
+- security
+- agents
+- evaluation
+evidence_type: reporting
+reader_job: Keep retrieved information from acquiring authority over an assistant’s task.
+modified_at: '2026-10-25T02:23:35.245480Z'
+legacy_anchors:
+- review-the-input-the-assistant-receives
+- authority-is-a-separate-property
+- evaluate-changes-in-the-answer
+- make-correction-practical
+- actions-heading
+editorial_contract: 2
 ---
 
-When an assistant opens a help page, what has it been given: information about the product, or instructions about how to behave? It can receive both in the same page. A trusted brand tells you whose material you are reading. You still have to decide which parts may inform the answer and which parts are trying to direct the work.
+A reference book can explain a product. A work order tells you what you have been authorized to do. When an assistant retrieves a page, those two kinds of text can arrive in the same payload.
 
 [Redact’s investigation of WhatsApp help pages](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions) reports hidden instructions in material delivered to AI readers. Its dated update records WhatsApp’s explanation that notes intended for its support chatbot had appeared because of a bug and had been removed. The dispute concerns the origin and purpose of those notes; the operational issue is broader. Retrieval can bring another party’s behavioral directions into an assistant’s context alongside ordinary reference material.
 
-Think of a reference book beside a work order. The book can explain how a product works; the work order says what you have been asked to do. A paragraph in the book does not become a new work order just because it sounds authoritative. Enterprise retrieval needs that distinction to remain visible when both arrive as text.
+The distinction matters even when the page is useful and current. Its publisher can be authoritative about the product without acquiring authority over the user's task. The reported dispute does not need to be resolved into a universal claim about malicious intent before an enterprise can test that boundary.
 
 ## Review the input the assistant receives
 
-A screenshot is not a complete record of a retrieval operation. A tool might extract hidden text, metadata, accessibility content, surrounding navigation, or fragments from several pages. The important input for an evaluation is the exact representation returned to the model.
+Preserve the exact representation returned by a retrieval tool. A screenshot alone may leave out hidden text, metadata, accessibility content, navigation, or fragments the extractor adds from other locations.
 
-Choose a representative support or policy task and preserve that representation. Compare it with the user-visible page, then identify which differences are expected and which could affect the answer. This is a concrete test of the retrieval pipeline, rather than an assumption that the model saw what a human reviewer saw.
+Compare that payload with the visible page. Identify expected differences and passages that could redirect an answer. Keep each passage connected to its source and retrieval time; an unlabeled mixture makes an investigation start with the avoidable problem of finding where the instruction entered.
 
-Trace a passage back to the page and the time it was retrieved. That connection gives a reviewer somewhere to begin when an answer goes wrong. Mix passages from several locations into an unlabeled block and you lose the starting points. The team then has to work out where an instruction entered before it can decide how to correct the answer.
+The relevant question is what the model actually received. A person reviewing the browser may have read a materially different representation.
 
 ## Authority is a separate property
 
-An organization may authorize a support assistant to apply an internal policy. That does not mean every external page describing the subject can add new restrictions to the assistant’s behavior. The relevant question is who is allowed to issue the instruction, not whether the wording sounds professional or helpful.
+Keep approved organizational rules, the user's request, and retrieved reference material in their respective roles. A product page can supply evidence about how the product works. Its request to suppress another source, withhold an escalation path, or take an unrelated action remains content to assess.
 
-Represent that distinction in the system design. Task instructions, user requests, approved organizational rules, and retrieved material should have clear roles. A retrieved page should be treated as evidence about its subject. Requests embedded in it to suppress sources, change reporting, or take unrelated actions need to remain source content rather than operating instructions.
+Enforce the same distinction in tool access. Reading a page should not grant permission to send a message or change an account. A model instruction is one part of the application; the tool and its authorization checks are another.
 
-The model’s response is only one place to enforce the distinction. Tool access and application logic should also reflect the actual authorization. An assistant that reads a page should not thereby acquire permission to send a message, change an account, or withhold an independently required escalation route.
+This case establishes a reason to inspect that design. Different extraction methods, model instructions, tools, and permissions can produce different results. The investigation does not supply a universal failure rate for retrieval applications.
 
 ## Evaluate changes in the answer
 
-A useful test compares the same user question against a clean source and a deliberately altered version. Keep the factual material the same while introducing text that attempts to change the assistant’s behavior. Then measure what changes: source selection, omitted information, escalation, and proposed actions.
+Create an isolated comparison using the same factual material and user question. One source is clean; the other adds text attempting to direct the assistant's behavior.
 
-Do not score only whether the final sentence sounds plausible. A response can be fluent and factually unobjectionable in what it includes while selectively leaving out something the user needs. Review omissions as well as false statements, and preserve the trace needed to distinguish a retrieval failure from an instruction-following failure.
+Measure source selection, omitted information, escalation, and attempted actions. A plausible final sentence can hide selective omission. Keep the trace needed to distinguish a failed retrieval from an inappropriate instruction being followed.
 
-These are suggested evaluation methods, not a claim that this particular investigation proves a universal failure rate. The reported case establishes a reason to test the boundary in the actual application. Different tools, extraction methods, model instructions, and permissions may produce different outcomes.
+Define the expected answer and required disclosures before the test. Where practical, have a reviewer compare the results without knowing which source variant produced each one. That helps expose an answer which remains fluent while dropping something the user needs.
 
 ## Make correction practical
+{: #for-practitioners }
 
-Suppose a reviewer finds directions that should never have governed the answer. Which source versions contained them, and which version of the assistant used those sources? Keep the retrieval record so the team can identify the affected work and rerun representative cases. A prompt change may help the next answer. The people responsible for earlier answers also need a way to learn what those answers were based on.
+Retain the source version, returned payload, assistant configuration, and representative answer. If a later correction changes how the assistant handles the material, those records let the team identify affected work and replay the case.
 
-Keep the human review focused on the decision the assistant is supporting. For a customer-support application, that means the answer, the evidence provided, and the available escalation path. For an operational agent, it also means the actions attempted and the authority under which they were attempted.
+Keep the exercise away from real customer accounts and actual outbound actions. For a support assistant, inspect the answer, its evidence, and the available escalation route. For an operational agent, also inspect what it attempted to execute and which authority permitted it.
 
-Keep an approved reference answer for the test, including what the assistant must disclose and when it should ask the user for direction. Have a reviewer assess the clean and altered cases without being told which is which. This makes selective omission easier to notice and gives the team a repeatable example to retain after a fix. The exercise should remain isolated from real customer accounts and actual outbound actions.
+A prompt change can improve the next answer. The people responsible for previous answers need enough of the retrieval record to discover what those answers were based on.
 
-Open a real retrieved payload and test a conflicting instruction in an isolated case. Keep the source’s useful information, and check whether its attempt to redirect the assistant stays on the evidence side of the boundary. A source can be current, valuable, and authoritative about its own product without acquiring authority over the task. Keep the reference book beside the work order, with the distinction intact.
+Start with one real payload and one conflicting instruction in an isolated test. Keep the useful facts available and follow what happens to the attempted redirection. The result should explain where the reference book informed the work and where the application preserved the work order.

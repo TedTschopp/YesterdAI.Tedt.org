@@ -28,6 +28,8 @@ ROOT = Path(__file__).resolve().parents[1]
 PACIFIC = ZoneInfo('America/Los_Angeles')
 FEEDS = {'curated': 'https://rss.tedt.org/ai_rss_feed.json', 'top': 'https://rss.tedt.org/feeds/top.json'}
 SECTIONS = {'Big Moves', 'Enterprise Ops', 'Vendors', 'Security', 'Policy'}
+FORMATS = {'brief': (200, 400), 'analysis': (600, 1200)}
+SOURCE_KINDS = {'preprint', 'vendor', 'reporting', 'research', 'practitioner'}
 EDITORIAL_PATHS = ('_articles/', '_editions/', '_data/', 'assets/images/', 'docs/runs/')
 PRIORITY = {'!': 'Essential', '*': 'Important', '~': 'Optional'}
 TECH = {'◻': 'Informational', '◼': 'Important', '⬢': 'Transformational'}
@@ -142,24 +144,26 @@ def normalized_wire(feed, fetched_at):
                       'date_published': original['date_published'],
                       'date_precision': 'day' if 'T00:00:00' in original['date_published'] else 'second',
                       'rating': rating, 'technical_rating': technical})
-    return {'source_url': FEEDS['top'], 'last_success_at': fetched_at, 'items': items}
+    return {'source_url': FEEDS['top'], 'last_success_at': fetched_at,
+            'last_checked_at': fetched_at, 'last_changed_at': fetched_at, 'items': items}
 
 
 def refresh(root=ROOT):
     # Read and validate both feeds before replacing either last-known-good file.
     raw = {name: validate_feed(get_json(url), name) for name, url in FEEDS.items()}
     wire_path = root / '_data/wire.json'
-    wire = normalized_wire(raw['top'], utc_now())
+    checked_at = utc_now()
+    wire = normalized_wire(raw['top'], checked_at)
     previous = json.loads(wire_path.read_text()) if wire_path.exists() else None
     if previous and previous.get('items') == wire['items']:
-        wire['last_success_at'] = previous['last_success_at']
+        wire['last_changed_at'] = previous.get('last_changed_at', previous['last_success_at'])
     discovery_path = root / '_data/discovery.json'
     discovery = {'feeds': raw}
     if not wire_path.exists() or previous != wire:
         atomic_json(wire_path, wire)
     if not discovery_path.exists() or json.loads(discovery_path.read_text()) != discovery:
         atomic_json(discovery_path, discovery)
-    print(json.dumps({'curated': len(raw['curated']['items']), 'top': len(raw['top']['items']), 'wire': len(wire['items']), 'checked_at': utc_now()}))
+    print(json.dumps({'curated': len(raw['curated']['items']), 'top': len(raw['top']['items']), 'wire': len(wire['items']), 'checked_at': checked_at}))
 
 
 def read_document(path):
@@ -177,6 +181,10 @@ def word_count(body):
     body = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', body)
     body = re.sub(r'<[^>]*>', '', body)
     return len(re.findall(r"\b[\w]+(?:[’'–-][\w]+)*\b", body))
+
+
+def reading_minutes(body):
+    return max(1, math.ceil(word_count(body) / 220))
 
 
 def image_dimensions(path):
@@ -216,6 +224,13 @@ def validate(root=ROOT, allow_empty=False):
         require(isinstance(ed.get('article_ids'), list) and len(ed['article_ids']) <= 8, f'{label}: at most eight articles')
         require(len(ed['article_ids']) == len(set(ed['article_ids'])), f'{label}: repeated article ID')
         require(isinstance(ed.get('tldr'), list) and len(ed['tldr']) > 0, f'{label}: TL;DR required')
+        if ed.get('lead_article_id'):
+            require(ed['lead_article_id'] in ed['article_ids'], f'{label}: lead must belong to this edition')
+        for point in ed['tldr']:
+            if isinstance(point, dict):
+                require(point.get('text') and point.get('article_id') in ed['article_ids'], f'{label}: TL;DR needs text and an edition article')
+            else:
+                require(isinstance(point, str) and point.strip(), f'{label}: invalid legacy TL;DR')
         require(ed['article_ids'] or ed.get('quiet_day') is True, f'{label}: empty edition needs verified quiet_day flag')
         if not ed['article_ids']:
             require(ed.get('discovery_status') == 'ok' and ed.get('quiet_day_reason'), f'{label}: quiet day requires successful discovery and an editorial reason')
@@ -231,16 +246,27 @@ def validate(root=ROOT, allow_empty=False):
     for file in sorted((root / '_articles').glob('*.md')):
         a, body = read_document(file)
         label = f'Article {file.stem}'
-        for key in ('article_id', 'story_key', 'title', 'summary', 'section', 'edition_date', 'published_at', 'eligibility', 'sources', 'hero', 'leader_action', 'individual_action', 'feed_summary', 'feed_name'):
+        for key in ('article_id', 'story_key', 'title', 'summary', 'section', 'edition_date', 'published_at', 'eligibility', 'sources', 'leader_action', 'individual_action', 'feed_summary', 'feed_name'):
             require(a.get(key), f'{label}: {key} required')
         require(a['article_id'] not in articles, f'{label}: duplicate ID')
         require(a['section'] in SECTIONS, f'{label}: invalid section')
         ed = editions.get(str(a['edition_date']))
         require(ed is not None and a['article_id'] in ed['article_ids'], f'{label}: edition membership missing')
-        require(800 <= word_count(body) <= 1200, f'{label}: {word_count(body)} words, expected 800–1,200')
+        story_format = a.get('format', 'analysis')
+        require(story_format in FORMATS, f'{label}: invalid format')
+        minimum, maximum = FORMATS[story_format]
+        require(minimum <= word_count(body) <= maximum, f'{label}: {word_count(body)} words, expected {minimum}–{maximum} for {story_format}')
+        if a.get('format'):
+            require(a.get('evidence_type') in SOURCE_KINDS, f'{label}: source type required')
+            require(isinstance(a.get('takeaways'), list) and 1 <= len(a['takeaways']) <= 3 and all(isinstance(t, str) and t.strip() for t in a['takeaways']), f'{label}: one to three takeaways required')
+            require(isinstance(a.get('topics'), list) and 1 <= len(a['topics']) <= 3 and all(re.fullmatch(r'[a-z]+(?:-[a-z]+)*', str(t)) for t in a['topics']), f'{label}: one to three topic slugs required')
+            require(a.get('reading_minutes') == reading_minutes(body), f'{label}: reading time must match final prose')
+        if a.get('modified_at'):
+            require(parse_time(a['modified_at']) >= parse_time(a['published_at']), f'{label}: revision predates original publication')
         require(len(a['title'].split()) <= 12, f'{label}: headline exceeds 12 words')
         require(not any(c in a['title'] for c in '<>'), f'{label}: headline must be plain text')
         require(not re.search(r'<\s*(script|iframe|object|style)\b', body, re.I), f'{label}: active HTML is not permitted in editorial content')
+        require(not re.search(r'^#{1,6}\s+(Looking Ahead|Editor[’\x27]s notes|Sources and editorial record)\s*$', body, re.M | re.I), f'{label}: production sections do not belong in article prose')
         require(parse_time(a['published_at']) >= parse_time(ed['cutoff']), f'{label}: publication date predates coverage cutoff')
         eligibility = a['eligibility']
         require(eligibility.get('verification') in {'jsonld', 'meta', 'visible', 'publisher_api'}, f'{label}: verify original source date, not feed placeholder')
@@ -250,16 +276,24 @@ def validate(root=ROOT, allow_empty=False):
         for source in a['sources']:
             source_urls.add(canonical_url(source['url']))
             require(parse_time(source['published_at']) <= parse_time(ed['cutoff']), f'{label}: source from after historical cutoff')
+            if source.get('kind'):
+                require(source['kind'] in SOURCE_KINDS, f'{label}: invalid source kind')
         require(canonical_url(eligibility['url']) in source_urls, f'{label}: eligibility source missing from citations')
         linked = {canonical_url(u) for u in re.findall(r'\]\((https://[^\s)]+)\)', body)}
         require(linked & source_urls, f'{label}: inline source link required')
-        hero = a['hero']
+        hero = a.get('hero')
+        require(story_format == 'brief' or hero, f'{label}: analysis requires a generated hero')
+        if not hero:
+            a['_file'] = str(file)
+            a['_canonical'] = canonical_url(eligibility['url'])
+            articles[a['article_id']] = a
+            continue
         require(hero.get('alt') and hero.get('prompt') and hero.get('generated_at'), f'{label}: hero alt, prompt, generation date required')
         image = (root / hero['path'].lstrip('/')).resolve()
         require(image.is_relative_to((root / 'assets/images').resolve()) and image.is_file(), f'{label}: missing project hero image')
         require(image.suffix == '.webp' and image.read_bytes()[:4] == b'RIFF', f'{label}: expected real WebP hero')
         require(image.stat().st_size > 1000, f'{label}: hero appears empty')
-        require(hero.get('width', 0) >= 1000 and hero.get('height', 0) >= 500, f'{label}: hero dimensions too small')
+        require(hero.get('width', 0) >= 1200 and hero.get('height', 0) >= 500, f'{label}: hero dimensions too small')
         require(image_dimensions(image) == (hero['width'], hero['height']), f'{label}: hero dimensions do not match asset')
         parse_time(hero['generated_at'])
         require(hero.get('tool') == 'image_gen', f'{label}: built-in generated image required')
@@ -277,7 +311,7 @@ def validate(root=ROOT, allow_empty=False):
             if gap <= 7 and repeated:
                 require(a.get('update_of') == prior['article_id'] and a.get('substantive_update'), f'{a["_file"]}: duplicate coverage needs a documented substantive update')
                 require(parse_time(a['eligibility']['published_at']) > parse_time(editions[str(prior['edition_date'])]['cutoff']), f'{a["_file"]}: substantive development must follow the previous edition cutoff')
-    print(f'Validated {len(editions)} editions, {len(articles)} complete researched articles and heroes.')
+    print(f'Validated {len(editions)} editions and {len(articles)} complete researched stories.')
     return len(editions), len(articles)
 
 
@@ -297,7 +331,9 @@ def ship(root=ROOT):
         run(sys.executable, str(root / 'scripts/publish.py'), 'validate', cwd=root)
         run(sys.executable, '-m', 'unittest', 'discover', '-s', 'tests', cwd=root)
         run('bundle', 'exec', 'jekyll', 'build', '--strict_front_matter', cwd=root)
+        run('npm', 'run', 'index', cwd=root)
         run(sys.executable, str(root / 'scripts/check_site.py'), cwd=root)
+        run('npm', 'run', 'test:smoke', cwd=root)
         try:
             run('git', 'push', 'origin', 'HEAD:main', cwd=root)
             return

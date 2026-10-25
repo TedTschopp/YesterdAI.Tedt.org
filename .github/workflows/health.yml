@@ -1,0 +1,39 @@
+name: Publication health
+
+on:
+  schedule:
+    - cron: '47 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publication-health
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Verify the public edition and successful feed checks
+        shell: bash
+        run: python scripts/health.py --public | tee health.json
+      - name: Record required action
+        if: always()
+        run: |
+          echo '## Publication health' >> "$GITHUB_STEP_SUMMARY"
+          cat health.json >> "$GITHUB_STEP_SUMMARY"
+          echo 'Daily production requires the local computer and Codex app. The hourly GitHub importer operates independently.' >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: publication-health
+          path: health.json

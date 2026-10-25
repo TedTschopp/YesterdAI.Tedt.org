@@ -1,0 +1,5 @@
+{% assign points = include.edition | linked_takeaways %}
+<section class="tldr-panel" aria-labelledby="tldr-heading">
+  <div class="section-header"><h2 id="tldr-heading">TL;DR</h2><span class="meta">The short version</span></div>
+  <ol>{% for point in points limit: 5 %}<li>{% if point.url %}<a href="{{ point.url }}">{{ point.text | escape }}</a>{% else %}{{ point.text | escape }}{% endif %}</li>{% endfor %}</ol>
+</section>

@@ -1,0 +1,5 @@
+---
+layout: page
+---
+<nav class="reading-links" aria-label="Explore"><a href="/topics/">All topics</a><a href="/search/?tag={{ page.topic_slug }}">Search this topic →</a></nav>
+{% assign articles = site.articles | sort: 'edition_date' | reverse %}{% for article in articles %}{% if article.topics contains page.topic_slug %}{% include compact-story.html article=article %}{% endif %}{% endfor %}

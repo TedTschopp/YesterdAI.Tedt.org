@@ -1,5 +1,5 @@
 /* The sister site's own font request (preview.tedt.org css/shared-fonts.css) */
-@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Fira+Code:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Titillium+Web:ital,wght@0,200..900;1,200..700&display=swap');
+/* The single shared font request is loaded from the document head. */
 
 /* ============================================================
    Yesterday in AI — component and base styles
@@ -50,7 +50,8 @@
 /* ============================================================
    BASE
    ============================================================ */
-html, body {
+html { font-size: 100%; }
+body {
   background: var(--bg);
   color: var(--fg-body);
   font-family: var(--font-sans);

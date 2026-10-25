@@ -1,0 +1,100 @@
+{
+  "prepared_at": "2026-10-24",
+  "source": "Google Fonts CSS API and google/fonts OFL licenses",
+  "files": [
+    {
+      "source_url": "https://fonts.gstatic.com/s/calsans/v2/fdN99sWUv3gWqXxqqRBStFsm46ZwWbw.woff2",
+      "file": "cal-sans-normal-latin-ext-cbfc071b0b52.woff2",
+      "sha256": "cbfc071b0b52160b1da43b3dad93e5c550ec18693bf25ec5fc8f367b492bbda7",
+      "bytes": 9372,
+      "family": "Cal Sans",
+      "style": "normal",
+      "subset": "latin-ext"
+    },
+    {
+      "source_url": "https://fonts.gstatic.com/s/calsans/v2/fdN99sWUv3gWqXxqqRBctFsm46Zw.woff2",
+      "file": "cal-sans-normal-latin-cc7be70f8ec4.woff2",
+      "sha256": "cc7be70f8ec426b41186cd876172eac2fea2f17880e8dcaea1d10f7d371589d0",
+      "bytes": 15320,
+      "family": "Cal Sans",
+      "style": "normal",
+      "subset": "latin"
+    },
+    {
+      "source_url": "https://fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh09SDqFGedCMX.woff2",
+      "file": "fira-code-normal-latin-ext-e08f04687410.woff2",
+      "sha256": "e08f04687410bb5216c443be9c5b7239077a9105ce5c658321e5120cfdb44f01",
+      "bytes": 13232,
+      "family": "Fira Code",
+      "style": "normal",
+      "subset": "latin-ext"
+    },
+    {
+      "source_url": "https://fonts.gstatic.com/s/firacode/v27/uU9NCBsR6Z2vfE9aq3bh3dSDqFGedA.woff2",
+      "file": "fira-code-normal-latin-d32d5b5a7c97.woff2",
+      "sha256": "d32d5b5a7c9720cf3812f7d1e3ebdb54116f8f656e7471a03a5a93bdd93c98b3",
+      "bytes": 36340,
+      "family": "Fira Code",
+      "style": "normal",
+      "subset": "latin"
+    },
+    {
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCm3FwrK3iLTcvnUwoT9mI1F55MKw.woff2",
+      "file": "inter-italic-latin-ext-7d263a256b58.woff2",
+      "sha256": "7d263a256b5858b218171435d91c14b299b3aab4eb531f54b92df4ff0a5afe84",
+      "bytes": 146648,
+      "family": "Inter",
+      "style": "italic",
+      "subset": "latin-ext"
+    },
+    {
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCm3FwrK3iLTcvnUwQT9mI1F54.woff2",
+      "file": "inter-italic-latin-124b693f9bb5.woff2",
+      "sha256": "124b693f9bb5663329a23e21e3b702ed9ae20a8298a1a7213cd56fc187a16800",
+      "bytes": 79744,
+      "family": "Inter",
+      "style": "italic",
+      "subset": "latin"
+    },
+    {
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTcvsYwYZ8UA3J58.woff2",
+      "file": "inter-normal-latin-ext-8bc9dee39dea.woff2",
+      "sha256": "8bc9dee39deab5dc6599980e563c5023053387e4c391f5c419543e493e024c39",
+      "bytes": 133704,
+      "family": "Inter",
+      "style": "normal",
+      "subset": "latin-ext"
+    },
+    {
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTcviYwYZ8UA3.woff2",
+      "file": "inter-normal-latin-dd8a4575be98.woff2",
+      "sha256": "dd8a4575be9806105ac3decd02805cd2782fe7c05abb02c582316bc436ce03ae",
+      "bytes": 73016,
+      "family": "Inter",
+      "style": "normal",
+      "subset": "latin"
+    },
+    {
+      "source_url": "https://fonts.gstatic.com/s/titilliumweb/v19/NaPecZTIAOhVxoMyOr9n_E7fdM3mDaZRbryhsA.woff2",
+      "file": "titillium-web-normal-latin-ext-b4bb9daaf656.woff2",
+      "sha256": "b4bb9daaf65622e552d75fe4c05a472a6f45b02be1d781c827fb9bb20d574455",
+      "bytes": 6772,
+      "family": "Titillium Web",
+      "style": "normal",
+      "subset": "latin-ext"
+    },
+    {
+      "source_url": "https://fonts.gstatic.com/s/titilliumweb/v19/NaPecZTIAOhVxoMyOr9n_E7fdMPmDaZRbrw.woff2",
+      "file": "titillium-web-normal-latin-f93ddc83566b.woff2",
+      "sha256": "f93ddc83566ba07720588fc532ab30b9ab7a0b236177670936f4e0165a9b39d7",
+      "bytes": 12380,
+      "family": "Titillium Web",
+      "style": "normal",
+      "subset": "latin"
+    }
+  ],
+  "preloads": {
+    "Cal Sans": "/assets/fonts/cal-sans-normal-latin-cc7be70f8ec4.woff2",
+    "Inter": "/assets/fonts/inter-normal-latin-dd8a4575be98.woff2"
+  }
+}

@@ -1,0 +1,9 @@
+---
+title: Follow the question
+description: "Explore the ideas behind the daily news."
+permalink: /topics/
+eyebrow: Topics
+job: discover
+---
+<div class="topic-directory">{% for topic in site.data.topics %}<section><h2><a href="/topics/{{ topic.slug }}/">{{ topic.name }}</a></h2><p class="body-sm">{{ topic.description }}</p></section>{% endfor %}</div>
+<p><a href="/search/">Search for a specific idea →</a></p>

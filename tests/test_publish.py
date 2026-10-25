@@ -12,7 +12,7 @@ import yaml
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from publish import ROOT, canonical_url, clean_title, cutoff_for, in_window, normalized_wire, parse_time, read_document, refresh, story_id, validate, validate_feed
+from publish import ROOT, canonical_url, clean_title, cutoff_for, in_window, normalized_wire, parse_time, read_document, reading_minutes, refresh, story_id, validate, validate_feed
 
 
 def feed():
@@ -91,11 +91,14 @@ class FeedTests(unittest.TestCase):
     def test_unchanged_refresh_is_idempotent(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            with patch('publish.get_json', return_value=feed()):
+            with patch('publish.get_json', return_value=feed()), patch('publish.utc_now', side_effect=['2026-10-24T12:00:00Z', '2026-10-24T13:00:00Z']):
                 refresh(root)
-                before = (root / '_data/wire.json').read_bytes()
+                before = json.loads((root / '_data/wire.json').read_text())
                 refresh(root)
-                self.assertEqual(before, (root / '_data/wire.json').read_bytes())
+                after = json.loads((root / '_data/wire.json').read_text())
+                self.assertEqual(before['items'], after['items'])
+                self.assertEqual(before['last_changed_at'], after['last_changed_at'])
+                self.assertEqual(after['last_checked_at'], '2026-10-24T13:00:00Z')
 
 
 class PublicationTests(unittest.TestCase):
@@ -105,16 +108,18 @@ class PublicationTests(unittest.TestCase):
         self.directory = tempfile.TemporaryDirectory()
         self.addCleanup(self.directory.cleanup)
         self.root = Path(self.directory.name)
-        self.article, self.body = read_document(ROOT / '_articles/materials-structure-ml.md')
-        self.edition, _ = read_document(ROOT / '_editions/2026-10-18.md')
+        self.article, self.body = read_document(ROOT / '_articles/authorization-agent-boundaries.md')
+        self.edition, _ = read_document(ROOT / '_editions/2026-10-21.md')
         self.edition['article_ids'] = [self.article['article_id']]
+        self.edition['tldr'] = [{'article_id': self.article['article_id'], 'text': 'A scoped authorization benchmark.'}]
+        self.edition['lead_article_id'] = self.article['article_id']
         self.image = self.root / self.article['hero']['path'].lstrip('/')
         self.image.parent.mkdir(parents=True)
         shutil.copyfile(ROOT / self.article['hero']['path'].lstrip('/'), self.image)
         self.write_documents()
 
     def write_documents(self):
-        for name, metadata, body in [('_articles/materials-structure-ml.md', self.article, self.body), ('_editions/2026-10-18.md', self.edition, '')]:
+        for name, metadata, body in [('_articles/materials-structure-ml.md', self.article, self.body), ('_editions/2026-10-21.md', self.edition, '')]:
             path = self.root / name
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text('---\n' + yaml.safe_dump(metadata, allow_unicode=True) + '---\n\n' + body)
@@ -141,7 +146,7 @@ class PublicationTests(unittest.TestCase):
             self.check()
 
     def test_source_from_after_retrospective_cutoff_is_rejected(self):
-        self.article['sources'].append({'url': 'https://example.com/later-report', 'published_at': '2026-10-19T12:00:00Z'})
+        self.article['sources'].append({'url': 'https://example.com/later-report', 'published_at': '2026-10-22T12:00:00Z'})
         self.write_documents()
         with self.assertRaisesRegex(ValueError, 'after historical cutoff'):
             self.check()
@@ -154,18 +159,19 @@ class PublicationTests(unittest.TestCase):
 
     def test_duplicate_coverage_needs_a_later_substantive_development(self):
         later = copy.deepcopy(self.article)
-        later.update(article_id='art_distinct_revision', edition_date='2026-10-19', update_of=self.article['article_id'], substantive_update='An asserted update without a new timestamp.')
-        end = cutoff_for('2026-10-19')
+        later.update(article_id='art_distinct_revision', edition_date='2026-10-22', update_of=self.article['article_id'], substantive_update='An asserted update without a new timestamp.')
+        later['eligibility']['published_at'] = '2026-10-21T01:00:00Z'
+        end = cutoff_for('2026-10-22')
         edition = copy.deepcopy(self.edition)
-        edition.update(edition_date='2026-10-19', cutoff=end.isoformat(), window_start=(end.astimezone(timezone.utc) - timedelta(hours=36)).isoformat(), article_ids=[later['article_id']], quick_hits=[])
-        for path, data, body in [(self.root / '_articles/later.md', later, self.body), (self.root / '_editions/2026-10-19.md', edition, '')]:
+        edition.update(edition_date='2026-10-22', cutoff=end.isoformat(), window_start=(end.astimezone(timezone.utc) - timedelta(hours=36)).isoformat(), article_ids=[later['article_id']], lead_article_id=later['article_id'], tldr=[{'article_id': later['article_id'], 'text': 'An asserted update.'}], quick_hits=[])
+        for path, data, body in [(self.root / '_articles/later.md', later, self.body), (self.root / '_editions/2026-10-22.md', edition, '')]:
             path.write_text('---\n' + yaml.safe_dump(data) + '---\n' + body)
         with self.assertRaisesRegex(ValueError, 'substantive development must follow'):
             self.check()
 
     def test_quiet_day_requires_successful_discovery(self):
         (self.root / '_articles/materials-structure-ml.md').unlink()
-        self.edition.update(article_ids=[], quick_hits=[], quiet_day=True)
+        self.edition.update(article_ids=[], lead_article_id=None, tldr=['A quiet day.'], quick_hits=[], quiet_day=True)
         self.write_documents()
         (self.root / '_articles/materials-structure-ml.md').unlink()
         with self.assertRaisesRegex(ValueError, 'successful discovery'):
@@ -186,6 +192,53 @@ class PublicationTests(unittest.TestCase):
         self.write_documents()
         self.assertEqual(read_document(self.root / '_articles/materials-structure-ml.md')[0]['feed_summary'], self.article['feed_summary'])
         self.assertEqual(self.check(), (1, 1))
+
+    def test_brief_can_omit_a_hero_without_weakening_source_rules(self):
+        self.article['format'] = 'brief'
+        self.article.pop('hero')
+        self.body = ' '.join(self.body.split()[:260])
+        self.article['reading_minutes'] = reading_minutes(self.body)
+        self.write_documents()
+        self.assertEqual(self.check(), (1, 1))
+        self.article['eligibility']['verification'] = 'feed'
+        self.write_documents()
+        with self.assertRaisesRegex(ValueError, 'verify original source'):
+            self.check()
+
+    def test_analysis_cannot_silently_publish_without_its_hero(self):
+        self.article.pop('hero')
+        self.write_documents()
+        with self.assertRaisesRegex(ValueError, 'analysis requires'):
+            self.check()
+
+    def test_linked_takeaway_and_explicit_lead_stay_in_the_edition(self):
+        self.edition['lead_article_id'] = 'missing'
+        self.write_documents()
+        with self.assertRaisesRegex(ValueError, 'lead must belong'):
+            self.check()
+        self.edition['lead_article_id'] = self.article['article_id']
+        self.edition['tldr'][0]['article_id'] = 'missing'
+        self.write_documents()
+        with self.assertRaisesRegex(ValueError, 'TL;DR needs'):
+            self.check()
+
+    def test_legacy_text_takeaways_and_implicit_analysis_still_validate(self):
+        self.article.pop('format')
+        self.edition.pop('lead_article_id')
+        self.edition['tldr'] = ['Legacy text-only takeaway.']
+        self.write_documents()
+        self.assertEqual(self.check(), (1, 1))
+
+    def test_format_length_and_reading_time_are_checked(self):
+        self.article['format'] = 'brief'
+        self.write_documents()
+        with self.assertRaisesRegex(ValueError, 'expected 200–400'):
+            self.check()
+        self.article['format'] = 'analysis'
+        self.article['reading_minutes'] += 1
+        self.write_documents()
+        with self.assertRaisesRegex(ValueError, 'reading time'):
+            self.check()
 
 
 if __name__ == '__main__':

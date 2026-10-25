@@ -26,3 +26,20 @@ Shared prompt foundation:
 > Create a wide landscape editorial hero for Yesterday in AI. International Typographic Style translated into a crisp conceptual graphic: warm ivory paper (#F8F6F0), deep slate (#101820), restrained burnt-orange (#BF4714) signal, fine hairlines, precise geometry, ample negative space, flat matte finish. One clear visual relationship tied to this article. No text, letters, logos, gradients, photographic people, robots, watermarks, or decorative texture. Keep all essential forms comfortably inside the frame.
 
 Append the article-specific subject and composition. Save the exact combined prompt with the resulting asset’s metadata.
+
+## Reader components (version 2)
+
+The approved reader contract in docs/reader-contract.md controls levels of detail and supersedes older example-page content arrangements. The visual tokens and logos retain their identity.
+
+- **Briefing:** compact date/theme header, linked TL;DR, explicit lead, up to five headline-first rows. Leadership implication once per preview.
+- **Newspaper:** fixed topical order, headline-first rows with sources and role implications, contextual contents rail only above 1,100px.
+- **Research article:** decision takeaways, proportionate native-ratio illustration, concise contents links for longer analyses, body, Sources, topic links, and related coverage.
+- **Finder:** compact text results with edition date, section, format, and reading time. No duplicated role-action blocks or decorative thumbnail grid.
+- **History:** month rules, edition title/date, and representative linked headlines.
+- **Small screens:** one reading column; native-ratio images stack instead of leaving a narrow strip of text.
+
+Use the same geometry, palette, and negative space for future heroes, choosing a specific mechanism rather than a repeated generic symbol. Comparisons can use paired fields; data/authority boundaries can use gates; decisions can use routes; evidence can use linked records. These are composition choices, not extra colors or fabricated statistical charts. Preserve existing article images.
+
+## Pinned fonts
+
+The same Cal Sans, Inter, Fira Code, and Titillium Web faces are served from assets/fonts/ rather than depending on a changing remote stylesheet. The manifest records source URLs and SHA-256 hashes; OFL licenses accompany the Latin and extended-Latin subsets. Keep the names, weights, and metrics fixed during editorial runs.

@@ -1,11 +1,16 @@
 ---
-title: Find an idea worth keeping
-description: "Search the analysis, or follow a subject across editions."
+title: Search the analysis
+description: "Find a specific answer, or follow a subject across editions."
 permalink: /search/
-eyebrow: Search the work
+eyebrow: The research desk
+job: discover
+noindex: true
 ---
-<form class="search-form" role="search" action="/search/"><label for="search-input">Search articles</label><input id="search-input" class="form-control" type="search" name="q" placeholder="Models, security, operations…" autocomplete="off"><button class="btn search-button" type="submit">Search</button></form>
-<div class="topic-filters" role="group" aria-label="Filter by topic"><button class="filter-button" data-filter="all" aria-pressed="true">All topics</button>{% for section in site.sections %}<button class="filter-button" data-filter="{{ section.slug }}" aria-pressed="false">{{ section.name }}</button>{% endfor %}</div>
-<p id="search-status" class="meta" aria-live="polite"></p>
-<div id="search-results">{% assign articles = site.articles | sort: 'edition_date' | reverse %}{% for article in articles %}{% include story-row.html article=article %}{% endfor %}</div>
-<noscript><p>All articles are listed above. Use your browser’s Find command to search this page.</p></noscript>
+<form class="search-form" role="search" action="/search/"><label for="search-input">Search articles</label><input id="search-input" class="form-control" type="search" name="q" placeholder="Models, security, operations…" autocomplete="off"><button class="search-button" type="submit">Search</button></form>
+<div class="topic-filters" role="group" aria-label="Filter by section"><button class="filter-button" data-filter="all" aria-pressed="true">All sections</button>{% for section in site.sections %}{% assign section_articles = site.articles | where: 'section', section.name %}{% if section_articles.size > 0 %}<button class="filter-button" data-filter="{{ section.slug }}" aria-pressed="false">{{ section.name }}</button>{% endif %}{% endfor %}</div>
+<div class="subject-select"><label for="subject-filter">Subject</label><select id="subject-filter" class="form-control"><option value="">Every subject</option>{% for topic in site.data.topics %}<option value="{{ topic.slug }}">{{ topic.name }}</option>{% endfor %}</select></div>
+<p id="search-status" class="meta" aria-live="polite" aria-atomic="true"></p>
+<div id="search-empty" class="search-empty" hidden><h2>No matching articles</h2><p>Try fewer words, choose another section, or <a href="/search/">clear the search</a>.</p><p><a href="/topics/">Browse topics</a> or <a href="/archive/">find an edition by date</a>.</p></div>
+<div id="search-results">{% assign articles = site.articles | sort: 'edition_date' | reverse %}{% for article in articles %}{% include compact-story.html article=article %}{% endfor %}</div>
+<nav class="search-pagination" aria-label="Search result pages" hidden><button class="filter-button" type="button" data-search-previous>Previous</button><span class="meta" data-search-page></span><button class="filter-button" type="button" data-search-next>Next</button></nav>
+<noscript><p>All articles are listed above. Use your browser’s Find command, or <a href="/topics/">browse topics</a>.</p></noscript>

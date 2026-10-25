@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-[{% assign articles = site.articles | sort: 'edition_date' | reverse %}{% for article in articles %}{% unless forloop.first %},{% endunless %}{"id":{{ article.article_id | jsonify }},"url":{{ article.url | jsonify }},"title":{{ article.title | jsonify }},"summary":{{ article.summary | jsonify }},"section":{{ article.section | slugify | jsonify }},"edition_date":{{ article.edition_date | jsonify }},"text":{{ article.content | strip_html | normalize_whitespace | jsonify }}}{% endfor %}]
+[{% assign articles = site.articles | sort: 'edition_date' | reverse %}{% for article in articles %}{% unless forloop.first %},{% endunless %}{"id":{{ article.article_id | jsonify }},"url":{{ article.url | jsonify }},"title":{{ article.title | jsonify }},"summary":{{ article.summary | jsonify }},"section":{{ article.section | slugify | jsonify }},"section_name":{{ article.section | jsonify }},"edition_date":{{ article.edition_date | jsonify }},"format":{{ article.format | default: 'analysis' | jsonify }},"minutes":{{ article.content | reading_time }},"topics":{{ article.topics | default: empty | jsonify }}}{% endfor %}]

@@ -8,11 +8,11 @@ Jekyll renders versioned Markdown editions and articles. GitHub Actions validate
 
 ## Development
 
-Select Ruby 3.2.9 with rbenv, then run `make setup`, `make check`, and `make serve`. Python dependencies live in `.venv/`. Source page caches and generated build files are ignored by Git. There is no paid model API dependency, database, login system, or email delivery service.
+Select Ruby 3.2.9 with rbenv and Node 22+, then run `make setup`, `make check`, and `make serve`. Python dependencies live in `.venv/`. Source page caches and generated build files are ignored by Git. There is no paid model API dependency, database, login system, or email delivery service.
 
 ## Editorial contract
 
-The feeds at https://rss.tedt.org/ai_rss_feed.json and https://rss.tedt.org/feeds/top.json supply discovery and attributed summaries. Full articles follow original reporting, verify its publication or substantive update time, and use the 36 hours preceding 5 a.m. Pacific. Each edition includes up to eight distinct 800–1,200 word articles with original generated heroes. Read [the daily production prompt](prompts/daily-edition.md), [brand rules](docs/brand.md), and [operations](docs/operations.md).
+The feeds at https://rss.tedt.org/ai_rss_feed.json and https://rss.tedt.org/feeds/top.json supply discovery and attributed summaries. Full articles follow original reporting, verify its publication or substantive update time, and use the 36 hours preceding 5 a.m. Pacific. Each edition includes up to eight distinct researched stories: 200–400-word briefs or 600–1,200-word analyses. New analyses require original generated heroes; briefs may omit illustrations. Existing attached images are preserved. Read [the reader/section jobs](docs/reader-contract.md), [the daily production prompt](prompts/daily-edition.md), [brand rules](docs/brand.md), and [operations](docs/operations.md).
 
 The seven launch editions are explicitly retrospective. Their reporting windows and historical feed commits are separate from their actual preparation and article publication dates.
 
@@ -21,10 +21,16 @@ New articles use Ted's `ted-writing-style` skill in technology/strategy mode, wi
 ## Content interface
 
 - `_articles/<stable-slug>.md`: article front matter and Markdown analysis; public URL `/articles/<stable-slug>/`.
-- `_editions/YYYY-MM-DD.md`: cutoff/window, TL;DR, article IDs, short links, editorial notes; public URL `/editions/YYYY-MM-DD/`.
-- `_data/wire.json`: ranked, normalized live stories and the last changed successful snapshot time.
+- `_editions/YYYY-MM-DD.md`: cutoff/window, article-linked TL;DR, explicit lead, article IDs, short links, and internal evidence; public URL `/editions/YYYY-MM-DD/`.
+- `_data/wire.json`: ranked, normalized live stories and separate successful-check and content-change times.
 - `_data/discovery.json`: current validated input feeds and item exclusion records.
 - `assets/images/`: optimized generated hero images, with their prompts and provenance in the article metadata.
 - `docs/runs/`: durable editorial and launch records.
 
-Public pages include `/`, `/live/`, `/archive/`, `/search/` (including topic filters), and `/about/`. Syndication uses `/feed.xml` and `/feed.json`; `/sitemap.xml` lists public pages.
+Public pages: /, /live/, /archive/, /search/, /topics/, and /about/. Syndication uses /feed.xml and /feed.json; /sitemap.xml lists indexable pages.
+
+## Regression protection
+
+The preserved archive has source/date/identity/anchor/image checks. Pagefind builds after Jekyll. GitHub deployment requires Chromium and WebKit reader/accessibility checks plus reviewed fixed-content visual fixtures at six widths in both themes. Pinned OFL font files keep typography repeatable. Production jobs cannot modify application code or approved visual baselines.
+
+Publication health runs independently on GitHub, checking the 7 a.m. Pacific edition deadline and three-hour feed-check age. Weekly Lighthouse runs record mobile lab measurements; they do not establish field INP. See [operations](docs/operations.md).

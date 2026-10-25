@@ -5,6 +5,11 @@ baseurl: ""
 timezone: America/Los_Angeles
 lang: en
 author: Yesterday in AI
+share_image:
+  path: /assets/images/publication-share.png
+  width: 1200
+  height: 630
+  alt: Yesterday in AI, a publication of Ted Tschopp’s Public Workbench.
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
@@ -39,6 +44,11 @@ exclude:
   - test-results
   - Makefile
   - LICENSE
+  - package.json
+  - package-lock.json
+  - playwright.config.js
+  - node_modules
+  - playwright-report
 kramdown:
   input: GFM
   hard_wrap: false
