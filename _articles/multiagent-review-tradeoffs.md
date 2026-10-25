@@ -27,22 +27,22 @@ hero:
   path: /assets/images/multiagent-review-tradeoffs.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
-    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
-    A single slate document block at left splits into three clean review lanes that rejoin a final assessment
-    block at right. Tiny solid slate dots mark detected findings, while a few open orange circles beside the lanes
-    represent additional false alarms. A quiet lower hairline shows the simpler single-review path. Balanced flat
-    visual metaphor for the cost and selectivity of dividing a document review among agents.
+    A single slate document block at left splits into three clean review lanes that rejoin a final assessment block
+    at right. Tiny solid slate dots mark detected findings, while a few open orange circles beside the lanes represent
+    additional false alarms. A quiet lower hairline shows the simpler single-review path. Balanced flat visual metaphor
+    for the cost and selectivity of dividing a document review among agents.
   generated_at: '2026-10-24T22:19:59.414Z'
   tool: image_gen
   width: 1536
   height: 804
-  alt: Three document-review lanes rejoin with extra orange false-alarm circles beside a simpler single-review
-    path.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
-leader_action: Compare a proposed agent team against a simple baseline using the same documents, requirements,
-  and cost accounting.
+  alt: Three document-review lanes rejoin with extra orange false-alarm circles beside a simpler single-review path.
+  caption: The added review lanes bring extra false-alarm markers, showing that more reviewers can add investigation
+    work.
+leader_action: Compare a proposed agent team against a simple baseline using the same documents, requirements, and
+  cost accounting.
 individual_action: Track false alarms separately from caught defects so a busier reviewer does not automatically
   look better.
 feed_name: TedTschopp News Graph - Top Stories
@@ -58,10 +58,10 @@ feed_summary: 'arXiv:2610.27488v1 Announce Type: new Abstract: Practitioner guid
   Balanced accuracy, an exploratory measure, changes by 0.02 or less, and the team uses 2.2 to 2.4 times the tokens.
   Showing each agent the requirements it was not given reduces the added false alarms on the two Claude models,
   at the corrected level on one. In exploratory comparisons, sampling the single agent three times and flagging
-  on any draw gives higher balanced accuracy than the team on those models, and the team''s results depend on
-  the instruction.'
-feed_title: The More the Better? A Comparison of Single- and Multi-Agent LLM Setups on a Financial Review Task
-  [ ~ ] [ ◻ ]
+  on any draw gives higher balanced accuracy than the team on those models, and the team''s results depend on the
+  instruction.'
+feed_title: The More the Better? A Comparison of Single- and Multi-Agent LLM Setups on a Financial Review Task [
+  ~ ] [ ◻ ]
 rating: Optional
 writing_style: ted-writing-style
 writing_style_version: 1.0.0
@@ -76,7 +76,7 @@ topics:
 - economics-adoption
 evidence_type: preprint
 reader_job: Decide whether an agent team improves usable review outcomes enough to justify its extra work.
-modified_at: '2026-10-25T02:25:06.952177Z'
+modified_at: '2026-10-25T03:42:17.530845Z'
 legacy_anchors:
 - define-a-finding-that-somebody-can-use
 - count-the-cost-of-false-alarms
@@ -86,7 +86,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 More warnings put more decisions on a reviewer's desk. Somebody still has to separate useful findings from investigations that lead nowhere.
 
 A [controlled comparison on credit-assessment memos](https://arxiv.org/abs/2610.27488v1) tests a single agent against a three-agent division of the same requirements. On synthetic memos with known labels, the team catches more of some defects but raises more false alarms and uses roughly 2.2–2.4 times the tokens. The results vary with the model and instructions. They do not establish that every multi-agent design is ineffective, or that the study reproduces an institution’s actual review process.

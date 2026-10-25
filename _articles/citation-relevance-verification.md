@@ -27,29 +27,30 @@ hero:
   path: /assets/images/citation-relevance-verification.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
-    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
     Three open slate document rectangles each contain a distinctive small geometric evidence shape. A thin slate
     reference line connects a claim tile to a document with a mismatched shape, while an orange correction line
-    connects it to the matching shape in another document. Minimal graphic showing that a valid reference link
-    is different from relevant supporting evidence.
+    connects it to the matching shape in another document. Minimal graphic showing that a valid reference link is
+    different from relevant supporting evidence.
   generated_at: '2026-10-24T22:30:24.847Z'
   tool: image_gen
   width: 1536
   height: 804
   alt: A valid document marker connects to the wrong evidence tile, while an orange link identifies the claim’s
     actual source relationship.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
+  caption: The mismatched document link shows why a real citation still needs to be checked against the claim it
+    is meant to support.
 leader_action: Require evidence of claim-to-source relevance in retrieval evaluations, alongside checks that citations
   resolve.
-individual_action: Open the cited material and verify the specific claim and context before treating the link
-  as support.
+individual_action: Open the cited material and verify the specific claim and context before treating the link as
+  support.
 feed_name: TedTschopp News Graph - Top Stories
 feed_summary: 'arXiv:2610.29812v1 Announce Type: cross Abstract: Literature-searching language agents are becoming
-  a standard component of scientific assistants for the life sciences, yet there is little controlled evidence
-  on which parts of their harness matter. We run a controlled ablation on biomedical claim verification (SciFact)
-  with the live PubMed API as the only tool. Holding the backbone and output format fixed, we compare four harnesses:
+  a standard component of scientific assistants for the life sciences, yet there is little controlled evidence on
+  which parts of their harness matter. We run a controlled ablation on biomedical claim verification (SciFact) with
+  the live PubMed API as the only tool. Holding the backbone and output format fixed, we compare four harnesses:
   closed-book answering, single-shot retrieval using the claim as the query, a ReAct-style agent that writes its
   own PubMed queries, and an oracle given the gold abstracts, each with two efficient frontier backbones. Naive
   single-shot retrieval finds the gold paper for only 6% of claims and turns overconfident errors into abstentions
@@ -75,7 +76,7 @@ topics:
 - security
 evidence_type: preprint
 reader_job: Verify the relationship between a specific answer and the evidence cited for it.
-modified_at: '2026-10-25T02:21:48.083484Z'
+modified_at: '2026-10-25T03:42:17.530845Z'
 legacy_anchors:
 - define-what-the-reference-must-establish
 - separate-search-from-interpretation
@@ -85,7 +86,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 Open the reference beside a confident sentence. The link may work and the paper may be real. Where is the passage that supports this particular claim?
 
 A [preprint on biomedical claim-verification agents](https://arxiv.org/abs/2610.29812v1) studies that distinction using a controlled task and PubMed retrieval. The authors report that closed-book models often supplied identifiers for real papers while those papers rarely supported the claims being checked. Their experiments also separate retrieval limitations from the performance possible when relevant abstracts are supplied. The study is narrow and some comparisons are not statistically resolved at its sample size.

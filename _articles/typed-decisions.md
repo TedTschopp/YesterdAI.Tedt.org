@@ -27,20 +27,21 @@ hero:
   path: /assets/images/typed-decisions.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
-    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
     A small slate evidence stack feeds directly into a clean fan of four fixed geometric option slots. One compact
-    orange probability bar sits under the chosen slot while three shorter slate bars sit under the others. No
-    numbers or letters. Visual metaphor for a typed classification decision with explicit options, rather than
-    producing a long stream of generated prose.
+    orange probability bar sits under the chosen slot while three shorter slate bars sit under the others. No numbers
+    or letters. Visual metaphor for a typed classification decision with explicit options, rather than producing
+    a long stream of generated prose.
   generated_at: '2026-10-24T22:26:02.994Z'
   tool: image_gen
   width: 1536
   height: 805
   alt: A compact evidence stack fans into four fixed geometric choices, with an orange bar highlighting one selected
     option.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
+  caption: The evidence fans into a fixed set of choices, illustrating a decision interface that can return a constrained
+    answer.
 leader_action: Identify repeated fixed-option decisions and compare a specialized path against the current generative
   workflow.
 individual_action: Define the option set and test ambiguous cases before optimizing the way a model returns its
@@ -49,15 +50,15 @@ feed_name: TedTschopp News Graph - Top Stories
 feed_summary: Researchers present a typed decision approach that computes probabilities for fixed options in one
   forward pass by reading language model logits or a small head over hidden states, avoiding text generation and
   parsing. They describe an in-house System 1 judge that triages about 148,000 coding session records, replacing
-  a costly frontier LLM judge with a self-hosted frozen backbone and LoRA adapter, reducing cost to roughly 1%
-  and processing 1,000 sessions in about three minutes on one GPU. The study also evaluates whether a readout
-  adding no parameters can be competitive by applying the Eikos recipe and a corpus of 25,000 decisions to three
-  LoRA-adapted decoder backbones (1B, 2B, and 35B parameters). Their 35B model scores 79.3% on 111 hard JevBench
-  items, comparable to a commercial reference at 73.0%, and outperforms several open systems. They find no benefit
-  from training the output layer's letter rows, and retraining on a later corpus release improves the 2B model's
-  accuracy by 11.7 points, highlighting the limitations of small evaluations.
-feed_title: Researchers develop an in-house System 1 judge using LoRA adapters to triage coding sessions at 1%
-  of frontier LLM cost and evaluate open LoRA models on JevBench with competitive accuracy [ ~ ] [ ◼ ]
+  a costly frontier LLM judge with a self-hosted frozen backbone and LoRA adapter, reducing cost to roughly 1% and
+  processing 1,000 sessions in about three minutes on one GPU. The study also evaluates whether a readout adding
+  no parameters can be competitive by applying the Eikos recipe and a corpus of 25,000 decisions to three LoRA-adapted
+  decoder backbones (1B, 2B, and 35B parameters). Their 35B model scores 79.3% on 111 hard JevBench items, comparable
+  to a commercial reference at 73.0%, and outperforms several open systems. They find no benefit from training the
+  output layer's letter rows, and retraining on a later corpus release improves the 2B model's accuracy by 11.7
+  points, highlighting the limitations of small evaluations.
+feed_title: Researchers develop an in-house System 1 judge using LoRA adapters to triage coding sessions at 1% of
+  frontier LLM cost and evaluate open LoRA models on JevBench with competitive accuracy [ ~ ] [ ◼ ]
 rating: Optional
 writing_style: ted-writing-style
 writing_style_version: 1.0.0
@@ -73,7 +74,7 @@ topics:
 - economics-adoption
 evidence_type: preprint
 reader_job: Choose an output interface suited to a fixed-option decision without overstating the evaluation evidence.
-modified_at: '2026-10-25T02:26:50.303292Z'
+modified_at: '2026-10-25T03:42:17.530845Z'
 legacy_anchors:
 - start-with-a-stable-question
 - separate-the-decision-from-its-explanation
@@ -83,7 +84,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 If the next system needs one selection from a fixed set, why produce a paragraph and build another component to interpret it? The interface deserves a place beside the choice of model.
 
 A [preprint on typed decisions](https://arxiv.org/abs/2610.29052v1) examines fixed-option outputs derived in one forward pass. The authors describe an internal coding-session triage use and experiments with adapted open models. They report substantial cost differences in their setting while also exposing limitations in small public benchmarks and sensitivity to the training corpus. Those details matter: an inexpensive internal configuration is evidence for a local experiment, not a universal cost or accuracy guarantee.

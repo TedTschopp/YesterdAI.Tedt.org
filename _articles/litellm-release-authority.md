@@ -27,34 +27,35 @@ hero:
   path: /assets/images/litellm-release-authority.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
-    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
-    A thin slate chain connects a small credential diamond to a repository block, then an approval gate, then
-    a final package cube drawn as flat geometric shapes. One continuous orange line crosses all three boundaries
-    from the same initial credential, showing how apparent separate checks can share compromised authority. Minimal
-    clean supply-chain editorial diagram, no attack instructions, brand marks, letters or numbers.
+    A thin slate chain connects a small credential diamond to a repository block, then an approval gate, then a
+    final package cube drawn as flat geometric shapes. One continuous orange line crosses all three boundaries from
+    the same initial credential, showing how apparent separate checks can share compromised authority. Minimal clean
+    supply-chain editorial diagram, no attack instructions, brand marks, letters or numbers.
   generated_at: '2026-10-24T22:37:58.905Z'
   tool: image_gen
   width: 1536
   height: 806
   alt: An orange credential path crosses a repository, an approval gate, and a release package, linking apparently
     separate controls.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
-leader_action: Map who can read release credentials, alter the build source, approve publication, and override
-  the controls between those steps.
-individual_action: Review the official incident record for exposure assessment and preserve the exact artifact
-  and version used by your application.
+  caption: The credential path crosses repository, approval, and release gates, showing how shared authority can
+    connect seemingly separate safeguards.
+leader_action: Map who can read release credentials, alter the build source, approve publication, and override the
+  controls between those steps.
+individual_action: Review the official incident record for exposure assessment and preserve the exact artifact and
+  version used by your application.
 feed_name: TedTschopp News Graph - Top Stories
-feed_summary: LiteLLM disclosed that on October 21, 2026, a compromised version 1.107.0 of their software was
-  published to PyPI and container registries following unauthorized access to their GitHub repositories. The breach
-  originated from an exposed master key in a public repository in May 2026, which was not revoked, allowing a
-  threat actor to gain owner-level access and exfiltrate additional tokens and credentials. The attacker used
-  stolen GitHub CLI OAuth tokens to bypass security controls, manipulate release processes, and publish a malicious
-  release by exploiting relaxed approval restrictions. LiteLLM detected the incident within hours, froze the malicious
-  PyPI releases, and removed affected Docker images while revoking all potentially compromised tokens. The company
-  highlighted the risks of failing to rotate exposed keys and provided a detailed timeline and investigation results
-  in their security incident report.
+feed_summary: LiteLLM disclosed that on October 21, 2026, a compromised version 1.107.0 of their software was published
+  to PyPI and container registries following unauthorized access to their GitHub repositories. The breach originated
+  from an exposed master key in a public repository in May 2026, which was not revoked, allowing a threat actor
+  to gain owner-level access and exfiltrate additional tokens and credentials. The attacker used stolen GitHub CLI
+  OAuth tokens to bypass security controls, manipulate release processes, and publish a malicious release by exploiting
+  relaxed approval restrictions. LiteLLM detected the incident within hours, froze the malicious PyPI releases,
+  and removed affected Docker images while revoking all potentially compromised tokens. The company highlighted
+  the risks of failing to rotate exposed keys and provided a detailed timeline and investigation results in their
+  security incident report.
 feed_title: LiteLLM reports malicious v1.107.0 release on PyPI and container registries after threat actor exploited
   exposed GitHub tokens in October 2026 [ ! ] [ ⬢ ]
 rating: Essential
@@ -63,15 +64,15 @@ writing_style_version: 1.0.0
 format: analysis
 takeaways:
 - LiteLLM’s project account traces compromised credentials and release authority to malicious version 1.107.0.
-- Map who can change release inputs, reveal secrets, approve publication, and override the controls connecting
-  those steps.
+- Map who can change release inputs, reveal secrets, approve publication, and override the controls connecting those
+  steps.
 topics:
 - security
 - governance
 - infrastructure
 evidence_type: vendor
 reader_job: Identify shared authority that can undermine apparently separate release controls.
-modified_at: '2026-10-25T02:23:35.250823Z'
+modified_at: '2026-10-25T03:42:17.530845Z'
 legacy_anchors:
 - trace-authority-across-the-whole-release
 - keep-source-selection-visible
@@ -81,7 +82,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 A row of locked doors offers less separation when the same key ring opens them all. A release process can have the same weakness: its gates may depend on a few credentials able to change the path itself.
 
 In its [October 23 root-cause report](https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain), LiteLLM describes a chain from an exposed internal-service key to GitHub credentials, additional secret access, changes to release infrastructure, and publication of malicious version 1.107.0. The report distinguishes the attacker’s use of several identities and records overrides of repository protections. This is the project’s incident account; organizations assessing exposure should use its current official guidance and their own artifact records.

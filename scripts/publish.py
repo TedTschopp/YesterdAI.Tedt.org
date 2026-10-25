@@ -289,6 +289,10 @@ def validate(root=ROOT, allow_empty=False):
             articles[a['article_id']] = a
             continue
         require(hero.get('alt') and hero.get('prompt') and hero.get('generated_at'), f'{label}: hero alt, prompt, generation date required')
+        caption = hero.get('caption', '')
+        if caption:
+            require(not re.match(r'^(?:an? )?AI[- ]generated\b', caption, re.I) and caption.lower().rstrip('.') not in {'editorial illustration', 'a conceptual illustration of the mechanism discussed in this analysis'}, f'{label}: caption must explain the image and its relationship to the story')
+            require(len(re.findall(r'[.!?](?:\s+|$)', caption)) <= 2, f'{label}: caption must use at most two sentences')
         image = (root / hero['path'].lstrip('/')).resolve()
         require(image.is_relative_to((root / 'assets/images').resolve()) and image.is_file(), f'{label}: missing project hero image')
         require(image.suffix == '.webp' and image.read_bytes()[:4] == b'RIFF', f'{label}: expected real WebP hero')

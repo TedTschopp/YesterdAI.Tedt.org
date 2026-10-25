@@ -12,14 +12,14 @@ The checked-in `assets/css/tokens.css` and `assets/css/brand.css` originate in T
 - One orange accent: #BF4714 on paper, #E86027 on slate. No orange-filled cards, bands, or sections. Section tags use colored dots and labels.
 - Cal Sans 400 for headings, Inter for body text at 18px / 1.65, Fira Code for dates, numbers, counts, domains, and code. Headings are not bold; 600 marks labels.
 - Hairline dividers, a two-pixel strong rule over labeled sections, generous whitespace, no card shadows, restrained six-pixel radii. Stories are open editorial rows.
-- Sentence-case headlines of no more than 12 words. No all-caps labels, emoji, gradients, glass, stock imagery, or redrawn logos.
+- AP headline capitalization: capitalize the first word, proper nouns and acronyms, and the first word after a colon. Preserve names such as OpenAI, LiteLLM, arXiv, and MiniMax. Do not apply title case or automatic lowercasing. Headlines use no more than 12 words. No all-caps labels, emoji, gradients, glass, stock imagery, or redrawn logos.
 - A slate navbar in both themes; visible focus, 44px targets, underlined links, and reduced-motion support.
 
 ## Hero art direction
 
 Generate a **distinct conceptual editorial graphic** for each full article. Use a wide landscape composition, warm paper ground, slate forms, fine rules, deliberate negative space, and one restrained orange signal. Express the article’s specific mechanism: a bounded connection, separated credentials, a review gate, a ranked decision, a verifiable trail, or another concrete relationship grounded in the reporting. Avoid generic robot heads, glowing brains, science-fiction circuitry, or fabricated company marks.
 
-Keep headlines and logos outside generated pixels, in real HTML/SVG. Use minimal crisp geometric forms rather than hand-drawn illustration or photographic claims. The image should remain clear in both themes and at thumbnail size. Write useful alt text describing the actual composition, then identify it as an AI-generated editorial illustration in the caption.
+Keep headlines and logos outside generated pixels, in real HTML/SVG. Use minimal crisp geometric forms rather than hand-drawn illustration or photographic claims. The image should remain clear in both themes and at thumbnail size. Write alt text describing the actual composition. A caption explains what the visible relationship means for this story, preferably in one sentence and never more than two. Avoid generic illustration or generation credits in captions; the publication’s footer and About page provide the AI disclosure.
 
 Shared prompt foundation:
 

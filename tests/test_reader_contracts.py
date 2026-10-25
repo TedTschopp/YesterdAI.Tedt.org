@@ -15,6 +15,7 @@ class PreservationTests(unittest.TestCase):
     def test_published_identity_sources_dates_and_art_remain_intact(self):
         baseline = json.loads((ROOT / 'tests/fixtures/preservation-baseline.json').read_text())
         section_changes = json.loads((ROOT / 'tests/fixtures/section-migration.json').read_text())
+        captions = json.loads((ROOT / 'tests/fixtures/caption-migration.json').read_text())
         protected = ('article_id', 'story_key', 'title', 'summary', 'section', 'edition_date', 'published_at',
                      'retrospective', 'eligibility', 'sources', 'hero', 'feed_name', 'feed_summary', 'rating')
         for slug, record in baseline['articles'].items():
@@ -24,6 +25,8 @@ class PreservationTests(unittest.TestCase):
                 if key == 'section' and slug in section_changes:
                     self.assertEqual(expected, section_changes[slug]['from'])
                     expected = section_changes[slug]['to']
+                if key == 'hero':
+                    expected = {**expected, 'caption': captions[slug]}
                 self.assertEqual(current.get(key), expected, f'{slug}: changed {key}')
             path = ROOT / current['hero']['path'].lstrip('/')
             self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), record['hero_sha256'], slug)

@@ -15,8 +15,7 @@ eligibility:
   published_at: '2026-10-19T16:00:00Z'
   precision: second
   verification: jsonld
-  evidence: Publisher JSON-LD and article:published_time=2026-10-19T16:00:00+00:00; dated substantive response
-    update
+  evidence: Publisher JSON-LD and article:published_time=2026-10-19T16:00:00+00:00; dated substantive response update
   discovered_url: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions
 sources:
 - url: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions
@@ -28,20 +27,20 @@ hero:
   path: /assets/images/hidden-instructions-public-pages.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
-    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
-    An open stack of thin rectangular document sheets sits on the left. A very fine orange path hidden between
-    the sheets bypasses a small slate reading aperture in the center and bends the direction of a neat outgoing
-    slate arrow on the right. Clearly show the difference between visible document content and a concealed instruction
-    changing an assistant's route. Flat geometric visual metaphor for a web page attempting to influence an AI
-    reader.
+    An open stack of thin rectangular document sheets sits on the left. A very fine orange path hidden between the
+    sheets bypasses a small slate reading aperture in the center and bends the direction of a neat outgoing slate
+    arrow on the right. Clearly show the difference between visible document content and a concealed instruction
+    changing an assistant's route. Flat geometric visual metaphor for a web page attempting to influence an AI reader.
   generated_at: '2026-10-24T22:00:38.298Z'
   tool: image_gen
   width: 1536
   height: 804
   alt: An orange path hidden among document sheets bypasses a reading gate and redirects the outgoing answer.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
+  caption: The concealed orange path redirects the answer, illustrating how retrieved material can cross from evidence
+    into instructions.
 leader_action: Require assistants to distinguish retrieved evidence from instructions authorized by your organization
   and the user.
 individual_action: Check what the retrieval tool actually returns, including text that a normal browser view does
@@ -49,10 +48,10 @@ individual_action: Check what the retrieval tool actually returns, including tex
 feed_name: TedTschopp News Graph - Top Stories
 feed_summary: WhatsApp's help pages contained hidden instructions for AI chatbots that prevented them from recommending
   data protection authorities or citing privacy laws if users mentioned legal action or lawyers. These instructions
-  contradicted WhatsApp's publicly stated privacy policy in Europe, which affirms users' rights to complain to
-  regulators under GDPR. The hidden notes also advised the AI not to suggest manual account deletion or alternative
-  phone numbers if users lost access to their phone number, directing them instead to wait for automatic deletion
-  after extended inactivity.
+  contradicted WhatsApp's publicly stated privacy policy in Europe, which affirms users' rights to complain to regulators
+  under GDPR. The hidden notes also advised the AI not to suggest manual account deletion or alternative phone numbers
+  if users lost access to their phone number, directing them instead to wait for automatic deletion after extended
+  inactivity.
 feed_title: WhatsApp's hidden AI instructions told chatbots not to recommend data protection regulators or cite
   privacy laws when users mentioned lawyers [ * ] [ ◼ ]
 rating: Important
@@ -60,17 +59,16 @@ writing_style: ted-writing-style
 writing_style_version: 1.0.0
 format: analysis
 takeaways:
-- Redact reported hidden directions in WhatsApp help material; its update records WhatsApp’s explanation that
-  chatbot notes appeared through a bug and were removed.
-- Compare clean and altered retrieval payloads, checking omissions and attempted actions as well as the final
-  answer.
+- Redact reported hidden directions in WhatsApp help material; its update records WhatsApp’s explanation that chatbot
+  notes appeared through a bug and were removed.
+- Compare clean and altered retrieval payloads, checking omissions and attempted actions as well as the final answer.
 topics:
 - security
 - agents
 - evaluation
 evidence_type: reporting
 reader_job: Keep retrieved information from acquiring authority over an assistant’s task.
-modified_at: '2026-10-25T02:23:35.245480Z'
+modified_at: '2026-10-25T03:42:17.530845Z'
 legacy_anchors:
 - review-the-input-the-assistant-receives
 - authority-is-a-separate-property
@@ -79,7 +77,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 A reference book can explain a product. A work order tells you what you have been authorized to do. When an assistant retrieves a page, those two kinds of text can arrive in the same payload.
 
 [Redact’s investigation of WhatsApp help pages](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions) reports hidden instructions in material delivered to AI readers. Its dated update records WhatsApp’s explanation that notes intended for its support chatbot had appeared because of a bug and had been removed. The dispute concerns the origin and purpose of those notes; the operational issue is broader. Retrieval can bring another party’s behavioral directions into an assistant’s context alongside ordinary reference material.

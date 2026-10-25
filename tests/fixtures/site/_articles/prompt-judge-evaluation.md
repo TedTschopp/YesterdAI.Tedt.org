@@ -2,9 +2,8 @@
 article_id: art_4714611be4537b33
 story_key: https://arxiv.org/abs/2610.31148
 title: Evaluation scores need their prompts and judges attached
-summary: Two new studies show how wording, tool interfaces, judge choice, and language
-  affect model comparisons. An enterprise scorecard needs to preserve those conditions
-  and expose important reversals.
+summary: Two new studies show how wording, tool interfaces, judge choice, and language affect model comparisons.
+  An enterprise scorecard needs to preserve those conditions and expose important reversals.
 section: Enterprise Ops
 edition_date: '2026-10-24'
 published_at: '2026-10-24T22:46:52.148862Z'
@@ -25,69 +24,57 @@ sources:
   published_at: '2026-10-22T12:07:01Z'
   date_precision: second
 - url: https://arxiv.org/abs/2610.31172v1
-  title: 'Prompting Strategy Effects Depend on the Judge: A Multilingual Study of
-    LLM-as-a-Judge Robustness'
+  title: 'Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness'
   publisher: arXiv
   published_at: '2026-10-22T12:27:05Z'
   date_precision: second
 hero:
   path: /assets/images/prompt-judge-evaluation.webp
-  prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately
-    1.91:1. Strictly flat two-dimensional Swiss editorial graphic, warm ivory (#F8F6F0)
-    background, deep slate (#101820) geometry and a single restrained burnt-orange
-    (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous
-    negative space, clean vector-like edges delivered as a raster. No text, letters,
-    numbers, logos, gradients, shadows, photographic objects, people, robots, watermarks,
-    grain, or decorative texture. All essential forms well inside the frame. Three
-    identical slate evidence tiles sit above three slightly different open geometric
-    framing brackets. Their thin output lines lead to noticeably different arrangements
-    of small result blocks. One orange alignment rule runs beneath all three to make
-    the comparison visible. A restrained graphic about prompt wording, judge configuration,
+  prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
+    Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
+    Three identical slate evidence tiles sit above three slightly different open geometric framing brackets. Their
+    thin output lines lead to noticeably different arrangements of small result blocks. One orange alignment rule
+    runs beneath all three to make the comparison visible. A restrained graphic about prompt wording, judge configuration,
     and the stability of AI evaluation.
   generated_at: '2026-10-24T22:30:59.709Z'
   tool: image_gen
   width: 1536
   height: 804
-  alt: Identical evidence tiles pass through different framing brackets and produce
-    different results along one shared comparison line.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
-leader_action: Require comparison stability and important subgroup results alongside
-  the headline evaluation score.
-individual_action: Rerun a meaningful comparison across reasonable prompt wordings
-  and preserve the judge configuration.
+  alt: Identical evidence tiles pass through different framing brackets and produce different results along one
+    shared comparison line.
+  caption: The same evidence produces different results under different frames, keeping prompts and judges part
+    of the evaluation.
+leader_action: Require comparison stability and important subgroup results alongside the headline evaluation score.
+individual_action: Rerun a meaningful comparison across reasonable prompt wordings and preserve the judge configuration.
 feed_name: TedTschopp News Graph - Top Stories
-feed_summary: Researchers studied how equipping language models with external tools
-  affects the stability of model comparisons on question-answering benchmarks with
-  varied question wordings. They developed a protocol separating reasoning, tool use,
-  and answer reporting steps, applying it to six open models across five domains and
-  five question formulations. The study found that while tools improve accuracy when
-  programs answer questions, they also increase sensitivity to prompt wording in many
-  pairwise model comparisons, influenced by how often models call tools and the interface
-  design. The sensitivity varied depending on the tool-calling interface and instructions;
-  for example, a native tool interface and a second tool description eliminated detected
-  sensitivity in molecular tasks, whereas sensitivity persisted when tools returned
-  intermediate results. These results indicate that deterministic answer reports do
-  not guarantee stable model comparisons, leading the researchers to recommend reporting
-  both tool call frequency and comparison stability across multiple prompt wordings
-  alongside accuracy metrics.
-feed_title: Researchers find tool-augmented language models increase accuracy but
-  also widen prompt sensitivity in model comparisons across multiple domains and wordings
-  [ ~ ] [ ◻ ]
+feed_summary: Researchers studied how equipping language models with external tools affects the stability of model
+  comparisons on question-answering benchmarks with varied question wordings. They developed a protocol separating
+  reasoning, tool use, and answer reporting steps, applying it to six open models across five domains and five question
+  formulations. The study found that while tools improve accuracy when programs answer questions, they also increase
+  sensitivity to prompt wording in many pairwise model comparisons, influenced by how often models call tools and
+  the interface design. The sensitivity varied depending on the tool-calling interface and instructions; for example,
+  a native tool interface and a second tool description eliminated detected sensitivity in molecular tasks, whereas
+  sensitivity persisted when tools returned intermediate results. These results indicate that deterministic answer
+  reports do not guarantee stable model comparisons, leading the researchers to recommend reporting both tool call
+  frequency and comparison stability across multiple prompt wordings alongside accuracy metrics.
+feed_title: Researchers find tool-augmented language models increase accuracy but also widen prompt sensitivity
+  in model comparisons across multiple domains and wordings [ ~ ] [ ◻ ]
 rating: Optional
 writing_style: ted-writing-style
 writing_style_version: 1.0.0
 format: analysis
 takeaways:
-- The tool study examines six open models, five domains, and five wordings; accuracy
-  gains can coexist with less stable pairwise comparisons.
-- The multilingual judge study finds prompt effects dependent on judge, task, and
-  language, including reversals.
+- The tool study examines six open models, five domains, and five wordings; accuracy gains can coexist with less
+  stable pairwise comparisons.
+- The multilingual judge study finds prompt effects dependent on judge, task, and language, including reversals.
 topics:
 - evaluation
 - agents
 evidence_type: preprint
-reader_job: Determine how much weight a model ranking deserves under plausible changes
-  to its evaluation conditions.
+reader_job: Determine how much weight a model ranking deserves under plausible changes to its evaluation conditions.
 modified_at: '2026-10-25T02:26:50.298474Z'
 legacy_anchors:
 - preserve-the-comparison-contract
@@ -98,7 +85,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 A scorecard puts the model names in order. Keep the conditions of that contest on the page too: the wording, tool interface, judge, and language can affect what the order means.
 
 One [new study of tool-augmented comparisons](https://arxiv.org/abs/2610.31148v1) examines six open models across five domains and five wordings. It finds settings where tools improve accuracy while making pairwise comparisons more sensitive to wording. A [second study of multilingual LLM judges](https://arxiv.org/abs/2610.31172v1) reports that prompting effects depend on the judge, task, and language, with some effects reversing across configurations.

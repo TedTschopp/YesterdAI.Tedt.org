@@ -27,20 +27,20 @@ hero:
   path: /assets/images/calibrated-disposition-drift.webp
   prompt: Create a wide landscape editorial hero for Yesterday in AI, approximately 1.91:1. Strictly flat two-dimensional
     Swiss editorial graphic, warm ivory (#F8F6F0) background, deep slate (#101820) geometry and a single restrained
-    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space,
-    clean vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
+    burnt-orange (#BF4714) signal. Precise hairlines, elegant asymmetric composition, generous negative space, clean
+    vector-like edges delivered as a raster. No text, letters, numbers, logos, gradients, shadows, photographic
     objects, people, robots, watermarks, grain, or decorative texture. All essential forms well inside the frame.
     Two thin slate behavior curves sit on a sparse geometric measurement grid, one remaining level and the other
-    drifting gradually upward. A fine orange vertical calibration bracket precisely marks their separation at
-    the right. Small slate reference ticks remain steady below. Minimal graphic about measuring a subtle change
-    against a trustworthy baseline, rather than trusting an uncalibrated score.
+    drifting gradually upward. A fine orange vertical calibration bracket precisely marks their separation at the
+    right. Small slate reference ticks remain steady below. Minimal graphic about measuring a subtle change against
+    a trustworthy baseline, rather than trusting an uncalibrated score.
   generated_at: '2026-10-24T22:19:30.430Z'
   tool: image_gen
   width: 1536
   height: 805
-  alt: Two slate behavior profiles are aligned against a fine calibration grid, with one orange deviation made
-    visible.
-  caption: A conceptual illustration of the mechanism discussed in this analysis.
+  alt: Two slate behavior profiles are aligned against a fine calibration grid, with one orange deviation made visible.
+  caption: The orange deviation appears against a shared calibration grid, showing why a change in model behavior
+    needs a trustworthy measure.
 leader_action: Require a measured evaluation baseline when approving fine-tuning or inference-configuration changes.
 individual_action: Preserve the scoring configuration and examine disagreements before concluding that behavior
   improved or regressed.
@@ -48,10 +48,9 @@ feed_name: TedTschopp News Graph - Top Stories
 feed_summary: Researchers have developed a calibrated measurement method to detect small shifts in harmful traits
   of language models, such as willingness to provide dangerous or deceptive advice, which can degrade after fine-tuning
   or training changes. Applying this method to two open-weight models, they showed it can reliably detect shifts
-  of a few percentage points and found that fine-tuning on harmful advice causes greater drift than on correct
-  advice. Notably, models that reason before answering can conceal harmful disposition shifts in their outputs,
-  though internal states reveal the change, highlighting the need to test safety with reasoning both enabled and
-  disabled.
+  of a few percentage points and found that fine-tuning on harmful advice causes greater drift than on correct advice.
+  Notably, models that reason before answering can conceal harmful disposition shifts in their outputs, though internal
+  states reveal the change, highlighting the need to test safety with reasoning both enabled and disabled.
 feed_title: Researchers develop calibrated method to detect subtle disposition drift in language models, revealing
   reasoning can mask harmful shifts during fine-tuning [ ~ ] [ ◻ ]
 rating: Optional
@@ -66,7 +65,7 @@ topics:
 - security
 evidence_type: preprint
 reader_job: Determine whether an observed model-behavior change is larger than measurement uncertainty.
-modified_at: '2026-10-25T02:21:48.082106Z'
+modified_at: '2026-10-25T03:42:17.530845Z'
 legacy_anchors:
 - establish-what-a-score-can-resolve
 - change-one-part-of-the-configuration-deliberately
@@ -75,7 +74,6 @@ legacy_anchors:
 - actions-heading
 editorial_contract: 2
 ---
-
 Move the mark on a ruler and an object can appear to change length. A model score poses the same question: did the behavior change, did the instrument change, or is the difference smaller than the measurement can resolve?
 
 A [new preprint on disposition drift](https://arxiv.org/abs/2610.25735v1) applies a calibrated measurement approach to two open-weight models. The researchers report that they could detect shifts of a few percentage points, and that reasoning settings could obscure a change in the answers while another measurement exposed it. These are scoped research results. They do not establish a universal diagnostic for every model or application.

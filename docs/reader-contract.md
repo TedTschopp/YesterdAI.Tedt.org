@@ -1,6 +1,6 @@
 # Reader and publishing contract
 
-Version 2.0.0. Approved October 24, 2026.
+Version 2.0.1. Approved October 24, 2026; headline, metadata, and caption preferences refined by Ted the same day.
 
 This document and the checked-in brand/voice policy define the publication. Daily producers fill the content contracts; they do not redesign templates, change typography, or update visual baselines.
 
@@ -47,6 +47,10 @@ Existing records without a format remain analyses. New and revised records decla
 Choose length from evidence and reader job, with no analysis quota. A focused announcement or narrow finding usually merits a brief. Analysis earns extra length through distinct mechanisms, consequences, limitations, and practical detail. A small source count is not itself a defect; corroborate claims that require it.
 
 Every new analysis has its own built-in generated hero. New briefs may omit one. Preserve existing attached heroes during reclassification and reuse completed assets on retries. An image failure never authorizes silently relabeling an analysis as a brief.
+
+Use AP sentence-style headline capitalization, preserving proper names and acronyms and capitalizing the first word after a colon. Do not automatically title-case or lowercase headlines. Match article search/social titles to the reviewed headline. Homepage search/social title, description, and image describe Yesterday in AI as a publication; article metadata describes the article; edition metadata describes that dated edition.
+
+Image captions explain the visible composition’s relationship to the story. Prefer one sentence, with a maximum of two. Generic generation or illustration credits are not captions. Preserve the existing image bytes, alt text, and generation provenance while updating the caption; keep AI-assistance disclosure in the footer and About page.
 
 Keep sourced facts and qualifications intact. Report preprints with experimental scope, vendor benchmarks as claims, and hypothetical application examples as examples. Never imply hands-on testing or personal review that did not occur. Use Ted's technology/strategy voice without invented biography.
 

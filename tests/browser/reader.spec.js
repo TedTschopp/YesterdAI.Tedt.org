@@ -4,6 +4,7 @@ import fs from 'node:fs';
 
 const publication = JSON.parse(fs.readFileSync('_site/status.json','utf8'));
 const edition = publication.latest_edition;
+const index = JSON.parse(fs.readFileSync('_site/search-index.json','utf8'));
 const article = '/articles/kapitsa-local-inference-operations/';
 const routes = ['/', '/editions/' + edition + '/', article, '/archive/', '/search/', '/live/', '/about/', '/topics/', '/404.html'];
 test.beforeEach(async ({page}) => {
@@ -139,4 +140,29 @@ test('a verified quiet-day fixture renders without inventing a lead',async ({pag
   await expect(page.locator('.tldr-panel')).toContainText('No distinct developments');
   await expect(page.locator('.briefing-heading .text-link')).toHaveAttribute('href','/editions/2026-10-23/');
   await expect(page.locator('.reading-links')).not.toContainText('All 0 stories');
+});
+
+test('recent published articles reflow in every supported layout and retain useful captions',async ({page})=>{
+  test.setTimeout(300000);
+  const previous=new Date(edition+'T12:00:00Z');previous.setUTCDate(previous.getUTCDate()-1);
+  const recent=index.filter(story=>story.edition_date>=previous.toISOString().slice(0,10));
+  for (const theme of ['light','dark']) {
+    await page.emulateMedia({colorScheme:theme});
+    for (const width of [320,390,768,1024,1280,1440]) {
+      await page.setViewportSize({width,height:width<=600?844:900});
+      for (const story of recent) {
+        await page.goto(story.url);await page.evaluate(()=>document.fonts.ready);
+        await expect(page.locator('h1')).toHaveText(story.title);
+        await expect(page.locator('html')).toHaveAttribute('data-theme',theme);
+        const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);
+        expect(overflow,story.url+' '+width+' '+theme).toBeLessThanOrEqual(1);
+        const caption=page.locator('.article-figure figcaption');
+        if (await caption.count()) {
+          const text=await caption.innerText();
+          expect(text).not.toMatch(/AI.generated editorial illustration|conceptual illustration of the mechanism/i);
+          expect((text.match(/[.!?](?=\s|$)/g)||[]).length).toBeLessThanOrEqual(2);
+        }
+      }
+    }
+  }
 });

@@ -145,6 +145,13 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'dimensions do not match'):
             self.check()
 
+    def test_generic_or_overlong_captions_block_publication(self):
+        for caption in ['AI-generated editorial illustration.', 'A conceptual illustration of the mechanism discussed in this analysis.', 'First sentence. Second sentence. Third sentence.']:
+            self.article['hero']['caption'] = caption
+            self.write_documents()
+            with self.assertRaisesRegex(ValueError, 'caption'):
+                self.check()
+
     def test_source_from_after_retrospective_cutoff_is_rejected(self):
         self.article['sources'].append({'url': 'https://example.com/later-report', 'published_at': '2026-10-22T12:00:00Z'})
         self.write_documents()

@@ -5,17 +5,84 @@ from urllib.parse import urlsplit, unquote
 import json
 import sys
 import xml.etree.ElementTree as ET
+import yaml
 from publish import read_document, word_count, parse_time
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1] / '_site'
+SOURCE = Path(__file__).resolve().parents[1]
+
+
+def check_metadata(path, soup, root, config, errors):
+    """Verify the rendered search/social contract, including page identity."""
+    relative = path.relative_to(root)
+    values = {}
+    for node in soup.select('meta[content]'):
+        key = node.get('property', node.get('name'))
+        values.setdefault(key, []).append(node['content'])
+    required = ('description', 'author', 'robots', 'og:site_name', 'og:locale', 'og:title',
+                'og:description', 'og:url', 'og:type', 'og:image', 'og:image:secure_url',
+                'og:image:alt', 'og:image:width', 'og:image:height', 'og:image:type',
+                'twitter:card', 'twitter:title', 'twitter:description', 'twitter:image', 'twitter:image:alt')
+    for key in required:
+        if len(values.get(key, [])) != 1 or not values[key][0].strip():
+            errors.append(f'{relative}: exactly one nonempty {key} required')
+    meta = lambda key: values.get(key, [None])[0]
+    for first, second in [('description', 'og:description'), ('og:title', 'twitter:title'),
+                          ('og:description', 'twitter:description'), ('og:image', 'twitter:image'),
+                          ('og:image', 'og:image:secure_url'), ('og:image:alt', 'twitter:image:alt')]:
+        if meta(first) != meta(second):
+            errors.append(f'{relative}: {first} and {second} differ')
+    canonical = soup.select_one('link[rel="canonical"]')
+    if canonical and (not canonical['href'].startswith(config['url'] + '/') or meta('og:url') != canonical['href']):
+        errors.append(f'{relative}: canonical and social URL must identify this HTTPS page')
+    graph = []
+    try:
+        for script in soup.select('script[type="application/ld+json"]'):
+            data = json.loads(script.get_text())
+            graph.extend(data.get('@graph', [data]) if isinstance(data, dict) else data)
+        if not graph:
+            raise ValueError('missing JSON-LD')
+    except (ValueError, TypeError) as error:
+        errors.append(f'{relative}: invalid structured data: {error}')
+        return
+    if relative == Path('index.html'):
+        website = next((n for n in graph if n.get('@type') == 'WebSite'), {})
+        if (meta('og:title') != config['home_title'] or soup.title.get_text() != config['home_title']
+                or meta('description') != config['description'] or meta('og:type') != 'website'
+                or meta('og:image') != config['url'] + config['share_image']['path']
+                or website.get('name') != config['title'] or website.get('description') != config['description']):
+            errors.append('Homepage metadata must describe the publication, independently of its latest edition')
+    elif relative.parts[0] == 'articles':
+        record, _ = read_document(SOURCE / '_articles' / (relative.parts[1] + '.md'))
+        article = next((n for n in graph if n.get('@type') == 'NewsArticle'), {})
+        modified = record.get('modified_at', record['published_at'])
+        if (meta('og:title') != record['title'] or meta('description') != record['summary']
+                or meta('og:type') != 'article' or meta('article:section') != record['section']
+                or meta('article:published_time') != record['published_at']
+                or meta('article:modified_time') != modified
+                or article.get('headline') != record['title'] or article.get('description') != record['summary']
+                or article.get('datePublished') != record['published_at'] or article.get('dateModified') != modified):
+            errors.append(f'{relative}: metadata must describe this article and retain its actual dates')
+        hero = record.get('hero')
+        if hero:
+            expected = config['url'] + hero['path']
+            if meta('og:image') != expected or article.get('image', [{}])[0].get('url') != expected:
+                errors.append(f'{relative}: social/structured image must belong to this article')
+            caption = soup.select_one('.article-figure figcaption')
+            if hero.get('caption') and (not caption or caption.get_text() != hero['caption']):
+                errors.append(f'{relative}: render the story-specific image caption')
+        if meta('og:title') != soup.h1.get_text():
+            errors.append(f'{relative}: headline capitalization must match across the page and social metadata')
 
 
 def check(root=ROOT):
     errors, pages = [], {}
+    config = yaml.safe_load((SOURCE / '_config.yml').read_text())
     for path in root.rglob('*.html'):
         soup = BeautifulSoup(path.read_text(), 'html.parser')
         pages[path] = soup
+        check_metadata(path, soup, root, config, errors)
         if not soup.title or not soup.find('h1') or len(soup.find_all('h1')) != 1:
             errors.append(f'{path.relative_to(root)}: exactly one title and h1 required')
         if not soup.select_one('link[rel="canonical"]') or not soup.select_one('meta[name="description"]'):

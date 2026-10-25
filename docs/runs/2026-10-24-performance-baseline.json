@@ -1,0 +1,100 @@
+{
+  "measured_at": "2026-10-25T03:25:29.157Z",
+  "origin": "http://127.0.0.1:4175",
+  "method": "Lighthouse simulated mobile, three cold navigations per page; standard launcher flags; production text compression",
+  "field_INP": "unavailable",
+  "pages": [
+    {
+      "route": "/",
+      "runs": [
+        {
+          "lcp_ms": 2029.3362000000002,
+          "cls": 0,
+          "tbt_ms": 0,
+          "score": 0.99,
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2102.6231000000002,
+          "cls": 0,
+          "tbt_ms": 0,
+          "score": 0.99,
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2028.5907000000002,
+          "cls": 0,
+          "tbt_ms": 0,
+          "score": 0.99,
+          "warnings": []
+        }
+      ],
+      "lcp_ms": 2029.3362000000002,
+      "cls": 0,
+      "tbt_ms": 0,
+      "passed": true
+    },
+    {
+      "route": "/articles/kapitsa-local-inference-operations/",
+      "runs": [
+        {
+          "lcp_ms": 2259.29285,
+          "cls": 0,
+          "tbt_ms": 0,
+          "score": 0.98,
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2255.15085,
+          "cls": 0,
+          "tbt_ms": 0,
+          "score": 0.98,
+          "warnings": []
+        },
+        {
+          "lcp_ms": 2255.8379999999997,
+          "cls": 0,
+          "tbt_ms": 0,
+          "score": 0.98,
+          "warnings": []
+        }
+      ],
+      "lcp_ms": 2255.8379999999997,
+      "cls": 0,
+      "tbt_ms": 0,
+      "passed": true
+    },
+    {
+      "route": "/search/",
+      "runs": [
+        {
+          "lcp_ms": 1952.3206,
+          "cls": 0.005615122422780606,
+          "tbt_ms": 0,
+          "score": 0.99,
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1877.2311,
+          "cls": 0.005615122422780606,
+          "tbt_ms": 0,
+          "score": 1,
+          "warnings": []
+        },
+        {
+          "lcp_ms": 1955.4693000000002,
+          "cls": 0.005615122422780606,
+          "tbt_ms": 0,
+          "score": 0.99,
+          "warnings": []
+        }
+      ],
+      "lcp_ms": 1952.3206,
+      "cls": 0.005615122422780606,
+      "tbt_ms": 0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "source_run": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40158015821"
+}
