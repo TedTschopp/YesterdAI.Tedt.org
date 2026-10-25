@@ -8,4 +8,12 @@ The changes preserve article/edition URLs, stable IDs, all original rendered IDs
 
 The original archive preservation baseline is unchanged. tests/fixtures/title-case-migration.json records exact old/new headlines for its 23 articles; the existing preservation test checks both the allowed title and unchanged wording. The frozen rendering fixture has the same capitalization-only update; its identities, dates, layout cases, and other content remain fixed.
 
-Local validation passed all six required commands: 36 Python tests, editorial validation, strict Jekyll build, Pagefind indexing, rendered-site checks, and JavaScript/static smoke checks. Browser review and the explicit visual-baseline update are recorded below when complete.
+Local validation passed all six required commands: 36 Python tests, editorial validation, strict Jekyll build, Pagefind indexing, rendered-site checks, and JavaScript/static smoke checks.
+
+## Visual Review
+
+[Candidate run 40164414620](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40164414620) for source commit 05b3912f3d34992657ac9b1e12a6ebeeddab0bcd passed the Chromium/WebKit reader, accessibility, and responsive checks, plus mobile performance budgets. The existing baseline-generation path produced 48 candidates through 36 passing visual tests, then stopped for explicit review before accepting them.
+
+Codex reviewed all 48 candidates in light/dark contact sheets and inspected narrow homepage/article and wide story images individually. The changed title wrapping fits the existing columns and retains the mobile navigation, takeaways, paper/slate themes, typography, and illustration proportions. Local CUA review also confirmed the actual homepage/article headings, contents links, and absence of horizontal overflow at the displayed desktop width.
+
+The reviewed Linux PNGs from artifact 12587204402 are committed explicitly for the home, edition, article, and story cases at 320, 390, 768, 1024, 1280, and 1440 pixels in both themes. The subsequent checks on [PR #3](https://github.com/TedTschopp/YesterdAI.Tedt.org/pull/3) compare those committed baselines without accepting new snapshots automatically. The publication workflow and its gates are unchanged.
