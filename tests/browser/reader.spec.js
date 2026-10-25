@@ -6,9 +6,9 @@ const publication = JSON.parse(fs.readFileSync('_site/status.json','utf8'));
 const edition = publication.latest_edition;
 const article = '/articles/kapitsa-local-inference-operations/';
 const routes = ['/', '/editions/' + edition + '/', article, '/archive/', '/search/', '/live/', '/about/', '/topics/', '/404.html'];
-const errors = [];
 test.beforeEach(async ({page}) => {
-  await page.clock.install({time:new Date(edition + 'T20:00:00Z')});
+  // Freeze the edition date without pausing debounced input and search timers.
+  await page.clock.setFixedTime(new Date(edition + 'T20:00:00Z'));
 });
 
 for (const width of [320,390,768,1024,1280,1440]) {
