@@ -1,6 +1,6 @@
 # Reader experience and publishing contract v2
 
-Status: reader redesign and headline/metadata/caption follow-up are live. The isolated editorial test is at a validated checkpoint; its public verification and the clock-triggered checks follow.
+Status: reader redesign and headline/metadata/caption follow-up are live. The isolated editorial test is published and publicly verified; clock-triggered acceptance follows on October 25.
 
 ## Approved intent
 
@@ -54,3 +54,5 @@ All 23 captions now explain the visible composition’s relationship to its stor
 Recent editions’ articles are additionally checked for overflow across all six widths and both themes. Quiet-day fixtures verify both the edition and homepage behavior. Local follow-up validation passes 36 Python tests, four JavaScript state tests, all 43 pages and article-only search indexing.
 
 The headline/metadata/caption follow-up passed run 40159506579: 40 reader/accessibility/reflow checks and 36 visual tests against unchanged approved screenshots. Mobile lab budgets still pass (LCP 2.03s homepage, 2.26s article, 1.95s search; CLS at most 0.006 and TBT 0ms). Deployment 40159862656 for f841670 succeeded.
+
+The complete editorial integration test published catalog-field-grounding at cea6025 through the ordinary ship command and successful Pages run 40160763972. The public verification report confirms all 24 bodies, images, captions, matching feed identifiers, sitemap/search delivery, healthy feed checks, HTTPS, and six legacy redirects. Public performance and health workflows pass. Only the actual next 5 a.m. run and two hourly refreshes remain timed acceptance checks; the one-time follow-up is scheduled for October 25 at 7:10 a.m. Pacific.

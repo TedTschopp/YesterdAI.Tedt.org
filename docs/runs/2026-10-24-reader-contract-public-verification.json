@@ -1,0 +1,254 @@
+{
+  "checked_at": "2026-10-25T04:24:49.167252Z",
+  "publication_commit": "cea6025336c19e1d8778759184d37fafc3316bb8",
+  "deployment_run": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40160763972",
+  "articles": [
+    {
+      "id": "art_b7505ce4183649e7",
+      "url": "https://yesterdai.tedt.org/articles/agent-harness-state/",
+      "hero_sha256": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_38ce8d74651308c9",
+      "url": "https://yesterdai.tedt.org/articles/ai-recommendation-bias/",
+      "hero_sha256": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_51ebab1d094c7d60",
+      "url": "https://yesterdai.tedt.org/articles/authorization-agent-boundaries/",
+      "hero_sha256": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_2790d5e5427b4862",
+      "url": "https://yesterdai.tedt.org/articles/calibrated-disposition-drift/",
+      "hero_sha256": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_fc116d0cc59c1c4e",
+      "url": "https://yesterdai.tedt.org/articles/catalog-field-grounding/",
+      "hero_sha256": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_1353be402f8662ba",
+      "url": "https://yesterdai.tedt.org/articles/citation-relevance-verification/",
+      "hero_sha256": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_43a5a6eafd6c005a",
+      "url": "https://yesterdai.tedt.org/articles/context-sensitive-model-boundaries/",
+      "hero_sha256": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_acf94d966a173a22",
+      "url": "https://yesterdai.tedt.org/articles/cost-aware-ticket-routing/",
+      "hero_sha256": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_55c3c0be518a12ff",
+      "url": "https://yesterdai.tedt.org/articles/hidden-instructions-public-pages/",
+      "hero_sha256": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_51c071c2515ec8fe",
+      "url": "https://yesterdai.tedt.org/articles/kapitsa-local-inference-operations/",
+      "hero_sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_552b4e59bc6342ea",
+      "url": "https://yesterdai.tedt.org/articles/litellm-release-authority/",
+      "hero_sha256": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_313154ba192d9eb5",
+      "url": "https://yesterdai.tedt.org/articles/llm-proxy-visibility/",
+      "hero_sha256": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_9692486eeb77934b",
+      "url": "https://yesterdai.tedt.org/articles/materials-structure-ml/",
+      "hero_sha256": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_648d3adba52ea716",
+      "url": "https://yesterdai.tedt.org/articles/memory-needs-relevance/",
+      "hero_sha256": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_614a0336a7737e51",
+      "url": "https://yesterdai.tedt.org/articles/mercury-diffusion-serving/",
+      "hero_sha256": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_5eb559e50fd7886d",
+      "url": "https://yesterdai.tedt.org/articles/meta-terms-data-governance/",
+      "hero_sha256": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_b984a5c544e63137",
+      "url": "https://yesterdai.tedt.org/articles/minimax-flash-task-economics/",
+      "hero_sha256": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_80b14f6a6fd391a6",
+      "url": "https://yesterdai.tedt.org/articles/multiagent-review-tradeoffs/",
+      "hero_sha256": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_2a3e85161b6aae3f",
+      "url": "https://yesterdai.tedt.org/articles/pew-task-level-adoption/",
+      "hero_sha256": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_4714611be4537b33",
+      "url": "https://yesterdai.tedt.org/articles/prompt-judge-evaluation/",
+      "hero_sha256": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_825130cf8cb2d52f",
+      "url": "https://yesterdai.tedt.org/articles/recoverable-agent-changes/",
+      "hero_sha256": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_26bdab7224d77ff2",
+      "url": "https://yesterdai.tedt.org/articles/scope-executable-policy/",
+      "hero_sha256": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_178c37e603121edb",
+      "url": "https://yesterdai.tedt.org/articles/typed-decisions/",
+      "hero_sha256": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    },
+    {
+      "id": "art_4c6292fc5ecba5f2",
+      "url": "https://yesterdai.tedt.org/articles/voxtral-voice-workflow/",
+      "hero_sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5",
+      "caption_sentences": 1,
+      "body_matches_checked_build": true,
+      "metadata_matches_article": true
+    }
+  ],
+  "homepage": {
+    "title": "Yesterday in AI · Daily enterprise AI briefing",
+    "description": "What changed in enterprise AI, why it matters, and what to do next. A publication of Ted Tschopp’s Public Workbench.",
+    "og_title": "Yesterday in AI · Daily enterprise AI briefing",
+    "og_image": "https://yesterdai.tedt.org/assets/images/publication-share.png",
+    "twitter_title": "Yesterday in AI · Daily enterprise AI briefing"
+  },
+  "homepage_metadata_stayed_publication_specific": true,
+  "feeds": {
+    "json_items": 24,
+    "rss_items": 24,
+    "stable_unique_ids_match": true
+  },
+  "sitemap_and_search_bundle": true,
+  "health": {
+    "ok": true,
+    "expected_edition": "2026-10-24",
+    "latest_edition": "2026-10-24",
+    "wire_checked_at": "2026-10-25T03:54:51.502495Z",
+    "errors": []
+  },
+  "legacy_redirects": [
+    {
+      "url": "https://tedt.org/Daily-Report/AI",
+      "status": 301,
+      "location": "https://yesterdai.tedt.org/"
+    },
+    {
+      "url": "https://tedt.org/Daily-Report/AI/",
+      "status": 301,
+      "location": "https://yesterdai.tedt.org/"
+    },
+    {
+      "url": "https://tedt.org/Daily-Report/AI/index.html",
+      "status": 301,
+      "location": "https://yesterdai.tedt.org/"
+    },
+    {
+      "url": "https://www.tedt.org/Daily-Report/AI",
+      "status": 301,
+      "location": "https://yesterdai.tedt.org/"
+    },
+    {
+      "url": "https://www.tedt.org/Daily-Report/AI/",
+      "status": 301,
+      "location": "https://yesterdai.tedt.org/"
+    },
+    {
+      "url": "https://www.tedt.org/Daily-Report/AI/index.html",
+      "status": 301,
+      "location": "https://yesterdai.tedt.org/"
+    }
+  ],
+  "https_verified": true,
+  "ok": true
+}
