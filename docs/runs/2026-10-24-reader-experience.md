@@ -1,6 +1,6 @@
 # Reader experience and publishing contract v2
 
-Status: the reader redesign is live from 9449e04199ecd37d391aeec4f3616d7ff745d78b. Follow-up headline, metadata, and caption requirements are under verification. The isolated editorial integration test and clock-triggered acceptance remain pending.
+Status: reader redesign and headline/metadata/caption follow-up are live. The isolated editorial test is at a validated checkpoint; its public verification and the clock-triggered checks follow.
 
 ## Approved intent
 
@@ -37,7 +37,7 @@ CUA confirms 18px body type, native-ratio 352px desktop thumbnails, a first arti
 
 The reader release passed GitHub run 40158015821: 38 Chromium/WebKit reader/accessibility tests and 36 visual tests against 48 approved screenshots. Three-navigation mobile medians are LCP 2.03s/CLS 0 for the homepage, 2.26s/0 for the article, and 1.95s/0.006 for search, with TBT 0ms. The lab uses pinned tooling, standard launcher flags, and production text compression verified against GitHub Pages. Field INP remains unmeasured. Main deployment 40158373135 succeeded and CUA verified the live redesign.
 
-The existing standalone Codex task now reads the v2 repository contract and retains gpt-6.1-sol, max reasoning, its project, and 5 a.m. Pacific cadence. A new 312-word SWE-Verifier brief and an original 1536×804 WebP are prepared in an isolated worktree for the ordinary ship path. The source appeared in the October 23 historical snapshot and its original October 21 publication lies within that edition’s 36-hour window. This test will add dated retrospective coverage rather than misrepresent an older item as current news.
+The existing standalone Codex task now reads the v2 repository contract and retains gpt-6.1-sol, max reasoning, its project, and 5 a.m. Pacific cadence. The first proposed SWE-Verifier test failed eligibility validation before any commit/push, because its original publication preceded the October 23 coverage window. A replacement 309-word brief about catalog-field grounding passes the exact timestamp check and has an original 1536×805 generated hero. It adds explicitly dated retrospective coverage through the ordinary isolated-worktree ship path, preserving the original edition window and preparation record.
 
 Actual 5 a.m. execution and two subsequent hourly refreshes remain timed acceptance checks; a manual run does not establish clock-triggered execution.
 
@@ -52,3 +52,5 @@ The homepage uses a stable publication title, description, branded social image,
 All 23 captions now explain the visible composition’s relationship to its story in one sentence. The original images, alt text, generation prompts, dimensions, dates, and hashes remain intact. The preservation test permits only the explicitly requested caption replacements. Generic credits and captions exceeding two sentences block publication; the footer/About disclosure remains. The fixed-content captions were updated intentionally, without updating approved screenshot files.
 
 Recent editions’ articles are additionally checked for overflow across all six widths and both themes. Quiet-day fixtures verify both the edition and homepage behavior. Local follow-up validation passes 36 Python tests, four JavaScript state tests, all 43 pages and article-only search indexing.
+
+The headline/metadata/caption follow-up passed run 40159506579: 40 reader/accessibility/reflow checks and 36 visual tests against unchanged approved screenshots. Mobile lab budgets still pass (LCP 2.03s homepage, 2.26s article, 1.95s search; CLS at most 0.006 and TBT 0ms). Deployment 40159862656 for f841670 succeeded.

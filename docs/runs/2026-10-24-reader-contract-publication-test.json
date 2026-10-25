@@ -1,0 +1,44 @@
+{
+  "test_id": "reader-contract-v2-2026-10-24",
+  "prepared_at": "2026-10-25T04:05:07.443234Z",
+  "contract_version": "2.0.1",
+  "article_id": "art_fc116d0cc59c1c4e",
+  "article_url": "https://yesterdai.tedt.org/articles/catalog-field-grounding/",
+  "edition_date": "2026-10-23",
+  "coverage_window": {
+    "start": "2026-10-22T00:00:00+00:00",
+    "cutoff": "2026-10-23T05:00:00-07:00"
+  },
+  "historical_snapshot": "e892e60cd02c0652f6ab4ced5eec4e86b634ba47",
+  "original_source": {
+    "url": "https://arxiv.org/abs/2610.31193v1",
+    "published_at": "2026-10-22T12:41:12Z",
+    "precision": "second",
+    "verification": "publisher_api",
+    "evidence": "arXiv API published and v1 submission history both report 2026-10-22T12:41:12Z. The discovery item is present in historical top-feed snapshot e892e60cd02c0652f6ab4ced5eec4e86b634ba47.",
+    "discovered_url": "https://arxiv.org/abs/2610.31193"
+  },
+  "eligibility_checked_by_validator": true,
+  "source_type": "preprint",
+  "format": "brief",
+  "words": 309,
+  "hero": {
+    "path": "/assets/images/catalog-field-grounding.webp",
+    "width": 1536,
+    "height": 805,
+    "bytes": 10434,
+    "generated_at": "2026-10-25T04:02:48Z",
+    "tool": "image_gen",
+    "caption": "The orange statement has no link back to a source field, showing why a richer record still needs a claim-by-claim evidence check."
+  },
+  "hero_sha256": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c",
+  "asset_reused_on_retry": true,
+  "original_23_heroes_preserved": true,
+  "blocked_initial_candidate": {
+    "source": "https://arxiv.org/abs/2610.30284v1",
+    "published_at": "2026-10-21T18:02:33Z",
+    "reason": "Outside the October 23 window; rejected before commit/push. Source rules were not weakened."
+  },
+  "publication_status": "complete validated checkpoint; ship/deployment verification follows",
+  "timed_acceptance": "Actual next 5 a.m. Pacific run and two hourly refreshes remain separate from this manual integration test."
+}
