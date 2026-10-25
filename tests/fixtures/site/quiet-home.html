@@ -1,0 +1,7 @@
+---
+layout: base
+title: A quieter morning
+permalink: /quiet-home/
+---
+{% assign quiet = site.editions | where: 'edition_date', '2026-10-23' | first %}
+{% include briefing.html edition=quiet %}

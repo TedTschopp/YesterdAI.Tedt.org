@@ -46,7 +46,7 @@ Retry an image failure once, then retain unfinished work and fail the run. Never
 
 ## Assemble and publish
 
-Write the dated edition with coverage window, actual preparation timestamp, membership, explicit lead_article_id, and article-linked TL;DR records {article_id, text}. Keep original date evidence for Quick Hits. Omit empty sections.
+Write the dated edition with coverage window, actual preparation timestamp, membership, explicit lead_article_id, and article-linked TL;DR records {article_id, text}. Keep original date evidence for Quick Hits, with each reader summary at most 45 words. Legacy records can retain the original summary and add reader_summary. Omit empty sections.
 
 Do not generate Looking Ahead, Editor's notes, or reconstruction/cutoff prose for readers. Production counts, exclusions, evidence, and failures belong in docs/runs/. The site renders plain dates and a discreet Retrospective label as needed.
 

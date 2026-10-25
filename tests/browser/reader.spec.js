@@ -37,7 +37,10 @@ for (const width of [320,390,768,1024,1280,1440]) {
         await expect(page.getByRole('heading',{name:'Looking Ahead',exact:true})).toHaveCount(0);
         await expect(page.getByText('Reconstructed from historical feed snapshots.',{exact:false})).toHaveCount(0);
         if (route==='/') {
-          const first=await page.locator('.tldr-panel a').first().boundingBox();
+          const target=await page.locator('.story-row').count()
+            ? page.locator('.tldr-panel a').first()
+            : page.locator('.briefing-heading .text-link');
+          const first=await target.boundingBox();
           expect(first.y).toBeLessThan(width<=600?844:900);
         }
       }
@@ -131,4 +134,9 @@ test('a verified quiet-day fixture renders without inventing a lead',async ({pag
   await expect(page.locator('main')).toContainText('No distinct developments');
   await expect(page.locator('.story-row')).toHaveCount(0);
   await expect(page.locator('h1')).toHaveText('A quieter morning');
+  await page.goto('http://127.0.0.1:4174/quiet-home/');
+  await expect(page.locator('.story-row')).toHaveCount(0);
+  await expect(page.locator('.tldr-panel')).toContainText('No distinct developments');
+  await expect(page.locator('.briefing-heading .text-link')).toHaveAttribute('href','/editions/2026-10-23/');
+  await expect(page.locator('.reading-links')).not.toContainText('All 0 stories');
 });

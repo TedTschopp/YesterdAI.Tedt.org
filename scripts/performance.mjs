@@ -6,16 +6,18 @@ import { spawn } from 'node:child_process';
 import { once } from 'node:events';
 import lighthouse from 'lighthouse';
 import { chromium } from '@playwright/test';
+import { Launcher } from 'chrome-launcher';
 
 if (!process.env.CI) throw new Error('Run the lab browser in GitHub Actions. Local interactive review uses CUA.');
 const local = process.argv.includes('--local');
 const origin = local ? 'http://127.0.0.1:4175' : 'https://yesterdai.tedt.org';
 const temporary = await fs.mkdtemp(path.join(os.tmpdir(),'yesterdai-performance-'));
 const chrome = spawn(chromium.executablePath(),[
+  ...Launcher.defaultFlags(),
   '--headless','--no-sandbox','--disable-dev-shm-usage','--remote-debugging-port=9222',
   '--user-data-dir='+temporary
 ],{stdio:'ignore'});
-const server = local ? spawn('python3',['-m','http.server','4175','--bind','127.0.0.1','--directory','_site'],{stdio:'ignore'}) : null;
+const server = local ? spawn('python3',['scripts/lab_server.py'],{stdio:'ignore'}) : null;
 async function ready(url) {
   for (let i=0;i<80;i++) {
     try { if ((await fetch(url)).ok) return; } catch {}
@@ -24,7 +26,7 @@ async function ready(url) {
   throw new Error('Lab service did not become ready: '+url);
 }
 const median = values => [...values].sort((a,b)=>a-b)[Math.floor(values.length/2)];
-const report = { measured_at:new Date().toISOString(),origin,method:'Lighthouse simulated mobile, three cold navigations per page',field_INP:'unavailable',pages:[] };
+const report = { measured_at:new Date().toISOString(),origin,method:'Lighthouse simulated mobile, three cold navigations per page; standard launcher flags; production text compression',field_INP:'unavailable',pages:[] };
 try {
   await ready('http://127.0.0.1:9222/json/version');
   if (local) await ready(origin);
@@ -53,7 +55,7 @@ try {
   report.passed=report.pages.every(page=>page.passed);
   await fs.mkdir('test-results',{recursive:true});
   await fs.writeFile('test-results/performance.json',JSON.stringify(report,null,2)+'\n');
-  console.log(JSON.stringify(report,null,2));
+  console.log(JSON.stringify({...report,pages:report.pages.map(({runs,...metrics})=>metrics)},null,2));
   if (!report.passed) process.exitCode=1;
 } finally {
   const exits = [chrome,server].filter(child=>child && child.exitCode===null).map(child=>{
