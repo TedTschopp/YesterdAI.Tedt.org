@@ -1,7 +1,7 @@
 ---
 article_id: art_313154ba192d9eb5
 story_key: https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on
-title: Your AI gateway should make the work observable
+title: Your AI Gateway Should Make the Work Observable
 summary: 'A practitioner’s case for running an LLM proxy raises an operational question: can your team explain which
   application called which model, under whose credentials, and with what result?'
 section: Enterprise Ops
@@ -63,7 +63,7 @@ topics:
 - governance
 evidence_type: practitioner
 reader_job: Determine whether the team can explain an AI request and support its failure path.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - start-with-one-request
 - separate-identity-from-convenience
@@ -76,7 +76,7 @@ A token bill can show consumption without explaining why a person received the w
 
 In a [practitioner’s argument for operating an LLM proxy](https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/), the useful part is the operational inventory: a controlled endpoint, records of which key called which model, virtual credentials, and the ability to change a provider without rebuilding every client. The author describes a personal and work practice, rather than presenting a controlled comparison or a universal product recommendation.
 
-## Start with one request
+## Start With One Request
 
 Follow the caller, application, credential, provider, model, routing decisions, retries, and result. Write down where the account breaks and who could obtain the missing evidence.
 
@@ -84,7 +84,7 @@ An existing managed gateway may already meet the need. A self-hosted proxy is on
 
 Virtual credentials help when they define narrower workload authority that can be understood, limited, and revoked. Different labels over the same broad permission provide less separation. Likewise, a common provider interface does not establish equivalent model behavior.
 
-## Logs are another data product
+## Logs Are Another Data Product
 {: #for-practitioners }
 
 Give application support and platform operations the same failed-request identifier. Ask each team to reconstruct the path. Differences reveal missing identifiers, routing knowledge, or ownership.

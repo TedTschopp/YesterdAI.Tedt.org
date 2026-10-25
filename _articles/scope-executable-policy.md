@@ -1,7 +1,7 @@
 ---
 article_id: art_26bdab7224d77ff2
 story_key: https://arxiv.org/abs/2610.31062
-title: Compound policies need inspectable decisions
+title: Compound Policies Need Inspectable Decisions
 summary: SCOPE explores compiling natural-language policies into smaller predicates and explicit logic. The enterprise
   opportunity is a policy decision whose components can be tested, explained, and maintained separately.
 section: Security
@@ -77,7 +77,7 @@ topics:
 - security
 evidence_type: preprint
 reader_job: Make a compound policy decision traceable to its component evidence and logic.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - make-the-policy-interpretation-reviewable
 - separate-extraction-from-judgment
@@ -91,7 +91,7 @@ editorial_contract: 2
 
 The [SCOPE preprint](https://arxiv.org/abs/2610.31062v1) explores compiling such policies into programs composed of smaller neural predicates, deterministic extractors, and explicit logic. The authors optimize the program with counterexamples and report favorable accuracy and stability on their evaluated policy tasks. Those findings are research evidence for the approach, not a proof that an automatically compiled enterprise policy is correct in every situation.
 
-## Make the policy interpretation reviewable
+## Make the Policy Interpretation Reviewable
 
 Keep a mapping from each policy condition to its input evidence, extraction step, judgment, and logical connection. A final verdict needs a route back to the rule it claims to implement.
 
@@ -99,7 +99,7 @@ Separate straightforward extraction from semantic judgment. In a hypothetical wo
 
 An uncertain intermediate result must retain its meaning when combined with other conditions. Turning missing evidence into a definite-looking Boolean can conceal the question that needed review.
 
-## Test combinations and boundaries
+## Test Combinations and Boundaries
 {: #for-practitioners }
 
 Choose a bounded compound rule with an accountable owner and reviewed expected outcomes. Include conditions that pass separately but fail in combination, missing inputs, relevant sequences, and cases near an exception.

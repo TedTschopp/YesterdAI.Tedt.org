@@ -136,7 +136,7 @@ module YesterdayTopics
         next unless site.collections['articles'].docs.any? { |a| (a.data['topics'] || []).include?(topic['slug']) }
         page = Jekyll::PageWithoutAFile.new(site, site.source, "topics/#{topic['slug']}", 'index.html')
         page.data = { 'layout' => 'topic', 'title' => topic['name'], 'description' => topic['description'],
-                      'eyebrow' => 'Follow a subject', 'topic_slug' => topic['slug'], 'job' => 'discover' }
+                      'eyebrow' => 'Follow a Subject', 'topic_slug' => topic['slug'], 'job' => 'discover' }
         site.pages << page
       end
     end

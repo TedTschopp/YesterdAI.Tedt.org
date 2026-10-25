@@ -1,7 +1,7 @@
 ---
 article_id: art_b7505ce4183649e7
 story_key: https://arxiv.org/abs/2610.26632
-title: An agent harness can discard the fact that matters
+title: An Agent Harness Can Discard the Fact That Matters
 summary: New research separates the cost of losing context from the cost of losing evidence that cannot be recovered.
   Enterprise agents need a deliberate policy for preserving task state across long runs.
 section: Enterprise Ops
@@ -75,7 +75,7 @@ topics:
 - evaluation
 evidence_type: preprint
 reader_job: Decide which task evidence must survive a context boundary.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - inventory-the-state-a-task-depends-on
 - test-the-moment-information-is-compressed
@@ -88,7 +88,7 @@ Pass a task to a colleague and you decide what belongs in the handoff. An agent'
 
 A [preprint on agent harnesses and state](https://arxiv.org/abs/2610.26632v1) distinguishes cases where a missing fact can be looked up again from cases where it cannot. Its experiments show substantial differences under those conditions and examine how summaries and replay affect a small set of benchmark runs. The authors explicitly limit parts of their analysis to narrow configurations and counted runs. The findings support a design question, not a universal ranking of harnesses.
 
-## Preserve the record at the appropriate level
+## Preserve the Record at the Appropriate Level
 
 A versioned manual can be retrieved again. A user's conditional approval or the state observed before a change may be harder to reconstruct. Give those facts different treatment. Retain what was observed, where it came from, and the conditions under which it justified an action.
 
@@ -96,7 +96,7 @@ An approval is a useful example. Keeping the word *approved* while dropping the 
 
 Re-observation also has a version problem. Fetching today's value does not necessarily recover the value that justified yesterday's decision.
 
-## Test the moment information is compressed
+## Test the Moment Information Is Compressed
 {: #for-practitioners }
 
 Choose one task with a fact that will become unavailable. Preserve the fact, apply the normal summarization or truncation, then continue without access to the original observation. Inspect the retained record and the next action together.

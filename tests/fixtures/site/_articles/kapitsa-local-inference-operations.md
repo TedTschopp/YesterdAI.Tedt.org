@@ -1,7 +1,7 @@
 ---
 article_id: art_51c071c2515ec8fe
 story_key: https://github.com/nace-ai/kapitsa
-title: Kapitsa brings the control room onto your Mac
+title: Kapitsa Brings the Control Room Onto Your Mac
 summary: Kapitsa v0.2.15 pairs serving fixes with qualified performance claims. Running a coding model locally makes
   network access, retained conversations, and service recovery decisions part of the team's work.
 section: Vendors
@@ -128,13 +128,13 @@ A server on your laptop is still a server. Bringing computation closer to a deve
 
 The useful enterprise question is what operating work comes home with the model. The release's qualifications make several of those choices concrete.
 
-## Choose where the boundary sits
+## Choose Where the Boundary Sits
 
 Kapitsa's [pinned usage guide](https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/usage.md#api-keys-and-network-access) says the default server listens on every address and requires no API key. Its documented `--private` option confines the service to the Mac, suppresses peer discovery, and prevents sending requests to other Macs. The guide also describes automatic routing to a peer that can hold a requested model in memory.
 
 A local installation therefore needs a description of where requests actually run. Before connecting an application to internal material, decide whether the service belongs to one developer or several machines and check that the configuration expresses that choice. API compatibility makes the connection convenient; the data path still needs an explicit decision.
 
-## Read the fixes as operating evidence
+## Read the Fixes as Operating Evidence
 
 The [release notes](https://github.com/nace-ai/kapitsa/releases/tag/v0.2.15) report that the separate systemone server no longer crashes on questions longer than 2,048 tokens and rejects excessively deep JSON before parsing. They also describe a Flint Ultra decoding change as unverified on a GPU, and qualify the packaging work's testing.
 
@@ -142,7 +142,7 @@ Use those qualifications to choose representative checks. A coding session can a
 
 Write down an expected rejection as carefully as a successful request. Can the client distinguish a limit from a broken connection? Can the operator restore service and explain what happened? A documented limitation gives the test a starting point without establishing that an unverified path works.
 
-## Ask what the fast number measures
+## Ask What the Fast Number Measures
 
 Reading a prompt and writing an answer are different jobs. *Prefill* processes incoming context; *decode* produces subsequent tokens. A developer experiences both, together with queueing, tool work, and checking the answer.
 
@@ -154,13 +154,13 @@ Think of a reviewer checking several proposed next steps together. That arrangem
 
 Measure time to an accepted result using the same task and review standard. Yesterday in AI has not installed Kapitsa or independently reproduced its performance claims.
 
-## Decide what remembered work may retain
+## Decide What Remembered Work May Retain
 
 Faster follow-up turns can depend on retaining earlier work. Kapitsa's [SSD-cache documentation](https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/usage.md#ssd-prefix-cache) describes storing conversation state, including tokens, across restarts. It documents the cache location, permissions limited to the user's account, and an option to disable the disk cache.
 
 Closing a coding session and ending its retained state can be different events. The person whose prompts enter the service needs an understandable account of what persists. The person maintaining the Mac needs a location and an agreed cleanup responsibility.
 
-## Put a name beside the service
+## Put a Name Beside the Service
 {: #for-practitioners }
 
 Evaluate one approved task on a known machine, with the model and engine revision recorded. Record the actual request destination and the network, retention, and recovery choices before comparing results.

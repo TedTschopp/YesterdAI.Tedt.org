@@ -1,7 +1,7 @@
 ---
 article_id: art_55c3c0be518a12ff
 story_key: https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions
-title: Retrieved pages need an evidence boundary
+title: Retrieved Pages Need an Evidence Boundary
 summary: Redact’s WhatsApp investigation shows why a retrieved page can contain instructions as well as information.
   An enterprise assistant needs a clear rule for which material may influence its behavior.
 section: Security
@@ -68,7 +68,7 @@ topics:
 - evaluation
 evidence_type: reporting
 reader_job: Keep retrieved information from acquiring authority over an assistant’s task.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - review-the-input-the-assistant-receives
 - authority-is-a-separate-property
@@ -83,7 +83,7 @@ A reference book can explain a product. A work order tells you what you have bee
 
 The distinction matters even when the page is useful and current. Its publisher can be authoritative about the product without acquiring authority over the user's task. The reported dispute does not need to be resolved into a universal claim about malicious intent before an enterprise can test that boundary.
 
-## Review the input the assistant receives
+## Review the Input the Assistant Receives
 
 Preserve the exact representation returned by a retrieval tool. A screenshot alone may leave out hidden text, metadata, accessibility content, navigation, or fragments the extractor adds from other locations.
 
@@ -91,7 +91,7 @@ Compare that payload with the visible page. Identify expected differences and pa
 
 The relevant question is what the model actually received. A person reviewing the browser may have read a materially different representation.
 
-## Authority is a separate property
+## Authority Is a Separate Property
 
 Keep approved organizational rules, the user's request, and retrieved reference material in their respective roles. A product page can supply evidence about how the product works. Its request to suppress another source, withhold an escalation path, or take an unrelated action remains content to assess.
 
@@ -99,7 +99,7 @@ Enforce the same distinction in tool access. Reading a page should not grant per
 
 This case establishes a reason to inspect that design. Different extraction methods, model instructions, tools, and permissions can produce different results. The investigation does not supply a universal failure rate for retrieval applications.
 
-## Evaluate changes in the answer
+## Evaluate Changes in the Answer
 
 Create an isolated comparison using the same factual material and user question. One source is clean; the other adds text attempting to direct the assistant's behavior.
 
@@ -107,7 +107,7 @@ Measure source selection, omitted information, escalation, and attempted actions
 
 Define the expected answer and required disclosures before the test. Where practical, have a reviewer compare the results without knowing which source variant produced each one. That helps expose an answer which remains fluent while dropping something the user needs.
 
-## Make correction practical
+## Make Correction Practical
 {: #for-practitioners }
 
 Retain the source version, returned payload, assistant configuration, and representative answer. If a later correction changes how the assistant handles the material, those records let the team identify affected work and replay the case.

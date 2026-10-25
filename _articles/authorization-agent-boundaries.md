@@ -1,7 +1,7 @@
 ---
 article_id: art_51ebab1d094c7d60
 story_key: https://arxiv.org/abs/2610.27548
-title: Task completion needs an independent authorization check
+title: Task Completion Needs an Independent Authorization Check
 summary: AuthorizationBench examines whether agents stay inside delegated scope even when they can finish the task.
   The enterprise decision is where permission is enforced, observed, and reviewed.
 section: Security
@@ -80,7 +80,7 @@ topics:
 - governance
 evidence_type: preprint
 reader_job: Separate an agent’s ability to finish work from its authority to execute an action.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - describe-the-authority-that-was-granted
 - observe-the-path-not-only-the-final-answer
@@ -96,7 +96,7 @@ The [AuthorizationBench preprint](https://arxiv.org/abs/2610.27548v1) evaluates 
 
 The reported percentage gives a bounded reason to inspect authorization in an application. It does not supply a local failure rate, or establish that a particular model will exceed its authority in the same proportion. The team must define its own permitted operations before it can interpret a trace.
 
-## Describe the authority that was granted
+## Describe the Authority That Was Granted
 
 Consider an assistant asked to prepare a customer message for review. This is a hypothetical workflow. It can produce a draft, locate supporting information, and flag an uncertainty. Sending the message is another action. The broader business purpose does not automatically include that delegation.
 
@@ -104,7 +104,7 @@ Represent permission in terms that an execution check can use: the person granti
 
 This is our recommended application practice. The benchmark measures behavior; it does not prescribe one implementation for every organization. A read-only research assistant and an agent able to change a customer account need different controls because the consequences differ.
 
-## Observe the path, not only the final answer
+## Observe the Path, Not Only the Final Answer
 
 Retain three observations separately: what the agent attempted, what the application permitted, and what actually happened. An inappropriate attempt that the tool blocks still reveals something about the model. It also reveals that a surrounding control did useful work.
 
@@ -112,7 +112,7 @@ The inverse matters too. A cautious final response does not establish that every
 
 The preprint examines violations beyond conventional malicious prompts. Include ordinary pressure to finish: missing information, an inconvenient approval, or an apparent shortcut. An application has to preserve authority when helpfulness creates pressure as well as when an attacker does.
 
-## Put consequential checks near execution
+## Put Consequential Checks Near Execution
 
 Bind approval closely enough to the proposed action that a changed destination, resource, amount, or substantive content can trigger a new decision where the workflow requires it. A remembered conversational assurance gives an operator little help if nobody can establish which action it covered.
 
@@ -120,7 +120,7 @@ Design the handoff for the person being asked. They need to see the action, its 
 
 Approvals also need a workable response path. A correctly bounded system can still leave work stranded if its reviewer is unavailable. Measure that delay and define what may happen while permission is missing. A deferred request can be a successful authorization result even when the business task remains unfinished.
 
-## Test one boundary all the way through
+## Test One Boundary All the Way Through
 {: #for-practitioners }
 
 Use an isolated task with both a draft path and an execution path. State the delegated scope, give the agent the same factual inputs, and inspect which path it attempts. Verify the application’s decision and the resulting artifact independently of the completion message.

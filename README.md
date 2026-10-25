@@ -10,7 +10,7 @@ Jekyll renders versioned Markdown editions and articles. GitHub Actions validate
 
 Select Ruby 3.2.9 with rbenv and Node 22+, then run `make setup`, `make check`, and `make serve`. Python dependencies live in `.venv/`. Source page caches and generated build files are ignored by Git. There is no paid model API dependency, database, login system, or email delivery service.
 
-## Editorial contract
+## Editorial Contract
 
 The feeds at https://rss.tedt.org/ai_rss_feed.json and https://rss.tedt.org/feeds/top.json supply discovery and attributed summaries. Full articles follow original reporting, verify its publication or substantive update time, and use the 36 hours preceding 5 a.m. Pacific. Each edition includes up to eight distinct researched stories: 200–400-word briefs or 600–1,200-word analyses. New analyses require original generated heroes; briefs may omit illustrations. Existing attached images are preserved. Read [the reader/section jobs](docs/reader-contract.md), [the daily production prompt](prompts/daily-edition.md), [brand rules](docs/brand.md), and [operations](docs/operations.md).
 
@@ -18,7 +18,9 @@ The seven launch editions are explicitly retrospective. Their reporting windows 
 
 New articles use Ted's `ted-writing-style` skill in technology/strategy mode, with the portable [article voice policy](docs/ted-writing-style.md). The publication byline and AI-assistance disclosure remain in place.
 
-## Content interface
+Titles and headers, including all h1–h6, use [Ted's selected AP-style title-case rules](docs/title-capitalization.md). This house style overrides sentence-case headline guidance in the writing and design skills.
+
+## Content Interface
 
 - `_articles/<stable-slug>.md`: article front matter and Markdown analysis; public URL `/articles/<stable-slug>/`.
 - `_editions/YYYY-MM-DD.md`: cutoff/window, article-linked TL;DR, explicit lead, article IDs, short links, and internal evidence; public URL `/editions/YYYY-MM-DD/`.
@@ -29,7 +31,7 @@ New articles use Ted's `ted-writing-style` skill in technology/strategy mode, wi
 
 Public pages: /, /live/, /archive/, /search/, /topics/, and /about/. Syndication uses /feed.xml and /feed.json; /sitemap.xml lists indexable pages.
 
-## Regression protection
+## Regression Protection
 
 The preserved archive has source/date/identity/anchor/image checks. Pagefind builds after Jekyll. GitHub deployment requires Chromium and WebKit reader/accessibility checks plus reviewed fixed-content visual fixtures at six widths in both themes. Pinned OFL font files keep typography repeatable. Production jobs cannot modify application code or approved visual baselines.
 

@@ -1,7 +1,7 @@
 ---
 article_id: art_552b4e59bc6342ea
 story_key: https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain
-title: LiteLLM’s incident connects credentials to release authority
+title: LiteLLM’s Incident Connects Credentials to Release Authority
 summary: LiteLLM’s root-cause report describes a chain from exposed credentials to a malicious release. The operating
   question is whether apparently separate release controls depend on the same compromised authority.
 section: Security
@@ -72,7 +72,7 @@ topics:
 - infrastructure
 evidence_type: vendor
 reader_job: Identify shared authority that can undermine apparently separate release controls.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - trace-authority-across-the-whole-release
 - keep-source-selection-visible
@@ -88,7 +88,7 @@ In its [October 23 root-cause report](https://docs.litellm.ai/blog/security-inci
 
 The useful local review follows those connections. A control may depend on the authority it is supposed to constrain, even when the workflow presents it as a separate approval. Drawing that dependence makes a release checklist more useful than counting gates.
 
-## Trace authority across the whole release
+## Trace Authority Across the Whole Release
 
 Map a release from source selection to the bytes an application installs. Include people and service identities able to change the selected repository or revision, alter a workflow, retrieve a publishing secret, approve an environment, or override a protection.
 
@@ -96,7 +96,7 @@ Then follow authority between those operations. A credential may be unable to pu
 
 Give that map to an operator. If one identity is compromised, which controls still hold? The answer should identify a remaining boundary and explain what prevents the affected identity from changing it.
 
-## Keep source selection visible
+## Keep Source Selection Visible
 
 A familiar package name, successful pipeline, or valid signature does not alone establish that the artifact came from the intended source. Preserve the source revision and build configuration that actually produced it, and record limitations where a mutable label remains in the chain.
 
@@ -104,7 +104,7 @@ Signatures and provenance still answer useful questions. This is an operating in
 
 Keep the artifact digest as well as its release name. Investigators need to distinguish the named version from the bytes an application consumed.
 
-## Treat agent configuration as a credential surface
+## Treat Agent Configuration as a Credential Surface
 
 The report's account of credentials exposed through an internal agent service makes read access part of the release review. A management interface can reveal a consequential secret even when it cannot invoke the final publishing action.
 
@@ -112,7 +112,7 @@ Inventory configuration, diagnostic endpoints, stored secrets, and support paths
 
 Use an isolated test to compare a representative service identity's retrievable material with its intended access. Handle discrepancies through the organization's security process. The exercise begins by establishing the actual authority, without changing production protections to demonstrate a failure.
 
-## Preserve evidence outside the obvious path
+## Preserve Evidence Outside the Obvious Path
 {: #for-practitioners }
 
 Choose one dependency or internal release. Ask the response team to recover its source revision, approving identity, build configuration, and exact installed artifact.

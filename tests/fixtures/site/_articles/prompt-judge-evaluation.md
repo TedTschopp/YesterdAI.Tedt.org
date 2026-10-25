@@ -1,7 +1,7 @@
 ---
 article_id: art_4714611be4537b33
 story_key: https://arxiv.org/abs/2610.31148
-title: Evaluation scores need their prompts and judges attached
+title: Evaluation Scores Need Their Prompts and Judges Attached
 summary: Two new studies show how wording, tool interfaces, judge choice, and language affect model comparisons.
   An enterprise scorecard needs to preserve those conditions and expose important reversals.
 section: Enterprise Ops
@@ -91,7 +91,7 @@ One [new study of tool-augmented comparisons](https://arxiv.org/abs/2610.31148v1
 
 Neither paper establishes that evaluation is futile. The useful question is whether a decision survives reasonable variations in presenting and judging the same work. A model identifier alone cannot explain the whole comparison.
 
-## Preserve the comparison contract
+## Preserve the Comparison Contract
 
 Retain the task, dataset, model revision, tool permissions, prompt, judge configuration, language, and scoring rule. Write the acceptance criterion before using the results to choose a system.
 
@@ -99,7 +99,7 @@ A change to one of those conditions may be a legitimate improvement, but it need
 
 Separate a capability result from a selection decision. Several models may meet the application’s threshold even when their order is unstable. Conversely, a narrow numerical lead may matter little if it reverses under plausible wordings and does not alter which service the organization can operate successfully.
 
-## Test reasonable alternative wordings
+## Test Reasonable Alternative Wordings
 
 Keep the underlying task and factual constraints constant while trying equivalent instructions. Inspect cases where a meaningful pairwise comparison changes.
 
@@ -107,7 +107,7 @@ A different wording can clarify a real ambiguity. Have reviewers decide whether 
 
 Report important reversals and the conditions producing them. Averaging every variant into one ranking can hide the uncertainty most relevant to the buying or release decision.
 
-## Inspect how tools enter the result
+## Inspect How Tools Enter the Result
 
 A model with tools receives another way to obtain information or act on the task. Preserve the interface, allowed operations, returned payload, and actual trace. The presence of a tool label does not establish which capability was exercised.
 
@@ -115,7 +115,7 @@ The tool-comparison study finds differences across interfaces and instructions. 
 
 For a local test, distinguish whether the tool was available, whether it was called, and whether the relevant evidence reached the model. Those details help the team locate a change before selecting a remedy.
 
-## Validate the judge in the intended setting
+## Validate the Judge in the Intended Setting
 {: #for-practitioners }
 
 Take a reviewed sample from the intended task and language. Compare the judge's assessments with an appropriate reference, including ambiguous answers and important error categories.
@@ -124,7 +124,7 @@ Preserve the judge prompt and model version with the candidate outputs. A judge 
 
 Keep disagreements for later comparisons. A fluent rationale or a successful scoring response does not independently establish that the rubric was applied as intended.
 
-## Report what the evidence supports
+## Report What the Evidence Supports
 
 Choose a comparison that drives a real decision and show its stability alongside its headline score. Keep unresolved differences and the scope of the two studies visible.
 

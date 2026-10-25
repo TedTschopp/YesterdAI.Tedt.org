@@ -1,0 +1,94 @@
+{
+  "agent-harness-state": {
+    "from": "An agent harness can discard the fact that matters",
+    "to": "An Agent Harness Can Discard the Fact That Matters"
+  },
+  "ai-recommendation-bias": {
+    "from": "An AI recommendation still needs an independent business case",
+    "to": "An AI Recommendation Still Needs an Independent Business Case"
+  },
+  "authorization-agent-boundaries": {
+    "from": "Task completion needs an independent authorization check",
+    "to": "Task Completion Needs an Independent Authorization Check"
+  },
+  "calibrated-disposition-drift": {
+    "from": "Safety drift needs a measuring instrument you can trust",
+    "to": "Safety Drift Needs a Measuring Instrument You Can Trust"
+  },
+  "citation-relevance-verification": {
+    "from": "A real citation can still support the wrong claim",
+    "to": "A Real Citation Can Still Support the Wrong Claim"
+  },
+  "context-sensitive-model-boundaries": {
+    "from": "Model boundaries need tests that vary the context",
+    "to": "Model Boundaries Need Tests That Vary the Context"
+  },
+  "cost-aware-ticket-routing": {
+    "from": "The best ticket-routing decision may be to defer",
+    "to": "The Best Ticket-Routing Decision May Be to Defer"
+  },
+  "hidden-instructions-public-pages": {
+    "from": "Retrieved pages need an evidence boundary",
+    "to": "Retrieved Pages Need an Evidence Boundary"
+  },
+  "kapitsa-local-inference-operations": {
+    "from": "Kapitsa brings the control room onto your Mac",
+    "to": "Kapitsa Brings the Control Room Onto Your Mac"
+  },
+  "litellm-release-authority": {
+    "from": "LiteLLM’s incident connects credentials to release authority",
+    "to": "LiteLLM’s Incident Connects Credentials to Release Authority"
+  },
+  "llm-proxy-visibility": {
+    "from": "Your AI gateway should make the work observable",
+    "to": "Your AI Gateway Should Make the Work Observable"
+  },
+  "materials-structure-ml": {
+    "from": "Better materials AI starts with a better view of structure",
+    "to": "Better Materials AI Starts With a Better View of Structure"
+  },
+  "memory-needs-relevance": {
+    "from": "Agent memory needs a relevance test",
+    "to": "Agent Memory Needs a Relevance Test"
+  },
+  "mercury-diffusion-serving": {
+    "from": "Mercury 3 puts generation speed inside a larger workflow",
+    "to": "Mercury 3 Puts Generation Speed Inside a Larger Workflow"
+  },
+  "meta-terms-data-governance": {
+    "from": "A terms change should trigger a data-path review",
+    "to": "A Terms Change Should Trigger a Data-Path Review"
+  },
+  "minimax-flash-task-economics": {
+    "from": "MiniMax makes completed-task economics worth measuring again",
+    "to": "MiniMax Makes Completed-Task Economics Worth Measuring Again"
+  },
+  "multiagent-review-tradeoffs": {
+    "from": "More reviewing agents can mean more false alarms",
+    "to": "More Reviewing Agents Can Mean More False Alarms"
+  },
+  "pew-task-level-adoption": {
+    "from": "General chatbot use does not establish adoption for a task",
+    "to": "General Chatbot Use Does Not Establish Adoption for a Task"
+  },
+  "prompt-judge-evaluation": {
+    "from": "Evaluation scores need their prompts and judges attached",
+    "to": "Evaluation Scores Need Their Prompts and Judges Attached"
+  },
+  "recoverable-agent-changes": {
+    "from": "Unattended agent changes need a real way back",
+    "to": "Unattended Agent Changes Need a Real Way Back"
+  },
+  "scope-executable-policy": {
+    "from": "Compound policies need inspectable decisions",
+    "to": "Compound Policies Need Inspectable Decisions"
+  },
+  "typed-decisions": {
+    "from": "Some AI decisions do not need a paragraph",
+    "to": "Some AI Decisions Do Not Need a Paragraph"
+  },
+  "voxtral-voice-workflow": {
+    "from": "A voice agent needs to verify the action it heard",
+    "to": "A Voice Agent Needs to Verify the Action It Heard"
+  }
+}

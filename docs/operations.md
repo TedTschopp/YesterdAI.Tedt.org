@@ -1,13 +1,13 @@
-# Publishing operations
+# Publishing Operations
 
-## Two independent producers
+## Two Independent Producers
 
 - The standalone Codex task begins editorial production at 5 a.m. America/Los_Angeles daily, using the configured gpt-6.1-sol model and max reasoning. Its durable instructions are `prompts/daily-edition.md`.
 - `Refresh live news` runs at minute 27 of each hour in GitHub Actions. It records every successful check separately from content-change time, fetches both feeds, preserves upstream ranking and ratings, excludes malformed individual links with an exclusion record, and replaces last-known-good data only after both feeds validate. No model API is used.
 
 `Build and publish` validates editorial content, runs Python/JavaScript tests, builds Jekyll and Pagefind, checks rendered links/feeds, then runs browser/accessibility and fixed-content visual checks before deployment to GitHub Pages. Pull requests validate without deployment. Bot refreshes explicitly dispatch deployment; they do not depend on a bot commit starting another workflow.
 
-## Local setup and checks
+## Local Setup and Checks
 
 Use Ruby 3.2.9, Bundler, Python 3.13+, and Node 22+. `make setup` installs dependencies; `make check` runs the required checks; `make serve` serves a local preview at http://127.0.0.1:4173. `python scripts/research.py history --date YYYY-MM-DD --days 7` caches historical feeds for reconstruction. Cached full source text stays under ignored `.cache/`.
 
@@ -17,7 +17,7 @@ The current verified public site remains available after a failed build, feed fe
 
 The computer and ChatGPT/Codex desktop app must be available for project-based scheduled editorial work. GitHub Pages and the hourly GitHub refresh continue independently. Inspect Scheduled for editorial outcomes and GitHub Actions for import/build/deployment failures.
 
-## Corrections and rollback
+## Corrections and Rollback
 
 Correct the article in place, preserve its stable URL, set `modified_at`, and describe the correction in the text and run record. A substantive new development can have a new article with `update_of` and a concrete `substantive_update` explanation.
 
@@ -33,9 +33,9 @@ The Cloudflare record ID is `0ab2e56ab41753a5a29baef7cab18417`. The dedicated re
 
 TedT.org migration PR [#244](https://github.com/TedTschopp/tedt.org/pull/244) removes the source and compiled legacy newsletter workflows and adds a source-level fallback. The pre-migration source revision is `506148a84f60dc7e8d38008bed5bb998f65432e0`; migration commit is `041f823e783c19deb74034e22d2511bcf995d73d`. Restore those specific files from Git history if rollback becomes necessary, rather than resetting the whole repository.
 
-## Reader-contract rollout and regression checks
+## Reader-Contract Rollout and Regression Checks
 
-Version 2.0.0 is defined in docs/reader-contract.md. New formats are backward compatible; original publication dates, identities, source records, heading anchors, and article hero bytes are protected. Revisions use modified_at. Existing source passages remain verbatim; do not import later developments into historical coverage.
+Version 2.0.2 is defined in docs/reader-contract.md. New formats are backward compatible; original publication dates, identities, source records, heading anchors, and article hero bytes are protected. Titles and headers follow docs/title-capitalization.md. Revisions use modified_at. Existing source passages remain verbatim; do not import later developments into historical coverage.
 
 Local publication checks are make check: Python tests, editorial validation, Jekyll, Pagefind, rendered-contract checks, JavaScript state tests, and static publication smoke. Local interactive review uses CUA. GitHub is the interactive deployment gate, with Chromium and WebKit checks and fixed-content visual baselines. The editor does not need to install or control a local browser through a shell script.
 

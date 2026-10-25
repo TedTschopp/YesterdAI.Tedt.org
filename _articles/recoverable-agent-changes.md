@@ -1,7 +1,7 @@
 ---
 article_id: art_825130cf8cb2d52f
 story_key: https://arxiv.org/abs/2610.27465
-title: Unattended agent changes need a real way back
+title: Unattended Agent Changes Need a Real Way Back
 summary: A new preprint proposes measuring both verifier strength and recoverability before allowing an agent to
   improve itself unattended. An apparently successful approval loop is not enough evidence.
 section: Enterprise Ops
@@ -80,7 +80,7 @@ topics:
 - evaluation
 evidence_type: preprint
 reader_job: Establish what an unattended improvement loop can verify and actually recover.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - give-the-verifier-a-known-challenge
 - preserve-the-exact-artifact
@@ -94,13 +94,13 @@ An undo button makes a promise about the way back. Before allowing an agent to i
 
 A [preprint on recoverability and verifier strength](https://arxiv.org/abs/2610.27465v1) proposes measuring both properties before unattended improvement. In its experiments, some judge configurations produced effectively uninformative scores without reporting an error. Restoring a saved version recovered prior behavior more reliably than asking the system to generate an undo. These are results from the authors’ platform and controlled tests, not a certification rule for every deployment.
 
-## Give the verifier a known challenge
+## Give the Verifier a Known Challenge
 
 A successful scoring response establishes that a service answered. Test whether its score changes when relevant evidence is removed or replaced. An uninformative judge can otherwise make a closed approval loop look healthy.
 
 Keep the reference evaluation and approval rules under a separate change process. The improving agent can propose a revision, but the record needs to show when the gate itself changed.
 
-## Preserve the exact artifact
+## Preserve the Exact Artifact
 {: #for-practitioners }
 
 Retain the previous version, configuration, and dependencies needed to restore it. Exercise that restoration rather than relying on a generated description of an undo.

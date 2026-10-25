@@ -1,7 +1,7 @@
 ---
 article_id: art_1353be402f8662ba
 story_key: https://arxiv.org/abs/2610.29812
-title: A real citation can still support the wrong claim
+title: A Real Citation Can Still Support the Wrong Claim
 summary: A biomedical claim-verification study finds that valid publication identifiers can hide irrelevant evidence.
   Enterprise retrieval systems should test the relationship between a claim and its source, beyond link existence.
 section: Security
@@ -76,7 +76,7 @@ topics:
 - security
 evidence_type: preprint
 reader_job: Verify the relationship between a specific answer and the evidence cited for it.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - define-what-the-reference-must-establish
 - separate-search-from-interpretation
@@ -90,7 +90,7 @@ Open the reference beside a confident sentence. The link may work and the paper 
 
 A [preprint on biomedical claim-verification agents](https://arxiv.org/abs/2610.29812v1) studies that distinction using a controlled task and PubMed retrieval. The authors report that closed-book models often supplied identifiers for real papers while those papers rarely supported the claims being checked. Their experiments also separate retrieval limitations from the performance possible when relevant abstracts are supplied. The study is narrow and some comparisons are not statistically resolved at its sample size.
 
-## Define what the reference must establish
+## Define What the Reference Must Establish
 
 A company announcement can establish that a claim was made without independently validating its benchmark. A real paper can discuss the topic while failing to support the conclusion attributed to it.
 
@@ -98,7 +98,7 @@ Keep the unit of review small: a claim, its cited passage, and the strength of t
 
 Version matters as well. The current procedure may answer today's question while being unsuitable for a question about an earlier decision. Retain the document version or retrieval date and the passage actually used.
 
-## Separate search from interpretation
+## Separate Search From Interpretation
 {: #for-practitioners }
 
 Compare ordinary retrieval with a controlled condition that supplies reviewed relevant material. Inspect what reaches the model. Missing evidence and a misread passage need different remedies.

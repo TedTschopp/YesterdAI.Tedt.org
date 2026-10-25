@@ -1,13 +1,13 @@
 ---
 article_id: art_fc116d0cc59c1c4e
 story_key: https://arxiv.org/abs/2610.31193
-title: Catalog fields need different checks for evidence
+title: Catalog Fields Need Different Checks for Evidence
 summary: An experiment on museum records separates field coverage from support for a generated claim. It offers
   a focused test pattern for teams generating descriptions from structured data.
 section: Enterprise Ops
 edition_date: '2026-10-23'
 published_at: '2026-10-25T04:05:07.443234Z'
-modified_at: '2026-10-25T04:05:07.443234Z'
+modified_at: '2026-10-25T05:04:24Z'
 retrospective: true
 rank: 5
 format: brief
@@ -98,7 +98,7 @@ Their findings separate field coverage from grounding. More information can prom
 
 The evaluation also has a specific boundary: claim verdicts are relative to the catalog record. An unsupported statement is not necessarily a historical falsehood. That distinction matters when deciding what the generated text is allowed to assert.
 
-## For practitioners
+## For Practitioners
 {: #for-practitioners}
 
 For a product or asset catalog, make the evidence test concrete. Select a small set of records whose descriptions your team can check, generate a draft, and connect each factual claim to the exact field that supports it. Review missing information separately from invented detail. This is our proposed application of the study’s method, not a retail or enterprise deployment tested by its authors.

@@ -1,7 +1,7 @@
 ---
 article_id: art_2a3e85161b6aae3f
 story_key: https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information
-title: General chatbot use does not establish adoption for a task
+title: General Chatbot Use Does Not Establish Adoption for a Task
 summary: Pew’s election-information survey distinguishes broad chatbot use from use for one particular purpose.
   Enterprise adoption measures should make the same distinction between access, activity, and useful outcomes.
 section: Policy
@@ -83,7 +83,7 @@ When somebody says people are using AI, what work do they mean? An account, an o
 
 [Pew Research Center’s October 23 report](https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/) makes that distinction visible. In its survey of 5,273 U.S. adults, 8% say they are using AI chatbots for information related to the 2026 elections. The report contrasts that figure with much broader general chatbot use. This is a U.S. public-opinion study about a specific information task, not a measure of enterprise adoption or a finding about the quality of chatbot answers.
 
-## Keep the denominator in view
+## Keep the Denominator in View
 
 The lesson transfers as a measurement question, not as a percentage to apply to employees. Name the population, the activity, and the reporting period before comparing results.
 
@@ -91,7 +91,7 @@ Provisioned accounts establish availability. Application records show interactio
 
 A specialized tool also needs a denominator that reflects who encountered its task. An infrequent need can make a short-period activity count difficult to interpret. Mandatory use can produce a high count without establishing usefulness.
 
-## Measure one useful change
+## Measure One Useful Change
 {: #for-practitioners }
 
 Choose a task and a baseline for completion, review effort, and the user experience. Examine governed outcome samples alongside activity and ask people what they were trying to finish.

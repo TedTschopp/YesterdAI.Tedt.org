@@ -1,7 +1,7 @@
 ---
 article_id: art_43a5a6eafd6c005a
 story_key: https://arxiv.org/abs/2610.30751
-title: Model boundaries need tests that vary the context
+title: Model Boundaries Need Tests That Vary the Context
 summary: A controlled pay-stub editing study probes how context changes model responses. It supports a focused application
   test, while its simulated setting limits conclusions about real-world outcomes or overall ethics.
 section: Security
@@ -70,7 +70,7 @@ topics:
 - governance
 evidence_type: preprint
 reader_job: Test whether context changes an application’s treatment of the same authorized or prohibited operation.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - define-the-authorized-operation-first
 - change-context-without-changing-the-core-test
@@ -84,13 +84,13 @@ Keep the requested operation still and change the story around it. Does the resp
 
 A [preprint testing document-editing boundaries](https://arxiv.org/abs/2610.30751v1) compares 15 models across several contexts for the same core request. The researchers report substantially different rates of attempted editing calls. They use marked test material and simulated tools, and explicitly caution against treating the results as an overall ethics ranking or proof that a harmful real-world edit succeeded.
 
-## Score attempts and effects separately
+## Score Attempts and Effects Separately
 
 A proposed tool call, a permitted execution, and a verified change are different observations. Keep all three. A fluent refusal can coexist with an attempted action; a blocked attempt can expose a model error without causing the external effect.
 
 The benchmark provides a reason to examine a local boundary. It cannot supply a provider-wide ethics ranking or prove that a harmful real-world edit took place. Preserve that distinction when explaining the result to a process owner.
 
-## Define the authorized operation first
+## Define the Authorized Operation First
 {: #for-practitioners }
 
 Use marked fixtures and simulated actions, isolated from real records and transactions. State the allowed operation, the approved information, and the accountable record owner before testing the model.

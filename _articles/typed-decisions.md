@@ -1,7 +1,7 @@
 ---
 article_id: art_178c37e603121edb
 story_key: https://arxiv.org/abs/2610.29052
-title: Some AI decisions do not need a paragraph
+title: Some AI Decisions Do Not Need a Paragraph
 summary: A typed-decision preprint explores reading a fixed set of options in one forward pass. The opportunity
   is narrower, cheaper decision work with explicit labels and a measured failure policy.
 section: Enterprise Ops
@@ -74,7 +74,7 @@ topics:
 - economics-adoption
 evidence_type: preprint
 reader_job: Choose an output interface suited to a fixed-option decision without overstating the evaluation evidence.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - start-with-a-stable-question
 - separate-the-decision-from-its-explanation
@@ -88,7 +88,7 @@ If the next system needs one selection from a fixed set, why produce a paragraph
 
 A [preprint on typed decisions](https://arxiv.org/abs/2610.29052v1) examines fixed-option outputs derived in one forward pass. The authors describe an internal coding-session triage use and experiments with adapted open models. They report substantial cost differences in their setting while also exposing limitations in small public benchmarks and sensitivity to the training corpus. Those details matter: an inexpensive internal configuration is evidence for a local experiment, not a universal cost or accuracy guarantee.
 
-## Start with a stable question
+## Start With a Stable Question
 
 Ask reviewers to apply the labels to the same examples. Resolve overlaps, missing categories, and unsupported inputs before optimizing how the answer is produced.
 
@@ -96,7 +96,7 @@ Keep the option taxonomy with the model and evaluation version. A changing label
 
 A typed selection and its explanation also serve different purposes. An explanation can help a reviewer, but should remain connected to the actual decision instead of becoming independent proof that the choice was justified.
 
-## Compare against modest baselines
+## Compare Against Modest Baselines
 {: #for-practitioners }
 
 Use the same evidence, labels, and held-out records to compare the current generative path, a suitable simple baseline, and the proposed typed approach.
