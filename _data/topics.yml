@@ -1,5 +1,5 @@
 - slug: agents
-  name: Agents and automation
+  name: Agents and Automation
   description: Follow the work an agent is allowed to do, the state it keeps, and the person who can recover a failed run.
 - slug: evaluation
   name: Evaluation
@@ -11,8 +11,8 @@
   name: Governance
   description: Connect policies and public decisions to accountable choices about data, authority, and evidence.
 - slug: infrastructure
-  name: Models and infrastructure
+  name: Models and Infrastructure
   description: Examine serving, gateways, model releases, and the operating choices behind a useful AI service.
 - slug: economics-adoption
-  name: Economics and adoption
+  name: Economics and Adoption
   description: Follow the cost and usefulness of completed work, with attention to who uses a service and what they accomplish.

@@ -1,7 +1,7 @@
 ---
 article_id: art_2790d5e5427b4862
 story_key: https://arxiv.org/abs/2610.25735
-title: Safety drift needs a measuring instrument you can trust
+title: Safety Drift Needs a Measuring Instrument You Can Trust
 summary: A new preprint examines how fine-tuning and reasoning settings can change model behavior. Its practical
   contribution is a reminder to validate the measurement before treating a safety score as stable.
 section: Security
@@ -65,7 +65,7 @@ topics:
 - security
 evidence_type: preprint
 reader_job: Determine whether an observed model-behavior change is larger than measurement uncertainty.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - establish-what-a-score-can-resolve
 - change-one-part-of-the-configuration-deliberately
@@ -78,7 +78,7 @@ Move the mark on a ruler and an object can appear to change length. A model scor
 
 A [new preprint on disposition drift](https://arxiv.org/abs/2610.25735v1) applies a calibrated measurement approach to two open-weight models. The researchers report that they could detect shifts of a few percentage points, and that reasoning settings could obscure a change in the answers while another measurement exposed it. These are scoped research results. They do not establish a universal diagnostic for every model or application.
 
-## Establish what a score can resolve
+## Establish What a Score Can Resolve
 
 Name the behavior and the decision that a score is meant to support. A broad label such as safety leaves an operator unsure which change requires attention.
 
@@ -86,7 +86,7 @@ Keep the scoring model, prompt, inputs, and treatment of ambiguous cases. Review
 
 The reasoning-setting result is a reason to test operating modes explicitly. It does not establish hidden behavior in another system from the appearance of its answers. An aggregate improvement can also conceal deterioration in a class of requests that matters to a department.
 
-## Change one part of the configuration deliberately
+## Change One Part of the Configuration Deliberately
 {: #for-practitioners }
 
 Run an unchanged configuration through the evaluation again as a negative control. Where practical, blind reviewers to the version label. Investigate a measurement that reports a meaningful change under identical conditions.

@@ -1,12 +1,13 @@
 ---
 article_id: art_d26f3b9150349619
 story_key: https://www.infoq.com/news/2026/10/data-agent-kit-ga
-title: Google’s agent controls separate guidance from enforcement
+title: Google’s Agent Controls Separate Guidance From Enforcement
 summary: InfoQ’s new reporting distinguishes written agent procedures from Google Cloud permissions. A useful
   pilot verifies which tool calls the service actually refuses.
 section: Enterprise Ops
 edition_date: '2026-10-25'
 published_at: '2026-10-25T12:06:11.472068Z'
+modified_at: '2026-10-25T16:54:34Z'
 rank: 1
 format: analysis
 reading_minutes: 3
@@ -108,7 +109,7 @@ A prompt can tell an agent to stop. A permission check can refuse its request. T
 
 [InfoQ's October 24 report](https://www.infoq.com/news/2026/10/data-agent-kit-ga/) examines these two controls in Google's Data Agent Kit: skills that guide behavior and identity rules that govern tool calls. The underlying product is older. [Google announced general availability on September 30](https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent/). The useful finding in the new reporting is where each control operates, and what an operator can actually verify.
 
-## Put the control where the action happens
+## Put the Control Where the Action Happens
 
 Think of a warehouse instruction sheet and the key to its loading dock. The sheet explains how a careful operator should work. The key determines whether the door can open. Both matter, and they answer different questions.
 
@@ -120,7 +121,7 @@ The documented condition reads `api.getAttribute('mcp.googleapis.com/tool.isRead
 
 Google says a denied write returns an HTTP client error, while the write tool can remain in the tool list. Visibility alone therefore says little about what the caller may do. The application has to explain a refusal without claiming completion.
 
-## Follow the edges of the permission
+## Follow the Edges of the Permission
 
 The policy covers Google Cloud MCP servers. Its attributes apply only to the MCP tool-call permission; project-level checking also excludes resourceless APIs. Policies using service or tool-name attributes require the Google Cloud CLI.
 
@@ -128,7 +129,7 @@ Those details make a difference to an architecture review. A drawing with one bo
 
 Authorization also leaves a different operational question open. After a write is permitted, a timeout can obscure whether it completed. Retrying safely requires information about that operation's result and repeat behavior. A permission decision alone cannot supply it. Treat that as a separate application design problem rather than expecting the consent prompt to resolve it.
 
-## Test the refusal {#for-practitioners}
+## Test the Refusal {#for-practitioners}
 
 A useful pilot can stay small. Use disposable data and the identity intended for investigation. Record one permitted read and one attempted write through the same covered MCP service. Keep the actual service response alongside the assistant's explanation. That checks the permission boundary and the application's handling of it.
 

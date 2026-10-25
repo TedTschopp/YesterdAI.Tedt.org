@@ -1,10 +1,10 @@
-# Reader and publishing contract
+# Reader and Publishing Contract
 
-Version 2.0.2. The reader contract was approved October 24, 2026; Ted changed the daily article target to 3–5 on October 25. Headline, metadata, and caption preferences remain as approved October 24.
+Version 2.0.3. The reader contract was approved October 24, 2026; Ted selected AP-style title case for titles and headers the same day and changed the daily article target to 3–5 on October 25. Metadata and caption preferences remain as approved October 24.
 
 This document and the checked-in brand/voice policy define the publication. Daily producers fill the content contracts; they do not redesign templates, change typography, or update visual baselines.
 
-## Reading levels
+## Reading Levels
 
 | Surface | Reader job | Required behavior |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ This document and the checked-in brand/voice policy define the publication. Dail
 | Feeds | Read in another tool | Stable GUIDs, original publication dates, update dates, matching full article content. |
 | Navigation/404 | Orient and recover | Accessible predictable links, working recovery, visible keyboard focus. |
 
-## Editorial section jobs
+## Editorial Section Jobs
 
 Maintain this order and omit empty sections.
 
@@ -32,7 +32,7 @@ Maintain this order and omit empty sections.
 
 Looking Ahead, Editor's notes and source record, reconstruction paragraphs, machine cutoffs, preparation logs, and expandable upstream-summary records do not render on public pages. Production evidence remains in GitHub. Keep plain reader dates and a discreet Retrospective label where appropriate. Ordinary citations appear under Sources.
 
-## Article contracts
+## Article Contracts
 
 Existing records without a format remain analyses. New and revised records declare:
 
@@ -48,7 +48,7 @@ Choose length from evidence and reader job, with no analysis quota. A focused an
 
 Every new analysis has its own built-in generated hero. New briefs may omit one. Preserve existing attached heroes during reclassification and reuse completed assets on retries. An image failure never authorizes silently relabeling an analysis as a brief.
 
-Use AP sentence-style headline capitalization, preserving proper names and acronyms and capitalizing the first word after a colon. Do not automatically title-case or lowercase headlines. Match article search/social titles to the reviewed headline. Homepage search/social title, description, and image describe Yesterday in AI as a publication; article metadata describes the article; edition metadata describes that dated edition.
+Use the AP-style title case specified in [Title and Heading Capitalization](title-capitalization.md) for all h1–h6, article/edition/page titles, topic names, and other title or header text. This house style overrides sentence-case headline guidance in writing and design skills. Preserve proper names and acronyms; review authored text without CSS capitalization or blanket lowercasing. Match article search/social titles to the reviewed headline. Homepage search/social title, description, and image describe Yesterday in AI as a publication; article metadata describes the article; edition metadata describes that dated edition.
 
 Image captions explain the visible composition’s relationship to the story. Prefer one sentence, with a maximum of two. Generic generation or illustration credits are not captions. Preserve the existing image bytes, alt text, and generation provenance while updating the caption; keep AI-assistance disclosure in the footer and About page.
 
@@ -56,7 +56,7 @@ Keep sourced facts and qualifications intact. Report preprints with experimental
 
 Keep inline attributed source passages in the preserved launch archive. Its original dates, source records, URLs, heading anchors, logos, and hero hashes have regression checks. Later developments belong in a new dated article; archive revisions must not import hindsight.
 
-## Edition contracts
+## Edition Contracts
 
 Target 3–5 complete researched articles per new daily edition, from the same two discovery feeds, with verified original publication or substantive-update times in the preceding 36 elapsed hours at 5 a.m. America/Los_Angeles. Briefs and analyses each count as an article; Quick Hits do not. Preserve seven-day deduplication and historical cutoffs.
 
@@ -66,7 +66,7 @@ lead_article_id identifies editorial importance independently of section order. 
 
 A retrospective label describes the edition; actual article publication and revision timestamps remain truthful. Do not backdate publication or change a historical reporting window.
 
-## Repeatable presentation
+## Repeatable Presentation
 
 Use the checked-in logos, fonts, color roles, spacing, focus treatment, and recipes. Headlines precede list illustrations. Images retain native proportions. Large thumbnails float only when their story column has room; sidebars collapse below 1,100px. Preserve an 18px default body with user-controlled scaling.
 
@@ -74,7 +74,7 @@ The homepage emphasizes leadership implications. Deeper pages provide practition
 
 Pagefind indexes article bodies after every Jekyll build. Existing q and topic search URLs remain valid; tag selects a subject. Search failure leaves a useful static list and an honest reduced-search state.
 
-## Health and failure behavior
+## Health and Failure Behavior
 
 Daily Codex starts at 5 a.m. Pacific using the existing model and reasoning. Hourly GitHub refresh is independent. The host computer and app remain prerequisites for local editorial production.
 

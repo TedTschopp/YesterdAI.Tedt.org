@@ -1,7 +1,7 @@
 ---
 article_id: art_614a0336a7737e51
 story_key: https://www.inceptionlabs.ai/blog/introducing-mercury-3
-title: Mercury 3 puts generation speed inside a larger workflow
+title: Mercury 3 Puts Generation Speed Inside a Larger Workflow
 summary: Inception’s diffusion-model release makes a case for faster interactive AI. A production evaluation still
   needs to measure the complete task, especially where waiting on tools or verifying actions dominates.
 section: Vendors
@@ -76,7 +76,7 @@ The model finishes its answer, then the person using the application keeps waiti
 
 [Inception’s Mercury 3 release](https://www.inceptionlabs.ai/blog/introducing-mercury-3) makes the vendor’s case for diffusion language models in real-time applications. The announcement presents generation-speed and task-performance claims, describes API compatibility, and includes customer accounts of interactive uses. These are reasons to investigate the model on a suitable workload. They are not a measured result for an enterprise’s own service.
 
-## Draw the timeline the user experiences
+## Draw the Timeline the User Experiences
 
 Separate generation, tool calls, queues, retries, and verification. A serving change can improve one part while leaving the main delay untouched.
 
@@ -84,7 +84,7 @@ Keep acceptance criteria constant. Faster output that needs more repair may incr
 
 API compatibility also leaves configuration work to evaluate. Preserve the model identifier, tool behavior, context handling, and routing choices used in the comparison. A successful connection is the start of the test.
 
-## Test the serving change as a configuration
+## Test the Serving Change as a Configuration
 {: #for-practitioners }
 
 Use a representative interactive task and record the full path to an accepted result. Include failures and retries, with the same review standard for the existing service and the candidate.

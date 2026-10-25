@@ -1,7 +1,7 @@
 ---
 article_id: art_5eb559e50fd7886d
 story_key: https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns
-title: A terms change should trigger a data-path review
+title: A Terms Change Should Trigger a Data-Path Review
 summary: Meta removed commercial-terms wording after scraping concerns. For enterprises, the useful response is
   to connect the contract review with an inventory of the content and systems the relationship touches.
 section: Policy
@@ -61,7 +61,7 @@ topics:
 - security
 evidence_type: reporting
 reader_job: Translate a vendor-terms notice into an accountable review of the relevant data relationship.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - find-the-relationship-before-debating-the-clause
 - separate-statements-from-observations
@@ -74,7 +74,7 @@ A revised sentence arrives in a platform's terms. Put it beside the account, con
 
 [TechCrunch reports that Meta removed commercial-terms language](https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/) after concerns about how it might apply to scraping and AI training. The report also records Meta’s explanation that its clarification concerned advertising and business products and did not change its web-crawling practices. Those are reported statements about the wording and the company’s position. They do not, by themselves, establish a legal conclusion about a particular enterprise’s content.
 
-## Find the relationship before debating the clause
+## Find the Relationship Before Debating the Clause
 
 Identify the business accounts, domains, integrations, and content involved. Keep the applicable terms version and the people responsible for the relationship.
 
@@ -82,7 +82,7 @@ Separate the company's statement, the written terms, and observed system behavio
 
 Bring that inventory to the people responsible for contract interpretation and configuration. They need enough context to decide which relationship the changed wording governs.
 
-## Give changes a route into operations
+## Give Changes a Route Into Operations
 {: #for-practitioners }
 
 Take one real account and follow the content it exposes or exchanges. Preserve the relevant terms version and any configuration evidence required by the organization's review.

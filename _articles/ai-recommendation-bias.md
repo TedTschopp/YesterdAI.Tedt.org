@@ -1,7 +1,7 @@
 ---
 article_id: art_38ce8d74651308c9
 story_key: https://arxiv.org/abs/2610.29785
-title: An AI recommendation still needs an independent business case
+title: An AI Recommendation Still Needs an Independent Business Case
 summary: Research traces how training and question wording affect AI-related recommendations. Mentioning AI more
   often does not prove better or worse advice; it does make evaluation of the recommendation process important.
 section: Enterprise Ops
@@ -69,7 +69,7 @@ topics:
 - economics-adoption
 evidence_type: preprint
 reader_job: Evaluate an AI proposal without treating the model’s preference as its business case.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - state-the-problem-without-naming-the-implementation
 - compare-recommendations-with-the-same-rubric
@@ -83,7 +83,7 @@ Ask an assistant how to add AI and the brief has already selected a class of sol
 
 A [preprint on AI-related recommendations](https://arxiv.org/abs/2610.29785v1) examines how training and question wording affect whether models suggest AI or machine-learning options. The researchers report differences between pretrained and released instruction-tuned systems, and changes associated with training data and framing. The measured frequency is not a direct score of whether the advice is appropriate. Some problems genuinely call for an AI component.
 
-## Compare recommendations with the same rubric
+## Compare Recommendations With the Same Rubric
 
 Describe the user, the task, the current constraint, and the outcome before naming an implementation. Keep that account when AI remains the best option; it helps explain which part needs a model and which part needs another method.
 
@@ -91,7 +91,7 @@ Compare proposals against the same requirements. An advanced model deserves cred
 
 A model-generated ranking is another output to evaluate. It does not provide an independent business case simply because the scores look orderly.
 
-## Test the effect of framing
+## Test the Effect of Framing
 {: #for-practitioners }
 
 Take one recent proposal and present its underlying problem in several reasonable ways. Preserve the factual constraints, prompts, and answers. Have accountable reviewers compare the recommendations with a stable rubric.

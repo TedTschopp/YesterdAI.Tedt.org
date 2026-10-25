@@ -1,7 +1,7 @@
 ---
 article_id: art_9692486eeb77934b
 story_key: https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018
-title: Better materials AI starts with a better view of structure
+title: Better Materials AI Starts With a Better View of Structure
 summary: 'MIT’s materials research points to a familiar enterprise problem: useful information disappears when complex
   records are flattened into text. The representation deserves as much scrutiny as the model.'
 section: Big Moves
@@ -74,7 +74,7 @@ A list of parts can leave out the arrangement that makes them useful. Before buy
 
 [MIT reports a multimodal approach to crystalline materials](https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018) that connects atomic structures with natural-language descriptions. The researchers combine information about geometry with accounts of properties, processing, and potential uses. MIT says their structure-aware approach outperformed a text-only comparison and identified promising candidates for a battery-electrolyte query. Those are research findings, not a claim that a production materials-discovery service is ready to replace laboratory work.
 
-## The information lost in a paragraph
+## The Information Lost in a Paragraph
 
 The transferable question concerns representation. A text description may preserve the names of components while losing their geometry or connection. Give a model an incomplete view and a disappointing answer can look like a capability problem.
 
@@ -82,7 +82,7 @@ Generated descriptions can help bridge specialized records and a language interf
 
 For an industrial research team, a shortlist remains an input to expert and laboratory work. Preserve selection criteria, provenance, and rejection reasons so an unsuitable candidate can be investigated.
 
-## Compare representations before comparing vendors
+## Compare Representations Before Comparing Vendors
 {: #for-practitioners }
 
 Choose a recurring decision where an expert can identify a relationship that the text-only input hides. Compare representations while keeping the task and acceptance criteria steady.

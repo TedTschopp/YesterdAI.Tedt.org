@@ -1,8 +1,8 @@
 ---
-title: Useful news. Room to think.
+title: Useful News. Room to Think.
 description: "Yesterday in AI helps people decide how AI fits into real organizations."
 permalink: /about/
-eyebrow: About the publication
+eyebrow: About the Publication
 job: trust
 ---
 <div class="prose about-prose" markdown="1">
@@ -11,7 +11,7 @@ Yesterday in AI is a publication of [Ted Tschopp’s Public Workbench](https://t
 
 Start with the [latest briefing](/) for the important changes. Open the complete edition for the day’s coverage, then follow an article into the evidence and practical detail. [Topics](/topics/) connect ideas across days. The [live news](/live/) offers a wider view through summaries supplied by the source feed.
 
-## Editorial standards
+## Editorial Standards
 {: #editorial-method }
 
 Discovery begins with Ted’s [curated AI news](https://rss.tedt.org/ai_rss_feed.json) and [Top Stories](https://rss.tedt.org/feeds/top.json). Researched stories link to original material. We distinguish reported facts, vendor claims, research findings, and our interpretation. A preprint or a benchmark has a scope; its limits belong beside its results.
@@ -22,7 +22,7 @@ Codex assists with research, writing, editing, and publication. The publication 
 
 The launch collection includes retrospective editions. Their edition dates identify the period covered; article publication dates identify when the work was first published.
 
-## Corrections and reading
+## Corrections and Reading
 
 Report an error through [GitHub Issues](https://github.com/TedTschopp/YesterdAI.Tedt.org/issues), including the article URL and the claim that needs attention. Factual corrections retain the original URL and include a clear update.
 

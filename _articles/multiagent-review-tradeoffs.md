@@ -1,7 +1,7 @@
 ---
 article_id: art_80b14f6a6fd391a6
 story_key: https://arxiv.org/abs/2610.27488
-title: More reviewing agents can mean more false alarms
+title: More Reviewing Agents Can Mean More False Alarms
 summary: A controlled financial-document review study finds tradeoffs when work is divided among agents. Enterprises
   should measure misses, false alarms, and total review effort before adopting a team architecture.
 section: Enterprise Ops
@@ -76,7 +76,7 @@ topics:
 - economics-adoption
 evidence_type: preprint
 reader_job: Decide whether an agent team improves usable review outcomes enough to justify its extra work.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - define-a-finding-that-somebody-can-use
 - count-the-cost-of-false-alarms
@@ -90,7 +90,7 @@ More warnings put more decisions on a reviewer's desk. Somebody still has to sep
 
 A [controlled comparison on credit-assessment memos](https://arxiv.org/abs/2610.27488v1) tests a single agent against a three-agent division of the same requirements. On synthetic memos with known labels, the team catches more of some defects but raises more false alarms and uses roughly 2.2–2.4 times the tokens. The results vary with the model and instructions. They do not establish that every multi-agent design is ineffective, or that the study reproduces an institution’s actual review process.
 
-## Count the cost of false alarms
+## Count the Cost of False Alarms
 
 A document-review finding needs a requirement, evidence, and an understandable reason for attention. Count the effort to inspect false alarms as well as defects caught.
 
@@ -98,7 +98,7 @@ Keep the scope clear: this study examines a document-review task, not the comple
 
 The paper also examines alternatives to splitting requirements among specialists. Include a straightforward repeated-call baseline where it fits. That helps distinguish the effect of additional sampling or clearer instructions from the effect of a team architecture.
 
-## Preserve shared context carefully
+## Preserve Shared Context Carefully
 {: #for-practitioners }
 
 Give each candidate the same documents, requirements, and outcome labels. Record misses, false alarms, token use, and the human effort needed to resolve the findings.

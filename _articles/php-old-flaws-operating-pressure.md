@@ -1,12 +1,13 @@
 ---
 article_id: art_1edb80b635d46123
 story_key: https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable
-title: PHP’s old flaws put new pressure on remediation
+title: PHP’s Old Flaws Put New Pressure on Remediation
 summary: WIRED’s new PHP reporting connects AI-assisted exploit research with familiar remediation constraints.
   The patch date, attack evidence and decision process each tell a different part of the story.
 section: Security
 edition_date: '2026-10-25'
 published_at: '2026-10-25T12:06:11.472068Z'
+modified_at: '2026-10-25T16:54:34Z'
 rank: 2
 format: brief
 reading_minutes: 2

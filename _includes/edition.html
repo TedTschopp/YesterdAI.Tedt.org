@@ -24,9 +24,9 @@
         <a href="/archive/">Every edition</a>
       </nav>
     </div>
-    <aside class="edition-rail" aria-label="In this edition">
-      <section class="rail-note"><p class="eyebrow">In this edition</p><ul class="edition-contents">{% for section in site.sections %}{% assign selected = ordered | where: 'section', section.name %}{% if selected.size > 0 %}<li><a href="#{{ section.slug }}-heading">{{ section.name }}</a><span class="meta">{{ selected.size }}</span></li>{% endif %}{% endfor %}{% if edition.quick_hits.size > 0 %}<li><a href="#quick-hits-heading">Quick Hits</a></li>{% endif %}</ul></section>
-      <section class="rail-note"><p class="eyebrow">Keep reading</p><a href="/search/">Search the analysis →</a><p class="body-sm">Explore a subject across the publication.</p></section>
+    <aside class="edition-rail" aria-label="In This Edition">
+      <section class="rail-note"><p class="eyebrow">In This Edition</p><ul class="edition-contents">{% for section in site.sections %}{% assign selected = ordered | where: 'section', section.name %}{% if selected.size > 0 %}<li><a href="#{{ section.slug }}-heading">{{ section.name }}</a><span class="meta">{{ selected.size }}</span></li>{% endif %}{% endfor %}{% if edition.quick_hits.size > 0 %}<li><a href="#quick-hits-heading">Quick Hits</a></li>{% endif %}</ul></section>
+      <section class="rail-note"><p class="eyebrow">Keep Reading</p><a href="/search/">Search the analysis →</a><p class="body-sm">Explore a subject across the publication.</p></section>
     </aside>
   </div>
 </div>

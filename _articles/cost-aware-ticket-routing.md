@@ -1,7 +1,7 @@
 ---
 article_id: art_acf94d966a173a22
 story_key: https://arxiv.org/abs/2610.31657
-title: The best ticket-routing decision may be to defer
+title: The Best Ticket-Routing Decision May Be to Defer
 summary: A cost-aware IT-routing study makes human triage an explicit option. Its results favor evaluating the whole
   decision policy, including the cost of a wrong route and the capacity of the review queue.
 section: Enterprise Ops
@@ -78,7 +78,7 @@ topics:
 - agents
 evidence_type: preprint
 reader_job: Choose a routing policy using completed work and support costs rather than classifier accuracy alone.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - put-the-alternatives-in-the-cost-model
 - keep-threshold-selection-out-of-the-final-test
@@ -94,7 +94,7 @@ A [cost-aware ticket-classification preprint](https://arxiv.org/abs/2610.31657v1
 
 The useful unit of comparison is the whole route-or-review decision. A probability field matters when it helps choose between those paths under the queue's actual costs. A lower model price or a higher overall score can leave the service with more expensive unfinished work.
 
-## Put the alternatives in the cost model
+## Put the Alternatives in the Cost Model
 
 Walk through a correct route, a wrong route, and a deferral. Record handling time, delay, reassignment, and recovery effort. Keep measured quantities beside assumptions so the service owner can see which part of a favorable result depends on a guess.
 
@@ -104,7 +104,7 @@ Human review also has a capacity. A policy can improve its accepted predictions 
 
 The paper keeps calibration and discrimination separate. In practical terms, ask whether the score distinguishes correct predictions from wrong ones. A nearly constant confidence value may offer little help at the branch between routing and review, even if it looks orderly in a dashboard.
 
-## Keep threshold selection out of the final test
+## Keep Threshold Selection Out of the Final Test
 
 Choose a policy on calibration data, then evaluate the frozen choice on held-out records. Preserve the split, labels, configuration, and selection procedure. Repeated threshold adjustments after seeing the final results make those records part of development.
 
@@ -112,13 +112,13 @@ A published threshold is a decision under particular scores, costs, and inputs. 
 
 As automatic coverage falls, does the accepted set become more reliable? Inspect tied scores and consequential error categories alongside the aggregate. The remaining wrong routes may have different recovery costs, and the service owner needs to decide which ones require a more conservative handoff.
 
-## Give simple baselines a fair comparison
+## Give Simple Baselines a Fair Comparison
 
 Use the same inputs, taxonomy, and reviewed outcomes to compare the current process, suitable conventional classifiers, and a proposed generative approach. If one candidate receives more context, describe that as a different configuration.
 
 The study's limitations in the tested prompted LLM setups remain attached to its endpoints, prompts, and task. They do not establish that generative models have no useful role elsewhere in a support workflow. The decision here is which method supports routing under the measured conditions.
 
-## Pilot the handoff as well as the classifier
+## Pilot the Handoff as Well as the Classifier
 {: #for-practitioners }
 
 Choose a queue with clear categories and downstream owners. First record what the proposed policy would have done alongside the current process. Review disagreements before enabling consequential routing changes.

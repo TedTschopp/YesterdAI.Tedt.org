@@ -1,4 +1,4 @@
-# Yesterday in AI brand
+# Yesterday in AI Brand
 
 The publication is **Yesterday in AI**. The outlined **YesterdAI** logo is the mark, with accessible name “Yesterday in AI.” It is an endorsed publication of Ted Tschopp’s Public Workbench, not the AI skills catalog at AI.Tedt.org.
 
@@ -12,10 +12,10 @@ The checked-in `assets/css/tokens.css` and `assets/css/brand.css` originate in T
 - One orange accent: #BF4714 on paper, #E86027 on slate. No orange-filled cards, bands, or sections. Section tags use colored dots and labels.
 - Cal Sans 400 for headings, Inter for body text at 18px / 1.65, Fira Code for dates, numbers, counts, domains, and code. Headings are not bold; 600 marks labels.
 - Hairline dividers, a two-pixel strong rule over labeled sections, generous whitespace, no card shadows, restrained six-pixel radii. Stories are open editorial rows.
-- AP headline capitalization: capitalize the first word, proper nouns and acronyms, and the first word after a colon. Preserve names such as OpenAI, LiteLLM, arXiv, and MiniMax. Do not apply title case or automatic lowercasing. Headlines use no more than 12 words. No all-caps labels, emoji, gradients, glass, stock imagery, or redrawn logos.
+- Use [AP-style title case](title-capitalization.md) for all h1–h6, article/edition/page titles, topic names, and other title or header text, including labels used as headers. This project policy overrides sentence-case headline guidance in the design and writing skills. Preserve names such as OpenAI, LiteLLM, arXiv, and MiniMax. Review authored text; do not use CSS capitalization or blanket lowercasing. Headlines use no more than 12 words. No all-caps labels, emoji, gradients, glass, stock imagery, or redrawn logos.
 - A slate navbar in both themes; visible focus, 44px targets, underlined links, and reduced-motion support.
 
-## Hero art direction
+## Hero Art Direction
 
 Generate a **distinct conceptual editorial graphic** for each full article. Use a wide landscape composition, warm paper ground, slate forms, fine rules, deliberate negative space, and one restrained orange signal. Express the article’s specific mechanism: a bounded connection, separated credentials, a review gate, a ranked decision, a verifiable trail, or another concrete relationship grounded in the reporting. Avoid generic robot heads, glowing brains, science-fiction circuitry, or fabricated company marks.
 
@@ -27,7 +27,7 @@ Shared prompt foundation:
 
 Append the article-specific subject and composition. Save the exact combined prompt with the resulting asset’s metadata.
 
-## Reader components (version 2)
+## Reader Components (Version 2)
 
 The approved reader contract in docs/reader-contract.md controls levels of detail and supersedes older example-page content arrangements. The visual tokens and logos retain their identity.
 
@@ -40,6 +40,6 @@ The approved reader contract in docs/reader-contract.md controls levels of detai
 
 Use the same geometry, palette, and negative space for future heroes, choosing a specific mechanism rather than a repeated generic symbol. Comparisons can use paired fields; data/authority boundaries can use gates; decisions can use routes; evidence can use linked records. These are composition choices, not extra colors or fabricated statistical charts. Preserve existing article images.
 
-## Pinned fonts
+## Pinned Fonts
 
 The same Cal Sans, Inter, Fira Code, and Titillium Web faces are served from assets/fonts/ rather than depending on a changing remote stylesheet. The manifest records source URLs and SHA-256 hashes; OFL licenses accompany the Latin and extended-Latin subsets. Keep the names, weights, and metrics fixed during editorial runs.

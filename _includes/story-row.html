@@ -1,7 +1,7 @@
 {% assign story = include.article %}
 {% assign heading = include.heading | default: 'h3' %}
 <article class="story-row{% if include.featured %} story-featured{% endif %}" data-article-id="{{ story.article_id }}" data-section="{{ story.section | slugify }}">
-  <div class="story-meta"><span class="tag tag-{{ story.section | slugify }}">{{ story.section }}</span><span class="meta">{{ story.format | default: 'analysis' | capitalize }} · {{ story.content | reading_time }} min</span>{% if include.featured %}<span class="eyebrow">Lead story</span>{% endif %}</div>
+  <div class="story-meta"><span class="tag tag-{{ story.section | slugify }}">{{ story.section }}</span><span class="meta">{{ story.format | default: 'analysis' | capitalize }} · {{ story.content | reading_time }} min</span>{% if include.featured %}<span class="eyebrow">Lead Story</span>{% endif %}</div>
   <{{ heading }} class="story-title"><a href="{{ story.url }}">{{ story.title | escape }}</a></{{ heading }}>
   {% if story.hero %}<a class="story-thumbnail" href="{{ story.url }}" tabindex="-1" aria-hidden="true"><img src="{{ story.hero.path }}" alt="" width="{{ story.hero.width }}" height="{{ story.hero.height }}" loading="lazy"></a>{% endif %}
   <p class="story-summary">{{ story.summary | escape }}</p>

@@ -88,7 +88,7 @@ test('full-text results match the correct identity when metadata ordering change
   await page.goto('/search/?q=PubMed');
   await expect(page.locator('#search-status')).toHaveText('1 article matching “PubMed”');
   await expect(page.locator('#search-results a')).toHaveAttribute('href','/articles/citation-relevance-verification/');
-  await expect(page.locator('#search-results')).toContainText('A real citation');
+  await expect(page.locator('#search-results')).toContainText('A Real Citation');
   await expect(page.locator('#search-results')).toContainText('PubMed');
 });
 
@@ -134,7 +134,7 @@ test('a verified quiet-day fixture renders without inventing a lead',async ({pag
   await page.goto('http://127.0.0.1:4174/editions/2026-10-23/');
   await expect(page.locator('main')).toContainText('No distinct developments');
   await expect(page.locator('.story-row')).toHaveCount(0);
-  await expect(page.locator('h1')).toHaveText('A quieter morning');
+  await expect(page.locator('h1')).toHaveText('A Quieter Morning');
   await page.goto('http://127.0.0.1:4174/quiet-home/');
   await expect(page.locator('.story-row')).toHaveCount(0);
   await expect(page.locator('.tldr-panel')).toContainText('No distinct developments');

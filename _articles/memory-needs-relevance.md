@@ -1,7 +1,7 @@
 ---
 article_id: art_648d3adba52ea716
 story_key: https://arxiv.org/abs/2610.27524
-title: Agent memory needs a relevance test
+title: Agent Memory Needs a Relevance Test
 summary: MemDev-Bench examines memory across real repository histories. Its findings make applicability and preserved
   process information more useful design questions than the amount of material an agent remembers.
 section: Enterprise Ops
@@ -78,7 +78,7 @@ topics:
 - evaluation
 evidence_type: preprint
 reader_job: Assess whether retained experience still applies to the current repository and task.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - record-the-conditions-behind-the-lesson
 - test-helpful-and-unhelpful-histories
@@ -92,7 +92,7 @@ An old repair note may lead to the right file, or to a fix for a system that has
 
 The [MemDev-Bench preprint](https://arxiv.org/abs/2610.27524v1) builds controlled histories for coding tasks and examines how memory systems use them. The researchers find benefits in localization and editing, but also failures associated with reusing memories without reassessing their relevance. Their comparison with raw historical trajectories suggests that compressed memories can lose useful process information. Those findings are scoped to the benchmark and systems evaluated.
 
-## Record the conditions behind the lesson
+## Record the Conditions Behind the Lesson
 
 Retain the scope, source, repository state, and conditions that made a lesson useful. A past fix needs an applicability check before it becomes an instruction for current work.
 
@@ -100,7 +100,7 @@ Keep enough of the investigation to explain the result. A compact final lesson m
 
 Treat revision and retirement as ordinary memory operations. A later contradiction should give the system somewhere to record that the old lesson no longer applies.
 
-## Test helpful and unhelpful histories
+## Test Helpful and Unhelpful Histories
 {: #for-practitioners }
 
 Replay a small set of coding tasks with a relevant history, a stale history, an irrelevant history, and no memory. Use the same current repository and completion criteria.

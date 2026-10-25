@@ -1,7 +1,7 @@
 ---
 article_id: art_4c6292fc5ecba5f2
 story_key: https://mistral.ai/news/voxtral-3
-title: A voice agent needs to verify the action it heard
+title: A Voice Agent Needs to Verify the Action It Heard
 summary: Mistral’s Voxtral 3 combines speech models and a voice-agent SDK. The operating challenge is preserving
   intent, corrections, and authorization as a conversation becomes a business action.
 section: Vendors
@@ -67,7 +67,7 @@ topics:
 - governance
 evidence_type: vendor
 reader_job: Evaluate whether a voice conversation carries corrected intent into a verified, authorized result.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - preserve-the-corrected-request
 - give-confirmation-a-concrete-meaning
@@ -81,7 +81,7 @@ A caller corrects a reference number halfway through the conversation. The voice
 
 [Mistral’s Voxtral 3 announcement](https://mistral.ai/news/voxtral-3/) introduces speech models and a voice-agent SDK connecting listening, reasoning, tool use, and speech. The company describes transcription across more than 50 languages, multilingual speech generation, and deployment through its EU-hosted API or an organization’s own infrastructure. Its performance statements are vendor claims. They make the release relevant to an evaluation, rather than establishing production readiness for every contact center or service desk.
 
-## Preserve the corrected request
+## Preserve the Corrected Request
 
 Follow listening, interpretation, confirmation, tool use, and the reported result as one workflow. A correct transcript alone cannot establish that the tool received the person's current intent.
 
@@ -89,7 +89,7 @@ For a consequential step, define the details a confirmation binds and when a cor
 
 The claimed language coverage and hosting options create configuration choices to examine. Preserve the actual model, deployment path, and connected tools used in the evaluation. Vendor performance statements remain claims until the intended workflow supplies its own evidence.
 
-## Evaluate the whole conversation
+## Evaluate the Whole Conversation
 {: #for-practitioners }
 
 Use an approved task whose successful result can be observed. Include a corrected identifier, an interruption, an ambiguous request, and a tool failure. Check the actual arguments and resulting artifact, then compare the spoken confirmation with what happened.

@@ -1,7 +1,7 @@
 ---
 article_id: art_b984a5c544e63137
 story_key: https://www.minimax.io/blog/minimax-m31f
-title: MiniMax makes completed-task economics worth measuring again
+title: MiniMax Makes Completed-Task Economics Worth Measuring Again
 summary: MiniMax’s M3.1 Flash announcement pairs lower quoted prices with agent benchmarks. The useful enterprise
   comparison is the cost of an accepted outcome, including retries, review, and failures.
 section: Vendors
@@ -61,7 +61,7 @@ topics:
 - evaluation
 evidence_type: vendor
 reader_job: Assess a model-price change against the cost and quality of completed work.
-modified_at: '2026-10-25T03:42:17.530845Z'
+modified_at: '2026-10-25T05:04:24Z'
 legacy_anchors:
 - define-completion-before-counting-tokens
 - hold-the-workflow-steady
@@ -74,7 +74,7 @@ A lower token price is easy to recognize. A lower cost for finished work takes a
 
 In its [October 19 M3.1 Flash announcement](https://www.minimax.io/blog/minimax-m31f), MiniMax describes improvements in agent work, coding, computer use, and inference efficiency. The company quotes prices of $0.15 per million input tokens and $0.60 per million output tokens, with a lower cached-input rate, and says model weights will follow later. Its benchmark and relative-cost statements are vendor claims. They identify a candidate for evaluation rather than proving savings in a different company’s workflow.
 
-## Define completion before counting tokens
+## Define Completion Before Counting Tokens
 
 Choose the result somebody is willing to accept. Count unsuccessful and abandoned attempts as well as successful ones. Otherwise retries can disappear from the comparison while their costs remain in the service.
 
@@ -82,7 +82,7 @@ Record review, correction, tool calls, and failure handling alongside inference 
 
 Keep availability separate from performance. The announcement says weights will follow later; it does not establish that the promised weights were available at this edition's cutoff.
 
-## Hold the workflow steady
+## Hold the Workflow Steady
 {: #for-practitioners }
 
 Give the current configuration and M3.1 Flash the same reviewed examples, tools, task boundaries, and acceptance criteria. Record the exact model and configuration used.

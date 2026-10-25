@@ -16,12 +16,17 @@ class PreservationTests(unittest.TestCase):
         baseline = json.loads((ROOT / 'tests/fixtures/preservation-baseline.json').read_text())
         section_changes = json.loads((ROOT / 'tests/fixtures/section-migration.json').read_text())
         captions = json.loads((ROOT / 'tests/fixtures/caption-migration.json').read_text())
+        titles = json.loads((ROOT / 'tests/fixtures/title-case-migration.json').read_text())
         protected = ('article_id', 'story_key', 'title', 'summary', 'section', 'edition_date', 'published_at',
                      'retrospective', 'eligibility', 'sources', 'hero', 'feed_name', 'feed_summary', 'rating')
         for slug, record in baseline['articles'].items():
             current, body = read_document(ROOT / f'_articles/{slug}.md')
             for key in protected:
                 expected = record['metadata'].get(key)
+                if key == 'title' and slug in titles:
+                    self.assertEqual(expected, titles[slug]['from'])
+                    self.assertEqual(expected.casefold(), titles[slug]['to'].casefold())
+                    expected = titles[slug]['to']
                 if key == 'section' and slug in section_changes:
                     self.assertEqual(expected, section_changes[slug]['from'])
                     expected = section_changes[slug]['to']
