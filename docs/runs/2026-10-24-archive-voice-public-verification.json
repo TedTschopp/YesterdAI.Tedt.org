@@ -1,0 +1,148 @@
+{
+  "content_commit": "a62d8f3e9095e79f5fb8cfcd8ab3a4d1771fdbcc",
+  "verified_at": "2026-10-25T00:20:37.196546Z",
+  "public_urls_checked": 51,
+  "articles_checked": 23,
+  "hero_assets_matching_original_sha256": 23,
+  "feed_ids_and_publication_dates_preserved": true,
+  "articles": [
+    {
+      "article": "agent-harness-state",
+      "url": "https://yesterdai.tedt.org/articles/agent-harness-state/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "ai-recommendation-bias",
+      "url": "https://yesterdai.tedt.org/articles/ai-recommendation-bias/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "authorization-agent-boundaries",
+      "url": "https://yesterdai.tedt.org/articles/authorization-agent-boundaries/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "calibrated-disposition-drift",
+      "url": "https://yesterdai.tedt.org/articles/calibrated-disposition-drift/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "citation-relevance-verification",
+      "url": "https://yesterdai.tedt.org/articles/citation-relevance-verification/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "context-sensitive-model-boundaries",
+      "url": "https://yesterdai.tedt.org/articles/context-sensitive-model-boundaries/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "cost-aware-ticket-routing",
+      "url": "https://yesterdai.tedt.org/articles/cost-aware-ticket-routing/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "hidden-instructions-public-pages",
+      "url": "https://yesterdai.tedt.org/articles/hidden-instructions-public-pages/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "kapitsa-local-inference-operations",
+      "url": "https://yesterdai.tedt.org/articles/kapitsa-local-inference-operations/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "litellm-release-authority",
+      "url": "https://yesterdai.tedt.org/articles/litellm-release-authority/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "llm-proxy-visibility",
+      "url": "https://yesterdai.tedt.org/articles/llm-proxy-visibility/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "materials-structure-ml",
+      "url": "https://yesterdai.tedt.org/articles/materials-structure-ml/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "memory-needs-relevance",
+      "url": "https://yesterdai.tedt.org/articles/memory-needs-relevance/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "mercury-diffusion-serving",
+      "url": "https://yesterdai.tedt.org/articles/mercury-diffusion-serving/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "meta-terms-data-governance",
+      "url": "https://yesterdai.tedt.org/articles/meta-terms-data-governance/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "minimax-flash-task-economics",
+      "url": "https://yesterdai.tedt.org/articles/minimax-flash-task-economics/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "multiagent-review-tradeoffs",
+      "url": "https://yesterdai.tedt.org/articles/multiagent-review-tradeoffs/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "pew-task-level-adoption",
+      "url": "https://yesterdai.tedt.org/articles/pew-task-level-adoption/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "prompt-judge-evaluation",
+      "url": "https://yesterdai.tedt.org/articles/prompt-judge-evaluation/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "recoverable-agent-changes",
+      "url": "https://yesterdai.tedt.org/articles/recoverable-agent-changes/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "scope-executable-policy",
+      "url": "https://yesterdai.tedt.org/articles/scope-executable-policy/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "typed-decisions",
+      "url": "https://yesterdai.tedt.org/articles/typed-decisions/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    },
+    {
+      "article": "voxtral-voice-workflow",
+      "url": "https://yesterdai.tedt.org/articles/voxtral-voice-workflow/",
+      "live_prose_matches_build": true,
+      "original_title_dates_citations_and_hero_preserved": true
+    }
+  ]
+}

@@ -1,9 +1,12 @@
 ---
-state: ready
+state: complete
 requested_on: '2026-10-24'
 writing_style: ted-writing-style
 writing_style_version: '1.0.0'
 base_commit: 181d9c53fdcc01532f29f787a2282517fbe6655a
+content_commit: a62d8f3e9095e79f5fb8cfcd8ab3a4d1771fdbcc
+public_verified_at: '2026-10-25T00:20:37.196546Z'
+deployment_run_url: https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40146220696
 ---
 
 # October 24 Archive Voice Revision
@@ -31,7 +34,7 @@ The companion [preservation record](2026-10-24-archive-voice-preservation.json) 
 - Every revised body remains within 800–1,200 words.
 - All changes are confined to articles and the editorial run record.
 
-A first local build selected the system Ruby instead of the project's runtime and stopped before publication. Selecting the installed rbenv shims resolved it; the required build and site checks then passed. Publication uses the guarded editorial ship path and GitHub Actions. Public verification is recorded after deployment.
+A first local build selected the system Ruby instead of the project's runtime and stopped before publication. Selecting the installed rbenv shims resolved it; the required build and site checks then passed. Publication used the guarded editorial ship path and GitHub Actions. Deployment and public verification passed, as recorded below.
 
 ## Article Word Counts
 
@@ -59,3 +62,11 @@ A first local build selected the system Ruby instead of the project's runtime an
 | scope-executable-policy | 807 | 889 |
 | typed-decisions | 820 | 892 |
 | voxtral-voice-workflow | 807 | 922 |
+
+## Published Verification
+
+Content commit `a62d8f3e9095e79f5fb8cfcd8ab3a4d1771fdbcc` passed both build and deployment in [GitHub Actions run 40146220696](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40146220696). Public checks completed at 2026-10-25T00:20:37.196546Z.
+
+All 51 checked public HTTPS URLs passed: 23 article pages, 23 original hero assets, the homepage, archive, JSON Feed, RSS, and sitemap. Every live article body matches the revised local build. Titles, canonical URLs, section anchors, inline citation targets, publication/modification dates, publication bylines, and hero paths match the expected original values. Every hero response matches its original SHA-256. JSON Feed item IDs, summaries, titles, images, and publication dates are preserved, with 23 items in both publication feeds.
+
+The [public verification record](2026-10-24-archive-voice-public-verification.json) records the checked article URLs and content revision. The final audit update is published through the same guarded workflow. All 23 articles now carry the Ted writing-style provenance; the original Kapitsa article remains unchanged.
