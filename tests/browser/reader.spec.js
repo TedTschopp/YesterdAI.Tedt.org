@@ -92,7 +92,7 @@ test('bookmark filters, history, empty states and reduced-search fallback work',
   await page.goto('/search/?topic=security&tag=evaluation');
   await expect(page.locator('[data-filter="security"]')).toHaveAttribute('aria-pressed','true');
   await expect(page.getByLabel('Subject')).toHaveValue('evaluation');
-  await page.getByLabel('Search articles').fill('a-word-that-has-no-matching-story');
+  await page.getByLabel('Search articles').fill('zzyqvnotfound991');
   await expect(page.locator('#search-empty')).toBeVisible();
   await page.getByRole('link',{name:'clear the search'}).click();
   await expect(page.locator('#search-status')).toContainText('articles');
