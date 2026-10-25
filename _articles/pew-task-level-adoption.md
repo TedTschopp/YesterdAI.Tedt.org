@@ -4,7 +4,7 @@ story_key: https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-
 title: General chatbot use does not establish adoption for a task
 summary: Pew’s election-information survey distinguishes broad chatbot use from use for one particular purpose.
   Enterprise adoption measures should make the same distinction between access, activity, and useful outcomes.
-section: Policy
+section: Enterprise Ops
 edition_date: '2026-10-24'
 published_at: '2026-10-24T22:46:52.144917Z'
 retrospective: true

@@ -41,7 +41,9 @@ try {
         cls:lhr.audits['cumulative-layout-shift'].numericValue,
         tbt_ms:lhr.audits['total-blocking-time'].numericValue,
         score:lhr.categories.performance.score,
-        warnings:lhr.runWarnings
+        warnings:lhr.runWarnings,
+        lcp_diagnostics:lhr.audits['lcp-breakdown-insight']?.details,
+        request_diagnostics:lhr.audits['network-dependency-tree-insight']?.details
       });
     }
     const result={route,runs,lcp_ms:median(runs.map(r=>r.lcp_ms)),cls:median(runs.map(r=>r.cls)),tbt_ms:median(runs.map(r=>r.tbt_ms))};

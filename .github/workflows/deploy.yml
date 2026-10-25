@@ -54,6 +54,7 @@ jobs:
       - name: Verify reader jobs, accessibility, and responsive behavior
         run: npx playwright test tests/browser/reader.spec.js
       - name: Measure candidate mobile performance
+        id: performance
         if: github.event_name == 'pull_request'
         run: node scripts/performance.mjs --local
       - uses: actions/upload-artifact@v4
@@ -63,6 +64,7 @@ jobs:
           path: test-results/performance.json
           if-no-files-found: ignore
       - name: Compare approved visual baselines
+        if: success() || (failure() && steps.performance.outcome == 'failure')
         shell: bash
         run: |
           set -euo pipefail

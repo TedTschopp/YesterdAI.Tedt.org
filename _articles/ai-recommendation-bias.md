@@ -4,7 +4,7 @@ story_key: https://arxiv.org/abs/2610.29785
 title: An AI recommendation still needs an independent business case
 summary: Research traces how training and question wording affect AI-related recommendations. Mentioning AI more
   often does not prove better or worse advice; it does make evaluation of the recommendation process important.
-section: Policy
+section: Enterprise Ops
 edition_date: '2026-10-22'
 published_at: '2026-10-24T22:46:52.108068Z'
 retrospective: true

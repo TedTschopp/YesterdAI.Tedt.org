@@ -1,0 +1,12 @@
+{
+  "pew-task-level-adoption": {
+    "from": "Policy",
+    "to": "Enterprise Ops",
+    "reason": "Task-specific adoption research concerns operating and measuring AI, without a rule or regulatory obligation."
+  },
+  "ai-recommendation-bias": {
+    "from": "Policy",
+    "to": "Enterprise Ops",
+    "reason": "Commercial recommendation bias concerns evaluating AI-assisted work, without a rule or regulatory obligation."
+  }
+}
