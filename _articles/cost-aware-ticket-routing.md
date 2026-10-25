@@ -64,17 +64,19 @@ feed_summary: 'arXiv:2610.31657v1 Announce Type: new Abstract: Wrong automatic r
   framework, not a new abstention algorithm or universal deployment certification.'
 feed_title: Cost-Aware Abstention for LLM-Based IT Ticket Classification
 rating: ''
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-An automated support workflow does not have to choose a route for every ticket. It can recognize when a human decision is the more useful next step. That option changes how the system should be evaluated.
+A ticket has to reach somebody who can help. An automated system can choose the destination, or it can recognize that a person needs to decide. Put both paths on the drawing before choosing the classifier. The useful outcome is work arriving where it belongs, including the cases where a human decision is the next step.
 
 A [cost-aware ticket-classification preprint](https://arxiv.org/abs/2610.31657v1) tests frozen routing policies on a public eight-class support-ticket corpus. Under an illustrative cost model, the authors report a 38.1% relative cost reduction for a thresholded logistic-regression configuration, alongside fewer wrong routes. They also find substantial limitations in the prompted LLM configurations tested. The paper explicitly limits its findings to the dataset, endpoints, prompts, and assumed costs; it is not a universal deployment certificate.
 
-The enterprise opportunity is to make the route-or-review decision measurable before deciding which model should sit inside it.
+Follow the route-or-review decision through the service and make its consequences measurable. Once you can explain those paths, the choice of model has a clearer job to do. It needs to help choose a useful next step under the costs and constraints of the queue that will receive the work.
 
 ## Put the alternatives in the cost model
 
-The organization needs a defensible account of what happens after a correct route, a wrong route, and a deferral. The relevant costs may include handling time, delay, reassignment, and the effort needed to recover a misclassified case. State which quantities have been measured and which are assumptions.
+Walk a ticket down each possible path: a correct route, a wrong route, and a deferral. Who handles it, how long does it wait, and who puts it back on course if it reaches the wrong team? Include handling time, delay, reassignment, and recovery effort. Write the measurements and assumptions beside those steps so the person using the cost model can tell them apart.
 
 Use several plausible cost conditions when uncertainty is material. A policy that looks attractive only when wrong routes are assumed to be inexpensive may not fit a queue where those errors create substantial disruption. Report the dependency instead of hiding it inside a single average.
 
@@ -90,7 +92,7 @@ Do not copy the threshold from a published study into a different workflow merel
 
 ## Check whether confidence separates errors
 
-A confidence score is useful for selective routing when it helps distinguish correct from incorrect predictions. A score that is numerically well behaved but nearly identical across cases may offer little basis for choosing which tickets to automate.
+Ask the confidence score to help make the actual choice. Does it separate predictions that are correct from those that are wrong? A tidy-looking score that stays nearly the same across cases may give you little help deciding which tickets to route automatically. The number needs to earn its place at the branch between routing and review.
 
 Evaluate the relationship between confidence, coverage, and error rate. As the system routes fewer tickets automatically, does the accepted set become meaningfully more reliable? Inspect ties and groups of cases with similar scores rather than relying only on a global calibration summary.
 
@@ -112,4 +114,4 @@ Start with one queue whose categories and downstream owners are clear. Run the p
 
 Specify what information a deferred ticket carries to the human reviewer. A useful handoff can preserve the evidence and uncertainty that caused deferral, helping the reviewer reach a decision without reconstructing the entire interaction.
 
-The key result is a service that sends the right work down the right path at an acceptable operating cost. Sometimes that will be an automatic route. Sometimes the best-supported decision is to ask a person. A model evaluation becomes more useful when it is allowed to recognize both.
+Return to the ticket and the person waiting for help. Did the service send the work down a useful path at an acceptable operating cost? Sometimes the answer will be an automatic route. Sometimes the evidence will support asking a person to decide. Give the evaluation room to recognize both, and follow the work far enough to establish that somebody can finish it.

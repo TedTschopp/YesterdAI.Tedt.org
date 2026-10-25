@@ -56,13 +56,15 @@ feed_summary: 'arXiv:2610.29785v1 Announce Type: cross Abstract: Asked what to s
   what models learn afterward, together with how a question is phrased, decides how strongly it appears.'
 feed_title: Where Do LLMs Learn to Recommend AI? [ ~ ] [ ◻ ]
 rating: Optional
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-A model can help generate options without providing an independent reason to choose its favorite. That distinction matters when AI assistants participate in product planning, career exploration, or proposals for organizational change.
+Suppose a planning brief begins by asking how to add AI. The conversation has already chosen a class of solution before it has established the problem. An assistant can help generate options for a product, a career, or an organizational change. The reasons for choosing among those options still need a reference outside the model’s favorite answer.
 
 A [preprint on AI-related recommendations](https://arxiv.org/abs/2610.29785v1) examines how training and question wording affect whether models suggest AI or machine-learning options. The researchers report differences between pretrained and released instruction-tuned systems, and changes associated with training data and framing. The measured frequency is not a direct score of whether the advice is appropriate. Some problems genuinely call for an AI component.
 
-The enterprise implication is to make the decision criteria visible before a familiar class of solution becomes the default answer to an underspecified problem.
+Put the decision criteria on the table before asking for the recommendation. What should improve for the person doing the work, and what evidence would show it? Those criteria give the team a way to examine a familiar answer instead of letting familiarity fill the gaps in an underspecified problem.
 
 ## State the problem without naming the implementation
 
@@ -70,7 +72,7 @@ A planning brief should describe the user, the work, the current constraint, and
 
 Ask reviewers to identify which requirements are essential and which are preferences. A proposal can then explain how it satisfies the requirements and where uncertainty remains. This makes it easier to recognize a sophisticated solution to a problem the organization did not actually need to solve.
 
-The exercise is useful even when the final choice includes AI. A clear statement of the problem gives the team a reference for deciding what the model should do, what the surrounding application must do, and which parts of the work still require another method.
+Keep the problem statement even if the eventual choice includes AI. You can use it to divide the work: what belongs to the model, what the surrounding application must provide, and what still needs another method. That division turns a broad recommendation into something the people building and operating the service can examine.
 
 ## Compare recommendations with the same rubric
 
@@ -90,7 +92,7 @@ Preserve the tested prompts and outputs with the evaluation record. That allows 
 
 ## Ask what would change the recommendation
 
-A useful proposal should identify the assumptions on which it depends. Ask what new evidence would cause the recommendation to change, what a pilot needs to establish, and which failure would make the option unsuitable. These questions turn a confident narrative into something the organization can test.
+Ask the proposal to show the conditions holding it up. What new evidence would change the recommendation? What must the pilot establish? Which failure would make the option unsuitable? Answering those questions gives the people approving the work something they can test later. The argument remains useful even when the confidence of its original presentation has faded.
 
 Keep operational requirements in the discussion. A proposed AI capability needs an owner, a source of appropriate inputs, an evaluation method, and a support path. The recommendation should account for those responsibilities rather than treating them as details somebody else will resolve after approval.
 
@@ -102,4 +104,4 @@ Require the proposal to state what evidence would favor a simpler alternative. T
 
 A small starting point is to revisit one recent proposal. Remove the implementation name from the problem statement, ask for several plausible approaches, and evaluate them with the original requirements in view. Compare the result with the initial recommendation and investigate any material difference.
 
-The goal is a more useful decision process, not a rule against AI-related recommendations. An assistant can help expose options and assumptions when the organization retains an independent account of what makes a proposal worthwhile. That account should remain recognizable even if the model’s favorite answer changes.
+Keep an independent account of what makes the proposal worthwhile. The assistant can help expose options and assumptions, including good reasons to choose AI, while the team keeps responsibility for the judgment. Return to that account when the preferred answer changes. If you can still explain what would improve the work and how you would know, the conversation has given you something useful to decide with.

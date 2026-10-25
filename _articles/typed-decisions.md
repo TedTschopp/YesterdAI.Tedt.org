@@ -59,17 +59,19 @@ feed_summary: Researchers present a typed decision approach that computes probab
 feed_title: Researchers develop an in-house System 1 judge using LoRA adapters to triage coding sessions at 1% of
   frontier LLM cost and evaluate open LoRA models on JevBench with competitive accuracy [ ~ ] [ ◼ ]
 rating: Optional
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-Some enterprise AI work asks for an explanation, a draft, or a plan. Other work asks a narrower question: which of these defined options applies to this evidence? Generating prose and then parsing it is only one way to answer that question.
+Sometimes the next step needs an explanation, a draft, or a plan. Sometimes it needs a selection from a set of defined options. If the answer has to fit that small interface, why ask for a paragraph and then build another component to interpret it? That question puts the shape of the answer beside the choice of model.
 
 A [preprint on typed decisions](https://arxiv.org/abs/2610.29052v1) examines fixed-option outputs derived in one forward pass. The authors describe an internal coding-session triage use and experiments with adapted open models. They report substantial cost differences in their setting while also exposing limitations in small public benchmarks and sensitivity to the training corpus. Those details matter: an inexpensive internal configuration is evidence for a local experiment, not a universal cost or accuracy guarantee.
 
-The practical opportunity is to identify decisions whose output contract is already narrow enough to support a simpler interface.
+Look for a repeated decision where the receiving system already knows the possible answers. The opportunity begins with that existing contract. If the labels are understood and the boundary is clear, the team can ask whether a simpler interface would deliver the decision with less surrounding work.
 
 ## Start with a stable question
 
-The team needs to know what the options mean before optimizing how a model selects among them. Define each label in terms that a reviewer can apply, and identify where two options overlap or none applies. Ambiguity in the labeling task will not disappear when the output becomes faster.
+Put the labels in front of the people who will review the results. Can they apply each label consistently? Where do options overlap, and what happens when none fits? Settle those questions before optimizing the selection step. A faster output still carries the ambiguity of the labeling task into the system that receives it.
 
 Choose examples with reviewed outcomes and preserve the reasoning behind disputed labels. Include the cases that people find difficult, not just the clean examples used to introduce the task. A narrow interface needs a clear policy for ambiguity because it gives the model fewer ways to explain an uncertain situation.
 
@@ -93,7 +95,7 @@ Run the comparison across the groups of inputs that matter operationally. A conf
 
 ## Make confidence support an action
 
-A confidence value is useful when the application knows what decision to make from it. Evaluate whether the score separates correct from incorrect decisions and whether any threshold remains useful on held-out examples. A small probability distribution is still a measurement that needs validation.
+Follow a confidence value to the action it is meant to support. Does the score help separate correct decisions from incorrect ones? Does a proposed threshold still help on held-out examples? A small probability distribution can be a convenient output, but the people setting the threshold still need evidence that the measurement helps them choose what to do next.
 
 Define what happens to deferred cases and measure the resulting human workload. A lower model-serving cost may be attractive even with a conservative review path, provided the review queue remains supportable. Conversely, a cheap classifier that floods the queue with unclear cases may offer little practical improvement.
 
@@ -105,4 +107,4 @@ Inspect errors by option as well as overall accuracy. A frequent class can domin
 
 Choose a fixed-option step that runs frequently and already has an accountable reviewer. Test the current workflow, a suitable simple baseline, and the proposed typed path on the same held-out records. Include the cost of handling errors and deferrals in the result.
 
-The research is interesting because it makes the interface itself part of the efficiency discussion. An enterprise does not need to make every model call produce a miniature essay. It needs a trustworthy answer in a form the next step can use, with enough evidence and operating support to handle the cases where the answer is uncertain.
+Bring the interface back into the efficiency discussion. What does the next step need to receive, and what evidence does its operator need when the answer is uncertain? A well-defined selection can be a useful answer in its own right. Give that answer a clear meaning and a supported path for the cases it cannot settle. Then measure whether the simpler exchange helps the work.

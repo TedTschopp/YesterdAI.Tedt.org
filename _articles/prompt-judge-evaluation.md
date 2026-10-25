@@ -62,13 +62,15 @@ feed_summary: Researchers studied how equipping language models with external to
 feed_title: Researchers find tool-augmented language models increase accuracy but also widen prompt sensitivity
   in model comparisons across multiple domains and wordings [ ~ ] [ ◻ ]
 rating: Optional
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-A model comparison is also a comparison of the conditions under which the models were asked to work. Change the wording, interface, or judge and a neat ranking may become less stable than the scorecard suggests.
+A scorecard can put the model names in order while leaving the conditions of the contest off the page. Change the wording, interface, or judge and that order may become less stable. To use the comparison for a real decision, keep the conditions attached to the scores. They are part of what was measured.
 
 One [new study of tool-augmented comparisons](https://arxiv.org/abs/2610.31148v1) examines six open models across five domains and five wordings. It finds settings where tools improve accuracy while making pairwise comparisons more sensitive to wording. A [second study of multilingual LLM judges](https://arxiv.org/abs/2610.31172v1) reports that prompting effects depend on the judge, task, and language, with some effects reversing across configurations.
 
-Neither paper establishes that evaluation is futile. Together they support a more precise operating habit: keep the configuration attached to the result and test whether the decision survives reasonable variations.
+Neither paper establishes that evaluation is futile. They give you a practical question to put beside a result: would the decision survive reasonable variations in how the same work is presented and judged? Keep the configuration with the score so you can test that question instead of asking a model name to explain the whole result.
 
 ## Preserve the comparison contract
 
@@ -76,7 +78,7 @@ Record the task set, input representation, tool interface, prompt, model identif
 
 Keep changes to that contract visible. If one candidate requires a different prompt or tool description, evaluate and label the resulting configuration rather than presenting the result as a property of the model in isolation. The difference may be entirely reasonable, but it belongs in the record.
 
-This makes later comparisons less ambiguous. A team can distinguish a model change from a better prompt, a different judge interpretation, or a repaired integration. Without that distinction, a score can move while the organization remains unsure what it has learned.
+When the score moves later, return to that record. Did the model change, did the prompt improve, did the judge interpret the answer differently, or was an integration repaired? Each possibility can teach the team something useful. Keeping the changes distinguishable gives the movement an explanation the next person can investigate.
 
 ## Test reasonable alternative wordings
 
@@ -96,7 +98,7 @@ Use matched cases where possible. Compare a result supplied directly with the sa
 
 ## Validate the judge in the intended setting
 
-A judging prompt that works acceptably on one task or language may behave differently elsewhere. Review a sample against trusted judgments from people qualified to assess the work. Examine disagreements in the languages and categories the application actually serves.
+Take the judge into the setting where its decisions will be used. A prompt that works acceptably on a task or language may behave differently elsewhere. Ask people qualified to assess the work to review a sample, then examine the disagreements in the languages and categories the application actually serves. That gives the judging process a local reference.
 
 Keep subgroup results available when they affect an operating decision. A favorable aggregate can conceal a reversal or a weak category. Where sample sizes are small, label the uncertainty rather than treating every observed difference as a settled ranking.
 
@@ -108,4 +110,4 @@ Set aside a small decision set that is not used to select prompts or tune the ju
 
 A useful scorecard can include the central result, its important variation, and the conditions under which the team would revisit the choice. It does not need to compress every question into one winner. Some applications may justify a bounded pilot or different configurations for different kinds of work.
 
-Start with one comparison that currently drives a real decision. Preserve its configuration, introduce a few equivalent wordings, and review meaningful disagreements with the judge. The exercise turns prompt sensitivity from an abstract caveat into evidence about how confidently the organization can rely on its own evaluation.
+Choose a comparison that currently drives a real decision. Keep its configuration, try a few equivalent wordings, and review meaningful disagreements with the judge. Then put the scorecard back in front of the decision maker, with the conditions and variation visible. You can explain how much weight the ranking deserves and which questions still need work before a choice is made.

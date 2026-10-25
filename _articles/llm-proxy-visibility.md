@@ -52,13 +52,15 @@ feed_summary: The article argues that without operating a personal large languag
 feed_title: Discussion on the importance of running your own LLM proxy to monitor and understand large language
   model operations [ ~ ] [ ◻ ]
 rating: Optional
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-A model dashboard can show that tokens were consumed without explaining the work that consumed them. That difference becomes important when several applications, agents, and teams share providers and credentials.
+A bill can tell you that tokens were consumed. Try using it to explain why a particular person received the wrong answer. Once applications, agents, and teams share providers and credentials, the total at the bottom of the page leaves a great deal of the working story untold. A model dashboard can have the same limitation.
 
 In a [practitioner’s argument for operating an LLM proxy](https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/), the useful part is the operational inventory: a controlled endpoint, records of which key called which model, virtual credentials, and the ability to change a provider without rebuilding every client. The author describes a personal and work practice, rather than presenting a controlled comparison or a universal product recommendation.
 
-Our reading is that the buying question should begin with observability and responsibility. Running a proxy is one possible implementation. Being able to explain the path of a request is the requirement worth making explicit.
+Start the buying conversation with the story you need to reconstruct. Who asked, which application acted, where did the request go, and who can investigate the answer? A proxy is one possible way to keep that story connected. Being able to explain the path of the request is the requirement. Decide what evidence and responsibility it needs before deciding which extra component to run.
 
 ## Start with one request
 
@@ -66,7 +68,7 @@ Pick a real application and follow a request from the person or process initiati
 
 This exercise is more revealing than asking whether a platform supports a telemetry standard. A supported export does not establish that the relevant identifiers are present, that clocks and request IDs can be reconciled, or that the team responsible for an incident can access the records. Those are implementation questions to test directly.
 
-Keep the scope concrete. A small traceability check can expose a shared credential used by unrelated workloads, an unexplained routing change, or a retry pattern that an aggregate chart hides. It can also show that an existing managed gateway already meets the requirement, avoiding a new component with no clear operational benefit.
+Follow the small trace all the way through. You may find unrelated workloads sharing a credential, a routing change nobody can explain, or retries hidden inside an aggregate chart. You may also find that an existing managed gateway already gives the team what it needs. That is a useful result too: the requirement has been met without creating another component for somebody to support.
 
 ## Separate identity from convenience
 
@@ -86,10 +88,10 @@ Test deletion and access as part of the pilot. A useful log should support an ac
 
 ## Give the gateway an owner
 
-An extra hop becomes an operational dependency. Somebody must manage configuration, availability, credentials, changes, and support. The business case should include those responsibilities alongside any flexibility or visibility gained. A gateway that nobody can repair is a fragile place to centralize an important capability.
+Now ask who answers when the extra hop stops working. The gateway needs people who can manage its configuration, availability, credentials, changes, and support. Include that work in the business case alongside the visibility and flexibility it offers. Centralizing the traffic can make a system easier to understand, but the person investigating a failure still needs somebody who can repair the place where the traffic meets.
 
 Evaluate it with ordinary failure scenarios: a provider becomes unavailable, a model name changes, a credential is revoked, or a client sends an unexpected request. Decide what the caller should see and what the operator should be able to establish afterward. Avoid silently treating a fallback model as the same service unless the application has accepted that behavior.
 
 Include the handoff between application support and platform operations in that exercise. Give each team the same failed request identifier and ask them to reconstruct what happened independently. Differences between their accounts reveal gaps in ownership as well as telemetry. Resolve those gaps before expanding the gateway to more workloads; adding more clients will make an ambiguous support boundary harder to investigate.
 
-The next step is a traceability review, not an automatic self-hosting project. Ask one team to explain one representative request and one failure from end to end. Where the explanation breaks, define the missing evidence and its owner. Then choose the smallest operating change that makes the work understandable.
+Before turning the discussion into a self-hosting project, ask a team to explain a representative request and a failure from end to end. Where the explanation breaks, name the missing evidence and the person responsible for it. Choose the smallest operating change that closes that gap. The useful gateway is the one that lets the person holding the failed request understand what happened next.

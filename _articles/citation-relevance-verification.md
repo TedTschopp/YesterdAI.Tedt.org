@@ -63,13 +63,15 @@ feed_summary: 'arXiv:2610.29812v1 Announce Type: cross Abstract: Literature-sear
   for scientific agents. We release code, prompts, and all cached tool calls at https://github.com/saqlain2204/real-pmids-wrong-papers.'
 feed_title: 'Real PMIDs, Wrong Papers: Harness Design for Biomedical Claim-Verification Agents [ ~ ] [ ◼ ]'
 rating: Optional
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-A reference that opens successfully creates a strong impression of grounded work. It establishes that a resource exists. Whether the resource supports the sentence beside it is another question.
+Open the reference beside a confident sentence and ask where the evidence is. The link may work perfectly. The paper may be real. You still need to find the part that supports the sentence you were asked to believe. That small step between opening a source and checking its meaning is where a citation becomes useful evidence.
 
 A [preprint on biomedical claim-verification agents](https://arxiv.org/abs/2610.29812v1) studies that distinction using a controlled task and PubMed retrieval. The authors report that closed-book models often supplied identifiers for real papers while those papers rarely supported the claims being checked. Their experiments also separate retrieval limitations from the performance possible when relevant abstracts are supplied. The study is narrow and some comparisons are not statistically resolved at its sample size.
 
-The operating lesson applies to evidence workflows more broadly: citation checks should examine the connection between the claim, the retrieved passage, and the conclusion drawn from it.
+Follow the connection all the way through: a claim, a retrieved passage, and the conclusion someone draws from that passage. Each step has a job. A citation check becomes more useful when the reviewer can see whether the evidence actually carries the meaning that the answer assigns to it.
 
 ## Define what the reference must establish
 
@@ -77,7 +79,7 @@ Before scoring a response, identify the claims that require support and the kind
 
 Those distinctions should be part of the evaluation rubric. Ask whether the cited material is relevant, whether it supports the strength of the statement, and whether important conditions or limitations survived the summary. A working URL is a useful preliminary check, but it cannot answer those questions.
 
-Keep the unit of review small enough to inspect. A response containing many references can make it difficult to tell which one is supposed to support which statement. Connecting specific claims to specific passages gives a human reviewer a more manageable task.
+Give the reviewer a claim and the passage meant to support it. A page full of references can leave that connection for the reader to reconstruct. Keeping the unit small makes the work more manageable: locate the evidence, read it in context, and decide whether it supports this particular statement. The bibliography can grow after those connections are clear.
 
 ## Separate search from interpretation
 
@@ -91,7 +93,7 @@ The paper’s controlled design is useful precisely because it exposes that sepa
 
 Source relevance includes time and context. An accurate citation to the wrong version of a procedure can still mislead a user making a current decision. Retain the document identifier, version or retrieval date where available, and the passage used to support the claim.
 
-When the underlying material changes, define whether the answer should refer to the current rule or reconstruct the rule applicable at an earlier date. Those are different requests. An assistant should not quietly switch between them because a search result happens to favor the newest document.
+When the source changes, decide which question the user is asking. Do they need the current rule, or the rule that applied at an earlier date? The newest search result may be useful for the first request and unsuitable for the second. Keep that choice visible so the reviewer can follow the answer back to the version that actually supports it.
 
 This is particularly important for a retrospective analysis. The preparation date of an answer does not establish when the evidence became available. The evaluation should make later information visible instead of allowing it to improve an earlier decision invisibly.
 
@@ -109,4 +111,4 @@ Add a control case containing a genuine source that discusses the topic but does
 
 Choose a sample of consequential answers from an existing retrieval application. For each supported statement, ask a reviewer to open the source, locate the evidence, and judge whether the wording preserves its scope. Record link validity, relevance, and support as separate findings.
 
-Use the disagreements to improve the retrieval and response process, then retain the cases for future evaluations. This is a practical quality check for evidence handling, not a medical recommendation or a universal finding about scientific assistants. The dependable habit is simple: follow the link far enough to establish what it actually proves.
+Keep the disagreements and use them to improve retrieval and response, with cases you can return to in later evaluations. This is a practical quality check for evidence handling, not a medical recommendation or a universal finding about scientific assistants. When you next open the reference beside a confident sentence, stay with it long enough to locate what the sentence is asking it to prove.

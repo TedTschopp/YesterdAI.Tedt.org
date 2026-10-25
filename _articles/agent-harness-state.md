@@ -63,13 +63,15 @@ feed_summary: 'arXiv:2610.26632v1 Announce Type: new Abstract: Agent harnesses d
   not separate a growing advantage from a constant one.'
 feed_title: 'When the harness decides success: state that cannot be re-observed [ ~ ] [ ◻ ]'
 rating: Optional
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-Long-running agents depend on decisions made outside the model: which turns remain in context, what gets summarized, and which observations can be retrieved again. Those choices can determine whether the agent still possesses the evidence needed to finish.
+Pass a task to a colleague and you have to decide what to put in the handoff. A long-running agent faces a similar problem when its surrounding software keeps some turns, summarizes others, and decides which observations can be retrieved again. The model may still be ready to work. The evidence it needs may already have been left out of the handoff.
 
 A [preprint on agent harnesses and state](https://arxiv.org/abs/2610.26632v1) distinguishes cases where a missing fact can be looked up again from cases where it cannot. Its experiments show substantial differences under those conditions and examine how summaries and replay affect a small set of benchmark runs. The authors explicitly limit parts of their analysis to narrow configurations and counted runs. The findings support a design question, not a universal ranking of harnesses.
 
-For enterprise work, that question is straightforward: what information will be gone when the next step needs it?
+Look ahead to the next decision in the work. What information will it require, and which part of that information could be gone by then? Asking that question gives a context-management policy a concrete job: carry the evidence that the next step cannot safely reconstruct for itself.
 
 ## Inventory the state a task depends on
 
@@ -77,7 +79,7 @@ Some information is stable and retrievable, such as a versioned reference docume
 
 Choose a representative task and identify the facts required for its later decisions. Record where each fact comes from, whether it can be obtained again, and whether a later retrieval would return the same version. This gives the harness designer a more useful requirement than a general instruction to keep important context.
 
-Pay attention to evidence of authority as well as evidence about the task. A statement that a user approved a particular action should preserve the action’s scope and the conditions attached to it. A summary that remembers approval but loses the condition has not preserved the decision adequately.
+Read an approval as carefully as any other task fact. What action did the user approve, within what scope, and under which conditions? Those details belong together in the retained record. A summary that carries the word approved into the next step while dropping its condition hands over a different decision from the one the user actually made.
 
 ## Test the moment information is compressed
 
@@ -89,7 +91,7 @@ Inspect the retained state directly. A correct final answer in a small test does
 
 ## Preserve the record at the appropriate level
 
-A compact state record can be useful when it retains task facts and links to their sources. Its fields should reflect the application’s decisions rather than the model’s prose preferences. A case identifier, accepted constraint, source version, or unresolved question may deserve an explicit place.
+Write the handoff around the decisions the application has to make. A case identifier, an accepted constraint, a source version, or an unresolved question may need an explicit place, with a link back to the evidence. A compact record can do useful work here. Judge it by whether the next step can find and use those facts, rather than by how polished its summary sounds.
 
 Do not assume that a more elaborate summary is always better. Additional prose can obscure the distinction between an observed fact, a proposed step, and an action that actually completed. The state representation should make those categories easy for the next component and a human reviewer to distinguish.
 
@@ -103,4 +105,4 @@ Use the same task set to compare the existing policy with a proposed state-prese
 
 Re-observation deserves its own validity check. A record retrieved later may have changed since the original decision, even when the identifier is the same. Preserve a source version or an observation time where that distinction matters, and define when the agent must obtain fresh confirmation. Recovering a current value and recovering the value that justified an earlier action are separate needs. A state policy should specify which one the next step requires.
 
-The practical next step is to identify one fact that a long-running agent must carry across a context boundary. Give it a durable representation and test the workflow when the original observation is no longer available. That exercise connects memory policy to the actual work. It also gives a failure somewhere more precise to go than the familiar conclusion that the model forgot.
+Choose a fact the agent must carry across a context boundary. Give it a durable place in the record, then test the next step with the original observation unavailable. Can the system still make the decision for the right reason? Keep that case as a check on the handoff. When it fails, you can investigate what was lost and where, with a more useful starting point than saying the model forgot.

@@ -66,13 +66,15 @@ feed_summary: 'arXiv:2610.27465v1 Announce Type: new Abstract: Agent platforms a
 feed_title: 'Recoverability and Verifier Strength: Two Measured Preconditions for Unattended Agent Self-Improvement
   [ ~ ] [ ◼ ]'
 rating: Optional
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-An agent that can propose, approve, and deploy its own change creates an appealing loop. It also creates a measurement problem: what establishes that the approving component can recognize a bad change, and what happens when it approves one anyway?
+An undo button makes a promise about the way back. Before letting an agent propose, approve, and deploy its own changes, ask it to demonstrate that promise. Can the approving component recognize a bad change? If it approves one anyway, what exactly can the operator restore? Those questions give the appealing improvement loop a practical boundary.
 
 A [preprint on recoverability and verifier strength](https://arxiv.org/abs/2610.27465v1) proposes measuring both properties before unattended improvement. In its experiments, some judge configurations produced effectively uninformative scores without reporting an error. Restoring a saved version recovered prior behavior more reliably than asking the system to generate an undo. These are results from the authors’ platform and controlled tests, not a certification rule for every deployment.
 
-The enterprise application is practical. Treat the verifier and the recovery path as capabilities that need evidence, rather than as reassuring boxes drawn around an autonomous loop.
+Draw the verifier and the recovery path on the diagram, then give each a job it has to demonstrate. The verifier must recognize the changes you expect it to reject. The recovery path must return the system to an understood state. Evidence of those jobs matters more than the reassurance the boxes lend to the diagram.
 
 ## Give the verifier a known challenge
 
@@ -84,7 +86,7 @@ Keep the approval criteria tied to the behavior being changed. A verifier that i
 
 ## Preserve the exact artifact
 
-Recovery should start with the version that actually ran before the change. Retain its prompt, configuration, code, relevant dependency identifiers, and other artifacts needed to restore the operating setup. A verbal description of the previous behavior is a weak substitute for a versioned object.
+Start the way back with the version that actually ran. Keep its prompt, configuration, code, relevant dependency identifiers, and the other artifacts required to restore the operating setup. Someone responding to a failure needs that specific object. A description of how the previous version behaved leaves them with another reconstruction problem at the moment they need a dependable restore.
 
 Test the restore procedure under conditions close enough to reveal missing dependencies. A saved prompt is not sufficient if a tool contract or configuration changed alongside it. Define which components belong to the recoverable unit and verify that the unit can be restored together.
 
@@ -104,7 +106,7 @@ Define which classes of changes the loop may make, what evidence it must preserv
 
 Keep the reference evaluation and approval rules under a separate change process. The improving agent can supply evidence and propose revisions, but the operating record should make it clear when the rules themselves changed. Otherwise a better reported result may simply mean a more permissive gate.
 
-Limits also need an owner. Somebody must receive a failed verification, an unsuccessful restore, or an ambiguous outcome. An unattended loop is still part of an organization’s operating process, including its exceptions and support arrangements.
+Put a name beside the limits. Who receives a failed verification, an unsuccessful restore, or an outcome the system cannot explain? The work may run unattended, but its exceptions still arrive somewhere in the organization. Give the person receiving them enough evidence and authority to decide what happens next, along with a support path they can actually use.
 
 Time the restore exercise and verify the restored service, including its dependencies. Possessing a previous file is useful; demonstrating that it returns the workflow to an understood state is stronger evidence.
 
@@ -112,4 +114,4 @@ Time the restore exercise and verify the restored service, including its depende
 
 Before enabling unattended changes, introduce a deliberately unsuitable change in an isolated environment. Verify that the gate rejects it. Then exercise the restore path and inspect the records that would identify affected work. Use the result to decide whether the proposed scope is supportable.
 
-This does not require eliminating every uncertainty before a pilot. It requires knowing which uncertainty the pilot is accepting. A measured verifier, a preserved prior artifact, and an exercised recovery procedure give an autonomous improvement loop a more concrete operating boundary than the assumption that another model will catch the problem.
+A pilot can carry uncertainty if the people responsible can name what they are accepting. Put a measured verifier, the preserved prior artifact, and an exercised recovery procedure beside that decision. Then ask the person operating the loop to show the way back. The promise behind the undo button becomes useful when the team has demonstrated what it restores and what still needs attention.

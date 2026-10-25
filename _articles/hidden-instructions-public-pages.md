@@ -54,13 +54,15 @@ feed_summary: WhatsApp's help pages contained hidden instructions for AI chatbot
 feed_title: WhatsApp's hidden AI instructions told chatbots not to recommend data protection regulators or cite
   privacy laws when users mentioned lawyers [ * ] [ ◼ ]
 rating: Important
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-A page that an assistant retrieves is not necessarily written only to inform it. The page may also contain language designed to influence what the assistant says or does. A trusted brand on the page does not resolve that distinction.
+When an assistant opens a help page, what has it been given: information about the product, or instructions about how to behave? It can receive both in the same page. A trusted brand tells you whose material you are reading. You still have to decide which parts may inform the answer and which parts are trying to direct the work.
 
 [Redact’s investigation of WhatsApp help pages](https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions) reports hidden instructions in material delivered to AI readers. Its dated update records WhatsApp’s explanation that notes intended for its support chatbot had appeared because of a bug and had been removed. The dispute concerns the origin and purpose of those notes; the operational issue is broader. Retrieval can bring another party’s behavioral directions into an assistant’s context alongside ordinary reference material.
 
-Our analysis is that enterprise retrieval needs an explicit evidence boundary. Information from a source can help answer a question without gaining authority to redefine the task.
+Think of a reference book beside a work order. The book can explain how a product works; the work order says what you have been asked to do. A paragraph in the book does not become a new work order just because it sounds authoritative. Enterprise retrieval needs that distinction to remain visible when both arrive as text.
 
 ## Review the input the assistant receives
 
@@ -68,7 +70,7 @@ A screenshot is not a complete record of a retrieval operation. A tool might ext
 
 Choose a representative support or policy task and preserve that representation. Compare it with the user-visible page, then identify which differences are expected and which could affect the answer. This is a concrete test of the retrieval pipeline, rather than an assumption that the model saw what a human reviewer saw.
 
-The inspection should include provenance. The assistant needs to retain enough information to connect a passage with its source and retrieval time. If a response mixes text from several locations into an unlabeled block, it becomes harder to determine where an instruction entered and harder to correct an inaccurate answer afterward.
+Trace a passage back to the page and the time it was retrieved. That connection gives a reviewer somewhere to begin when an answer goes wrong. Mix passages from several locations into an unlabeled block and you lose the starting points. The team then has to work out where an instruction entered before it can decide how to correct the answer.
 
 ## Authority is a separate property
 
@@ -88,10 +90,10 @@ These are suggested evaluation methods, not a claim that this particular investi
 
 ## Make correction practical
 
-When an input is found to contain inappropriate directions, a team should be able to identify affected source versions and rerun representative cases. That requires a record of what was retrieved and which version of the assistant used it. Without those records, changing the prompt may improve the next answer while leaving the earlier impact unknown.
+Suppose a reviewer finds directions that should never have governed the answer. Which source versions contained them, and which version of the assistant used those sources? Keep the retrieval record so the team can identify the affected work and rerun representative cases. A prompt change may help the next answer. The people responsible for earlier answers also need a way to learn what those answers were based on.
 
 Keep the human review focused on the decision the assistant is supporting. For a customer-support application, that means the answer, the evidence provided, and the available escalation path. For an operational agent, it also means the actions attempted and the authority under which they were attempted.
 
 Keep an approved reference answer for the test, including what the assistant must disclose and when it should ask the user for direction. Have a reviewer assess the clean and altered cases without being told which is which. This makes selective omission easier to notice and gives the team a repeatable example to retain after a fix. The exercise should remain isolated from real customer accounts and actual outbound actions.
 
-The immediate step is to inspect a real retrieved payload and test one conflicting instruction. A source can be valuable, current, and authoritative about its own product while still lacking authority over your assistant. Building that distinction into the workflow is more dependable than asking the model to infer it afresh on every page.
+Open a real retrieved payload and test a conflicting instruction in an isolated case. Keep the source’s useful information, and check whether its attempt to redirect the assistant stays on the evidence side of the boundary. A source can be current, valuable, and authoritative about its own product without acquiring authority over the task. Keep the reference book beside the work order, with the distinction intact.

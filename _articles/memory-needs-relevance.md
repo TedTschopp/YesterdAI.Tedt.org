@@ -65,13 +65,15 @@ feed_summary: 'arXiv:2610.27524v1 Announce Type: new Abstract: Code agents incre
 feed_title: 'MemDev-Bench: Does Memory Help Code Agents?Benchmarking Memory Systems over Real Repository Histories
   [ ~ ] [ ◻ ]'
 rating: Optional
+writing_style: ted-writing-style
+writing_style_version: '1.0.0'
 ---
 
-An old solution can help an agent find the right file. It can also encourage the agent to repeat an approach that no longer fits the repository. Retaining more experience does not settle which effect will dominate.
+An old repair note can point you toward the right file. It can also send you back to a fix for a system that has since changed. An agent’s memory has the same question attached to it: what makes this old answer useful here? Keeping more experience gives the system more to draw on. It still has to decide which experience belongs to the present task.
 
 The [MemDev-Bench preprint](https://arxiv.org/abs/2610.27524v1) builds controlled histories for coding tasks and examines how memory systems use them. The researchers find benefits in localization and editing, but also failures associated with reusing memories without reassessing their relevance. Their comparison with raw historical trajectories suggests that compressed memories can lose useful process information. Those findings are scoped to the benchmark and systems evaluated.
 
-For an enterprise maintaining repositories over time, the useful design goal is memory that can justify its applicability to the current task.
+For a repository that changes over time, ask the memory to carry its reason for being relevant. The agent should have a way to connect the old problem with the current one, inspect what has changed, and explain why the lesson still applies. That is the job worth designing around.
 
 ## Record the conditions behind the lesson
 
@@ -79,7 +81,7 @@ A reusable note should identify the problem it addressed, the repository or comp
 
 Imagine a note saying that a particular validation step is unnecessary. If it omits the temporary environment limitation that motivated the choice, a later agent may treat it as a lasting rule. A better record preserves the reason, the relevant version, and the condition that should cause the advice to be reconsidered.
 
-This does not require turning every observation into a large specification. It requires keeping enough of the decision with the conclusion that a future user can tell whether the lesson belongs in the present situation. A short qualified note can be more useful than a long confident one.
+Write the note for the next person who finds it without the original conversation. What do they need to know to decide whether this lesson belongs here? Keep that part of the decision with the conclusion. The record can stay short. Its usefulness comes from the conditions it preserves, rather than the confidence with which it repeats an old answer.
 
 ## Test helpful and unhelpful histories
 
@@ -91,7 +93,7 @@ The preprint provides a reason to separate these categories rather than promotin
 
 ## Preserve process where it matters
 
-A final lesson often compresses a sequence of investigation into a sentence. That may retain the conclusion while discarding how the conclusion was reached: which alternatives were ruled out, which command exposed the issue, or which apparently promising change failed.
+Look at what was squeezed out when an investigation became a lesson. Which alternatives were ruled out? Which command exposed the issue? Which promising change failed? A sentence can preserve the conclusion while dropping the route that made it convincing. The next task may need that route to recognize whether it has reached the same problem.
 
 Keep a route back to the underlying work for decisions that need that context. A compact memory can point to a commit, a test result, or a task record instead of trying to restate every detail. The agent then has evidence to inspect when a superficial match is not enough.
 
@@ -111,4 +113,4 @@ A useful memory record can also preserve an unsuccessful approach and the condit
 
 Choose a recently completed task and reconstruct the repository state in which it began. Run a bounded comparison with the current memory policy, a deliberately relevant history, and an unrelated one. Preserve the steps and the resulting change so the team can investigate disagreements.
 
-The purpose is to learn whether memory is helping the work in the way the organization expects. A successful system should reuse useful experience while remaining willing to discover that an old answer no longer applies. That willingness needs evidence in the evaluation, not merely an encouraging sentence in the prompt.
+Watch what the agent does when the repair note no longer fits. Can it use the old experience to find its way, then change direction when the current repository gives it a reason? Keep evidence of that decision in the evaluation. The useful memory is the one that helps the next investigation move forward, including the moment when the old answer has to be put aside.
