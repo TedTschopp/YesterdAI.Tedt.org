@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
+import { once } from 'node:events';
 import lighthouse from 'lighthouse';
 import { chromium } from '@playwright/test';
 
@@ -53,6 +54,9 @@ try {
   console.log(JSON.stringify(report,null,2));
   if (!report.passed) process.exitCode=1;
 } finally {
-  chrome.kill();server?.kill();
-  await fs.rm(temporary,{recursive:true,force:true});
+  const exits = [chrome,server].filter(child=>child && child.exitCode===null).map(child=>{
+    const exited=once(child,'exit');child.kill();return exited;
+  });
+  await Promise.allSettled(exits);
+  await fs.rm(temporary,{recursive:true,force:true,maxRetries:5,retryDelay:100});
 }

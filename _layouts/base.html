@@ -36,13 +36,10 @@
   <meta data-pagefind-filter="section[content]" content="{{ page.section | slugify }}">
   {% for tag in page.topics %}<meta data-pagefind-filter="tag[content]" content="{{ tag }}">{% endfor %}
   {% endif %}
-  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-  <link rel="stylesheet" href="/assets/css/fonts.css">
+  {% include theme-init.html %}
   <link rel="preload" href="/assets/fonts/cal-sans-normal-latin-cc7be70f8ec4.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/inter-normal-latin-dd8a4575be98.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="{{ '/assets/css/tokens.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/brand.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/publication.css' | relative_url }}">
   <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
 </head>
 <body id="top" data-page-job="{{ page.collection | default: page.job | default: 'read' }}">
