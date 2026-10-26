@@ -1,0 +1,2184 @@
+{
+  "edition_date": "2026-10-26",
+  "checked_at": "2026-10-26T12:08:51.029733Z",
+  "base_commit": "0ad11477b0c49ac96ef6ec8648618db7fc52d495",
+  "reader_contract_version": "2.0.3",
+  "metadata_contract": 2,
+  "headline_override": "The current automation/user instruction requires AP sentence style for new publication headlines and supersedes the fetched title-case policy for this editorial run only. No policy or historical content changed.",
+  "cutoff": "2026-10-26T05:00:00-07:00",
+  "window_start": "2026-10-25T00:00:00Z",
+  "feed_success_at": "2026-10-26T12:03:46.013762Z",
+  "feed_counts": {
+    "curated": 228,
+    "top": 80
+  },
+  "feed_importer_exclusions": {
+    "curated": [
+      {
+        "id": "2e6b008d7907924a9c4c56743403e3af",
+        "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+      }
+    ],
+    "top": []
+  },
+  "provisional_feed_dated_candidates": 85,
+  "dispositions": {
+    "excluded_original_or_latest_update_outside_window": 81,
+    "excluded_no_eligible_date": 1,
+    "selected_brief": 2,
+    "excluded_source_inaccessible": 1
+  },
+  "older_feed_records_not_advanced": 223,
+  "older_feed_records_note": "Remaining curated discovery records have earlier feed selection days and were not advanced as new window candidates; their original dates are not represented as independently verified by this run.",
+  "article_target": [
+    3,
+    5
+  ],
+  "complete_articles": 2,
+  "shortfall": 1,
+  "shortfall_reason": "All 85 provisional window candidates were checked at their original URLs. Only two distinct original practitioner essays had verified eligible timestamps and supportable reader jobs. No date window expansion, repackaging, story splitting or Quick Hit substitution.",
+  "articles": [
+    {
+      "slug": "model-price-cuts-cache-accounting",
+      "article_id": "art_240888442444abd5",
+      "title": "Model price cuts make cache accounting matter",
+      "format": "brief",
+      "words": 290,
+      "published_at": "2026-10-26T12:08:51.029733Z",
+      "url": "https://yesterdai.tedt.org/articles/model-price-cuts-cache-accounting/",
+      "hero": "omitted: focused brief chosen before drafting; no generation attempted"
+    },
+    {
+      "slug": "rao-ai-adoption-unserved-work",
+      "article_id": "art_11f803bdf2d21098",
+      "title": "Rao’s AI essay asks who gets to discover useful work",
+      "format": "brief",
+      "words": 302,
+      "published_at": "2026-10-26T12:08:51.029733Z",
+      "url": "https://yesterdai.tedt.org/articles/rao-ai-adoption-unserved-work/",
+      "hero": "omitted: focused brief chosen before drafting; no generation attempted"
+    }
+  ],
+  "dedup_review": {
+    "prior_edition_dates": [
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25"
+    ],
+    "prior_articles": [
+      {
+        "article_id": "art_b7505ce4183649e7",
+        "story_key": "https://arxiv.org/abs/2610.26632",
+        "title": "An Agent Harness Can Discard the Fact That Matters"
+      },
+      {
+        "article_id": "art_38ce8d74651308c9",
+        "story_key": "https://arxiv.org/abs/2610.29785",
+        "title": "An AI Recommendation Still Needs an Independent Business Case"
+      },
+      {
+        "article_id": "art_51ebab1d094c7d60",
+        "story_key": "https://arxiv.org/abs/2610.27548",
+        "title": "Task Completion Needs an Independent Authorization Check"
+      },
+      {
+        "article_id": "art_2790d5e5427b4862",
+        "story_key": "https://arxiv.org/abs/2610.25735",
+        "title": "Safety Drift Needs a Measuring Instrument You Can Trust"
+      },
+      {
+        "article_id": "art_fc116d0cc59c1c4e",
+        "story_key": "https://arxiv.org/abs/2610.31193",
+        "title": "Catalog Fields Need Different Checks for Evidence"
+      },
+      {
+        "article_id": "art_1353be402f8662ba",
+        "story_key": "https://arxiv.org/abs/2610.29812",
+        "title": "A Real Citation Can Still Support the Wrong Claim"
+      },
+      {
+        "article_id": "art_43a5a6eafd6c005a",
+        "story_key": "https://arxiv.org/abs/2610.30751",
+        "title": "Model Boundaries Need Tests That Vary the Context"
+      },
+      {
+        "article_id": "art_acf94d966a173a22",
+        "story_key": "https://arxiv.org/abs/2610.31657",
+        "title": "The Best Ticket-Routing Decision May Be to Defer"
+      },
+      {
+        "article_id": "art_d26f3b9150349619",
+        "story_key": "https://www.infoq.com/news/2026/10/data-agent-kit-ga",
+        "title": "Google’s Agent Controls Separate Guidance From Enforcement"
+      },
+      {
+        "article_id": "art_55c3c0be518a12ff",
+        "story_key": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+        "title": "Retrieved Pages Need an Evidence Boundary"
+      },
+      {
+        "article_id": "art_51c071c2515ec8fe",
+        "story_key": "https://github.com/nace-ai/kapitsa",
+        "title": "Kapitsa Brings the Control Room Onto Your Mac"
+      },
+      {
+        "article_id": "art_552b4e59bc6342ea",
+        "story_key": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+        "title": "LiteLLM’s Incident Connects Credentials to Release Authority"
+      },
+      {
+        "article_id": "art_313154ba192d9eb5",
+        "story_key": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on",
+        "title": "Your AI Gateway Should Make the Work Observable"
+      },
+      {
+        "article_id": "art_648d3adba52ea716",
+        "story_key": "https://arxiv.org/abs/2610.27524",
+        "title": "Agent Memory Needs a Relevance Test"
+      },
+      {
+        "article_id": "art_614a0336a7737e51",
+        "story_key": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+        "title": "Mercury 3 Puts Generation Speed Inside a Larger Workflow"
+      },
+      {
+        "article_id": "art_b984a5c544e63137",
+        "story_key": "https://www.minimax.io/blog/minimax-m31f",
+        "title": "MiniMax Makes Completed-Task Economics Worth Measuring Again"
+      },
+      {
+        "article_id": "art_80b14f6a6fd391a6",
+        "story_key": "https://arxiv.org/abs/2610.27488",
+        "title": "More Reviewing Agents Can Mean More False Alarms"
+      },
+      {
+        "article_id": "art_2a3e85161b6aae3f",
+        "story_key": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information",
+        "title": "General Chatbot Use Does Not Establish Adoption for a Task"
+      },
+      {
+        "article_id": "art_1edb80b635d46123",
+        "story_key": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable",
+        "title": "PHP’s Old Flaws Put New Pressure on Remediation"
+      },
+      {
+        "article_id": "art_4714611be4537b33",
+        "story_key": "https://arxiv.org/abs/2610.31148",
+        "title": "Evaluation Scores Need Their Prompts and Judges Attached"
+      },
+      {
+        "article_id": "art_825130cf8cb2d52f",
+        "story_key": "https://arxiv.org/abs/2610.27465",
+        "title": "Unattended Agent Changes Need a Real Way Back"
+      },
+      {
+        "article_id": "art_26bdab7224d77ff2",
+        "story_key": "https://arxiv.org/abs/2610.31062",
+        "title": "Compound Policies Need Inspectable Decisions"
+      },
+      {
+        "article_id": "art_178c37e603121edb",
+        "story_key": "https://arxiv.org/abs/2610.29052",
+        "title": "Some AI Decisions Do Not Need a Paragraph"
+      },
+      {
+        "article_id": "art_4c6292fc5ecba5f2",
+        "story_key": "https://mistral.ai/news/voxtral-3",
+        "title": "A Voice Agent Needs to Verify the Action It Heard"
+      }
+    ],
+    "selected_duplicates": 0,
+    "quick_hits_checked": true
+  },
+  "candidates": [
+    {
+      "feed": "curated",
+      "index": 0,
+      "url": "https://x.com/hwchase17/status/2114041443836903662",
+      "feed_id": "4dac4cebf1ff613ff27a3e8a67727266",
+      "meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-24T17:08:51.000Z"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": null,
+      "visible_dates": [
+        "in 136.8K followers 5:08 PM · Oct 24, 2026 · 81.1K Views 84 120 939 1.9K"
+      ],
+      "source_html_sha256": "8cb6bd07e8f7def2290a82b1eba5e6a7c761dc51a866c9924ad3a714e385e12e",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "curated",
+      "index": 1,
+      "url": "https://x.com/NVIDIARobotics/status/2113407332747293131",
+      "feed_id": "44bd8a2f19607594482b964298d79cff",
+      "meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-22T23:09:07.000Z"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": null,
+      "visible_dates": [
+        "(1/7) 00:00 11:09 PM · Oct 22, 2026 · 92.8K Views 43 233 1.3K 584"
+      ],
+      "source_html_sha256": "133f9217f68503457780ed26c7d1ed505346b2571e7e69aeb96aadc708355afa",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "curated",
+      "index": 2,
+      "url": "https://openai.com/index/forward-deployed-engineering-means/",
+      "feed_id": "ca097be20d76a9ec22d4f7caa484e1ec",
+      "meta": [],
+      "jsonld": [],
+      "submission_history": null,
+      "visible_dates": [
+        "October 22, 2026 AI Adoption What FDE means at"
+      ],
+      "source_html_sha256": "de27b1e89a5dd5032074c8728b18c19b9cddb047a3b08d4133b2a3ca2c026c44",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "curated",
+      "index": 3,
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "feed_id": "3264ea3e0f79be081e5fe20574269ccd",
+      "meta": [],
+      "jsonld": [
+        {
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem"
+                },
+                {
+                  "@type": "ListItem"
+                },
+                {
+                  "@type": "ListItem"
+                }
+              ]
+            },
+            {
+              "@type": "Article",
+              "headline": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+              "author": {
+                "@type": "Organization",
+                "name": "Kimi",
+                "url": "https://www.kimi.ai/"
+              },
+              "dateModified": "2026-10-24",
+              "mainEntityOfPage": {
+                "@type": "WebPage"
+              }
+            }
+          ]
+        }
+      ],
+      "submission_history": null,
+      "visible_dates": [],
+      "source_html_sha256": "cbe3ea3b17cab8c46b44fa7a231c8325db5a28b20735c2893fc8bfebb8e8f842",
+      "disposition": "excluded_no_eligible_date",
+      "reason": "Original publisher Article JSON-LD has dateModified 2026-10-24 without datePublished or timezone. No verified original publication or substantive update inside window. Feed midnight is not evidence."
+    },
+    {
+      "feed": "curated",
+      "index": 4,
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "feed_id": "d94f16a2d00af8ba9c1ca7c362ee7c2a",
+      "meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-22T00:00:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-23T20:56:14.000Z"
+        }
+      ],
+      "jsonld": [
+        {
+          "@type": "Article",
+          "headline": "LLMs are making formal software verification feasible at a much larger scale",
+          "datePublished": "2026-10-22T00:00:00.000Z",
+          "dateModified": "2026-10-23T20:56:14.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com"
+          }
+        }
+      ],
+      "submission_history": null,
+      "visible_dates": [],
+      "source_html_sha256": "93f8f8f42e05fd34079b1a4188f137903fadb01de5e58e45407636b9f8e04d2f",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 0,
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "feed_id": "sty_f0c2d6bcb7c78c05",
+      "meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-25T14:00:00-07:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-25T14:00:00-07:00"
+        }
+      ],
+      "jsonld": [
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem"
+            },
+            {
+              "@type": "ListItem"
+            }
+          ]
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "datePublished": "2026-10-25T14:00:00-07:00",
+          "dateModified": "2026-10-25T14:00:00-07:00",
+          "mainEntityOfPage": {
+            "@type": "WebPage"
+          }
+        }
+      ],
+      "submission_history": null,
+      "visible_dates": [],
+      "source_html_sha256": "d4dfa55cad0f352daf7c3c4c8ff211aec26322abde7abc1f6e06174216a717e2",
+      "disposition": "selected_brief",
+      "reason": "Original practitioner commentary has verified publication inside window; no duplicate development in seven prior editions."
+    },
+    {
+      "feed": "top",
+      "index": 1,
+      "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+      "feed_id": "sty_e0c22f56168ffccf",
+      "meta": [
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-25T19:20:40.417Z"
+        }
+      ],
+      "jsonld": [
+        {
+          "@type": "NewsArticle",
+          "headline": "Cognitive Mercantilism",
+          "datePublished": "2026-10-25T19:19:09+00:00",
+          "dateModified": "2026-10-25T19:19:09+00:00",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Venkatesh Rao",
+              "url": "https://substack.com/@contraptions",
+              "description": "Delving. Writing the Contraptions newsletter. Contributor to Protocolized Previously: ribbonfarm.com More: venkateshrao.com",
+              "identifier": "user:2264734",
+              "image": {
+                "@type": "ImageObject",
+                "contentUrl": "https://substackcdn.com/image/fetch/$s_!MJ9A!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F562e590a-9494-4f66-87f0-330c1be204c2_500x500.jpeg",
+                "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!MJ9A!,w_128,h_128,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F562e590a-9494-4f66-87f0-330c1be204c2_500x500.jpeg"
+              }
+            }
+          ],
+          "image": [
+            {
+              "@type": "ImageObject"
+            }
+          ],
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter"
+            },
+            {
+              "@type": "InteractionCounter"
+            },
+            {
+              "@type": "InteractionCounter"
+            }
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem"
+            },
+            {
+              "@type": "ListItem"
+            }
+          ]
+        }
+      ],
+      "submission_history": null,
+      "visible_dates": [
+        "arly capitalism Venkatesh Rao Oct 25, 2026 152 2 27 Share I’ve been read"
+      ],
+      "source_html_sha256": "1e9bf9c85172bdc7212012211559131c5d17045d6794d4b8bd0a3872ce7a5b2d",
+      "disposition": "selected_brief",
+      "reason": "Original practitioner commentary has verified publication inside window; no duplicate development in seven prior editions."
+    },
+    {
+      "feed": "top",
+      "index": 2,
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "feed_id": "sty_bbce3b62ee9bd548",
+      "meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-22T04:26:39.000Z"
+        },
+        {
+          "property": "article:modified_time"
+        }
+      ],
+      "jsonld": [
+        [
+          {
+            "@type": "WebSite"
+          },
+          {
+            "@type": "NewsArticle",
+            "headline": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Simon Sharwood",
+                "jobTitle": "APAC Editor",
+                "url": "https://www.theregister.com/author/simon-sharwood",
+                "image": {
+                  "@type": "ImageObject",
+                  "url": "https://image.theregister.com/?imageId=5299461&width=250",
+                  "width": 250,
+                  "height": 168
+                },
+                "email": "simon.sharwood@theregister.com"
+              }
+            ],
+            "datePublished": "2026-10-22T04:26:39.000Z",
+            "inLanguage": [
+              {
+                "@type": "Language"
+              }
+            ],
+            "image": [
+              {
+                "@type": "ImageObject"
+              }
+            ]
+          }
+        ]
+      ],
+      "submission_history": null,
+      "visible_dates": [],
+      "source_html_sha256": "acc660f79f2540f287d68f0cc4f7878854332aa52132fbf837ac6f49ce06ffc9",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 3,
+      "url": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
+      "feed_id": "sty_557c35445f54bce7",
+      "error": "HTTP Error 403: Forbidden",
+      "disposition": "excluded_source_inaccessible",
+      "reason": "Original Economist URL returned HTTP 403. URL suggests October 22, but no verified substantive update inside window was obtained; no claims published."
+    },
+    {
+      "feed": "top",
+      "index": 4,
+      "url": "https://arxiv.org/abs/2512.19428",
+      "feed_id": "sty_0338b6c06d456001",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2025/12/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2025/12/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Chong Zhang [ view email ] [v1] Mon, 22 Dec 2025 14:29:18 UTC (16 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "72958bdf2f46b5740232e503ef87f8c04dc36e72feeabfd75d70202075353f55",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 5,
+      "url": "https://arxiv.org/abs/2610.32181",
+      "feed_id": "sty_bd2a1a87b7c34ef3",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Seunghan Lee [ view email ] [v1] Fri, 23 Oct 2026 05:27:44 UTC (413 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "e35265b93025ecadc558a61486691b44d99d57313b3af6c00c128e3839efbb4f",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 6,
+      "url": "https://arxiv.org/abs/2610.32196",
+      "feed_id": "sty_bf12cd9dede03c53",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Victor Shea-Jay Huang [ view email ] [v1] Fri, 23 Oct 2026 05:47:59 UTC (1,841 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "4c8aecdf883f9f95d3d3958564bafb096be0dfe57bf78fef5754661ded325d18",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 7,
+      "url": "https://arxiv.org/abs/2610.32305",
+      "feed_id": "sty_6e2f159eb5f97c7d",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Shan Peng [ view email ] [v1] Fri, 23 Oct 2026 08:04:10 UTC (1,397 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "4fdf20343b4578281e7fd8063a43ca50dc59069fb2ad1cb6a9da84827b2452c6",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 8,
+      "url": "https://arxiv.org/abs/2610.31945",
+      "feed_id": "sty_348ac965552b8758",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Jonas Knupp [ view email ] [v1] Thu, 22 Oct 2026 21:45:10 UTC (3,039 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "69cefc5a9f34db11b6af70b7bbd08b53aa47ba1ce018abb1bcb486e4368811f5",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 9,
+      "url": "https://arxiv.org/abs/2610.32113",
+      "feed_id": "sty_8d56d2a5ba802646",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Hanwen Zhang [ view email ] [v1] Fri, 23 Oct 2026 03:28:34 UTC (155 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "66930943b730b8e99fea659f0eec177eadb248bc057aedd0e5dc52844d444479",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 10,
+      "url": "https://arxiv.org/abs/2610.32114",
+      "feed_id": "sty_e7672eefd861fec9",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Soroush Ebadian [ view email ] [v1] Fri, 23 Oct 2026 03:32:38 UTC (2,023 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "a915e667dabbd3b32dc7aa359f10ea75a0443dfbabfd9c8f4a0ff83a359eac24",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 11,
+      "url": "https://arxiv.org/abs/2610.32213",
+      "feed_id": "sty_386977334eaba79e",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Seiya Tokui [ view email ] [v1] Fri, 23 Oct 2026 06:08:34 UTC (1,089 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "afd3d508f360f1a57a411c56ec4cec2bc32cb651cbfc3fd26c913ecc11e5ed5b",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 12,
+      "url": "https://arxiv.org/abs/2610.32443",
+      "feed_id": "sty_52824a31305c5853",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Haijiang Liu [ view email ] [v1] Fri, 23 Oct 2026 10:07:35 UTC (696 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "da94c417e8f04758e961eb04a4e5dbd0aedc43bfdd73e72506bb26dd3a6efc9e",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 13,
+      "url": "https://arxiv.org/abs/2610.32515",
+      "feed_id": "sty_c580796d8d331459",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Sarah Sulollari [ view email ] [v1] Fri, 23 Oct 2026 11:38:35 UTC (676 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "42ecae5d3d07fcac7a35751749e01f6887bfbd6635e6a3772f527df72016c5b4",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 14,
+      "url": "https://arxiv.org/abs/2610.32770",
+      "feed_id": "sty_c8967be27c23fa05",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Leon Sick [ view email ] [v1] Fri, 23 Oct 2026 15:12:03 UTC (152 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "d92804644258006dd5f9896be734865289088233702ebc3c9b872a447ecefc44",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 15,
+      "url": "https://arxiv.org/abs/2610.32801",
+      "feed_id": "sty_4f25bd32d59d637d",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: M. Harper Langston [ view email ] [v1] Fri, 23 Oct 2026 15:40:23 UTC (1,177 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "db3b169661adbb861573a7b5405992fb3764df14f87e6788e89f016c05c80b6e",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 16,
+      "url": "https://arxiv.org/abs/2610.32866",
+      "feed_id": "sty_564cdf6a5a015f24",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Marek Masiak [ view email ] [v1] Fri, 23 Oct 2026 16:37:29 UTC (149 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "d600104a1d0ec9c33e1b5319350668b0e9e355344fa5f85469b3c5cc9b60b389",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 17,
+      "url": "https://arxiv.org/abs/2606.20625",
+      "feed_id": "sty_8488b9019c1a3f5e",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/05/26"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Fengxiang He [ view email ] [v1] Tue, 26 May 2026 15:48:09 UTC (340 KB) [v2] Thu, 22 Oct 2026 18:14:45 UTC (361 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "9166ddf6bbff18494d2df510b008797dbb6a731edc43000323723fb4408f6a56",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 18,
+      "url": "https://arxiv.org/abs/2608.20961",
+      "feed_id": "sty_e395953ce63d96bb",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/08/21"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Sneha Murthy Ghantasala [ view email ] [v1] Fri, 21 Aug 2026 10:31:15 UTC (65 KB) [v2] Thu, 22 Oct 2026 18:32:01 UTC (57 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "a10db27e73048a06cbd040a87df25516ad6f740c0bc2e286c05e12623fcfa902",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 19,
+      "url": "https://arxiv.org/abs/2610.25931",
+      "feed_id": "sty_cc35399b79bc02e0",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/19"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Dastin Huang [ view email ] [v1] Mon, 19 Oct 2026 07:29:21 UTC (83 KB) [v2] Fri, 23 Oct 2026 07:11:56 UTC (84 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "f6f422f7ca564802c5858825751dc9d081171797657974dfd0d2c31dc1cdcb1e",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 20,
+      "url": "https://arxiv.org/abs/2610.30678",
+      "feed_id": "sty_46ca3e0dd62f77cc",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Yuchen Wu [ view email ] [v1] Thu, 22 Oct 2026 03:43:33 UTC (3,478 KB) [v2] Fri, 23 Oct 2026 01:55:37 UTC (3,478 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "dce5d722fcfb34665208b2e49a9f4f789c59e11b0d9f176fec593e267f0f32d7",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified.",
+      "already_covered_in_seven_days": true
+    },
+    {
+      "feed": "top",
+      "index": 21,
+      "url": "https://arxiv.org/abs/2601.03018",
+      "feed_id": "sty_a23739f0c0a7f90a",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/01/06"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Jong Chul Ye [ view email ] [v1] Tue, 6 Jan 2026 13:44:04 UTC (1,782 KB) [v2] Fri, 20 Mar 2026 10:22:25 UTC (2,404 KB) [v3] Fri, 23 Oct 2026 04:57:24 UTC (2,404 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "572634f6c66a301027b8236f105eca63242101bea32bf73794205b82d6e90712",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 22,
+      "url": "https://arxiv.org/abs/2603.09983",
+      "feed_id": "sty_369eeca8e1411502",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/02/12"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Shuhuai Li [ view email ] [v1] Thu, 12 Feb 2026 04:28:00 UTC (3,135 KB) [v2] Fri, 23 Oct 2026 17:17:37 UTC (3,852 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "0e6eccf1afeab38bdc370b280f06898572a2d7470241c5b21decf1aba3ada4f8",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 23,
+      "url": "https://arxiv.org/abs/2605.25773",
+      "feed_id": "sty_ca251d6ea36b19ce",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/05/25"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Sam Bowyer [ view email ] [v1] Mon, 25 May 2026 12:23:31 UTC (1,119 KB) [v2] Fri, 29 May 2026 17:41:55 UTC (1,119 KB) [v3] Fri, 23 Oct 2026 14:20:42 UTC (1,130 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "06aab48347b5318be6b0039850cc4d644d1a157aa353888c4d3e5e2fe0b53429",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 24,
+      "url": "https://arxiv.org/abs/2606.06840",
+      "feed_id": "sty_9a11187a7692691c",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/06/05"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Debjyoti Saha Roy [ view email ] [v1] Fri, 5 Jun 2026 02:32:24 UTC (334 KB) [v2] Tue, 6 Oct 2026 02:10:23 UTC (301 KB) [v3] Fri, 23 Oct 2026 01:55:43 UTC (419 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "7f4522e717ca0e0194aaa9491c8b97e8cd047db5fc8b1168cb298073d065f2e4",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 25,
+      "url": "https://arxiv.org/abs/2607.05369",
+      "feed_id": "sty_94f779bb9712bdbe",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/07/06"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Jaimyn Drake [ view email ] [v1] Mon, 6 Jul 2026 17:47:31 UTC (6,853 KB) [v2] Fri, 23 Oct 2026 17:46:52 UTC (4,428 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "f79970f70a3dd9bcdb06ce6563e50009a7a4c8e9baab849db7fcbb3e727be134",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 26,
+      "url": "https://arxiv.org/abs/2610.20179",
+      "feed_id": "sty_5495d55990decb23",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/14"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Davide Baldelli [ view email ] [v1] Wed, 14 Oct 2026 13:24:26 UTC (512 KB) [v2] Fri, 23 Oct 2026 13:36:17 UTC (511 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "c851aa1701874a7b2183c3a284c306e354f95de191a2d21735e7687dd794391d",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 27,
+      "url": "https://arxiv.org/abs/2610.30474",
+      "feed_id": "sty_2875994da0c36c21",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/21"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Riteng Zhang [ view email ] [v1] Wed, 21 Oct 2026 21:47:27 UTC (14,317 KB) [v2] Fri, 23 Oct 2026 03:47:24 UTC (14,317 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "680b7950054908965008f89dcb3ea4264009b9279484bf6cb5f8ad583fef38e1",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 28,
+      "url": "https://arxiv.org/abs/2610.31017",
+      "feed_id": "sty_423506d6cc214799",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Martino M. L. Pulici [ view email ] [v1] Thu, 22 Oct 2026 09:52:29 UTC (59 KB) [v2] Fri, 23 Oct 2026 08:39:38 UTC (59 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "b01e4f1deb462c45cd98b686827ba941099ef706537705e33c1201118e532e83",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified.",
+      "already_covered_in_seven_days": true
+    },
+    {
+      "feed": "top",
+      "index": 29,
+      "url": "https://arxiv.org/abs/2610.31846",
+      "feed_id": "sty_f5a8a6a9df503810",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Yuval Kansal [ view email ] [v1] Thu, 22 Oct 2026 19:29:38 UTC (1,686 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "de81259fed0295608f41270971e2f4bd0e65c9a15526263f3d9f2376abef7c96",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 30,
+      "url": "https://arxiv.org/abs/2610.31971",
+      "feed_id": "sty_7012b04763f3737f",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Amit Sarker [ view email ] [v1] Thu, 22 Oct 2026 22:24:10 UTC (698 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "5da8bb3ab97a691d312e8dae506f59a629abf33b092622205fa46a16f1b9968e",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 31,
+      "url": "https://arxiv.org/abs/2610.31985",
+      "feed_id": "sty_fba25c7a0ac5418e",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Moumita Choudhury [ view email ] [v1] Thu, 22 Oct 2026 22:55:40 UTC (267 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "764dd2a21f9928311ca2c0d91e94951cb8fd3a47ec8e07443b64ca9382dbc7d3",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 32,
+      "url": "https://arxiv.org/abs/2610.32046",
+      "feed_id": "sty_54aa16971ab3b698",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Yepeng Liu [ view email ] [v1] Fri, 23 Oct 2026 01:37:19 UTC (4,793 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "dd76b32974be60d25b20c99f4a08903ec1c5441c03ab0c8fe2b01987aea0b527",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 33,
+      "url": "https://arxiv.org/abs/2610.32087",
+      "feed_id": "sty_65f1c908133f3c42",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Tianqiang Yan [ view email ] [v1] Fri, 23 Oct 2026 02:48:45 UTC (464 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "4c76622da9b1c69f7b348c69550a0e877825ad12a050122ab186d71f94c0b372",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 34,
+      "url": "https://arxiv.org/abs/2610.32127",
+      "feed_id": "sty_0328fdde7bc566c5",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Yanshuo Chen [ view email ] [v1] Fri, 23 Oct 2026 03:54:41 UTC (316 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "9b232d853daa0019970e035ad913e620cbcaae26e63246afec909ad852f2bc18",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 35,
+      "url": "https://arxiv.org/abs/2610.32177",
+      "feed_id": "sty_d57262706df36a94",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Khai Loong Aw [ view email ] [v1] Fri, 23 Oct 2026 05:24:02 UTC (13,260 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "515116bb3f18433b260bfd14b58c2fe05844f09270e11d8ffef344332e10a66a",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 36,
+      "url": "https://arxiv.org/abs/2610.32474",
+      "feed_id": "sty_fc4a6dcd58b2395b",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Tianyu Yang [ view email ] [v1] Fri, 23 Oct 2026 10:43:41 UTC (640 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "9b798981295cf13b4598c59099835ace6468bee9ce94f8225995d45318c97b6d",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 37,
+      "url": "https://arxiv.org/abs/2610.32483",
+      "feed_id": "sty_4b7c6de339f2a794",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Shao Zhang [ view email ] [v1] Fri, 23 Oct 2026 10:57:54 UTC (4,170 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "c274bd245447640987861f13c6c490b6a066363f81a6da3d12fd30ee04d9a61e",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 38,
+      "url": "https://arxiv.org/abs/2610.32665",
+      "feed_id": "sty_71731f7c46cbeab6",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Alisson Rosa [ view email ] [v1] Fri, 23 Oct 2026 14:08:32 UTC (3,327 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "e0a75dc8153339a3783c103854584e76d2289fb3e034b60feae3c10ab03c153e",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 39,
+      "url": "https://arxiv.org/abs/2610.32752",
+      "feed_id": "sty_4cfaf6c777024d37",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Navyansh Mahla [ view email ] [v1] Fri, 23 Oct 2026 14:59:37 UTC (42 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "f755dfaa5ee9c8ee1d68b550003b1a7310f673cfbc76a31428921446fd7fb3b8",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 40,
+      "url": "https://arxiv.org/abs/2610.32874",
+      "feed_id": "sty_f8c6dc9b5b445af1",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Anouar Imel [ view email ] [v1] Fri, 23 Oct 2026 16:44:20 UTC (6,043 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "a9f05be168a3d167658633802dacf18e50dffc2e09a5ec7020989a97f90aa99b",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 41,
+      "url": "https://arxiv.org/abs/2610.32919",
+      "feed_id": "sty_9b9f815a11a6bab5",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Xinrui Li [ view email ] [v1] Fri, 23 Oct 2026 17:20:12 UTC (309 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "09b7577f2e2fb8fcc145d2eab5e255fffe7826fadb59ec67c5cc573b43bee1a6",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 42,
+      "url": "https://arxiv.org/abs/2610.31678",
+      "feed_id": "sty_5c2926ba16b177e1",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/01"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/01"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Ancil Crayton [ view email ] [v1] Thu, 1 Oct 2026 03:02:54 UTC (85 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "fa587f60e802d6c69dc5861d0223bf156a6032c7afa8b6a4511f752f56272a42",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 43,
+      "url": "https://arxiv.org/abs/2610.31681",
+      "feed_id": "sty_fd295c445792032f",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/02"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/02"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Ratun Rahman [ view email ] [v1] Fri, 2 Oct 2026 21:38:11 UTC (275 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "7df5a468a9224447558ed3c5e547816e3f97a17ca7b896e43adf584938ffc0a1",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 44,
+      "url": "https://arxiv.org/abs/2610.31685",
+      "feed_id": "sty_bbef41a5491a1914",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/03"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/03"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Elyas Rashno [ view email ] [v1] Sat, 3 Oct 2026 23:36:10 UTC (4,062 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "2b85466271125674dc9daa353103933b2e73a61d6b99780b8f4c406e245f5157",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 45,
+      "url": "https://arxiv.org/abs/2610.31686",
+      "feed_id": "sty_fe7632c43520a902",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/05"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/05"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Tianda Sun [ view email ] [v1] Mon, 5 Oct 2026 11:46:10 UTC (48 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "a0d9f2a57a7defeaa7c0ee97d73db25aa0df2d7da3befd73df3cf00553c0f919",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 46,
+      "url": "https://arxiv.org/abs/2610.31687",
+      "feed_id": "sty_1cd290b44cdd1393",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/05"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/05"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Nelson Jo [ view email ] [v1] Mon, 5 Oct 2026 12:13:18 UTC (646 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "3093185e27a9adc245cddcef4301bb629525953884df386a2c4accada7c2fdd7",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 47,
+      "url": "https://arxiv.org/abs/2610.31702",
+      "feed_id": "sty_7be7443bf26911ae",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/21"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/21"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Yuanzhe Peng [ view email ] [v1] Wed, 21 Oct 2026 18:29:15 UTC (737 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "25a6f09d83384d81f7402cd1a65e3de7ce41dba90f5deeacb71bd074e59ab2b3",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 48,
+      "url": "https://arxiv.org/abs/2610.31712",
+      "feed_id": "sty_16d2768127ecc479",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Bingyu Bai [ view email ] [v1] Thu, 22 Oct 2026 03:09:20 UTC (466 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "8d150a3818a767cdce55ec7ab4353c1d0aaca897beb2660a9e0339a6a82d8bab",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 49,
+      "url": "https://arxiv.org/abs/2610.31721",
+      "feed_id": "sty_9dd8215d5b2dc201",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Soumyendu Sarkar [ view email ] [v1] Thu, 22 Oct 2026 09:53:05 UTC (209 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "0129d770aed1877e7b191f645be981b67c70e58ab50cb5d5c6a54feb0db704aa",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 50,
+      "url": "https://arxiv.org/abs/2610.31722",
+      "feed_id": "sty_2bb480f40d3d7c36",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Yixiang Tang [ view email ] [v1] Thu, 22 Oct 2026 09:59:34 UTC (1,327 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "45ddd1f0cbdf1edb7ee52d4d448e325e1178df8d6ee4e187f1777ca1c068020e",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 51,
+      "url": "https://arxiv.org/abs/2610.31733",
+      "feed_id": "sty_a1136693240b3b33",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Qiang Fu [ view email ] [v1] Thu, 22 Oct 2026 16:00:17 UTC (137 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "6e3103a79b5658b3322a047a439fb9d5acfece43f50088a5b4e035b3d104ae4c",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 52,
+      "url": "https://arxiv.org/abs/2610.31778",
+      "feed_id": "sty_9240f869b8243fbb",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Jeanne Salle [ view email ] [v1] Thu, 22 Oct 2026 18:15:54 UTC (242 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "f3ad500c1951bffbe9421a40a7dc8afd6f9d02134426a0e30ae23c5edccee055",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 53,
+      "url": "https://arxiv.org/abs/2610.31821",
+      "feed_id": "sty_99a7739d5a0d0fb0",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Omar Farouk Zouak [ view email ] [v1] Thu, 22 Oct 2026 18:59:15 UTC (625 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "28e909eb4de621575d9bd61172cfb531fc7e472e446fd841a74649693c438256",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 54,
+      "url": "https://arxiv.org/abs/2610.31829",
+      "feed_id": "sty_99fb53660475de40",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Shaekh Mohammad Shithil [ view email ] [v1] Thu, 22 Oct 2026 19:08:36 UTC (7,468 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "d59ba761b6af0ed7ede0dba227c7454b125d6cf421c9a3b31c590dbb644de2d3",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 55,
+      "url": "https://arxiv.org/abs/2610.31850",
+      "feed_id": "sty_10edd6866018c3aa",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Sean Bin Yang [ view email ] [v1] Thu, 22 Oct 2026 19:32:45 UTC (3,556 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "f6e350fa391b68259ce6424d32994378fa71dc128e4885de3b380ace1d0d6344",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 56,
+      "url": "https://arxiv.org/abs/2610.31854",
+      "feed_id": "sty_da50c57f97691dd6",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Jialei Li [ view email ] [v1] Thu, 22 Oct 2026 19:36:48 UTC (423 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "24dd24d5d78639388e6cf7e2da9b56b220ae95aaeac81bd423586ffb6d89f8e4",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 57,
+      "url": "https://arxiv.org/abs/2610.31863",
+      "feed_id": "sty_8c2d017cdc8b7385",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Timo Oksanen [ view email ] [v1] Thu, 22 Oct 2026 19:52:26 UTC (1,730 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "6231e0863437d66837706d5908665316e040cc4dd4c7410f9183c8e15be3e5c3",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 58,
+      "url": "https://arxiv.org/abs/2610.31884",
+      "feed_id": "sty_3169f9879ec000e9",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Ann Zixiang Huang [ view email ] [v1] Thu, 22 Oct 2026 20:25:52 UTC (3,359 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "283c95e3c60618340b3d901a9d22091550d09e6f44aa9f7743d95c8bdd8000cb",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 59,
+      "url": "https://arxiv.org/abs/2610.31895",
+      "feed_id": "sty_8e8557f41ca55682",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Tianyu Chen [ view email ] [v1] Thu, 22 Oct 2026 20:45:47 UTC (2,039 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "fe55321a6ac0dae751f79ac9d6157935382c56eb1cd79649fb46d0d127d8e09e",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 60,
+      "url": "https://arxiv.org/abs/2610.31897",
+      "feed_id": "sty_3da200eb7fc0f6dd",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Tianxiang Xia [ view email ] [v1] Thu, 22 Oct 2026 20:49:30 UTC (34,496 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "614f43d543aff0cd83da241dd2884115d806d79d8244f2e270a9d90d9ffa2a17",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 61,
+      "url": "https://arxiv.org/abs/2610.31927",
+      "feed_id": "sty_33c4bdc66e7cf864",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Rachmad Vidya Wicaksana Putra [ view email ] [v1] Thu, 22 Oct 2026 21:17:34 UTC (1,069 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "969c4016ceab7fffb8594bada1570a9a3e00aab46d24d0db502906d1db34cc4b",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 62,
+      "url": "https://arxiv.org/abs/2610.31954",
+      "feed_id": "sty_43fdce63e4b7c6e6",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Rachmad Vidya Wicaksana Putra [ view email ] [v1] Thu, 22 Oct 2026 22:00:21 UTC (882 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "6f88a52afb9b4af330867380682b63a7153ed0d3dad6835bcf4c657c55063359",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 63,
+      "url": "https://arxiv.org/abs/2610.31955",
+      "feed_id": "sty_5d682e8b6201b92f",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/22"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/22"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Mitchell Ostrow [ view email ] [v1] Thu, 22 Oct 2026 22:03:03 UTC (927 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "d9dd8d50720bc056c458b5701ec02b199f71dc9b8a95f46116d9e8b7afdc4fa9",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 64,
+      "url": "https://arxiv.org/abs/2610.32039",
+      "feed_id": "sty_afdd6765c382af6d",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Kibok Lee [ view email ] [v1] Fri, 23 Oct 2026 01:30:14 UTC (692 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "e172d8f142418f1d969d0c406f31b81a87a1462175379f6a9234477eafce70e5",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 65,
+      "url": "https://arxiv.org/abs/2610.32059",
+      "feed_id": "sty_2678282babc23627",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Yiran Xiahou [ view email ] [v1] Fri, 23 Oct 2026 01:54:50 UTC (25,179 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "b5770dd499dbf085a240145d17eadc5e99337d940780d7f386bd7707d2a26186",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 66,
+      "url": "https://arxiv.org/abs/2610.32067",
+      "feed_id": "sty_310244bd8d42cdb1",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Mingyu Jeon [ view email ] [v1] Fri, 23 Oct 2026 02:11:38 UTC (623 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "9010a1b22edf42631361938c380569473e2585cb53707aa750a1e4ddf765fed0",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 67,
+      "url": "https://arxiv.org/abs/2610.32103",
+      "feed_id": "sty_d58a3411aa1631f5",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Jia Yi Zhang [ view email ] [v1] Fri, 23 Oct 2026 03:07:35 UTC (4,818 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "f522338c056c5d7a5f8881b1c7f0de3e9d029370a4669c4e520c5edc46cf6d16",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 68,
+      "url": "https://arxiv.org/abs/2610.32141",
+      "feed_id": "sty_599ed16a5bbb0fbf",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Jiazheng Li [ view email ] [v1] Fri, 23 Oct 2026 04:09:46 UTC (822 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "34af9a052f646138d1c6876a5ff30e0e5b1b2b24023e844e50eea8a3c26477a6",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 69,
+      "url": "https://arxiv.org/abs/2610.32142",
+      "feed_id": "sty_05a3670c4b1622cf",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Disen Liao [ view email ] [v1] Fri, 23 Oct 2026 04:15:33 UTC (2,330 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "0b5ef6002969ccefd26edf7a7c243e0be0dda07a5114d342969ddc6eaeb11a29",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 70,
+      "url": "https://arxiv.org/abs/2610.32147",
+      "feed_id": "sty_3b8671b137086d91",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Taeyoung Kim [ view email ] [v1] Fri, 23 Oct 2026 04:25:44 UTC (3,217 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "9552e29bda4f976f0257ad6a6d619631a921bb2d1a429e37377906c2e934ae57",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 71,
+      "url": "https://arxiv.org/abs/2610.32151",
+      "feed_id": "sty_7bdb064e7d33e5fb",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Ken Enda [ view email ] [v1] Fri, 23 Oct 2026 04:34:26 UTC (1,861 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "1f4e7f605c4157c9c418558f2d53ee11916175dab0b6a014711ad1d322ee062f",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 72,
+      "url": "https://arxiv.org/abs/2610.32153",
+      "feed_id": "sty_721138aaccb98a0f",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Bowen Shi [ view email ] [v1] Fri, 23 Oct 2026 04:38:24 UTC (5,601 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "841eb9601c501c6b30420a5dcc086d23455a7f169071c837f9c8f6c3d0fa55ba",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 73,
+      "url": "https://arxiv.org/abs/2610.32179",
+      "feed_id": "sty_df74af007ba14bc0",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Jun Yu [ view email ] [v1] Fri, 23 Oct 2026 05:25:58 UTC (139 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "10604c24970b2d24f6a12fa21ca541452f4fb496f4d5594d6476d6cd01a7ad08",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 74,
+      "url": "https://arxiv.org/abs/2610.32194",
+      "feed_id": "sty_826e17dfa45e7d52",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Taha Mahmoud [ view email ] [v1] Fri, 23 Oct 2026 05:40:26 UTC (1,017 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "89bdf4c4c543dd655682bece9773671499c31fd9382958414f37a62acd97efa6",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 75,
+      "url": "https://arxiv.org/abs/2610.32195",
+      "feed_id": "sty_44f61e712e18e8e4",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Dongki Kim [ view email ] [v1] Fri, 23 Oct 2026 05:46:36 UTC (1,828 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "adeec989f1d4d41c5f37596a5b9dc273ff3a4f8fdb2032d12c064ddc55a2688f",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 76,
+      "url": "https://arxiv.org/abs/2610.32208",
+      "feed_id": "sty_c95f995f4a35c719",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Christian Rogers [ view email ] [v1] Fri, 23 Oct 2026 06:02:12 UTC (901 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "3eaf222466e19ff3091b80ca05b9f4a56516d2a5aeb2437b7f4d6e3ca83d530c",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 77,
+      "url": "https://arxiv.org/abs/2610.32212",
+      "feed_id": "sty_67367ed88d4220d2",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Jiawei Dong [ view email ] [v1] Fri, 23 Oct 2026 06:08:17 UTC (1,341 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "d1523349945ca708e599e9990efbcc3fd45cb8aded25a0acc315f3ee210020ea",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 78,
+      "url": "https://arxiv.org/abs/2610.32255",
+      "feed_id": "sty_508a9a7dbf85f2df",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Donghwan Kim [ view email ] [v1] Fri, 23 Oct 2026 07:09:51 UTC (4,220 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "d41db65b69d287e971078a572ad63c59f7e1d2427b0c154ea4f55a9340dfbb61",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    },
+    {
+      "feed": "top",
+      "index": 79,
+      "url": "https://arxiv.org/abs/2610.32281",
+      "feed_id": "sty_31f17e16790bc936",
+      "meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/23"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/23"
+        }
+      ],
+      "jsonld": [],
+      "submission_history": "Submission history From: Giang Son Nguyen [ view email ] [v1] Fri, 23 Oct 2026 07:38:41 UTC (1,034 KB)",
+      "visible_dates": [],
+      "source_html_sha256": "2f5c8ca0a35a86c4fa284fca7ac3abb916b98cd30c1e8fd06a48e9a1c3a0c7bc",
+      "disposition": "excluded_original_or_latest_update_outside_window",
+      "reason": "Publisher metadata, visible date or complete arXiv submission history precedes 2026-10-25T00:00:00Z. No newer substantive update verified."
+    }
+  ]
+}
