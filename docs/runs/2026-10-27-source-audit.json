@@ -1,0 +1,1967 @@
+{
+  "reader_contract": "2.0.3",
+  "article_metadata_contract": 2,
+  "writing_style": "ted-writing-style 1.0.0 technology/strategy with editing pass",
+  "prepared_at": "2026-10-27T12:10:07.452207Z",
+  "base_commit": "6931fa784a8c009f6237c3cf8a37e9dcbe01eeb2",
+  "cutoff": "2026-10-27T05:00:00-07:00",
+  "window_start": "2026-10-26T00:00:00Z",
+  "feed_checked_at": "2026-10-27T12:01:29.369865Z",
+  "feed_counts": {
+    "curated": 229,
+    "top": 80
+  },
+  "feed_exclusions": {
+    "curated": [
+      {
+        "id": "2e6b008d7907924a9c4c56743403e3af",
+        "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+      }
+    ],
+    "top": []
+  },
+  "candidate_counts": {
+    "selected": 4,
+    "eligible_not_selected": 2,
+    "outside_window": 7,
+    "not_advanced_after_four_distinct_articles_supported": 75,
+    "no_eligible_original_or_substantive_update_evidence": 1,
+    "not_selected_original_page_retrieval_failed": 1,
+    "not_selected_timezone_unverified": 1
+  },
+  "research_stop_reason": "Four distinct high-impact articles verified across both discovery feeds. Target 3–5 is met; remaining arXiv candidates were not advanced or represented as date-verified exclusions.",
+  "older_curated_records_not_advanced": 217,
+  "source_records": [
+    {
+      "url": "https://hbr.org/2026/10/the-c-suite-behaviors-that-stall-ai-transformations?ab=HP-hero-featured-1",
+      "retrieved_at": "2026-10-27T12:02:32.317821Z",
+      "title": "The C-Suite Behaviors That Stall AI Transformations",
+      "metadata_dates": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-23T12:05:06.000+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": null
+        }
+      ],
+      "times": [],
+      "source_text_sha256": "7e1b16829ee9d0bce7a4a0ab2ed372982becfca19559e83065f1398a198cf8fd",
+      "retrieved_text_characters": 1726,
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://replit.com/blog/rise-of-self-driving-company?utm_source=x&utm_medium=organic_social&utm_campaign=vision",
+      "retrieved_at": "2026-10-27T12:02:31.412524Z",
+      "title": "The Rise of the Self-Driving Company | Replit",
+      "metadata_dates": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-26T15:50:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-26T22:31:12.000Z"
+        }
+      ],
+      "times": [
+        {
+          "datetime": "2026-10-26T15:50:00.000Z",
+          "text": "Oct 26, 2026"
+        }
+      ],
+      "source_text_sha256": "237b219cbf96c598ded16d5eb55045b8663613fdcfe518fb6b2fc7dab231519e",
+      "retrieved_text_characters": 6795,
+      "disposition": "eligible_not_selected"
+    },
+    {
+      "url": "https://x.com/NVIDIARobotics/status/2113407332747293131",
+      "retrieved_at": "2026-10-27T12:02:31.758994Z",
+      "title": "NVIDIA Robotics on X: \"We’re excited to announce the official release of NVIDIA Isaac Lab 3.0. 🎉\n\nIsaac Lab 3.0 brings a new modular and lightweight architecture along with major new capabilities across the robot learning workflow: multi-physics and multi-rendering support, training at scale, and… / X",
+      "metadata_dates": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-22T23:09:07.000Z"
+        }
+      ],
+      "times": [],
+      "source_text_sha256": "7e5f39cbd174931af5845b31b25f6a5876597394ccbf7621d561ac3da6bb15ba",
+      "retrieved_text_characters": 561,
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+      "retrieved_at": "2026-10-27T12:04:09.590951Z",
+      "title": "Addendum to GPT-6 Astra System Card: GPT-6.1 Terra - OpenAI Deployment Safety Hub",
+      "metadata_dates": [],
+      "times": [],
+      "source_text_sha256": "fb09dd4bf38d65fc433f12820bc8f319fedf7ec520d1d8dbe36a9c2a3b9c9c3c",
+      "retrieved_text_characters": 946,
+      "disposition": "supporting_source"
+    },
+    {
+      "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+      "retrieved_at": "2026-10-27T12:04:56.794525Z",
+      "title": "Introducing a Voluntary Exit Offer - The Official Microsoft Blog",
+      "metadata_dates": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-26T15:33:56+00:00"
+        }
+      ],
+      "times": [
+        {
+          "datetime": "2026-10-26",
+          "text": "Oct 26, 2026"
+        }
+      ],
+      "source_text_sha256": "9ecc0dcc72a337942704eda17ed4aae674c0805b4644405137b652b91755cca8",
+      "retrieved_text_characters": 2137,
+      "disposition": "supporting_source"
+    },
+    {
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "retrieved_at": null,
+      "title": null,
+      "metadata_dates": [],
+      "times": [],
+      "source_text_sha256": null,
+      "retrieved_text_characters": 0,
+      "initial_retrieval_error": "HTTP Error 403: Forbidden",
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
+      "retrieved_at": "2026-10-27T12:02:32.732381Z",
+      "title": "“AI Skills” are worthless in 2026 - The Fishbowl",
+      "metadata_dates": [],
+      "times": [
+        {
+          "datetime": "2026-10-26T08:24:09.618679",
+          "text": "26 October 2026"
+        },
+        {
+          "datetime": "2026-10-23T14:45:46.388236",
+          "text": "23 October 2026"
+        }
+      ],
+      "source_text_sha256": "e368b6d855fc8d244f797ec6d18da3d6034672149c3e268a81301c1f647754ad",
+      "retrieved_text_characters": 2122,
+      "disposition": "not_selected_timezone_unverified"
+    },
+    {
+      "url": "https://www.lmsys.org/blog/2026-10-26-cf-security",
+      "retrieved_at": "2026-10-27T12:04:57.198466Z",
+      "title": "SGLang security update: improving request isolation - LMSYS Org",
+      "metadata_dates": [
+        {
+          "property": "article:published_time",
+          "content": "October 26, 2026"
+        }
+      ],
+      "times": [],
+      "source_text_sha256": "248803e22ae2b79552be7ce953b93d9699d4005bac14806afd68b926e41994d0",
+      "retrieved_text_characters": 34598,
+      "disposition": "supporting_source"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
+      "retrieved_at": "2026-10-27T12:03:18.092665Z",
+      "title": "EDGAR Filing Documents for 0001628280-26-067168",
+      "metadata_dates": [],
+      "times": [],
+      "source_text_sha256": "c41f3cc2fc55d4a8a21c1fe36383d193a436b99da36d292f26210ca12a8e69df",
+      "retrieved_text_characters": 4196,
+      "disposition": "supporting_source"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "retrieved_at": "2026-10-27T12:02:32.383061Z",
+      "title": "Introducing GPT-6.1 Terra | OpenAI",
+      "metadata_dates": [],
+      "times": [],
+      "source_text_sha256": "968e41cf31b6f81344331c4f68f49f9fbbf16e62601ea6f3da1eaaebd1292cc2",
+      "retrieved_text_characters": 4621,
+      "disposition": "selected"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
+      "retrieved_at": "2026-10-27T12:02:31.727119Z",
+      "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations | Artificial Intelligence",
+      "metadata_dates": [
+        {
+          "property": "og:updated_time",
+          "content": "2026-10-23T08:21:36-08:00"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-10-23T08:21:36-08:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-23T08:21:36-08:00"
+        }
+      ],
+      "times": [
+        {
+          "datetime": "2026-10-23T08:21:36-08:00",
+          "text": "23 OCT 2026"
+        }
+      ],
+      "source_text_sha256": "bba908d801e909ed2bff7a0c4c5772816d5b419b25026c124334c0bc695db0c7",
+      "retrieved_text_characters": 17301,
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+      "retrieved_at": "2026-10-27T12:02:31.506098Z",
+      "title": "Microsoft offers voluntary buyouts as AI leads to efficiency push",
+      "metadata_dates": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-26T15:52:10+0000"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-27T01:05:06+0000"
+        }
+      ],
+      "times": [
+        {
+          "datetime": "2026-10-26T15:52:10+0000",
+          "text": "Published Mon, Oct 26 2026 11:52 AM EDT"
+        },
+        {
+          "datetime": "2026-10-27T01:05:06+0000",
+          "text": "Updated Mon, Oct 26 2026 9:05 PM EDT"
+        }
+      ],
+      "source_text_sha256": "09ad7e73a6a81230d9eef9fa9da894145308a884526864e75a6a026422e547b4",
+      "retrieved_text_characters": 3956,
+      "html_sha256": "07b6ef8c50da6d92ae612057ff92cdb135f9b078e0aca5e726f17dc046024270",
+      "disposition": "selected"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "retrieved_at": "2026-10-27T12:02:32.500380Z",
+      "title": "Anthropic, PBC - S-1 (Q2)",
+      "metadata_dates": [],
+      "times": [],
+      "source_text_sha256": "445648a5a7451fb02b2ecbda63df2cdf194902cab0a0bfb8c3ceeffaf2e1b989",
+      "retrieved_text_characters": 90000,
+      "disposition": "selected",
+      "reading_scope": "Cover, preliminary terms and governance provisions; research cache truncates extracted text at 90000 characters. No financial-statement, revenue or valuation claims are made."
+    },
+    {
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "retrieved_at": "2026-10-27T12:02:32.296176Z",
+      "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+      "metadata_dates": [],
+      "times": [],
+      "source_text_sha256": "95e9d740cb74fde4ae694f7a75b6d73b8fc9ae47e40b869f5ecf142a7d79d101",
+      "retrieved_text_characters": 20691,
+      "disposition": "no_eligible_original_or_substantive_update_evidence"
+    },
+    {
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "retrieved_at": "2026-10-27T12:02:33.132198Z",
+      "title": "The Mythical Man-Month in the age of AI - Jan van den Berg",
+      "metadata_dates": [],
+      "times": [
+        {
+          "datetime": "2026-10-27T07:14:00+01:00",
+          "text": "27 October 2026"
+        }
+      ],
+      "source_text_sha256": "1164cbbb450f66aa872a494892f33cd17743dc26cb8a0154a79a23c05063fc17",
+      "retrieved_text_characters": 1748,
+      "disposition": "eligible_not_selected"
+    },
+    {
+      "url": "https://x.com/hwchase17/status/2114041443836903662",
+      "retrieved_at": "2026-10-27T12:02:31.774219Z",
+      "title": "Harrison Chase on X: \"https://t.co/1RVHfb9BXX\" / X",
+      "metadata_dates": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-24T17:08:51.000Z"
+        }
+      ],
+      "times": [],
+      "source_text_sha256": "005eb316a94b01cdada2bf8f68f39063721ac49c27e5da17ba75cb2b74628db3",
+      "retrieved_text_characters": 5857,
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://openai.com/index/forward-deployed-engineering-means/",
+      "retrieved_at": null,
+      "title": null,
+      "metadata_dates": [],
+      "times": [],
+      "source_text_sha256": null,
+      "retrieved_text_characters": 0,
+      "initial_retrieval_error": "HTTP Error 403: Forbidden",
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "retrieved_at": "2026-10-27T12:02:32.583833Z",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang | Cloudflare Blog",
+      "metadata_dates": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-26T22:01:23.889Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-27T08:31:47.243Z"
+        }
+      ],
+      "times": [
+        {
+          "datetime": null,
+          "text": "October 26, 2026"
+        }
+      ],
+      "source_text_sha256": "20a4c908159d03247cef6386217d72d49163f36b6660ad1951e1297da4ce738f",
+      "retrieved_text_characters": 22746,
+      "html_sha256": "2c63827d69bf5e5b0a9599157fce239cef08daf925324c18fe82c6fe3796440d",
+      "disposition": "selected"
+    },
+    {
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "retrieved_at": "2026-10-27T12:02:32.302956Z",
+      "title": "LLMs are making formal software verification feasible at a much larger scale \\ Anthropic",
+      "metadata_dates": [
+        {
+          "property": "article:published_time",
+          "content": "2026-10-22T00:00:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-23T20:56:14.000Z"
+        }
+      ],
+      "times": [
+        {
+          "datetime": "2026-10-22",
+          "text": "Oct 22, 2026"
+        }
+      ],
+      "source_text_sha256": "061fac2bc2be6b02d464e90e928c973232a1a9954e9cac77d9f7dc5d07014ae6",
+      "retrieved_text_characters": 25334,
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "retrieved_at": null,
+      "title": null,
+      "metadata_dates": [],
+      "times": [],
+      "source_text_sha256": null,
+      "retrieved_text_characters": 0,
+      "initial_retrieval_error": "HTTP Error 403: Forbidden",
+      "disposition": "not_selected_original_page_retrieval_failed"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "4ad805bb1d40a15f3b1701a30c8600b6",
+          "title": "Anthropic files S-1 with the SEC for proposed initial public offering [ ~ ] (Estimated)",
+          "date_published": "2026-10-27T00:00:00+00:00"
+        },
+        {
+          "feed": "top",
+          "id": "sty_4378498dbcf93c31",
+          "title": "Anthropic files S-1 registration statement with SEC for initial public offering of Class A common stock [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-26T13:04:50Z"
+        }
+      ],
+      "disposition": "selected"
+    },
+    {
+      "url": "https://replit.com/blog/rise-of-self-driving-company",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "472343fd4d62ab57a79d33889455a620",
+          "title": "The Rise of the Self-Driving Company [ ~ ] (Estimated)",
+          "date_published": "2026-10-27T00:00:00+00:00"
+        }
+      ],
+      "disposition": "eligible_not_selected"
+    },
+    {
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "b9ea97f984c332c918406871cc7be6d3",
+          "title": "Securing our frontier model training environment [ * ] (Estimated)",
+          "date_published": "2026-10-27T00:00:00+00:00"
+        }
+      ],
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "a5dee8f12c7e9b1d88517ac6b98fa031",
+          "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push [ * ] (Estimated)",
+          "date_published": "2026-10-27T00:00:00+00:00"
+        }
+      ],
+      "disposition": "selected"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "ffed4433227e3ee0a70cb2fe850fc20b",
+          "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations [ ~ ] (Estimated)",
+          "date_published": "2026-10-27T00:00:00+00:00"
+        }
+      ],
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.29162v1",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "0a231b23b41c27bf2f07e6fcd9a845c7",
+          "title": "Why is AI-generated language so hard to understand? [ ~ ] (Estimated)",
+          "date_published": "2026-10-27T00:00:00+00:00"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://x.com/hwchase17/status/2114041443836903662",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "8cd2b920e26b1e6e94e94bb0af6509a9",
+          "title": "The five components of building a \"company harness\" [ * ]",
+          "date_published": "2026-10-26T00:00:00+00:00"
+        }
+      ],
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://x.com/NVIDIARobotics/status/2113407332747293131",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "ae85fd63fab24b8955c4a6947d053be0",
+          "title": "Isaac Lab 3.0. [ ~ ]",
+          "date_published": "2026-10-26T00:00:00+00:00"
+        }
+      ],
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "521d06273ec897783224a92c15752396",
+          "title": "What FDE means at OpenAI [ * ]",
+          "date_published": "2026-10-26T00:00:00+00:00"
+        }
+      ],
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "52c4f6174e6df913baeedcd7a421b069",
+          "title": "Kimi K3.1 Pro [ ! ]",
+          "date_published": "2026-10-26T00:00:00+00:00"
+        }
+      ],
+      "disposition": "no_eligible_original_or_substantive_update_evidence"
+    },
+    {
+      "url": "https://hbr.org/2026/10/the-c-suite-behaviors-that-stall-ai-transformations?ab=HP-hero-featured-1",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "d34bc81bf440bd61d201c95a8ba22b88",
+          "title": "The C-Suite Behaviors That Stall AI Transformations [ ~ ]",
+          "date_published": "2026-10-26T00:00:00+00:00"
+        }
+      ],
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "feed_inputs": [
+        {
+          "feed": "curated",
+          "id": "93674c0abd906b76bec901f44751b2c2",
+          "title": "LLMs are making formal software verification feasible at a much larger scale [ ! ]",
+          "date_published": "2026-10-26T00:00:00+00:00"
+        }
+      ],
+      "disposition": "outside_window"
+    },
+    {
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_76480463e2949b53",
+          "title": "OpenAI announces three new discoveries in mathematics, computer science, and physics with collaborative academic release strategies [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-26T21:35:28Z"
+        }
+      ],
+      "disposition": "not_selected_original_page_retrieval_failed"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_c07f6dd02f750834",
+          "title": "OpenAI launches GPT-6.1 Terra, a faster, more efficient AI model with improved visual reasoning, coding, and factual accuracy at half the cost of GPT-5.6 Terra [ * ] [ ◼ ]",
+          "date_published": "2026-10-26T18:01:17Z"
+        }
+      ],
+      "disposition": "selected"
+    },
+    {
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_ea402a9c7effffb3",
+          "title": "Cloudflare fixes cross-request KV cache data leak in GLM-5.3 Workers AI model affecting 155 responses with long prompts [ * ] [ ◼ ]",
+          "date_published": "2026-10-26T22:41:48Z"
+        }
+      ],
+      "disposition": "selected"
+    },
+    {
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_20ecc0359dd91508",
+          "title": "Analysis: The Mythical Man-Month principle persists in AI development as managing multiple AI agents requires clear orchestration to avoid inefficiency [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T06:25:37Z"
+        }
+      ],
+      "disposition": "eligible_not_selected"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.32151",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7bdb064e7d33e5fb",
+          "title": "Hokkaido University Hospital deploys LLENS platform with on-premises large language model Kimi K2.6 for clinical support inside closed network [ * ] [ ⬢ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_31c04739e0ee836a",
+          "title": "Perspective: AI-specific skills may become obsolete by 2026 as AI tools integrate prompt engineering and evolve rapidly [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T06:33:34Z"
+        }
+      ],
+      "disposition": "not_selected_timezone_unverified"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33103",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_6f52d41cdb487e8b",
+          "title": "Meta-analysis finds large language models show modest loss aversion and human-like probability weighting but differ in diminishing sensitivity compared to humans [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33180",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_8ed813951118b769",
+          "title": "Researchers present synthetic document finetuning to expose alignment-faking large language models by revealing latent misaligned propensities through keyword cues [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33528",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_d707ab12fb9ba6d0",
+          "title": "Researchers introduce SkillShift-Bench, a benchmark for evaluating web agent skill learning under environment shifts including contextual, perceptual, and execution changes [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33651",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_f0fe21db54b2ea59",
+          "title": "Researchers introduce Preference-Behavior Model to jointly infer preferences and imperfect decision-making in large language models across social dilemmas [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33674",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_5c88a1d017e4cc6f",
+          "title": "Meta-CLIP introduces metadata-conditioned contrastive learning to improve zero-shot disease inference in medical imaging, enhancing performance on chest radiography and CT benchmarks [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33775",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_f642b3e3b29e3abc",
+          "title": "Researchers publish comprehensive guide to System 1 decision models for fast, calibrated AI decisions beyond large language models [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33817",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_24450936ec5d5dfb",
+          "title": "Researchers propose EnvLunch, a label-free warm-up method that uses executable environments to train language-model agents for interactive tasks, improving performance and reducing annotated data needs [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34107",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_b6d5c4e7501c36af",
+          "title": "Researchers evaluate large language models' ability to calibrate trust and reliance on imperfect human and AI partners using a benchmark of 324 collaboration scenarios [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34167",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7afe6fd1a363f839",
+          "title": "Researchers introduce SABench to evaluate side-effect risks in tool-using language model agents, finding 15.2% of runs cause unauthorized actions despite task success [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34491",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7cebcedb0c141cc5",
+          "title": "Researchers analyze reasoning effort levels in LLM agents, finding higher effort increases cost and changes behavior without consistently improving task success across benchmarks [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34623",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_3cf4ba3226ad98ec",
+          "title": "Researchers propose a simple lookup table using mean log-mel vectors per phoneme for text injection in speech recognition, achieving faster training and state-of-the-art word error rates on LibriSpeech",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34659",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_ece8fb01d56c79e3",
+          "title": "Researchers introduce AdaTutor with Comparative Pedagogical Supervision to adaptively select tutoring strategies, outperforming fixed methods on math and science reasoning datasets [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34871",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_8552563581422960",
+          "title": "Researchers develop DocTalk, a fine-tuned large language model system using chain-of-thought reasoning to improve medical question answering and clinical decision support [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34886",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_c2181ee52e6b745f",
+          "title": "ThinkBit: Search Codewords, Recalibrate Scales, Select by Reasoning [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.35226",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_d76e6d7c59353385",
+          "title": "Trainable Boundary-Keeping Where No Formal Answer Exists: A Controlled Knock-In Study of Reward Training in Evidence-Sufficiency Judgment [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.35434",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_589f91ad158105af",
+          "title": "Skill$^{\\infty}$: Recursive Self-Improvement for Agent Skill Optimization [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.35586",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_4e7e077e4dbfc50e",
+          "title": "Linear Probes Transfer from Base to Distilled Language Models despite Rotation",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.35865",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_6ef040c877aee280",
+          "title": "Center-of-Mass Interpretation of Evolution Strategies [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.21073",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7f8c3b8b86632753",
+          "title": "Skip the Compressor: Coding Agents Fix More Issues When They Pick Whole Files [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.32951",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_c662a3d22a183b4d",
+          "title": "Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes LLM Reinforcement Learning [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.32993",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_aa5d1ba31274be5c",
+          "title": "TIAgent: From Natural Language to Grounded Agentic Workflows for Computational Pathology [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.32997",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7593d875fe8a7d61",
+          "title": "Whispering Wisely: Smart Subset Selection for ASR Fine-Tuning [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33004",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_b383e75341b7414c",
+          "title": "Entity-Aware Evaluation of OCR Systems for Historical Document Transcription [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33008",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_4e0dc4f35ba2803d",
+          "title": "TraceQuery: learning what to recompute from full-denoising trajectory in diffusion language models [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33011",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_4195c1912db88045",
+          "title": "When Agents Collude: Weak-to-Strong On-Policy Distillation for Mitigating Strategic Deception in Multi-Agent Systems [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33012",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7563dd52814d5965",
+          "title": "Recursive Semantic Divergence for LLM Agent Consistency [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33013",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_9ba5eaf097208941",
+          "title": "UMAS: System-Level Uncertainty Quantification for Multi-Agent LLM Systems [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33014",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_0650feafa323483d",
+          "title": "The Social World Model Evaluation Gap [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33015",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_d1d27fb0eb69a7f6",
+          "title": "SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33016",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_005b17257eb09c5c",
+          "title": "Merge-Based Vocabulary Extension Stalls at the Pre-Tokenizer: An English-Preserving Repair for Nepali, Tested in Continued Pretraining [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33018",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_763352ec2b2815c3",
+          "title": "SUDO: From Scientific Publications to Global Scholarly Discourse [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33020",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_d1bea3c71106d4d3",
+          "title": "Mine or Yours? Mind-Bridged Language Models Take Each Other's Memories as Their Own [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33024",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_298addbb9d9454c1",
+          "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33027",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_779b9f14141a1246",
+          "title": "Conceptizer: Next-Token Prediction Is Not All You Need [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33029",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_718bda69299d8abd",
+          "title": "Lessons from Luck: Do LLM-Written Lessons Carry Chance into an Agent's Next Decision? [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33036",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_54ec3e5c92928fbf",
+          "title": "A Benchmark for Controllable Speaking-Style Captioning in Audio-Language Models [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33047",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_f81ba68760a53297",
+          "title": "Parametric Session States Recover Retrieval Intent without Replaying History [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33201",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_33096498a083cc4e",
+          "title": "Position, Role or Label? A Controlled Study of Instruction Conflicts in LLM Agents [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33441",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_bcbb1831c247f764",
+          "title": "Quantifying Meaning with SCAPE-T: Semantic Complexity from Encoder-Only Transformer Attention [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33503",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_0d9978abf711d5c9",
+          "title": "Novel or Not? PatEx-Gym: Agentic Prior-Art Search for Novelty Assessment in Patent Examination [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33542",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7f4256cfeb2d08b7",
+          "title": "SEDATE: Do Large Language Models Share an Aggression Circuit Across Languages? [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33608",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7c2b9d46247eadaf",
+          "title": "Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33624",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_6e2269c7b37fbaa5",
+          "title": "RSI Arena: Towards Recursive Self-Improvement with Human Feedback [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33694",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_2ad5e8837747fa6c",
+          "title": "Embedding-Based Educational Taxonomies [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33766",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_9fe3fbf32b564fe3",
+          "title": "StateWise: Teaching Language Models to Track and Obey Evolving Constraints in Multi-Turn Dialogue [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33776",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_2bdef6c73338f54e",
+          "title": "TriageRAG: Failure-Aware Self-Training for Adapting Retrieval-Augmented Language Models to Specialized Domains [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33794",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_6c50fd264ad3f3cc",
+          "title": "One Scan is Enough: Demonstration-Free Adaptation for Language-Guided Navigation [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33882",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_f7592a802d56e799",
+          "title": "Intervention-Certified Amplification: A Validity Gate for $\\sigma$-Weighted Post-Training [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33904",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7947d4bed63bf6b8",
+          "title": "Counterfactual Test-Time Augmentation for Shortcut Removal in Language Models [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33950",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_1a86c189ada692fc",
+          "title": "What Makes a Question Curious? Measuring Model Curiosity in Human-LLM Interactions [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33956",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_3aee0ed9233e4ad7",
+          "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.33962",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_f79c5996c22c31de",
+          "title": "Beyond Belief: Evaluating and Mitigating LLM Susceptibility to Misinformation [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34074",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_ec35e92fa3735ffc",
+          "title": "Identically Trained Language Models Break on Different Jailbreaks [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34103",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_9b14a675746d1f29",
+          "title": "T2D: Target-to-Draft Model Pruning & Adaptation for Efficient Speculative Decoding [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34146",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_abf9522bd1dae400",
+          "title": "Rethinking Retrieval in the Long-Context Era: Training-Free Semantic Trees for Adaptive Context Construction [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34180",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_e4fcbebbfe0310a7",
+          "title": "Write What Matters: Disentangling Token Selection from Slot Allocation in Recurrent Memory [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34182",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_02fecce827fda5f6",
+          "title": "Entropic Control for Homeostatic Optimization: Pre-empting Catastrophic Forgetting via Dynamic Feedback [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34238",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_8272b620b2e5f598",
+          "title": "$\\Delta\\tau$-Bench: Pushing Agents Toward a Moving Capability [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34297",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_73a5c868182dee9e",
+          "title": "Automated, auditable dating of the Babylonian Astronomical Diaries with language models and astronomical tools [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34335",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_1865318981333cd4",
+          "title": "CoLink: Global Compression and Knowledge Linking for Multi-Turn Dialogue Modeling [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34336",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_c9f6f65aaee12742",
+          "title": "Improving the Chain-of-Thought Compressibility of Pruned Reasoning Models via Long--Short Contrastive Pruning [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34343",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7286c23fff76db6d",
+          "title": "Xing USP: A Cross-Family Semantic Contract for Information Extraction and Intent-Slot Parsing [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34375",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_d7d9555476ce2f19",
+          "title": "Whether or Where? Tail Calibration Signals Finite-Budget Reward Hacking in Best-of-N Selection [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34384",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_6cefb846b8b3516d",
+          "title": "AndroidFlux: Evaluating and Reward Modeling Failure Recovery Capabilities in Mobile Use Multimodal Agents [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34490",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_64e77bbdf497dc75",
+          "title": "Efficient Proof Generation for Lean Statements with Multiple Candidate Answers [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34507",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_7b95916c07578546",
+          "title": "The Price of Scale in Proactive Memory Recall [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34585",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_a6216485a6a9c1a7",
+          "title": "Large Language Models: A Plain-Language Overview for Engineers [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34589",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_f7c2ad9a8671f90f",
+          "title": "HARP-LoRA: Hierarchy-Conditioned Rank Projection for Low-Rank Adaptation in Scientific Table Understanding [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34626",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_b4ef3df4538adf48",
+          "title": "Entity Matching using Decision Models [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34673",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_0078e71a25dc5dde",
+          "title": "Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents [ ~ ] [ ◼ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34684",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_1c19e056ebd5a42e",
+          "title": "Knowing When the Evidence Is Enough: Requirement-Directed Search with Horn-Closure Certificates [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34768",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_383a852d86c58a63",
+          "title": "DynEdit: Dynamic Entropy-Guided Sequential Editing for Large Language Models [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.34872",
+      "feed_inputs": [
+        {
+          "feed": "top",
+          "id": "sty_68fcbc1d8f6d9d97",
+          "title": "Adaptive Retrieval, Selective Answers: Evaluating Conformal Factuality in Agentic RAG [ ~ ] [ ◻ ]",
+          "date_published": "2026-10-27T04:00:00Z"
+        }
+      ],
+      "disposition": "not_advanced_after_four_distinct_articles_supported",
+      "eligibility_verified": false
+    }
+  ],
+  "publisher_rss": {
+    "url": "https://openai.com/news/rss.xml",
+    "sha256": "717ddf7b404cd1ad2f7c0a696bc5a9647c2aed935e7361deb746e13459395bba",
+    "items": [
+      {
+        "title": "Working with academic communities to build scientific understanding",
+        "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+        "pubDate": "Mon, 26 Oct 2026 14:30:00 GMT"
+      },
+      {
+        "title": "Introducing GPT-6.1 Terra",
+        "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+        "pubDate": "Mon, 26 Oct 2026 00:00:00 GMT"
+      },
+      {
+        "title": "Securing our frontier model training environment",
+        "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+        "pubDate": "Fri, 23 Oct 2026 10:00:00 GMT"
+      },
+      {
+        "title": "What FDE means at OpenAI",
+        "link": "https://openai.com/index/forward-deployed-engineering-means",
+        "pubDate": "Thu, 22 Oct 2026 06:00:00 GMT"
+      }
+    ]
+  },
+  "sec_submissions": {
+    "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+    "filing": {
+      "accessionNumber": "0001628280-26-067168",
+      "filingDate": "2026-10-26",
+      "reportDate": "",
+      "acceptanceDateTime": "2026-10-26T13:00:11.000Z",
+      "act": "33",
+      "form": "S-1",
+      "fileNumber": "333-299633",
+      "filmNumber": "261483662",
+      "items": "",
+      "core_type": "S-1",
+      "size": 224335190,
+      "isXBRL": 1,
+      "isInlineXBRL": 1,
+      "isXBRLNumeric": 0,
+      "primaryDocument": "anthropicpbc-sx1.htm",
+      "primaryDocDescription": "S-1"
+    }
+  },
+  "preceding_seven_editions": [
+    {
+      "date": "2026-10-20",
+      "article_ids": [
+        "art_55c3c0be518a12ff",
+        "art_b984a5c544e63137",
+        "art_614a0336a7737e51",
+        "art_2790d5e5427b4862",
+        "art_b7505ce4183649e7"
+      ],
+      "quick_hit_urls": [
+        "https://arxiv.org/abs/2610.25650",
+        "https://arxiv.org/abs/2610.25835",
+        "https://arxiv.org/abs/2610.25846"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "article_ids": [
+        "art_51ebab1d094c7d60",
+        "art_648d3adba52ea716",
+        "art_825130cf8cb2d52f",
+        "art_80b14f6a6fd391a6"
+      ],
+      "quick_hit_urls": [
+        "https://arxiv.org/abs/2610.27417",
+        "https://arxiv.org/abs/2610.27435",
+        "https://arxiv.org/abs/2610.27450"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "article_ids": [
+        "art_4c6292fc5ecba5f2",
+        "art_178c37e603121edb",
+        "art_38ce8d74651308c9",
+        "art_1353be402f8662ba"
+      ],
+      "quick_hit_urls": [
+        "https://arxiv.org/abs/2610.29472",
+        "https://arxiv.org/abs/2610.29518",
+        "https://arxiv.org/abs/2610.29922"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "article_ids": [
+        "art_acf94d966a173a22",
+        "art_4714611be4537b33",
+        "art_26bdab7224d77ff2",
+        "art_43a5a6eafd6c005a",
+        "art_fc116d0cc59c1c4e"
+      ],
+      "quick_hit_urls": [
+        "https://arxiv.org/abs/2610.30678",
+        "https://arxiv.org/abs/2610.31017",
+        "https://arxiv.org/abs/2610.31135"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "article_ids": [
+        "art_51c071c2515ec8fe",
+        "art_552b4e59bc6342ea",
+        "art_2a3e85161b6aae3f"
+      ],
+      "quick_hit_urls": []
+    },
+    {
+      "date": "2026-10-25",
+      "article_ids": [
+        "art_d26f3b9150349619",
+        "art_1edb80b635d46123"
+      ],
+      "quick_hit_urls": [
+        "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "article_ids": [
+        "art_240888442444abd5",
+        "art_11f803bdf2d21098"
+      ],
+      "quick_hit_urls": []
+    }
+  ],
+  "deduplication": "Reviewed prior edition membership, article titles, summaries, source URLs and Quick Hits. None of the four new developments repeats seven-day coverage. No update_of needed.",
+  "article_decisions": [
+    {
+      "article_id": "art_89893d5f73c77515",
+      "slug": "cloudflare-cache-isolation-tests",
+      "format": "brief",
+      "word_count": 334,
+      "hero": "omitted: focused brief, chosen before drafting",
+      "eligibility_evidence": "Cloudflare BlogPosting JSON-LD and article:published_time agree on 2026-10-26T22:01:23.889Z. Modification is 2026-10-27T08:31:47.243Z, also before cutoff; original disclosure controls eligibility. The incident and repair remain explicitly August 27–September 9."
+    },
+    {
+      "article_id": "art_b8eac1ac6e149cce",
+      "slug": "anthropic-s1-board-control",
+      "format": "brief",
+      "word_count": 270,
+      "hero": "omitted: focused brief, chosen before drafting",
+      "eligibility_evidence": "SEC submissions API for CIK0002130357 identifies accession 0001628280-26-067168, form S-1, filingDate 2026-10-26 and acceptanceDateTime 2026-10-26T13:00:11.000Z. Filing index shows acceptance 2026-10-26 09:00:11 Eastern; the prospectus cover independently says filed October 26, 2026."
+    },
+    {
+      "article_id": "art_b636afd106784676",
+      "slug": "microsoft-buyouts-ai-staffing",
+      "format": "brief",
+      "word_count": 282,
+      "hero": "omitted: focused brief, chosen before drafting",
+      "eligibility_evidence": "CNBC NewsArticle datePublished and article:published_time agree on 2026-10-26T15:52:10+0000; dateModified is 2026-10-27T01:05:06+0000. Microsoft’s original memo is separately dated 2026-10-26T15:33:56+00:00 in publisher JSON-LD and meta."
+    },
+    {
+      "article_id": "art_35e334c198740f74",
+      "slug": "gpt-6-1-terra-computer-use-trials",
+      "format": "brief",
+      "word_count": 294,
+      "hero": "omitted: focused brief, chosen before drafting",
+      "eligibility_evidence": "OpenAI’s own News RSS item for the exact release URL gives pubDate Mon, 26 Oct 2026 00:00:00 GMT. Treat midnight conservatively as a whole publisher UTC day, not an exact launch instant: the entire October 26 UTC day lies inside the window. The linked original system card visibly says Published October 26, 2026. The two discovery-feed timestamps do not establish eligibility."
+    }
+  ],
+  "article_shortfall": 0,
+  "preserved_existing_files": [
+    {
+      "path": "_articles/agent-harness-state.md",
+      "sha256": "30fb339a827e6c42e5f7f1245593fd75443fe008cf97d8672627cbdf685c5701"
+    },
+    {
+      "path": "_articles/ai-recommendation-bias.md",
+      "sha256": "dbd62847d98e55ccfb5b55260658fce0b156fedf3ed1f39e00dad8dc2fa5992d"
+    },
+    {
+      "path": "_articles/authorization-agent-boundaries.md",
+      "sha256": "49a169e1f567bf6b28c0aaf868ca0bee9011d5ba1e7cdb3e3e32eb5a107ccdac"
+    },
+    {
+      "path": "_articles/calibrated-disposition-drift.md",
+      "sha256": "ff82bb66f379fd790053b83e12166e438b035b1d1651d99cb59209f17d5ffd6a"
+    },
+    {
+      "path": "_articles/catalog-field-grounding.md",
+      "sha256": "928bf01d359aae346b3a94bab122640bd360ad69c3c14a3a1b17f70f99480e2c"
+    },
+    {
+      "path": "_articles/citation-relevance-verification.md",
+      "sha256": "3524ae8affa5631123894ef0e723147e261338fc7d8ef003590ea7bbfedb28b4"
+    },
+    {
+      "path": "_articles/context-sensitive-model-boundaries.md",
+      "sha256": "61a33c99b9d6bb97a2df3116843a9ccda690d2d94badf5101fb6e28d58f1bcc7"
+    },
+    {
+      "path": "_articles/cost-aware-ticket-routing.md",
+      "sha256": "273bee341ab990d063b125447a0ecb0f545d5d06ce3f4139c5650e566cb7f18f"
+    },
+    {
+      "path": "_articles/google-agent-guidance-enforcement.md",
+      "sha256": "70b526d0e477d81da0b2b342ffd67fb617b0ab7d4f304f240339043e793de733"
+    },
+    {
+      "path": "_articles/hidden-instructions-public-pages.md",
+      "sha256": "f5cbe46502510c58f383644e29ebac496724382f6a19be2176b214b39c9b9280"
+    },
+    {
+      "path": "_articles/kapitsa-local-inference-operations.md",
+      "sha256": "27d9b32d8e8b8d03b72259c8c3421628c2f230b0bca303e75e973c50decf73a0"
+    },
+    {
+      "path": "_articles/litellm-release-authority.md",
+      "sha256": "7a427d3eb8193a51fe147cb87b4fb8f3908dfeed6cbe4001e2e6f83490a2ed71"
+    },
+    {
+      "path": "_articles/llm-proxy-visibility.md",
+      "sha256": "b3e5a17a3965687f312208d6d300a7eb1a5ea6d4991b2ba0e714efcfcd4feced"
+    },
+    {
+      "path": "_articles/materials-structure-ml.md",
+      "sha256": "23856de588f7e0b68251958597e3c568d8c0c7c9f768db6e3af72edf77c6f45d"
+    },
+    {
+      "path": "_articles/memory-needs-relevance.md",
+      "sha256": "f40272eea4d7b78c4a5feb610d6c286d52191a8cc0704619eddfa272684326ee"
+    },
+    {
+      "path": "_articles/mercury-diffusion-serving.md",
+      "sha256": "e9521d0add84a14d25d6c4f182c6ee8822f7098d683d8b97982696f2ff1c5265"
+    },
+    {
+      "path": "_articles/meta-terms-data-governance.md",
+      "sha256": "703a04935248946af266b5d00e80a81d617fe842d2cc29b897244200a4617c05"
+    },
+    {
+      "path": "_articles/minimax-flash-task-economics.md",
+      "sha256": "06ca327617b83905b833af16202835b5a6144967387fe650a456be70e900f0c6"
+    },
+    {
+      "path": "_articles/model-price-cuts-cache-accounting.md",
+      "sha256": "bb4e699116cbcbdd2a30acfcb8c2621a7b67dfac1d77f1c56d9b1fafa9782b92"
+    },
+    {
+      "path": "_articles/multiagent-review-tradeoffs.md",
+      "sha256": "ff565d16b0cbc4f2cb2833b3414dbdb65de6e41016d6c403fb7faa5b4d51418b"
+    },
+    {
+      "path": "_articles/pew-task-level-adoption.md",
+      "sha256": "94771fdb0b37e5f0a9a5184f5319b5e1f3c2bd6c87fb64a1ace593db00181a0c"
+    },
+    {
+      "path": "_articles/php-old-flaws-operating-pressure.md",
+      "sha256": "8ba708edd9b993403d202198f98bf3214039b1c95cf2e5008febbad8492a3ed1"
+    },
+    {
+      "path": "_articles/prompt-judge-evaluation.md",
+      "sha256": "f8ec436c28008de3d86e48b0e937d402863a3a0adc9bfbd9d817753ba42ecd28"
+    },
+    {
+      "path": "_articles/rao-ai-adoption-unserved-work.md",
+      "sha256": "7b71eab3a86b0453b9ab95e5c7787da7e6553d2118a56b49e80fe3302b5847b3"
+    },
+    {
+      "path": "_articles/recoverable-agent-changes.md",
+      "sha256": "e796351f53a8bb8ff10e5c2738723107aaff2ade58798864514bd0f2c6d00619"
+    },
+    {
+      "path": "_articles/scope-executable-policy.md",
+      "sha256": "10669b500b510553c2a71c0bdafddb0310a796dc2e4b8c8422463f60925e39ad"
+    },
+    {
+      "path": "_articles/typed-decisions.md",
+      "sha256": "ef36d94a81f42c0d9f3ee96e926995bb8bbaedc6e7e2beb000bfe8f16e0c55ee"
+    },
+    {
+      "path": "_articles/voxtral-voice-workflow.md",
+      "sha256": "822244e80bc80e114cc1c1458c06848e7b93e3a6febe55ed30d610f1c497cb50"
+    },
+    {
+      "path": "_editions/2026-10-18.md",
+      "sha256": "9c7f8a77f5f9f117c2fdb4d3f62183d99522fa474c8019a544326f626ae417fd"
+    },
+    {
+      "path": "_editions/2026-10-19.md",
+      "sha256": "eadf0d2d77f8d7fda3003e8086398499e0c818d4d6f91522acbabbe3b50cb46c"
+    },
+    {
+      "path": "_editions/2026-10-20.md",
+      "sha256": "171dcb97b2786d51fd0eee72228bbe933f8be7b5f197ea3ca2b5209705fac4a4"
+    },
+    {
+      "path": "_editions/2026-10-21.md",
+      "sha256": "b343ec4a4071c4af34077d5ad08d1f98ffb3d38363aea711eb64829b8758325b"
+    },
+    {
+      "path": "_editions/2026-10-22.md",
+      "sha256": "578f864a629021230ab37e23a392e38d42e286cf44111011ad394a2b9be532f6"
+    },
+    {
+      "path": "_editions/2026-10-23.md",
+      "sha256": "b2c8a98d71902ebd1b04f6480b1d6a0ff56b3207f8b584c1722cbb766f6ee782"
+    },
+    {
+      "path": "_editions/2026-10-24.md",
+      "sha256": "f377e552ba9653b4a0d9e8da11623700a7e90ec592453298c6183c654db4af4e"
+    },
+    {
+      "path": "_editions/2026-10-25.md",
+      "sha256": "235fd2ef72c4ece0a07202cd5912a074aaae131ba7a6b776e81b62610aa969a1"
+    },
+    {
+      "path": "_editions/2026-10-26.md",
+      "sha256": "c9bdb705a98b1406c948a228847ec3b1a8976beea1da0a64f3d1e41f4a96cbba"
+    },
+    {
+      "path": "assets/images/agent-harness-state.webp",
+      "sha256": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e"
+    },
+    {
+      "path": "assets/images/ai-recommendation-bias.webp",
+      "sha256": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275"
+    },
+    {
+      "path": "assets/images/authorization-agent-boundaries.webp",
+      "sha256": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c"
+    },
+    {
+      "path": "assets/images/calibrated-disposition-drift.webp",
+      "sha256": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429"
+    },
+    {
+      "path": "assets/images/catalog-field-grounding.webp",
+      "sha256": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c"
+    },
+    {
+      "path": "assets/images/citation-relevance-verification.webp",
+      "sha256": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49"
+    },
+    {
+      "path": "assets/images/context-sensitive-model-boundaries.webp",
+      "sha256": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641"
+    },
+    {
+      "path": "assets/images/cost-aware-ticket-routing.webp",
+      "sha256": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623"
+    },
+    {
+      "path": "assets/images/google-agent-guidance-enforcement.webp",
+      "sha256": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6"
+    },
+    {
+      "path": "assets/images/hidden-instructions-public-pages.webp",
+      "sha256": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877"
+    },
+    {
+      "path": "assets/images/kapitsa-local-inference-operations.webp",
+      "sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3"
+    },
+    {
+      "path": "assets/images/litellm-release-authority.webp",
+      "sha256": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8"
+    },
+    {
+      "path": "assets/images/llm-proxy-visibility.webp",
+      "sha256": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854"
+    },
+    {
+      "path": "assets/images/materials-structure-ml.webp",
+      "sha256": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349"
+    },
+    {
+      "path": "assets/images/memory-needs-relevance.webp",
+      "sha256": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785"
+    },
+    {
+      "path": "assets/images/mercury-diffusion-serving.webp",
+      "sha256": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8"
+    },
+    {
+      "path": "assets/images/meta-terms-data-governance.webp",
+      "sha256": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09"
+    },
+    {
+      "path": "assets/images/minimax-flash-task-economics.webp",
+      "sha256": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041"
+    },
+    {
+      "path": "assets/images/multiagent-review-tradeoffs.webp",
+      "sha256": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a"
+    },
+    {
+      "path": "assets/images/pew-task-level-adoption.webp",
+      "sha256": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105"
+    },
+    {
+      "path": "assets/images/prompt-judge-evaluation.webp",
+      "sha256": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc"
+    },
+    {
+      "path": "assets/images/publication-share.png",
+      "sha256": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610"
+    },
+    {
+      "path": "assets/images/recoverable-agent-changes.webp",
+      "sha256": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2"
+    },
+    {
+      "path": "assets/images/scope-executable-policy.webp",
+      "sha256": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f"
+    },
+    {
+      "path": "assets/images/typed-decisions.webp",
+      "sha256": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf"
+    },
+    {
+      "path": "assets/images/voxtral-voice-workflow.webp",
+      "sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+    }
+  ]
+}
