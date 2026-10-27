@@ -1,0 +1,1278 @@
+{
+  "verified_at": "2026-10-27T12:27:33.563612Z",
+  "local_commit": "b2f1c0e94821c26d53e3164be58bf1fde24ca66f",
+  "url_count": 41,
+  "hero_count": 25,
+  "new_hero_count": 0,
+  "new_article_count": 4,
+  "results": [
+    {
+      "url": "https://yesterdai.tedt.org/",
+      "status": 200,
+      "bytes": 12895,
+      "sha256": "ca5e3a8c9b0336531b8386bb1d72e2a39a361a2290e914a112a427d23a6b2632",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-325f\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-27/",
+      "status": 200,
+      "bytes": 14631,
+      "sha256": "a5381d2ce0432330a807acadb0b2ce71c9089ac6aeaf472d47c5b969c005ca71",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-3927\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-26/",
+      "status": 200,
+      "bytes": 11070,
+      "sha256": "858feeaaf56178dc5aff19d68ace0ca1476e638ebab53d832ab1b674b17c935b",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-2b3e\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/about/",
+      "status": 200,
+      "bytes": 8361,
+      "sha256": "81cd562083447c1256c727b4e9554f925c184b2e39c5feaed3e962c53e73bf5c",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-20a9\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/archive/",
+      "status": 200,
+      "bytes": 12480,
+      "sha256": "8ca821bf3d57f62f455ab7d785935765817d0996ffa908a95e6acf1c4b9f68b4",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-30c0\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/search/",
+      "status": 200,
+      "bytes": 24694,
+      "sha256": "d70e125a8ca8195cdb3e8db05732d846ee859f42b9ec0d64a24496b4def3a4a9",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-6076\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/cloudflare-cache-isolation-tests/",
+      "status": 200,
+      "bytes": 13368,
+      "sha256": "42c71579b04ebae824ede8ed2badd7b512741cc8d47eb171efb359b9ec3ab016",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-3438\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/anthropic-s1-board-control/",
+      "status": 200,
+      "bytes": 13082,
+      "sha256": "acd1f9df2b98064e2e642996499947dee0fe41a0d00ac136248f9d21fef71703",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-331a\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/microsoft-buyouts-ai-staffing/",
+      "status": 200,
+      "bytes": 13042,
+      "sha256": "a2166f8bae29df7161f575c10affdcd331d036f1031c696831a5763fdb318a5d",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-32f2\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/gpt-6-1-terra-computer-use-trials/",
+      "status": 200,
+      "bytes": 13026,
+      "sha256": "3c2aa34c6d58af86d2e8e0de409fd08174b2f3cdd300031779e013b657f63e32",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-32e2\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/model-price-cuts-cache-accounting/",
+      "status": 200,
+      "bytes": 12702,
+      "sha256": "864d720c1ccc3d34ceeb35c6bcd3c789dc9a830aac76e098b2f0ea139146b061",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-319e\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/rao-ai-adoption-unserved-work/",
+      "status": 200,
+      "bytes": 12480,
+      "sha256": "2eaa40a052030f553fc2a89396c39c97be49bf3d810c9624a3a47e5d8b567cba",
+      "content_type": "text/html; charset=utf-8",
+      "etag": "\"6ae09875-30c0\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.json",
+      "status": 200,
+      "bytes": 114550,
+      "sha256": "b55affdae337dcd91be192afda3a8c89c07639f30af79f6abbb9d90ef4c8fb38",
+      "content_type": "application/json; charset=utf-8",
+      "etag": "\"6ae09875-1bf76\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.xml",
+      "status": 200,
+      "bytes": 120035,
+      "sha256": "4b443172e7e0d7a5795f653940b2303e37162118d8373929d826a6f6f8df7ea9",
+      "content_type": "application/xml",
+      "etag": "\"6ae09875-1d4e3\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/sitemap.xml",
+      "status": 200,
+      "bytes": 6140,
+      "sha256": "15dc9617006a615db00a1318bc1a979c97d2b4462cea91abfe90a6c76f38edf9",
+      "content_type": "application/xml",
+      "etag": "\"6ae09875-17fc\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/status.json",
+      "status": 200,
+      "bytes": 140,
+      "sha256": "fe1e9b77638d00e966570ed20ece4189e32dc748a25cbfbf9fd5151263b000eb",
+      "content_type": "application/json; charset=utf-8",
+      "etag": "\"6ae09875-8c\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/agent-harness-state.webp",
+      "status": 200,
+      "bytes": 9604,
+      "sha256": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-2584\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp",
+      "status": 200,
+      "bytes": 14884,
+      "sha256": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-3a24\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp",
+      "status": 200,
+      "bytes": 7530,
+      "sha256": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-1d6a\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp",
+      "status": 200,
+      "bytes": 20312,
+      "sha256": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-4f58\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp",
+      "status": 200,
+      "bytes": 10434,
+      "sha256": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-28c2\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp",
+      "status": 200,
+      "bytes": 13996,
+      "sha256": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-36ac\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp",
+      "status": 200,
+      "bytes": 14678,
+      "sha256": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-3956\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp",
+      "status": 200,
+      "bytes": 17004,
+      "sha256": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-426c\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp",
+      "status": 200,
+      "bytes": 20022,
+      "sha256": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-4e36\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp",
+      "status": 200,
+      "bytes": 27316,
+      "sha256": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-6ab4\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp",
+      "status": 200,
+      "bytes": 16164,
+      "sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-3f24\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp",
+      "status": 200,
+      "bytes": 16084,
+      "sha256": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-3ed4\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp",
+      "status": 200,
+      "bytes": 17196,
+      "sha256": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-432c\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp",
+      "status": 200,
+      "bytes": 53060,
+      "sha256": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-cf44\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp",
+      "status": 200,
+      "bytes": 8876,
+      "sha256": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-22ac\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp",
+      "status": 200,
+      "bytes": 21590,
+      "sha256": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-5456\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp",
+      "status": 200,
+      "bytes": 14260,
+      "sha256": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-37b4\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp",
+      "status": 200,
+      "bytes": 10132,
+      "sha256": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-2794\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp",
+      "status": 200,
+      "bytes": 17144,
+      "sha256": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-42f8\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp",
+      "status": 200,
+      "bytes": 24218,
+      "sha256": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-5e9a\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp",
+      "status": 200,
+      "bytes": 19258,
+      "sha256": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-4b3a\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp",
+      "status": 200,
+      "bytes": 11488,
+      "sha256": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-2ce0\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp",
+      "status": 200,
+      "bytes": 12114,
+      "sha256": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-2f52\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/typed-decisions.webp",
+      "status": 200,
+      "bytes": 15708,
+      "sha256": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-3d5c\""
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp",
+      "status": 200,
+      "bytes": 12230,
+      "sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5",
+      "content_type": "image/webp",
+      "etag": "\"6ae09875-2fc6\""
+    }
+  ],
+  "checks": [
+    {
+      "check": "HTTP 200: /",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /about/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /archive/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /search/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /feed.json",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /feed.xml",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /sitemap.xml",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /status.json",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "check": "HTTP 200: /assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /",
+      "passed": true
+    },
+    {
+      "check": "Article linked from /: cloudflare-cache-isolation-tests",
+      "passed": true
+    },
+    {
+      "check": "Article linked from /: anthropic-s1-board-control",
+      "passed": true
+    },
+    {
+      "check": "Article linked from /: microsoft-buyouts-ai-staffing",
+      "passed": true
+    },
+    {
+      "check": "Article linked from /: gpt-6-1-terra-computer-use-trials",
+      "passed": true
+    },
+    {
+      "check": "Explicit Cloudflare lead present: /",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Article linked from /editions/2026-10-27/: cloudflare-cache-isolation-tests",
+      "passed": true
+    },
+    {
+      "check": "Article linked from /editions/2026-10-27/: anthropic-s1-board-control",
+      "passed": true
+    },
+    {
+      "check": "Article linked from /editions/2026-10-27/: microsoft-buyouts-ai-staffing",
+      "passed": true
+    },
+    {
+      "check": "Article linked from /editions/2026-10-27/: gpt-6-1-terra-computer-use-trials",
+      "passed": true
+    },
+    {
+      "check": "Explicit Cloudflare lead present: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /editions/2026-10-27/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /editions/2026-10-26/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /about/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /about/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /about/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /about/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /about/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /about/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /about/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /about/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /about/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /about/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /about/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /archive/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /search/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /search/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /search/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /search/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /search/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /search/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /search/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /search/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /search/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /search/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /search/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching full article body: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching publication byline and date: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /articles/cloudflare-cache-isolation-tests/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching full article body: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching publication byline and date: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /articles/anthropic-s1-board-control/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching full article body: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching publication byline and date: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /articles/microsoft-buyouts-ai-staffing/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching full article body: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching publication byline and date: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /articles/gpt-6-1-terra-computer-use-trials/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching full article body: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching publication byline and date: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /articles/model-price-cuts-cache-accounting/",
+      "passed": true
+    },
+    {
+      "check": "Matching headline: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching search title: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Canonical URL: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching description: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:title: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:description: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching og:image: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:title: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:description: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching twitter:image: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching full article body: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Matching publication byline and date: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "Footer disclosure present: /articles/rao-ai-adoption-unserved-work/",
+      "passed": true
+    },
+    {
+      "check": "JSON Feed article IDs match built publication",
+      "passed": true
+    },
+    {
+      "check": "Full JSON Feed record matches: cloudflare-cache-isolation-tests",
+      "passed": true
+    },
+    {
+      "check": "Full JSON Feed record matches: anthropic-s1-board-control",
+      "passed": true
+    },
+    {
+      "check": "Full JSON Feed record matches: microsoft-buyouts-ai-staffing",
+      "passed": true
+    },
+    {
+      "check": "Full JSON Feed record matches: gpt-6-1-terra-computer-use-trials",
+      "passed": true
+    },
+    {
+      "check": "Full JSON Feed record matches: model-price-cuts-cache-accounting",
+      "passed": true
+    },
+    {
+      "check": "Full JSON Feed record matches: rao-ai-adoption-unserved-work",
+      "passed": true
+    },
+    {
+      "check": "RSS GUIDs, titles, dates and complete article bodies match",
+      "passed": true
+    },
+    {
+      "check": "Public status identifies October 27",
+      "passed": true
+    },
+    {
+      "check": "Edition present in sitemap",
+      "passed": true
+    },
+    {
+      "check": "Article present in sitemap: cloudflare-cache-isolation-tests",
+      "passed": true
+    },
+    {
+      "check": "Article present in sitemap: anthropic-s1-board-control",
+      "passed": true
+    },
+    {
+      "check": "Article present in sitemap: microsoft-buyouts-ai-staffing",
+      "passed": true
+    },
+    {
+      "check": "Article present in sitemap: gpt-6-1-terra-computer-use-trials",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "check": "Preserved hero bytes match: /assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

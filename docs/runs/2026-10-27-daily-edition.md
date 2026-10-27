@@ -1,6 +1,6 @@
 # October 27 daily edition
 
-Status: **complete editorial checkpoint; all deterministic checks passed; publication awaiting guarded ship and exact-commit deployment verification**. Required user action: none while the authorized publication completes.
+Status: **published and publicly verified; four complete briefs; zero article shortfall**. Required user action: **none**. The evidence audit is being committed and shipped; final audit-commit verification is recorded in the automation memory/Scheduled after it completes.
 
 ## Contract, isolation and dates
 
@@ -41,9 +41,9 @@ The publication byline, footer/About AI disclosure and article-specific search/s
 
 All six required deterministic stages passed: **36 Python unit tests**; validation of **10 editions / 32 articles**; strict Jekyll build; Pagefind indexing of **32 articles**; rendered checks over **55 HTML pages**, links, accessibility metadata, feeds and sitemap; **4 JavaScript tests** and publication smoke. Ruby **3.2.9**, Python **3.14.10**, Node **v26.12.1**. Installed locked dependencies are reused through ignored dependency directories. Every one of the base’s **63 article, edition and image files** remains byte-identical.
 
-Commit the completed editorial checkpoint and use `scripts/publish.py ship`. It reconciles origin/main, repeats the checks and pushes without force. Hosted reader/accessibility/responsive and fixed visual checks must succeed before Pages deployment. Exact content commit, hosted run, public URL readback and actual publication outcome will be recorded after those steps.
+The completed content checkpoint was committed and shipped through `scripts/publish.py ship`, which reconciled origin/main and repeated all six checks without conflict or force. The exact content commit’s hosted reader/accessibility/responsive and approved visual checks passed before Pages deployment. The deployment and public readback evidence below establish the actual publication outcome.
 
-Intended URLs:
+Published URLs, verified against the built content:
 
 - https://yesterdai.tedt.org/editions/2026-10-27/
 - https://yesterdai.tedt.org/articles/cloudflare-cache-isolation-tests/
@@ -53,4 +53,20 @@ Intended URLs:
 
 ## Prior run reconciliation
 
-The October 26 automation memory stopped before hosted verification. Read-only inspection now confirms its exact content commit **cb32cc94482590bd09409c45deeaa0ab840c4905** completed [Build and publish run 40320561966](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40320561966) successfully, including build, reader/accessibility/responsive checks, fixed visual comparison and deploy. Deploy completed **October 26 12:13:40 UTC**. Its public edition was read successfully during this run; its two article bodies will also be checked with today’s public readback. Published October 26 content was not changed.
+The October 26 automation memory stopped before hosted verification. Read-only inspection now confirms its exact content commit **cb32cc94482590bd09409c45deeaa0ab840c4905** completed [Build and publish run 40320561966](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40320561966) successfully, including build, reader/accessibility/responsive checks, fixed visual comparison and deploy. Deploy completed **October 26 12:13:40 UTC**. Its public edition and both complete article bodies were checked with today’s successful public readback. Published October 26 content was not changed.
+
+## Content push and transient deployment retry
+
+Content commit **b2f1c0e94821c26d53e3164be58bf1fde24ca66f** was published to origin/main by `scripts/publish.py ship`, with all six checks repeated, no rebase conflict and no force push. Exact [Build and publish run 40501945782](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40501945782) passed its deterministic stages, then stalled for over ten minutes while installing an Ubuntu dependency required by the browsers. The live job page showed the last download at `libcodec2-1.2` from the Ubuntu Azure archive mirror. Running-job logs were unavailable through the connector; the live UI provided this evidence.
+
+The stalled first attempt was cancelled. Its final state is saved in `2026-10-27-deployment-attempt-1.json`. The user-authorized **single transient deployment retry has been used**, rerunning the complete workflow for the same content commit on a fresh runner. At **2026-10-27T12:25:21.244609Z**, attempt two was running. It subsequently succeeded as recorded below. No required check was bypassed; the prior successful site remained available until the new deployment passed.
+
+## Verified publication outcome
+
+The exact content commit **b2f1c0e94821c26d53e3164be58bf1fde24ca66f** completed [Build and publish run 40501945782](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40501945782) successfully on its second attempt. Build, browser/reader jobs, accessibility, responsive behavior and the approved fixed visual comparison passed. The deploy job completed **2026-10-27T12:26:35Z**. The first attempt’s Ubuntu dependency stall was resolved on the fresh runner; no application or workflow change was needed.
+
+Public readback at **2026-10-27T12:27:33.563612Z** passed **all 41 URLs** with no failures: homepage, October 27 edition and all four articles, October 26 edition and both articles, About/archive/search, RSS/JSON feeds, sitemap/status, and **25 preserved article heroes**. New and prior article bodies match the built text; article titles, descriptions, canonical/social metadata, publication bylines/dates and complete feed records match. All preserved hero bytes match. New hero count remains zero because all four new articles are briefs. The public status identifies **2026-10-27**.
+
+Durable evidence: `2026-10-27-deployment.json`, `2026-10-27-deployment-attempt-1.json`, `2026-10-27-public-verification.json`, and the source audit. The audit commit records the successful content deployment; it will itself pass the same guarded ship and exact-commit/public readback checks. Final audit-deployment evidence is retained in the automation memory and Scheduled, avoiding a self-referential chain of audit commits.
+
+**Required action: none.** The four-article edition is published within the evidence and format contracts. A retry should validate and reuse the completed edition and preserve its articles/heroes. No sources were recast as a quiet day, and no reporting-window or count exceptions were needed.

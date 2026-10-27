@@ -1963,5 +1963,17 @@
       "path": "assets/images/voxtral-voice-workflow.webp",
       "sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
     }
-  ]
+  ],
+  "publication": {
+    "content_commit": "b2f1c0e94821c26d53e3164be58bf1fde24ca66f",
+    "workflow_run": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40501945782",
+    "workflow_attempt": 2,
+    "conclusion": "success",
+    "deployed_at": "2026-10-27T12:26:35Z",
+    "public_verified_at": "2026-10-27T12:27:33.563612Z",
+    "urls_passed": 41,
+    "preserved_heroes_verified": 25,
+    "article_shortfall": 0,
+    "required_action": "none"
+  }
 }
