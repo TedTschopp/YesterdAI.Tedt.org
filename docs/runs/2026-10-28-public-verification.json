@@ -1,0 +1,365 @@
+{
+  "verified_at": "2026-10-28T15:04:15.821501Z",
+  "content_commit": "b7476f7d377d08da40e6a2bbdaa13688c4e445c6",
+  "passed": true,
+  "urls": [
+    {
+      "url": "https://yesterdai.tedt.org/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/",
+      "bytes": 11751,
+      "sha256": "67cd80194be686524d8aa91d00a45b0e21b2268e32513279b01cf73ec29d126d"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-28/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/editions/2026-10-28/",
+      "bytes": 13191,
+      "sha256": "e692b8d73dac42d8e79df276f0de047be1a218decd3e1670ed95e35ef30cbe4f"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-27/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/editions/2026-10-27/",
+      "bytes": 14685,
+      "sha256": "3a18bb1bd9539dbad37169983592d4e44d3cca82928457f9e331c15bfeceaf9b"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/claude-batch-review-evidence/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/claude-batch-review-evidence/",
+      "bytes": 13614,
+      "sha256": "47a3be7dad9497567de71e4458435faa442863c2e741eaa7f230d75a26eaf644"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/agent-optimization-budget/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/agent-optimization-budget/",
+      "bytes": 13894,
+      "sha256": "fb201bf0b1757028fb10fa233b6f5968ebb48214d3a0541d0002e37e6838572a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/genie-4-preview-simulation/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/genie-4-preview-simulation/",
+      "bytes": 13116,
+      "sha256": "f310df3ce38262a16f2d81cd2e376c98ce5930d3a7193be46f159f0fea77680a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/anthropic-s1-board-control/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/anthropic-s1-board-control/",
+      "bytes": 13094,
+      "sha256": "9a44c7249b934fb2dad62b3d1f9914ae1e01f8c4d71c2461895739f115ea823d"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/cloudflare-cache-isolation-tests/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/cloudflare-cache-isolation-tests/",
+      "bytes": 13367,
+      "sha256": "8135ecae9d502073b412e1a2d047f9e0d18ee8fda709588999c35ce1c53677f7"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/gpt-6-1-terra-computer-use-trials/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/gpt-6-1-terra-computer-use-trials/",
+      "bytes": 13056,
+      "sha256": "c82c4fc974c4eff49ff181427b2f3d84bbd4ea5d24e24c29726bf264b53920ab"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/microsoft-buyouts-ai-staffing/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/microsoft-buyouts-ai-staffing/",
+      "bytes": 13054,
+      "sha256": "1022d6c6a401f0caad1a759b0630c1eb8618f1c35796aae2241e5f0d1a7c18df"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/archive/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/archive/",
+      "bytes": 13187,
+      "sha256": "76e9bcada30abba938578f845a3ccdda8fdfb4392f98ad94d272444ff6078a23"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/search/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/search/",
+      "bytes": 26190,
+      "sha256": "c6d74efe6cb4519ad87a162406eec4c1b5c739071c45936f24e366d654c0cd67"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.xml",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/feed.xml",
+      "bytes": 129427,
+      "sha256": "9d3d84250310e7b5858764c98f6224a22474b71afa6a46935364d8ead3d835ff"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.json",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/feed.json",
+      "bytes": 123454,
+      "sha256": "c07f3574cfb269e4c60b72f00f1c02c44dc5b2d67d472ccad7b6053f894a791a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/sitemap.xml",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/sitemap.xml",
+      "bytes": 6641,
+      "sha256": "dfcfbeea31ced95e823e8d31b23c53f267bee495f7e1de21154c29e8ebb01e4a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/about/",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/about/",
+      "bytes": 8361,
+      "sha256": "81cd562083447c1256c727b4e9554f925c184b2e39c5feaed3e962c53e73bf5c"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/pagefind/pagefind.js",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/pagefind/pagefind.js",
+      "bytes": 45555,
+      "sha256": "252d272bd34d483d19a752060f6a065114d15ab12c42d8f905ca565e2768a009"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/status.json",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/status.json",
+      "bytes": 140,
+      "sha256": "41bdedc5b37e69123f3a74c4e1d21d354975e573eeef0d0d0d503056cd841820"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/publication-share.png",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/publication-share.png",
+      "bytes": 38777,
+      "sha256": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/agent-harness-state.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/agent-harness-state.webp",
+      "bytes": 9604,
+      "sha256": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp",
+      "bytes": 14884,
+      "sha256": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp",
+      "bytes": 7530,
+      "sha256": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp",
+      "bytes": 20312,
+      "sha256": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp",
+      "bytes": 10434,
+      "sha256": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp",
+      "bytes": 13996,
+      "sha256": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp",
+      "bytes": 14678,
+      "sha256": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp",
+      "bytes": 17004,
+      "sha256": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp",
+      "bytes": 20022,
+      "sha256": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp",
+      "bytes": 27316,
+      "sha256": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp",
+      "bytes": 16164,
+      "sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp",
+      "bytes": 16084,
+      "sha256": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp",
+      "bytes": 17196,
+      "sha256": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp",
+      "bytes": 53060,
+      "sha256": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp",
+      "bytes": 8876,
+      "sha256": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp",
+      "bytes": 21590,
+      "sha256": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp",
+      "bytes": 14260,
+      "sha256": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp",
+      "bytes": 10132,
+      "sha256": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp",
+      "bytes": 17144,
+      "sha256": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp",
+      "bytes": 24218,
+      "sha256": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp",
+      "bytes": 19258,
+      "sha256": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp",
+      "bytes": 11488,
+      "sha256": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp",
+      "bytes": 12114,
+      "sha256": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/typed-decisions.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/typed-decisions.webp",
+      "bytes": 15708,
+      "sha256": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp",
+      "bytes": 12230,
+      "sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+    }
+  ],
+  "page_checks": [
+    {
+      "path": "/editions/2026-10-28/",
+      "metadata_canonical_body_byline_match": true
+    },
+    {
+      "path": "/editions/2026-10-27/",
+      "metadata_canonical_body_byline_match": true
+    },
+    {
+      "path": "/articles/claude-batch-review-evidence/",
+      "metadata_canonical_body_byline_match": true
+    },
+    {
+      "path": "/articles/agent-optimization-budget/",
+      "metadata_canonical_body_byline_match": true
+    },
+    {
+      "path": "/articles/genie-4-preview-simulation/",
+      "metadata_canonical_body_byline_match": true
+    },
+    {
+      "path": "/articles/anthropic-s1-board-control/",
+      "metadata_canonical_body_byline_match": true
+    },
+    {
+      "path": "/articles/cloudflare-cache-isolation-tests/",
+      "metadata_canonical_body_byline_match": true
+    },
+    {
+      "path": "/articles/gpt-6-1-terra-computer-use-trials/",
+      "metadata_canonical_body_byline_match": true
+    },
+    {
+      "path": "/articles/microsoft-buyouts-ai-staffing/",
+      "metadata_canonical_body_byline_match": true
+    }
+  ],
+  "new_article_count": 3,
+  "prior_articles_checked": 4,
+  "existing_hero_urls_and_hashes_checked": 25,
+  "new_hero_count": 0,
+  "new_briefs_omit_heroes": true,
+  "public_status": {
+    "version": 1,
+    "latest_edition": "2026-10-28",
+    "wire_checked_at": "2026-10-28T14:45:36.987893Z",
+    "wire_changed_at": "2026-10-28T08:32:29.035377Z"
+  },
+  "errors": []
+}

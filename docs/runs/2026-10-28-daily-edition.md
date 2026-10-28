@@ -1,6 +1,6 @@
 # October 28 daily edition
 
-Status: **prepared and locally validated; three complete researched briefs; zero article shortfall**. Publication is pending the guarded ship, hosted deployment gate and public readback. Required action: **complete publication verification**; no user decision is needed.
+Status: **published and publicly verified; three complete researched briefs; zero article shortfall**. Required user action: **none**. This evidence audit is being committed and shipped; its final exact-commit deployment/readback is recorded in automation memory and Scheduled after completion.
 
 ## Contract, isolation and timing
 
@@ -59,3 +59,15 @@ The complete content and this audit are ready to commit and ship with `scripts/p
 ## Concurrent feed refresh reconciliation
 
 The first guarded ship fetched **4a4ee8ad3bcba98c40504c44b11b67a7a8f59831** and stopped at a live-wire timestamp conflict. The hourly update changed only success/check times to **14:30:01.991641Z**. Its 79 items exactly match the local snapshot, whose successful check is newer at **14:45:36.987893Z**. Retained that newer check, completed the ordinary rebase, and reran the guarded publisher. No user changes were reset and no force push was used.
+
+## Verified publication outcome
+
+Content commit **b7476f7d377d08da40e6a2bbdaa13688c4e445c6** shipped through `scripts/publish.py ship` after reconciliation and all six repeated deterministic stages. Exact [Build and publish run 40711265274](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40711265274) succeeded on its **first attempt**. Hosted reader/browser/accessibility/responsive checks and the approved fixed visual comparisons passed. Pages deployment completed **2026-10-28T15:02:43Z**. No deployment retry, bypass or application/workflow change was needed.
+
+Public readback at **2026-10-28T15:04:15.821501Z** passed **all 44 URLs** with no failures: homepage, October 28 edition and all three articles, October 27 edition and all four articles, archive/search/About, RSS/JSON feeds, sitemap, status, Pagefind bundle, publication share image and **25 preserved article heroes**. Complete new and prior article bodies, titles, summaries, canonical/social metadata, publication bylines and complete feed records match the build. All preserved hero bytes match. Public status identifies **2026-10-28**.
+
+Published URLs are the four edition/article URLs listed above. The edition contains three full briefs and no article shortfall. The Enveda study is the explicit lead. The prior successful site remained available through the hosted gate, and completed earlier editions and images were preserved.
+
+Durable evidence: `2026-10-28-deployment.json`, `2026-10-28-public-verification.json` and `2026-10-28-source-audit.json`. This audit commit records content publication and will itself pass the guarded publisher and exact-commit/public readback checks. Its final evidence is kept in automation memory and Scheduled, avoiding an endless chain of evidence-only commits.
+
+**Required action: none.** On a same-day retry, reuse and validate this completed edition, article membership and assets. Do not redraft, regenerate, expand the window or push an unchanged validated edition.
