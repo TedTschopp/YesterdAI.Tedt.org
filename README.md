@@ -36,3 +36,7 @@ Public pages: /, /live/, /archive/, /search/, /topics/, and /about/. Syndication
 The preserved archive has source/date/identity/anchor/image checks. Pagefind builds after Jekyll. GitHub deployment requires Chromium and WebKit reader/accessibility checks plus reviewed fixed-content visual fixtures at six widths in both themes. Pinned OFL font files keep typography repeatable. Production jobs cannot modify application code or approved visual baselines.
 
 Publication health runs independently on GitHub, checking the 7 a.m. Pacific edition deadline and three-hour feed-check age. Weekly Lighthouse runs record mobile lab measurements; they do not establish field INP. See [operations](docs/operations.md).
+
+## Shared TedT.org Navigation
+
+The global header loads `https://tedt.org/assets/global-header/v1/header.js`. Menu changes belong in the TedT.org repository, rather than in this site. The small local fallback and pre-paint bootstrap keep navigation and appearance usable while loading. The shared `tedt-appearance` cookie and `tedt:theme-change` event synchronize appearance; keep local site navigation and application controls separate. See https://tedt.org/docs/global-header.md for the embed contract.

@@ -50,9 +50,11 @@
   <link rel="preload" href="/assets/fonts/inter-normal-latin-dd8a4575be98.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/publication.css' | relative_url }}">
   <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+<link rel="stylesheet" href="/assets/css/tedt-header-embed.css">
 </head>
 <body id="top" data-page-job="{{ page.collection | default: page.job | default: 'read' }}">
   <a class="skip-link" href="#main">Skip to content</a>
+  {% include global-header.html %}
   <header class="site-nav" data-pagefind-ignore>
     <nav class="yia-container nav-inner" aria-label="Main navigation">
       <a class="brand-link" href="/"><img src="/assets/logos/logo-wordmark-inverse.svg" width="181" height="32" alt="Yesterday in AI"></a>
@@ -63,7 +65,7 @@
         <a href="/about/"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
         <a href="/search/"{% if page.url == '/search/' %} aria-current="page"{% endif %}>Search</a>
       </div>
-      <button class="theme-button" type="button" data-theme-toggle aria-label="Switch to dark theme">Dark</button>
+
     </nav>
   </header>
   <main id="main" tabindex="-1">{{ content }}</main>

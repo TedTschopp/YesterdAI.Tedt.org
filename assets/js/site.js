@@ -1,21 +1,5 @@
 (async () => {
   'use strict';
-  const toggle = document.querySelector('[data-theme-toggle]');
-  function syncTheme() {
-    const dark = document.documentElement.dataset.theme === 'dark';
-    if (toggle) {
-      toggle.textContent = dark ? 'Light' : 'Dark';
-      toggle.setAttribute('aria-label', 'Switch to ' + (dark ? 'light' : 'dark') + ' theme');
-    }
-  }
-  syncTheme();
-  toggle?.addEventListener('click', () => {
-    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
-    document.documentElement.dataset.theme = next;
-    try { localStorage.setItem('yia-theme', next); } catch (_) { /* Storage is optional. */ }
-    syncTheme();
-  });
-
   const { publicationNotice } = await import('/assets/js/reader-state.js');
   document.querySelectorAll('.publication-notice').forEach(notice => {
     const state = publicationNotice(notice.dataset);

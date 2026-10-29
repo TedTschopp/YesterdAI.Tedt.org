@@ -1,3 +1,4 @@
+import { routeHeaderAssets } from '../shared-header.mjs';
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import fs from 'node:fs';
@@ -19,6 +20,7 @@ for (const width of [320,390,768,1024,1280,1440]) {
       const pageErrors=[];
       page.on('pageerror', error=>pageErrors.push(error.message));
       await page.setViewportSize({width,height:width<=600?844:900});
+      await page.context().addCookies([{name:'tedt-appearance',value:theme,url:'http://127.0.0.1:4173/'}]);
       await page.addInitScript(value=>localStorage.setItem('yia-theme',value),theme);
       for (const route of routes) {
         await page.goto(route);
@@ -53,7 +55,8 @@ for (const width of [320,390,768,1024,1280,1440]) {
 test('main reading surfaces pass WCAG AA automated checks in both themes',async ({page})=>{
   test.setTimeout(180000);
   for (const theme of ['light','dark']) {
-    await page.addInitScript(value=>localStorage.setItem('yia-theme',value),theme);
+    await page.context().addCookies([{name:'tedt-appearance',value:theme,url:'http://127.0.0.1:4173/'}]);
+      await page.addInitScript(value=>localStorage.setItem('yia-theme',value),theme);
     for (const route of routes) {
       await page.goto(route);
       await page.evaluate(()=>document.fonts.ready);
@@ -63,16 +66,16 @@ test('main reading surfaces pass WCAG AA automated checks in both themes',async 
   }
 });
 
-test('keyboard entry, theme persistence, and enlarged text remain usable',async ({page})=>{
+test('keyboard entry, theme persistence, and enlarged text remain usable',async ({page,browserName})=>{
   await page.goto('/');
-  await page.keyboard.press('Tab');
+  await page.keyboard.press(browserName==='webkit' && process.platform==='darwin' ? 'Alt+Tab' : 'Tab');
   await expect(page.getByRole('link',{name:'Skip to content'})).toBeFocused();
   await page.keyboard.press('Enter');
   await expect(page.locator('#main')).toBeFocused();
-  await page.getByRole('button',{name:'Switch to dark theme'}).click();
+  await page.getByRole('button',{name:'Dark',exact:true}).click();
   await page.reload();
   await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
-  await page.getByRole('button',{name:'Switch to light theme'}).click();
+  await page.getByRole('button',{name:'Light',exact:true}).click();
   await page.setViewportSize({width:320,height:844});
   await page.addStyleTag({content:'html { font-size: 200% !important; }'});
   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);
@@ -166,3 +169,5 @@ test('recent published articles reflow in every supported layout and retain usef
     }
   }
 });
+
+test.beforeEach(async ({ page }) => { await routeHeaderAssets(page); });
