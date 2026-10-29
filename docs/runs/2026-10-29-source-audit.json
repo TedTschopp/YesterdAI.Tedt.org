@@ -1,0 +1,1952 @@
+{
+  "edition_date": "2026-10-29",
+  "reader_contract": "2.0.3",
+  "metadata_contract": 2,
+  "writing_style": "ted-writing-style",
+  "writing_style_version": "1.0.0",
+  "mode": "technology/strategy",
+  "cutoff": "2026-10-29T05:00:00-07:00",
+  "window_start": "2026-10-28T00:00:00Z",
+  "prepared_at": "2026-10-29T12:11:45.512620Z",
+  "base_commit": "c9f69a2",
+  "discovery_checked_at": "2026-10-29T12:05:58.617675Z",
+  "feeds": {
+    "curated": {
+      "items": 235,
+      "excluded": [
+        {
+          "id": "2e6b008d7907924a9c4c56743403e3af",
+          "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+        }
+      ],
+      "sha256": "bf0b7241355c55f8d37f54bebfd3646178890accbd815559d660779632c6600d"
+    },
+    "top": {
+      "items": 80,
+      "excluded": [],
+      "sha256": "46c5728d15a41dbb9caf0703771948b0fa65597c909a9e8eabc050bb3bce5dfd"
+    }
+  },
+  "candidate_records": 92,
+  "distinct_candidate_urls": 92,
+  "older_curated_not_advanced": 223,
+  "dispositions": {
+    "selected": 3,
+    "unverified_timezone": 2,
+    "selected_supporting": 1,
+    "outside_window": 2,
+    "duplicate": 3,
+    "not_advanced": 80,
+    "no_eligible_original_date": 1
+  },
+  "candidate_exhaustion_claimed": false,
+  "article_target": [
+    3,
+    5
+  ],
+  "article_count": 3,
+  "article_shortfall": 0,
+  "articles": [
+    {
+      "article_id": "art_af8e72e013cbe8cf",
+      "slug": "copilot-fusion-model-policy",
+      "title": "Copilot Fusion puts model routing inside an administrator’s policy",
+      "format": "brief",
+      "words": 306,
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/copilot-fusion-model-policy/",
+      "source_publication": "2026-10-28T16:00:00Z"
+    },
+    {
+      "article_id": "art_3e32bae570ff21ee",
+      "slug": "gemini-carbon-restricted-rollout",
+      "title": "Gemini 4 Carbon starts with restricted access for cyber defenders",
+      "format": "brief",
+      "words": 308,
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/gemini-carbon-restricted-rollout/",
+      "source_publication": "2026-10-28T17:00:00Z"
+    },
+    {
+      "article_id": "art_25fbc9537ce488a6",
+      "slug": "ciso-survey-security-deployment",
+      "title": "CISO survey separates security buying plans from production use",
+      "format": "brief",
+      "words": 332,
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/ciso-survey-security-deployment/",
+      "source_publication": "2026-10-28T16:00:31Z"
+    }
+  ],
+  "lead_article_id": "art_af8e72e013cbe8cf",
+  "hero_decision": "All three are focused briefs chosen before drafting; no new hero required or attempted. Prior heroes are preserved.",
+  "preservation": {
+    "existing_files": 72,
+    "changed_files": [],
+    "baseline_sha256": "898e4d728c75b4422bdbd594600a4bb2fd51db9bbe431fac2e54ae4b0780a1a9"
+  },
+  "candidates": [
+    {
+      "feed": "curated",
+      "feed_id": "473647821428b82ce0e46909545f2ced",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "canonical_url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "feed_title": "Route and orchestrate models with GitHub Copilot Fusion [ * ] (Estimated)",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "selected",
+      "reason": "Generally available routing, administration and per-model billing create an immediate operating decision."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "c32f1ce5cfb19729dfda2cfe17c44bc5",
+      "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+      "canonical_url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+      "feed_title": "Introducing artifacts for legal work [ ! ] (Estimated)",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "unverified_timezone",
+      "reason": "Original publisher meta/BlogPosting gives October 28 without a timezone; no precise eligible publication time verified. Not advanced further after three stories were supported."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "b394592202bfe53abf0d1faa562f2fd7",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+      "feed_title": "Gemini 4 Carbon: our next frontier model [ * ] (Estimated)",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "selected_supporting",
+      "reason": "Same Carbon launch as DeepMind; corroborating original timestamp and announced prices, consolidated in one article."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "3216275ae59dae0266e661d5b7026ca2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/",
+      "canonical_url": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc",
+      "feed_title": "How Rescale built an AI triage agent with Strands Agents and AI-DLC [ ! ] (Estimated)",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "outside_window",
+      "reason": "Original published_time 2026-10-22T08:25:57-08:00, modified 08:27:23-08:00; the October 29 curated selection date does not refresh eligibility."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "650c7d7526e87a5487e02cf1b1672a33",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "canonical_url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "feed_title": "How AI agents shape experts' judgment calls [ ~ ] (Estimated)",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "outside_window",
+      "reason": "Original meta/Article JSON-LD 2026-10-27T00:00:00.000Z; modified 2026-10-27T19:17:23.000Z. Both precede the window despite October 29 discovery."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "4085ba20a99e3ee4b07e63032baf0ec4",
+      "url": "https://www.a16z.news/p/the-new-security-agenda?utm_source=post-email-title&publication_id=13145&post_id=219608200&utm_campaign=email-post-title&isFreemail=true&r=1v3zy&triedRedirect=true&utm_medium=email",
+      "canonical_url": "https://www.a16z.news/p/the-new-security-agenda?isFreemail=true&post_id=219608200&publication_id=13145&r=1v3zy&triedRedirect=true",
+      "feed_title": "The New Security Agenda [ ~ ] (Estimated)",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "selected",
+      "reason": "Original investor-authored survey adds distinct evidence about buying intent, deployments and staffing expectations."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "180df2d380f44582253e8832a0f7300a",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "canonical_url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "feed_title": "GPT 6.1 Terra [ * ]",
+      "feed_published_at": "2026-10-28T00:00:00+00:00",
+      "disposition": "duplicate",
+      "reason": "Already covered October 27; no distinct substantive new development established."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "931dee2e2a81c979bdfcaa09543d2c46",
+      "url": "https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/article/article_100xaicultures_ltr.pdf",
+      "canonical_url": "https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/article/article_100xaicultures_ltr.pdf",
+      "feed_title": "AI Beneficiaries: Investing in Second-Order Effects [ ! ]",
+      "feed_published_at": "2026-10-28T00:00:00+00:00",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "252224aeabf408116550c90c0c44ea8a",
+      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-rise-of-the-agentic-coworker-a-banking-cios-guide-to-the-next-wave-of-ai?cid=mgp_opr-eml-alt-dmk-mgp-glb--&hlkid=0288752af26b48e0a4a392849b92ceeb&hctky=1595995&hdpid=269db117-bea1-45b2-9425-51e1ee5b6f94",
+      "canonical_url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-rise-of-the-agentic-coworker-a-banking-cios-guide-to-the-next-wave-of-ai?cid=mgp_opr-eml-alt-dmk-mgp-glb--&hctky=1595995&hdpid=269db117-bea1-45b2-9425-51e1ee5b6f94&hlkid=0288752af26b48e0a4a392849b92ceeb",
+      "feed_title": "The rise of the agentic coworker: A banking CIO's guide to the next wave of AI [ * ]",
+      "feed_published_at": "2026-10-28T00:00:00+00:00",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "cf21f44c84cad706d049f9c856fb5940",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "canonical_url": "https://www.liquid.ai/blog/lfm3",
+      "feed_title": "Introducing LFM3: Every Modality for Specialized Intelligence [ * ]",
+      "feed_published_at": "2026-10-28T00:00:00+00:00",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "ef2c7a2e5f12c081c63c6f5163665f84",
+      "url": "https://hbr.org/2026/10/3-paths-to-delivering-shareholder-returns-with-ai?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_Active&deliveryName=NL_DailyAlert_20261027&lctg=651d8ffd99c3f452fa0b0d1e",
+      "canonical_url": "https://hbr.org/2026/10/3-paths-to-delivering-shareholder-returns-with-ai?deliveryName=NL_DailyAlert_20261027&lctg=651d8ffd99c3f452fa0b0d1e",
+      "feed_title": "3 Paths to Delivering Shareholder Returns with AI [ ~ ]",
+      "feed_published_at": "2026-10-28T00:00:00+00:00",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "d5d47474fa6a34cc6cd86914a8e1db46",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/?utm_source=x&utm_medium=social&utm_campaign=&utm_content=",
+      "canonical_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "feed_title": "Genie 4: A new generation of world simulation [ * ]",
+      "feed_published_at": "2026-10-28T00:00:00+00:00",
+      "disposition": "duplicate",
+      "reason": "Already covered October 28; no distinct substantive new development established."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_4d1a214f8b70e9d3",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "canonical_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "feed_title": "Google DeepMind launches Gemini 4 Carbon, a frontier AI model with advanced cybersecurity and long-horizon engineering capabilities [ * ] [ ◼ ]",
+      "feed_published_at": "2026-10-28T17:00:58Z",
+      "disposition": "selected",
+      "reason": "Restricted frontier-model rollout with explicit cybersecurity benchmark conditions; same development as the companion Google announcement."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_c43fd868682fb29f",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "canonical_url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "feed_title": "Claude Code sends each background agent's entire transcript to its model every 30 seconds to update status lines, consuming 15-20% of tokens by default since version 2.1.232 [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T03:33:42Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_dc193b920147b2cb",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "canonical_url": "https://surgehq.ai/blog/dayjob-tax",
+      "feed_title": "Surge AI launches DAYJOB: Tax benchmark evaluating AI agents on 50 professional tax assignments across eight tax practice areas [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-28T15:46:30Z",
+      "disposition": "no_eligible_original_date",
+      "reason": "Original visible date is October 27; no exact eligible original publication or substantive update was verified. A date-only October 27 day cannot lie wholly inside the window beginning October 28 00:00Z."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_0dc9879fab9d25da",
+      "url": "https://bernstein.run",
+      "canonical_url": "https://bernstein.run/",
+      "feed_title": "Bernstein launches open-source deterministic governance layer for AI agents with verifiable audit logs and Cloudflare integration [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T06:24:56Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_debce5a6f07bebf4",
+      "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "canonical_url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "feed_title": "Cartesia.ai presents scaling laws and efficiency gains for hierarchical networks that learn tokenization end-to-end, showing up to 10x compute and data savings in language modeling [ * ] [ ◼ ]",
+      "feed_published_at": "2026-10-28T18:07:41Z",
+      "disposition": "unverified_timezone",
+      "reason": "Original publisher JSON-LD/time gives October 28 without timezone. Do not infer UTC from the ranked-feed timestamp. Not advanced further after the target was met."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_650ca8567286e11f",
+      "url": "https://www.seangoedecke.com/getting-good-at-ai-takes-time-and-practice/",
+      "canonical_url": "https://www.seangoedecke.com/getting-good-at-ai-takes-time-and-practice",
+      "feed_title": "Sean Goedecke says mastering AI requires time and practice to develop durable skills beyond simple tricks [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T06:17:15Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_980adb68c6423014",
+      "url": "https://mashable.com/tech/claude-smart-reports-anthropic-ai-worker-overview",
+      "canonical_url": "https://mashable.com/tech/claude-smart-reports-anthropic-ai-worker-overview",
+      "feed_title": "Anthropic launches Claude smart reports for managers to track employee AI usage and identify off-topic work communications [ * ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T07:26:30Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_782ce2a85f039099",
+      "url": "https://www.airealist.ai/p/nvidia-geforce-half-rate",
+      "canonical_url": "https://www.airealist.ai/p/nvidia-geforce-half-rate",
+      "feed_title": "NVIDIA GeForce GPUs run matrix math at half the speed of professional cards using the same chip, with modders unlocking full speed on gaming cards [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T05:47:33Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_71e60ce0354b34af",
+      "url": "https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping",
+      "canonical_url": "https://www.tomshardware.com/desktops/servers/it-vendor-lists-massive-usd60-million-ai-cluster-on-ebay-300x-racks-of-decommissioned-gpus-includes-9-600-nvidia-a100-gpus-and-4-200-amd-epyc-cpus-plus-free-shipping",
+      "feed_title": "Core 4 Solutions lists $59.7 million AI supercomputer with 9,600 Nvidia A100 GPUs and 4,200 AMD EPYC CPUs on eBay, offering free shipping options [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T07:26:08Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_23a94ddd54012191",
+      "url": "https://arxiv.org/abs/2610.35942",
+      "canonical_url": "https://arxiv.org/abs/2610.35942",
+      "feed_title": "Research paper proposes a ledger-based model to measure AI time savings accounting for errors and validates it with developer studies and experiments on AI-assisted review workflows [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_7f1ad58a64986442",
+      "url": "https://arxiv.org/abs/2610.35984",
+      "canonical_url": "https://arxiv.org/abs/2610.35984",
+      "feed_title": "Researchers propose data generation strategies using augmentation and DCGANs to improve deep learning classification of olive tree diseases, demonstrating enhanced accuracy with EfficientNetV2B0 [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_91dafa031c05b743",
+      "url": "https://arxiv.org/abs/2610.36077",
+      "canonical_url": "https://arxiv.org/abs/2610.36077",
+      "feed_title": "Researchers introduce The Trinity, a capability-driven recursive self-improvement framework for multimodal agents that reorganizes tasks into a hierarchical capability tree and evolves specialized modules [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_772f58703a783a31",
+      "url": "https://arxiv.org/abs/2610.36100",
+      "canonical_url": "https://arxiv.org/abs/2610.36100",
+      "feed_title": "Researchers introduce CohortFlow, a steerable clinical cohort curation agent that uses localized semantic corrections to reduce latency and model calls while maintaining accuracy [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_12f1735940878600",
+      "url": "https://arxiv.org/abs/2610.36116",
+      "canonical_url": "https://arxiv.org/abs/2610.36116",
+      "feed_title": "Researchers propose a framework for human-led science integrating AI by emphasizing durable human understanding and direction across all research phases [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_908fe7a41a206591",
+      "url": "https://arxiv.org/abs/2610.36146",
+      "canonical_url": "https://arxiv.org/abs/2610.36146",
+      "feed_title": "Researchers propose StruPO, a structure-aware prompt editor that uses calibrated scene graphs to improve faithfulness in text-to-image generation without iterative critique loops [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_b66c35e2e1023456",
+      "url": "https://arxiv.org/abs/2610.36169",
+      "canonical_url": "https://arxiv.org/abs/2610.36169",
+      "feed_title": "Researchers propose a decision-theoretic approach using priors to resolve conflicts between retrieval-augmented language model knowledge and retrieved context [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_6b901918afc47ff4",
+      "url": "https://arxiv.org/abs/2610.36183",
+      "canonical_url": "https://arxiv.org/abs/2610.36183",
+      "feed_title": "Researchers use quantile regression on FIFA World Cup 2022 tracking data to model player time-to-arrival, outperforming physics-based methods and testing transferability to basketball and NFL data [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_23ed02c3d5378d64",
+      "url": "https://arxiv.org/abs/2610.36188",
+      "canonical_url": "https://arxiv.org/abs/2610.36188",
+      "feed_title": "Skill Dreaming framework learns and evolves repository-specific coding skills from pull request histories to guide continuous software development and maintenance [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_539c689076addc88",
+      "url": "https://arxiv.org/abs/2610.36234",
+      "canonical_url": "https://arxiv.org/abs/2610.36234",
+      "feed_title": "Researchers present MARQ, a modular, LLM-agnostic system infused with systems engineering knowledge to improve requirement quality assessment, outperforming off-the-shelf models on NASA data [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_99e497236e9613b7",
+      "url": "https://arxiv.org/abs/2610.36239",
+      "canonical_url": "https://arxiv.org/abs/2610.36239",
+      "feed_title": "Researchers propose BehaveRec, a three-signal sequential recommendation model combining session, long-term user history, and community signals, showing improved accuracy on large datasets [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_5a95d99137fc5aa8",
+      "url": "https://arxiv.org/abs/2610.36287",
+      "canonical_url": "https://arxiv.org/abs/2610.36287",
+      "feed_title": "A Smart Instant Book Filter Model based on Dual-Objective Optimization [ * ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_0daa0f4a67ac1895",
+      "url": "https://arxiv.org/abs/2610.36298",
+      "canonical_url": "https://arxiv.org/abs/2610.36298",
+      "feed_title": "Spiking Neural Networks Are Harder to Steal: A Benchmark Study of Model Stealing Attacks [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_eeeb9313ab3d532d",
+      "url": "https://arxiv.org/abs/2610.36308",
+      "canonical_url": "https://arxiv.org/abs/2610.36308",
+      "feed_title": "When Retrieval Is Not Enough: Obsolete Facts in Agent Memory [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2cb1db3ca3ed21aa",
+      "url": "https://arxiv.org/abs/2610.36325",
+      "canonical_url": "https://arxiv.org/abs/2610.36325",
+      "feed_title": "Ontology-guided multi-agent reasoning for explainable differential diagnosis [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_ad39025b7d1f4ce5",
+      "url": "https://arxiv.org/abs/2610.36328",
+      "canonical_url": "https://arxiv.org/abs/2610.36328",
+      "feed_title": "How Stable Are LLM-Generated Proofs Under Program Refactoring? A Stress Test for Verifiable Code Generation [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_dce62784f9fa3dc0",
+      "url": "https://arxiv.org/abs/2610.36329",
+      "canonical_url": "https://arxiv.org/abs/2610.36329",
+      "feed_title": "Plenty of Room in the Middle: Revealing Opportunities on a GPU Cluster via Fine-Grained Monitoring [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_b2662c4ee611fdad",
+      "url": "https://arxiv.org/abs/2610.36335",
+      "canonical_url": "https://arxiv.org/abs/2610.36335",
+      "feed_title": "OA-RAG: Ontology-based Agentic RAG for Faithful LLM Reasoning [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_3ee2af45bab168a3",
+      "url": "https://arxiv.org/abs/2610.36341",
+      "canonical_url": "https://arxiv.org/abs/2610.36341",
+      "feed_title": "Executable Archaeology of Programs That Model Programming: Reanimating the Heuristic Compiler (1961) and KBEmacs (1984) [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_71098d0047cf5295",
+      "url": "https://arxiv.org/abs/2610.36355",
+      "canonical_url": "https://arxiv.org/abs/2610.36355",
+      "feed_title": "WAKMan: Workload Aware KVCache Manager [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_27f017ccda133b2c",
+      "url": "https://arxiv.org/abs/2610.36386",
+      "canonical_url": "https://arxiv.org/abs/2610.36386",
+      "feed_title": "LoRA on a Budget: Function-Aware Post-Hoc Compression for Adapter Fleets [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_b93925fe944e6c8a",
+      "url": "https://arxiv.org/abs/2610.36389",
+      "canonical_url": "https://arxiv.org/abs/2610.36389",
+      "feed_title": "MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations [ * ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2cf4593e9c03473e",
+      "url": "https://arxiv.org/abs/2610.36405",
+      "canonical_url": "https://arxiv.org/abs/2610.36405",
+      "feed_title": "kw-bench: Breaking Frontier Harnesses on Real-World Tasks [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_43d6c9d8879a9d6d",
+      "url": "https://arxiv.org/abs/2610.36415",
+      "canonical_url": "https://arxiv.org/abs/2610.36415",
+      "feed_title": "Verifiable Efficiency Limits of Innate LLM Planning in Sliding Puzzles [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_dada1d7bdda3d505",
+      "url": "https://arxiv.org/abs/2610.36433",
+      "canonical_url": "https://arxiv.org/abs/2610.36433",
+      "feed_title": "LM-DSB: A Lightweight Multi-agent System for Automated Daily Safety Bulletin Generation in Construction [ * ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_213f9d1140b84048",
+      "url": "https://arxiv.org/abs/2610.36435",
+      "canonical_url": "https://arxiv.org/abs/2610.36435",
+      "feed_title": "Your Agent Acts Differently When You're Around: How User Presence Changes Agent Behavior in Negotiation [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_bede57564ae76399",
+      "url": "https://arxiv.org/abs/2610.36444",
+      "canonical_url": "https://arxiv.org/abs/2610.36444",
+      "feed_title": "RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_ec071f2377e20b31",
+      "url": "https://arxiv.org/abs/2610.36445",
+      "canonical_url": "https://arxiv.org/abs/2610.36445",
+      "feed_title": "From Solver Trajectories to Teaching Trajectories: Cognition-Aligned Reasoning Distillation [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_3962209159b37d57",
+      "url": "https://arxiv.org/abs/2610.36449",
+      "canonical_url": "https://arxiv.org/abs/2610.36449",
+      "feed_title": "A Heart Means Recursion: Exploring Visual Meaning and Communication in VLMs [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_ba173895ca79d0b2",
+      "url": "https://arxiv.org/abs/2610.36453",
+      "canonical_url": "https://arxiv.org/abs/2610.36453",
+      "feed_title": "Correction or Manipulation? Measuring Epistemic Vigilance in LLM Agents Under User Pressure [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_c7204160946fd12b",
+      "url": "https://arxiv.org/abs/2610.36471",
+      "canonical_url": "https://arxiv.org/abs/2610.36471",
+      "feed_title": "When to Intervene? An Empirical Study of Errors and Self-Recovery in LLM Agents [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_c25f95b788183b3d",
+      "url": "https://arxiv.org/abs/2610.36484",
+      "canonical_url": "https://arxiv.org/abs/2610.36484",
+      "feed_title": "CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_4f19af5c2142e8d2",
+      "url": "https://arxiv.org/abs/2610.36493",
+      "canonical_url": "https://arxiv.org/abs/2610.36493",
+      "feed_title": "AC-JEPA: Anchored Cross-Modal Joint Embedding Predictive Architecture for Visual-to-Symbolic Translation [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_d999ee092d75525c",
+      "url": "https://arxiv.org/abs/2610.36513",
+      "canonical_url": "https://arxiv.org/abs/2610.36513",
+      "feed_title": "MedConstBench: Benchmarking How Constitutions Steer LLMs in Medical Ethics [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_7853f570d04696f4",
+      "url": "https://arxiv.org/abs/2610.36536",
+      "canonical_url": "https://arxiv.org/abs/2610.36536",
+      "feed_title": "ATEMPO: Amortized Transfer Entropy Model Per-lag Over-Time [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_042bb329022b62cf",
+      "url": "https://arxiv.org/abs/2610.36544",
+      "canonical_url": "https://arxiv.org/abs/2610.36544",
+      "feed_title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_18060f5cb8fcc722",
+      "url": "https://arxiv.org/abs/2610.36570",
+      "canonical_url": "https://arxiv.org/abs/2610.36570",
+      "feed_title": "CASEL: Consequence-Aware Selective Execution for Reliable Long-Horizon Tool-Using Agents [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_447c1a4af1d4e210",
+      "url": "https://arxiv.org/abs/2610.36574",
+      "canonical_url": "https://arxiv.org/abs/2610.36574",
+      "feed_title": "ADTGuard: Adaptive Depth-Time Safeguard for Streaming Inference in Large Language Models [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_a448475ed75b5d87",
+      "url": "https://arxiv.org/abs/2610.36580",
+      "canonical_url": "https://arxiv.org/abs/2610.36580",
+      "feed_title": "Follow the Herd: A Data-Driven Approach for Actionable Recourse [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_d96f2ca9cfbfded7",
+      "url": "https://arxiv.org/abs/2610.36589",
+      "canonical_url": "https://arxiv.org/abs/2610.36589",
+      "feed_title": "InfraDev: Can Coding Agents Develop AI Infrastructure, and How Can We Tell? [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_4828c1ebf50247ee",
+      "url": "https://arxiv.org/abs/2610.36595",
+      "canonical_url": "https://arxiv.org/abs/2610.36595",
+      "feed_title": "Learning to Formalize: Bridging Open-Ended Workloads and Fast Decision Models [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_e9cfa84dc48844cb",
+      "url": "https://arxiv.org/abs/2610.36623",
+      "canonical_url": "https://arxiv.org/abs/2610.36623",
+      "feed_title": "God Does Not Play Dice: Enforcing Batch Invariance in Agentic Kernel Generation [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_b0a39d18207937d6",
+      "url": "https://arxiv.org/abs/2610.36625",
+      "canonical_url": "https://arxiv.org/abs/2610.36625",
+      "feed_title": "Polarity--Time Interaction and Multi-Level Reliability for Event-Based Spacecraft Pose Estimation [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_3331029d801ab4fd",
+      "url": "https://arxiv.org/abs/2610.36631",
+      "canonical_url": "https://arxiv.org/abs/2610.36631",
+      "feed_title": "The uneven rise of AI-generated web content",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_35040decf3c45f29",
+      "url": "https://arxiv.org/abs/2610.36652",
+      "canonical_url": "https://arxiv.org/abs/2610.36652",
+      "feed_title": "Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_588f7806fea97a5e",
+      "url": "https://arxiv.org/abs/2610.36660",
+      "canonical_url": "https://arxiv.org/abs/2610.36660",
+      "feed_title": "The View from Nowhere: Population-Centered Agent Evolution [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_53936259ac4b3286",
+      "url": "https://arxiv.org/abs/2610.36672",
+      "canonical_url": "https://arxiv.org/abs/2610.36672",
+      "feed_title": "Learning Where to Trust: Reliability-Guided Expert Routing and Velocity Gating for 3D Deformable Registration [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_446c049110148a33",
+      "url": "https://arxiv.org/abs/2610.36689",
+      "canonical_url": "https://arxiv.org/abs/2610.36689",
+      "feed_title": "PsyJev: Psychological Analysis via System-1 Judgment [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_0e66079dcdcd3a05",
+      "url": "https://arxiv.org/abs/2610.36764",
+      "canonical_url": "https://arxiv.org/abs/2610.36764",
+      "feed_title": "Beyond the Evidence Coherence Trap: Agent-Driven Evidence Selection for Temporally Disordered Fake News Detection [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_bdd6e7b707a652aa",
+      "url": "https://arxiv.org/abs/2610.36767",
+      "canonical_url": "https://arxiv.org/abs/2610.36767",
+      "feed_title": "Can LLMs Reliably Grade Olympiad Proofs? A Study of Mathematical Verification with LLMs [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_1f89ca79287a731f",
+      "url": "https://arxiv.org/abs/2610.36774",
+      "canonical_url": "https://arxiv.org/abs/2610.36774",
+      "feed_title": "Batching the Reflective Optimization Loop: Parallel Proposals Make GEPA Faster and Better [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "duplicate",
+      "reason": "GEPA batching study already covered October 28. Feed announcement does not establish a later development."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_763fcaaf5929833d",
+      "url": "https://arxiv.org/abs/2610.36776",
+      "canonical_url": "https://arxiv.org/abs/2610.36776",
+      "feed_title": "Dependency Graphs of Mathematical Arguments: Representation, Structural Measurement, and Proof Review [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_a41195f65cf50d0b",
+      "url": "https://arxiv.org/abs/2610.36820",
+      "canonical_url": "https://arxiv.org/abs/2610.36820",
+      "feed_title": "An Incremental Knowledge-Graph Learner Digital Twin for Evidence-Grounded Early Warning [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_1b73da596a19573d",
+      "url": "https://arxiv.org/abs/2610.36824",
+      "canonical_url": "https://arxiv.org/abs/2610.36824",
+      "feed_title": "Who Knows What - and What Does It Support? Perspective-Bounded Evidence Calibration for Multimodal Theory of Mind [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_4e18a0b3a527f261",
+      "url": "https://arxiv.org/abs/2610.36826",
+      "canonical_url": "https://arxiv.org/abs/2610.36826",
+      "feed_title": "When the Critic Falls Behind: Co-Evolving Rubrics and Harnesses for Continual Agent Self-Improvement [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_cccdc92954689cff",
+      "url": "https://arxiv.org/abs/2610.36847",
+      "canonical_url": "https://arxiv.org/abs/2610.36847",
+      "feed_title": "Conservative Policy Iteration For Zero-Sum POSGs [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_cbcb62630c8305f0",
+      "url": "https://arxiv.org/abs/2610.36848",
+      "canonical_url": "https://arxiv.org/abs/2610.36848",
+      "feed_title": "Evolving Agent Teams [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_ef2beb6d87066205",
+      "url": "https://arxiv.org/abs/2610.36877",
+      "canonical_url": "https://arxiv.org/abs/2610.36877",
+      "feed_title": "GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_6bf2091843708ca0",
+      "url": "https://arxiv.org/abs/2610.36878",
+      "canonical_url": "https://arxiv.org/abs/2610.36878",
+      "feed_title": "RubricAtlas: Mining Type-Level Rubrics from Expert Reports to Evaluate Deep Research Agents [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_04f921e39ee0884b",
+      "url": "https://arxiv.org/abs/2610.36888",
+      "canonical_url": "https://arxiv.org/abs/2610.36888",
+      "feed_title": "Noise Steering: Exploiting Wake Steering and Acoustic Directivity for Noise-Constrained Wind Farm Control via Reinforcement Learning [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_ea46cb821f84cc66",
+      "url": "https://arxiv.org/abs/2610.36900",
+      "canonical_url": "https://arxiv.org/abs/2610.36900",
+      "feed_title": "Natural Hard-Negative Mining from Positives for Instruction-Following Retrieval [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_5e99a54ab51634c6",
+      "url": "https://arxiv.org/abs/2610.36925",
+      "canonical_url": "https://arxiv.org/abs/2610.36925",
+      "feed_title": "Vision-Language Agents Can Learn in Their Own Latent Worlds [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_6efac989e16e6a4a",
+      "url": "https://arxiv.org/abs/2610.36962",
+      "canonical_url": "https://arxiv.org/abs/2610.36962",
+      "feed_title": "Do bots feel bad? Assessing empirical evidence for functional valence in LLMs [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_52234f03d7943c76",
+      "url": "https://arxiv.org/abs/2610.36967",
+      "canonical_url": "https://arxiv.org/abs/2610.36967",
+      "feed_title": "Proactive Memory for Event-Driven LLM Agents [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_aa3c479103b2f64a",
+      "url": "https://arxiv.org/abs/2610.36980",
+      "canonical_url": "https://arxiv.org/abs/2610.36980",
+      "feed_title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_91064f2db2068559",
+      "url": "https://arxiv.org/abs/2610.36991",
+      "canonical_url": "https://arxiv.org/abs/2610.36991",
+      "feed_title": "SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_0ad883bcbab5c36e",
+      "url": "https://arxiv.org/abs/2610.37041",
+      "canonical_url": "https://arxiv.org/abs/2610.37041",
+      "feed_title": "Guided-RLVR: Guided Exploration in Reinforcement Learning with Verifiable Rewards [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_9c7ca98f06750915",
+      "url": "https://arxiv.org/abs/2610.37045",
+      "canonical_url": "https://arxiv.org/abs/2610.37045",
+      "feed_title": "AI-Assisted Discovery of CNOT Decompositions for Quantum Permutations on Constrained Topologies [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_84c2843b1dd8f296",
+      "url": "https://arxiv.org/abs/2610.37070",
+      "canonical_url": "https://arxiv.org/abs/2610.37070",
+      "feed_title": "Correctness Conditioning as Selection in Chain-of-Thought Faithfulness Evaluation [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_8ae6dda303ec1546",
+      "url": "https://arxiv.org/abs/2610.37081",
+      "canonical_url": "https://arxiv.org/abs/2610.37081",
+      "feed_title": "OpenGray: a benchmark for evaluating the decisions of radiotherapy planning agents [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_3c286cd6908c33f3",
+      "url": "https://arxiv.org/abs/2610.37121",
+      "canonical_url": "https://arxiv.org/abs/2610.37121",
+      "feed_title": "Prospector: learning a compact graph traversal policy for scientific reasoning [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Research stopped after three distinct supported articles were selected; original time and content remain unverified."
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+      "retrieved_at": "2026-10-29T12:06:45.920433Z",
+      "cache_sha256": "c4807736d9da3f0d4608aa4eb4bbae1a8523edda9dfdf69cb03d3e77b3e9689d",
+      "metadata": [
+        {
+          "property": "description",
+          "content": "Anthropic's new legal artifacts and connectors help legal teams get work done with Claude."
+        },
+        {
+          "property": "og:title",
+          "content": "Introducing artifacts for legal work with Claude"
+        },
+        {
+          "property": "og:description",
+          "content": "Anthropic's new legal artifacts and connectors help legal teams get work done with Claude."
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-10-28"
+        },
+        {
+          "property": "twitter:title",
+          "content": "Introducing artifacts for legal work with Claude"
+        },
+        {
+          "property": "twitter:description",
+          "content": "Anthropic's new legal artifacts and connectors help legal teams get work done with Claude."
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebSite",
+              "@id": "https://claude.com/#website",
+              "name": "Claude",
+              "url": "https://claude.com",
+              "publisher": {
+                "@id": "https://www.anthropic.com/#organization"
+              }
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://www.anthropic.com/#organization",
+              "name": "Anthropic",
+              "legalName": "Anthropic PBC",
+              "url": "https://www.anthropic.com",
+              "logo": "https://claude.com/icon.png",
+              "sameAs": [
+                "https://www.anthropic.com",
+                "https://en.wikipedia.org/wiki/Anthropic",
+                "https://www.linkedin.com/company/anthropicresearch",
+                "https://x.com/AnthropicAI",
+                "https://github.com/anthropics",
+                "https://www.youtube.com/@anthropic-ai"
+              ]
+            },
+            {
+              "@type": "Brand",
+              "@id": "https://claude.com/#brand",
+              "name": "Claude",
+              "url": "https://claude.com",
+              "sameAs": [
+                "https://x.com/claudeai",
+                "https://www.linkedin.com/showcase/claude/",
+                "https://www.instagram.com/claudeai",
+                "https://www.youtube.com/@claude"
+              ]
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Introducing artifacts for legal work",
+          "description": "Anthropic's new legal artifacts and connectors help legal teams get work done with Claude.",
+          "datePublished": "2026-10-28",
+          "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+          "mainEntityOfPage": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+          "inLanguage": "en",
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.anthropic.com/#organization",
+            "name": "Anthropic"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Resources",
+              "item": "https://claude.com/resources"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Articles",
+              "item": "https://claude.com/resources/articles"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Introducing artifacts for legal work"
+            }
+          ]
+        }
+      ],
+      "times": [],
+      "error": null
+    },
+    {
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "retrieved_at": "2026-10-29T12:06:46.074723Z",
+      "cache_sha256": "153b94c100fbe40171b3ebf19330b2cc48d948454fec29b2cf6a4bab4813d5b5",
+      "metadata": [
+        {
+          "property": "description",
+          "content": "DAYJOB: Tax evaluates AI agents across 50 realistic tax environments, testing their ability to navigate messy records, exercise professional judgment, and deliver reliable tax work."
+        },
+        {
+          "property": "og:title",
+          "content": "DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work | Surge AI"
+        },
+        {
+          "property": "og:description",
+          "content": "DAYJOB: Tax evaluates AI agents across 50 realistic tax environments, testing their ability to navigate messy records, exercise professional judgment, and deliver reliable tax work."
+        },
+        {
+          "property": "twitter:title",
+          "content": "DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work | Surge AI"
+        },
+        {
+          "property": "twitter:description",
+          "content": "DAYJOB: Tax evaluates AI agents across 50 realistic tax environments, testing their ability to navigate messy records, exercise professional judgment, and deliver reliable tax work."
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "DAYJOB: Tax — Benchmarking AI Agents on Professional Tax Work",
+          "image": "https://cdn.prod.website-files.com/68dcd2ceb173c46fa029931c/6ae0beffc0ef7d2c805991ec_6ae0bef7bc59db92222e060b_dayjob-tax-cover-v3.png",
+          "datePublished": "2026-10-27",
+          "author": {
+            "@type": "Organization",
+            "name": "Surge AI",
+            "url": "https://surgehq.ai/"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Surge AI",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://cdn.prod.website-files.com/68dc970bd6e945ea3fb0f426/68e340b3dfa20e2c97749a3a_Logo.svg"
+            }
+          },
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://surgehq.ai/blog/dayjob-tax"
+          }
+        }
+      ],
+      "times": [],
+      "error": null
+    },
+    {
+      "url": "https://www.a16z.news/p/the-new-security-agenda",
+      "retrieved_at": "2026-10-29T12:06:45.746005Z",
+      "cache_sha256": "5327285cd704a4a8f980ee7f8dd71db0d8935c15f35f0d08a580780d6df06189",
+      "metadata": [
+        {
+          "property": "og:title",
+          "content": "The New Security Agenda"
+        },
+        {
+          "property": "twitter:title",
+          "content": "The New Security Agenda"
+        },
+        {
+          "property": "description",
+          "content": "What CISOs told us about AI, budgets, and the priorities shaping 2027."
+        },
+        {
+          "property": "og:description",
+          "content": "What CISOs told us about AI, budgets, and the priorities shaping 2027."
+        },
+        {
+          "property": "twitter:description",
+          "content": "What CISOs told us about AI, budgets, and the priorities shaping 2027."
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-28T16:02:14.641Z"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "url": "https://www.a16z.news/p/the-new-security-agenda",
+          "mainEntityOfPage": "https://www.a16z.news/p/the-new-security-agenda",
+          "headline": "The New Security Agenda",
+          "description": "What CISOs told us about AI, budgets, and the priorities shaping 2027.",
+          "image": [
+            {
+              "@type": "ImageObject",
+              "url": "https://substack-post-media.s3.amazonaws.com/public/images/5981cd0a-eb7e-4e94-90ca-c001d877d583_2842x1600.png"
+            }
+          ],
+          "datePublished": "2026-10-28T16:00:31+00:00",
+          "dateModified": "2026-10-28T16:00:31+00:00",
+          "isAccessibleForFree": true,
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Steph Zhang",
+              "url": "https://substack.com/@stephhzhang",
+              "description": "Growth @ a16z",
+              "identifier": "user:102220572",
+              "image": {
+                "@type": "ImageObject",
+                "contentUrl": "https://substackcdn.com/image/fetch/$s_!wsV6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff955fc1f-d37d-45a6-9dd1-8e8c1e9b2695_4380x4380.jpeg",
+                "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!wsV6!,w_128,h_128,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff955fc1f-d37d-45a6-9dd1-8e8c1e9b2695_4380x4380.jpeg"
+              }
+            },
+            {
+              "@type": "Person",
+              "name": "Owen Colby",
+              "url": "https://substack.com/@owencolby",
+              "description": "Investing Partner at a16z - Cybersecurity + AI Infra ",
+              "identifier": "user:114979380",
+              "image": {
+                "@type": "ImageObject",
+                "contentUrl": "https://substackcdn.com/image/fetch/$s_!SbWs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58b6d332-65a6-4cf8-86f9-de6b50bbe7ef_400x400.jpeg",
+                "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!SbWs!,w_128,h_128,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F58b6d332-65a6-4cf8-86f9-de6b50bbe7ef_400x400.jpeg"
+              }
+            }
+          ],
+          "publisher": {
+            "@type": "Organization",
+            "name": "a16z",
+            "url": "https://www.a16z.news",
+            "description": "It's time to build.",
+            "interactionStatistic": {
+              "@type": "InteractionCounter",
+              "name": "Subscribers",
+              "interactionType": "https://schema.org/SubscribeAction",
+              "userInteractionCount": 100000
+            },
+            "identifier": "pub:13145",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://substackcdn.com/image/fetch/$s_!2PP_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34a3f797-76cd-4cf2-80c5-92829b700f5a_256x256.png",
+              "contentUrl": "https://substackcdn.com/image/fetch/$s_!2PP_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34a3f797-76cd-4cf2-80c5-92829b700f5a_256x256.png",
+              "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!2PP_!,w_128,h_128,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34a3f797-76cd-4cf2-80c5-92829b700f5a_256x256.png"
+            },
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://substackcdn.com/image/fetch/$s_!2PP_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34a3f797-76cd-4cf2-80c5-92829b700f5a_256x256.png",
+              "contentUrl": "https://substackcdn.com/image/fetch/$s_!2PP_!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34a3f797-76cd-4cf2-80c5-92829b700f5a_256x256.png",
+              "thumbnailUrl": "https://substackcdn.com/image/fetch/$s_!2PP_!,w_128,h_128,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34a3f797-76cd-4cf2-80c5-92829b700f5a_256x256.png"
+            }
+          },
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": "https://schema.org/LikeAction",
+              "userInteractionCount": 148
+            },
+            {
+              "@type": "InteractionCounter",
+              "interactionType": "https://schema.org/ShareAction",
+              "userInteractionCount": 7
+            },
+            {
+              "@type": "InteractionCounter",
+              "interactionType": "https://schema.org/CommentAction",
+              "userInteractionCount": 2
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "a16z",
+              "item": "https://www.a16z.news"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "The New Security Agenda",
+              "item": "https://www.a16z.news/p/the-new-security-agenda"
+            }
+          ]
+        }
+      ],
+      "times": [
+        {
+          "datetime": "2026-10-28T16:00:31.234Z",
+          "text": "Oct 28, 2026"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "retrieved_at": "2026-10-29T12:06:46.182821Z",
+      "cache_sha256": "280719879d8c36567b7084d406106c25009eba0d135b429ce8168ac007a2ff22",
+      "metadata": [
+        {
+          "property": "description",
+          "content": "A newer generation of H-Nets learns directly from raw bytes, and matches an open-source 3B Transformer with 10x less compute and data."
+        },
+        {
+          "property": "og:title",
+          "content": "From Tokens to Bytes I: Scaling Hierarchical Networks | Cartesia"
+        },
+        {
+          "property": "og:description",
+          "content": "A newer generation of H-Nets learns directly from raw bytes, and matches an open-source 3B Transformer with 10x less compute and data."
+        },
+        {
+          "property": "twitter:title",
+          "content": "From Tokens to Bytes I: Scaling Hierarchical Networks | Cartesia"
+        },
+        {
+          "property": "twitter:description",
+          "content": "A newer generation of H-Nets learns directly from raw bytes, and matches an open-source 3B Transformer with 10x less compute and data."
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://www.cartesia.ai/#organization",
+          "name": "Cartesia",
+          "url": "https://www.cartesia.ai/",
+          "logo": "https://www.cartesia.ai/site/cartesia-wordmark.svg",
+          "sameAs": [
+            "https://x.com/cartesia",
+            "https://www.linkedin.com/company/cartesia-ai/",
+            "https://github.com/cartesia-ai"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://www.cartesia.ai/#website",
+          "name": "Cartesia",
+          "url": "https://www.cartesia.ai/",
+          "publisher": {
+            "@id": "https://www.cartesia.ai/#organization"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Cartesia",
+              "item": "https://www.cartesia.ai/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Blog",
+              "item": "https://www.cartesia.ai/blog"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Research",
+              "item": "https://www.cartesia.ai/blog?category=research"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "From Tokens to Bytes I: Scaling Hierarchical Networks",
+              "item": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1"
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "From Tokens to Bytes I: Scaling Hierarchical Networks",
+          "datePublished": "2026-10-28",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Cartesia",
+            "url": "https://www.cartesia.ai/"
+          },
+          "description": "A newer generation of H-Nets learns directly from raw bytes, and matches an open-source 3B Transformer with 10x less compute and data.",
+          "image": "https://www.cartesia.ai/_astro/cover.i2qy3Up-.webp",
+          "author": [
+            {
+              "@type": "Organization",
+              "name": "Cartesia Research"
+            }
+          ]
+        }
+      ],
+      "times": [
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct 28, 2026"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "retrieved_at": "2026-10-29T12:06:46.065774Z",
+      "cache_sha256": "b2e78fd9ea7f5df519de0a67770e2d2fe298d00559c868c64680c1bc2aa1148d",
+      "metadata": [
+        {
+          "property": "description",
+          "content": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities."
+        },
+        {
+          "property": "og:title",
+          "content": "Gemini 4 Carbon: our next frontier model"
+        },
+        {
+          "property": "og:description",
+          "content": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities."
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-10-28"
+        },
+        {
+          "property": "twitter:title",
+          "content": "Gemini 4 Carbon: our next frontier model"
+        },
+        {
+          "property": "twitter:description",
+          "content": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities."
+        },
+        {
+          "property": "published_time",
+          "content": "2026-10-28T17:00:00+00:00"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "headline": "Gemini 4 Carbon: our next frontier model",
+          "datePublished": "2026-10-28T17:00:00+00:00",
+          "dateModified": "2026-10-28T18:02:36.657805+00:00",
+          "description": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
+          "author": {
+            "@type": "Person",
+            "name": "Koray Kavukcuoglu"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://blog.google/static/blogv2/images/google-1000x1000.png?version=pr20261009-1701",
+              "width": "200",
+              "height": "200"
+            }
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+            "width": "1440",
+            "height": "810"
+          },
+          "speakable": {
+            "@type": "SpeakableSpecification"
+          }
+        }
+      ],
+      "times": [],
+      "error": null
+    },
+    {
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "retrieved_at": "2026-10-29T12:06:45.802078Z",
+      "cache_sha256": "24d12430fe21ebbf4c66cc5c46dedeb638c7d19e4a15f763ee644fb930f511a3",
+      "metadata": [
+        {
+          "property": "description",
+          "content": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work."
+        },
+        {
+          "property": "og:title",
+          "content": "How AI agents shape experts’ judgment calls"
+        },
+        {
+          "property": "og:description",
+          "content": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work."
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-10-27T00:00:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-27T19:17:23.000Z"
+        },
+        {
+          "property": "twitter:title",
+          "content": "How AI agents shape experts’ judgment calls"
+        },
+        {
+          "property": "twitter:description",
+          "content": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work."
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "How AI agents shape experts’ judgment calls",
+          "description": "In a randomized trial, professional analysts working with an AI coding agent went with the option the agent was randomly assigned to favor 86% of the time. We look at what this means for human oversight of AI-assisted work.",
+          "image": [
+            "https://www-cdn.anthropic.com/images/4zrzovbb/website/b3aee146e4ef35b394b2b626d5eaf5faaee741aa-1200x630.jpg"
+          ],
+          "datePublished": "2026-10-27T00:00:00.000Z",
+          "dateModified": "2026-10-27T19:17:23.000Z",
+          "author": {
+            "@type": "Organization",
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com"
+          },
+          "mainEntityOfPage": "https://www.anthropic.com/research/agents-judgment-calls",
+          "url": "https://www.anthropic.com/research/agents-judgment-calls"
+        }
+      ],
+      "times": [
+        {
+          "datetime": "2026-10-27",
+          "text": "Oct 27, 2026"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "retrieved_at": "2026-10-29T12:06:45.688589Z",
+      "cache_sha256": "da618689704263a16dfe887d44ca8f12ddeb3f238a75c49a81f63910bb2729a9",
+      "metadata": [
+        {
+          "property": "og:title",
+          "content": "Route and orchestrate models with GitHub Copilot Fusion - GitHub Changelog"
+        },
+        {
+          "property": "og:description",
+          "content": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.…"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-28T16:02:31+00:00"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "headline": "Route and orchestrate models with GitHub Copilot Fusion",
+          "author": {
+            "@type": "Person",
+            "name": "Allison"
+          },
+          "datePublished": "2026-10-28T09:00:00-07:00",
+          "abstract": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.&hellip;",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion"
+          },
+          "image": "https://github.blog/wp-content/uploads/2026/11/683297831-90d4b889-b7d4-4473-93fc-e75bb8595652.png?resize=150%2C150",
+          "@type": "TechArticle"
+        },
+        {
+          "@context": "https://schema.org",
+          "headline": "Route and orchestrate models with GitHub Copilot Fusion",
+          "author": {
+            "@type": "Person",
+            "name": "Allison"
+          },
+          "datePublished": "2026-10-28T09:00:00-07:00",
+          "abstract": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.&hellip;",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion"
+          },
+          "image": "https://github.blog/wp-content/uploads/2026/11/683297831-90d4b889-b7d4-4473-93fc-e75bb8595652.png?resize=150%2C150",
+          "@type": "BlogPosting"
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+              "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+              "name": "Route and orchestrate models with GitHub Copilot Fusion - The GitHub Blog",
+              "isPartOf": {
+                "@id": "https://github.blog/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/#primaryimage"
+              },
+              "image": {
+                "@id": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/#primaryimage"
+              },
+              "thumbnailUrl": "https://github.blog/wp-content/uploads/2026/11/683297831-90d4b889-b7d4-4473-93fc-e75bb8595652.png?fit=2064%2C1056",
+              "datePublished": "2026-10-28T16:00:00+00:00",
+              "dateModified": "2026-10-28T16:02:31+00:00",
+              "breadcrumb": {
+                "@id": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/#primaryimage",
+              "url": "https://github.blog/wp-content/uploads/2026/11/683297831-90d4b889-b7d4-4473-93fc-e75bb8595652.png?fit=2064%2C1056",
+              "contentUrl": "https://github.blog/wp-content/uploads/2026/11/683297831-90d4b889-b7d4-4473-93fc-e75bb8595652.png?fit=2064%2C1056",
+              "width": 2064,
+              "height": 1056,
+              "caption": "A GitHub Copilot prompt composer with the Copilot Fusion settings menu open. Fusion is enabled, and the effort-level options are Standard, High, and Max; Max is selected."
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://github.blog/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Changelogs",
+                  "item": "https://github.blog/changelog/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Route and orchestrate models with GitHub Copilot Fusion"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://github.blog/#website",
+              "url": "https://github.blog/",
+              "name": "The GitHub Blog",
+              "description": "Updates, ideas, and inspiration from GitHub to help developers build and design software.",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://github.blog/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            }
+          ]
+        }
+      ],
+      "times": [
+        {
+          "datetime": "2026-10-28",
+          "text": "October 28, 2026"
+        },
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct.28"
+        },
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct.28"
+        },
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct.28"
+        },
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct.28"
+        },
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct.28"
+        },
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct.28"
+        },
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct.28"
+        },
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct.28"
+        },
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct.28"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/",
+      "retrieved_at": "2026-10-29T12:06:46.015324Z",
+      "cache_sha256": "d68724378d116519c58f9e0ae9086a8afa0384a631239786139be6b20c260383",
+      "metadata": [
+        {
+          "property": "og:title",
+          "content": "How Rescale built an AI triage agent with Strands Agents and AI-DLC | Amazon Web Services"
+        },
+        {
+          "property": "og:description",
+          "content": "Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering organization."
+        },
+        {
+          "property": "og:updated_time",
+          "content": "2026-10-22T08:27:23-08:00"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-10-22T08:25:57-08:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-10-22T08:27:23-08:00"
+        },
+        {
+          "property": "twitter:title",
+          "content": "How Rescale built an AI triage agent with Strands Agents and AI-DLC | Amazon Web Services"
+        },
+        {
+          "property": "twitter:description",
+          "content": "Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering organization."
+        }
+      ],
+      "jsonld": [],
+      "times": [
+        {
+          "datetime": "2026-10-22T08:25:57-08:00",
+          "text": "22 OCT 2026"
+        }
+      ],
+      "error": null
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "retrieved_at": "2026-10-29T12:06:46.426495Z",
+      "cache_sha256": "aa7831694cd80cbb303fd3367668caecf57f8425c2d4aa453be2c742dd67b326",
+      "metadata": [
+        {
+          "property": "description",
+          "content": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities."
+        },
+        {
+          "property": "og:title",
+          "content": "Gemini 4 Carbon: our next frontier model"
+        },
+        {
+          "property": "og:description",
+          "content": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities."
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-10-28"
+        },
+        {
+          "property": "twitter:title",
+          "content": "Gemini 4 Carbon: our next frontier model"
+        },
+        {
+          "property": "twitter:description",
+          "content": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities."
+        },
+        {
+          "property": "published_time",
+          "content": "2026-10-28T17:00:00+00:00"
+        }
+      ],
+      "jsonld": [
+        {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "mainEntityOfPage": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "headline": "Gemini 4 Carbon: our next frontier model",
+          "datePublished": "2026-10-28T17:00:00+00:00",
+          "dateModified": "2026-10-28T18:02:36.657805+00:00",
+          "description": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
+          "author": {
+            "@type": "Person",
+            "name": "Koray Kavukcuoglu"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Google",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://blog.google/static/blogv2/images/google-1000x1000.png?version=pr20261009-1701",
+              "width": "200",
+              "height": "200"
+            }
+          },
+          "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+            "width": "1440",
+            "height": "810"
+          },
+          "speakable": {
+            "@type": "SpeakableSpecification"
+          }
+        }
+      ],
+      "times": [],
+      "error": null
+    }
+  ],
+  "publication": {
+    "status": "prepared_not_yet_published",
+    "required_action": "Run deterministic preflight, commit, guarded ship, exact-commit deployment and public URL readback."
+  },
+  "editing_pass": "Checked all three drafts against the primary source text and date metadata. Clarified that the two 13% survey figures refer to separate categories, added the distinct 45% purchasing intention, narrowed Fusion summary to permitted models, and revised the CISO headline. Concrete openings, visible reasoning, practical endings, sentence-style headlines and truthful authorship checked. No generic phrases or invented first-person testimony.",
+  "preflight": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.52,
+      "completed_at": "2026-10-29T12:13:53.584311+00:00",
+      "log": "/private/tmp/yesterdai-20261029-preflight-1.log"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/publish.py",
+        "validate"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.16,
+      "completed_at": "2026-10-29T12:13:53.740918+00:00",
+      "log": "/private/tmp/yesterdai-20261029-preflight-2.log"
+    },
+    {
+      "command": [
+        "bundle",
+        "exec",
+        "jekyll",
+        "build",
+        "--strict_front_matter"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.5,
+      "completed_at": "2026-10-29T12:13:54.245528+00:00",
+      "log": "/private/tmp/yesterdai-20261029-preflight-3.log"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "index"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.25,
+      "completed_at": "2026-10-29T12:13:54.496621+00:00",
+      "log": "/private/tmp/yesterdai-20261029-preflight-4.log"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_site.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.47,
+      "completed_at": "2026-10-29T12:13:54.966554+00:00",
+      "log": "/private/tmp/yesterdai-20261029-preflight-5.log"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "test:smoke"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.41,
+      "completed_at": "2026-10-29T12:13:55.373681+00:00",
+      "log": "/private/tmp/yesterdai-20261029-preflight-6.log"
+    }
+  ]
+}
