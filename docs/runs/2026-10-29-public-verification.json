@@ -1,0 +1,1029 @@
+{
+  "started_at": "2026-10-29T12:19:43.318825Z",
+  "verified_at": "2026-10-29T12:19:44.574287Z",
+  "verified_commit": "7e6b8707a6d410c0a11b7565e9f1fc089be3c3c6",
+  "passed": true,
+  "url_count": 43,
+  "hero_count": 25,
+  "new_article_count": 3,
+  "previous_article_count": 3,
+  "urls": [
+    {
+      "url": "https://yesterdai.tedt.org/",
+      "request_url": "https://yesterdai.tedt.org/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/?verify=7e6b8707a6d4",
+      "bytes": 11915,
+      "sha256": "e17fb5a0aa3c57fd6b49ddd82d7e7c98ccac29d6c47d9c01243aad7482c08b8a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-29/",
+      "request_url": "https://yesterdai.tedt.org/editions/2026-10-29/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/editions/2026-10-29/?verify=7e6b8707a6d4",
+      "bytes": 13340,
+      "sha256": "d551c22530e22ec6ca33dfb84b3e0526d4f92f7a9627bcce10aec6d121410820"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-28/",
+      "request_url": "https://yesterdai.tedt.org/editions/2026-10-28/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/editions/2026-10-28/?verify=7e6b8707a6d4",
+      "bytes": 13245,
+      "sha256": "0faeba5e7a1d3a7c9599492bd100b2d55d1c2a8ac64f5f7e78522b8630b85db7"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/agent-optimization-budget/",
+      "request_url": "https://yesterdai.tedt.org/articles/agent-optimization-budget/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/agent-optimization-budget/?verify=7e6b8707a6d4",
+      "bytes": 13894,
+      "sha256": "fb201bf0b1757028fb10fa233b6f5968ebb48214d3a0541d0002e37e6838572a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/ciso-survey-security-deployment/",
+      "request_url": "https://yesterdai.tedt.org/articles/ciso-survey-security-deployment/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/ciso-survey-security-deployment/?verify=7e6b8707a6d4",
+      "bytes": 13120,
+      "sha256": "7cddf63a96b294217f9975e94ca162b6127aec9fd81b0c5f79aac271d2f2f58a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/claude-batch-review-evidence/",
+      "request_url": "https://yesterdai.tedt.org/articles/claude-batch-review-evidence/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/claude-batch-review-evidence/?verify=7e6b8707a6d4",
+      "bytes": 13619,
+      "sha256": "7654a1129da9e92568ba407d2b8e5d6d2fa0189b46d7ebcf8f12a9f243bc2621"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/copilot-fusion-model-policy/",
+      "request_url": "https://yesterdai.tedt.org/articles/copilot-fusion-model-policy/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/copilot-fusion-model-policy/?verify=7e6b8707a6d4",
+      "bytes": 13229,
+      "sha256": "a5022b0820392b57198f1dcece9f9a207c9eadda133bbeafb361a2d4655825f5"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/gemini-carbon-restricted-rollout/",
+      "request_url": "https://yesterdai.tedt.org/articles/gemini-carbon-restricted-rollout/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/gemini-carbon-restricted-rollout/?verify=7e6b8707a6d4",
+      "bytes": 13592,
+      "sha256": "269e816341ff039cd49e09a717cfcaba8b5cc9299e4bd4a9a3e32b96b2747fd3"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/genie-4-preview-simulation/",
+      "request_url": "https://yesterdai.tedt.org/articles/genie-4-preview-simulation/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/genie-4-preview-simulation/?verify=7e6b8707a6d4",
+      "bytes": 13132,
+      "sha256": "73fd88eb2bf7ef9bd265a353bedf56ed634f3704d655089eadab6c0028b990bf"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/archive/",
+      "request_url": "https://yesterdai.tedt.org/archive/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/archive/?verify=7e6b8707a6d4",
+      "bytes": 13908,
+      "sha256": "eb09d9d490c48238e87023d43fc9629f741ca7b23d5f7212f4dbd23a2d5cad2a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/search/",
+      "request_url": "https://yesterdai.tedt.org/search/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/search/?verify=7e6b8707a6d4",
+      "bytes": 27778,
+      "sha256": "7262776c86648fb99a85967f333dacc11c56f0e14340bad8eb0011cd9ae9104b"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/about/",
+      "request_url": "https://yesterdai.tedt.org/about/?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/about/?verify=7e6b8707a6d4",
+      "bytes": 8361,
+      "sha256": "81cd562083447c1256c727b4e9554f925c184b2e39c5feaed3e962c53e73bf5c"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.xml",
+      "request_url": "https://yesterdai.tedt.org/feed.xml?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/feed.xml?verify=7e6b8707a6d4",
+      "bytes": 138493,
+      "sha256": "6cbba654a034f66fae8deb4ae4a48b7cda9d52d914e41c5573ae9de0c5e3c5cf"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.json",
+      "request_url": "https://yesterdai.tedt.org/feed.json?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/feed.json?verify=7e6b8707a6d4",
+      "bytes": 132062,
+      "sha256": "1cf365558b32bd9b43766c614f90e48c20e5f29a77135541a3ac2cdb9be828fa"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/sitemap.xml",
+      "request_url": "https://yesterdai.tedt.org/sitemap.xml?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/sitemap.xml?verify=7e6b8707a6d4",
+      "bytes": 7153,
+      "sha256": "a3ce5dade9922c996b73da8b3707d71b62ca5422a97df344b5a5efaa1ab9e223"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/status.json",
+      "request_url": "https://yesterdai.tedt.org/status.json?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/status.json?verify=7e6b8707a6d4",
+      "bytes": 140,
+      "sha256": "651080ee5806f315190e048cfd4bc956d3ee0fc8ed37ed5b6dd8989374ffb6fb"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/pagefind/pagefind.js",
+      "request_url": "https://yesterdai.tedt.org/pagefind/pagefind.js?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/pagefind/pagefind.js?verify=7e6b8707a6d4",
+      "bytes": 45555,
+      "sha256": "252d272bd34d483d19a752060f6a065114d15ab12c42d8f905ca565e2768a009"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/publication-share.png",
+      "request_url": "https://yesterdai.tedt.org/assets/images/publication-share.png?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/publication-share.png?verify=7e6b8707a6d4",
+      "bytes": 38777,
+      "sha256": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/agent-harness-state.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/agent-harness-state.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/agent-harness-state.webp?verify=7e6b8707a6d4",
+      "bytes": 9604,
+      "sha256": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp?verify=7e6b8707a6d4",
+      "bytes": 14884,
+      "sha256": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp?verify=7e6b8707a6d4",
+      "bytes": 7530,
+      "sha256": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp?verify=7e6b8707a6d4",
+      "bytes": 20312,
+      "sha256": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp?verify=7e6b8707a6d4",
+      "bytes": 10434,
+      "sha256": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp?verify=7e6b8707a6d4",
+      "bytes": 13996,
+      "sha256": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp?verify=7e6b8707a6d4",
+      "bytes": 14678,
+      "sha256": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp?verify=7e6b8707a6d4",
+      "bytes": 17004,
+      "sha256": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp?verify=7e6b8707a6d4",
+      "bytes": 20022,
+      "sha256": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp?verify=7e6b8707a6d4",
+      "bytes": 27316,
+      "sha256": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp?verify=7e6b8707a6d4",
+      "bytes": 16164,
+      "sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp?verify=7e6b8707a6d4",
+      "bytes": 16084,
+      "sha256": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp?verify=7e6b8707a6d4",
+      "bytes": 17196,
+      "sha256": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp?verify=7e6b8707a6d4",
+      "bytes": 53060,
+      "sha256": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp?verify=7e6b8707a6d4",
+      "bytes": 8876,
+      "sha256": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp?verify=7e6b8707a6d4",
+      "bytes": 21590,
+      "sha256": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp?verify=7e6b8707a6d4",
+      "bytes": 14260,
+      "sha256": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp?verify=7e6b8707a6d4",
+      "bytes": 10132,
+      "sha256": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp?verify=7e6b8707a6d4",
+      "bytes": 17144,
+      "sha256": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp?verify=7e6b8707a6d4",
+      "bytes": 24218,
+      "sha256": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp?verify=7e6b8707a6d4",
+      "bytes": 19258,
+      "sha256": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp?verify=7e6b8707a6d4",
+      "bytes": 11488,
+      "sha256": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp?verify=7e6b8707a6d4",
+      "bytes": 12114,
+      "sha256": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/typed-decisions.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/typed-decisions.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/typed-decisions.webp?verify=7e6b8707a6d4",
+      "bytes": 15708,
+      "sha256": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp?verify=7e6b8707a6d4",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp?verify=7e6b8707a6d4",
+      "bytes": 12230,
+      "sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+    }
+  ],
+  "checks": [
+    {
+      "name": "HTTP /",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /editions/2026-10-29/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /editions/2026-10-28/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /articles/agent-optimization-budget/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /articles/ciso-survey-security-deployment/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /articles/claude-batch-review-evidence/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /articles/copilot-fusion-model-policy/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /articles/gemini-carbon-restricted-rollout/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /articles/genie-4-preview-simulation/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /archive/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /search/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /about/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /feed.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /feed.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /sitemap.xml",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /status.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /pagefind/pagefind.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/publication-share.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/agent-harness-state.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/ai-recommendation-bias.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/authorization-agent-boundaries.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/calibrated-disposition-drift.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/catalog-field-grounding.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/citation-relevance-verification.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/cost-aware-ticket-routing.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/hidden-instructions-public-pages.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/litellm-release-authority.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/llm-proxy-visibility.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/materials-structure-ml.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/memory-needs-relevance.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/mercury-diffusion-serving.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/meta-terms-data-governance.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/minimax-flash-task-economics.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/pew-task-level-adoption.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/prompt-judge-evaluation.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/recoverable-agent-changes.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/scope-executable-policy.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/typed-decisions.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTTP /assets/images/voxtral-voice-workflow.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Complete body ciso-survey-security-deployment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Body links ciso-survey-security-deployment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Title and summary ciso-survey-security-deployment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Article metadata ciso-survey-security-deployment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Takeaways ciso-survey-security-deployment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sources ciso-survey-security-deployment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Byline and date ciso-survey-security-deployment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Footer disclosure ciso-survey-security-deployment",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Complete body copilot-fusion-model-policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Body links copilot-fusion-model-policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Title and summary copilot-fusion-model-policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Article metadata copilot-fusion-model-policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Takeaways copilot-fusion-model-policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sources copilot-fusion-model-policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Byline and date copilot-fusion-model-policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Footer disclosure copilot-fusion-model-policy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Complete body claude-batch-review-evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Body links claude-batch-review-evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Title and summary claude-batch-review-evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Article metadata claude-batch-review-evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Takeaways claude-batch-review-evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sources claude-batch-review-evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Byline and date claude-batch-review-evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Footer disclosure claude-batch-review-evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Complete body gemini-carbon-restricted-rollout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Body links gemini-carbon-restricted-rollout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Title and summary gemini-carbon-restricted-rollout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Article metadata gemini-carbon-restricted-rollout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Takeaways gemini-carbon-restricted-rollout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sources gemini-carbon-restricted-rollout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Byline and date gemini-carbon-restricted-rollout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Footer disclosure gemini-carbon-restricted-rollout",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Complete body agent-optimization-budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Body links agent-optimization-budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Title and summary agent-optimization-budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Article metadata agent-optimization-budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Takeaways agent-optimization-budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sources agent-optimization-budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Byline and date agent-optimization-budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Footer disclosure agent-optimization-budget",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Complete body genie-4-preview-simulation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Body links genie-4-preview-simulation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Title and summary genie-4-preview-simulation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Article metadata genie-4-preview-simulation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Takeaways genie-4-preview-simulation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sources genie-4-preview-simulation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Byline and date genie-4-preview-simulation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Footer disclosure genie-4-preview-simulation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page metadata /",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Complete reader content /",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All new article links /",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page metadata /editions/2026-10-29/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Complete reader content /editions/2026-10-29/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All new article links /editions/2026-10-29/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page metadata /editions/2026-10-28/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Complete reader content /editions/2026-10-28/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page metadata /archive/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page metadata /search/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All new article links /search/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Page metadata /about/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/agent-harness-state.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/ai-recommendation-bias.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/authorization-agent-boundaries.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/calibrated-disposition-drift.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/catalog-field-grounding.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/citation-relevance-verification.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/cost-aware-ticket-routing.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/hidden-instructions-public-pages.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/litellm-release-authority.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/llm-proxy-visibility.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/materials-structure-ml.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/memory-needs-relevance.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/mercury-diffusion-serving.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/meta-terms-data-governance.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/minimax-flash-task-economics.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/pew-task-level-adoption.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/prompt-judge-evaluation.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/publication-share.png",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/recoverable-agent-changes.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/scope-executable-policy.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/typed-decisions.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Image bytes /assets/images/voxtral-voice-workflow.webp",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Public latest edition",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON Feed full article records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON Feed publication metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "RSS full article records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Sitemap new edition and articles",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "failures": []
+}

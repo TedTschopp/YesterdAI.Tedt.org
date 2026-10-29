@@ -1873,8 +1873,25 @@
     }
   ],
   "publication": {
-    "status": "prepared_not_yet_published",
-    "required_action": "Run deterministic preflight, commit, guarded ship, exact-commit deployment and public URL readback."
+    "status": "published_and_publicly_verified",
+    "content_commit": "7e6b8707a6d410c0a11b7565e9f1fc089be3c3c6",
+    "workflow_run_id": 40871740987,
+    "workflow_run_url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/40871740987",
+    "workflow_conclusion": "success",
+    "deployment_completed_at": "2026-10-29T12:19:21Z",
+    "public_verification_at": "2026-10-29T12:19:44.574287Z",
+    "public_urls_passed": 43,
+    "existing_heroes_verified": 25,
+    "attempt": 1,
+    "deployment_retry_used": false,
+    "edition_url": "https://yesterdai.tedt.org/editions/2026-10-29/",
+    "article_urls": [
+      "https://yesterdai.tedt.org/articles/copilot-fusion-model-policy/",
+      "https://yesterdai.tedt.org/articles/gemini-carbon-restricted-rollout/",
+      "https://yesterdai.tedt.org/articles/ciso-survey-security-deployment/"
+    ],
+    "required_action": "none",
+    "final_audit_evidence_location": "Automation memory and Scheduled after verifying the final audit commit; avoids recursive evidence-only commits."
   },
   "editing_pass": "Checked all three drafts against the primary source text and date metadata. Clarified that the two 13% survey figures refer to separate categories, added the distinct 45% purchasing intention, narrowed Fusion summary to permitted models, and revised the CISO headline. Concrete openings, visible reasoning, practical endings, sentence-style headlines and truthful authorship checked. No generic phrases or invented first-person testimony.",
   "preflight": [
