@@ -1,0 +1,2012 @@
+{
+  "contract_version": "2.0.3",
+  "article_metadata_contract": 2,
+  "writing_style": "ted-writing-style",
+  "writing_style_version": "1.0.0",
+  "headline_instruction": "Current user request: AP sentence-style publication headlines. Preserve policies and existing published titles.",
+  "edition_date": "2026-10-30",
+  "cutoff": "2026-10-30T05:00:00-07:00",
+  "window_start": "2026-10-29T00:00:00Z",
+  "prepared_at": "2026-10-30T12:05:35.170940Z",
+  "base_commit": "054d2dfd3ebf040c4a1a334725f3f266053fd47d",
+  "feed_check": "2026-10-30T11:58:08.508430Z",
+  "feed_counts": {
+    "curated": 241,
+    "top": 80
+  },
+  "malformed_exclusions": {
+    "curated": [
+      {
+        "id": "2e6b008d7907924a9c4c56743403e3af",
+        "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+      }
+    ],
+    "top": []
+  },
+  "pool_records": 92,
+  "distinct_candidate_urls": 92,
+  "older_curated_not_advanced": 229,
+  "disposition_counts": {
+    "outside_or_no_eligible_update": 11,
+    "selected": 4,
+    "not_advanced": 73,
+    "seven_day_duplicate": 3,
+    "unverified_original_date": 1
+  },
+  "selection_reason": "Four distinct, eligible stories create different deployment, organizational, security and communication decisions. No exhaustion claim.",
+  "article_target": [
+    3,
+    5
+  ],
+  "article_count": 4,
+  "article_shortfall": 0,
+  "quick_hit_count": 0,
+  "articles": [
+    {
+      "article_id": "art_5a25565ab71a8d06",
+      "slug": "mistral-large-4-weights-license",
+      "title": "Mistral releases Large 4 weights with a model-service license condition",
+      "format": "brief",
+      "words": 313,
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/mistral-large-4-weights-license/",
+      "source_publication": "2026-10-29T12:00:07Z"
+    },
+    {
+      "article_id": "art_9119d7a196c48299",
+      "slug": "coordination-agent-economics",
+      "title": "DeepMind Institute argues agent coordination could reshape firms",
+      "format": "brief",
+      "words": 288,
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/coordination-agent-economics/",
+      "source_publication": "2026-10-29T14:50:50.427529Z"
+    },
+    {
+      "article_id": "art_c3a6927a59480677",
+      "slug": "multilingual-safety-template-evidence",
+      "title": "MSafeTemp tests safety beyond English and simple translation",
+      "format": "brief",
+      "words": 305,
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/multilingual-safety-template-evidence/",
+      "source_publication": "2026-10-29T17:26:02Z"
+    },
+    {
+      "article_id": "art_815e9f76383a9012",
+      "slug": "fowler-writing-and-understanding",
+      "title": "Martin Fowler connects writing quality with the work of understanding",
+      "format": "brief",
+      "words": 286,
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/fowler-writing-and-understanding/",
+      "source_publication": "2026-10-29T00:00:00-04:00"
+    }
+  ],
+  "lead_article_id": "art_5a25565ab71a8d06",
+  "hero_decision": "Four focused briefs selected before drafting; no new hero needed or attempted. All existing heroes and other article/edition/image files preserved.",
+  "candidates": [
+    {
+      "feed": "curated",
+      "feed_id": "387d952a73e10fa1a06e5b0983abbb47",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "canonical_url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "feed_title": "Anthropic just launched tools to show companies what their AI spending is buying [ ! ] (Estimated)",
+      "feed_published_at": "2026-10-30T00:00:00+00:00",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Published 2026-10-28T19:19:58Z; modified 22:29:08Z. Both precede window."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "d3e725aade8069e038c12179f2fe4497",
+      "url": "https://particle.ai/blog/introducing-particle-1",
+      "canonical_url": "https://particle.ai/blog/introducing-particle-1",
+      "feed_title": "Introducing Particle-1 [ ~ ] (Estimated)",
+      "feed_published_at": "2026-10-30T00:00:00+00:00",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Visible original October 28 without a verified precise eligible update; the original date-only day cannot fit the reporting window."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "fcff2108f4d448520f7e739395393bdc",
+      "url": "https://openai.com/index/legora/",
+      "canonical_url": "https://openai.com/index/legora",
+      "feed_title": "Legora is building the agentic operating system for legal work [ ~ ] (Estimated)",
+      "feed_published_at": "2026-10-30T00:00:00+00:00",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Web source visibly dates original October 28; direct fetch returned 403. No eligible precise publication or substantive update established."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "38e79e7c7209965e96a95735392c7a4c",
+      "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+      "canonical_url": "https://institute.deepmind.com/essays/the-economics-of-intelligence",
+      "feed_title": "The Economics of Intelligence: How and when does AGI lead to economic transformation? [ ~ ] (Estimated)",
+      "feed_published_at": "2026-10-30T00:00:00+00:00",
+      "disposition": "selected",
+      "reason": "Original Article JSON-LD and article:published_time both give 2026-10-29T14:50:50.427529+00:00; modified 2026-10-29T15:38:29.163940+00:00. Visible date is October 29. HTTP-compressed source was decompressed before metadata extraction."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "2325d2887d4c7cb4e5bbb8d0144e4806",
+      "url": "https://hbr.org/2026/10/your-companys-fraud-defenses-arent-ready-for-ai-threats?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_Active&deliveryName=NL_DailyAlert_20261029&lctg=651d8ffd99c3f452fa0b0d1e",
+      "canonical_url": "https://hbr.org/2026/10/your-companys-fraud-defenses-arent-ready-for-ai-threats?deliveryName=NL_DailyAlert_20261029&lctg=651d8ffd99c3f452fa0b0d1e",
+      "feed_title": "Your Company's Fraud Defenses Aren't Ready for AI Threats [ * ] (Estimated)",
+      "feed_published_at": "2026-10-30T00:00:00+00:00",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "b9485f3a020e504a07e6fab15bfad054",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/?utm_source=tldrai",
+      "canonical_url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work",
+      "feed_title": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work [ * ] (Estimated)",
+      "feed_published_at": "2026-10-30T00:00:00+00:00",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Original Article JSON-LD and published_time are 2026-10-28T16:51:35Z. Outside window."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "3feb4d45d9467d8d2c3b3c440d36fe9a",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "canonical_url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+      "feed_title": "Route and orchestrate models with GitHub Copilot Fusion [ * ]",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "seven_day_duplicate",
+      "reason": "Already covered as art_af8e72e013cbe8cf. No later distinct substantive development established."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "5a190f4de8b9b5114886b93462c1585e",
+      "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+      "canonical_url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+      "feed_title": "Introducing artifacts for legal work [ ! ]",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "d37e5ca7bc9d6aabbeff4b3c1f46dd31",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+      "feed_title": "Gemini 4 Carbon: our next frontier model [ ! ]",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "seven_day_duplicate",
+      "reason": "Already covered as art_3e32bae570ff21ee. No later distinct substantive development established."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "74ad6eff0f68cefe46ca7446a00bc7af",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/",
+      "canonical_url": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc",
+      "feed_title": "How Rescale built an AI triage agent with Strands Agents and AI-DLC [ ~ ]",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "499554b18ec997ac251d375e00456744",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "canonical_url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "feed_title": "How AI agents shape experts' judgment calls [ ! ]",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "curated",
+      "feed_id": "bcb363aefdccc1b72392b9dd664ee630",
+      "url": "https://www.a16z.news/p/the-new-security-agenda?utm_source=post-email-title&publication_id=13145&post_id=219608200&utm_campaign=email-post-title&isFreemail=true&r=1v3zy&triedRedirect=true&utm_medium=email",
+      "canonical_url": "https://www.a16z.news/p/the-new-security-agenda?isFreemail=true&post_id=219608200&publication_id=13145&r=1v3zy&triedRedirect=true",
+      "feed_title": "The New Security Agenda [ ! ]",
+      "feed_published_at": "2026-10-29T00:00:00+00:00",
+      "disposition": "seven_day_duplicate",
+      "reason": "Same CISO survey already covered October 29 as art_25fbc9537ce488a6; query parameters do not create a new development."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_8b872243cfb3e97e",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "canonical_url": "https://labs.ycombinator.com/projects/games/index.html",
+      "feed_title": "YC Labs and Olam Labs run multi-agent GPT-6.1 swarms in Minecraft and Mindustry to study emergent behaviors and coordination [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T21:40:28Z",
+      "disposition": "unverified_original_date",
+      "reason": "Original page gives only October 2026; no precise original publication or substantive-update time established. Ranked feed date is not sufficient."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_0bd6afdf83667abb",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "canonical_url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "feed_title": "Martin Fowler warns against using LLMs to draft prose due to 'LLM Voice' uncanny valley effect, urging authors to write original text to preserve human communication [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T14:57:55Z",
+      "disposition": "selected",
+      "reason": "Original page visibly dates the essay 29 October 2026. Its og:article:modified_time is 2026-10-29 10:28:00 -0400 and the publisher Atom entry has updated 2026-10-29T10:28:00-04:00. The evidenced publisher offset places the entire date-only original day within [2026-10-29T04:00:00Z, 2026-10-30T04:00:00Z], wholly inside the reporting window. Midnight normalizes a date, not a claimed precise publication instant; Atom updated is not relabeled as original publication."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_560937b41d42efaf",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "canonical_url": "https://mistral.ai/news/mistral-large-4-oss",
+      "feed_title": "Mistral releases weights for Mistral Large 4, a 1-trillion-parameter multimodal model with improved coding and cybersecurity performance [ * ] [ ◼ ]",
+      "feed_published_at": "2026-10-29T14:13:21Z",
+      "disposition": "selected",
+      "reason": "Original BlogPosting JSON-LD gives datePublished 2026-10-29T12:00:07.000Z and dateModified 2026-10-29T17:33:42.728Z. The separately pinned initial model-repository release is 2026-10-29T14:11:16Z; its license matches the retrieved current license byte-for-byte."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_e6430300609b884d",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "canonical_url": "https://github.com/SheepSeb/tinyworldformer",
+      "feed_title": "Developer runs small neural network world model and actor to generate and play games on Raspberry Pi Pico 2 W [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T20:32:28Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_c5d36cf15e22f3c0",
+      "url": "https://github.com/mottopanikeiku/doomformer",
+      "canonical_url": "https://github.com/mottopanikeiku/doomformer",
+      "feed_title": "Developer compiles integer neural networks into DOOM maps using Doomformer, running computations via ViZDoom with exact integer matching [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-29T23:25:46Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2e883e8e8e5b437c",
+      "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
+      "canonical_url": "https://www.penligent.ai/hackinglabs/cve-2026-98432",
+      "feed_title": "Researchers disclose CVE-2026-98432 Linux TCP use-after-free vulnerability and validate patch effectiveness",
+      "feed_published_at": "2026-10-30T02:33:04Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_5604a4ae790d28a3",
+      "url": "https://arxiv.org/abs/2610.37680",
+      "canonical_url": "https://arxiv.org/abs/2610.37680",
+      "feed_title": "Researchers propose Artifact Distillation to transfer problem-solving knowledge from large to small language models without training, improving performance and efficiency across multiple tasks [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Original v1 2026-10-12T20:27:04Z; no subsequent version. Ranked timestamp is not original publication."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2eaaca6fd87965b7",
+      "url": "https://arxiv.org/abs/2610.37681",
+      "canonical_url": "https://arxiv.org/abs/2610.37681",
+      "feed_title": "Survey reviews recent advances in supervised fine-tuning for reasoning large language models, categorizing methods and analyses, and outlining future research directions [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_024c5ec875b0b041",
+      "url": "https://arxiv.org/abs/2610.37683",
+      "canonical_url": "https://arxiv.org/abs/2610.37683",
+      "feed_title": "Researchers develop Prompt-TIES and Prompt-DARE gradient-merging methods to improve train-time robustness of large language models against prompt paraphrasing interference [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2b349625adc8c1d9",
+      "url": "https://arxiv.org/abs/2610.37688",
+      "canonical_url": "https://arxiv.org/abs/2610.37688",
+      "feed_title": "Study finds English-language classifiers clear confidence thresholds more often than other languages on typed decision interfaces, with translation reducing but not eliminating gaps [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Original v1 2026-10-17T21:53:42Z; no subsequent version."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_3e361b94e4f1950a",
+      "url": "https://arxiv.org/abs/2610.37692",
+      "canonical_url": "https://arxiv.org/abs/2610.37692",
+      "feed_title": "Researchers analyze subjective preference patterns in large language models across short-form content types, revealing reproducible biases and sensitivity to question framing [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_46f4336726e72a6c",
+      "url": "https://arxiv.org/abs/2610.38095",
+      "canonical_url": "https://arxiv.org/abs/2610.38095",
+      "feed_title": "Nemotron introduces 3.5 Super and Lightning Mixture-of-Experts Hybrid Mamba-Transformer models for efficient multimodal reasoning and agentic AI workloads [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Original v1 2026-10-28T00:28:08Z; no subsequent version."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_a648bfde965a338b",
+      "url": "https://arxiv.org/abs/2610.40516",
+      "canonical_url": "https://arxiv.org/abs/2610.40516",
+      "feed_title": "Researchers release MSafeTemp, a 60-language template-based corpus to improve multilingual safety alignment for large language models [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "selected",
+      "reason": "Original arXiv submission history gives v1 Thu, 29 Oct 2026 17:26:02 UTC. Citation metadata and the visible submitted-on date agree. The version-pinned full text was read for methods, model-specific results and limitations."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_a064115236f358ab",
+      "url": "https://arxiv.org/abs/2610.37732",
+      "canonical_url": "https://arxiv.org/abs/2610.37732",
+      "feed_title": "ThinkJev introduces a hybrid system combining fast and slow reasoning for calibrated typed decisions using Qwen3.5 models, optimizing accuracy and computational cost [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Original visible submitted-on date October 27; no eligible update verified."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_16e6ea3d1ce4509e",
+      "url": "https://arxiv.org/abs/2610.37739",
+      "canonical_url": "https://arxiv.org/abs/2610.37739",
+      "feed_title": "OpenFrontiers releases a cross-disciplinary corpus of 12,151 open research problems and a 200-problem benchmark for scientific rediscovery with formal proof evaluation [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_9af4503c2215b1e2",
+      "url": "https://arxiv.org/abs/2610.37903",
+      "canonical_url": "https://arxiv.org/abs/2610.37903",
+      "feed_title": "Researcher releases Metis-1.6 language models Praxis and Logos with novel architecture and training on 1.02 trillion tokens, achieving competitive math performance with less data [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_04f09de300c4bb2b",
+      "url": "https://arxiv.org/abs/2610.37935",
+      "canonical_url": "https://arxiv.org/abs/2610.37935",
+      "feed_title": "SkillMem introduces compact external latent memory for reusable skills in latent multi-agent reasoning, reducing storage by over 38× and speeding inference up to 4.23× across Qwen3 models [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Original v1 2026-10-27T20:25:47Z; no subsequent version."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_98f187b0146d81b2",
+      "url": "https://arxiv.org/abs/2610.38561",
+      "canonical_url": "https://arxiv.org/abs/2610.38561",
+      "feed_title": "Researchers introduce Persona Learning from Feedback framework to personalize AI assistants using reusable LoRA adapters and token-level supervision [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_59f96d4824e04f08",
+      "url": "https://arxiv.org/abs/2610.38681",
+      "canonical_url": "https://arxiv.org/abs/2610.38681",
+      "feed_title": "Researchers introduce Weakening-Induced On-Policy Self-Distillation (WISD) to improve large reasoning models using weaker model counterparts without privileged information [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_4da6e22e26c5c508",
+      "url": "https://arxiv.org/abs/2610.39676",
+      "canonical_url": "https://arxiv.org/abs/2610.39676",
+      "feed_title": "Researchers introduce Event-SAMA-239K dataset and Event-SAMA model for language-grounded video object segmentation on neuromorphic event streams, establishing the first event-native RVOS baseline [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_a00e82038f596045",
+      "url": "https://arxiv.org/abs/2610.40055",
+      "canonical_url": "https://arxiv.org/abs/2610.40055",
+      "feed_title": "One Vector or Many? Clustered Optimal-Transport Steering under Quantization [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_d87f0a579e5b2213",
+      "url": "https://arxiv.org/abs/2505.07852",
+      "canonical_url": "https://arxiv.org/abs/2505.07852",
+      "feed_title": "Joint Detection of Fraud and Concept Drift inOnline Conversations with LLM-Assisted Judgment [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_3c6ebb354579e224",
+      "url": "https://arxiv.org/abs/2605.15220",
+      "canonical_url": "https://arxiv.org/abs/2605.15220",
+      "feed_title": "Always Learning, Always Mixing: Efficient and Simple Data Mixing All the Time [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_7ad4091eaf6c6e4b",
+      "url": "https://arxiv.org/abs/2606.05415",
+      "canonical_url": "https://arxiv.org/abs/2606.05415",
+      "feed_title": "Executable Schema Contracts: From Automatic Ingestion to Multi-Source Retrieval [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_70bb5d5a96f27a11",
+      "url": "https://arxiv.org/abs/2606.06474",
+      "canonical_url": "https://arxiv.org/abs/2606.06474",
+      "feed_title": "Self-Augmenting Retrieval for Diffusion Language Models [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_9a11187a7692691c",
+      "url": "https://arxiv.org/abs/2606.06840",
+      "canonical_url": "https://arxiv.org/abs/2606.06840",
+      "feed_title": "Characterize Then Distill: Mechanistic Reasoning in Large Output Spaces [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_c44857022d5f94d8",
+      "url": "https://arxiv.org/abs/2606.14867",
+      "canonical_url": "https://arxiv.org/abs/2606.14867",
+      "feed_title": "Evaluating the Robustness of Proof Autoformalization in Lean 4 [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_f227edd57732a040",
+      "url": "https://arxiv.org/abs/2610.23847",
+      "canonical_url": "https://arxiv.org/abs/2610.23847",
+      "feed_title": "Behavioral Couplings: From Formation to Behavioral Emergence in Language Models [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_da88fbd25bf8c970",
+      "url": "https://arxiv.org/abs/2603.14326",
+      "canonical_url": "https://arxiv.org/abs/2603.14326",
+      "feed_title": "ECG-Reasoning-Benchmark: A Benchmark for Evaluating Clinical Reasoning Capabilities in ECG Interpretation [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_59c6f4e9807a7e62",
+      "url": "https://arxiv.org/abs/2603.22016",
+      "canonical_url": "https://arxiv.org/abs/2603.22016",
+      "feed_title": "ROM: Real-time Overthinking Mitigation via Streaming Detection and Intervention [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_71f48df9293b3abd",
+      "url": "https://arxiv.org/abs/2605.24528",
+      "canonical_url": "https://arxiv.org/abs/2605.24528",
+      "feed_title": "Learning Mental Models From Unreliable Evidence [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_de71c661e5cfc504",
+      "url": "https://arxiv.org/abs/2606.02332",
+      "canonical_url": "https://arxiv.org/abs/2606.02332",
+      "feed_title": "Forget Attention: Importance-Aware Attention Is All You Need [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2543b6945405ac96",
+      "url": "https://arxiv.org/abs/2606.04284",
+      "canonical_url": "https://arxiv.org/abs/2606.04284",
+      "feed_title": "Interpretability Is Not Just a Tax: Sparsity and Diversity Yield Legible and Composable Reward Experts for Personalization [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_01187c624302d4b5",
+      "url": "https://arxiv.org/abs/2606.11854",
+      "canonical_url": "https://arxiv.org/abs/2606.11854",
+      "feed_title": "Fine-tuning Multi-modal LLMs with ART: Art-based Reinforcement Training [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_79a7012df223366d",
+      "url": "https://arxiv.org/abs/2606.22402",
+      "canonical_url": "https://arxiv.org/abs/2606.22402",
+      "feed_title": "Reinforcement learning to improve large language model-based automated code compliance systems [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_964ab2125ed4348d",
+      "url": "https://arxiv.org/abs/2608.02829",
+      "canonical_url": "https://arxiv.org/abs/2608.02829",
+      "feed_title": "Wiring Beats Blending: Structure-Aware Compensation for Transformer Downscaling [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_cbb81e7794b4e6ce",
+      "url": "https://arxiv.org/abs/2609.02959",
+      "canonical_url": "https://arxiv.org/abs/2609.02959",
+      "feed_title": "The Direction of Ignorance: LLMs Encode and Temper a Unigram Prior [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_5a57a0396d4f3ae1",
+      "url": "https://arxiv.org/abs/2610.37678",
+      "canonical_url": "https://arxiv.org/abs/2610.37678",
+      "feed_title": "The Best Second Opinion Is Right Where the Primary Is Wrong: Partner Selection for Selective Span Tagging [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_24f1ef7cc16cdb9c",
+      "url": "https://arxiv.org/abs/2610.37679",
+      "canonical_url": "https://arxiv.org/abs/2610.37679",
+      "feed_title": "Exposure Is Not Commitment: Double-Stratified Evaluation of Latent Monitors for Tool-Using Agents [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Original v1 2026-10-12T03:08:51Z; no subsequent version."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_5394051a6ae63c0b",
+      "url": "https://arxiv.org/abs/2610.37682",
+      "canonical_url": "https://arxiv.org/abs/2610.37682",
+      "feed_title": "Rank-Aware Differentially Private Release of Listwise Preferences for LLM Alignment [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_d740a391c9036918",
+      "url": "https://arxiv.org/abs/2610.37684",
+      "canonical_url": "https://arxiv.org/abs/2610.37684",
+      "feed_title": "An Introduction to Large Language Models for Scientists and Professionals [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_629e365a9266f321",
+      "url": "https://arxiv.org/abs/2610.37685",
+      "canonical_url": "https://arxiv.org/abs/2610.37685",
+      "feed_title": "From Geometry to Behavior: How Instruction Exposure Unlocks Latent Rhetorical Directions in LLMs [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_04fc7df121e7b418",
+      "url": "https://arxiv.org/abs/2610.37788",
+      "canonical_url": "https://arxiv.org/abs/2610.37788",
+      "feed_title": "Locating Sycophancy Across Training Stages in Open Language Models [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_8dc638f83a9d76b7",
+      "url": "https://arxiv.org/abs/2610.37826",
+      "canonical_url": "https://arxiv.org/abs/2610.37826",
+      "feed_title": "DeFT-RAG: Incrementally Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_4081fb5c38cb13e1",
+      "url": "https://arxiv.org/abs/2610.37921",
+      "canonical_url": "https://arxiv.org/abs/2610.37921",
+      "feed_title": "FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_0db3223ad228b1a7",
+      "url": "https://arxiv.org/abs/2610.38067",
+      "canonical_url": "https://arxiv.org/abs/2610.38067",
+      "feed_title": "From Error Prediction to Causal Influence: Auditing SAE Features in Multiple-Choice QA [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_7a5579e68ec64b38",
+      "url": "https://arxiv.org/abs/2610.38076",
+      "canonical_url": "https://arxiv.org/abs/2610.38076",
+      "feed_title": "Prompt Lottery in LLM-as-a-Judge: Measuring and Mitigating Sensitivity to Syntactic Rephrasing [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Original v1 2026-10-27T23:45:24Z; no subsequent version."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_987daeccab8f6c93",
+      "url": "https://arxiv.org/abs/2610.38174",
+      "canonical_url": "https://arxiv.org/abs/2610.38174",
+      "feed_title": "Scaling Lean Theorem Proving for Real-World Code Verification [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_ee80dd940fce7cd7",
+      "url": "https://arxiv.org/abs/2610.38267",
+      "canonical_url": "https://arxiv.org/abs/2610.38267",
+      "feed_title": "Cross Lingual Abstractive Summarization for Marathi [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_c87fad3a4e970180",
+      "url": "https://arxiv.org/abs/2610.38293",
+      "canonical_url": "https://arxiv.org/abs/2610.38293",
+      "feed_title": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_24447e5068734f55",
+      "url": "https://arxiv.org/abs/2610.38336",
+      "canonical_url": "https://arxiv.org/abs/2610.38336",
+      "feed_title": "Statutory Article Retrieval from Arabic Judicial Narratives: Family Law and Law of Evidence in Saudi Arabia [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_5404e8a4a9077c16",
+      "url": "https://arxiv.org/abs/2610.38402",
+      "canonical_url": "https://arxiv.org/abs/2610.38402",
+      "feed_title": "LLMs as Judges and Examinees for Medical Item Difficulty Prediction [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_266a08c6ffaa93c9",
+      "url": "https://arxiv.org/abs/2610.38433",
+      "canonical_url": "https://arxiv.org/abs/2610.38433",
+      "feed_title": "Does Chain-of-Thought Reliance Follow a Scaling Law?Larger Models Follow Their Steps More, Independent of Post-Training [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_70397eb9d075cbef",
+      "url": "https://arxiv.org/abs/2610.38438",
+      "canonical_url": "https://arxiv.org/abs/2610.38438",
+      "feed_title": "RoleFUZZER: User-Behaviour Fuzzing for Role-Specification Adherence in Large Language Models [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_91ec094cf3e1d987",
+      "url": "https://arxiv.org/abs/2610.38448",
+      "canonical_url": "https://arxiv.org/abs/2610.38448",
+      "feed_title": "Benchmarking decision models against generative large language models on medical multiple-choice questions [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_06d4bb2a46d5c8cc",
+      "url": "https://arxiv.org/abs/2610.38570",
+      "canonical_url": "https://arxiv.org/abs/2610.38570",
+      "feed_title": "Do Audio LLMs HEAR Pain? Tracing Acoustic Evidence from Speech to Language Reasoning [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_b1a76b2e92ed684a",
+      "url": "https://arxiv.org/abs/2610.38580",
+      "canonical_url": "https://arxiv.org/abs/2610.38580",
+      "feed_title": "Structural Pattern Mining in Inka Khipus: A KFG Re-Analysis",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_7bcca4c0ded2a434",
+      "url": "https://arxiv.org/abs/2610.38719",
+      "canonical_url": "https://arxiv.org/abs/2610.38719",
+      "feed_title": "Learning Scientific Trajectories to Predict Future Biomedical Discoveries [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_2777b1f22bb05a87",
+      "url": "https://arxiv.org/abs/2610.38822",
+      "canonical_url": "https://arxiv.org/abs/2610.38822",
+      "feed_title": "CopyLoop: Fast Looped Transformer Decoding via Context Copying and Shallow Screening [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_73c9d707b75c1e29",
+      "url": "https://arxiv.org/abs/2610.38911",
+      "canonical_url": "https://arxiv.org/abs/2610.38911",
+      "feed_title": "Interventional Training Reduces Causal Bypass in In-Context Introspection [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_3e0cfc93b6448d02",
+      "url": "https://arxiv.org/abs/2610.39006",
+      "canonical_url": "https://arxiv.org/abs/2610.39006",
+      "feed_title": "Blind Spots: Where Small Language Models Fall Behind Frontier Models on Terminal Tasks [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_fffbe3bae3c28f50",
+      "url": "https://arxiv.org/abs/2610.39016",
+      "canonical_url": "https://arxiv.org/abs/2610.39016",
+      "feed_title": "Implicit Reasoning in Transformers: Bridging the Compositionality Gap in GPT-2-like Models [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_401b6ef3a6fbdf3b",
+      "url": "https://arxiv.org/abs/2610.39020",
+      "canonical_url": "https://arxiv.org/abs/2610.39020",
+      "feed_title": "Distilling the Shape of Uncertainty: What On-Policy Distillation Learns and How to Predict It [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_a62c947a91964a67",
+      "url": "https://arxiv.org/abs/2610.39372",
+      "canonical_url": "https://arxiv.org/abs/2610.39372",
+      "feed_title": "Cord: Confidence-Anchored Order Residual Decoding for Masked Diffusion Language Models [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_68916aec63d54fc2",
+      "url": "https://arxiv.org/abs/2610.39373",
+      "canonical_url": "https://arxiv.org/abs/2610.39373",
+      "feed_title": "What Makes Medical Examination Items Difficult? Using Large Language Models to Explore Patterns Associated With Empirical Item Difficulty [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_adfbe03bc1143eeb",
+      "url": "https://arxiv.org/abs/2610.39464",
+      "canonical_url": "https://arxiv.org/abs/2610.39464",
+      "feed_title": "Integrating Heterogeneous Echocardiography AI Outputs in Language Space: Learnable Late Fusion with a Supervised LLM [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_37291d9973475a9b",
+      "url": "https://arxiv.org/abs/2610.39562",
+      "canonical_url": "https://arxiv.org/abs/2610.39562",
+      "feed_title": "Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_02278fef9a16a669",
+      "url": "https://arxiv.org/abs/2610.39590",
+      "canonical_url": "https://arxiv.org/abs/2610.39590",
+      "feed_title": "Red-Teaming Large Language Models in Low-Resource African Languages: A Case Study of Yoruba and Nigerian Pidgin [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_50f1e03ccae3b078",
+      "url": "https://arxiv.org/abs/2610.39923",
+      "canonical_url": "https://arxiv.org/abs/2610.39923",
+      "feed_title": "Prompts and probabilities in the linguistic assessment of language models: Evidence from semantic focus-sensitivity [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_1814d75a45e0bb02",
+      "url": "https://arxiv.org/abs/2610.40051",
+      "canonical_url": "https://arxiv.org/abs/2610.40051",
+      "feed_title": "Rethinking Pre-pretraining [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_0907eeb8d978f98c",
+      "url": "https://arxiv.org/abs/2610.40091",
+      "canonical_url": "https://arxiv.org/abs/2610.40091",
+      "feed_title": "Upcycling Language Models for Multiple Specialized Domains [ ~ ] [ ◼ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_c23efcef730c8522",
+      "url": "https://arxiv.org/abs/2610.40283",
+      "canonical_url": "https://arxiv.org/abs/2610.40283",
+      "feed_title": "Latent Path Exploration via Potential-Guided Subtrajectory Balance [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_d1491780a2f1a346",
+      "url": "https://arxiv.org/abs/2610.40318",
+      "canonical_url": "https://arxiv.org/abs/2610.40318",
+      "feed_title": "Decision and System One models in rheumatology: accuracy and calibration on specialty-training examination questions and diagnostic case vignettes [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_1ed454c0285ede9b",
+      "url": "https://arxiv.org/abs/2610.40394",
+      "canonical_url": "https://arxiv.org/abs/2610.40394",
+      "feed_title": "Scaling Mathematical Proof Supervision from Structured Textbooks [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_8622f45b7b277422",
+      "url": "https://arxiv.org/abs/2610.40533",
+      "canonical_url": "https://arxiv.org/abs/2610.40533",
+      "feed_title": "Homebrewed SLMs: Autoregressive and Masked Diffusion Language Models Built at Home for Portuguese [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_94f9ebc100a824b2",
+      "url": "https://arxiv.org/abs/2610.40611",
+      "canonical_url": "https://arxiv.org/abs/2610.40611",
+      "feed_title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_4ba75f4d5b2a9694",
+      "url": "https://arxiv.org/abs/2610.37701",
+      "canonical_url": "https://arxiv.org/abs/2610.37701",
+      "feed_title": "DuQUAD: A Dual-View Framework with Quality-Aware Evidence Pruning for Multi-Document Question Answering [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_5c59e53c008d866c",
+      "url": "https://arxiv.org/abs/2610.37719",
+      "canonical_url": "https://arxiv.org/abs/2610.37719",
+      "feed_title": "What a Weight Update Buys: Leverage Across Training Stages [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_1fe82f27aefcb891",
+      "url": "https://arxiv.org/abs/2610.37741",
+      "canonical_url": "https://arxiv.org/abs/2610.37741",
+      "feed_title": "Agentic Backdoors via Pretraining Poisoning [ * ] [ ⬢ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    },
+    {
+      "feed": "top",
+      "feed_id": "sty_e019a01434c64020",
+      "url": "https://arxiv.org/abs/2610.37849",
+      "canonical_url": "https://arxiv.org/abs/2610.37849",
+      "feed_title": "Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening [ ~ ] [ ◻ ]",
+      "feed_published_at": "2026-10-30T04:00:00Z",
+      "disposition": "not_advanced",
+      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+    }
+  ],
+  "seven_day_history": [
+    {
+      "edition_date": "2026-10-29",
+      "article_id": "art_25fbc9537ce488a6",
+      "title": "CISO survey separates security buying plans from production use",
+      "summary": "An a16z survey of 100 large-company security leaders separates planned spending from reported AI security deployments, with sampling and investor perspective limiting broader conclusions.",
+      "sources": [
+        {
+          "url": "https://www.a16z.news/p/the-new-security-agenda",
+          "title": "The New Security Agenda",
+          "publisher": "a16z",
+          "published_at": "2026-10-28T16:00:31Z",
+          "kind": "research",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-29",
+      "article_id": "art_af8e72e013cbe8cf",
+      "title": "Copilot Fusion puts model routing inside an administrator’s policy",
+      "summary": "GitHub’s generally available routing system combines model orchestration with administrator controls and per-model billing, creating a concrete choice about permitted models and cost.",
+      "sources": [
+        {
+          "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+          "title": "Route and orchestrate models with GitHub Copilot Fusion",
+          "publisher": "GitHub",
+          "published_at": "2026-10-28T16:00:00Z",
+          "kind": "vendor",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-29",
+      "article_id": "art_3e32bae570ff21ee",
+      "title": "Gemini 4 Carbon starts with restricted access for cyber defenders",
+      "summary": "Google’s new model pairs claimed cybersecurity gains with a phased defender rollout; announced pricing and unguarded benchmark scores do not establish broad availability or local performance.",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+          "title": "Gemini 4 Carbon: our next frontier model",
+          "publisher": "Google DeepMind",
+          "published_at": "2026-10-28T17:00:00Z",
+          "kind": "vendor",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "title": "Gemini 4 Carbon: our next frontier model",
+          "publisher": "Google",
+          "published_at": "2026-10-28T17:00:00Z",
+          "kind": "vendor",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-28",
+      "article_id": "art_645cbaa528bc8dcd",
+      "title": "Claude-assisted batch review shows gains and a narrow evidence base",
+      "summary": "Enveda’s study behind Anthropic’s drug-development report records faster document review, while preserving human decisions and exposing limits in the comparison.",
+      "sources": [
+        {
+          "url": "https://enveda.com/CMC-Document-Processor/",
+          "title": "CDP: a language-model system for quality review of executed pharmaceutical batch records",
+          "publisher": "Enveda",
+          "published_at": "2026-10-27T08:00:39+00:00",
+          "kind": "vendor",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "title": "Early progress on accelerating drug development with Claude",
+          "publisher": "Anthropic",
+          "published_at": "2026-10-27T00:00:00Z",
+          "kind": "vendor",
+          "date_precision": "day",
+          "date_basis": "Original publisher JSON-LD and meta explicitly provide midnight Z; treat as the full UTC publication day, wholly inside the window. Modification at 20:26:09Z is also before cutoff. Enveda exact original time independently establishes story eligibility."
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-28",
+      "article_id": "art_a9a5887ca8150cae",
+      "title": "Two studies separate faster agent optimization from cheaper evaluation",
+      "summary": "Parallel GEPA proposals and EvalAlloc target different costs of improving agent workflows: elapsed time and the number of evaluations needed to choose a candidate.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.37276v1",
+          "title": "Where Should the Evaluation Budget Go in LLM-Driven Agent Scaffold Evolution?",
+          "publisher": "Sichun Luo and colleagues / arXiv",
+          "published_at": "2026-10-27T14:06:26Z",
+          "kind": "preprint",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.37276v1",
+          "title": "EvalAlloc — version 1 full text",
+          "publisher": "arXiv",
+          "published_at": "2026-10-27T14:06:26Z",
+          "kind": "preprint",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.36774v1",
+          "title": "Batching the Reflective Optimization Loop: Parallel Proposals Make GEPA Faster and Better",
+          "publisher": "Jialin Zhang and colleagues / arXiv",
+          "published_at": "2026-10-27T07:41:40Z",
+          "kind": "preprint",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.36774v1",
+          "title": "GEPA parallel proposals — version 1 full text",
+          "publisher": "arXiv",
+          "published_at": "2026-10-27T07:41:40Z",
+          "kind": "preprint",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-28",
+      "article_id": "art_e960e8891f7d7ad8",
+      "title": "Genie 4 brings native audio to a limited simulation preview",
+      "summary": "DeepMind’s new world model generates sound and steers interactive scenes, while preview access and continuity limits bound what enterprises can evaluate.",
+      "sources": [
+        {
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "title": "Genie 4: A new generation of world simulation",
+          "publisher": "Google DeepMind",
+          "published_at": "2026-10-27T16:13:00+00:00",
+          "kind": "vendor",
+          "date_precision": "second",
+          "date_basis": "Original publisher JSON-LD/meta; RSS independently records 16:01:38Z. Later page modification is outside cutoff; selected launch claims are corroborated by October 27 reporting."
+        },
+        {
+          "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+          "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+          "publisher": "Ryan Whitwam / Ars Technica",
+          "published_at": "2026-10-27T16:00:22+00:00",
+          "kind": "reporting",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-27",
+      "article_id": "art_b8eac1ac6e149cce",
+      "title": "Anthropic’s S-1 separates public ownership from board control",
+      "summary": "Anthropic’s proposed IPO filing leaves offering terms open while describing distinct voting rights for public shareholders, founders and its Long-Term Benefit Trust.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+          "title": "Anthropic, PBC — Form S-1 registration statement",
+          "publisher": "Anthropic / SEC EDGAR",
+          "published_at": "2026-10-26T13:00:11Z",
+          "kind": "vendor",
+          "date_precision": "second",
+          "date_basis": "Exact SEC acceptance time for the initial S-1; the preliminary prospectus is subject to amendment."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
+          "title": "EDGAR filing detail: accession 0001628280-26-067168",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "published_at": "2026-10-26T13:00:11Z",
+          "kind": "reporting",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-27",
+      "article_id": "art_35e334c198740f74",
+      "title": "GPT-6.1 Terra lowers the price of computer-use trials",
+      "summary": "OpenAI’s new Terra release combines lower API rates with vendor-reported visual and computer-use gains; a task-level comparison still needs fixed tools and acceptance criteria.",
+      "sources": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "title": "Introducing GPT-6.1 Terra",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-26T00:00:00Z",
+          "kind": "vendor",
+          "date_precision": "day",
+          "date_basis": "Original publisher RSS pubDate explicitly uses GMT; evaluated as the full UTC publication day, with the linked system card’s visible October 26 date as corroboration."
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+          "title": "Addendum to GPT-6 Astra System Card: GPT-6.1 Terra",
+          "publisher": "OpenAI Deployment Safety Hub",
+          "published_at": "2026-10-26T00:00:00Z",
+          "kind": "vendor",
+          "date_precision": "day",
+          "date_basis": "Visible original Published October 26, 2026; paired release RSS provides an explicit GMT publication day, rather than an observed exact hour."
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-27",
+      "article_id": "art_89893d5f73c77515",
+      "title": "Cloudflare’s cache disclosure exposes a gap in isolation tests",
+      "summary": "Cloudflare’s new account of a repaired Workers AI exposure shows why successful responses cannot establish that one customer’s data stayed separate from another’s.",
+      "sources": [
+        {
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+          "publisher": "Cloudflare",
+          "published_at": "2026-10-26T22:01:23.889Z",
+          "kind": "vendor",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://www.lmsys.org/blog/2026-10-26-cf-security",
+          "title": "SGLang security update: improving request isolation",
+          "publisher": "SGLang / LMSYS Org",
+          "published_at": "2026-10-26T00:00:00Z",
+          "kind": "practitioner",
+          "date_precision": "day",
+          "date_basis": "Publisher’s visible original date and publication meta give October 26, 2026 without a timezone. Midnight UTC is a storage placeholder, not an observed publication instant. Secondary coordinated account only; Cloudflare’s exact original time establishes eligibility."
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-27",
+      "article_id": "art_b636afd106784676",
+      "title": "Microsoft offers buyouts as AI spending reshapes staffing",
+      "summary": "Microsoft confirms a voluntary exit offer in four countries. CNBC reports about 60,000 eligible employees as the company balances AI investment and workforce needs.",
+      "sources": [
+        {
+          "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+          "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+          "publisher": "CNBC / Jordan Novet",
+          "published_at": "2026-10-26T15:52:10Z",
+          "kind": "reporting",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+          "title": "Introducing a Voluntary Exit Offer",
+          "publisher": "Microsoft / Amy Coleman",
+          "published_at": "2026-10-26T15:33:56Z",
+          "kind": "vendor",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-26",
+      "article_id": "art_240888442444abd5",
+      "title": "Model price cuts make cache accounting matter",
+      "summary": "Max Woolf’s new pricing analysis highlights cache reads; workload accounting determines whether lower token rates reduce the cost of accepted work.",
+      "sources": [
+        {
+          "url": "https://minimaxir.com/2026/10/cheap-llms/",
+          "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+          "publisher": "Max Woolf",
+          "published_at": "2026-10-25T21:00:00Z",
+          "kind": "practitioner",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "title": "Claude Opus 5.5",
+          "publisher": "Anthropic",
+          "published_at": "2026-09-22T00:00:00Z",
+          "kind": "vendor",
+          "date_precision": "day",
+          "date_basis": "Publisher visible original day September 22, 2026; older context for the specified token rates and vendor comparison, not eligibility."
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-26",
+      "article_id": "art_11f803bdf2d21098",
+      "title": "Rao’s AI essay asks who gets to discover useful work",
+      "summary": "Venkatesh Rao’s new essay shifts attention toward demand for AI. An enterprise pilot can test useful work that teams previously left undone.",
+      "sources": [
+        {
+          "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
+          "title": "Cognitive Mercantilism",
+          "publisher": "Venkatesh Rao / Contraptions",
+          "published_at": "2026-10-25T19:19:09Z",
+          "kind": "practitioner",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-25",
+      "article_id": "art_d26f3b9150349619",
+      "title": "Google’s Agent Controls Separate Guidance From Enforcement",
+      "summary": "InfoQ’s new reporting distinguishes written agent procedures from Google Cloud permissions. A useful pilot verifies which tool calls the service actually refuses.",
+      "sources": [
+        {
+          "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/",
+          "title": "Google’s Data Agent Kit hits GA, splitting agent guardrails between skills and IAM",
+          "publisher": "InfoQ",
+          "published_at": "2026-10-24T08:34:00Z",
+          "kind": "reporting",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent/",
+          "title": "Data Agent Kit is now GA: Bring Google Data Cloud to any coding agent",
+          "publisher": "Google Cloud",
+          "published_at": "2026-09-30T13:11:29-07:00",
+          "kind": "vendor",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin/blob/9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3/skills/accidental-data-loss-prevention/SKILL.md",
+          "title": "Accidental data loss prevention skill, pinned to the October 13 source commit",
+          "publisher": "Google Cloud / GitHub",
+          "published_at": "2026-10-13T22:21:26Z",
+          "kind": "vendor",
+          "date_precision": "second",
+          "source_commit": "9a49a83f0e1088e8a64cd6d7db686dab20ccb7a3",
+          "date_basis": "Pinned repository snapshot commit time, not a claim that the skill first appeared then."
+        },
+        {
+          "url": "https://docs.cloud.google.com/mcp/prevent-read-write-tool-use",
+          "title": "Prevent read-write MCP tool use",
+          "publisher": "Google Cloud",
+          "published_at": "2026-10-22T00:00:00Z",
+          "kind": "vendor",
+          "date_precision": "day",
+          "date_basis": "Visible last-updated day is October 22 UTC; midnight normalizes the contextual date and is not eligibility evidence."
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-25",
+      "article_id": "art_1edb80b635d46123",
+      "title": "PHP’s Old Flaws Put New Pressure on Remediation",
+      "summary": "WIRED’s new PHP reporting connects AI-assisted exploit research with familiar remediation constraints. The patch date, attack evidence and decision process each tell a different part of the story.",
+      "sources": [
+        {
+          "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+          "title": "The PHP meltdown shows how AI makes bugs more exploitable",
+          "publisher": "WIRED",
+          "published_at": "2026-10-24T12:00:00Z",
+          "kind": "reporting",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+          "title": "Today’s PHP security release, and how we’re strengthening PHP security",
+          "publisher": "The PHP Foundation",
+          "published_at": "2026-10-21T00:00:00Z",
+          "kind": "practitioner",
+          "date_precision": "day",
+          "date_basis": "Visible original publication day; used as older context, not eligibility. Fixed-release identifiers checked against the foundation account."
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-24",
+      "article_id": "art_2a3e85161b6aae3f",
+      "title": "General Chatbot Use Does Not Establish Adoption for a Task",
+      "summary": "Pew’s election-information survey distinguishes broad chatbot use from use for one particular purpose. Enterprise adoption measures should make the same distinction between access, activity, and useful outcomes.",
+      "sources": [
+        {
+          "url": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/",
+          "title": "Few Americans Say They Are Asking AI Chatbots for 2026 Election Information",
+          "publisher": "pewresearch.org",
+          "published_at": "2026-10-23T14:29:42-04:00",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-24",
+      "article_id": "art_552b4e59bc6342ea",
+      "title": "LiteLLM’s Incident Connects Credentials to Release Authority",
+      "summary": "LiteLLM’s root-cause report describes a chain from exposed credentials to a malicious release. The operating question is whether apparently separate release controls depend on the same compromised authority.",
+      "sources": [
+        {
+          "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+          "title": "LiteLLM security incident — the October 21 attack chain",
+          "publisher": "docs.litellm.ai",
+          "published_at": "2026-10-23T21:00:00Z",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-24",
+      "article_id": "art_51c071c2515ec8fe",
+      "title": "Kapitsa Brings the Control Room Onto Your Mac",
+      "summary": "Kapitsa v0.2.15 pairs serving fixes with qualified performance claims. Running a coding model locally makes network access, retained conversations, and service recovery decisions part of the team's work.",
+      "sources": [
+        {
+          "url": "https://github.com/nace-ai/kapitsa/releases/tag/v0.2.15",
+          "title": "Kapitsa 0.2.15 release notes",
+          "publisher": "Nace AI / GitHub",
+          "published_at": "2026-10-23T22:59:15Z",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/README.md",
+          "title": "Kapitsa overview at the v0.2.15 source commit",
+          "publisher": "Nace AI / GitHub",
+          "published_at": "2026-10-23T22:35:46Z",
+          "date_precision": "second",
+          "source_commit": "5c489cc69b397d2088aa165f9017129b4a724b7a",
+          "date_basis": "Pinned source-commit timestamp; historical documentation snapshot"
+        },
+        {
+          "url": "https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/usage.md",
+          "title": "Kapitsa usage: server access, peer routing, and SSD cache at v0.2.15",
+          "publisher": "Nace AI / GitHub",
+          "published_at": "2026-10-23T22:35:46Z",
+          "date_precision": "second",
+          "source_commit": "5c489cc69b397d2088aa165f9017129b4a724b7a",
+          "date_basis": "Pinned source-commit timestamp; historical documentation snapshot"
+        },
+        {
+          "url": "https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/kflash.md",
+          "title": "KFlash mechanism, measurements, and output qualifications at v0.2.15",
+          "publisher": "Nace AI / GitHub",
+          "published_at": "2026-10-23T22:35:46Z",
+          "date_precision": "second",
+          "source_commit": "5c489cc69b397d2088aa165f9017129b4a724b7a",
+          "date_basis": "Pinned source-commit timestamp; historical documentation snapshot"
+        },
+        {
+          "url": "https://github.com/nace-ai/kapitsa/blob/5c489cc69b397d2088aa165f9017129b4a724b7a/docs/benchmarks.md",
+          "title": "Kapitsa benchmark methods and measurement qualifications at v0.2.15",
+          "publisher": "Nace AI / GitHub",
+          "published_at": "2026-10-23T22:35:46Z",
+          "date_precision": "second",
+          "source_commit": "5c489cc69b397d2088aa165f9017129b4a724b7a",
+          "date_basis": "Pinned source-commit timestamp; historical documentation snapshot"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-23",
+      "article_id": "art_43a5a6eafd6c005a",
+      "title": "Model Boundaries Need Tests That Vary the Context",
+      "summary": "A controlled pay-stub editing study probes how context changes model responses. It supports a focused application test, while its simulated setting limits conclusions about real-world outcomes or overall ethics.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.30751v1",
+          "title": "How Firm Are AI Models’ Ethical Boundaries? A pay-stub editing test of 15 models",
+          "publisher": "arxiv.org",
+          "published_at": "2026-10-22T05:19:49Z",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-23",
+      "article_id": "art_fc116d0cc59c1c4e",
+      "title": "Catalog Fields Need Different Checks for Evidence",
+      "summary": "An experiment on museum records separates field coverage from support for a generated claim. It offers a focused test pattern for teams generating descriptions from structured data.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.31193v1",
+          "full_text_url": "https://arxiv.org/html/2610.31193v1",
+          "title": "When More Metadata Misleads: Probing Field-Level Grounding in LLM-Generated Museum Descriptions, v1",
+          "publisher": "arXiv · Clemencia Siro and Laura Hollink",
+          "published_at": "2026-10-22T12:41:12Z",
+          "date_precision": "second",
+          "kind": "preprint",
+          "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-23",
+      "article_id": "art_acf94d966a173a22",
+      "title": "The Best Ticket-Routing Decision May Be to Defer",
+      "summary": "A cost-aware IT-routing study makes human triage an explicit option. Its results favor evaluating the whole decision policy, including the cost of a wrong route and the capacity of the review queue.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.31657v1",
+          "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+          "publisher": "arxiv.org",
+          "published_at": "2026-10-22T17:58:52Z",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-23",
+      "article_id": "art_26bdab7224d77ff2",
+      "title": "Compound Policies Need Inspectable Decisions",
+      "summary": "SCOPE explores compiling natural-language policies into smaller predicates and explicit logic. The enterprise opportunity is a policy decision whose components can be tested, explained, and maintained separately.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.31062v1",
+          "title": "SCOPE — compiling natural-language policies into neurosymbolic predicate programs",
+          "publisher": "arxiv.org",
+          "published_at": "2026-10-22T10:41:13Z",
+          "date_precision": "second"
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-10-23",
+      "article_id": "art_4714611be4537b33",
+      "title": "Evaluation Scores Need Their Prompts and Judges Attached",
+      "summary": "Two new studies show how wording, tool interfaces, judge choice, and language affect model comparisons. An enterprise scorecard needs to preserve those conditions and expose important reversals.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.31148v1",
+          "title": "Prompt Sensitivity in Tool-Augmented Model Comparisons",
+          "publisher": "arxiv.org",
+          "published_at": "2026-10-22T12:07:01Z",
+          "date_precision": "second"
+        },
+        {
+          "url": "https://arxiv.org/abs/2610.31172v1",
+          "title": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
+          "publisher": "arXiv",
+          "published_at": "2026-10-22T12:27:05Z",
+          "date_precision": "second"
+        }
+      ]
+    }
+  ],
+  "source_cache_hashes": [
+    {
+      "file": "artifact-distillation.html",
+      "bytes": 40029,
+      "sha256": "65746952d27969a1dae7ee3116b95d43e7bf8660c919b6a55310b97925e58b73"
+    },
+    {
+      "file": "artifact-distillation.json",
+      "bytes": 2255,
+      "sha256": "bf233e9c786190f187e6eee1beb336d22e37153933264bc917ef3707b06a6224"
+    },
+    {
+      "file": "artifact-distillation.txt",
+      "bytes": 4170,
+      "sha256": "5973c3812ee02b144cd8aa65bb164bc5bff735f84d389119f40787a03ebd768b"
+    },
+    {
+      "file": "claude-value.html",
+      "bytes": 250458,
+      "sha256": "39ea5a421261e288a9267db41d42aa8114d3678655262a6d18d12a2cc45849fd"
+    },
+    {
+      "file": "claude-value.json",
+      "bytes": 7236,
+      "sha256": "be798609abefc091ddb79f81e1bffb18bafe0f5484834252cd960aaec2e2f516"
+    },
+    {
+      "file": "claude-value.txt",
+      "bytes": 6456,
+      "sha256": "b65da17e57e0f3fcb5b90b3c8e436a01a2322736aea43d6b32ce5decfafa2f27"
+    },
+    {
+      "file": "copilot-harness.html",
+      "bytes": 132144,
+      "sha256": "74576d7cb8a9c273e8aa474fec1b5d48e03513b9ca3dfb4f767c26d7068d4ee8"
+    },
+    {
+      "file": "copilot-harness.json",
+      "bytes": 5996,
+      "sha256": "36e8dfc73271d550a6d28a454d95c88bfcd865eb120016c2c71170585cd719d1"
+    },
+    {
+      "file": "copilot-harness.txt",
+      "bytes": 6796,
+      "sha256": "1073dda793f935d50c88ac9b04a00811e64db4b171910989fff6c4da42928d0d"
+    },
+    {
+      "file": "decision-language.html",
+      "bytes": 48704,
+      "sha256": "0e1113a663a71e3b48a331b4c039b05c2dff6808c9c2502423b8fa213015650e"
+    },
+    {
+      "file": "decision-language.json",
+      "bytes": 378,
+      "sha256": "296519b51c0a5a2d055287277417631e4c5223fe0fc4564e7cdcf6147bba815c"
+    },
+    {
+      "file": "decision-language.txt",
+      "bytes": 5859,
+      "sha256": "46bc1f96e545042febbfd846a1c719fd72f799579babf06916662869c14e7891"
+    },
+    {
+      "file": "economics.html",
+      "bytes": 86062,
+      "sha256": "7bff4e0fcf45e29c61c089077dbd82d7f2a5013bd3c7085df302ce800c491103"
+    },
+    {
+      "file": "economics.json",
+      "bytes": 2688,
+      "sha256": "6e91e6649672b78297d774aa6fa63f2af24f34bc7015fd8290265c2832514c32"
+    },
+    {
+      "file": "economics.txt",
+      "bytes": 25199,
+      "sha256": "b59b2e7277d9260420f312deb6e4dcde8af7c243bf69982cad7cbbdd5886cd7f"
+    },
+    {
+      "file": "fowler-feed.html",
+      "bytes": 174731,
+      "sha256": "730e823503a0083899a2c8aa0694015d255e2c96e8e010fd55989e49db008050"
+    },
+    {
+      "file": "fowler-feed.txt",
+      "bytes": 155862,
+      "sha256": "4a69cdabaa3c002682618ec56e8434a7d164025a7523d9cd1c342150baf928b7"
+    },
+    {
+      "file": "fowler.html",
+      "bytes": 19852,
+      "sha256": "3ee31b4af32c025f8da002401b712b3cb30e75f5ab1df2a78d2aa5466a76e24f"
+    },
+    {
+      "file": "fowler.json",
+      "bytes": 348,
+      "sha256": "6e294f4d3fe43a07722e318d9e370054eed4e549919f43e92e8824cbfd11edb6"
+    },
+    {
+      "file": "fowler.txt",
+      "bytes": 6499,
+      "sha256": "d714025988b95bf955ad59eaa44ab854f347bc4c1e76fcfa7b6e8a4d6a4c6815"
+    },
+    {
+      "file": "hbr-fraud.html",
+      "bytes": 135041,
+      "sha256": "6423d3349c36b41f7870ac7d4e00153f4774634197675bf0e683e92425d84f41"
+    },
+    {
+      "file": "hbr-fraud.json",
+      "bytes": 10941,
+      "sha256": "628f28b3b93d2fcf30b747b4fae0f1a0d7e25728ea7589f7d6b2471d749f5f8f"
+    },
+    {
+      "file": "hbr-fraud.txt",
+      "bytes": 2355,
+      "sha256": "bc991ce33f7968d2f16775ca20cdc8eb1c76c8fd57e1895b5ce4e9c7299a9e3b"
+    },
+    {
+      "file": "latent-monitors.html",
+      "bytes": 42211,
+      "sha256": "3f6bbff06f8a7c9e1f6077299a3bd22af5591513a436cabce033f2ba818055d7"
+    },
+    {
+      "file": "latent-monitors.json",
+      "bytes": 3754,
+      "sha256": "9e3bf751234f6a39413cb033b5d5bbd3260ea2d66391ed1026a6755546f2e8c9"
+    },
+    {
+      "file": "latent-monitors.txt",
+      "bytes": 4919,
+      "sha256": "90453b1e8a2612165680a809b0debbcf23a018ab76a09a96e46102a9a2dd77fe"
+    },
+    {
+      "file": "mistral-commits.json",
+      "bytes": 1781,
+      "sha256": "b5d5ba58f0a1ab71ed983968cc98d82efd2e536ddabe564cc8d80e5141ad5201"
+    },
+    {
+      "file": "mistral-license-release.txt",
+      "bytes": 2632,
+      "sha256": "d242ebedb53ffd7e26c220e3305665ca47e4e5267fa62ff4cdeb3953b8353c78"
+    },
+    {
+      "file": "mistral-license.txt",
+      "bytes": 2632,
+      "sha256": "d242ebedb53ffd7e26c220e3305665ca47e4e5267fa62ff4cdeb3953b8353c78"
+    },
+    {
+      "file": "mistral.html",
+      "bytes": 636501,
+      "sha256": "ea75b881b18df328eef8dfc9432c8ea0cce9d99b17983244ca91acb8d3af5f54"
+    },
+    {
+      "file": "mistral.json",
+      "bytes": 580,
+      "sha256": "3149e2494e04ee2e2b738ca531129ee084cd42f9042d2efe24f96e602ede0b16"
+    },
+    {
+      "file": "mistral.txt",
+      "bytes": 24914,
+      "sha256": "cc845794715619a3b6f4e9d9a7ea684db5f446b8b2a924ca4ec509c9b3c0474a"
+    },
+    {
+      "file": "msafetemp-S3.txt",
+      "bytes": 7139,
+      "sha256": "2aa3770c4f1ac1a646477b047501d5d000f7ad61bdd198dd2aa1962dfb3f775b"
+    },
+    {
+      "file": "msafetemp-S4.txt",
+      "bytes": 3879,
+      "sha256": "d768b1482d2a705902e31a13f3a8ac93c3236e6ef5d618c17d62622f7d345a49"
+    },
+    {
+      "file": "msafetemp-S5.txt",
+      "bytes": 6523,
+      "sha256": "ecb83c3a9317b6c0941eac99fd73e6bc6a2bec424780427c5e6ada7218e42370"
+    },
+    {
+      "file": "msafetemp-S6.txt",
+      "bytes": 4281,
+      "sha256": "4c4e7bea66ae57c4d975803540674e4ed160a4334da65e7ddcc9bb0c5a92c03d"
+    },
+    {
+      "file": "msafetemp-S7.txt",
+      "bytes": 2236,
+      "sha256": "801a967a91ccd7aedd29b99b1dfaa3a0a3e66e751f2db4db258e4f10585ae32a"
+    },
+    {
+      "file": "msafetemp-S8.txt",
+      "bytes": 1353,
+      "sha256": "50be1c5cbbb1b78656fc768cbec96a693b62f3dc93e07d19eb84c8816677a1cf"
+    },
+    {
+      "file": "msafetemp-full.html",
+      "bytes": 3089152,
+      "sha256": "d5afa69c8623d00e15d45162ac84446e22f59d5ad0a7bc5fbf0bc80c58b7f164"
+    },
+    {
+      "file": "msafetemp.html",
+      "bytes": 41297,
+      "sha256": "4dc439da66e173442548f61b3d9607892c3b2f80d36169ec1cc5bb7b1c44ff4b"
+    },
+    {
+      "file": "msafetemp.json",
+      "bytes": 3280,
+      "sha256": "4d1a88281b82b22943f8d4f6e7d8a85d993ddae6369318faf0f7e9ae849467dc"
+    },
+    {
+      "file": "msafetemp.txt",
+      "bytes": 4561,
+      "sha256": "2fb7dfce6554a82c815d142c46a352a57103e2e2c08d488909e16a169e69489c"
+    },
+    {
+      "file": "nemotron.html",
+      "bytes": 136974,
+      "sha256": "8cd3f7eeb37f345cc93f6820a83d28e8ec0927a239bd8a7a89ae0b75513245ce"
+    },
+    {
+      "file": "nemotron.json",
+      "bytes": 486,
+      "sha256": "66056a1710c90c7ee3385f040df21f249af43846b41dcc1cd681488f20215f7c"
+    },
+    {
+      "file": "nemotron.txt",
+      "bytes": 14263,
+      "sha256": "180b9fa60e7b124f74d8454a26ad432c194d5b3b9ed9d1f857fcb8b154e132fe"
+    },
+    {
+      "file": "particle.html",
+      "bytes": 253293,
+      "sha256": "9a30c5c8a74659e085021c663e79d7f38d81f65164da744739b3696edb6c387d"
+    },
+    {
+      "file": "particle.json",
+      "bytes": 287,
+      "sha256": "8894638674bfa0fdb6c8b1d871a6d08714ec5f01887e13a81659f8a04d402566"
+    },
+    {
+      "file": "particle.txt",
+      "bytes": 14154,
+      "sha256": "d45157ae7ab3dae1c39f6ecaa2f2276db1b2b46f95fa4b185b37f2808cb21c9e"
+    },
+    {
+      "file": "prompt-lottery.html",
+      "bytes": 42197,
+      "sha256": "ac64a01cb4575e365ec73faa94977fe2c5e2b4c99949c271b8048882e4ff3c11"
+    },
+    {
+      "file": "prompt-lottery.json",
+      "bytes": 3406,
+      "sha256": "6c909aa22d537a049b20bd3fc4528b6eee014405408d5e9a054b6e6256fbefbb"
+    },
+    {
+      "file": "prompt-lottery.txt",
+      "bytes": 4748,
+      "sha256": "a97c54d2fc5d314135b5ef68100e2179ab0a4048be746f604fbccb52e5263f76"
+    },
+    {
+      "file": "skillmem.html",
+      "bytes": 42413,
+      "sha256": "82d3f6aaf1f605be60de82b20498d0dfb218d511e1dcdc86e6643fab03622d44"
+    },
+    {
+      "file": "skillmem.json",
+      "bytes": 482,
+      "sha256": "113c12a3a2c0dc634a4285853bfa4e651db519ab10917b1ecc436ac592d610f2"
+    },
+    {
+      "file": "skillmem.txt",
+      "bytes": 4934,
+      "sha256": "d993cc65b99edd88a68992380ffc785545c59bf560033ab664f298c68c818e98"
+    },
+    {
+      "file": "yc-games.html",
+      "bytes": 169299,
+      "sha256": "f2181a3e02a49e8a7d5c8e5223db77d69d094b410303e928962781c96131b95a"
+    },
+    {
+      "file": "yc-games.json",
+      "bytes": 891,
+      "sha256": "5ea13d7234694efa76f0f22ad6f9979cddcb025356fa5c344ab5ba887f722997"
+    },
+    {
+      "file": "yc-games.txt",
+      "bytes": 109447,
+      "sha256": "befe56dea1a518b78ad67fa7453e368fddd845ccc75ea9ec00c5abaf2649223c"
+    }
+  ],
+  "selected_date_evidence": [
+    {
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "published_at": "2026-10-29T12:00:07Z",
+      "precision": "second",
+      "evidence": "Original BlogPosting JSON-LD gives datePublished 2026-10-29T12:00:07.000Z and dateModified 2026-10-29T17:33:42.728Z. The separately pinned initial model-repository release is 2026-10-29T14:11:16Z; its license matches the retrieved current license byte-for-byte."
+    },
+    {
+      "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+      "published_at": "2026-10-29T14:50:50.427529Z",
+      "precision": "second",
+      "evidence": "Original Article JSON-LD and article:published_time both give 2026-10-29T14:50:50.427529+00:00; modified 2026-10-29T15:38:29.163940+00:00. Visible date is October 29. HTTP-compressed source was decompressed before metadata extraction."
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40516",
+      "published_at": "2026-10-29T17:26:02Z",
+      "precision": "second",
+      "evidence": "Original arXiv submission history gives v1 Thu, 29 Oct 2026 17:26:02 UTC. Citation metadata and the visible submitted-on date agree. The version-pinned full text was read for methods, model-specific results and limitations."
+    },
+    {
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "published_at": "2026-10-29T00:00:00-04:00",
+      "precision": "day",
+      "evidence": "Original page visibly dates the essay 29 October 2026. Its og:article:modified_time is 2026-10-29 10:28:00 -0400 and the publisher Atom entry has updated 2026-10-29T10:28:00-04:00. The evidenced publisher offset places the entire date-only original day within [2026-10-29T04:00:00Z, 2026-10-30T04:00:00Z], wholly inside the reporting window. Midnight normalizes a date, not a claimed precise publication instant; Atom updated is not relabeled as original publication."
+    }
+  ],
+  "preservation": {
+    "existing_files": 76,
+    "sha256": {
+      "_articles/agent-harness-state.md": "30fb339a827e6c42e5f7f1245593fd75443fe008cf97d8672627cbdf685c5701",
+      "_articles/agent-optimization-budget.md": "27b4411ffe01defe841eebc62fae948978d5ea4dbbbb08392e411350cf9bb9b7",
+      "_articles/ai-recommendation-bias.md": "dbd62847d98e55ccfb5b55260658fce0b156fedf3ed1f39e00dad8dc2fa5992d",
+      "_articles/anthropic-s1-board-control.md": "938ab67c5c0ea41deca97b93c1df8314d86a958c0030ebebb66a5201955d2376",
+      "_articles/authorization-agent-boundaries.md": "49a169e1f567bf6b28c0aaf868ca0bee9011d5ba1e7cdb3e3e32eb5a107ccdac",
+      "_articles/calibrated-disposition-drift.md": "ff82bb66f379fd790053b83e12166e438b035b1d1651d99cb59209f17d5ffd6a",
+      "_articles/catalog-field-grounding.md": "928bf01d359aae346b3a94bab122640bd360ad69c3c14a3a1b17f70f99480e2c",
+      "_articles/ciso-survey-security-deployment.md": "17fdbecef7093dc753f039cadbe471fd63c5d72c0a36b43cb71a959af53d15e7",
+      "_articles/citation-relevance-verification.md": "3524ae8affa5631123894ef0e723147e261338fc7d8ef003590ea7bbfedb28b4",
+      "_articles/claude-batch-review-evidence.md": "ee6478365605b3fba2645df468ba2fe00c56a90a452b7ae5e69a879cb030eece",
+      "_articles/cloudflare-cache-isolation-tests.md": "103e130e142fdf25760ee6384c07b6db8271739d5687e6e92aa82ce7c6b9a7f9",
+      "_articles/context-sensitive-model-boundaries.md": "61a33c99b9d6bb97a2df3116843a9ccda690d2d94badf5101fb6e28d58f1bcc7",
+      "_articles/copilot-fusion-model-policy.md": "84ce2920168371cc5a37d6266e6aff80ebae73feb0ff4f58d1ef930580da523f",
+      "_articles/cost-aware-ticket-routing.md": "273bee341ab990d063b125447a0ecb0f545d5d06ce3f4139c5650e566cb7f18f",
+      "_articles/gemini-carbon-restricted-rollout.md": "75d75afe6e53291feb93b9cc640ca5d1915fdd23745993f8b1ea21b485f70c1e",
+      "_articles/genie-4-preview-simulation.md": "f07e3526464194cf4866cd4748a5ca8d8ed9572e1ce962b2486004aa7918afa7",
+      "_articles/google-agent-guidance-enforcement.md": "70b526d0e477d81da0b2b342ffd67fb617b0ab7d4f304f240339043e793de733",
+      "_articles/gpt-6-1-terra-computer-use-trials.md": "586566f03844d89f9ff0fb38bb361be79a19c7db6394e03840e0b10914e63a61",
+      "_articles/hidden-instructions-public-pages.md": "f5cbe46502510c58f383644e29ebac496724382f6a19be2176b214b39c9b9280",
+      "_articles/kapitsa-local-inference-operations.md": "27d9b32d8e8b8d03b72259c8c3421628c2f230b0bca303e75e973c50decf73a0",
+      "_articles/litellm-release-authority.md": "7a427d3eb8193a51fe147cb87b4fb8f3908dfeed6cbe4001e2e6f83490a2ed71",
+      "_articles/llm-proxy-visibility.md": "b3e5a17a3965687f312208d6d300a7eb1a5ea6d4991b2ba0e714efcfcd4feced",
+      "_articles/materials-structure-ml.md": "23856de588f7e0b68251958597e3c568d8c0c7c9f768db6e3af72edf77c6f45d",
+      "_articles/memory-needs-relevance.md": "f40272eea4d7b78c4a5feb610d6c286d52191a8cc0704619eddfa272684326ee",
+      "_articles/mercury-diffusion-serving.md": "e9521d0add84a14d25d6c4f182c6ee8822f7098d683d8b97982696f2ff1c5265",
+      "_articles/meta-terms-data-governance.md": "703a04935248946af266b5d00e80a81d617fe842d2cc29b897244200a4617c05",
+      "_articles/microsoft-buyouts-ai-staffing.md": "62750e3b60c7588a7a8c166df04348b159ee77b658827e64b8c11dc5fee6c805",
+      "_articles/minimax-flash-task-economics.md": "06ca327617b83905b833af16202835b5a6144967387fe650a456be70e900f0c6",
+      "_articles/model-price-cuts-cache-accounting.md": "bb4e699116cbcbdd2a30acfcb8c2621a7b67dfac1d77f1c56d9b1fafa9782b92",
+      "_articles/multiagent-review-tradeoffs.md": "ff565d16b0cbc4f2cb2833b3414dbdb65de6e41016d6c403fb7faa5b4d51418b",
+      "_articles/pew-task-level-adoption.md": "94771fdb0b37e5f0a9a5184f5319b5e1f3c2bd6c87fb64a1ace593db00181a0c",
+      "_articles/php-old-flaws-operating-pressure.md": "8ba708edd9b993403d202198f98bf3214039b1c95cf2e5008febbad8492a3ed1",
+      "_articles/prompt-judge-evaluation.md": "f8ec436c28008de3d86e48b0e937d402863a3a0adc9bfbd9d817753ba42ecd28",
+      "_articles/rao-ai-adoption-unserved-work.md": "7b71eab3a86b0453b9ab95e5c7787da7e6553d2118a56b49e80fe3302b5847b3",
+      "_articles/recoverable-agent-changes.md": "e796351f53a8bb8ff10e5c2738723107aaff2ade58798864514bd0f2c6d00619",
+      "_articles/scope-executable-policy.md": "10669b500b510553c2a71c0bdafddb0310a796dc2e4b8c8422463f60925e39ad",
+      "_articles/typed-decisions.md": "ef36d94a81f42c0d9f3ee96e926995bb8bbaedc6e7e2beb000bfe8f16e0c55ee",
+      "_articles/voxtral-voice-workflow.md": "822244e80bc80e114cc1c1458c06848e7b93e3a6febe55ed30d610f1c497cb50",
+      "_editions/2026-10-18.md": "9c7f8a77f5f9f117c2fdb4d3f62183d99522fa474c8019a544326f626ae417fd",
+      "_editions/2026-10-19.md": "eadf0d2d77f8d7fda3003e8086398499e0c818d4d6f91522acbabbe3b50cb46c",
+      "_editions/2026-10-20.md": "171dcb97b2786d51fd0eee72228bbe933f8be7b5f197ea3ca2b5209705fac4a4",
+      "_editions/2026-10-21.md": "b343ec4a4071c4af34077d5ad08d1f98ffb3d38363aea711eb64829b8758325b",
+      "_editions/2026-10-22.md": "578f864a629021230ab37e23a392e38d42e286cf44111011ad394a2b9be532f6",
+      "_editions/2026-10-23.md": "b2c8a98d71902ebd1b04f6480b1d6a0ff56b3207f8b584c1722cbb766f6ee782",
+      "_editions/2026-10-24.md": "f377e552ba9653b4a0d9e8da11623700a7e90ec592453298c6183c654db4af4e",
+      "_editions/2026-10-25.md": "235fd2ef72c4ece0a07202cd5912a074aaae131ba7a6b776e81b62610aa969a1",
+      "_editions/2026-10-26.md": "c9bdb705a98b1406c948a228847ec3b1a8976beea1da0a64f3d1e41f4a96cbba",
+      "_editions/2026-10-27.md": "c0f7fddd7eabe330f201c73ed1effecc655e4c5caf6b6043517cc0172f1bdeba",
+      "_editions/2026-10-28.md": "14a1472cec757e791fd58b973f919cfc23a72dc668eaf73d97f9c15b1a4b20dd",
+      "_editions/2026-10-29.md": "279b947e4d3706f41e0d8b4b17e4b4bae477964b58d76801f36a7f6fd1dd6ae0",
+      "assets/images/agent-harness-state.webp": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e",
+      "assets/images/ai-recommendation-bias.webp": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275",
+      "assets/images/authorization-agent-boundaries.webp": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c",
+      "assets/images/calibrated-disposition-drift.webp": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429",
+      "assets/images/catalog-field-grounding.webp": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c",
+      "assets/images/citation-relevance-verification.webp": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49",
+      "assets/images/context-sensitive-model-boundaries.webp": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641",
+      "assets/images/cost-aware-ticket-routing.webp": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623",
+      "assets/images/google-agent-guidance-enforcement.webp": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6",
+      "assets/images/hidden-instructions-public-pages.webp": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877",
+      "assets/images/kapitsa-local-inference-operations.webp": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+      "assets/images/litellm-release-authority.webp": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+      "assets/images/llm-proxy-visibility.webp": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854",
+      "assets/images/materials-structure-ml.webp": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349",
+      "assets/images/memory-needs-relevance.webp": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785",
+      "assets/images/mercury-diffusion-serving.webp": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8",
+      "assets/images/meta-terms-data-governance.webp": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09",
+      "assets/images/minimax-flash-task-economics.webp": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041",
+      "assets/images/multiagent-review-tradeoffs.webp": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a",
+      "assets/images/pew-task-level-adoption.webp": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105",
+      "assets/images/prompt-judge-evaluation.webp": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc",
+      "assets/images/publication-share.png": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610",
+      "assets/images/recoverable-agent-changes.webp": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2",
+      "assets/images/scope-executable-policy.webp": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f",
+      "assets/images/typed-decisions.webp": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf",
+      "assets/images/voxtral-voice-workflow.webp": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+    },
+    "changed_files": []
+  },
+  "preflight": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "started_at": "2026-10-30T12:07:13.958040+00:00",
+      "completed_at": "2026-10-30T12:07:14.451645+00:00",
+      "exit_code": 0,
+      "output": "....................................\n----------------------------------------------------------------------\nRan 36 tests in 0.365s\n\nOK\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T12:00:00Z\"}\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T13:00:00Z\"}\n"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/publish.py",
+        "validate"
+      ],
+      "started_at": "2026-10-30T12:07:14.452198+00:00",
+      "completed_at": "2026-10-30T12:07:14.622624+00:00",
+      "exit_code": 0,
+      "output": "Validated 13 editions and 42 complete researched stories.\n"
+    },
+    {
+      "command": [
+        "bundle",
+        "exec",
+        "jekyll",
+        "build",
+        "--strict_front_matter"
+      ],
+      "started_at": "2026-10-30T12:07:14.623210+00:00",
+      "completed_at": "2026-10-30T12:07:15.621922+00:00",
+      "exit_code": 0,
+      "output": "`/Users/tedtschopp` is not writable.\nBundler will use `/var/folders/rl/w92r_6tx4dx3m6mpp07y2tc00000gn/T/bundler20261030-2526-6h1xve2526' as your home directory temporarily.\nConfiguration file: /Users/tedtschopp/Developer/yesterdai-daily-20261030/_config.yml\n            Source: /Users/tedtschopp/Developer/yesterdai-daily-20261030\n       Destination: /Users/tedtschopp/Developer/yesterdai-daily-20261030/_site\n Incremental build: disabled. Enable with --incremental\n      Generating... \n                    done in 0.42 seconds.\n Auto-regeneration: disabled. Use --watch to enable.\n"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "index"
+      ],
+      "started_at": "2026-10-30T12:07:15.628691+00:00",
+      "completed_at": "2026-10-30T12:07:15.941955+00:00",
+      "exit_code": 0,
+      "output": "\n> index\n> pagefind --site _site --glob 'articles/**/index.html'\n\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"/Users/tedtschopp/Developer/yesterdai-daily-20261030\"\nSource:       \"_site\"\nOutput:       \"_site/pagefind\"\n\n[Walking source directory]\nFound 42 files matching articles/**/index.html\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n↳ Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 42 pages\n  Indexed 2575 words\n  Indexed 2 filters\n  Indexed 0 sorts\n\nFinished in 0.037 seconds\n"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_site.py"
+      ],
+      "started_at": "2026-10-30T12:07:15.942712+00:00",
+      "completed_at": "2026-10-30T12:07:16.469194+00:00",
+      "exit_code": 0,
+      "output": "Checked 68 HTML pages, internal links, accessibility metadata, feeds, and sitemap; 3.4 MB.\n"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "test:smoke"
+      ],
+      "started_at": "2026-10-30T12:07:16.469765+00:00",
+      "completed_at": "2026-10-30T12:07:16.899090+00:00",
+      "exit_code": 0,
+      "output": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n✔ the current edition stays quiet and the prior one gets a grace period (9.930875ms)\n✔ the seven-am deadline follows both DST transitions (0.341042ms)\n✔ midnight does not warn about an edition that is not due yet (0.405791ms)\n✔ recent successful checks stay quiet even if the content was unchanged (0.121042ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 111.631834\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate.\n"
+    }
+  ],
+  "outcome": "All six deterministic stages passed. Complete editorial work ready for guarded shipping and hosted/public verification.",
+  "required_action": "Run full deterministic preflight, ship completed editorial commits and verify exact commit deployment and public URLs.",
+  "editing_pass": {
+    "completed": true,
+    "notes": [
+      "Read complete prose against cached original sources and Ted technology/strategy voice criteria.",
+      "Expanded the license definition to explain third-party control; verified all exceptions against the pinned initial release.",
+      "Named the exact Llama checkpoint rather than generalizing across the family.",
+      "Retained economic scenarios and practitioner opinion as such; kept AI assistance disclosure on existing footer/About.",
+      "Checked concrete openings, useful analogies, plain transitions, paragraph rhythm and practical endings. No invented Ted experience or review claim."
+    ]
+  }
+}
