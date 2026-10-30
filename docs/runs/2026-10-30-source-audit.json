@@ -27,10 +27,10 @@
   "distinct_candidate_urls": 92,
   "older_curated_not_advanced": 229,
   "disposition_counts": {
-    "outside_or_no_eligible_update": 11,
+    "outside_or_no_eligible_update": 12,
     "selected": 4,
-    "not_advanced": 73,
     "seven_day_duplicate": 3,
+    "not_advanced": 72,
     "unverified_original_date": 1
   },
   "selection_reason": "Four distinct, eligible stories create different deployment, organizational, security and communication decisions. No exhaustion claim.",
@@ -133,8 +133,8 @@
       "canonical_url": "https://hbr.org/2026/10/your-companys-fraud-defenses-arent-ready-for-ai-threats?deliveryName=NL_DailyAlert_20261029&lctg=651d8ffd99c3f452fa0b0d1e",
       "feed_title": "Your Company's Fraud Defenses Aren't Ready for AI Threats [ * ] (Estimated)",
       "feed_published_at": "2026-10-30T00:00:00+00:00",
-      "disposition": "not_advanced",
-      "reason": "Not advanced after four distinct supported stories met the target; no eligibility or exhaustion claim."
+      "disposition": "outside_or_no_eligible_update",
+      "reason": "Original article:published_time is 2026-10-28T12:05:38Z. Outside window; newsletter query parameters do not change the source. Subscriber-only text was not used for reporting."
     },
     {
       "feed": "curated",
@@ -2035,5 +2035,6 @@
     "https://yesterdai.tedt.org/articles/coordination-agent-economics/",
     "https://yesterdai.tedt.org/articles/multilingual-safety-template-evidence/",
     "https://yesterdai.tedt.org/articles/fowler-writing-and-understanding/"
-  ]
+  ],
+  "audit_reconciliation": "Reconciled the HBR newsletter-query variant to its already verified original date; date exclusions total 12 and not-advanced records total 72."
 }
