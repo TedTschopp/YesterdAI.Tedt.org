@@ -1,0 +1,222 @@
+{
+  "verified_at": "2026-10-30 12:11:21 UTC",
+  "head_sha": "6e888a8bc63cb3a22192f1415791bacfbe0b1055",
+  "run_id": 41053086344,
+  "html_url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41053086344",
+  "status": "completed",
+  "conclusion": "success",
+  "run_attempt": 1,
+  "created_at": "2026-10-30T12:08:09Z",
+  "updated_at": "2026-10-30T12:10:53Z",
+  "jobs": [
+    {
+      "id": 124053720628,
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-10-30T12:08:12Z",
+      "completed_at": "2026-10-30T12:10:38Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:13Z",
+          "completed_at": "2026-10-30T12:08:15Z"
+        },
+        {
+          "name": "Run actions/checkout@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:15Z",
+          "completed_at": "2026-10-30T12:08:16Z"
+        },
+        {
+          "name": "Run actions/setup-python@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:16Z",
+          "completed_at": "2026-10-30T12:08:18Z"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:18Z",
+          "completed_at": "2026-10-30T12:08:23Z"
+        },
+        {
+          "name": "Run npm ci",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:23Z",
+          "completed_at": "2026-10-30T12:08:27Z"
+        },
+        {
+          "name": "Run pip install -r requirements.txt",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:27Z",
+          "completed_at": "2026-10-30T12:08:28Z"
+        },
+        {
+          "name": "Run ruby/setup-ruby@v1",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:28Z",
+          "completed_at": "2026-10-30T12:08:31Z"
+        },
+        {
+          "name": "Verify editorial rules and pipeline behavior",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:31Z",
+          "completed_at": "2026-10-30T12:08:33Z"
+        },
+        {
+          "name": "Build the static publication",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:33Z",
+          "completed_at": "2026-10-30T12:08:33Z"
+        },
+        {
+          "name": "Index article content for static search",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:33Z",
+          "completed_at": "2026-10-30T12:08:34Z"
+        },
+        {
+          "name": "Check pages and feeds",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:34Z",
+          "completed_at": "2026-10-30T12:08:35Z"
+        },
+        {
+          "name": "Install browser engines",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:08:35Z",
+          "completed_at": "2026-10-30T12:09:19Z"
+        },
+        {
+          "name": "Build the frozen design fixtures",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:09:19Z",
+          "completed_at": "2026-10-30T12:09:19Z"
+        },
+        {
+          "name": "Verify reader jobs, accessibility, and responsive behavior",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:09:19Z",
+          "completed_at": "2026-10-30T12:10:24Z"
+        },
+        {
+          "name": "Measure candidate mobile performance",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-30T12:10:24Z",
+          "completed_at": "2026-10-30T12:10:24Z"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-30T12:10:24Z",
+          "completed_at": "2026-10-30T12:10:24Z"
+        },
+        {
+          "name": "Compare approved visual baselines",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:24Z",
+          "completed_at": "2026-10-30T12:10:33Z"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "skipped",
+          "started_at": "2026-10-30T12:10:33Z",
+          "completed_at": "2026-10-30T12:10:33Z"
+        },
+        {
+          "name": "Run actions/upload-artifact@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:33Z",
+          "completed_at": "2026-10-30T12:10:34Z"
+        },
+        {
+          "name": "Run actions/upload-pages-artifact@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:34Z",
+          "completed_at": "2026-10-30T12:10:36Z"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:36Z",
+          "completed_at": "2026-10-30T12:10:36Z"
+        },
+        {
+          "name": "Post Run actions/setup-python@v6",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:36Z",
+          "completed_at": "2026-10-30T12:10:36Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v5",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:36Z",
+          "completed_at": "2026-10-30T12:10:36Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:36Z",
+          "completed_at": "2026-10-30T12:10:36Z"
+        }
+      ]
+    },
+    {
+      "id": 124054733864,
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-10-30T12:10:42Z",
+      "completed_at": "2026-10-30T12:10:52Z",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:43Z",
+          "completed_at": "2026-10-30T12:10:44Z"
+        },
+        {
+          "name": "Run actions/deploy-pages@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:44Z",
+          "completed_at": "2026-10-30T12:10:50Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "started_at": "2026-10-30T12:10:50Z",
+          "completed_at": "2026-10-30T12:10:50Z"
+        }
+      ]
+    }
+  ]
+}

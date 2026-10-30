@@ -1997,8 +1997,8 @@
       "output": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n✔ the current edition stays quiet and the prior one gets a grace period (9.930875ms)\n✔ the seven-am deadline follows both DST transitions (0.341042ms)\n✔ midnight does not warn about an edition that is not due yet (0.405791ms)\n✔ recent successful checks stay quiet even if the content was unchanged (0.121042ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 111.631834\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate.\n"
     }
   ],
-  "outcome": "All six deterministic stages passed. Complete editorial work ready for guarded shipping and hosted/public verification.",
-  "required_action": "Run full deterministic preflight, ship completed editorial commits and verify exact commit deployment and public URLs.",
+  "outcome": "Published and publicly verified: four complete briefs, zero shortfall. Exact-commit Pages and all required hosted gates passed on first attempt.",
+  "required_action": "None for the reader. Automatically ship this audit evidence and verify its exact deployment; final evidence stays in automation memory and Scheduled.",
   "editing_pass": {
     "completed": true,
     "notes": [
@@ -2008,5 +2008,32 @@
       "Retained economic scenarios and practitioner opinion as such; kept AI assistance disclosure on existing footer/About.",
       "Checked concrete openings, useful analogies, plain transitions, paragraph rhythm and practical endings. No invented Ted experience or review claim."
     ]
-  }
+  },
+  "content_commit": "6e888a8bc63cb3a22192f1415791bacfbe0b1055",
+  "deployment": {
+    "run_id": 41053086344,
+    "url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41053086344",
+    "attempt": 1,
+    "conclusion": "success",
+    "completed_at": "2026-10-30T12:10:52Z"
+  },
+  "public_verification": {
+    "verified_at": "2026-10-30T12:12:27.868843Z",
+    "verified_commit": "6e888a8bc63cb3a22192f1415791bacfbe0b1055",
+    "passed": true,
+    "url_count": 45,
+    "check_count": 186,
+    "hero_count": 25,
+    "new_article_count": 4,
+    "previous_article_count": 3,
+    "failures": [],
+    "comparison_note": "Initial list-order comparison was overly strict for equal publication timestamps. All records/fields matched; corrected temporary verifier compares stable IDs/GUIDs, uniqueness and descending feed dates with ties. Repeat passed; no application/content change."
+  },
+  "published_urls": [
+    "https://yesterdai.tedt.org/editions/2026-10-30/",
+    "https://yesterdai.tedt.org/articles/mistral-large-4-weights-license/",
+    "https://yesterdai.tedt.org/articles/coordination-agent-economics/",
+    "https://yesterdai.tedt.org/articles/multilingual-safety-template-evidence/",
+    "https://yesterdai.tedt.org/articles/fowler-writing-and-understanding/"
+  ]
 }

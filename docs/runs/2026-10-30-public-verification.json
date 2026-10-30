@@ -1,0 +1,1120 @@
+{
+  "started_at": "2026-10-30T12:12:27.118408Z",
+  "verified_at": "2026-10-30T12:12:27.868843Z",
+  "verified_commit": "6e888a8bc63cb3a22192f1415791bacfbe0b1055",
+  "passed": true,
+  "url_count": 45,
+  "check_count": 186,
+  "hero_count": 25,
+  "new_article_count": 4,
+  "previous_article_count": 3,
+  "urls": [
+    {
+      "url": "https://yesterdai.tedt.org/",
+      "request_url": "https://yesterdai.tedt.org/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/?verify=6e888a8bc63c",
+      "bytes": 13233,
+      "sha256": "186574688a045ba9115302c853f1ee83fdcf73057bb1e44d802f9c58017f717e"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-30/",
+      "request_url": "https://yesterdai.tedt.org/editions/2026-10-30/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/editions/2026-10-30/?verify=6e888a8bc63c",
+      "bytes": 15316,
+      "sha256": "8fdeda49b6cf1fe82200ce3b73358c2ce9374d78e8c25173d1ae3cc3f9471cac"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/editions/2026-10-29/",
+      "request_url": "https://yesterdai.tedt.org/editions/2026-10-29/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/editions/2026-10-29/?verify=6e888a8bc63c",
+      "bytes": 13627,
+      "sha256": "abb63befe449c7eb7eaeaf9a0be772185c43096d6bbc0f7c9c4cdbc76ab77a50"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/ciso-survey-security-deployment/",
+      "request_url": "https://yesterdai.tedt.org/articles/ciso-survey-security-deployment/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/ciso-survey-security-deployment/?verify=6e888a8bc63c",
+      "bytes": 13374,
+      "sha256": "d95189689b895be0bb9eb15366d3662c3270aa7b532c3b70a8742fd1cd946ebb"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/coordination-agent-economics/",
+      "request_url": "https://yesterdai.tedt.org/articles/coordination-agent-economics/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/coordination-agent-economics/?verify=6e888a8bc63c",
+      "bytes": 13267,
+      "sha256": "1c1fc1b99567e2fb321c681ce3f6bb6c3e485d807ecee3c96556238af4e5ed58"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/copilot-fusion-model-policy/",
+      "request_url": "https://yesterdai.tedt.org/articles/copilot-fusion-model-policy/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/copilot-fusion-model-policy/?verify=6e888a8bc63c",
+      "bytes": 13473,
+      "sha256": "01228dfbe9a263eee5d3071cc551b28d14e20eac36ffd3a3eb52006f41eb61a7"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/fowler-writing-and-understanding/",
+      "request_url": "https://yesterdai.tedt.org/articles/fowler-writing-and-understanding/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/fowler-writing-and-understanding/?verify=6e888a8bc63c",
+      "bytes": 12954,
+      "sha256": "f9de092b9148b90b2645de5e3643fa0e1d6cc17b280fa39feaea5431beef37d9"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/gemini-carbon-restricted-rollout/",
+      "request_url": "https://yesterdai.tedt.org/articles/gemini-carbon-restricted-rollout/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/gemini-carbon-restricted-rollout/?verify=6e888a8bc63c",
+      "bytes": 13836,
+      "sha256": "e7571b733577b4ee8b3a6215f148ea70ed83f2a1c564becd0e80860e24d52744"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/mistral-large-4-weights-license/",
+      "request_url": "https://yesterdai.tedt.org/articles/mistral-large-4-weights-license/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/mistral-large-4-weights-license/?verify=6e888a8bc63c",
+      "bytes": 13859,
+      "sha256": "10789c1f305442eda8349da211e5105d360052c1e4fdb510ece49dd138b247e9"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/articles/multilingual-safety-template-evidence/",
+      "request_url": "https://yesterdai.tedt.org/articles/multilingual-safety-template-evidence/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/articles/multilingual-safety-template-evidence/?verify=6e888a8bc63c",
+      "bytes": 13696,
+      "sha256": "549218d130ccf0253d69c895db8ea749ba3c901b1634d2fe4c66e9146b8400a7"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/archive/",
+      "request_url": "https://yesterdai.tedt.org/archive/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/archive/?verify=6e888a8bc63c",
+      "bytes": 14871,
+      "sha256": "9cd53b59c613e326303b12a9876e2c60c306655147244f209ee2af4635eae4ba"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/search/",
+      "request_url": "https://yesterdai.tedt.org/search/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/search/?verify=6e888a8bc63c",
+      "bytes": 30070,
+      "sha256": "b27b51e2b0ed1bfde9bd35397143a86a2be4cda8619ced1b4aa7f5c5bd4d8406"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/about/",
+      "request_url": "https://yesterdai.tedt.org/about/?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/about/?verify=6e888a8bc63c",
+      "bytes": 8594,
+      "sha256": "4f26f741bf6c45ebaed8204cdb27fa19ac88db0e5677ff959a06acd7c326910b"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.xml",
+      "request_url": "https://yesterdai.tedt.org/feed.xml?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/feed.xml?verify=6e888a8bc63c",
+      "bytes": 150275,
+      "sha256": "fc5b8ab8d4dde8d2759cadb6b55de14d824e54766fef582abda0729ddc53397c"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/feed.json",
+      "request_url": "https://yesterdai.tedt.org/feed.json?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/feed.json?verify=6e888a8bc63c",
+      "bytes": 143240,
+      "sha256": "af7ad4ddab546e83c3a14e9cabdca33c05704577efffb45c84b8f2629899af00"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/sitemap.xml",
+      "request_url": "https://yesterdai.tedt.org/sitemap.xml?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/sitemap.xml?verify=6e888a8bc63c",
+      "bytes": 7806,
+      "sha256": "01cb748ce9a8b380514df5326355033e6f6adbe02dac8ba6ce20853607529458"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/status.json",
+      "request_url": "https://yesterdai.tedt.org/status.json?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/status.json?verify=6e888a8bc63c",
+      "bytes": 140,
+      "sha256": "eecbc00e555cc7a0d1f26a329abae381f7c60fe552cff88a9f433ce68a8d529e"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/search-index.json",
+      "request_url": "https://yesterdai.tedt.org/search-index.json?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/search-index.json?verify=6e888a8bc63c",
+      "bytes": 20993,
+      "sha256": "28405fd4d6eb6a2124a18b718b507740940e9621569e30a405558605c93bdd73"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/pagefind/pagefind.js",
+      "request_url": "https://yesterdai.tedt.org/pagefind/pagefind.js?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/pagefind/pagefind.js?verify=6e888a8bc63c",
+      "bytes": 45555,
+      "sha256": "252d272bd34d483d19a752060f6a065114d15ab12c42d8f905ca565e2768a009"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/publication-share.png",
+      "request_url": "https://yesterdai.tedt.org/assets/images/publication-share.png?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/publication-share.png?verify=6e888a8bc63c",
+      "bytes": 38777,
+      "sha256": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/agent-harness-state.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/agent-harness-state.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/agent-harness-state.webp?verify=6e888a8bc63c",
+      "bytes": 9604,
+      "sha256": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp?verify=6e888a8bc63c",
+      "bytes": 14884,
+      "sha256": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp?verify=6e888a8bc63c",
+      "bytes": 7530,
+      "sha256": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp?verify=6e888a8bc63c",
+      "bytes": 20312,
+      "sha256": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp?verify=6e888a8bc63c",
+      "bytes": 10434,
+      "sha256": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp?verify=6e888a8bc63c",
+      "bytes": 13996,
+      "sha256": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp?verify=6e888a8bc63c",
+      "bytes": 14678,
+      "sha256": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp?verify=6e888a8bc63c",
+      "bytes": 17004,
+      "sha256": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp?verify=6e888a8bc63c",
+      "bytes": 20022,
+      "sha256": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp?verify=6e888a8bc63c",
+      "bytes": 27316,
+      "sha256": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp?verify=6e888a8bc63c",
+      "bytes": 16164,
+      "sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp?verify=6e888a8bc63c",
+      "bytes": 16084,
+      "sha256": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp?verify=6e888a8bc63c",
+      "bytes": 17196,
+      "sha256": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp?verify=6e888a8bc63c",
+      "bytes": 53060,
+      "sha256": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp?verify=6e888a8bc63c",
+      "bytes": 8876,
+      "sha256": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp?verify=6e888a8bc63c",
+      "bytes": 21590,
+      "sha256": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp?verify=6e888a8bc63c",
+      "bytes": 14260,
+      "sha256": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp?verify=6e888a8bc63c",
+      "bytes": 10132,
+      "sha256": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp?verify=6e888a8bc63c",
+      "bytes": 17144,
+      "sha256": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp?verify=6e888a8bc63c",
+      "bytes": 24218,
+      "sha256": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp?verify=6e888a8bc63c",
+      "bytes": 19258,
+      "sha256": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp?verify=6e888a8bc63c",
+      "bytes": 11488,
+      "sha256": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp?verify=6e888a8bc63c",
+      "bytes": 12114,
+      "sha256": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/typed-decisions.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/typed-decisions.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/typed-decisions.webp?verify=6e888a8bc63c",
+      "bytes": 15708,
+      "sha256": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf"
+    },
+    {
+      "url": "https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp",
+      "request_url": "https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp?verify=6e888a8bc63c",
+      "status": 200,
+      "final_url": "https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp?verify=6e888a8bc63c",
+      "bytes": 12230,
+      "sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+    }
+  ],
+  "checks": [
+    {
+      "name": "HTTP https://yesterdai.tedt.org/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/editions/2026-10-30/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/editions/2026-10-29/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/articles/ciso-survey-security-deployment/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/articles/coordination-agent-economics/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/articles/copilot-fusion-model-policy/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/articles/fowler-writing-and-understanding/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/articles/gemini-carbon-restricted-rollout/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/articles/mistral-large-4-weights-license/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/articles/multilingual-safety-template-evidence/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/archive/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/search/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/about/",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/feed.xml",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/feed.json",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/sitemap.xml",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/status.json",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/search-index.json",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/pagefind/pagefind.js",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/publication-share.png",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "name": "HTTP https://yesterdai.tedt.org/assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment full article body",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment body source links",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment headline",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment summary",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment byline and original dates",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment takeaways",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment sources",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment canonical URL",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment article search and social metadata",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment structured article and truthful authorship",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment stable search identity",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "ciso-survey-security-deployment retained hero",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics full article body",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics body source links",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics headline",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics summary",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics byline and original dates",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics takeaways",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics sources",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics canonical URL",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics article search and social metadata",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics structured article and truthful authorship",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics stable search identity",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "coordination-agent-economics retained hero",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy full article body",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy body source links",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy headline",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy summary",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy byline and original dates",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy takeaways",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy sources",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy canonical URL",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy article search and social metadata",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy structured article and truthful authorship",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy stable search identity",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "copilot-fusion-model-policy retained hero",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding full article body",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding body source links",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding headline",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding summary",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding byline and original dates",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding takeaways",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding sources",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding canonical URL",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding article search and social metadata",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding structured article and truthful authorship",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding stable search identity",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "fowler-writing-and-understanding retained hero",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout full article body",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout body source links",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout headline",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout summary",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout byline and original dates",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout takeaways",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout sources",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout canonical URL",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout article search and social metadata",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout structured article and truthful authorship",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout stable search identity",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "gemini-carbon-restricted-rollout retained hero",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license full article body",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license body source links",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license headline",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license summary",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license byline and original dates",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license takeaways",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license sources",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license canonical URL",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license article search and social metadata",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license structured article and truthful authorship",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license stable search identity",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "mistral-large-4-weights-license retained hero",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence full article body",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence body source links",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence headline",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence summary",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence byline and original dates",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence takeaways",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence sources",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence canonical URL",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence article search and social metadata",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence structured article and truthful authorship",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence stable search identity",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "multilingual-safety-template-evidence retained hero",
+      "passed": true
+    },
+    {
+      "name": "/ headline",
+      "passed": true
+    },
+    {
+      "name": "/ all edition article links",
+      "passed": true
+    },
+    {
+      "name": "/ article-linked TLDR",
+      "passed": true
+    },
+    {
+      "name": "/ surface-specific metadata",
+      "passed": true
+    },
+    {
+      "name": "/ footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "Homepage explicit editorial lead",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-30/ headline",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-30/ all edition article links",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-30/ article-linked TLDR",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-30/ surface-specific metadata",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-30/ footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-29/ headline",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-29/ all edition article links",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-29/ article-linked TLDR",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-29/ surface-specific metadata",
+      "passed": true
+    },
+    {
+      "name": "/editions/2026-10-29/ footer disclosure",
+      "passed": true
+    },
+    {
+      "name": "JSON feed complete article records and original dates",
+      "passed": true
+    },
+    {
+      "name": "JSON feed remains chronological, allowing timestamp ties",
+      "passed": true
+    },
+    {
+      "name": "RSS complete article records and original dates",
+      "passed": true
+    },
+    {
+      "name": "RSS remains chronological, allowing timestamp ties",
+      "passed": true
+    },
+    {
+      "name": "Public latest edition is October 30",
+      "passed": true
+    },
+    {
+      "name": "Public feed-check time is current",
+      "passed": true
+    },
+    {
+      "name": "Search article records match the build",
+      "passed": true
+    },
+    {
+      "name": "Sitemap includes edition and four new articles",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    },
+    {
+      "name": "Preserved image bytes /assets/images/publication-share.png",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

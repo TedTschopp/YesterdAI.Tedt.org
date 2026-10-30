@@ -57,3 +57,17 @@ URLs to verify:
 - https://yesterdai.tedt.org/articles/fowler-writing-and-understanding/
 
 **Required action at this checkpoint:** complete deterministic checks, guarded shipping, exact-commit deployment and public readback automatically. Final observed outcome is recorded below and in Scheduled/automation memory.
+
+## Verified Publication Outcome
+
+Content commit **6e888a8bc63cb3a22192f1415791bacfbe0b1055** shipped through `scripts/publish.py ship`, which fetched current `origin/main`, confirmed no rebase conflict and repeated all six deterministic stages before a non-force push. The exact [Build and publish run 41053086344](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41053086344) succeeded on its **first attempt**, including reader, accessibility, responsive and approved fixed visual gates. The Pages deployment job completed **2026-10-30T12:10:52Z**. No deployment retry or gate bypass was needed.
+
+Public verification at **2026-10-30T12:12:27.868843Z** passed **45 URLs / 186 checks**, with no failures: homepage, October 30 edition and all four articles, the preceding edition and all three of its articles, archive/search/About, RSS/JSON feeds, sitemap, status, search records, Pagefind, the publication share image and **25 preserved article heroes**. Full bodies, source links, bylines, original dates, takeaways, canonical/social metadata and structured article records match the build. The homepage has the declared Mistral lead and linked TL;DR entries; status identifies October 30. The five new edition/article URLs listed above are verified live.
+
+The first verification comparison flagged three order differences in feed and search lists. Inspection established that every stable-ID/GUID record and every field matched; the ordering differed only among records sharing publication timestamps. The temporary verifier was corrected to compare records by stable identity, reject duplicate identities and separately enforce descending feed dates while allowing ties. The complete repeated readback then passed. This required no application or publication-content change. Initial comparison evidence is retained under ignored `.cache/public-6e888a8bc63c/initial-comparison.json`.
+
+The publication outcome is **four complete briefs, zero shortfall**, with **no new hero** and all **76 prior article, edition and image files preserved**. Research exclusions, contract versions, source dates, format decisions and deterministic outcomes are retained in the source audit. Deployment and public proof are saved in `2026-10-30-deployment.json` and `2026-10-30-public-verification.json`.
+
+This evidence commit will itself pass guarded shipping and exact-commit/public readback. Final evidence is retained in automation memory and Scheduled, avoiding recursive evidence-only commits. The completed edition’s membership, article text and assets are now checkpoints for same-day retries.
+
+**Required action: none.** Same-day retries must reuse and validate this completed edition and quietly no-op if unchanged.
