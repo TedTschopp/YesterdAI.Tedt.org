@@ -4189,8 +4189,25 @@
     }
   ],
   "publication": {
-    "state": "validated_ready_to_ship",
-    "required_action": "Commit and guarded ship; verify exact-commit hosted deployment and public content."
+    "state": "published_verified",
+    "content_commit": "2d3304359744958c117f6d5b5205925a1e5ded5c",
+    "workflow_run_id": 41200161679,
+    "workflow_url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41200161679",
+    "run_attempt": 1,
+    "pages_deployed_at": "2026-10-31T12:16:39Z",
+    "exact_sha_environment_success": true,
+    "public_verified_at": "2026-10-31T12:17:13.171994Z",
+    "public_url_count": 44,
+    "public_check_count": 172,
+    "hero_count": 25,
+    "edition_url": "https://yesterdai.tedt.org/editions/2026-10-31/",
+    "article_urls": [
+      "https://yesterdai.tedt.org/articles/cursor-extension-persistence-recovery/",
+      "https://yesterdai.tedt.org/articles/openai-funding-target-continuity/"
+    ],
+    "article_shortfall": 1,
+    "required_action": "None. Reuse the completed edition and attached assets on retries. Validate and quietly no-op if unchanged.",
+    "evidence_commit_note": "These durable records will themselves pass guarded shipping and exact-commit/public verification. Final proof is kept in automation memory and Scheduled, avoiding recursive evidence commits."
   },
   "preservation_verified": true,
   "toolchain": {

@@ -50,3 +50,15 @@ URLs:
 - https://yesterdai.tedt.org/articles/openai-funding-target-continuity/
 
 **Required action at this checkpoint:** finish guarded shipping and verify the exact deployment and public content automatically. Preserve the prior verified site on any required-stage failure and retain this checkpoint for retry. Final observed outcome will be appended after verification.
+
+## Verified Publication Outcome
+
+Content commit **2d3304359744958c117f6d5b5205925a1e5ded5c** shipped through `scripts/publish.py ship`, which freshly fetched `origin/main`, found no rebase conflict, repeated all six deterministic checks and pushed without force. The exact [Build and publish run 41200161679](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41200161679) succeeded on its **first attempt**, including reader, accessibility, responsive, performance and approved fixed visual gates. The Pages deployment completed **2026-10-31T12:16:39Z**, and the GitHub `github-pages` environment independently reports success for that exact SHA. No deployment retry or gate bypass was needed.
+
+Public readback at **2026-10-31T12:17:13.171994Z** passed **44 URLs / 172 checks**, with no failures. The new edition and both complete articles match the build, including titles, full bodies, source links, takeaways, original dates, bylines, canonical/social metadata and structured article records. The homepage declares the Cursor lead and linked TL;DR entries; status identifies October 31. RSS/JSON and search use matching stable article identities and original dates. The preceding edition and all four of its articles also match. All **25 attached article hero URLs** and the publication share image match their preserved bytes.
+
+The three new edition/article URLs listed above are verified live. The outcome is **two complete briefs, one-article shortfall**, with the date, duplicate, access and source-reuse exclusions documented above and in the full audit. Both formats were chosen before drafting; **no new hero** was required or attempted. All **81 prior article, edition and image files** remain byte-identical. The checkpoint contains only authorized editorial paths.
+
+Durable deployment and public evidence are saved in `2026-10-31-deployment.json` and `2026-10-31-public-verification.json`. This evidence commit will itself pass guarded shipping and exact-commit/public readback. Final proof is retained in automation memory and Scheduled, avoiding recursive evidence-only commits. The completed edition’s membership, text and assets are now checkpoints for same-day retries.
+
+**Required action: none.** Reuse this edition and quietly no-op after validation on unchanged same-day retries. The article shortfall is reported explicitly; no later padding of this completed published edition is authorized by the daily target.
