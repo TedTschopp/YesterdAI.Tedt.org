@@ -1,0 +1,972 @@
+{
+  "run_date": "2026-11-01",
+  "recorded_at": "2026-11-01T13:12:23.483036Z",
+  "reader_contract": "2.0.3",
+  "article_contract": 2,
+  "voice": {
+    "skill": "ted-writing-style",
+    "version": "1.0.0",
+    "mode": "technology/strategy",
+    "editing_pass": "Completed full source/voice read; simplified VOLTA attribution, preserved sampled-capability limits, exact facility and procedural stage, beta status, GPU verification choices and rollout uncertainty. Body-only diagnostics found no generic phrases. No invented personal experience or review."
+  },
+  "headline_rule": "Current user instruction selects AP sentence-style publication headlines; policy and published historical titles preserved.",
+  "base_commit": "0fe271e9c6940ac0bd870322de43cecd193c7cfb",
+  "worktree": "/Users/tedtschopp/Developer/yesterdai-daily-20261101",
+  "cutoff": "2026-11-01T05:00:00-08:00",
+  "window_start": "2026-10-31T01:00:00Z",
+  "elapsed_window_hours": 36,
+  "prepared_at": "2026-11-01T13:08:11.450990Z",
+  "discovery": {
+    "checked_at": "2026-11-01T13:01:19.274293Z",
+    "counts": {
+      "curated": 229,
+      "top": 195
+    },
+    "malformed_exclusions": {
+      "curated": [
+        {
+          "id": "2e6b008d7907924a9c4c56743403e3af",
+          "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+        }
+      ],
+      "top": [
+        {
+          "id": "sty_a7afa8aaab7548f3",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_4d1a214f8b70e9d3",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_616f1cafaf506875",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_dfb03bad5bac70cd",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_7d0885d4e302ca27",
+          "reason": "malformed item fields"
+        }
+      ]
+    },
+    "source_researched_feed_candidates": 12,
+    "not_advanced": "Remaining feed records are discovery context, not a claim of individual source/date verification. Research continued across both feeds until four distinct supported stories were found; no exhaustion claim is needed."
+  },
+  "deduplication": {
+    "editions": [
+      "2026-10-25",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31"
+    ],
+    "articles_reviewed": 20,
+    "quick_hits_reviewed": 1,
+    "development_and_url_check": "No selected story repeats these developments; original stable article IDs and slugs preserved."
+  },
+  "disposition_counts": {
+    "selected": 4,
+    "outside_window": 4,
+    "seven_day_duplicate": 1,
+    "editorial_priority": 3
+  },
+  "candidate_dispositions": [
+    {
+      "feed": "top",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "decision": "selected",
+      "article_id": "art_c0588a787514ce74",
+      "reason": "Distinct, verified in-window original publication; source-reviewed complete brief."
+    },
+    {
+      "feed": "top",
+      "url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/",
+      "decision": "selected",
+      "article_id": "art_666d65fb5c8d82e4",
+      "reason": "Distinct, verified in-window original publication; source-reviewed complete brief."
+    },
+    {
+      "feed": "top",
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "decision": "selected",
+      "article_id": "art_909c4a46811dca1c",
+      "reason": "Distinct, verified in-window original publication; source-reviewed complete brief."
+    },
+    {
+      "feed": "top",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "decision": "selected",
+      "article_id": "art_b57691e750415c60",
+      "reason": "Distinct, verified in-window original publication; source-reviewed complete brief."
+    },
+    {
+      "feed": "curated",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "decision": "outside_window",
+      "published_at": "2026-10-28T19:19:58Z",
+      "modified_at": "2026-10-28T22:29:08Z",
+      "reason": "Both original and modification precede the window; curated midnight October 30 is a discovery placeholder."
+    },
+    {
+      "feed": "curated",
+      "url": "https://particle.ai/blog/introducing-particle-1",
+      "decision": "outside_window",
+      "published_date": "2026-10-28",
+      "reason": "Visible original day and time[datetime] are October 28, wholly before the window in any plausible publisher timezone; no eligible substantive update verified."
+    },
+    {
+      "feed": "curated",
+      "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+      "decision": "seven_day_duplicate",
+      "published_at": "2026-10-29T14:50:50.427529Z",
+      "modified_at": "2026-10-29T15:38:29.163940Z",
+      "prior_article_id": "art_9119d7a196c48299",
+      "reason": "Already covered October 30; original and last modification also precede the current window."
+    },
+    {
+      "feed": "top",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "decision": "outside_window",
+      "published_date": "2026-10-28",
+      "reason": "Publisher JSON-LD, meta and visible byline say October 28; repair date is October 26. October 31 ranked-feed discovery is not an original date or verified substantive update."
+    },
+    {
+      "feed": "top",
+      "url": "https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html",
+      "decision": "outside_window",
+      "published_date": "2026-10-22",
+      "reason": "Original Google post visibly says Thursday October 22; no substantive eligible update established."
+    },
+    {
+      "feed": "top",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "decision": "editorial_priority",
+      "reason": "Later practitioner commentary on Parameter’s older disclosure was not advanced as another full story. No independently verified new remediation or exploit development is claimed; no conclusion that the commentary itself is outside the window."
+    },
+    {
+      "feed": "top",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "decision": "editorial_priority",
+      "reason": "A narrow alpha-release note has less reader need than the four selected operating, security and infrastructure decisions. Exact original eligibility was not completed or asserted."
+    },
+    {
+      "feed": "top",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "decision": "editorial_priority",
+      "published_at": "2026-10-31T21:41:00Z",
+      "reason": "Eligible original reporting, but a broad executive product-strategy statement ranks below the four selected concrete enterprise decisions."
+    }
+  ],
+  "source_records": [
+    {
+      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "key": "042fb889688a",
+      "fetched_at": "2026-11-01T13:04:29.912439+00:00",
+      "status": 200,
+      "final_url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "title": "How Claude marks AI-generated content | Claude Help Center",
+      "meta": {},
+      "times": [
+        {
+          "datetime": "2026-10-28T18:53:26Z",
+          "title": "October 28, 2026",
+          "text": "Updated this week"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "dateModified": "2026-10-28T18:53:26Z"
+        }
+      ],
+      "raw_sha256": "2e87dcb88f66c5c6ef6d1b1579f0bbd2b844e92b7bb284ceb69a759bd75620da"
+    },
+    {
+      "url": "https://support.fortanix.com/docs/deploy-confidential-container-coco-workloads-on-intel-tdx-platform",
+      "key": "1223b7f19c15",
+      "fetched_at": "2026-11-01T13:04:29.912652+00:00",
+      "status": 200,
+      "final_url": "https://support.fortanix.com/docs/deploy-confidential-container-coco-workloads-on-intel-tdx-platform",
+      "title": "Deploy Confidential Container (CoCo) Workloads on Intel TDX Platform",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [],
+      "raw_sha256": "a224fe26319d60989348a2b1b1fa661c739615619428f36eca13af92049e096e"
+    },
+    {
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "key": "1c640f88e053",
+      "fetched_at": "2026-11-01T13:03:04.644069+00:00",
+      "status": 200,
+      "final_url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "title": "Do the Math: How We Took Over ChatGPT Accounts - Parameter",
+      "meta": {
+        "article:published_time": "2026-10-28"
+      },
+      "times": [],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-28"
+        }
+      ],
+      "raw_sha256": "beaede24511e6f6d046add4d368d06f42b1e3ab147865652bd1e0eed2187a510"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "key": "204d5faf405d",
+      "fetched_at": "2026-11-01T13:03:04.644544+00:00",
+      "status": 200,
+      "final_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward | TechCrunch",
+      "meta": {
+        "article:publisher": "https://www.facebook.com/techcrunch",
+        "article:published_time": "2026-10-31T21:17:03+00:00",
+        "article:modified_time": "2026-10-31T21:17:11+00:00",
+        "sailthru.date": "2026-10-31 14:17:03",
+        "parsely-pub-date": "2026-10-31T21:17:03Z"
+      },
+      "times": [
+        {
+          "datetime": "2026-10-31T14:17:03-07:00",
+          "text": "2:17 PM PDT · October 31, 2026"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-31T21:17:03+00:00"
+        },
+        {
+          "dateModified": "2026-10-31T21:17:11+00:00"
+        },
+        {
+          "datePublished": "2026-10-31T21:17:03+00:00"
+        },
+        {
+          "dateModified": "2026-10-31T21:17:11+00:00"
+        }
+      ],
+      "raw_sha256": "75c2d01699ecada6065390b9b725571575dfcd6d153f1ba8c738d8ce01499a0a"
+    },
+    {
+      "url": "https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company",
+      "key": "2b02b401b683",
+      "fetched_at": "2026-11-01T13:04:29.912855+00:00",
+      "status": 200,
+      "final_url": "https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company",
+      "title": "Court Denies xAI's Motion to Dismiss Air Pollution Lawsuit Against Elon Musk's company - Earthjustice",
+      "meta": {
+        "article:publisher": "https://facebook.com/Earthjustice",
+        "article:modified_time": "2026-10-31T15:58:07+00:00"
+      },
+      "times": [],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-31T00:41:06+00:00"
+        },
+        {
+          "dateModified": "2026-10-31T15:58:07+00:00"
+        }
+      ],
+      "raw_sha256": "7aba0c215e5096a0228d961d2f24bfa3f944aada23e47b203126a017b4cabc00"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "key": "3b6696291dbc",
+      "fetched_at": "2026-11-01T13:03:05.036223+00:00",
+      "status": 200,
+      "final_url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying | TechCrunch",
+      "meta": {
+        "article:publisher": "https://www.facebook.com/techcrunch",
+        "article:published_time": "2026-10-28T19:19:58+00:00",
+        "article:modified_time": "2026-10-28T22:29:08+00:00",
+        "sailthru.date": "2026-10-28 12:19:58",
+        "parsely-pub-date": "2026-10-28T19:19:58Z"
+      },
+      "times": [
+        {
+          "datetime": "2026-10-28T12:19:58-07:00",
+          "text": "12:19 PM PDT · October 28, 2026"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-28T19:19:58+00:00"
+        },
+        {
+          "dateModified": "2026-10-28T22:29:08+00:00"
+        },
+        {
+          "datePublished": "2026-10-28T19:19:58+00:00"
+        },
+        {
+          "dateModified": "2026-10-28T22:29:08+00:00"
+        }
+      ],
+      "raw_sha256": "f9252461f0fc4960a8f962f0454b1ae3ee28b58b69333886f9dbce6650379e5b"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/",
+      "key": "3ccbccca36a0",
+      "fetched_at": "2026-11-01T13:03:04.644591+00:00",
+      "status": 200,
+      "final_url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/",
+      "title": "Kubernetes Confidential Containers Get Fortanix Attestation and Key Management - InfoQ",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-31T08:18:00+0000"
+        },
+        {
+          "dateModified": "2026-10-31T08:18:00+0000"
+        }
+      ],
+      "raw_sha256": "bbdc4e6691792c96e8d253078e7eb775a48ad73332eff25831c46b7102f1e756"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "key": "5433d48c0a4a",
+      "fetched_at": "2026-11-01T13:03:05.171780+00:00",
+      "status": 200,
+      "final_url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "title": "Release: datasette-llm 0.1a9",
+      "meta": {
+        "og:updated_time": "1793484601"
+      },
+      "times": [],
+      "jsonld_dates": [],
+      "raw_sha256": "3b3299586f45d65bb2103cb481f752fd9845a7fe4b75b5b04aa3c177caaee89d"
+    },
+    {
+      "url": "https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html",
+      "key": "71a401f731f5",
+      "fetched_at": "2026-11-01T13:03:04.937561+00:00",
+      "status": 200,
+      "final_url": "https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html",
+      "title": "Introducing the Elephant-Goldfish Model plugin: scaling design-driven AI software development | Google Open Source Blog",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [],
+      "raw_sha256": "566b35bb174a666c8615fb386c81d9524abe91faaf8dd4ee591b75677bbe6dbb"
+    },
+    {
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "key": "93665dfbd055",
+      "fetched_at": "2026-11-01T13:03:04.644494+00:00",
+      "status": 200,
+      "final_url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
+      "meta": {
+        "article:publisher": "https://www.facebook.com/TheDecoderDE/",
+        "article:published_time": "2026-10-31T19:20:55+00:00",
+        "article:modified_time": "2026-10-31T19:21:51+00:00"
+      },
+      "times": [],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-31T19:20:55+00:00"
+        },
+        {
+          "dateModified": "2026-10-31T19:21:51+00:00"
+        },
+        {
+          "datePublished": "2026-10-31T19:20:55+00:00"
+        },
+        {
+          "dateModified": "2026-10-31T19:21:51+00:00"
+        }
+      ],
+      "raw_sha256": "2cf14778c1d48ae7c58a092c790a84b514d849dbb680170b211388b38a2509d5"
+    },
+    {
+      "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+      "key": "980c5a71c030",
+      "fetched_at": "2026-11-01T13:03:05.015544+00:00",
+      "status": 200,
+      "final_url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+      "title": "AGI Economics: Coordination vs. Competence — DeepMind Institute",
+      "meta": {
+        "article:published_time": "2026-10-29T14:50:50.427529+00:00",
+        "article:modified_time": "2026-10-29T15:38:29.163940+00:00"
+      },
+      "times": [
+        {
+          "class": [
+            "date",
+            "editorial-meta"
+          ],
+          "datetime": "2026-10-29",
+          "text": "Oct 29, 2026"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-29T14:50:50.427529+00:00"
+        },
+        {
+          "dateModified": "2026-10-29T15:38:29.163940+00:00"
+        }
+      ],
+      "raw_sha256": "7bff4e0fcf45e29c61c089077dbd82d7f2a5013bd3c7085df302ce800c491103"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "key": "a181817ce834",
+      "fetched_at": "2026-11-01T13:03:04.644419+00:00",
+      "status": 200,
+      "final_url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "title": "How We Took Over ChatGPT Accounts",
+      "meta": {
+        "og:updated_time": "1793488522"
+      },
+      "times": [],
+      "jsonld_dates": [],
+      "raw_sha256": "65e7aaeae414bfb937caddcf12a5441d9c2b55f0e937d735b2c205b0833a7bf1"
+    },
+    {
+      "url": "https://confidentialcontainers.org/docs/architecture/trust-model/trust-model/",
+      "key": "a5c4dec887f3",
+      "fetched_at": "2026-11-01T13:04:29.912759+00:00",
+      "status": 200,
+      "final_url": "https://confidentialcontainers.org/docs/architecture/trust-model/trust-model/",
+      "title": "Trust Model for Confidential Containers | Confidential Containers",
+      "meta": {
+        "article:published_time": "2024-01-23T00:00:00+00:00",
+        "article:modified_time": "2024-12-19T11:51:33-05:00",
+        "datePublished": "2024-01-23T00:00:00+00:00",
+        "dateModified": "2024-12-19T11:51:33-05:00"
+      },
+      "times": [],
+      "jsonld_dates": [],
+      "raw_sha256": "62f4a5be5f81d6a5618949a8e4a2aa17e8e0bdeedd8f3f454e05c4e09a88a9c2"
+    },
+    {
+      "url": "https://particle.ai/blog/introducing-particle-1",
+      "key": "b46510c440d1",
+      "fetched_at": "2026-11-01T13:03:04.965859+00:00",
+      "status": 200,
+      "final_url": "https://particle.ai/blog/introducing-particle-1",
+      "title": "Introducing Particle-1 — Particle",
+      "meta": {},
+      "times": [
+        {
+          "datetime": "2026-10-28",
+          "text": "Oct 28, 2026"
+        }
+      ],
+      "jsonld_dates": [],
+      "raw_sha256": "cf84851e4e4f5c45351744d7fc56e5d3cf1a27d894bc62776e27d547f8de9721"
+    },
+    {
+      "url": "https://www.fortanix.com/company/pr/2026/10/fortanix-announces-confidential-ai-for-enterprise-grade-kubernetes-workloads-on-cncf-confidential-containers-coco",
+      "key": "b82e3fecc2d7",
+      "fetched_at": "2026-11-01T13:04:29.912547+00:00",
+      "status": 200,
+      "final_url": "https://www.fortanix.com/company/pr/2026/10/fortanix-announces-confidential-ai-for-enterprise-grade-kubernetes-workloads-on-cncf-confidential-containers-coco",
+      "title": "Fortanix Announces Confidential AI for Enterprise Grade Kubernetes Workloads on CNCF® Confidential Containers (CoCo)",
+      "meta": {
+        "agility_timestamp": "11/1/2026, 1:04:30 PM",
+        "msvalidate.01": "42C1C082A6A64F524965E53ED9876C00"
+      },
+      "times": [],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-18T18:30:00.000Z"
+        },
+        {
+          "dateModified": "2026-10-18T18:30:00.000Z"
+        }
+      ],
+      "raw_sha256": "ca9a683403b9af7f921145388a969ee6748b229efc6e8395f294a4d16f03c0bf"
+    },
+    {
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "key": "be384ac73b24",
+      "fetched_at": "2026-11-01T13:03:04.644631+00:00",
+      "status": 200,
+      "final_url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims | WIRED",
+      "meta": {
+        "article:published_time": "2026-10-31T12:00:00.000Z",
+        "article:modified_time": "2026-10-31T12:00:00.000Z"
+      },
+      "times": [
+        {
+          "data-testid": "ContentHeaderPublishDate",
+          "class": [
+            "SplitScreenContentHeaderPublishDate-fCOwWm",
+            "fJlxYj"
+          ],
+          "text": "Oct 31, 2026 8:00 AM"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "dateModified": "2026-10-31T08:00:00.000-04:00"
+        },
+        {
+          "datePublished": "2026-10-31T08:00:00.000-04:00"
+        }
+      ],
+      "raw_sha256": "f8a204498b0d26d0c688bd11d1de3c7791ff32caec71695cfe230f882c564212"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "key": "d9269f49d95d",
+      "fetched_at": "2026-11-01T13:03:04.850517+00:00",
+      "status": 200,
+      "final_url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’ | TechCrunch",
+      "meta": {
+        "article:publisher": "https://www.facebook.com/techcrunch",
+        "article:published_time": "2026-10-31T21:41:00+00:00",
+        "article:modified_time": "2026-10-31T21:41:05+00:00",
+        "sailthru.date": "2026-10-31 14:41:00",
+        "parsely-pub-date": "2026-10-31T21:41:00Z"
+      },
+      "times": [
+        {
+          "datetime": "2026-10-31T14:41:00-07:00",
+          "text": "2:41 PM PDT · October 31, 2026"
+        },
+        {
+          "datetime": "2026-10-31T14:17:03-07:00",
+          "class": [
+            "loop-card__meta-item",
+            "loop-card__time",
+            "wp-block-tc23-post-time-ago"
+          ],
+          "text": "14 hours ago"
+        },
+        {
+          "datetime": "2026-10-31T07:00:00-07:00",
+          "class": [
+            "loop-card__meta-item",
+            "loop-card__time",
+            "wp-block-tc23-post-time-ago"
+          ],
+          "text": "22 hours ago"
+        },
+        {
+          "datetime": "2026-10-30T15:56:13-07:00",
+          "class": [
+            "loop-card__meta-item",
+            "loop-card__time",
+            "wp-block-tc23-post-time-ago"
+          ],
+          "text": "2 days ago"
+        },
+        {
+          "datetime": "2026-10-31T14:41:00-07:00",
+          "class": [
+            "loop-card__meta-item",
+            "loop-card__time",
+            "wp-block-tc23-post-time-ago"
+          ],
+          "text": "14 hours ago"
+        },
+        {
+          "datetime": "2026-10-31T14:36:07-07:00",
+          "class": [
+            "loop-card__meta-item",
+            "loop-card__time",
+            "wp-block-tc23-post-time-ago"
+          ],
+          "text": "14 hours ago"
+        },
+        {
+          "datetime": "2026-10-31T14:17:03-07:00",
+          "class": [
+            "loop-card__meta-item",
+            "loop-card__time",
+            "wp-block-tc23-post-time-ago"
+          ],
+          "text": "14 hours ago"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-31T21:41:00+00:00"
+        },
+        {
+          "dateModified": "2026-10-31T21:41:05+00:00"
+        },
+        {
+          "datePublished": "2026-10-31T21:41:00+00:00"
+        },
+        {
+          "dateModified": "2026-10-31T21:41:05+00:00"
+        }
+      ],
+      "raw_sha256": "2d6e7d00f81f2a3edca3a9f7cee51cb97d8eea153743ed51056f8fc2b98ad5bf"
+    },
+    {
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "key": "ef006b6d1900",
+      "fetched_at": "2026-11-01T13:04:29.912009+00:00",
+      "status": 200,
+      "final_url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+      "meta": {
+        "article:published_time": "2026-10-31T12:00:00.000Z",
+        "article:modified_time": "2026-10-31T11:59:59.000Z"
+      },
+      "times": [
+        {
+          "class": [
+            "post-datetime"
+          ],
+          "datetime": "October 31, 2026 08:00",
+          "text": "Saturday, October 31, 2026 08:00"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "datePublished": "2026-10-31T12:00:00.000Z"
+        },
+        {
+          "dateModified": "2026-10-31T11:59:59.000Z"
+        }
+      ],
+      "raw_sha256": "fe169f064ff4bb8415b73ddb28a83e15cd4b5fd889e1d0bbe7458b5885835df7"
+    }
+  ],
+  "court_document": {
+    "url": "https://earthjustice.org/wp-content/uploads/2026/10/10313375508_6407.pdf",
+    "pages": 28,
+    "filing_and_signature_date": "2026-10-30",
+    "verified_sections": [
+      "Page 1 caption, parties, jurisdiction, grounds and outcome",
+      "Pages 2-3 procedural history and dismissal standard",
+      "Pages 20-22 mobile-source reasoning",
+      "Page 28 conclusion and signature"
+    ],
+    "facts": "Southaven, DeSoto County, Mississippi; motion denied; original event date preserved; no final liability judgment, shutdown order or awarded penalty asserted."
+  },
+  "articles": [
+    {
+      "article_id": "art_c0588a787514ce74",
+      "slug": "volta-infostealer-victim-profiling",
+      "title": "VOLTA adds AI victim profiling after credential theft",
+      "format": "brief",
+      "words": 273,
+      "hero": "omitted; focused brief chosen before drafting",
+      "eligibility": {
+        "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+        "published_at": "2026-10-31T12:00:00Z",
+        "precision": "second",
+        "verification": "jsonld",
+        "evidence": "Talos Article JSON-LD and article:published_time agree on 2026-10-31T12:00:00.000Z. WIRED’s original report independently gives the same publication instant. Talos’s modification value is one second earlier than publication and is not used as an update. The sample’s October 11 first-seen date is preserved as historical context, not eligibility.",
+        "discovered_url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+        "verified_at": "2026-11-01T13:08:11.450990Z"
+      },
+      "sources": [
+        {
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+          "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+          "publisher": "Cisco Talos / Ryan Fetterman",
+          "published_at": "2026-10-31T12:00:00Z",
+          "kind": "research"
+        },
+        {
+          "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+          "title": "Spooky new infostealer malware uses AI to autodox victims",
+          "publisher": "WIRED / Lily Hay Newman and Matt Burgess",
+          "published_at": "2026-10-31T12:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "article_id": "art_666d65fb5c8d82e4",
+      "slug": "confidential-containers-gpu-attestation",
+      "title": "Fortanix’s container controls make GPU attestation a configuration decision",
+      "format": "brief",
+      "words": 294,
+      "hero": "omitted; focused brief chosen before drafting",
+      "eligibility": {
+        "url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/",
+        "published_at": "2026-10-31T08:18:00Z",
+        "precision": "second",
+        "verification": "jsonld",
+        "evidence": "InfoQ NewsArticle JSON-LD datePublished and dateModified both equal 2026-10-31T08:18:00+0000. This new report, not the older product announcement, controls eligibility. Fortanix’s announcement is October 18; its deployment guide was first published September 18 and last published September 26.",
+        "discovered_url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/",
+        "verified_at": "2026-11-01T13:08:11.450990Z"
+      },
+      "sources": [
+        {
+          "url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/",
+          "title": "Kubernetes Confidential Containers get Fortanix attestation and key management",
+          "publisher": "InfoQ / Mark Silvester",
+          "published_at": "2026-10-31T08:18:00Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://www.fortanix.com/company/pr/2026/10/fortanix-announces-confidential-ai-for-enterprise-grade-kubernetes-workloads-on-cncf-confidential-containers-coco",
+          "title": "Fortanix announces Confidential AI for Kubernetes workloads on Confidential Containers",
+          "publisher": "Fortanix",
+          "published_at": "2026-10-18T18:30:00Z",
+          "kind": "vendor"
+        },
+        {
+          "url": "https://support.fortanix.com/docs/deploy-confidential-container-coco-workloads-on-intel-tdx-platform",
+          "title": "Deploy Confidential Container workloads on Intel TDX platform",
+          "publisher": "Fortanix",
+          "published_at": "2026-09-18T16:08:16.206Z",
+          "kind": "vendor",
+          "modified_at": "2026-09-26T01:51:19.217Z",
+          "date_basis": "Document360 embedded firstPublishedDate and lastPublishedDate; visible page agrees on September 18 and 26. The guide labels the deployment Beta."
+        },
+        {
+          "url": "https://confidentialcontainers.org/docs/architecture/trust-model/trust-model/",
+          "title": "Trust model for Confidential Containers",
+          "publisher": "Confidential Containers project",
+          "published_at": "2024-01-23T00:00:00Z",
+          "kind": "practitioner",
+          "date_precision": "day",
+          "modified_at": "2024-12-19T16:51:33Z",
+          "date_basis": "Publisher datePublished and dateModified metadata; older architectural context, not eligibility."
+        }
+      ]
+    },
+    {
+      "article_id": "art_909c4a46811dca1c",
+      "slug": "claude-watermark-rollout-detection-limits",
+      "title": "Claude watermark expansion leaves deployment and detection questions",
+      "format": "brief",
+      "words": 314,
+      "hero": "omitted; focused brief chosen before drafting",
+      "eligibility": {
+        "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+        "published_at": "2026-10-31T19:20:55Z",
+        "precision": "second",
+        "verification": "jsonld",
+        "evidence": "Publisher NewsArticle JSON-LD and article:published_time agree on 2026-10-31T19:20:55+00:00, revised 19:21:51+00:00. The customer email was not independently obtained; rollout and sampling details remain explicitly attributed to THE DECODER. Anthropic’s older help article was last modified October 28 at 18:53:26Z.",
+        "discovered_url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+        "verified_at": "2026-11-01T13:08:11.450990Z"
+      },
+      "sources": [
+        {
+          "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+          "title": "Anthropic’s watermark rollout leaves a loophole on two older Claude models",
+          "publisher": "THE DECODER / Matthias Bastian",
+          "published_at": "2026-10-31T19:20:55Z",
+          "kind": "reporting",
+          "modified_at": "2026-10-31T19:21:51Z"
+        },
+        {
+          "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+          "title": "How Claude marks AI-generated content",
+          "publisher": "Anthropic",
+          "published_at": "2026-10-28T18:53:26Z",
+          "kind": "vendor",
+          "date_basis": "Verified last-modified timestamp from publisher Article JSON-LD and time[datetime]; this is a documentation revision date, not an asserted original publication date.",
+          "date_kind": "last_modified"
+        }
+      ]
+    },
+    {
+      "article_id": "art_b57691e750415c60",
+      "slug": "xai-pollution-lawsuit-dismissal-denied",
+      "title": "xAI’s turbine lawsuit proceeds after dismissal bid fails",
+      "format": "brief",
+      "words": 289,
+      "hero": "omitted; focused brief chosen before drafting",
+      "eligibility": {
+        "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+        "published_at": "2026-10-31T21:17:03Z",
+        "precision": "second",
+        "verification": "jsonld",
+        "evidence": "TechCrunch NewsArticle JSON-LD, article:published_time and the visible time element identify 2026-10-31T21:17:03+00:00. The underlying district-court order is filed and signed October 30; that original event date is retained. The new reporting controls eligibility, not the older date-only court filing or Earthjustice’s revised statement.",
+        "discovered_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+        "verified_at": "2026-11-01T13:08:11.450990Z"
+      },
+      "sources": [
+        {
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+          "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+          "publisher": "TechCrunch / Anthony Ha",
+          "published_at": "2026-10-31T21:17:03Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://earthjustice.org/wp-content/uploads/2026/10/10313375508_6407.pdf",
+          "title": "Opinion and order, NAACP v. X.AI Corp., No. 3:26-CV-74-DMB-JMV, document 139",
+          "publisher": "U.S. District Court for the Northern District of Mississippi / Judge Debra M. Brown",
+          "published_at": "2026-10-30T00:00:00Z",
+          "kind": "reporting",
+          "date_precision": "day",
+          "date_basis": "Order’s filing stamp and signature both say October 30. Midnight stores the date only and is not an observed filing instant; this source is context, not the eligibility clock."
+        },
+        {
+          "url": "https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company",
+          "title": "Court denies xAI’s motion to dismiss air pollution lawsuit",
+          "publisher": "Earthjustice / NAACP / Southern Environmental Law Center",
+          "published_at": "2026-10-31T00:41:06Z",
+          "kind": "reporting",
+          "modified_at": "2026-10-31T15:58:07Z",
+          "date_basis": "Publisher JSON-LD publication and modification timestamps; visible statement date is October 30. Statement is from plaintiffs’ representatives and is attributed as such."
+        }
+      ]
+    }
+  ],
+  "target": {
+    "minimum": 3,
+    "maximum": 5,
+    "selected": 4,
+    "shortfall": 0,
+    "quick_hits": 0
+  },
+  "images": {
+    "new_heroes": 0,
+    "new_attempts": 0,
+    "analyses": 0,
+    "decision": "All four formats selected as focused briefs before drafting. Existing attached heroes and provenance preserved."
+  },
+  "preservation": {
+    "files": 84,
+    "unchanged": true,
+    "article_heroes": 25,
+    "sha256": {
+      "_articles/anthropic-s1-board-control.md": "938ab67c5c0ea41deca97b93c1df8314d86a958c0030ebebb66a5201955d2376",
+      "_articles/calibrated-disposition-drift.md": "ff82bb66f379fd790053b83e12166e438b035b1d1651d99cb59209f17d5ffd6a",
+      "_articles/context-sensitive-model-boundaries.md": "61a33c99b9d6bb97a2df3116843a9ccda690d2d94badf5101fb6e28d58f1bcc7",
+      "_articles/materials-structure-ml.md": "23856de588f7e0b68251958597e3c568d8c0c7c9f768db6e3af72edf77c6f45d",
+      "_articles/recoverable-agent-changes.md": "e796351f53a8bb8ff10e5c2738723107aaff2ade58798864514bd0f2c6d00619",
+      "_articles/mistral-large-4-weights-license.md": "3301f4d548867a26beb21ae3eabd37161c5bea31481b09e3557410cbcfe01317",
+      "_articles/pew-task-level-adoption.md": "94771fdb0b37e5f0a9a5184f5319b5e1f3c2bd6c87fb64a1ace593db00181a0c",
+      "_articles/ciso-survey-security-deployment.md": "17fdbecef7093dc753f039cadbe471fd63c5d72c0a36b43cb71a959af53d15e7",
+      "_articles/citation-relevance-verification.md": "3524ae8affa5631123894ef0e723147e261338fc7d8ef003590ea7bbfedb28b4",
+      "_articles/fowler-writing-and-understanding.md": "3c4bcb5fb74c386e0ea937b86d9b26e940b0b6310ee4cdb2170a98dbbbe170ce",
+      "_articles/copilot-fusion-model-policy.md": "84ce2920168371cc5a37d6266e6aff80ebae73feb0ff4f58d1ef930580da523f",
+      "_articles/model-price-cuts-cache-accounting.md": "bb4e699116cbcbdd2a30acfcb8c2621a7b67dfac1d77f1c56d9b1fafa9782b92",
+      "_articles/catalog-field-grounding.md": "928bf01d359aae346b3a94bab122640bd360ad69c3c14a3a1b17f70f99480e2c",
+      "_articles/litellm-release-authority.md": "7a427d3eb8193a51fe147cb87b4fb8f3908dfeed6cbe4001e2e6f83490a2ed71",
+      "_articles/coordination-agent-economics.md": "897cb1184b78f174f23f918c80685f38d57d614f85de35ba06f6399ae34da695",
+      "_articles/meta-terms-data-governance.md": "703a04935248946af266b5d00e80a81d617fe842d2cc29b897244200a4617c05",
+      "_articles/ai-recommendation-bias.md": "dbd62847d98e55ccfb5b55260658fce0b156fedf3ed1f39e00dad8dc2fa5992d",
+      "_articles/mercury-diffusion-serving.md": "e9521d0add84a14d25d6c4f182c6ee8822f7098d683d8b97982696f2ff1c5265",
+      "_articles/multiagent-review-tradeoffs.md": "ff565d16b0cbc4f2cb2833b3414dbdb65de6e41016d6c403fb7faa5b4d51418b",
+      "_articles/llm-proxy-visibility.md": "b3e5a17a3965687f312208d6d300a7eb1a5ea6d4991b2ba0e714efcfcd4feced",
+      "_articles/hidden-instructions-public-pages.md": "f5cbe46502510c58f383644e29ebac496724382f6a19be2176b214b39c9b9280",
+      "_articles/authorization-agent-boundaries.md": "49a169e1f567bf6b28c0aaf868ca0bee9011d5ba1e7cdb3e3e32eb5a107ccdac",
+      "_articles/claude-batch-review-evidence.md": "ee6478365605b3fba2645df468ba2fe00c56a90a452b7ae5e69a879cb030eece",
+      "_articles/google-agent-guidance-enforcement.md": "70b526d0e477d81da0b2b342ffd67fb617b0ab7d4f304f240339043e793de733",
+      "_articles/kapitsa-local-inference-operations.md": "27d9b32d8e8b8d03b72259c8c3421628c2f230b0bca303e75e973c50decf73a0",
+      "_articles/gemini-carbon-restricted-rollout.md": "75d75afe6e53291feb93b9cc640ca5d1915fdd23745993f8b1ea21b485f70c1e",
+      "_articles/openai-funding-target-continuity.md": "620c2facc5db98fcc8b4c2e3331e2bf89020e60e9e5bca4c3b999b3f7797636c",
+      "_articles/agent-optimization-budget.md": "27b4411ffe01defe841eebc62fae948978d5ea4dbbbb08392e411350cf9bb9b7",
+      "_articles/gpt-6-1-terra-computer-use-trials.md": "586566f03844d89f9ff0fb38bb361be79a19c7db6394e03840e0b10914e63a61",
+      "_articles/php-old-flaws-operating-pressure.md": "8ba708edd9b993403d202198f98bf3214039b1c95cf2e5008febbad8492a3ed1",
+      "_articles/voxtral-voice-workflow.md": "822244e80bc80e114cc1c1458c06848e7b93e3a6febe55ed30d610f1c497cb50",
+      "_articles/cloudflare-cache-isolation-tests.md": "103e130e142fdf25760ee6384c07b6db8271739d5687e6e92aa82ce7c6b9a7f9",
+      "_articles/agent-harness-state.md": "30fb339a827e6c42e5f7f1245593fd75443fe008cf97d8672627cbdf685c5701",
+      "_articles/multilingual-safety-template-evidence.md": "5500f0967a52b44dc965e688d02cf788aa3ab0537e685a2214291693cc995ce3",
+      "_articles/cursor-extension-persistence-recovery.md": "d0c655c67d0fcea41b4641949fdc1d11e57c2184d06bee1fdb681794e596e318",
+      "_articles/cost-aware-ticket-routing.md": "273bee341ab990d063b125447a0ecb0f545d5d06ce3f4139c5650e566cb7f18f",
+      "_articles/microsoft-buyouts-ai-staffing.md": "62750e3b60c7588a7a8c166df04348b159ee77b658827e64b8c11dc5fee6c805",
+      "_articles/rao-ai-adoption-unserved-work.md": "7b71eab3a86b0453b9ab95e5c7787da7e6553d2118a56b49e80fe3302b5847b3",
+      "_articles/minimax-flash-task-economics.md": "06ca327617b83905b833af16202835b5a6144967387fe650a456be70e900f0c6",
+      "_articles/typed-decisions.md": "ef36d94a81f42c0d9f3ee96e926995bb8bbaedc6e7e2beb000bfe8f16e0c55ee",
+      "_articles/scope-executable-policy.md": "10669b500b510553c2a71c0bdafddb0310a796dc2e4b8c8422463f60925e39ad",
+      "_articles/prompt-judge-evaluation.md": "f8ec436c28008de3d86e48b0e937d402863a3a0adc9bfbd9d817753ba42ecd28",
+      "_articles/genie-4-preview-simulation.md": "f07e3526464194cf4866cd4748a5ca8d8ed9572e1ce962b2486004aa7918afa7",
+      "_articles/memory-needs-relevance.md": "f40272eea4d7b78c4a5feb610d6c286d52191a8cc0704619eddfa272684326ee",
+      "_editions/2026-10-24.md": "f377e552ba9653b4a0d9e8da11623700a7e90ec592453298c6183c654db4af4e",
+      "_editions/2026-10-30.md": "e6b1a4b850a9c8abd78682484ab8db7da07d51c7f57685ac7f70b406520cb54b",
+      "_editions/2026-10-20.md": "171dcb97b2786d51fd0eee72228bbe933f8be7b5f197ea3ca2b5209705fac4a4",
+      "_editions/2026-10-31.md": "1ba507ecb20b4dc25fdc4acdfb52b3996c057e52c909a6ec48a2ffdacfc0e860",
+      "_editions/2026-10-21.md": "b343ec4a4071c4af34077d5ad08d1f98ffb3d38363aea711eb64829b8758325b",
+      "_editions/2026-10-25.md": "235fd2ef72c4ece0a07202cd5912a074aaae131ba7a6b776e81b62610aa969a1",
+      "_editions/2026-10-28.md": "14a1472cec757e791fd58b973f919cfc23a72dc668eaf73d97f9c15b1a4b20dd",
+      "_editions/2026-10-18.md": "9c7f8a77f5f9f117c2fdb4d3f62183d99522fa474c8019a544326f626ae417fd",
+      "_editions/2026-10-19.md": "eadf0d2d77f8d7fda3003e8086398499e0c818d4d6f91522acbabbe3b50cb46c",
+      "_editions/2026-10-29.md": "279b947e4d3706f41e0d8b4b17e4b4bae477964b58d76801f36a7f6fd1dd6ae0",
+      "_editions/2026-10-22.md": "578f864a629021230ab37e23a392e38d42e286cf44111011ad394a2b9be532f6",
+      "_editions/2026-10-26.md": "c9bdb705a98b1406c948a228847ec3b1a8976beea1da0a64f3d1e41f4a96cbba",
+      "_editions/2026-10-27.md": "c0f7fddd7eabe330f201c73ed1effecc655e4c5caf6b6043517cc0172f1bdeba",
+      "_editions/2026-10-23.md": "b2c8a98d71902ebd1b04f6480b1d6a0ff56b3207f8b584c1722cbb766f6ee782",
+      "assets/images/voxtral-voice-workflow.webp": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5",
+      "assets/images/calibrated-disposition-drift.webp": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429",
+      "assets/images/kapitsa-local-inference-operations.webp": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+      "assets/images/prompt-judge-evaluation.webp": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc",
+      "assets/images/scope-executable-policy.webp": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f",
+      "assets/images/typed-decisions.webp": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf",
+      "assets/images/materials-structure-ml.webp": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349",
+      "assets/images/publication-share.png": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610",
+      "assets/images/memory-needs-relevance.webp": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785",
+      "assets/images/cost-aware-ticket-routing.webp": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623",
+      "assets/images/pew-task-level-adoption.webp": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105",
+      "assets/images/minimax-flash-task-economics.webp": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041",
+      "assets/images/multiagent-review-tradeoffs.webp": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a",
+      "assets/images/authorization-agent-boundaries.webp": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c",
+      "assets/images/hidden-instructions-public-pages.webp": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877",
+      "assets/images/ai-recommendation-bias.webp": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275",
+      "assets/images/llm-proxy-visibility.webp": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854",
+      "assets/images/context-sensitive-model-boundaries.webp": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641",
+      "assets/images/citation-relevance-verification.webp": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49",
+      "assets/images/agent-harness-state.webp": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e",
+      "assets/images/catalog-field-grounding.webp": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c",
+      "assets/images/meta-terms-data-governance.webp": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09",
+      "assets/images/litellm-release-authority.webp": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+      "assets/images/google-agent-guidance-enforcement.webp": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6",
+      "assets/images/mercury-diffusion-serving.webp": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8",
+      "assets/images/recoverable-agent-changes.webp": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2"
+    }
+  },
+  "preflight": {
+    "started_at": "2026-11-01T13:09:59.174419+00:00",
+    "commands": [
+      {
+        "command": ".venv/bin/python -m unittest discover -s tests",
+        "exit_code": 0,
+        "elapsed_seconds": 0.46,
+        "log": "/private/tmp/yesterdai-20261101-preflight-1.log"
+      },
+      {
+        "command": ".venv/bin/python scripts/publish.py validate",
+        "exit_code": 0,
+        "elapsed_seconds": 0.17,
+        "log": "/private/tmp/yesterdai-20261101-preflight-2.log"
+      },
+      {
+        "command": "bundle exec jekyll build --strict_front_matter",
+        "exit_code": 0,
+        "elapsed_seconds": 0.84,
+        "log": "/private/tmp/yesterdai-20261101-preflight-3.log"
+      },
+      {
+        "command": "npm run index",
+        "exit_code": 0,
+        "elapsed_seconds": 0.3,
+        "log": "/private/tmp/yesterdai-20261101-preflight-4.log"
+      },
+      {
+        "command": ".venv/bin/python scripts/check_site.py",
+        "exit_code": 0,
+        "elapsed_seconds": 0.61,
+        "log": "/private/tmp/yesterdai-20261101-preflight-5.log"
+      },
+      {
+        "command": "npm run test:smoke",
+        "exit_code": 0,
+        "elapsed_seconds": 0.42,
+        "log": "/private/tmp/yesterdai-20261101-preflight-6.log"
+      }
+    ],
+    "completed_at": "2026-11-01T13:10:01.964246+00:00",
+    "passed": true
+  },
+  "publication": {
+    "state": "prepared_and_preflight_passed",
+    "content_commit": null,
+    "deployment": "pending exact-SHA hosted gates",
+    "public_readback": "pending",
+    "required_action": "Automatically commit, ship with reconciliation, then verify exact deployment and public URLs."
+  }
+}
