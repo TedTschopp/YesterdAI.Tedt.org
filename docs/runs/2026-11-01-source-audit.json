@@ -963,10 +963,29 @@
     "passed": true
   },
   "publication": {
-    "state": "prepared_and_preflight_passed",
-    "content_commit": null,
-    "deployment": "pending exact-SHA hosted gates",
-    "public_readback": "pending",
-    "required_action": "Automatically commit, ship with reconciliation, then verify exact deployment and public URLs."
+    "state": "published_and_publicly_verified",
+    "content_commit": "348bb24d315f14de5a432fe30ba0cf0ec3374fd7",
+    "run_id": 41310176413,
+    "run_url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41310176413",
+    "attempt": 1,
+    "deployment_completed_at": "2026-11-01T13:15:53Z",
+    "exact_sha_environment_success": true,
+    "public_verified_at": "2026-11-01T13:16:03.780836Z",
+    "public_urls": 44,
+    "public_checks": 172,
+    "public_heroes": 25,
+    "required_action": "None. Completed content is a retry checkpoint. Guard the evidence commit with ship and verify its exact deployment; retain final evidence in automation memory/Scheduled to avoid recursive evidence-only commits.",
+    "ship": {
+      "command": "scripts/publish.py ship",
+      "exit_code": 0,
+      "rebase": "Already current with origin/main; no conflicts.",
+      "force_push": false
+    },
+    "hosted_gates": {
+      "reader_jobs_accessibility_responsive": "passed",
+      "fixed_visual_baselines": "passed",
+      "candidate_mobile_performance": "Skipped by existing workflow for push events; not claimed as measured.",
+      "deployment_retry": false
+    }
   }
 }

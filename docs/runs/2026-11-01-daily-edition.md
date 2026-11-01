@@ -49,3 +49,15 @@ URLs:
 - https://yesterdai.tedt.org/articles/xai-pollution-lawsuit-dismissal-denied/
 
 **Required action at this checkpoint:** finish guarded shipping and exact-commit/public verification automatically. Preserve the last successful public site on a required-stage failure and retain this checkpoint for retry. Append the observed publication outcome after verification.
+
+## Verified Publication Outcome
+
+Content commit **348bb24d315f14de5a432fe30ba0cf0ec3374fd7** shipped through `scripts/publish.py ship`. The command freshly fetched `origin/main`, found no rebase conflict, repeated all six required deterministic stages and pushed without force. The exact [Build and publish run 41310176413](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41310176413) succeeded on its **first attempt**. Reader-job, accessibility, responsive and fixed visual-baseline gates passed. Candidate mobile performance is deliberately skipped by the existing workflow on push events and is not claimed as a measurement here. No application, workflow or fixture was changed to pass a gate.
+
+The exact commit’s Pages deployment completed **2026-11-01T13:15:53Z**. The `github-pages` environment independently reports success for that SHA. Public readback at **2026-11-01T13:16:03.780836Z** passed **44 URLs / 172 checks**, with no failures. It confirms the new edition, all four complete article bodies, sources, takeaways, dates, bylines, linked TL;DR, explicit lead, canonical/search/social metadata, structured article records, feeds, search, archive and sitemap. The preceding edition and its two articles match the build. All **25 attached article heroes** and the publication share image match their preserved bytes.
+
+The outcome is **four complete briefs, zero shortfall**, with the date, duplicate and editorial-priority exclusions recorded above. No new hero was required or attempted. All **84 prior article, edition and image files** remain unchanged. The five new edition/article URLs above are verified public.
+
+Durable evidence is in `2026-11-01-deployment.json` and `2026-11-01-public-verification.json`. This evidence commit will itself pass guarded shipping and exact-commit/public readback. Final evidence is retained in automation memory and Scheduled, avoiding recursive evidence-only commits.
+
+**Required action: none.** Preserve this completed edition’s membership, text and assets. Same-day retries should validate and quietly no-op when unchanged, rather than adding padding or repeating image generation.
