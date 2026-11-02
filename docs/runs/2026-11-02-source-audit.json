@@ -1,0 +1,1312 @@
+{
+  "run_date": "2026-11-02",
+  "recorded_at": "2026-11-02T13:10:07.510425Z",
+  "reader_contract": "2.0.3",
+  "article_contract": 2,
+  "voice": {
+    "skill": "ted-writing-style",
+    "version": "1.0.0",
+    "mode": "technology/strategy",
+    "editing_pass": "Full source and continuous-prose review completed. Simplified generic transitions, distinguished hypotheses from observations, preserved internal memo age, proposed AI work versus savings, forecast conditions, and preprint scope. No invented Ted experience, opinion, review or hands-on test."
+  },
+  "headline_rule": "Current user instruction selects AP sentence-style publication headlines. Repository policies and completed published titles preserved.",
+  "base_commit": "fe71004a91ee46aec9bf9b008cb30c0ee0dfb8c3",
+  "worktree": "/Users/tedtschopp/Developer/yesterdai-daily-20261102",
+  "cutoff": "2026-11-02T05:00:00-08:00",
+  "window_start": "2026-11-01T01:00:00Z",
+  "elapsed_window_hours": 36,
+  "prepared_at": "2026-11-02T13:07:58.418108Z",
+  "discovery": {
+    "checked_at": "2026-11-02T13:00:56.858693Z",
+    "counts": {
+      "curated": 229,
+      "top": 200
+    },
+    "malformed_exclusions": {
+      "curated": [
+        {
+          "id": "2e6b008d7907924a9c4c56743403e3af",
+          "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+        }
+      ],
+      "top": []
+    },
+    "source_researched_feed_candidates": 22,
+    "not_advanced": "Research used both feeds and continued until three distinct stories were supported. Remaining ranked preprints and older curated records are discovery context, not individually date-verified; no exhaustion claim is made.",
+    "snapshots": {
+      "_data/discovery.json": "a9c93598a88637e6d1e011a8938dfe7b1319bb1ade1991ae59e6255ba1ed2b3c",
+      "_data/wire.json": "1d3e6cfa6154dadf15ce8c163ed502dc8a73d4e0f4f5b65841785dc85d91a3b8"
+    }
+  },
+  "deduplication": {
+    "editions": [
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29",
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01"
+    ],
+    "articles_reviewed": 22,
+    "quick_hits_reviewed": 0,
+    "development_and_url_check": "Reviewed all seven edition records, all 22 member article records and their bodies. No selected canonical URL or development repeats them. Proton organizational workflow, Ryanair cost-review intent and new web-control reporting are distinct from prior pricing, model routing and security announcements."
+  },
+  "disposition_counts": {
+    "outside_window": 11,
+    "uncertain_original": 1,
+    "source_access_failed": 2,
+    "selected": 3,
+    "uncertain_substantive_update": 1,
+    "editorial_priority": 1,
+    "outside_window_no_update": 1,
+    "unverified_date": 2
+  },
+  "candidate_dispositions": [
+    {
+      "url": "https://x.com/jsnnsa/status/2115623382721126826?s=31",
+      "feeds": [
+        "curated"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-29T01:54:55Z",
+      "reason": "Original X metadata predates the window; curated midnight is a placeholder.",
+      "source_key": "12a7add5d407"
+    },
+    {
+      "url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+      "feeds": [
+        "curated"
+      ],
+      "decision": "uncertain_original",
+      "source_date": "2026-11-01T11:37:54Z",
+      "reason": "X identifies this as a machine translation. Earlier Chinese publication is reported but not independently dated here; translation is not established as a new substantive development. Excluded conservatively. GitHub README independently warns that the prototype is not the full design or an official product.",
+      "source_key": "a93fdd460a31"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/ai-anthropic-rsi-recursive-self-improvement-bff4e815?mod=hp_lead_pos9",
+      "feeds": [
+        "curated"
+      ],
+      "decision": "source_access_failed",
+      "source_date": null,
+      "reason": "WSJ returned HTTP 401. Original date and complete supporting content were not verified; no paywall circumvention.",
+      "source_key": "03f067f79b08"
+    },
+    {
+      "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management",
+      "feeds": [
+        "curated"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-29",
+      "reason": "McKinsey web reader displays October 29. Direct reads timed out twice; the earlier visible original date suffices for exclusion, with no new update evidenced.",
+      "source_key": "732ab7a3b0e0"
+    },
+    {
+      "url": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487?syn-25a6b1a6=1",
+      "feeds": [
+        "curated"
+      ],
+      "decision": "source_access_failed",
+      "source_date": null,
+      "reason": "FT returned HTTP 403 and web reader could not open it. Search discussion does not replace the inaccessible original.",
+      "source_key": "80b5b78f5230"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "feeds": [
+        "curated"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-30T09:32:20-08:00",
+      "reason": "AWS original and modification metadata agree; discovery is later than original publication.",
+      "source_key": "f7975896246f"
+    },
+    {
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "feeds": [
+        "top"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-23T12:49:21+00:00",
+      "reason": "CSA original/modification metadata and visible October 23 date precede window. No current legal-guidance story was drafted from it.",
+      "source_key": "8617cd6f7d8f"
+    },
+    {
+      "url": "https://proton.me/blog/ai-manifesto",
+      "feeds": [
+        "top"
+      ],
+      "decision": "selected",
+      "source_date": "2026-11-01T22:10:17Z",
+      "reason": "New public Proton article, distinct from its earlier internal memo. UTC publication metadata controls.",
+      "source_key": "7ef52e0b08b2"
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "feeds": [
+        "top"
+      ],
+      "decision": "uncertain_substantive_update",
+      "source_date": "2026-10-28T07:31:03-07:00",
+      "reason": "Original is outside window. Modification metadata is 2026-11-01T11:54:54-08:00 and visible correction concerns Angular iterations; no dated earlier capture independently ties that correction to this modification. Do not promote a bare modification time to verified substantive update.",
+      "source_key": "7e9f318174ec"
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "feeds": [
+        "top"
+      ],
+      "decision": "selected",
+      "source_date": "2026-11-02T09:35:19Z",
+      "reason": "New original reporting read directly after web-reader failure; primary 2025 paper remains dated background.",
+      "source_key": "a09e48d0b66b"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
+      "feeds": [
+        "top"
+      ],
+      "decision": "selected",
+      "source_date": "2026-11-02T08:24:43Z",
+      "reason": "Followed discovered Guardian report to the original Ryanair release; facts and eligibility rely on that primary statement. Guardian cached/direct date and title differences are retained rather than silently reconciled.",
+      "source_key": "823ef000f84a"
+    },
+    {
+      "url": "https://www.pcgamer.com/software/ai/ai-powered-game-development-is-leading-to-an-explosion-of-content-roblox-says-as-it-brags-about-70-000-games-published-on-its-platform-in-the-last-5-months-alone/",
+      "feeds": [
+        "top"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-30T20:39:57Z",
+      "reason": "PC Gamer original/modification dates agree and predate window.",
+      "source_key": "237646b5c7cb"
+    },
+    {
+      "url": "https://lwn.net/Articles/1104210/",
+      "feeds": [
+        "top"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-30",
+      "reason": "LWN visible original October 30; no in-window substantive update evidenced.",
+      "source_key": "4a66fbc3bfb7"
+    },
+    {
+      "url": "https://www.pcmag.com/news/sam-altman-suggests-running-ai-locally-is-a-waste-of-memory",
+      "feeds": [
+        "top"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-30T17:33:34Z",
+      "reason": "PCMag original JSON-LD and metadata agree; later discovery does not refresh the report.",
+      "source_key": "32458124ea12"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50335117",
+      "feeds": [
+        "top"
+      ],
+      "decision": "editorial_priority",
+      "source_date": null,
+      "reason": "Ask HN discussion is not advanced over three sourced developments; no original reporting eligibility is asserted.",
+      "source_key": "d54f38c346a2"
+    },
+    {
+      "url": "https://www.visiticeland.com/aiknittakers/",
+      "feeds": [
+        "top"
+      ],
+      "decision": "outside_window_no_update",
+      "source_date": "2026-10-28T20:19:01Z",
+      "reason": "Only dated source metadata is an October 28 modification; no eligible original or later substantive update verified.",
+      "source_key": "d0978f43e0a3"
+    },
+    {
+      "url": "https://booley.dev/blog/harness-matters/",
+      "feeds": [
+        "top"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-16",
+      "reason": "Booley application note visibly dated October 16; no later dated substantive update evidenced.",
+      "source_key": "07bcc8edfaa3"
+    },
+    {
+      "url": "https://prilog.ai/",
+      "feeds": [
+        "top"
+      ],
+      "decision": "unverified_date",
+      "source_date": null,
+      "reason": "Marketing site supplies no verified original publication or substantive-update time; feed discovery date is insufficient.",
+      "source_key": "02d382646f16"
+    },
+    {
+      "url": "https://github.com/francescobianco/aiquota",
+      "feeds": [
+        "top"
+      ],
+      "decision": "unverified_date",
+      "source_date": null,
+      "reason": "Repository listing supplies no dated release/development advanced for research; do not substitute feed listing time for original date.",
+      "source_key": "9fa0aed726a7"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.41291",
+      "feeds": [
+        "top"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-30T05:52:25Z",
+      "reason": "arXiv v1 submission history gives exact original time and no later version.",
+      "source_key": "96f8932650db"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40714",
+      "feeds": [
+        "top"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-29T01:54:36Z",
+      "reason": "arXiv v1 submission history gives exact original time and no later version.",
+      "source_key": "06626b16aeac"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.41432",
+      "feeds": [
+        "top"
+      ],
+      "decision": "outside_window",
+      "source_date": "2026-10-30T08:38:29Z",
+      "reason": "arXiv v1 submission history gives exact original time and no later version.",
+      "source_key": "4c0a9cb2a14b"
+    }
+  ],
+  "source_records": [
+    {
+      "url": "https://prilog.ai/",
+      "key": "02d382646f16",
+      "fetched_at": "2026-11-02T13:02:28.810997+00:00",
+      "status": 200,
+      "final_url": "https://prilog.ai/",
+      "raw_sha256": "2b36685d7ed2c5498d01c88f5cb701bb9a68908d8d93df407da9138900aa624e",
+      "title": "Prilog | AI Bug Fixing from Production Errors to Pull Requests",
+      "meta": {},
+      "times": [
+        {
+          "datetime": "2026-09-09",
+          "title": null,
+          "text": "2026-09-09"
+        },
+        {
+          "datetime": "2026-10-10",
+          "title": null,
+          "text": "2026-10-10"
+        },
+        {
+          "datetime": "2026-08-26",
+          "title": null,
+          "text": "2026-08-26"
+        },
+        {
+          "datetime": "2026-10-12",
+          "title": null,
+          "text": "2026-10-12"
+        },
+        {
+          "datetime": "2026-08-21",
+          "title": null,
+          "text": "2026-08-21"
+        },
+        {
+          "datetime": "2026-10-01",
+          "title": null,
+          "text": "2026-10-01"
+        },
+        {
+          "datetime": "2026-08-29",
+          "title": null,
+          "text": "2026-08-29"
+        },
+        {
+          "datetime": "2026-09-08",
+          "title": null,
+          "text": "2026-09-08"
+        },
+        {
+          "datetime": "2026-09-07",
+          "title": null,
+          "text": "2026-09-07"
+        },
+        {
+          "datetime": "2026-08-25",
+          "title": null,
+          "text": "2026-08-25"
+        },
+        {
+          "datetime": "2026-09-22",
+          "title": null,
+          "text": "2026-09-22"
+        },
+        {
+          "datetime": "2026-10-12",
+          "title": null,
+          "text": "2026-10-12"
+        },
+        {
+          "datetime": "2026-08-21",
+          "title": null,
+          "text": "2026-08-21"
+        },
+        {
+          "datetime": "2026-09-17",
+          "title": null,
+          "text": "2026-09-17"
+        },
+        {
+          "datetime": "2026-09-17",
+          "title": null,
+          "text": "2026-09-17"
+        },
+        {
+          "datetime": "2026-08-25",
+          "title": null,
+          "text": "2026-08-25"
+        },
+        {
+          "datetime": "2026-09-14",
+          "title": null,
+          "text": "2026-09-14"
+        },
+        {
+          "datetime": "2026-09-09",
+          "title": null,
+          "text": "2026-09-09"
+        },
+        {
+          "datetime": "2026-09-06",
+          "title": null,
+          "text": "2026-09-06"
+        },
+        {
+          "datetime": "2026-09-06",
+          "title": null,
+          "text": "2026-09-06"
+        },
+        {
+          "datetime": "2026-09-10",
+          "title": null,
+          "text": "2026-09-10"
+        },
+        {
+          "datetime": "2026-08-31",
+          "title": null,
+          "text": "2026-08-31"
+        },
+        {
+          "datetime": "2026-08-24",
+          "title": null,
+          "text": "2026-08-24"
+        },
+        {
+          "datetime": "2026-08-24",
+          "title": null,
+          "text": "2026-08-24"
+        },
+        {
+          "datetime": "2026-08-24",
+          "title": null,
+          "text": "2026-08-24"
+        },
+        {
+          "datetime": "2026-08-24",
+          "title": null,
+          "text": "2026-08-24"
+        },
+        {
+          "datetime": "2026-08-24",
+          "title": null,
+          "text": "2026-08-24"
+        },
+        {
+          "datetime": "2026-08-21",
+          "title": null,
+          "text": "2026-08-21"
+        },
+        {
+          "datetime": "2026-08-21",
+          "title": null,
+          "text": "2026-08-21"
+        },
+        {
+          "datetime": "2026-09-16",
+          "title": null,
+          "text": "2026-09-16"
+        },
+        {
+          "datetime": "2026-08-24",
+          "title": null,
+          "text": "2026-08-24"
+        },
+        {
+          "datetime": "2026-08-22",
+          "title": null,
+          "text": "2026-08-22"
+        },
+        {
+          "datetime": "2026-08-22",
+          "title": null,
+          "text": "2026-08-22"
+        },
+        {
+          "datetime": "2026-09-22",
+          "title": null,
+          "text": "2026-09-22"
+        },
+        {
+          "datetime": "2026-09-16",
+          "title": null,
+          "text": "2026-09-16"
+        },
+        {
+          "datetime": "2026-08-21",
+          "title": null,
+          "text": "2026-08-21"
+        }
+      ],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/ai-anthropic-rsi-recursive-self-improvement-bff4e815?mod=hp_lead_pos9",
+      "key": "03f067f79b08",
+      "fetched_at": "2026-11-02T13:02:27.517315+00:00",
+      "error": "HTTP Error 401: HTTP Forbidden"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40714",
+      "key": "06626b16aeac",
+      "fetched_at": "2026-11-02T13:02:29.053431+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2610.40714",
+      "raw_sha256": "a737861a8fc48c485baa497db26c0c994c03d337b96e605ce03a3ca30e62e4ca",
+      "title": "[2610.40714] PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management",
+      "meta": {
+        "citation_title": "PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management",
+        "citation_author": "Shokri, Reza",
+        "citation_date": "2026/10/29",
+        "citation_online_date": "2026/10/29",
+        "citation_pdf_url": "https://arxiv.org/pdf/2610.40714",
+        "citation_arxiv_id": "2610.40714",
+        "citation_abstract": "Autonomous LLM agents executing multi-step workflows over personal data often misalign with user privacy expectations and leak sensitive, out-of-context information. Although Contextual Integrity (CI) formalizes this problem, existing benchmarks and defenses rarely operationalize CI for realistic multi-step task sequences in evolving environments. In this work, we first introduce agentic PrivacyBench, a benchmark of 5873 tasks in 986 task sequences with dynamic environment updates and CI-grounded allow-sets for sensitive information. We also introduce PrivacyFlow, a defense that separates deliberative privacy planning (System 2) from task execution (System 1), treating each sharing decision as a structured risk-management problem. Before execution, PrivacyFlow traces the provenance and purpose of each planned data flow, models recipient background knowledge, and simulates what external actors could infer. This allows us to model the downstream consequences of disclosure, including inference attacks and context-dependent harms. It then weighs the remaining disclosure risk against task utility and executes a minimized plan, blocks it, or consults the user. Across six models, PrivacyFlow significantly reduces step-level privacy failures and raises the share of completed task sequences without a detected privacy violation by 22--55 percentage points. We further highlight a new privacy--utility--autonomy tradeoff: allowing PrivacyFlow to proactively prompt the user in case of uncertainty can increase authorized task completion at the cost of shifting decision effort back to the user. Our results suggest that proactive CI reasoning can substantially improve agentic privacy and motivate further study of this tradeoff."
+      },
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://booley.dev/blog/harness-matters/",
+      "key": "07bcc8edfaa3",
+      "fetched_at": "2026-11-02T13:02:28.700254+00:00",
+      "status": 200,
+      "final_url": "https://booley.dev/blog/harness-matters/",
+      "raw_sha256": "8daca86b3f7490331be53e6fc2f097639325df693624ee6ad0a633540897d7ea",
+      "title": "Why AI agents struggle with RTL debugging, and what helps - Booley",
+      "meta": {
+        "author": "boldaxolotl"
+      },
+      "times": [
+        {
+          "datetime": "2026-10-16 00:00:00+00:00",
+          "title": null,
+          "text": "16 October 2026"
+        }
+      ],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://x.com/jsnnsa/status/2115623382721126826?s=31",
+      "key": "12a7add5d407",
+      "fetched_at": "2026-11-02T13:02:27.516864+00:00",
+      "status": 200,
+      "final_url": "https://x.com/jsnnsa/status/2115623382721126826?s=31",
+      "raw_sha256": "0049c2b2f2b1e01f54290834519ad15f686d29fc49d2ce2ba225263c4343fd4d",
+      "title": "jacob on X: \"How I Built the Most AI-Pilled Company in the World\" / X",
+      "meta": {
+        "article:published_time": "2026-10-29T01:54:55.000Z",
+        "article:author": "https://x.com/jsnnsa"
+      },
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://investor.ryanair.com/",
+      "key": "1db70d259260",
+      "fetched_at": "2026-11-02T13:04:49.049480+00:00",
+      "status": 200,
+      "final_url": "https://investor.ryanair.com/",
+      "raw_sha256": "8eed87644e06daf6e22413bfffb5b97bce674dc69c2ce26fb1ca55fc0421de35",
+      "title": "Ryanair | Investor Relations",
+      "meta": {},
+      "times": [
+        {
+          "datetime": null,
+          "title": null,
+          "text": "4 Aug 2020"
+        },
+        {
+          "datetime": null,
+          "title": null,
+          "text": "4 Aug 2020"
+        },
+        {
+          "datetime": null,
+          "title": null,
+          "text": "4 Aug 2020"
+        }
+      ],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://www.pcgamer.com/software/ai/ai-powered-game-development-is-leading-to-an-explosion-of-content-roblox-says-as-it-brags-about-70-000-games-published-on-its-platform-in-the-last-5-months-alone/",
+      "key": "237646b5c7cb",
+      "fetched_at": "2026-11-02T13:02:28.140628+00:00",
+      "status": 200,
+      "final_url": "https://www.pcgamer.com/software/ai/ai-powered-game-development-is-leading-to-an-explosion-of-content-roblox-says-as-it-brags-about-70-000-games-published-on-its-platform-in-the-last-5-months-alone/",
+      "raw_sha256": "acfc78a771c84ee5cd56fb8771a9d4d61c765fa12728db26850aef1f67ccfc84",
+      "title": "AI-powered game development is 'leading to an explosion of content,' Roblox says, as it brags about 70,000 games published on its platform in the last 5 months alone | PC Gamer",
+      "meta": {
+        "pub_date": "2026-10-30T20:39:57+00:00",
+        "article:publisher": "https://www.facebook.com/pcgamermagazine",
+        "article:published_time": "2026-10-30T20:39:57Z",
+        "article:author": "https://www.pcgamer.com/author/andy-chalk/",
+        "mrf:authors": "Andy Chalk",
+        "msvalidate.01": "CC462E6DF91492086145CA5EBDCB615E"
+      },
+      "times": [
+        {
+          "datetime": "2026-10-30T20:39:57Z",
+          "title": null,
+          "text": "30 October 2026"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "headline": "AI-powered game development is 'leading to an explosion of content,' Roblox says, as it brags about 70,000 games published on its platform in the last 5 months alone",
+          "datePublished": "2026-10-30T20:39:57+00:00",
+          "author": {
+            "@type": "Person",
+            "name": "Andy Chalk",
+            "url": "https://www.pcgamer.com/author/andy-chalk/",
+            "description": "Andy has been gaming on PCs from the very beginning, starting as a youngster with text adventures and primitive action games on a cassette-based TRS80. From there he graduated to the glory days of Sierra Online adventures and Microprose sims, ran a local BBS, learned how to build PCs, and developed a longstanding love of RPGs, immersive sims, and shooters. He began writing videogame news in 2007 for The Escapist and somehow managed to avoid getting fired until 2014, when he joined the storied ranks of PC Gamer. He covers all aspects of the industry, from new game announcements and patch notes to legal disputes, Twitch beefs, esports, and Henry Cavill. Lots of Henry Cavill.",
+            "jobTitle": "US News Lead",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://cdn.mos.cms.futurecdn.net/hkTeZoDeGrvhQZtrNGPkbB.png",
+              "caption": "Andy Chalk"
+            },
+            "email": "andy.chalk@pcgamer.com",
+            "sameAs": [
+              "https://twitter.com/AndyChalk"
+            ],
+            "@id": "https://www.pcgamer.com/author/andy-chalk#person"
+          },
+          "dateModified": "2026-10-30T20:39:57+00:00"
+        }
+      ]
+    },
+    {
+      "url": "https://www.pcmag.com/news/sam-altman-suggests-running-ai-locally-is-a-waste-of-memory",
+      "key": "32458124ea12",
+      "fetched_at": "2026-11-02T13:02:28.435099+00:00",
+      "status": 200,
+      "final_url": "https://www.pcmag.com/news/sam-altman-suggests-running-ai-locally-is-a-waste-of-memory",
+      "raw_sha256": "75eed1bdca2d5762680cb73c37cbd3cbfed235766652a8fa486d490db02ea5a3",
+      "title": "Sam Altman Suggests Running AI Locally Is a Waste of Memory | PCMag",
+      "meta": {
+        "article:author": "Michael Kan",
+        "article:published_time": "2026-10-30T17:33:34+00:00"
+      },
+      "times": [],
+      "jsonld_dates": [
+        {
+          "headline": "Sam Altman Suggests Running AI Locally Is a Waste of Memory",
+          "datePublished": "2026-10-30T17:33:34+00:00",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Michael Kan",
+              "url": "https://www.pcmag.com/authors/michael-kan",
+              "jobTitle": "Principal Reporter",
+              "image": {
+                "@type": "ImageObject",
+                "url": "https://i.pcmag.com/imagery/authors/06W4G6A5rmg4LxEffqKnnc6..v1560221550.png",
+                "height": 85,
+                "width": 85
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.10953v1",
+      "key": "358ad1bcfa26",
+      "fetched_at": "2026-11-02T13:05:52.132010+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2506.10953v1",
+      "raw_sha256": "0ecfa8553ad669e2c407be257ee7dad5c040291c6cdbb588f65623b995389e5b",
+      "title": "[2506.10953v1] Build the web for agents, not agents for the web",
+      "meta": {
+        "citation_title": "Build the web for agents, not agents for the web",
+        "citation_author": "Reddy, Siva",
+        "citation_date": "2025/06/12",
+        "citation_online_date": "2025/06/12",
+        "citation_pdf_url": "https://arxiv.org/pdf/2506.10953",
+        "citation_arxiv_id": "2506.10953",
+        "citation_abstract": "Recent advancements in Large Language Models (LLMs) and multimodal counterparts have spurred significant interest in developing web agents -- AI systems capable of autonomously navigating and completing tasks within web environments. While holding tremendous promise for automating complex web interactions, current approaches face substantial challenges due to the fundamental mismatch between human-designed interfaces and LLM capabilities. Current methods struggle with the inherent complexity of web inputs, whether processing massive DOM trees, relying on screenshots augmented with additional information, or bypassing the user interface entirely through API interactions. This position paper advocates for a paradigm shift in web agent research: rather than forcing web agents to adapt to interfaces designed for humans, we should develop a new interaction paradigm specifically optimized for agentic capabilities. To this end, we introduce the concept of an Agentic Web Interface (AWI), an interface specifically designed for agents to navigate a website. We establish six guiding principles for AWI design, emphasizing safety, efficiency, and standardization, to account for the interests of all primary stakeholders. This reframing aims to overcome fundamental limitations of existing interfaces, paving the way for more efficient, reliable, and transparent web agent design, which will be a collaborative effort involving the broader ML community."
+      },
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://arxiv.org/html/2506.10953v1",
+      "key": "3a359365a831",
+      "fetched_at": "2026-11-02T13:05:52.132395+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2506.10953v1",
+      "raw_sha256": "6b75c3d1a8977abb9bacaa753c764a9875c6c6930ba3854ff27ea20806a79178",
+      "title": "Build the web for agents, not agents for the web",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://lwn.net/Articles/1104210/",
+      "key": "4a66fbc3bfb7",
+      "fetched_at": "2026-11-02T13:02:28.322983+00:00",
+      "status": 200,
+      "final_url": "https://lwn.net/Articles/1104210/",
+      "raw_sha256": "f9905f84546bf6fc09356d7b554052a54e2d93a5e406e6e01c70d51907662e0d",
+      "title": "Haas: Postgres 19 is late, and it's AI's fault [LWN.net]",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.41432",
+      "key": "4c0a9cb2a14b",
+      "fetched_at": "2026-11-02T13:02:29.208223+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2610.41432",
+      "raw_sha256": "38778315d8f2a69dca231df295fc9774f5cf56cc06d006d4bded7722214ed02c",
+      "title": "[2610.41432] Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
+      "meta": {
+        "citation_title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
+        "citation_author": "Lu, Yan",
+        "citation_date": "2026/10/30",
+        "citation_online_date": "2026/10/30",
+        "citation_pdf_url": "https://arxiv.org/pdf/2610.41432",
+        "citation_arxiv_id": "2610.41432",
+        "citation_abstract": "Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional workflows. Yet interfaces centered on screenshots and mouse-and-keyboard actions can impose a human-interaction prior, requiring repeated screen interpretation while leaving the computer's semantic and programmatic capabilities underexposed. We argue for exposing these capabilities and letting models choose and combine them. We introduce Hybrid Computer Use (HCU), a unified interface for general agents that combines three complementary channels: programmatic interaction through code and command-line tools, semantic interaction through accessibility (AX), and visual interaction through graphical user interfaces (GUI). Our HCU supports efficient AX interaction and guards against stale-state actions during channel switching. A supplementary HCU skill guides agents in selecting and coordinating channels to use the unified interface effectively. Our designed AX tools return compact observations, execute actions in batches, and report their effects as AX diffs, so the model needs fewer round trips. On OSWorld 2.0, HCU achieves the highest Partial and Binary scores among the compared systems. Analyzing agent trajectories, we find that all evaluated models improve with HCU yet allocate work across the channels differently and consistently outperform compared baselines in terms of both efficiency and task success, highlighting the value of unified computer-use interfaces that allow flexible channel selection and combination."
+      },
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management",
+      "key": "732ab7a3b0e0",
+      "fetched_at": "2026-11-02T13:04:49.049558+00:00",
+      "error": "The read operation timed out"
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "key": "7e9f318174ec",
+      "fetched_at": "2026-11-02T13:02:27.773156+00:00",
+      "status": 200,
+      "final_url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "raw_sha256": "d8eb9ab2cca45207ea359ccd8436ffa359e4ab00417d9c08d53cf86265fde706",
+      "title": "The AI cost of JavaScript frameworks | Read the Tea Leaves",
+      "meta": {
+        "article:published_time": "2026-10-28T07:31:03-07:00",
+        "article:modified_time": "2026-11-01T11:54:54-08:00"
+      },
+      "times": [
+        {
+          "datetime": "2026-10-28T07:31:03-07:00",
+          "title": null,
+          "text": "October 28, 2026"
+        }
+      ],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://proton.me/blog/ai-manifesto",
+      "key": "7ef52e0b08b2",
+      "fetched_at": "2026-11-02T13:04:49.048990+00:00",
+      "status": 200,
+      "final_url": "https://proton.me/blog/ai-manifesto",
+      "raw_sha256": "13cfe22bc20efa95c235fdb6267836a651dfc5c821c297425e341e907dff839d",
+      "decoded_sha256": "b5b04cc84057c6d81bb2e8f13469a88bdf53d6b87241baed54b794899f89e0d5",
+      "title": "Proton’s AI manifesto for software engineering | Proton",
+      "meta": {
+        "article:modified_time": "2026-11-01T22:18:54.000Z",
+        "article:published_time": "2026-11-01T22:10:17.000Z"
+      },
+      "times": [
+        {
+          "datetime": "2026-11-01T22:10:17",
+          "title": null,
+          "text": "Published on November 1, 2026"
+        },
+        {
+          "datetime": "2026-10-07T17:21:34",
+          "title": null,
+          "text": "Oct 7, 2026"
+        },
+        {
+          "datetime": "2026-09-22T17:56:14",
+          "title": null,
+          "text": "Sep 22, 2026"
+        },
+        {
+          "datetime": "2026-08-25T18:18:04",
+          "title": null,
+          "text": "Aug 25, 2026"
+        },
+        {
+          "datetime": "2026-05-15T17:00:06",
+          "title": null,
+          "text": "May 15, 2026"
+        },
+        {
+          "datetime": "2026-04-28T09:58:06",
+          "title": null,
+          "text": "Apr 28, 2026"
+        },
+        {
+          "datetime": "2026-04-23T11:57:59",
+          "title": null,
+          "text": "Apr 23, 2026"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "headline": "Proton’s AI manifesto for software engineering",
+          "datePublished": "2026-11-01T22:10:17",
+          "dateModified": "2026-11-01T22:10:17",
+          "author": {
+            "@type": "Person",
+            "@id": "https://proton.me/#bart-butler",
+            "url": "https://proton.me/blog/author/bart-butler",
+            "name": "Bart Butler",
+            "givenName": "Bart",
+            "familyName": "Butler",
+            "knowsAbout": "privacy",
+            "description": "Bart is the CTO of Proton, the company behind Proton Mail and Proton VPN. An expert in email encryption, Bart was previously a physicist at CERN working on the ATLAS experiment. He was also a postdoctoral researcher at Harvard and received his PhD in Physics from Stanford University.",
+            "image": "https://res.cloudinary.com/dbulfrlrz/image/upload/c_fill,w_364,h_364/static/avatars/Bart_Butler_le5p1n.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487?syn-25a6b1a6=1",
+      "key": "80b5b78f5230",
+      "fetched_at": "2026-11-02T13:02:27.517419+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
+      "key": "823ef000f84a",
+      "fetched_at": "2026-11-02T13:02:28.140126+00:00",
+      "status": 200,
+      "final_url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
+      "raw_sha256": "5bf314c66ba793c543d41b976f9e401e68ce8271f05c074f9af554766caef190",
+      "title": "Ryanair faces clash with unions as it mulls pay freezes amid soaring fuel costs | Ryanair | The Guardian",
+      "meta": {
+        "article:author": "https://www.theguardian.com/profile/marksweney",
+        "article:publisher": "https://www.facebook.com/theguardian",
+        "article:modified_time": "2026-11-02T12:58:00.000Z",
+        "article:published_time": "2026-11-02T12:57:53.000Z"
+      },
+      "times": [
+        {
+          "datetime": "2026-09-10T12:10:42.000Z",
+          "title": "Thursday, September 10, 2026 at 08:10 AM Eastern Daylight Time",
+          "text": "10 Sept 2026"
+        },
+        {
+          "datetime": "2026-10-20T14:28:56.000Z",
+          "title": "Tuesday, October 20, 2026 at 10:28 AM Eastern Daylight Time",
+          "text": "20 Oct 2026"
+        },
+        {
+          "datetime": "2026-10-01T21:41:19.000Z",
+          "title": "Thursday, October 1, 2026 at 05:41 PM Eastern Daylight Time",
+          "text": "1 Oct 2026"
+        },
+        {
+          "datetime": "2026-09-02T08:58:04.000Z",
+          "title": "Wednesday, September 2, 2026 at 04:58 AM Eastern Daylight Time",
+          "text": "2 Sept 2026"
+        },
+        {
+          "datetime": "2026-08-14T10:28:10.000Z",
+          "title": "Friday, August 14, 2026 at 06:28 AM Eastern Daylight Time",
+          "text": "14 Aug 2026"
+        },
+        {
+          "datetime": "2026-07-21T18:26:41.000Z",
+          "title": "Tuesday, July 21, 2026 at 02:26 PM Eastern Daylight Time",
+          "text": "21 Jul 2026"
+        },
+        {
+          "datetime": "2026-08-11T14:03:28.000Z",
+          "title": "Tuesday, August 11, 2026 at 10:03 AM Eastern Daylight Time",
+          "text": "11 Aug 2026"
+        },
+        {
+          "datetime": "2026-07-20T13:42:11.000Z",
+          "title": "Monday, July 20, 2026 at 09:42 AM Eastern Daylight Time",
+          "text": "20 Jul 2026"
+        },
+        {
+          "datetime": "2026-08-06T14:56:55.000Z",
+          "title": "Thursday, August 6, 2026 at 10:56 AM Eastern Daylight Time",
+          "text": "6 Aug 2026"
+        },
+        {
+          "datetime": "2026-07-23T08:24:49.000Z",
+          "title": "Thursday, July 23, 2026 at 04:24 AM Eastern Daylight Time",
+          "text": "23 Jul 2026"
+        }
+      ],
+      "jsonld_dates": [
+        {
+          "author": [
+            {
+              "@type": "Person",
+              "name": "Mark Sweney",
+              "sameAs": "https://www.theguardian.com/profile/marksweney"
+            }
+          ],
+          "datePublished": "2026-11-02T12:57:53.000Z",
+          "headline": "Ryanair faces clash with unions as it mulls pay freezes amid soaring fuel costs",
+          "dateModified": "2026-11-02T12:58:00.000Z"
+        }
+      ]
+    },
+    {
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "key": "8617cd6f7d8f",
+      "fetched_at": "2026-11-02T13:02:27.517532+00:00",
+      "status": 200,
+      "final_url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "raw_sha256": "ec76b9c0dbe28d8c0a559b4b64e813a9cfcc6b3fa46d085621529fa2f3db0fc2",
+      "title": "China’s First Frontier AI Export Controls: MOFCOM Announcement No. 48 – Lab Space",
+      "meta": {
+        "article:published_time": "2026-10-23T12:49:21+00:00",
+        "article:modified_time": "2026-10-23T12:49:21+00:00"
+      },
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.41291",
+      "key": "96f8932650db",
+      "fetched_at": "2026-11-02T13:02:29.053018+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2610.41291",
+      "raw_sha256": "fcae53b6118e139e85142ba2df5e3d75dcb46ce6ad1587ccdd4460f055173dcd",
+      "title": "[2610.41291] In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
+      "meta": {
+        "citation_title": "In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
+        "citation_author": "Dong, Yihong",
+        "citation_date": "2026/10/30",
+        "citation_online_date": "2026/10/30",
+        "citation_pdf_url": "https://arxiv.org/pdf/2610.41291",
+        "citation_arxiv_id": "2610.41291",
+        "citation_abstract": "Long-horizon LLM agents play an important role in solving complex and sustained tasks, with ever-growing interaction contexts. However, these accumulated contexts will raise substantial computational cost and obscure key decision-relevant evidence. Existing methods typically train external compressors or context-management agents to rewrite context as shorter hard-token sequences, but such external selection may not align with the LLM's evolving representation and is necessarily lossy. In this paper, we introduce Agentic Soft-Token Compression (ASTC), a training-free compression method using soft tokens within LLM agent for long-horizon tasks. Specifically, ASTC uses the model's native recurrent dynamics to determine the already absorbed information, leveraging the commonly-used hybrid Gated Delta Network (GDN)-attention. It then carries this information forward as agentic soft tokens while retaining exact values as hard tokens. The resulting compact sequence reduces later-layer computation and yields reusable KV caches, extending the savings across the agent's trajectory. Extensive experiments on long-horizon tasks show that ASTC matches or exceeds the uncompressed agent's accuracy with up to 50.68% fewer end-to-end Attention Pairs, while trained compressors require 15.4 to 103.7 times more Attention Pairs per successful task. These findings highlight agentic soft tokens as a model-native way to carry absorbed context forward as the task representation evolves."
+      },
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://github.com/francescobianco/aiquota",
+      "key": "9fa0aed726a7",
+      "fetched_at": "2026-11-02T13:02:28.977203+00:00",
+      "status": 200,
+      "final_url": "https://github.com/francescobianco/aiquota",
+      "raw_sha256": "4b72638ff79b8b37f5194bc43a424e65f89cae89e0e70b0426ffcaafac2a903f",
+      "title": "GitHub - francescobianco/aiquota: See what's left of your flat-rate AI subscriptions every time you open a terminal. One POSIX sh script for Claude, ChatGPT/Codex, Copilot, Gemini, OpenCode Go and Freebuff. · GitHub",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "key": "a09e48d0b66b",
+      "fetched_at": "2026-11-02T13:02:27.778872+00:00",
+      "status": 200,
+      "final_url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "raw_sha256": "c468ff2adf81fe63876eed9e30564c4bd23c93ae698cacaf74fef4f1da70bc93",
+      "title": "The agentic web is here | MIT Technology Review",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [
+        {
+          "headline": "The agentic web is here",
+          "dateCreated": "2026-11-02T04:35:19-05:00",
+          "datePublished": "2026-11-02T04:35:19-05:00",
+          "dateModified": "2026-11-02T04:35:20-05:00",
+          "author": {
+            "@type": "Person",
+            "name": "Grace Huckins"
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+      "key": "a93fdd460a31",
+      "fetched_at": "2026-11-02T13:02:27.517233+00:00",
+      "status": 200,
+      "final_url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+      "raw_sha256": "912e4a356ec4dc0a532b57e5f6fedd207f6ea9fc75078c681d9d4f4856da93e3",
+      "title": "DeepSeek Harness on X: \"Exploring Super-agent Design: Towards a More Autonomous Agent System\" / X",
+      "meta": {
+        "article:published_time": "2026-11-01T11:37:54.000Z",
+        "article:author": "https://x.com/DeepSeekHarness"
+      },
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://www.visiticeland.com/aiknittakers/",
+      "key": "d0978f43e0a3",
+      "fetched_at": "2026-11-02T13:02:28.699843+00:00",
+      "status": 200,
+      "final_url": "https://www.visiticeland.com/aiknittakers/",
+      "raw_sha256": "a719a16d436c2df88492784129f2b44997af603b5f2085a01640b422b99bd10e",
+      "title": "AI Knittaker | Skip Your Meetings & Explore Iceland Instead! | Visit Iceland",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [
+        {
+          "dateModified": "2026-10-28T20:19:01.000Z"
+        }
+      ]
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50335117",
+      "key": "d54f38c346a2",
+      "fetched_at": "2026-11-02T13:02:28.438077+00:00",
+      "status": 200,
+      "final_url": "https://news.ycombinator.com/item?id=50335117",
+      "raw_sha256": "0a0bfbe2fc2e3a306a9318278e0ec2846976b7af92b591a40bd8bf3b2efe2e17",
+      "title": "Ask HN: Do you think AI has now disrupted math more than it did programming? | Hacker News",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://corporate.ryanair.com/news/ryanair-h1-pat-falls-15-to-e2-15bn-as-unhedged-oil-doubles-traffic-grows-6-at-lower-fares/",
+      "key": "e6583afb439e",
+      "fetched_at": "2026-11-02T13:04:49.049378+00:00",
+      "status": 200,
+      "final_url": "https://corporate.ryanair.com/news/ryanair-h1-pat-falls-15-to-e2-15bn-as-unhedged-oil-doubles-traffic-grows-6-at-lower-fares/",
+      "raw_sha256": "18f457322ae493107b412d4b0adac738a45dd2302b1b2a2fb71f72bc4ad040b9",
+      "title": "RYANAIR H1 PAT FALLS 15% TO €2.15BN AS UNHEDGED OIL DOUBLES & TRAFFIC GROWS 6% AT LOWER FARES – Ryanair's Corporate Website",
+      "meta": {},
+      "times": [
+        {
+          "datetime": "2026-11-02T08:24:43+00:00",
+          "title": null,
+          "text": "2 Nov 2026"
+        },
+        {
+          "datetime": null,
+          "title": null,
+          "text": "4 Aug 2020"
+        },
+        {
+          "datetime": null,
+          "title": null,
+          "text": "4 Aug 2020"
+        }
+      ],
+      "jsonld_dates": []
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "key": "f7975896246f",
+      "fetched_at": "2026-11-02T13:02:27.517462+00:00",
+      "status": 200,
+      "final_url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "raw_sha256": "06a79b4a1ae6dd8b3f09e35846ccf926745b2c7ec4491c5030d1da16fab78844",
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock | Artificial Intelligence",
+      "meta": {
+        "og:updated_time": "2026-10-30T09:32:20-08:00",
+        "article:publisher": "https://www.facebook.com/amazonwebservices",
+        "article:published_time": "2026-10-30T09:32:20-08:00",
+        "article:modified_time": "2026-10-30T09:32:20-08:00"
+      },
+      "times": [
+        {
+          "datetime": "2026-10-30T09:32:20-08:00",
+          "title": null,
+          "text": "30 OCT 2026"
+        }
+      ],
+      "jsonld_dates": []
+    }
+  ],
+  "external_evidence_notes": [
+    "Proton gzip response was decoded for inspection; both transport and decoded hashes retained. Timezone-free JSON-LD is qualified by explicitly UTC metadata.",
+    "Ryanair primary time element is 08:24:43Z; Guardian cached web says 09:06Z while direct original metadata is 12:57:53Z, modification 12:58Z. No Guardian-derived prose or original-time inference is needed.",
+    "MIT Technology Review direct JSON-LD dates and full prose were read; its older cited preprint remains June 2025 background.",
+    "WSJ and FT remain candidate access exclusions, and McKinsey direct reads timed out despite successful dated web read. These are not a quiet-day designation."
+  ],
+  "articles": [
+    {
+      "slug": "agentic-web-access-control",
+      "article_id": "art_3615c38e010c6fac",
+      "title": "The agentic web makes access a product decision",
+      "format": "brief",
+      "words": 271,
+      "hero": "omitted; focused brief chosen before drafting",
+      "eligibility": {
+        "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+        "published_at": "2026-11-02T09:35:19Z",
+        "precision": "second",
+        "verification": "jsonld",
+        "evidence": "MIT Technology Review Article JSON-LD gives dateCreated/datePublished=2026-11-02T04:35:19-05:00 and dateModified=04:35:20-05:00. The original publication instant is 09:35:19Z. Direct HTML retrieval supplied the full report after the web reader could not open it. The supporting position paper retains its June 12, 2025 original date and is not the eligibility event.",
+        "discovered_url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+        "verified_at": "2026-11-02T13:07:58.418108Z"
+      },
+      "sources": [
+        {
+          "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+          "title": "The agentic web is here",
+          "publisher": "MIT Technology Review / Grace Huckins",
+          "published_at": "2026-11-02T09:35:19Z",
+          "kind": "reporting"
+        },
+        {
+          "url": "https://arxiv.org/abs/2506.10953v1",
+          "title": "Build the web for agents, not agents for the web",
+          "publisher": "arXiv / Xing Han Lù, Gaurav Kamath, Marius Mosbach and Siva Reddy",
+          "published_at": "2025-06-12T17:53:58Z",
+          "kind": "preprint"
+        }
+      ]
+    },
+    {
+      "slug": "proton-engineering-workflow-bottlenecks",
+      "article_id": "art_7ef52e0b08b2b23c",
+      "title": "Proton’s AI manifesto puts the bottleneck beyond writing code",
+      "format": "brief",
+      "words": 275,
+      "hero": "omitted; focused brief chosen before drafting",
+      "eligibility": {
+        "url": "https://proton.me/blog/ai-manifesto",
+        "published_at": "2026-11-01T22:10:17Z",
+        "precision": "second",
+        "verification": "meta",
+        "evidence": "Proton article:published_time gives 2026-11-01T22:10:17.000Z and visible text says November 1. JSON-LD repeats the clock time without a timezone; the explicitly UTC metadata controls. article:modified_time is 22:18:54Z and is not used for eligibility. The newly public article says its internal memo was written about a month earlier; no new internal rollout date is asserted.",
+        "discovered_url": "https://proton.me/blog/ai-manifesto",
+        "verified_at": "2026-11-02T13:07:58.418108Z"
+      },
+      "sources": [
+        {
+          "url": "https://proton.me/blog/ai-manifesto",
+          "title": "Proton’s AI manifesto for software engineering",
+          "publisher": "Proton / Bart Butler",
+          "published_at": "2026-11-01T22:10:17Z",
+          "kind": "vendor"
+        }
+      ]
+    },
+    {
+      "slug": "ryanair-ai-productivity-cost-review",
+      "article_id": "art_9fae4a69c581cd5b",
+      "title": "Ryanair puts AI productivity inside a wider cost review",
+      "format": "brief",
+      "words": 292,
+      "hero": "omitted; focused brief chosen before drafting",
+      "eligibility": {
+        "url": "https://corporate.ryanair.com/news/ryanair-h1-pat-falls-15-to-e2-15bn-as-unhedged-oil-doubles-traffic-grows-6-at-lower-fares/",
+        "published_at": "2026-11-02T08:24:43Z",
+        "precision": "second",
+        "verification": "visible",
+        "evidence": "The primary Ryanair release displays 2 Nov 2026 in a time element with datetime=2026-11-02T08:24:43+00:00. Its dated statement and AI cost-review paragraph were read directly. The discovered Guardian report has different original times in cached web and direct metadata; neither is needed to establish eligibility or supply the article’s facts.",
+        "discovered_url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
+        "verified_at": "2026-11-02T13:07:58.418108Z"
+      },
+      "sources": [
+        {
+          "url": "https://corporate.ryanair.com/news/ryanair-h1-pat-falls-15-to-e2-15bn-as-unhedged-oil-doubles-traffic-grows-6-at-lower-fares/",
+          "title": "Ryanair H1 PAT falls 15% to €2.15bn as unhedged oil doubles and traffic grows 6% at lower fares",
+          "publisher": "Ryanair Holdings plc",
+          "published_at": "2026-11-02T08:24:43Z",
+          "kind": "vendor"
+        }
+      ]
+    }
+  ],
+  "target": {
+    "minimum": 3,
+    "maximum": 5,
+    "selected": 3,
+    "shortfall": 0,
+    "quick_hits": 0
+  },
+  "images": {
+    "new_heroes": 0,
+    "new_attempts": 0,
+    "analyses": 0,
+    "decision": "All three selected as focused briefs before drafting. No generation was required or attempted; all existing attached heroes, captions and provenance preserved."
+  },
+  "preservation": {
+    "files": 89,
+    "unchanged": true,
+    "sha256": {
+      "_articles/agent-harness-state.md": "30fb339a827e6c42e5f7f1245593fd75443fe008cf97d8672627cbdf685c5701",
+      "_articles/agent-optimization-budget.md": "27b4411ffe01defe841eebc62fae948978d5ea4dbbbb08392e411350cf9bb9b7",
+      "_articles/ai-recommendation-bias.md": "dbd62847d98e55ccfb5b55260658fce0b156fedf3ed1f39e00dad8dc2fa5992d",
+      "_articles/anthropic-s1-board-control.md": "938ab67c5c0ea41deca97b93c1df8314d86a958c0030ebebb66a5201955d2376",
+      "_articles/authorization-agent-boundaries.md": "49a169e1f567bf6b28c0aaf868ca0bee9011d5ba1e7cdb3e3e32eb5a107ccdac",
+      "_articles/calibrated-disposition-drift.md": "ff82bb66f379fd790053b83e12166e438b035b1d1651d99cb59209f17d5ffd6a",
+      "_articles/catalog-field-grounding.md": "928bf01d359aae346b3a94bab122640bd360ad69c3c14a3a1b17f70f99480e2c",
+      "_articles/ciso-survey-security-deployment.md": "17fdbecef7093dc753f039cadbe471fd63c5d72c0a36b43cb71a959af53d15e7",
+      "_articles/citation-relevance-verification.md": "3524ae8affa5631123894ef0e723147e261338fc7d8ef003590ea7bbfedb28b4",
+      "_articles/claude-batch-review-evidence.md": "ee6478365605b3fba2645df468ba2fe00c56a90a452b7ae5e69a879cb030eece",
+      "_articles/claude-watermark-rollout-detection-limits.md": "1b66aa06038d8ac43502a526b91b491e135c49cef867f9584a36d2248be7fd9f",
+      "_articles/cloudflare-cache-isolation-tests.md": "103e130e142fdf25760ee6384c07b6db8271739d5687e6e92aa82ce7c6b9a7f9",
+      "_articles/confidential-containers-gpu-attestation.md": "13f1fd6e1493436db35c86b8b07c04afcadc556c05e506f173f60af589adca1a",
+      "_articles/context-sensitive-model-boundaries.md": "61a33c99b9d6bb97a2df3116843a9ccda690d2d94badf5101fb6e28d58f1bcc7",
+      "_articles/coordination-agent-economics.md": "897cb1184b78f174f23f918c80685f38d57d614f85de35ba06f6399ae34da695",
+      "_articles/copilot-fusion-model-policy.md": "84ce2920168371cc5a37d6266e6aff80ebae73feb0ff4f58d1ef930580da523f",
+      "_articles/cost-aware-ticket-routing.md": "273bee341ab990d063b125447a0ecb0f545d5d06ce3f4139c5650e566cb7f18f",
+      "_articles/cursor-extension-persistence-recovery.md": "d0c655c67d0fcea41b4641949fdc1d11e57c2184d06bee1fdb681794e596e318",
+      "_articles/fowler-writing-and-understanding.md": "3c4bcb5fb74c386e0ea937b86d9b26e940b0b6310ee4cdb2170a98dbbbe170ce",
+      "_articles/gemini-carbon-restricted-rollout.md": "75d75afe6e53291feb93b9cc640ca5d1915fdd23745993f8b1ea21b485f70c1e",
+      "_articles/genie-4-preview-simulation.md": "f07e3526464194cf4866cd4748a5ca8d8ed9572e1ce962b2486004aa7918afa7",
+      "_articles/google-agent-guidance-enforcement.md": "70b526d0e477d81da0b2b342ffd67fb617b0ab7d4f304f240339043e793de733",
+      "_articles/gpt-6-1-terra-computer-use-trials.md": "586566f03844d89f9ff0fb38bb361be79a19c7db6394e03840e0b10914e63a61",
+      "_articles/hidden-instructions-public-pages.md": "f5cbe46502510c58f383644e29ebac496724382f6a19be2176b214b39c9b9280",
+      "_articles/kapitsa-local-inference-operations.md": "27d9b32d8e8b8d03b72259c8c3421628c2f230b0bca303e75e973c50decf73a0",
+      "_articles/litellm-release-authority.md": "7a427d3eb8193a51fe147cb87b4fb8f3908dfeed6cbe4001e2e6f83490a2ed71",
+      "_articles/llm-proxy-visibility.md": "b3e5a17a3965687f312208d6d300a7eb1a5ea6d4991b2ba0e714efcfcd4feced",
+      "_articles/materials-structure-ml.md": "23856de588f7e0b68251958597e3c568d8c0c7c9f768db6e3af72edf77c6f45d",
+      "_articles/memory-needs-relevance.md": "f40272eea4d7b78c4a5feb610d6c286d52191a8cc0704619eddfa272684326ee",
+      "_articles/mercury-diffusion-serving.md": "e9521d0add84a14d25d6c4f182c6ee8822f7098d683d8b97982696f2ff1c5265",
+      "_articles/meta-terms-data-governance.md": "703a04935248946af266b5d00e80a81d617fe842d2cc29b897244200a4617c05",
+      "_articles/microsoft-buyouts-ai-staffing.md": "62750e3b60c7588a7a8c166df04348b159ee77b658827e64b8c11dc5fee6c805",
+      "_articles/minimax-flash-task-economics.md": "06ca327617b83905b833af16202835b5a6144967387fe650a456be70e900f0c6",
+      "_articles/mistral-large-4-weights-license.md": "3301f4d548867a26beb21ae3eabd37161c5bea31481b09e3557410cbcfe01317",
+      "_articles/model-price-cuts-cache-accounting.md": "bb4e699116cbcbdd2a30acfcb8c2621a7b67dfac1d77f1c56d9b1fafa9782b92",
+      "_articles/multiagent-review-tradeoffs.md": "ff565d16b0cbc4f2cb2833b3414dbdb65de6e41016d6c403fb7faa5b4d51418b",
+      "_articles/multilingual-safety-template-evidence.md": "5500f0967a52b44dc965e688d02cf788aa3ab0537e685a2214291693cc995ce3",
+      "_articles/openai-funding-target-continuity.md": "620c2facc5db98fcc8b4c2e3331e2bf89020e60e9e5bca4c3b999b3f7797636c",
+      "_articles/pew-task-level-adoption.md": "94771fdb0b37e5f0a9a5184f5319b5e1f3c2bd6c87fb64a1ace593db00181a0c",
+      "_articles/php-old-flaws-operating-pressure.md": "8ba708edd9b993403d202198f98bf3214039b1c95cf2e5008febbad8492a3ed1",
+      "_articles/prompt-judge-evaluation.md": "f8ec436c28008de3d86e48b0e937d402863a3a0adc9bfbd9d817753ba42ecd28",
+      "_articles/rao-ai-adoption-unserved-work.md": "7b71eab3a86b0453b9ab95e5c7787da7e6553d2118a56b49e80fe3302b5847b3",
+      "_articles/recoverable-agent-changes.md": "e796351f53a8bb8ff10e5c2738723107aaff2ade58798864514bd0f2c6d00619",
+      "_articles/scope-executable-policy.md": "10669b500b510553c2a71c0bdafddb0310a796dc2e4b8c8422463f60925e39ad",
+      "_articles/typed-decisions.md": "ef36d94a81f42c0d9f3ee96e926995bb8bbaedc6e7e2beb000bfe8f16e0c55ee",
+      "_articles/volta-infostealer-victim-profiling.md": "09c23f19f45d02778fd696ee5f80ec0c4f0f6a83637a87d650d3503ed4cd18e7",
+      "_articles/voxtral-voice-workflow.md": "822244e80bc80e114cc1c1458c06848e7b93e3a6febe55ed30d610f1c497cb50",
+      "_articles/xai-pollution-lawsuit-dismissal-denied.md": "83042a63920606544f33cc6fcb2d1f033b2f2f61e576ab385ca2372d5b5515cf",
+      "_editions/2026-10-18.md": "9c7f8a77f5f9f117c2fdb4d3f62183d99522fa474c8019a544326f626ae417fd",
+      "_editions/2026-10-19.md": "eadf0d2d77f8d7fda3003e8086398499e0c818d4d6f91522acbabbe3b50cb46c",
+      "_editions/2026-10-20.md": "171dcb97b2786d51fd0eee72228bbe933f8be7b5f197ea3ca2b5209705fac4a4",
+      "_editions/2026-10-21.md": "b343ec4a4071c4af34077d5ad08d1f98ffb3d38363aea711eb64829b8758325b",
+      "_editions/2026-10-22.md": "578f864a629021230ab37e23a392e38d42e286cf44111011ad394a2b9be532f6",
+      "_editions/2026-10-23.md": "b2c8a98d71902ebd1b04f6480b1d6a0ff56b3207f8b584c1722cbb766f6ee782",
+      "_editions/2026-10-24.md": "f377e552ba9653b4a0d9e8da11623700a7e90ec592453298c6183c654db4af4e",
+      "_editions/2026-10-25.md": "235fd2ef72c4ece0a07202cd5912a074aaae131ba7a6b776e81b62610aa969a1",
+      "_editions/2026-10-26.md": "c9bdb705a98b1406c948a228847ec3b1a8976beea1da0a64f3d1e41f4a96cbba",
+      "_editions/2026-10-27.md": "c0f7fddd7eabe330f201c73ed1effecc655e4c5caf6b6043517cc0172f1bdeba",
+      "_editions/2026-10-28.md": "14a1472cec757e791fd58b973f919cfc23a72dc668eaf73d97f9c15b1a4b20dd",
+      "_editions/2026-10-29.md": "279b947e4d3706f41e0d8b4b17e4b4bae477964b58d76801f36a7f6fd1dd6ae0",
+      "_editions/2026-10-30.md": "e6b1a4b850a9c8abd78682484ab8db7da07d51c7f57685ac7f70b406520cb54b",
+      "_editions/2026-10-31.md": "1ba507ecb20b4dc25fdc4acdfb52b3996c057e52c909a6ec48a2ffdacfc0e860",
+      "_editions/2026-11-01.md": "b19c432ef6519f0d46380b7ac0252e053a00c570559effa4520f4b3fbf10e563",
+      "assets/images/agent-harness-state.webp": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e",
+      "assets/images/ai-recommendation-bias.webp": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275",
+      "assets/images/authorization-agent-boundaries.webp": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c",
+      "assets/images/calibrated-disposition-drift.webp": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429",
+      "assets/images/catalog-field-grounding.webp": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c",
+      "assets/images/citation-relevance-verification.webp": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49",
+      "assets/images/context-sensitive-model-boundaries.webp": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641",
+      "assets/images/cost-aware-ticket-routing.webp": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623",
+      "assets/images/google-agent-guidance-enforcement.webp": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6",
+      "assets/images/hidden-instructions-public-pages.webp": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877",
+      "assets/images/kapitsa-local-inference-operations.webp": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+      "assets/images/litellm-release-authority.webp": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+      "assets/images/llm-proxy-visibility.webp": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854",
+      "assets/images/materials-structure-ml.webp": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349",
+      "assets/images/memory-needs-relevance.webp": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785",
+      "assets/images/mercury-diffusion-serving.webp": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8",
+      "assets/images/meta-terms-data-governance.webp": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09",
+      "assets/images/minimax-flash-task-economics.webp": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041",
+      "assets/images/multiagent-review-tradeoffs.webp": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a",
+      "assets/images/pew-task-level-adoption.webp": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105",
+      "assets/images/prompt-judge-evaluation.webp": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc",
+      "assets/images/publication-share.png": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610",
+      "assets/images/recoverable-agent-changes.webp": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2",
+      "assets/images/scope-executable-policy.webp": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f",
+      "assets/images/typed-decisions.webp": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf",
+      "assets/images/voxtral-voice-workflow.webp": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+    }
+  },
+  "preflight": {
+    "started_at": "2026-11-02T13:10:07.591936Z",
+    "commands": [
+      {
+        "command": ".venv/bin/python -m unittest discover -s tests",
+        "exit_code": 0,
+        "elapsed_seconds": 0.51,
+        "log": "/private/tmp/yesterdai-20261102-preflight-1.log"
+      },
+      {
+        "command": ".venv/bin/python scripts/publish.py validate",
+        "exit_code": 0,
+        "elapsed_seconds": 0.19,
+        "log": "/private/tmp/yesterdai-20261102-preflight-2.log"
+      },
+      {
+        "command": "bundle exec jekyll build --strict_front_matter",
+        "exit_code": 0,
+        "elapsed_seconds": 0.99,
+        "log": "/private/tmp/yesterdai-20261102-preflight-3.log"
+      },
+      {
+        "command": "npm run index",
+        "exit_code": 0,
+        "elapsed_seconds": 0.32,
+        "log": "/private/tmp/yesterdai-20261102-preflight-4.log"
+      },
+      {
+        "command": ".venv/bin/python scripts/check_site.py",
+        "exit_code": 0,
+        "elapsed_seconds": 0.64,
+        "log": "/private/tmp/yesterdai-20261102-preflight-5.log"
+      },
+      {
+        "command": "npm run test:smoke",
+        "exit_code": 0,
+        "elapsed_seconds": 0.43,
+        "log": "/private/tmp/yesterdai-20261102-preflight-6.log"
+      }
+    ],
+    "completed_at": "2026-11-02T13:10:10.657650Z",
+    "passed": true
+  },
+  "publication": {
+    "state": "prepared_not_published",
+    "required_action": "Run full preflight, commit, use scripts/publish.py ship, verify exact-SHA deployment and public URLs."
+  }
+}
