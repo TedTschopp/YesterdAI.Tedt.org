@@ -1306,7 +1306,29 @@
     "passed": true
   },
   "publication": {
-    "state": "prepared_not_published",
-    "required_action": "Run full preflight, commit, use scripts/publish.py ship, verify exact-SHA deployment and public URLs."
+    "state": "published_and_publicly_verified",
+    "content_commit": "bfa2228f78b848a68565a2f60a645dd1191cd38b",
+    "run_id": 41450918177,
+    "run_url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41450918177",
+    "attempt": 1,
+    "deployment_completed_at": "2026-11-02T13:15:32Z",
+    "exact_sha_environment_success": true,
+    "public_verified_at": "2026-11-02T13:15:55.250541Z",
+    "public_urls": 45,
+    "public_checks": 186,
+    "public_heroes": 25,
+    "required_action": "No user action. Ship this evidence checkpoint and verify its exact deployment; final verification evidence belongs in automation memory and Scheduled to avoid recursive audit-only commits.",
+    "ship": {
+      "command": "scripts/publish.py ship",
+      "exit_code": 0,
+      "rebase": "Already current with origin/main; no conflicts.",
+      "force_push": false
+    },
+    "hosted_gates": {
+      "reader_jobs_accessibility_responsive": "passed",
+      "fixed_visual_baselines": "passed",
+      "candidate_mobile_performance": "Skipped by existing workflow for push events; not claimed as measured.",
+      "deployment_retry": false
+    }
   }
 }

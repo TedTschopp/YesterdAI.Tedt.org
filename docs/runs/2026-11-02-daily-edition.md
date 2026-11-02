@@ -54,3 +54,15 @@ Publication URLs to verify:
 - https://yesterdai.tedt.org/articles/agentic-web-access-control/
 
 **Required action at this checkpoint:** finish guarded shipping and exact-commit/public verification automatically. Retain completed content for retry and preserve the last successful public site on a required-stage failure. Append the observed publication outcome after verification.
+
+## Verified Publication Outcome
+
+Content commit **bfa2228f78b848a68565a2f60a645dd1191cd38b** shipped through `scripts/publish.py ship`. Fresh upstream fetch required no rebase conflict; all six deterministic stages passed again and the push used no force. Exact [Build and publish run 41450918177](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41450918177) succeeded on its **first attempt**. Hosted reader-job, accessibility, responsive and fixed visual-baseline gates passed. Candidate mobile performance is skipped by the existing workflow on push events and is not claimed as measured. No application, workflow or fixture was changed to pass a gate.
+
+The exact commit's Pages deployment completed **2026-11-02T13:15:32Z**, with independent `github-pages` environment success for the same SHA. Public readback at **2026-11-02T13:15:55.250541Z** passed **45 URLs / 186 checks**, with no failures. It verifies the edition, all three complete article bodies, source links and dates, takeaways, publication bylines, explicit Proton lead, linked TL;DR, canonical/search/social metadata, structured article records, JSON/RSS feeds, search, archive and sitemap. The preceding November 1 edition and all four member articles match the preserved build. All **25 attached article heroes** and the publication share image match their existing bytes.
+
+The actual outcome is **three complete briefs, zero shortfall**, prepared at **2026-11-02T13:07:58.418108Z** and deployed at the observed time above. No new hero was required or attempted. The four November 2 edition/article URLs listed above are verified public. All **89 prior article, edition and image files** remain unchanged. The 12 old-date/no-update exclusions and seven other candidate exclusions remain fully documented; failed access was not called quiet news.
+
+Durable evidence is in `2026-11-02-deployment.json` and `2026-11-02-public-verification.json`. This evidence commit will itself pass guarded shipping and exact-commit/public verification. The final verification belongs in automation memory and Scheduled, avoiding recursive evidence-only commits.
+
+**Required user action: none.** Preserve the completed edition's membership, prose and assets. A validated unchanged same-day retry should quietly no-op.
