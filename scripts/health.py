@@ -32,7 +32,9 @@ def assess(data, now=None):
     elif parse_time(checked) - now > timedelta(minutes=5):
         errors.append('Feed-check timestamp is in the future; inspect the producer clock.')
     return {'ok': not errors, 'expected_edition': str(expected), 'latest_edition': latest,
-            'wire_checked_at': checked, 'errors': errors}
+            'observed_at': now.isoformat().replace('+00:00', 'Z'),
+            'wire_checked_at': checked, 'wire_changed_at': data.get('wire_changed_at'),
+            'errors': errors}
 
 
 def main():

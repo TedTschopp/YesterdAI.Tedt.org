@@ -76,9 +76,9 @@ Pagefind indexes article bodies after every Jekyll build. Existing q and topic s
 
 ## Health and Failure Behavior
 
-Daily Codex starts at 5 a.m. Pacific using the existing model and reasoning. Hourly GitHub refresh is independent. The host computer and app remain prerequisites for local editorial production.
+Daily Codex starts at 5 a.m. Pacific using the existing model and reasoning. Twice-hourly GitHub refresh is independent. The host computer and app remain prerequisites for local editorial production.
 
-Keep successful feed-check time separate from content-change time. An unchanged feed with a recent successful check is healthy. An independent hourly GitHub check fails when an edition is missing after 7 a.m. Pacific or a feed check is over three hours old. Public notices appear only for material staleness on the latest briefing/live page.
+Keep successful feed-check time separate from content-change time. An unchanged feed with a recent successful check is healthy. An independent twice-hourly GitHub check fails when an edition is missing after 7 a.m. Pacific or a feed check is over three hours old. Public notices appear only for material staleness on the latest briefing/live page.
 
 Use isolated editorial worktrees and the bounded ship command. No force pushes. Reuse completed articles and images; validate a completed edition and no-op on reruns. A source, generation, validation, or deployment failure preserves the last successful publication and reports required action in Scheduled/Actions.
 
