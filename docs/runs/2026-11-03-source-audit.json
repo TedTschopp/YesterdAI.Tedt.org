@@ -1265,8 +1265,19 @@
   ],
   "editing_pass": "Reviewed original dates, source scope, financial periods, planned versus operating claims, third-party attribution and useful consequences. Concrete openings, visible causal reasoning and distinct endings; no invented Ted experience, opinion, review or hands-on result.",
   "publication": {
-    "state": "preflight_passed_not_published",
-    "required_action": "Commit complete editorial files, ship, verify exact-SHA deployment and public URLs."
+    "state": "published_and_publicly_verified",
+    "content_commit": "815218f7e8dbdafb6a6703bca30c07ef5b08b115",
+    "workflow_run": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41642532906",
+    "run_attempt": 1,
+    "exact_pages_environment_success": true,
+    "deployed_at": "2026-11-03T13:17:33Z",
+    "public_verified_at": "2026-11-03T13:17:54.965751Z",
+    "public_url_count": 44,
+    "public_check_count": 172,
+    "public_hero_count": 25,
+    "shortfall": 0,
+    "required_user_action": "None",
+    "evidence_commit_verification": "Final evidence-only commit must also ship and be verified; final proof is retained in automation memory and Scheduled without recursive evidence-only commits."
   },
   "prior_initial_filing_review": {
     "article_id": "art_b8eac1ac6e149cce",

@@ -45,3 +45,16 @@ Publication URLs:
 - https://yesterdai.tedt.org/articles/openai-grid-protectors-demand-flexibility/
 
 **Required action at this checkpoint:** finish deterministic checks, commit, `scripts/publish.py ship`, and exact-commit deployment/public verification automatically. Append the observed publication outcome after verification.
+
+
+## Verified Publication Outcome
+
+Content commit **815218f7e8dbdafb6a6703bca30c07ef5b08b115** shipped through `scripts/publish.py ship`. The guarded command fetched current main, reconciled without conflicts, repeated all six deterministic stages and pushed without force. Exact [Build and publish run 41642532906](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41642532906) passed on its **first attempt**. Hosted reader-job, accessibility, responsive, approved visual-baseline and shared analytics checks passed. Candidate mobile performance is skipped on push by the existing workflow, so no such measurement is claimed.
+
+The exact commit’s Pages deployment completed **2026-11-03T13:17:33Z**. The independent `github-pages` environment status also succeeded for that SHA. Public readback at **2026-11-03T13:17:54.965751Z** passed **44 URLs / 172 checks** with no failures. It verifies the edition and all three complete new article bodies, dates, source links, takeaways, publication bylines, explicit SUSE lead, article-linked TL;DR, canonical/search/social metadata, structured article records, full JSON/RSS feeds, search, archive and sitemap. The preceding November 2 edition and its three articles match the preserved build. All **25 attached article heroes** and the publication share image match their existing bytes.
+
+The actual result is **three complete briefs, zero shortfall**, prepared at **2026-11-03T13:11:26.519546Z** and deployed at the observed time above. All four listed November 3 edition/article URLs are verified public. No new hero was required or attempted. All **93 prior article, edition and image files** remain byte-identical, and the original checkout remains clean and unmoved. Five outside-window, four access, three unverified-date and six editorial-priority exclusions remain documented individually; no failed source was described as quiet news.
+
+Durable evidence is in `2026-11-03-deployment.json` and `2026-11-03-public-verification.json`. This documentation commit will also pass guarded shipping and exact-commit/public verification. Final verification is retained in automation memory and Scheduled, avoiding recursive evidence-only commits.
+
+**Required user action: none.** Preserve this completed edition’s membership, prose and assets. An unchanged validated same-day retry quietly no-ops.
