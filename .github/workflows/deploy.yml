@@ -88,6 +88,10 @@ jobs:
           name: visual-baseline-candidates
           path: tests/browser/__screenshots__/
           if-no-files-found: ignore
+      - name: Verify shared analytics coverage
+        run: |
+          python3 scripts/site_analytics.py _site --mode standard
+          python3 scripts/site_analytics.py _site --mode standard --check
       - uses: actions/upload-pages-artifact@v4
         if: github.event_name != 'pull_request'
         with:
