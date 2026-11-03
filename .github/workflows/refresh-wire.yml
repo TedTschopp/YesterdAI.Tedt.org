@@ -2,7 +2,7 @@ name: Refresh live news
 
 on:
   schedule:
-    - cron: '27 * * * *'
+    - cron: '17,47 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -16,6 +16,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v5
         with:

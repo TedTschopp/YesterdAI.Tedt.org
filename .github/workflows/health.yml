@@ -2,11 +2,12 @@ name: Publication health
 
 on:
   schedule:
-    - cron: '47 * * * *'
+    - cron: '7,37 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: read
+  actions: write
 
 concurrency:
   group: publication-health
@@ -26,14 +27,22 @@ jobs:
       - name: Verify the public edition and successful feed checks
         shell: bash
         run: python scripts/health.py --public | tee health.json
+      - name: Record timing and request bounded stale-feed recovery
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/recover_refresh.py --report health.json | tee recovery.json
       - name: Record required action
         if: always()
         run: |
           echo '## Publication health' >> "$GITHUB_STEP_SUMMARY"
           cat health.json >> "$GITHUB_STEP_SUMMARY"
+          cat recovery.json >> "$GITHUB_STEP_SUMMARY"
           echo 'Daily production requires the local computer and Codex app. The hourly GitHub importer operates independently.' >> "$GITHUB_STEP_SUMMARY"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: publication-health
-          path: health.json
+          path: |
+            health.json
+            recovery.json
