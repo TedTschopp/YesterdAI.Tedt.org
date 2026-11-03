@@ -4,7 +4,7 @@ A daily enterprise AI field guide from Ted Tschopp’s Public Workbench.
 
 **Website:** https://yesterdai.tedt.org · **Source:** https://github.com/TedTschopp/YesterdAI.Tedt.org
 
-Jekyll renders versioned Markdown editions and articles. GitHub Actions validates and deploys them to GitHub Pages. Cloudflare manages DNS. A local Codex scheduled task researches and prepares the 5 a.m. Pacific edition; a separate hourly GitHub workflow refreshes the live news.
+Jekyll renders versioned Markdown editions and articles. GitHub Actions validates and deploys them to GitHub Pages. Cloudflare manages DNS. A local Codex scheduled task researches and prepares the 5 a.m. Pacific edition; a separate twice-hourly GitHub workflow refreshes the live news.
 
 ## Development
 
