@@ -1,0 +1,1360 @@
+{
+  "edition_date": "2026-11-03",
+  "reader_contract": "2.0.3",
+  "article_metadata_contract": 2,
+  "writing_style": "ted-writing-style",
+  "writing_style_version": "1.0.0",
+  "mode": "technology/strategy",
+  "headline_instruction": "Current explicit user instruction: AP sentence-style headlines; policy and published archive preserved.",
+  "base_commit": "7c719637c29eff44468225e2212ccb7cd72b85ce",
+  "worktree": "/Users/tedtschopp/Developer/yesterdai-daily-20261103",
+  "cutoff": "2026-11-03T05:00:00-08:00",
+  "window_start": "2026-11-02T01:00:00Z",
+  "prepared_at": "2026-11-03T13:11:26.519546Z",
+  "feed_checked_at": "2026-11-03T13:02:30.656596Z",
+  "feeds": {
+    "curated": {
+      "url": "https://rss.tedt.org/ai_rss_feed.json",
+      "usable_count": 229,
+      "ingestion_exclusions": [
+        {
+          "id": "2e6b008d7907924a9c4c56743403e3af",
+          "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+        }
+      ]
+    },
+    "top": {
+      "url": "https://rss.tedt.org/feeds/top.json",
+      "usable_count": 75,
+      "ingestion_exclusions": [
+        {
+          "id": "sty_1d9b1591b5e0d9a5",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_460ab994b0b727cd",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_6670f193cb74bbe9",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_f81c2c2bb63fa7cf",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_391a137156b1f9b4",
+          "reason": "malformed item fields"
+        }
+      ]
+    }
+  },
+  "prior_editions": 7,
+  "prior_articles": 23,
+  "prior_quick_hits": 0,
+  "target_min": 3,
+  "target_max": 5,
+  "selected_count": 3,
+  "shortfall": 0,
+  "candidates_researched": 21,
+  "disposition_counts": {
+    "outside_window": 5,
+    "source_access_failure": 4,
+    "unverified_original_date": 3,
+    "selected": 3,
+    "editorial_priority": 6
+  },
+  "candidate_pool_exhausted": false,
+  "research_scope": "All six newest curated entries and fifteen ranked candidates received original-source reads. Research supported three complete distinct developments; remaining discovery records were not all individually source-verified.",
+  "candidates": [
+    {
+      "discovered_url": "https://x.com/jsnnsa/status/2115623382721126826?s=31",
+      "disposition": "outside_window",
+      "reason": "Original X publication is October 29 at 01:54:55Z, not the curated November 2 placeholder.",
+      "source_evidence": {
+        "url": "https://x.com/jsnnsa/status/2115623382721126826?s=31",
+        "key": "12a7add5d407",
+        "fetched_at": "2026-11-03T13:03:04.290818+00:00",
+        "status": 200,
+        "final_url": "https://x.com/jsnnsa/status/2115623382721126826?s=31",
+        "raw_sha256": "f38ced798fdcbcf2ad436392f00d25f61db527c8719f7eb0cd2b79a19e2d2d00",
+        "title": "jacob on X: \"How I Built the Most AI-Pilled Company in the World\" / X",
+        "meta": {
+          "article:published_time": "2026-10-29T01:54:55.000Z",
+          "article:author": "https://x.com/jsnnsa"
+        },
+        "times": [],
+        "jsonld_dates": [],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/12a7add5d407.txt"
+      }
+    },
+    {
+      "discovered_url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+      "disposition": "outside_window",
+      "reason": "Original English X publication is November 1 at 11:37:54Z, before the exact November 2 01:00Z start. Translation-original ambiguity does not rescue eligibility.",
+      "source_evidence": {
+        "url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+        "key": "a93fdd460a31",
+        "fetched_at": "2026-11-03T13:03:04.291164+00:00",
+        "status": 200,
+        "final_url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+        "raw_sha256": "a5bc96b4ae7692194184d881f78798566afff382a61a132d68bd66afda59a874",
+        "title": "DeepSeek Harness on X: \"Exploring Super-agent Design: Towards a More Autonomous Agent System\" / X",
+        "meta": {
+          "article:published_time": "2026-11-01T11:37:54.000Z",
+          "article:author": "https://x.com/DeepSeekHarness"
+        },
+        "times": [],
+        "jsonld_dates": [],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/a93fdd460a31.txt"
+      }
+    },
+    {
+      "discovered_url": "https://www.wsj.com/tech/ai/ai-anthropic-rsi-recursive-self-improvement-bff4e815?mod=hp_lead_pos9",
+      "disposition": "source_access_failure",
+      "reason": "WSJ original returned HTTP 401. No original date or complete report verified.",
+      "source_evidence": {
+        "url": "https://www.wsj.com/tech/ai/ai-anthropic-rsi-recursive-self-improvement-bff4e815?mod=hp_lead_pos9",
+        "key": "03f067f79b08",
+        "fetched_at": "2026-11-03T13:03:04.291260+00:00",
+        "error": "HTTP Error 401: HTTP Forbidden"
+      }
+    },
+    {
+      "discovered_url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management",
+      "disposition": "source_access_failure",
+      "reason": "McKinsey original timed out twice; no current successful original read is claimed.",
+      "source_evidence": {
+        "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management",
+        "key": "732ab7a3b0e0",
+        "fetched_at": "2026-11-03T13:05:45.685967+00:00",
+        "error": "The read operation timed out"
+      }
+    },
+    {
+      "discovered_url": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487?syn-25a6b1a6=1",
+      "disposition": "source_access_failure",
+      "reason": "FT original returned HTTP 403. No reconstruction from discussion.",
+      "source_evidence": {
+        "url": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487?syn-25a6b1a6=1",
+        "key": "80b5b78f5230",
+        "fetched_at": "2026-11-03T13:03:04.291386+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "discovered_url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "disposition": "outside_window",
+      "reason": "AWS publication and modification are October 30 at 09:32:20-08:00, with no eligible update.",
+      "source_evidence": {
+        "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+        "key": "f7975896246f",
+        "fetched_at": "2026-11-03T13:03:04.291436+00:00",
+        "status": 200,
+        "final_url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+        "raw_sha256": "9446a6bf25edb50e24ef0f8389a1fa468042d0e27d7c930c0376dc3ea017f5f1",
+        "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock | Artificial Intelligence",
+        "meta": {
+          "og:updated_time": "2026-10-30T09:32:20-08:00",
+          "article:publisher": "https://www.facebook.com/amazonwebservices",
+          "article:published_time": "2026-10-30T09:32:20-08:00",
+          "article:modified_time": "2026-10-30T09:32:20-08:00"
+        },
+        "times": [
+          {
+            "datetime": "2026-10-30T09:32:20-08:00",
+            "title": null,
+            "text": "30 OCT 2026"
+          }
+        ],
+        "jsonld_dates": [],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/f7975896246f.txt"
+      }
+    },
+    {
+      "discovered_url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "disposition": "outside_window",
+      "reason": "Business Insider JSON-LD original and modification are November 1 at 15:00:01.255Z; the ranked November 2 discovery time is not original publication.",
+      "source_evidence": {
+        "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+        "key": "0db7b6f459a7",
+        "fetched_at": "2026-11-03T13:03:04.291482+00:00",
+        "status": 200,
+        "final_url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+        "raw_sha256": "1a878d76dfc295356cd079d9ac991dd7160c23d5ad4ad62a29d4dc0ef3fb38f7",
+        "title": "Anthropic's Internal AI Usage Now Exceeds Employee Compensation - Business Insider",
+        "meta": {
+          "datePublished": "2026-11-01T15:00:01.255Z",
+          "dateModified": "2026-11-01T15:00:01.255Z",
+          "author": "Alistair Barr",
+          "article:publisher": "businessinsider"
+        },
+        "times": [
+          {
+            "datetime": null,
+            "title": null,
+            "text": "2026-11-01T15:00:01.255Z"
+          }
+        ],
+        "jsonld_dates": [
+          {
+            "author": {
+              "@id": "https://www.businessinsider.com/author/alistair-barr#person",
+              "@type": "Person",
+              "name": "Alistair Barr",
+              "url": "https://www.businessinsider.com/author/alistair-barr",
+              "jobTitle": "Tech Anchor"
+            },
+            "headline": "Anthropic's internal AI usage now exceeds employee compensation",
+            "datePublished": "2026-11-01T15:00:01.255Z",
+            "dateModified": "2026-11-01T15:00:01.255Z"
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/0db7b6f459a7.txt"
+      }
+    },
+    {
+      "discovered_url": "https://longcat.ai/blog/longcat-2.5/",
+      "disposition": "unverified_original_date",
+      "reason": "LongCat returned an application shell without original publication evidence or substantive readable release text.",
+      "source_evidence": {
+        "url": "https://longcat.ai/blog/longcat-2.5/",
+        "key": "1b25c7056923",
+        "fetched_at": "2026-11-03T13:03:04.291525+00:00",
+        "status": 200,
+        "final_url": "https://longcat.ai/blog/longcat-2.5/",
+        "raw_sha256": "32cd6e61d2c207de847143dbafa889ddfdb6d56ab418434b5df374ae9fc8d7e3",
+        "title": "Introducing LongCat-2.5",
+        "meta": {},
+        "times": [],
+        "jsonld_dates": [],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/1b25c7056923.txt"
+      }
+    },
+    {
+      "discovered_url": "https://openai.com/index/grid-protectors-program",
+      "disposition": "selected",
+      "reason": "New OpenAI national program; original exact time verified in official OpenAI RSS. July Georgia agreement remains supporting history.",
+      "source_evidence": {
+        "url": "https://openai.com/index/grid-protectors-program",
+        "key": "5d33ed0c66ac",
+        "fetched_at": "2026-11-03T13:03:04.407658+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "discovered_url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "disposition": "editorial_priority",
+      "reason": "Eligible sponsored MIT Technology Review Insights report; not advanced over three more consequential verified developments. No independent survey-method verification claimed.",
+      "source_evidence": {
+        "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+        "key": "b475b7dcc227",
+        "fetched_at": "2026-11-03T13:03:04.428096+00:00",
+        "status": 200,
+        "final_url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+        "raw_sha256": "64f21a02826ae6c7d032607954b95065d58dee9d9e164c1e7cfec2bd4345fbc0",
+        "title": "Raising the quality of insights in agentic analytics | MIT Technology Review",
+        "meta": {},
+        "times": [],
+        "jsonld_dates": [
+          {
+            "headline": "Raising the quality of insights in agentic analytics",
+            "dateCreated": "2026-11-02T12:00:00-05:00",
+            "datePublished": "2026-11-02T12:00:00-05:00",
+            "dateModified": "2026-11-02T13:48:36-05:00",
+            "author": {
+              "@type": "Person",
+              "name": "MIT Technology Review Insights"
+            }
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/b475b7dcc227.txt"
+      }
+    },
+    {
+      "discovered_url": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+      "disposition": "selected",
+      "reason": "Original dated Register reporting of SUSE management memo. Stated AI rationale remains separate from measured productivity.",
+      "source_evidence": {
+        "url": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+        "key": "ab9f51c8b2c3",
+        "fetched_at": "2026-11-03T13:03:04.605210+00:00",
+        "status": 200,
+        "final_url": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+        "raw_sha256": "0338b2994e9baec7f0ffb12c04c8969518321022362e10d9add41b5b01e657b0",
+        "title": "SUSE to cut one in ten employees because of... AI",
+        "meta": {
+          "article:published_time": "2026-11-02T15:30:00.000Z",
+          "article:modified_time": "2026-11-02T15:30:42.000Z",
+          "article:author": "Liam Proven"
+        },
+        "times": [
+          {
+            "datetime": "2026-11-02T15:30:00.000Z",
+            "title": null,
+            "text": "mon 2 Nov 2026 // 15:30 UTC"
+          },
+          {
+            "datetime": "7 hours ago",
+            "title": null,
+            "text": "7 hours ago"
+          },
+          {
+            "datetime": "1 day ago",
+            "title": null,
+            "text": "1 day ago"
+          },
+          {
+            "datetime": "2 days ago",
+            "title": null,
+            "text": "2 days ago"
+          },
+          {
+            "datetime": "4 days ago",
+            "title": null,
+            "text": "4 days ago"
+          },
+          {
+            "datetime": "4 days ago",
+            "title": null,
+            "text": "4 days ago"
+          },
+          {
+            "datetime": "2026-11-03T13:39:25+01:00",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "2026-11-03T13:27:01+01:00",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "2026-11-02T10:00:00+01:00",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "2026-11-03T12:00:00+01:00",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "2026-11-02T11:15:00+01:00",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "2026-11-03T10:30:00+01:00",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "",
+            "title": null,
+            "text": ""
+          },
+          {
+            "datetime": "",
+            "title": null,
+            "text": ""
+          }
+        ],
+        "jsonld_dates": [
+          {
+            "headline": "SUSE to cut one in ten employees because of... AI",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Liam Proven",
+                "jobTitle": "LINUX AND OPEN SOURCE REPORTER",
+                "url": "https://www.theregister.com/author/liam-proven",
+                "email": "liam.proven@sitpub.com"
+              }
+            ],
+            "datePublished": "2026-11-02T15:30:00.000Z",
+            "dateModified": "2026-11-02T15:30:42.000Z"
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/ab9f51c8b2c3.txt"
+      }
+    },
+    {
+      "discovered_url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "disposition": "editorial_priority",
+      "reason": "Eligible HPE-sponsored contribution, not independent reporting. Measurement advice overlaps the prior day’s delivery-economics reader need; no same-development duplicate is asserted.",
+      "source_evidence": {
+        "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+        "key": "8d847b3ebc26",
+        "fetched_at": "2026-11-03T13:03:04.718278+00:00",
+        "status": 200,
+        "final_url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+        "raw_sha256": "cc23685984ea4e2947b9d39420e93557a73f82bc455376e079223a01c816f9a4",
+        "title": "Stop counting tokens, start counting what ships | MIT Technology Review",
+        "meta": {},
+        "times": [],
+        "jsonld_dates": [
+          {
+            "headline": "Stop counting tokens, start counting what ships",
+            "dateCreated": "2026-11-02T08:10:32-05:00",
+            "datePublished": "2026-11-02T08:10:32-05:00",
+            "dateModified": "2026-11-02T08:10:33-05:00",
+            "author": {
+              "@type": "Person",
+              "name": "Affan Syed"
+            }
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/8d847b3ebc26.txt"
+      }
+    },
+    {
+      "discovered_url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "disposition": "editorial_priority",
+      "reason": "Eligible TechCrunch company/funding report. Three selected developments create more immediate staffing, supplier and infrastructure decisions; predictive capability not independently tested.",
+      "source_evidence": {
+        "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+        "key": "8bfd7590d71c",
+        "fetched_at": "2026-11-03T13:03:04.718633+00:00",
+        "status": 200,
+        "final_url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+        "raw_sha256": "71ebe78b7286294088b89f3f4d0d7c1869c4cf0ea8e82aa33320024b879a2714",
+        "title": "42AI comes out of stealth with $62.5M and a world model that can 'predict human behavior' | TechCrunch",
+        "meta": {
+          "article:publisher": "https://www.facebook.com/techcrunch",
+          "article:published_time": "2026-11-02T16:30:00+00:00",
+          "article:modified_time": "2026-11-02T20:11:26+00:00",
+          "author": "Ram Iyer",
+          "sailthru.date": "2026-11-02 08:30:00",
+          "sailthru.author": "Ram Iyer",
+          "parsely-pub-date": "2026-11-02T16:30:00Z",
+          "parsely-author": "Ram Iyer"
+        },
+        "times": [
+          {
+            "datetime": "2026-11-02T08:30:00-08:00",
+            "title": null,
+            "text": "8:30 AM PST · November 2, 2026"
+          }
+        ],
+        "jsonld_dates": [
+          {
+            "author": [
+              {
+                "@id": "https://techcrunch.com/#/schema/person/image/97e37833f41f92cb3d3dc0970de6d3b3"
+              }
+            ],
+            "headline": "42AI comes out of stealth with $62.5M and a world model that can &#8216;predict human behavior&#8217;",
+            "datePublished": "2026-11-02T16:30:00+00:00",
+            "dateModified": "2026-11-02T20:11:26+00:00"
+          },
+          {
+            "datePublished": "2026-11-02T16:30:00+00:00",
+            "dateModified": "2026-11-02T20:11:26+00:00"
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/8bfd7590d71c.txt"
+      }
+    },
+    {
+      "discovered_url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+      "disposition": "selected",
+      "reason": "Discovery led to new SEC S-1/A and its exact official acceptance time. Substantive financial follow-up to the October 27 initial filing; update_of and explanation supplied.",
+      "source_evidence": {
+        "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+        "key": "6bdf9143803b",
+        "fetched_at": "2026-11-03T13:03:04.784209+00:00",
+        "status": 200,
+        "final_url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+        "raw_sha256": "2bb370b3db3a14ec33e1fc8383103ab62478dc00aceb35e57421ee33b3550f78",
+        "title": "Anthropic grows revenue twelvefold but posts $23 billion loss",
+        "meta": {
+          "article:publisher": "https://www.facebook.com/TheDecoderDE/",
+          "article:published_time": "2026-11-02T16:26:03+00:00",
+          "article:modified_time": "2026-11-02T16:30:14+00:00",
+          "author": "Maximilian Schreiner"
+        },
+        "times": [],
+        "jsonld_dates": [
+          {
+            "author": {
+              "name": "Maximilian Schreiner",
+              "@id": "https://the-decoder.com/#/schema/person/bc14faae9fac44da9c56c47ac4b83657"
+            },
+            "headline": "Anthropic grows revenue twelvefold but posts $23 billion loss",
+            "datePublished": "2026-11-02T16:26:03+00:00",
+            "dateModified": "2026-11-02T16:30:14+00:00"
+          },
+          {
+            "datePublished": "2026-11-02T16:26:03+00:00",
+            "dateModified": "2026-11-02T16:30:14+00:00"
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/6bdf9143803b.txt"
+      }
+    },
+    {
+      "discovered_url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "disposition": "editorial_priority",
+      "reason": "Eligible TechCrunch reporting; product and pricing changes would require additional official corroboration for a complete article. Not advanced over selected stories.",
+      "source_evidence": {
+        "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+        "key": "e732affa3e39",
+        "fetched_at": "2026-11-03T13:03:04.917484+00:00",
+        "status": 200,
+        "final_url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+        "raw_sha256": "4a7cb4ee61d7e1c6e4cea3548c3b0b916b75a3983dfddd1f03653291859f5a31",
+        "title": "OpenAI is finally merging ChatGPT's Chat and Work tabs | TechCrunch",
+        "meta": {
+          "article:publisher": "https://www.facebook.com/techcrunch",
+          "article:published_time": "2026-11-02T13:57:53+00:00",
+          "article:modified_time": "2026-11-02T16:45:05+00:00",
+          "author": "Ivan Mehta",
+          "sailthru.date": "2026-11-02 05:57:53",
+          "sailthru.author": "Ivan Mehta",
+          "parsely-pub-date": "2026-11-02T13:57:53Z",
+          "parsely-author": "Ivan Mehta"
+        },
+        "times": [
+          {
+            "datetime": "2026-11-02T05:57:53-08:00",
+            "title": null,
+            "text": "5:57 AM PST · November 2, 2026"
+          },
+          {
+            "datetime": "2026-11-02T19:30:00-08:00",
+            "title": null,
+            "text": "9 hours ago"
+          },
+          {
+            "datetime": "2026-11-01T12:57:58-08:00",
+            "title": null,
+            "text": "2 days ago"
+          },
+          {
+            "datetime": "2026-11-02T23:20:00-08:00",
+            "title": null,
+            "text": "6 hours ago"
+          },
+          {
+            "datetime": "2026-11-02T19:30:00-08:00",
+            "title": null,
+            "text": "9 hours ago"
+          },
+          {
+            "datetime": "2026-11-02T17:49:52-08:00",
+            "title": null,
+            "text": "11 hours ago"
+          }
+        ],
+        "jsonld_dates": [
+          {
+            "author": [
+              {
+                "@id": "https://techcrunch.com/#/schema/person/image/a6f7867020af40f5dcae726169b5c360"
+              }
+            ],
+            "headline": "OpenAI is finally merging ChatGPT&#8217;s Chat and Work tabs",
+            "datePublished": "2026-11-02T13:57:53+00:00",
+            "dateModified": "2026-11-02T16:45:05+00:00"
+          },
+          {
+            "datePublished": "2026-11-02T13:57:53+00:00",
+            "dateModified": "2026-11-02T16:45:05+00:00"
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/e732affa3e39.txt"
+      }
+    },
+    {
+      "discovered_url": "https://cloudopsbench.ai/blog/failure-taxonomy",
+      "disposition": "unverified_original_date",
+      "reason": "CloudOpsBench post has only a date, without an evidenced timezone, so the entire original day cannot be placed within the exact window. Public README also distinguishes task packaging from benchmark execution and flags unrun tasks; do not flatten that into independent benchmark validation.",
+      "source_evidence": {
+        "url": "https://cloudopsbench.ai/blog/failure-taxonomy",
+        "key": "367644470923",
+        "fetched_at": "2026-11-03T13:03:04.943617+00:00",
+        "status": 200,
+        "final_url": "https://cloudopsbench.ai/blog/failure-taxonomy",
+        "raw_sha256": "9174b8f592021eb43c7804cd04ce3b65ceb780da9f7577ff02daca047e3070f4",
+        "title": "CloudOpsBench | How Well Do Agents Perform on DevOps Tasks?",
+        "meta": {},
+        "times": [],
+        "jsonld_dates": [],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/367644470923.txt"
+      }
+    },
+    {
+      "discovered_url": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/",
+      "disposition": "outside_window",
+      "reason": "InfoQ’s November 2 synthesis traces to Uber’s October 1 original engineering article, with no verified new substantive development. New coverage does not reset the event date.",
+      "source_evidence": {
+        "url": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/",
+        "key": "d87225a49a8f",
+        "fetched_at": "2026-11-03T13:03:04.962926+00:00",
+        "status": 200,
+        "final_url": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents/",
+        "raw_sha256": "879e55c1b5072ba2b37e9b2e12b5bec7029e47c296164bd34e879f7cc36c10ae",
+        "title": "Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools - InfoQ",
+        "meta": {},
+        "times": [],
+        "jsonld_dates": [
+          {
+            "headline": "Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools",
+            "datePublished": "2026-11-02T13:53:00+0000",
+            "dateModified": "2026-11-02T13:53:00+0000",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Leela Kumili",
+                "url": "https://www.infoq.com/profile/Leela-Kumili/"
+              }
+            ]
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/d87225a49a8f.txt"
+      }
+    },
+    {
+      "discovered_url": "https://www.theinformation.com/briefings/deepseek-unveils-autonomous-coding-agent-prototype",
+      "disposition": "source_access_failure",
+      "reason": "The Information original returned HTTP 403. Curated DeepSeek material is already outside the window; no new prototype development independently established here.",
+      "source_evidence": {
+        "url": "https://www.theinformation.com/briefings/deepseek-unveils-autonomous-coding-agent-prototype",
+        "key": "76a2068edf7e",
+        "fetched_at": "2026-11-03T13:03:05.032972+00:00",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    },
+    {
+      "discovered_url": "https://www.infoq.com/articles/agentic-ai-context-memory-knowledge/",
+      "disposition": "editorial_priority",
+      "reason": "Eligible original practitioner essay with exact InfoQ JSON-LD timestamp. Architecture recommendations are not controlled validation; selected consequential developments take priority.",
+      "source_evidence": {
+        "url": "https://www.infoq.com/articles/agentic-ai-context-memory-knowledge/",
+        "key": "7a29011d3ee8",
+        "fetched_at": "2026-11-03T13:03:05.075533+00:00",
+        "status": 200,
+        "final_url": "https://www.infoq.com/articles/agentic-ai-context-memory-knowledge/",
+        "raw_sha256": "015cd2fcaf9295377bdc289ac7fe0d7cc1b3093227bf4c8997214dc947f4b7a7",
+        "title": "Systemic Approach to Memory, Knowledge, and Context in Agentic AI Architectures - InfoQ",
+        "meta": {},
+        "times": [],
+        "jsonld_dates": [
+          {
+            "headline": "Systemic Approach to Memory, Knowledge, and Context in Agentic AI Architectures",
+            "datePublished": "2026-11-02T11:00:00+0000",
+            "dateModified": "2026-11-02T11:00:00+0000",
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Adi Polak",
+                "url": "https://www.infoq.com/profile/Adi-Polak/"
+              }
+            ]
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/7a29011d3ee8.txt"
+      }
+    },
+    {
+      "discovered_url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+      "disposition": "unverified_original_date",
+      "reason": "OpenAI deployment safety addendum is readable but has no verified original publication/substantive-update timestamp in the retrieved record. Discovery timestamp alone is insufficient.",
+      "source_evidence": {
+        "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+        "key": "519265604034",
+        "fetched_at": "2026-11-03T13:03:05.128212+00:00",
+        "status": 200,
+        "final_url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+        "raw_sha256": "76c7710fad6e3cf20dcbfb1123b09bc955a5097018e8a4257745c254a0acfd84",
+        "title": "GPT-Rosalind-6 System Card Addendum - OpenAI Deployment Safety Hub",
+        "meta": {},
+        "times": [],
+        "jsonld_dates": [],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/519265604034.txt"
+      }
+    },
+    {
+      "discovered_url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+      "disposition": "editorial_priority",
+      "reason": "Eligible original Wired report, not advanced in this edition. Its underlying study was not independently reviewed here; no exhaustion claim made.",
+      "source_evidence": {
+        "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+        "key": "7f7db7d241d3",
+        "fetched_at": "2026-11-03T13:03:05.133282+00:00",
+        "status": 200,
+        "final_url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+        "raw_sha256": "369caefa1e211973e85c9d8ed30d200d8db465685fe9ed6d07fda6ea29238f80",
+        "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features | WIRED",
+        "meta": {
+          "author": "Matt Burgess",
+          "article:published_time": "2026-11-02T10:00:00.000Z",
+          "article:modified_time": "2026-11-02T10:00:00.000Z",
+          "article:author": "Matt Burgess"
+        },
+        "times": [
+          {
+            "datetime": null,
+            "title": null,
+            "text": "Nov 2, 2026 5:00 AM"
+          }
+        ],
+        "jsonld_dates": [
+          {
+            "author": [
+              {
+                "@type": "Person",
+                "name": "Matt Burgess",
+                "sameAs": "https://www.wired.com/author/matt-burgess/"
+              }
+            ],
+            "dateModified": "2026-11-02T05:00:00.000-05:00",
+            "datePublished": "2026-11-02T05:00:00.000-05:00",
+            "headline": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features"
+          }
+        ],
+        "text_file": "/private/tmp/yesterdai-20261103-sources/7f7db7d241d3.txt"
+      }
+    }
+  ],
+  "selected_articles": [
+    {
+      "slug": "suse-workforce-reduction-ai-rationale",
+      "article_id": "art_ab9f51c8b2c31abd",
+      "title": "SUSE links planned job cuts to AI and automation",
+      "word_count": 271,
+      "format": "brief",
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/suse-workforce-reduction-ai-rationale/"
+    },
+    {
+      "slug": "anthropic-amended-filing-compute-commitments",
+      "article_id": "art_e7d80beac93a70b9",
+      "title": "Anthropic’s amended filing puts compute commitments on a longer clock",
+      "word_count": 284,
+      "format": "brief",
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/anthropic-amended-filing-compute-commitments/"
+    },
+    {
+      "slug": "openai-grid-protectors-demand-flexibility",
+      "article_id": "art_5d33ed0c66ace544",
+      "title": "OpenAI’s Grid Protectors Program makes flexibility a campus planning question",
+      "word_count": 275,
+      "format": "brief",
+      "hero": null,
+      "url": "https://yesterdai.tedt.org/articles/openai-grid-protectors-demand-flexibility/"
+    }
+  ],
+  "supplementary_sources": [
+    {
+      "url": "https://www.georgiapower.com/news-hub/press-releases/georgia-power-to-serve-openai-project-in-effingham-county.html",
+      "key": "d20f930d9a39",
+      "fetched_at": "2026-11-03T13:04:25.549345+00:00",
+      "status": 200,
+      "final_url": "https://www.georgiapower.com/news-hub/press-releases/georgia-power-to-serve-openai-project-in-effingham-county.html",
+      "raw_sha256": "ea33169b87a239fb51a9a90a22f5ecab6d17164b67daa7eba7ea9e80c15dae2e",
+      "title": "Georgia Power to serve OpenAI project in Effingham County",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [
+        {
+          "headline": "Georgia Power to serve OpenAI project in Effingham County",
+          "datePublished": "2026-07-22T13:30:00+0000",
+          "dateModified": "2026-07-22T13:53:39+0000"
+        }
+      ],
+      "text_file": "/private/tmp/yesterdai-20261103-sources/d20f930d9a39.txt"
+    },
+    {
+      "url": "https://www.uber.com/us/en/blog/designing-mcp-gateway/",
+      "key": "270fca837784",
+      "fetched_at": "2026-11-03T13:04:25.549008+00:00",
+      "status": 200,
+      "final_url": "https://www.uber.com/us/en/blog/designing-mcp-gateway/",
+      "raw_sha256": "ed96899f614a7e9491759162b6177a742e597203f0d2019c4bab291bf1d9e085",
+      "title": "Designing MCP Gateway Uber's MCP Management Platform",
+      "meta": {
+        "msvalidate.01": "813904D1791F14A7C08B0F95D62B936C"
+      },
+      "times": [],
+      "jsonld_dates": [],
+      "text_file": "/private/tmp/yesterdai-20261103-sources/270fca837784.txt"
+    },
+    {
+      "url": "https://openai.com/news/rss.xml",
+      "key": "bea4293d5edd",
+      "fetched_at": "2026-11-03T13:04:25.549502+00:00",
+      "status": 200,
+      "final_url": "https://openai.com/news/rss.xml",
+      "raw_sha256": "424371be84474069ad66f91f8b8c379b0a59bae9f2ebf07bdb3c1580ad554f71",
+      "title": "<![CDATA[OpenAI News]]>",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [],
+      "text_file": "/private/tmp/yesterdai-20261103-sources/bea4293d5edd.txt"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0002130357.json",
+      "key": "e43ef0b050ae",
+      "fetched_at": "2026-11-03T13:05:45.685515+00:00",
+      "status": 200,
+      "final_url": "https://data.sec.gov/submissions/CIK0002130357.json",
+      "raw_sha256": "db2790a6e01dbc240fb316b4ea1fd4d3bd6dd0731e938689337d7320e7423b07",
+      "title": "",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [],
+      "text_file": "/private/tmp/yesterdai-20261103-sources/e43ef0b050ae.txt"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/0001628280-26-068676-index.htm",
+      "key": "415366a99244",
+      "fetched_at": "2026-11-03T13:05:45.685866+00:00",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/0001628280-26-068676-index.htm",
+      "raw_sha256": "db04604b17cb61b686fe3f014da7883056384adf61ad1d4840e2b17004f94c14",
+      "title": "EDGAR Filing Documents for 0001628280-26-068676",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [],
+      "text_file": "/private/tmp/yesterdai-20261103-sources/415366a99244.txt"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+      "key": "e7d80beac93a",
+      "fetched_at": "2026-11-03T13:07:32.017958+00:00",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+      "raw_sha256": "87d7b9841874a66ad057a5a8798e6101f73912be1eba031b73e7280ae1d9a168",
+      "title": "Anthropic, PBC - S-1/A-1",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [],
+      "text_file": "/private/tmp/yesterdai-20261103-sources/e7d80beac93a.txt"
+    },
+    {
+      "url": "https://cloudopsbench.ai/about",
+      "key": "0440ec147917",
+      "fetched_at": "2026-11-03T13:04:25.549559+00:00",
+      "status": 200,
+      "final_url": "https://cloudopsbench.ai/about",
+      "raw_sha256": "32c2eb9ed48199042034d900cc19f54ae782aeed41f5decf97840473a691d8ed",
+      "title": "CloudOpsBench | About",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [],
+      "text_file": "/private/tmp/yesterdai-20261103-sources/0440ec147917.txt"
+    },
+    {
+      "url": "https://cloudopsbench.ai/blog",
+      "key": "024046ada7cb",
+      "fetched_at": "2026-11-03T13:04:25.549607+00:00",
+      "status": 200,
+      "final_url": "https://cloudopsbench.ai/blog",
+      "raw_sha256": "d31b50b0a80467897d48cb26016e85073efbe46c5e8baac25e58576028f580c5",
+      "title": "CloudOpsBench | Blog",
+      "meta": {},
+      "times": [],
+      "jsonld_dates": [],
+      "text_file": "/private/tmp/yesterdai-20261103-sources/024046ada7cb.txt"
+    }
+  ],
+  "verified_sec_acceptance": {
+    "accession": "0001628280-26-068676",
+    "acceptanceDateTime": "2026-11-02T14:24:24.000Z",
+    "api": "https://data.sec.gov/submissions/CIK0002130357.json"
+  },
+  "verified_openai_rss": {
+    "url": "https://openai.com/news/rss.xml",
+    "item_url": "https://openai.com/index/grid-protectors-program",
+    "pubDate": "Mon, 02 Nov 2026 15:00:00 GMT"
+  },
+  "hero_decision": "Three focused briefs selected before drafting; zero new heroes or generation attempts. All attached historical heroes and image provenance preserved.",
+  "existing_hero_count": 25,
+  "preserved_files": [
+    {
+      "path": "_articles/agent-harness-state.md",
+      "sha256": "30fb339a827e6c42e5f7f1245593fd75443fe008cf97d8672627cbdf685c5701"
+    },
+    {
+      "path": "_articles/agent-optimization-budget.md",
+      "sha256": "27b4411ffe01defe841eebc62fae948978d5ea4dbbbb08392e411350cf9bb9b7"
+    },
+    {
+      "path": "_articles/agentic-web-access-control.md",
+      "sha256": "f53a87a583977be3ff38ca3c8a97b1386547de19bc04ee02173656cef3d27de5"
+    },
+    {
+      "path": "_articles/ai-recommendation-bias.md",
+      "sha256": "dbd62847d98e55ccfb5b55260658fce0b156fedf3ed1f39e00dad8dc2fa5992d"
+    },
+    {
+      "path": "_articles/anthropic-s1-board-control.md",
+      "sha256": "938ab67c5c0ea41deca97b93c1df8314d86a958c0030ebebb66a5201955d2376"
+    },
+    {
+      "path": "_articles/authorization-agent-boundaries.md",
+      "sha256": "49a169e1f567bf6b28c0aaf868ca0bee9011d5ba1e7cdb3e3e32eb5a107ccdac"
+    },
+    {
+      "path": "_articles/calibrated-disposition-drift.md",
+      "sha256": "ff82bb66f379fd790053b83e12166e438b035b1d1651d99cb59209f17d5ffd6a"
+    },
+    {
+      "path": "_articles/catalog-field-grounding.md",
+      "sha256": "928bf01d359aae346b3a94bab122640bd360ad69c3c14a3a1b17f70f99480e2c"
+    },
+    {
+      "path": "_articles/ciso-survey-security-deployment.md",
+      "sha256": "17fdbecef7093dc753f039cadbe471fd63c5d72c0a36b43cb71a959af53d15e7"
+    },
+    {
+      "path": "_articles/citation-relevance-verification.md",
+      "sha256": "3524ae8affa5631123894ef0e723147e261338fc7d8ef003590ea7bbfedb28b4"
+    },
+    {
+      "path": "_articles/claude-batch-review-evidence.md",
+      "sha256": "ee6478365605b3fba2645df468ba2fe00c56a90a452b7ae5e69a879cb030eece"
+    },
+    {
+      "path": "_articles/claude-watermark-rollout-detection-limits.md",
+      "sha256": "1b66aa06038d8ac43502a526b91b491e135c49cef867f9584a36d2248be7fd9f"
+    },
+    {
+      "path": "_articles/cloudflare-cache-isolation-tests.md",
+      "sha256": "103e130e142fdf25760ee6384c07b6db8271739d5687e6e92aa82ce7c6b9a7f9"
+    },
+    {
+      "path": "_articles/confidential-containers-gpu-attestation.md",
+      "sha256": "13f1fd6e1493436db35c86b8b07c04afcadc556c05e506f173f60af589adca1a"
+    },
+    {
+      "path": "_articles/context-sensitive-model-boundaries.md",
+      "sha256": "61a33c99b9d6bb97a2df3116843a9ccda690d2d94badf5101fb6e28d58f1bcc7"
+    },
+    {
+      "path": "_articles/coordination-agent-economics.md",
+      "sha256": "897cb1184b78f174f23f918c80685f38d57d614f85de35ba06f6399ae34da695"
+    },
+    {
+      "path": "_articles/copilot-fusion-model-policy.md",
+      "sha256": "84ce2920168371cc5a37d6266e6aff80ebae73feb0ff4f58d1ef930580da523f"
+    },
+    {
+      "path": "_articles/cost-aware-ticket-routing.md",
+      "sha256": "273bee341ab990d063b125447a0ecb0f545d5d06ce3f4139c5650e566cb7f18f"
+    },
+    {
+      "path": "_articles/cursor-extension-persistence-recovery.md",
+      "sha256": "d0c655c67d0fcea41b4641949fdc1d11e57c2184d06bee1fdb681794e596e318"
+    },
+    {
+      "path": "_articles/fowler-writing-and-understanding.md",
+      "sha256": "3c4bcb5fb74c386e0ea937b86d9b26e940b0b6310ee4cdb2170a98dbbbe170ce"
+    },
+    {
+      "path": "_articles/gemini-carbon-restricted-rollout.md",
+      "sha256": "75d75afe6e53291feb93b9cc640ca5d1915fdd23745993f8b1ea21b485f70c1e"
+    },
+    {
+      "path": "_articles/genie-4-preview-simulation.md",
+      "sha256": "f07e3526464194cf4866cd4748a5ca8d8ed9572e1ce962b2486004aa7918afa7"
+    },
+    {
+      "path": "_articles/google-agent-guidance-enforcement.md",
+      "sha256": "70b526d0e477d81da0b2b342ffd67fb617b0ab7d4f304f240339043e793de733"
+    },
+    {
+      "path": "_articles/gpt-6-1-terra-computer-use-trials.md",
+      "sha256": "586566f03844d89f9ff0fb38bb361be79a19c7db6394e03840e0b10914e63a61"
+    },
+    {
+      "path": "_articles/hidden-instructions-public-pages.md",
+      "sha256": "f5cbe46502510c58f383644e29ebac496724382f6a19be2176b214b39c9b9280"
+    },
+    {
+      "path": "_articles/kapitsa-local-inference-operations.md",
+      "sha256": "27d9b32d8e8b8d03b72259c8c3421628c2f230b0bca303e75e973c50decf73a0"
+    },
+    {
+      "path": "_articles/litellm-release-authority.md",
+      "sha256": "7a427d3eb8193a51fe147cb87b4fb8f3908dfeed6cbe4001e2e6f83490a2ed71"
+    },
+    {
+      "path": "_articles/llm-proxy-visibility.md",
+      "sha256": "b3e5a17a3965687f312208d6d300a7eb1a5ea6d4991b2ba0e714efcfcd4feced"
+    },
+    {
+      "path": "_articles/materials-structure-ml.md",
+      "sha256": "23856de588f7e0b68251958597e3c568d8c0c7c9f768db6e3af72edf77c6f45d"
+    },
+    {
+      "path": "_articles/memory-needs-relevance.md",
+      "sha256": "f40272eea4d7b78c4a5feb610d6c286d52191a8cc0704619eddfa272684326ee"
+    },
+    {
+      "path": "_articles/mercury-diffusion-serving.md",
+      "sha256": "e9521d0add84a14d25d6c4f182c6ee8822f7098d683d8b97982696f2ff1c5265"
+    },
+    {
+      "path": "_articles/meta-terms-data-governance.md",
+      "sha256": "703a04935248946af266b5d00e80a81d617fe842d2cc29b897244200a4617c05"
+    },
+    {
+      "path": "_articles/microsoft-buyouts-ai-staffing.md",
+      "sha256": "62750e3b60c7588a7a8c166df04348b159ee77b658827e64b8c11dc5fee6c805"
+    },
+    {
+      "path": "_articles/minimax-flash-task-economics.md",
+      "sha256": "06ca327617b83905b833af16202835b5a6144967387fe650a456be70e900f0c6"
+    },
+    {
+      "path": "_articles/mistral-large-4-weights-license.md",
+      "sha256": "3301f4d548867a26beb21ae3eabd37161c5bea31481b09e3557410cbcfe01317"
+    },
+    {
+      "path": "_articles/model-price-cuts-cache-accounting.md",
+      "sha256": "bb4e699116cbcbdd2a30acfcb8c2621a7b67dfac1d77f1c56d9b1fafa9782b92"
+    },
+    {
+      "path": "_articles/multiagent-review-tradeoffs.md",
+      "sha256": "ff565d16b0cbc4f2cb2833b3414dbdb65de6e41016d6c403fb7faa5b4d51418b"
+    },
+    {
+      "path": "_articles/multilingual-safety-template-evidence.md",
+      "sha256": "5500f0967a52b44dc965e688d02cf788aa3ab0537e685a2214291693cc995ce3"
+    },
+    {
+      "path": "_articles/openai-funding-target-continuity.md",
+      "sha256": "620c2facc5db98fcc8b4c2e3331e2bf89020e60e9e5bca4c3b999b3f7797636c"
+    },
+    {
+      "path": "_articles/pew-task-level-adoption.md",
+      "sha256": "94771fdb0b37e5f0a9a5184f5319b5e1f3c2bd6c87fb64a1ace593db00181a0c"
+    },
+    {
+      "path": "_articles/php-old-flaws-operating-pressure.md",
+      "sha256": "8ba708edd9b993403d202198f98bf3214039b1c95cf2e5008febbad8492a3ed1"
+    },
+    {
+      "path": "_articles/prompt-judge-evaluation.md",
+      "sha256": "f8ec436c28008de3d86e48b0e937d402863a3a0adc9bfbd9d817753ba42ecd28"
+    },
+    {
+      "path": "_articles/proton-engineering-workflow-bottlenecks.md",
+      "sha256": "7fcbb3f41c4425442f2531f08492bf659751808bd0df7f8c43ad97e6ddd2ca0c"
+    },
+    {
+      "path": "_articles/rao-ai-adoption-unserved-work.md",
+      "sha256": "7b71eab3a86b0453b9ab95e5c7787da7e6553d2118a56b49e80fe3302b5847b3"
+    },
+    {
+      "path": "_articles/recoverable-agent-changes.md",
+      "sha256": "e796351f53a8bb8ff10e5c2738723107aaff2ade58798864514bd0f2c6d00619"
+    },
+    {
+      "path": "_articles/ryanair-ai-productivity-cost-review.md",
+      "sha256": "a3bebf27c49ed4b1784cc8bafeebaf1e44220efcbd0b11e21b677150edb699e7"
+    },
+    {
+      "path": "_articles/scope-executable-policy.md",
+      "sha256": "10669b500b510553c2a71c0bdafddb0310a796dc2e4b8c8422463f60925e39ad"
+    },
+    {
+      "path": "_articles/typed-decisions.md",
+      "sha256": "ef36d94a81f42c0d9f3ee96e926995bb8bbaedc6e7e2beb000bfe8f16e0c55ee"
+    },
+    {
+      "path": "_articles/volta-infostealer-victim-profiling.md",
+      "sha256": "09c23f19f45d02778fd696ee5f80ec0c4f0f6a83637a87d650d3503ed4cd18e7"
+    },
+    {
+      "path": "_articles/voxtral-voice-workflow.md",
+      "sha256": "822244e80bc80e114cc1c1458c06848e7b93e3a6febe55ed30d610f1c497cb50"
+    },
+    {
+      "path": "_articles/xai-pollution-lawsuit-dismissal-denied.md",
+      "sha256": "83042a63920606544f33cc6fcb2d1f033b2f2f61e576ab385ca2372d5b5515cf"
+    },
+    {
+      "path": "_editions/2026-10-18.md",
+      "sha256": "9c7f8a77f5f9f117c2fdb4d3f62183d99522fa474c8019a544326f626ae417fd"
+    },
+    {
+      "path": "_editions/2026-10-19.md",
+      "sha256": "eadf0d2d77f8d7fda3003e8086398499e0c818d4d6f91522acbabbe3b50cb46c"
+    },
+    {
+      "path": "_editions/2026-10-20.md",
+      "sha256": "171dcb97b2786d51fd0eee72228bbe933f8be7b5f197ea3ca2b5209705fac4a4"
+    },
+    {
+      "path": "_editions/2026-10-21.md",
+      "sha256": "b343ec4a4071c4af34077d5ad08d1f98ffb3d38363aea711eb64829b8758325b"
+    },
+    {
+      "path": "_editions/2026-10-22.md",
+      "sha256": "578f864a629021230ab37e23a392e38d42e286cf44111011ad394a2b9be532f6"
+    },
+    {
+      "path": "_editions/2026-10-23.md",
+      "sha256": "b2c8a98d71902ebd1b04f6480b1d6a0ff56b3207f8b584c1722cbb766f6ee782"
+    },
+    {
+      "path": "_editions/2026-10-24.md",
+      "sha256": "f377e552ba9653b4a0d9e8da11623700a7e90ec592453298c6183c654db4af4e"
+    },
+    {
+      "path": "_editions/2026-10-25.md",
+      "sha256": "235fd2ef72c4ece0a07202cd5912a074aaae131ba7a6b776e81b62610aa969a1"
+    },
+    {
+      "path": "_editions/2026-10-26.md",
+      "sha256": "c9bdb705a98b1406c948a228847ec3b1a8976beea1da0a64f3d1e41f4a96cbba"
+    },
+    {
+      "path": "_editions/2026-10-27.md",
+      "sha256": "c0f7fddd7eabe330f201c73ed1effecc655e4c5caf6b6043517cc0172f1bdeba"
+    },
+    {
+      "path": "_editions/2026-10-28.md",
+      "sha256": "14a1472cec757e791fd58b973f919cfc23a72dc668eaf73d97f9c15b1a4b20dd"
+    },
+    {
+      "path": "_editions/2026-10-29.md",
+      "sha256": "279b947e4d3706f41e0d8b4b17e4b4bae477964b58d76801f36a7f6fd1dd6ae0"
+    },
+    {
+      "path": "_editions/2026-10-30.md",
+      "sha256": "e6b1a4b850a9c8abd78682484ab8db7da07d51c7f57685ac7f70b406520cb54b"
+    },
+    {
+      "path": "_editions/2026-10-31.md",
+      "sha256": "1ba507ecb20b4dc25fdc4acdfb52b3996c057e52c909a6ec48a2ffdacfc0e860"
+    },
+    {
+      "path": "_editions/2026-11-01.md",
+      "sha256": "b19c432ef6519f0d46380b7ac0252e053a00c570559effa4520f4b3fbf10e563"
+    },
+    {
+      "path": "_editions/2026-11-02.md",
+      "sha256": "0366e8fa3b0a317dd5a87b7d3ed0bd31840dc98ce0f01603aa256b10174b55d7"
+    },
+    {
+      "path": "assets/images/agent-harness-state.webp",
+      "sha256": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e"
+    },
+    {
+      "path": "assets/images/ai-recommendation-bias.webp",
+      "sha256": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275"
+    },
+    {
+      "path": "assets/images/authorization-agent-boundaries.webp",
+      "sha256": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c"
+    },
+    {
+      "path": "assets/images/calibrated-disposition-drift.webp",
+      "sha256": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429"
+    },
+    {
+      "path": "assets/images/catalog-field-grounding.webp",
+      "sha256": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c"
+    },
+    {
+      "path": "assets/images/citation-relevance-verification.webp",
+      "sha256": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49"
+    },
+    {
+      "path": "assets/images/context-sensitive-model-boundaries.webp",
+      "sha256": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641"
+    },
+    {
+      "path": "assets/images/cost-aware-ticket-routing.webp",
+      "sha256": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623"
+    },
+    {
+      "path": "assets/images/google-agent-guidance-enforcement.webp",
+      "sha256": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6"
+    },
+    {
+      "path": "assets/images/hidden-instructions-public-pages.webp",
+      "sha256": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877"
+    },
+    {
+      "path": "assets/images/kapitsa-local-inference-operations.webp",
+      "sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3"
+    },
+    {
+      "path": "assets/images/litellm-release-authority.webp",
+      "sha256": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8"
+    },
+    {
+      "path": "assets/images/llm-proxy-visibility.webp",
+      "sha256": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854"
+    },
+    {
+      "path": "assets/images/materials-structure-ml.webp",
+      "sha256": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349"
+    },
+    {
+      "path": "assets/images/memory-needs-relevance.webp",
+      "sha256": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785"
+    },
+    {
+      "path": "assets/images/mercury-diffusion-serving.webp",
+      "sha256": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8"
+    },
+    {
+      "path": "assets/images/meta-terms-data-governance.webp",
+      "sha256": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09"
+    },
+    {
+      "path": "assets/images/minimax-flash-task-economics.webp",
+      "sha256": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041"
+    },
+    {
+      "path": "assets/images/multiagent-review-tradeoffs.webp",
+      "sha256": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a"
+    },
+    {
+      "path": "assets/images/pew-task-level-adoption.webp",
+      "sha256": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105"
+    },
+    {
+      "path": "assets/images/prompt-judge-evaluation.webp",
+      "sha256": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc"
+    },
+    {
+      "path": "assets/images/publication-share.png",
+      "sha256": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610"
+    },
+    {
+      "path": "assets/images/recoverable-agent-changes.webp",
+      "sha256": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2"
+    },
+    {
+      "path": "assets/images/scope-executable-policy.webp",
+      "sha256": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f"
+    },
+    {
+      "path": "assets/images/typed-decisions.webp",
+      "sha256": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf"
+    },
+    {
+      "path": "assets/images/voxtral-voice-workflow.webp",
+      "sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+    }
+  ],
+  "editing_pass": "Reviewed original dates, source scope, financial periods, planned versus operating claims, third-party attribution and useful consequences. Concrete openings, visible causal reasoning and distinct endings; no invented Ted experience, opinion, review or hands-on result.",
+  "publication": {
+    "state": "preflight_passed_not_published",
+    "required_action": "Commit complete editorial files, ship, verify exact-SHA deployment and public URLs."
+  },
+  "prior_initial_filing_review": {
+    "article_id": "art_b8eac1ac6e149cce",
+    "slug": "anthropic-s1-board-control",
+    "eligibility": {
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "published_at": "2026-10-26T13:00:11Z",
+      "precision": "second",
+      "verification": "publisher_api",
+      "evidence": "SEC submissions API for CIK0002130357 identifies accession 0001628280-26-067168, form S-1, filingDate 2026-10-26 and acceptanceDateTime 2026-10-26T13:00:11.000Z. Filing index shows acceptance 2026-10-26 09:00:11 Eastern; the prospectus cover independently says filed October 26, 2026.",
+      "discovered_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "verified_at": "2026-10-27T12:10:07.452207Z"
+    },
+    "body_subject": "Initial filing, governance rights and preliminary offering; November 2 financial update is a distinct later development."
+  },
+  "style_diagnostics": [
+    {
+      "slug": "suse-workforce-reduction-ai-rationale",
+      "exit_code": 0,
+      "diagnostic": "Ted writing-style diagnostic (guidance, not a score)\nWords: 282\nParagraphs: 6\nSentences: 18\nMean sentence length: 15.7 words\nMedian sentence length: 15 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 47 words\nFirst person: 0.0 per 1,000 words\nSecond person: 3.55 per 1,000 words\nSemicolons: 3.55 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+      "stderr": ""
+    },
+    {
+      "slug": "anthropic-amended-filing-compute-commitments",
+      "exit_code": 0,
+      "diagnostic": "Ted writing-style diagnostic (guidance, not a score)\nWords: 281\nParagraphs: 6\nSentences: 18\nMean sentence length: 15.6 words\nMedian sentence length: 13 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 52 words\nFirst person: 3.56 per 1,000 words\nSecond person: 10.68 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+      "stderr": ""
+    },
+    {
+      "slug": "openai-grid-protectors-demand-flexibility",
+      "exit_code": 0,
+      "diagnostic": "Ted writing-style diagnostic (guidance, not a score)\nWords: 297\nParagraphs: 6\nSentences: 18\nMean sentence length: 16.5 words\nMedian sentence length: 15 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 50 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+      "stderr": ""
+    }
+  ],
+  "source_fallbacks": [
+    {
+      "url": "https://openai.com/index/grid-protectors-program/",
+      "direct_http_status": 403,
+      "successful_reader": "web page reader",
+      "verified_content": "Complete November 2 announcement, national future-campus program, planned Georgia pilot, local commitments not finalized, no delivered savings evidence."
+    },
+    {
+      "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management",
+      "outcome": "Two direct original reads timed out; current run treats as access exclusion, without relying on a prior-run date."
+    }
+  ],
+  "preflight": {
+    "started_at": "2026-11-03T13:13:02.317169Z",
+    "commands": [
+      {
+        "command": ".venv/bin/python -m unittest discover -s tests",
+        "exit_code": 0,
+        "elapsed_seconds": 0.47,
+        "log": "/private/tmp/yesterdai-20261103-preflight-1.log"
+      },
+      {
+        "command": ".venv/bin/python scripts/publish.py validate",
+        "exit_code": 0,
+        "elapsed_seconds": 0.18,
+        "log": "/private/tmp/yesterdai-20261103-preflight-2.log"
+      },
+      {
+        "command": "bundle exec jekyll build --strict_front_matter",
+        "exit_code": 0,
+        "elapsed_seconds": 0.96,
+        "log": "/private/tmp/yesterdai-20261103-preflight-3.log"
+      },
+      {
+        "command": "npm run index",
+        "exit_code": 0,
+        "elapsed_seconds": 0.32,
+        "log": "/private/tmp/yesterdai-20261103-preflight-4.log"
+      },
+      {
+        "command": ".venv/bin/python scripts/check_site.py",
+        "exit_code": 0,
+        "elapsed_seconds": 0.57,
+        "log": "/private/tmp/yesterdai-20261103-preflight-5.log"
+      },
+      {
+        "command": "npm run test:smoke",
+        "exit_code": 0,
+        "elapsed_seconds": 0.45,
+        "log": "/private/tmp/yesterdai-20261103-preflight-6.log"
+      }
+    ],
+    "completed_at": "2026-11-03T13:13:05.265217Z",
+    "passed": true
+  }
+}
