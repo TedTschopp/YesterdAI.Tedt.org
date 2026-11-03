@@ -37,8 +37,9 @@ def recover(report, repository, api=github_api, now=None):
     base = f'repos/{repository}/actions/workflows/'
     latest = {}
     for key, workflow in (('refresh', 'refresh-wire.yml'), ('deployment', 'deploy.yml')):
-        query = {'branch': 'main', 'per_page': 1}
+        query = {'per_page': 1}
         if key == 'deployment':
+            query['branch'] = 'main'
             query['status'] = 'success'
         rows = api('GET', base + workflow + '/runs?' + urlencode(query))['workflow_runs']
         latest[key] = run_timing(rows[0]) if rows else None
@@ -47,6 +48,9 @@ def recover(report, repository, api=github_api, now=None):
               'wire_checked_at': report.get('wire_checked_at'),
               'wire_changed_at': report.get('wire_changed_at'),
               'latest_runs': latest, 'dispatched': False}
+    if any(run is None for run in latest.values()):
+        result['reason'] = 'workflow_history_missing'
+        return result
     checked = report.get('wire_checked_at')
     age = now - parse_time(checked) if checked else None
     if age is not None and age <= timedelta(hours=3):
@@ -55,12 +59,12 @@ def recover(report, repository, api=github_api, now=None):
     # Query active runs without a creation cutoff: a long-running job must
     # prevent another dispatch even when it started more than an hour ago.
     for status in ACTIVE:
-        query = urlencode({'branch': 'main', 'status': status, 'per_page': 1})
+        query = urlencode({'status': status, 'per_page': 1})
         if api('GET', base + 'refresh-wire.yml/runs?' + query)['workflow_runs']:
             result['reason'] = 'refresh_already_active'
             return result
     cutoff = now - timedelta(hours=1)
-    query = {'branch': 'main', 'event': 'workflow_dispatch',
+    query = {'event': 'workflow_dispatch',
              'created': '>=' + cutoff.isoformat().replace('+00:00', 'Z'), 'per_page': 100}
     # Only existence is needed, so pagination cannot hide a recent dispatch.
     recent = api('GET', base + 'refresh-wire.yml/runs?' + urlencode(query))

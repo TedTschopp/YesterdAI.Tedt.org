@@ -11,7 +11,7 @@ from recover_refresh import recover
 class RecoveryTests(unittest.TestCase):
     now = datetime(2026, 11, 2, 20, tzinfo=timezone.utc)
 
-    def execute(self, checked='2026-11-02T16:59:59Z', active=None, dispatched=False, fail=False):
+    def execute(self, checked='2026-11-02T16:59:59Z', active=None, dispatched=False, fail=False, missing=False):
         calls = []
 
         def api(method, endpoint, payload=None):
@@ -22,8 +22,13 @@ class RecoveryTests(unittest.TestCase):
                 return None
             query = parse_qs(urlsplit(endpoint).query)
             rows = []
+            if not missing and 'status' not in query and 'event' not in query:
+                rows = [{'id': 1, 'status': 'completed', 'conclusion': 'success'}]
+            if not missing and query.get('status') == ['success']:
+                rows = [{'id': 2, 'status': 'completed', 'conclusion': 'success'}]
             if query.get('status') == [active] or (dispatched and query.get('event') == ['workflow_dispatch']):
-                rows = [{'id': 10, 'created_at': '2026-11-02T10:00:00Z'}]
+                if 'branch' not in query:
+                    rows = [{'id': 10, 'created_at': '2026-11-02T10:00:00Z', 'head_branch': 'manual-branch'}]
             return {'workflow_runs': rows, 'total_count': len(rows)}
 
         report = {'wire_checked_at': checked, 'observed_at': '2026-11-02T20:00:00Z', 'ok': False}
@@ -63,6 +68,11 @@ class RecoveryTests(unittest.TestCase):
     def test_unavailable_history_never_authorizes_dispatch(self):
         with self.assertRaises(OSError):
             self.execute(fail=True)
+
+    def test_empty_history_never_authorizes_dispatch(self):
+        result, calls = self.execute(missing=True)
+        self.assertEqual(result['reason'], 'workflow_history_missing')
+        self.assertFalse(any(call[0] == 'POST' for call in calls))
 
     def test_invalid_timestamp_and_repository_fail_closed(self):
         with self.assertRaises(ValueError):
