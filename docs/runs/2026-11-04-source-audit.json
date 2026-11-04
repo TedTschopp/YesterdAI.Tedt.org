@@ -1,0 +1,1015 @@
+{
+  "edition_date": "2026-11-04",
+  "reader_contract_version": "2.0.3",
+  "article_metadata_contract": 2,
+  "writing_style": {
+    "name": "ted-writing-style",
+    "version": "1.0.0",
+    "mode": "technology/strategy",
+    "editing_pass": "Complete-source claim review and continuous-prose edit: concrete openings, causal reasoning, differing practical consequences, no invented first-person experience or review. Body-only diagnostics are retained in the local checkpoint.",
+    "body_diagnostics": {
+      "menlo-enterprise-ai-spending-run-rate": "Ted writing-style diagnostic (guidance, not a score)\nWords: 283\nParagraphs: 6\nSentences: 19\nMean sentence length: 14.9 words\nMedian sentence length: 13 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 53 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 3.53 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+      "openai-physical-engineering-manufacturing-review": "Ted writing-style diagnostic (guidance, not a score)\nWords: 298\nParagraphs: 6\nSentences: 18\nMean sentence length: 16.6 words\nMedian sentence length: 15 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 56 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 3.36 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+      "google-school-search-ai-access-controls": "Ted writing-style diagnostic (guidance, not a score)\nWords: 301\nParagraphs: 7\nSentences: 17\nMean sentence length: 17.7 words\nMedian sentence length: 16 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 48 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    }
+  },
+  "headline_rule": "Current explicit user instruction: AP sentence-style publication headlines; existing policies and published archives preserved.",
+  "cutoff": "2026-11-04T05:00:00-08:00",
+  "window_start": "2026-11-03T01:00:00Z",
+  "prepared_at": "2026-11-04T13:08:31.452921Z",
+  "base_commit": "f53cd7fee8eac540d330516e8c9d7306555daed8",
+  "worktree": "/Users/tedtschopp/Developer/yesterdai-daily-20261104",
+  "branch": "codex/daily-2026-11-04",
+  "feed_checked_at": "2026-11-04T13:04:08.178057Z",
+  "feeds": {
+    "curated": {
+      "url": "https://rss.tedt.org/ai_rss_feed.json",
+      "usable_count": 229,
+      "ingestion_exclusions": [
+        {
+          "id": "2e6b008d7907924a9c4c56743403e3af",
+          "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+        }
+      ]
+    },
+    "top": {
+      "url": "https://rss.tedt.org/feeds/top.json",
+      "usable_count": 198,
+      "ingestion_exclusions": [
+        {
+          "id": "sty_7ad00f4a4889a26a",
+          "reason": "malformed item fields"
+        },
+        {
+          "id": "sty_4d1a214f8b70e9d3",
+          "reason": "malformed item fields"
+        }
+      ]
+    }
+  },
+  "deduplication": {
+    "preceding_editions": [
+      {
+        "edition_date": "2026-10-28",
+        "article_ids": [
+          "art_645cbaa528bc8dcd",
+          "art_a9a5887ca8150cae",
+          "art_e960e8891f7d7ad8"
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-10-29",
+        "article_ids": [
+          "art_af8e72e013cbe8cf",
+          "art_3e32bae570ff21ee",
+          "art_25fbc9537ce488a6"
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-10-30",
+        "article_ids": [
+          "art_5a25565ab71a8d06",
+          "art_9119d7a196c48299",
+          "art_c3a6927a59480677",
+          "art_815e9f76383a9012"
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-10-31",
+        "article_ids": [
+          "art_b11cb5d74cc4c058",
+          "art_9fcef969c25d985d"
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-01",
+        "article_ids": [
+          "art_c0588a787514ce74",
+          "art_666d65fb5c8d82e4",
+          "art_909c4a46811dca1c",
+          "art_b57691e750415c60"
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-02",
+        "article_ids": [
+          "art_7ef52e0b08b2b23c",
+          "art_9fae4a69c581cd5b",
+          "art_3615c38e010c6fac"
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-03",
+        "article_ids": [
+          "art_ab9f51c8b2c31abd",
+          "art_e7d80beac93a70b9",
+          "art_5d33ed0c66ace544"
+        ],
+        "quick_hits": []
+      }
+    ],
+    "article_count": 22,
+    "quick_hit_count": 0,
+    "result": "No selected URL or development repeats preceding seven-day coverage."
+  },
+  "research": {
+    "candidate_count": 17,
+    "dispositions": {
+      "editorial_priority": 1,
+      "access_failure": 2,
+      "selected": 3,
+      "outside_window": 6,
+      "outside_window_no_verified_substantive_update": 1,
+      "unverified_original_date": 3,
+      "conflicting_original_date": 1
+    },
+    "target": "3–5 complete articles",
+    "selected_count": 3,
+    "shortfall": 0,
+    "viable_candidates_exhausted": false,
+    "note": "Continued original-source research across both feeds until three supported developments. Remaining feed records were not all individually verified; no exhaustion claim."
+  },
+  "candidates": [
+    {
+      "feed": "curated",
+      "index": 0,
+      "feed_record": {
+        "id": "49f2d86d133048d7818f98c52281f414",
+        "url": "https://x.com/addyosmani/status/2117512471930167377",
+        "title": "Critical thinking when agents do the work [ ! ] (Estimated)",
+        "content_text": "Estimated GAI-style rating: Essential. Rationale (estimate): Estimated from similar historically rated GAI selections. Selected in GAI Insights' briefing dated 2026-11-04. Briefing source: https://gaiinsights.com/articles.",
+        "date_published": "2026-11-04T00:00:00+00:00"
+      },
+      "disposition": "editorial_priority",
+      "reason": "Original metadata gives November 3 07:01:29Z. Accessible practitioner essay; selected the more immediate budget, manufacturing and account-access decisions. No claim that this essay is ineligible.",
+      "source_retrieved_at": "2026-11-04T13:05:11.193443Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [],
+        "metadata": [
+          {
+            "property": "article:published_time",
+            "content": "2026-11-03T07:01:29.000Z"
+          }
+        ],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/0ae360bdbb1ea522bbe6.json",
+      "cache_sha256": "71298291b70a34ac11eedb9472c75a4372a514cd715e3dea53a87133321508b1"
+    },
+    {
+      "feed": "curated",
+      "index": 1,
+      "feed_record": {
+        "id": "0153e1416e8dfdd7e7e3ecd51fa26dda",
+        "url": "https://seekingalpha.com/news/4662812-goldman-sachs-bans-traders-and-bankers-from-using-some-ai-tools-report?shem=aimgspe",
+        "title": "Goldman Sachs bans traders and bankers from using some AI tools - report [ ~ ] (Estimated)",
+        "content_text": "Estimated GAI-style rating: Optional. Rationale (estimate): Estimated from similar historically rated GAI selections. Selected in GAI Insights' briefing dated 2026-11-04. Briefing source: https://gaiinsights.com/articles.",
+        "date_published": "2026-11-04T00:00:00+00:00"
+      },
+      "disposition": "access_failure",
+      "reason": "Seeking Alpha returned HTTP 403; original report and original date could not be verified. Not treated as a quiet-news condition.",
+      "source_retrieved_at": null,
+      "source_error": "HTTP Error 403: Forbidden",
+      "original_date_evidence": {
+        "jsonld": [],
+        "metadata": [],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/42517c4a0db0fe4e358f.json",
+      "cache_sha256": "8573b01f4830c3b7beb5a3ebe514ef2fb7dd579315a658e81e406129a6fc6e73"
+    },
+    {
+      "feed": "curated",
+      "index": 2,
+      "feed_record": {
+        "id": "485088e8f0f90311b49c33fc34bb5d54",
+        "url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+        "title": "2026: The State of Enterprise AI [ ! ] (Estimated)",
+        "content_text": "Estimated GAI-style rating: Essential. Rationale (estimate): Estimated from similar historically rated GAI selections. Selected in GAI Insights' briefing dated 2026-11-04. Briefing source: https://gaiinsights.com/articles.",
+        "date_published": "2026-11-04T00:00:00+00:00"
+      },
+      "disposition": "selected",
+      "reason": "Full report read after repairing the cached text extraction, which initially captured only a navigation fragment. November 3 14:00Z corroborated by JSON-LD, metadata and visible date. Annualized revenue model, reclassified historical taxonomy, U.S. sample and portfolio interests retained.",
+      "source_retrieved_at": "2026-11-04T13:05:10.656394Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [
+          {
+            "datePublished": "2026-11-03T14:00:00+00:00"
+          },
+          {
+            "datePublished": "2026-11-03T14:00:00+00:00"
+          }
+        ],
+        "metadata": [
+          {
+            "property": "article:published_time",
+            "content": "2026-11-03T14:00:00+00:00"
+          }
+        ],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/2619ce63347d8c4ccc86.json",
+      "cache_sha256": "7c83ebe9e3c55cf0911892d79e7badbe30ccfe2c99685a14080d7714b531cc51"
+    },
+    {
+      "feed": "curated",
+      "index": 3,
+      "feed_record": {
+        "id": "a9392620644f504441c77dad3de2debe",
+        "url": "https://commandline.microsoft.com/how-we-built-copilot-cowork-python-to-rust-migration/?utm_source=tldrai",
+        "title": "Nine engineers, 1,211 pull requests in a day: Lessons from building Copilot Cowork [ ! ] (Estimated)",
+        "content_text": "Estimated GAI-style rating: Essential. Rationale (estimate): Estimated from similar historically rated GAI selections. Selected in GAI Insights' briefing dated 2026-11-04. Briefing source: https://gaiinsights.com/articles.",
+        "date_published": "2026-11-04T00:00:00+00:00"
+      },
+      "disposition": "outside_window",
+      "reason": "Microsoft JSON-LD and metadata agree on November 2 15:13:56Z; modification November 2 15:13:58Z is also outside. Feed November 4 is not the original time.",
+      "source_retrieved_at": "2026-11-04T13:05:10.639021Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [
+          {
+            "datePublished": "2026-11-02T15:13:56+00:00",
+            "dateModified": "2026-11-02T15:13:58+00:00"
+          },
+          {
+            "datePublished": "2026-11-02T15:13:56+00:00",
+            "dateModified": "2026-11-02T15:13:58+00:00"
+          }
+        ],
+        "metadata": [
+          {
+            "property": "article:published_time",
+            "content": "2026-11-02T15:13:56+00:00"
+          },
+          {
+            "property": "article:modified_time",
+            "content": "2026-11-02T15:13:58+00:00"
+          }
+        ],
+        "visible_times": [
+          {
+            "datetime": null,
+            "text": "2026.11.02"
+          }
+        ]
+      },
+      "cache_file": ".cache/sources/001333f3cbf9ad52aed2.json",
+      "cache_sha256": "d21421f0f0796405f143d8926c716f14ed30aa90accf611d917b8ed8cccc95e2"
+    },
+    {
+      "feed": "curated",
+      "index": 4,
+      "feed_record": {
+        "id": "6d7a68613f59b6a8fff9884203e98be1",
+        "url": "https://www.bcg.com/publications/2026/saas-pricing-must-change-agentic-ai",
+        "title": "As AI Reshapes SaaS, Companies Need Pivot-Ready Pricing [ ~ ] (Estimated)",
+        "content_text": "Estimated GAI-style rating: Optional. Rationale (estimate): Estimated from similar historically rated GAI selections. Selected in GAI Insights' briefing dated 2026-11-04. Briefing source: https://gaiinsights.com/articles.",
+        "date_published": "2026-11-04T00:00:00+00:00"
+      },
+      "disposition": "outside_window",
+      "reason": "BCG visible/JSON-LD date is October 30. Its metadata has October 28 publication and October 30 modification. All versions are older than this window; disagreement is not resolved by substituting the feed date.",
+      "source_retrieved_at": "2026-11-04T13:05:12.262113Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [
+          {
+            "dateModified": "2026-10-30",
+            "datePublished": "2026-10-30"
+          }
+        ],
+        "metadata": [
+          {
+            "property": "article:published_time",
+            "content": "2026-10-28T16:17:30.32"
+          },
+          {
+            "property": "article:modified_time",
+            "content": "2026-10-30T00:54:06.78"
+          }
+        ],
+        "visible_times": [
+          {
+            "datetime": "2026-10-28T16:17:30.320Z",
+            "text": "October 30, 2026"
+          }
+        ]
+      },
+      "cache_file": ".cache/sources/141dc805b2a6baa65891.json",
+      "cache_sha256": "1c0cc1e645f43db38c0faaf4e77b9ca9ec12073bf9014b39ea2b0dcc5c27b6ea"
+    },
+    {
+      "feed": "curated",
+      "index": 5,
+      "feed_record": {
+        "id": "50f359e391dd9b40ee870a28279abd3c",
+        "url": "https://www.anthropic.com/research/provable-inference",
+        "title": "Progress on provable inference for large language models [ ~ ] (Estimated)",
+        "content_text": "Estimated GAI-style rating: Optional. Rationale (estimate): Estimated from similar historically rated GAI selections. Selected in GAI Insights' briefing dated 2026-11-04. Briefing source: https://gaiinsights.com/articles.",
+        "date_published": "2026-11-04T00:00:00+00:00"
+      },
+      "disposition": "outside_window_no_verified_substantive_update",
+      "reason": "Anthropic gives November 2 as the original publication and November 3 19:10:19Z as modification. No verified substantive change was established for that modification, so it cannot reset eligibility.",
+      "source_retrieved_at": "2026-11-04T13:05:10.684219Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [
+          {
+            "datePublished": "2026-11-02T00:00:00.000Z",
+            "dateModified": "2026-11-03T19:10:19.000Z"
+          }
+        ],
+        "metadata": [
+          {
+            "property": "article:published_time",
+            "content": "2026-11-02T00:00:00.000Z"
+          },
+          {
+            "property": "article:modified_time",
+            "content": "2026-11-03T19:10:19.000Z"
+          }
+        ],
+        "visible_times": [
+          {
+            "datetime": "2026-11-02",
+            "text": "Nov 2, 2026"
+          }
+        ]
+      },
+      "cache_file": ".cache/sources/43862ef771dfba655e31.json",
+      "cache_sha256": "9e5804ec4e3baa08d1fadad79f0a114322d72e14a629ae1a1487cebe68bbc595"
+    },
+    {
+      "feed": "curated",
+      "index": 6,
+      "feed_record": {
+        "id": "7cf7b2255bb57bada975551d7171f15c",
+        "url": "https://venturebeat.com/security/ai-agents-dont-have-to-break-security-controls-to-go-rogue-heres-how-to-keep-them-in-check",
+        "title": "AI agents don't have to break security controls to go rogue. Here's how to keep them in check [ ! ]",
+        "content_text": "The article examines critical AI agent security risks, distinguishing between agents that breach established security boundaries and those that exploit legitimately granted permissions to perform unintended actions, exposing gaps in enterprise AI governance. Our analysts stress that traditional perimeter-based cybersecurity is insufficient for autonomous AI agents, advocating granular authorization, dedicated agent identities, least-privilege access, and context-aware security controls that govern agent behavior rather than simply restricting system access.",
+        "date_published": "2026-11-03T00:00:00+00:00"
+      },
+      "disposition": "access_failure",
+      "reason": "VentureBeat returned HTTP 429; the original content/date was not verified. This source failure is an exclusion, not evidence of quiet news.",
+      "source_retrieved_at": null,
+      "source_error": "HTTP Error 429: Too Many Requests",
+      "original_date_evidence": {
+        "jsonld": [],
+        "metadata": [],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/f9b1cbe50f85ce175008.json",
+      "cache_sha256": "e35b2049f25a55dff6fd25cb863b62a33927bfbb82e72358f32cf5c747873a4e"
+    },
+    {
+      "feed": "curated",
+      "index": 7,
+      "feed_record": {
+        "id": "7fddf37758139adba710346b8893e68e",
+        "url": "https://www.uber.com/gb/en/blog/building-ubers-redlining-agent/",
+        "title": "Scaling AI in Legal: Building Uber's Redlining Agent [ * ]",
+        "content_text": "Uber demonstrates how an AI-powered contract redlining agent integrated directly into Microsoft Word can streamline legal reviews and negotiations, reporting more than a 20% reduction in average review time and 91% accuracy. Our analysts highlight this as a practical example of enterprise AI workflow optimization, emphasizing that embedding AI within existing tools and combining legal domain expertise with iterative technical development and contextual understanding drives adoption and measurable productivity improvements.",
+        "date_published": "2026-11-03T00:00:00+00:00"
+      },
+      "disposition": "outside_window",
+      "reason": "Uber’s full original engineering article visibly gives October 8, 2026, despite the November 3 curated date.",
+      "source_retrieved_at": "2026-11-04T13:05:10.879425Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [],
+        "metadata": [
+          {
+            "property": "msvalidate.01",
+            "content": "813904D1791F14A7C08B0F95D62B936C"
+          }
+        ],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/0f92e14ca621bc8e620c.json",
+      "cache_sha256": "dac1a3bff4bc352946d258057ab193dce434c96a8abba11036a68d9264fb2451"
+    },
+    {
+      "feed": "curated",
+      "index": 8,
+      "feed_record": {
+        "id": "9b240d96a3050aeced7d7c2caa267476",
+        "url": "https://hbr.org/2026/11/the-human-in-the-loop-fallacy?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+        "title": "The \"Human-in-the-Loop\"  Fallacy [ ! ]",
+        "content_text": "The article challenges the traditional human-in-the-loop approach to AI adoption, arguing that organizations must continuously redesign workflows and human-AI collaboration as AI capabilities evolve rather than simply automate existing tasks with human oversight. Our analysts emphasize that AI leadership requires investing in transformative use cases, dynamically reassessing human versus machine responsibilities, and developing a meta-strategy for continuous business reinvention rather than focusing solely on efficiency gains.",
+        "date_published": "2026-11-03T00:00:00+00:00"
+      },
+      "disposition": "outside_window",
+      "reason": "HBR article JSON-LD and metadata give November 2 13:05:40Z, before the exact window; no substantive later update established.",
+      "source_retrieved_at": "2026-11-04T13:05:11.271405Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [
+          {
+            "datePublished": "2026-11-02T13:05:40.000+00:00"
+          }
+        ],
+        "metadata": [
+          {
+            "property": "article:published_time",
+            "content": "2026-11-02T13:05:40.000+00:00"
+          },
+          {
+            "property": "article:modified_time",
+            "content": null
+          }
+        ],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/e3af45a049b063d41889.json",
+      "cache_sha256": "c77f1a5783216448174838d52478d553936d332cd969be01e8df3a40ba7b24c4"
+    },
+    {
+      "feed": "curated",
+      "index": 9,
+      "feed_record": {
+        "id": "37ba885a725f294fbdb48f085391762a",
+        "url": "https://commanding-heights.com/",
+        "title": "the COMMANDING HEIGHTS [ ~ ]",
+        "content_text": "This extensive essay explores a speculative geopolitical and economic future in which AI infrastructure and machine intelligence concentrate power among dominant nations and capital owners, potentially reinforcing US-China dominance and widening economic inequality. Our analysts find its historical comparisons to railroads, nuclear power, and the printing press thought-provoking but question its deterministic predictions, emphasizing that AI's long-term economic winners, ownership structures, and societal consequences remain highly uncertain and offer limited immediate guidance for enterprise AI leaders.",
+        "date_published": "2026-11-03T00:00:00+00:00"
+      },
+      "disposition": "outside_window",
+      "reason": "The Commanding Heights gives October 29 in its visible date, citation metadata and JSON-LD, outside this window.",
+      "source_retrieved_at": "2026-11-04T13:05:11.024683Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [
+          {
+            "datePublished": "2026-10-29",
+            "dateModified": "2026-10-29"
+          }
+        ],
+        "metadata": [
+          {
+            "property": "article:published_time",
+            "content": "2026-10-29"
+          },
+          {
+            "property": "citation_publication_date",
+            "content": "2026/10/29"
+          },
+          {
+            "property": "dc.date",
+            "content": "2026-10-29"
+          }
+        ],
+        "visible_times": [
+          {
+            "datetime": "2026-10-29",
+            "text": "October 29, 2026"
+          }
+        ]
+      },
+      "cache_file": ".cache/sources/8128cb5cd44e07f8cb23.json",
+      "cache_sha256": "5bed2580b8ab0c2d73a162b39c43db8077ad25d01fa38294119b3fe5901daa8a"
+    },
+    {
+      "feed": "curated",
+      "index": 10,
+      "feed_record": {
+        "id": "925ef0c04d7d4ed1252d1ae004784350",
+        "url": "https://claude.com/customers/dxc",
+        "title": "DXC brings Claude to the insurance backbone running billions of policies [ * ]",
+        "content_text": "DXC Technology is deploying Anthropic's Claude into enterprise insurance operations, applying generative AI to core underwriting and claims workflows and reporting time improvements of up to 90% in certain processes. Our analysts consider this significant because it demonstrates production-scale AI automation in a major regulated industry, challenging the assumption that probabilistic AI models cannot support mission-critical operations, while noting that detailed financial ROI remains insufficiently documented.",
+        "date_published": "2026-11-03T00:00:00+00:00"
+      },
+      "disposition": "unverified_original_date",
+      "reason": "Full DXC case study accessible, but no original publication/substantive-update timestamp in the retrieved metadata, JSON-LD or visible text. Feed day does not establish eligibility.",
+      "source_retrieved_at": "2026-11-04T13:05:11.210472Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [],
+        "metadata": [],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/7e3bc4021aef0b668771.json",
+      "cache_sha256": "70d2bdea7b8a9c228bedfd05bac300c5b09bd71374e73198c666224a14e4f664"
+    },
+    {
+      "feed": "curated",
+      "index": 11,
+      "feed_record": {
+        "id": "8347235e7d2b03b7cc340d8da8fb0134",
+        "url": "https://blog.deepprinciple.com/introducing-hydrogen-1.0/",
+        "title": "Introducing Hydrogen-1.0 [ * ]",
+        "content_text": "Hydrogen-1.0 introduces an open-source AI model for scientific reasoning and discovery, supporting hypothesis exploration, data inference, experimental validation, and materials science research. Our analysts emphasize that accessible, open-weight scientific AI models lower barriers to advanced research capabilities previously dominated by proprietary systems, potentially accelerating human-AI scientific collaboration and enabling broader innovation across industries.",
+        "date_published": "2026-11-03T00:00:00+00:00"
+      },
+      "disposition": "unverified_original_date",
+      "reason": "Full Hydrogen-1.0 announcement accessible, but no evidenced original publication/update time. No timezone-qualified complete source day was established.",
+      "source_retrieved_at": "2026-11-04T13:05:12.917344Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [],
+        "metadata": [],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/b93467bf2dd4ffea71a4.json",
+      "cache_sha256": "38861dc60062db564a8a9dbe4b801d8350f7905ac0d3e370d4dddb7b37252f0d"
+    },
+    {
+      "feed": "top",
+      "index": 1,
+      "feed_record": {
+        "id": "sty_fb2148d43883c823",
+        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+        "title": "Report: Postman desktop auto-installs Codex and Claude AI plugins, modifies user coding agents and attempts to approve its own startup hook without explicit consent [ ! ] [ ⬢ ]",
+        "content_text": "Users reported that opening Postman on Mac triggered automatic installation of Codex and Claude AI plugins, altered global user configurations, and routed API tasks through Postman skills without explicit permission. The installation also included a Postman CLI and attempted to approve its own instruction hook, raising concerns about consent and trust boundaries. Investigation found logs confirming the automatic plugin installation and configuration changes that directed broad API work into Postman. The installer enabled a remote MCP connection without proper authentication and modified multiple coding agents, which users consider a severe breach of expected behavior for an API client. This behavior has sparked discussions about user consent and security implications, as the automatic changes affect unrelated tools and workflows. The report does not confirm data exfiltration but highlights significant integration and instruction modifications made silently by Postman.",
+        "date_published": "2026-11-03T17:22:37Z"
+      },
+      "disposition": "outside_window",
+      "reason": "Postman issue JSON-LD establishes October 25 19:03:26Z. It is original user reporting of one Mac and explicitly does not establish exfiltration; November 3 feed discovery is not a new development.",
+      "source_retrieved_at": "2026-11-04T13:05:12.860582Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [
+          {
+            "datePublished": "2026-10-25T19:03:26Z"
+          }
+        ],
+        "metadata": [],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/210b26f029f33a3ef7fe.json",
+      "cache_sha256": "a961d5dc94f9a36adaefee3c7b2069ecd9d7b8832650868fb7ff66821cb73b78"
+    },
+    {
+      "feed": "top",
+      "index": 12,
+      "feed_record": {
+        "id": "sty_479706dd0d1d5ce9",
+        "url": "https://www.glow.io/blogs/mcphantom-ai-coding-agents-are-installing-vulnerable-deprecated-mcp-servers-from-training-data",
+        "title": "Glow Labs finds AI coding agents installing deprecated MCP servers with known high-severity vulnerabilities from training data [ * ] [ ◼ ]",
+        "content_text": "Glow Labs research identified a pattern where AI coding agents install deprecated Minecraft server software (MCP) that contains unpatched security vulnerabilities. These agents select outdated servers based on their training data rather than current, secure versions, exposing developer environments to risks. The deprecated servers, originally created by Anthropic, are widely used but no longer maintained or updated for security. The research showed that in 98% of cases, agents chose deprecated MCP servers because they appeared in the training data, not because users requested them explicitly. This issue spans multiple AI tools and model providers, including Anthropic, OpenAI, and xAI. The deprecated servers have millions of npm downloads but contain critical vulnerabilities such as remote code execution flaws, with maintainers confirming no future fixes. This raises concerns about automated code deployment relying on outdated packages without adequate vetting or awareness of deprecation notices.",
+        "date_published": "2026-11-04T10:58:43Z"
+      },
+      "disposition": "conflicting_original_date",
+      "reason": "Glow JSON-LD gives November 3 10:38:21.976Z, but the same article visibly carries both November 2 and November 3 bylines. With no verified substantive update resolving which original is correct, exclude the boundary case. No independent reproduction or exploit prevalence is asserted.",
+      "source_retrieved_at": "2026-11-04T13:05:11.374538Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [
+          {
+            "datePublished": "2026-11-03T10:38:21.976Z",
+            "dateModified": "2026-11-03T10:38:21.976Z"
+          }
+        ],
+        "metadata": [],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/7bf2baae197f3346bc88.json",
+      "cache_sha256": "fc6a2bf418a861718006a8d2add9af6db6c8f2abe9536c3b04a243c9f9ac0e23"
+    },
+    {
+      "feed": "top",
+      "index": 21,
+      "feed_record": {
+        "id": "sty_5c25abe259a542e5",
+        "url": "https://www.primeintellect.ai/blog/auditing-public-evaluations",
+        "title": "Prime Intellect audits public LLM evaluations, identifies issues in AutomationBench and OfficeQA Pro v2, and releases fixes to improve benchmark accuracy and robustness [ ~ ] [ ◻ ]",
+        "content_text": "Prime Intellect analyzed popular public evaluations used for large language model (LLM) training, focusing on AutomationBench and OfficeQA Pro v2 benchmarks. They found problems such as unclear API request descriptions and overly strict grading scripts that affected model performance scores and interpretation. The team applied fixes including replacing prose request bodies with JSON Schemas and relaxing grading criteria, which significantly changed model scores and revealed some benchmarks are nearing saturation. The audit included rewording tasks, adjusting grader requirements, and adding a mode to better simulate real-world tool usage, resulting in improved evaluation accuracy. Prime Intellect open-sourced these fixes to help the community enhance the reliability of public LLM benchmarks and recommended moving to updated benchmark versions for more meaningful assessments.",
+        "date_published": "2026-11-04T08:31:44Z"
+      },
+      "disposition": "unverified_original_date",
+      "reason": "Prime Intellect provides a November 3 date only. No evidenced timezone was found to place its entire original day within the exact window; feed time is not used instead.",
+      "source_retrieved_at": "2026-11-04T13:05:11.684265Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [],
+        "metadata": [
+          {
+            "property": "article:published_time",
+            "content": "2026-11-03"
+          }
+        ],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/a83dd46ed9c42f687c22.json",
+      "cache_sha256": "f23db163c5899dd4d02ff815a9c380dd087a4a577a3663c39043fab7932a5509"
+    },
+    {
+      "feed": "top",
+      "index": 44,
+      "feed_record": {
+        "id": "sty_c0d5bc217dc92a34",
+        "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+        "title": "OpenAI advances ChatGPT and Codex to accelerate CAD, PCB design, simulation, and hardware engineering workflows for physical product development [ * ] [ ◼ ]",
+        "content_text": "OpenAI is enhancing its ChatGPT and Codex models to support engineers in designing, simulating, and building physical products across mechanical, electrical, and system engineering disciplines. These models assist with tasks such as preparing drawings, setting up simulations, and coordinating cross-disciplinary changes, aiming to speed up iteration and improve design workflows. Internal teams at OpenAI have used these models to rapidly prototype devices and accelerate hardware development, with usage growing significantly since early 2026. The company is collaborating with external engineers and firms to refine these capabilities and address current limitations, such as manufacturing constraints and assembly details, to better integrate AI assistance into professional engineering processes.",
+        "date_published": "2026-11-03T12:00:00Z"
+      },
+      "disposition": "selected",
+      "reason": "Direct HTTP returned 403; complete original read succeeded through the web reader. OpenAI official news RSS gives November 3 12:00Z for the exact URL; visible page is dated November 3. Manufacturing iterations and vendor-evidence limits preserved.",
+      "source_retrieved_at": null,
+      "source_error": "HTTP Error 403: Forbidden",
+      "original_date_evidence": {
+        "jsonld": [],
+        "metadata": [],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/25493a43cba550c7fe81.json",
+      "cache_sha256": "54e627172478eea1efcf6d8ed12b5ed89e157a587283a77c16594a628f35bd0e"
+    },
+    {
+      "feed": "top",
+      "index": 64,
+      "feed_record": {
+        "id": "sty_4d85673b1f483eee",
+        "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+        "title": "Designing responsible AI for learning [ * ] [ ◼ ]",
+        "content_text": "We're bringing Guided Learning capabilities to Search and Google Classroom, and evolving our approach to school controls.",
+        "date_published": "2026-11-03T14:00:00Z"
+      },
+      "disposition": "selected",
+      "reason": "Google NewsArticle JSON-LD and published_time metadata give November 3 14:00Z, corroborated by visible date. Web-reader access failed, while direct complete-page retrieval succeeded. Future controls, current Classroom launch and limited Search pilot are separated; no unsupported exact effective date or configuration mechanism is added.",
+      "source_retrieved_at": "2026-11-04T13:05:11.704467Z",
+      "source_error": null,
+      "original_date_evidence": {
+        "jsonld": [
+          {
+            "datePublished": "2026-11-03T14:00:00+00:00",
+            "dateModified": "2026-11-03T20:09:14.577886+00:00"
+          }
+        ],
+        "metadata": [
+          {
+            "property": "article:published_time",
+            "content": "2026-11-03"
+          },
+          {
+            "property": "published_time",
+            "content": "2026-11-03T14:00:00+00:00"
+          }
+        ],
+        "visible_times": []
+      },
+      "cache_file": ".cache/sources/8bc47e2b314460fe30c9.json",
+      "cache_sha256": "01d7fbc029cf220b864a96b6e863ecac2531182c01368e6f783bc182d94fbb50"
+    }
+  ],
+  "articles": [
+    {
+      "article_id": "art_7aa60ae025d525c4",
+      "slug": "menlo-enterprise-ai-spending-run-rate",
+      "title": "Menlo puts enterprise AI deployment at a $177 billion run rate",
+      "format": "brief",
+      "words": 287,
+      "hero_decision": "Omitted: focused brief selected before drafting; no generation attempted.",
+      "source_url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+      "source_published_at": "2026-11-03T14:00:00Z"
+    },
+    {
+      "article_id": "art_25493a43cba550c7",
+      "slug": "openai-physical-engineering-manufacturing-review",
+      "title": "OpenAI’s hardware work keeps manufacturing review in the loop",
+      "format": "brief",
+      "words": 283,
+      "hero_decision": "Omitted: focused brief selected before drafting; no generation attempted.",
+      "source_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source_published_at": "2026-11-03T12:00:00Z"
+    },
+    {
+      "article_id": "art_f2497d2da3243c28",
+      "slug": "google-school-search-ai-access-controls",
+      "title": "Google puts school Search access inside its new AI controls",
+      "format": "brief",
+      "words": 289,
+      "hero_decision": "Omitted: focused brief selected before drafting; no generation attempted.",
+      "source_url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+      "source_published_at": "2026-11-03T14:00:00Z"
+    }
+  ],
+  "lead_article_id": "art_7aa60ae025d525c4",
+  "image_decision": {
+    "new_heroes": 0,
+    "generation_attempts": 0,
+    "reason": "All three focused brief formats selected before drafting.",
+    "preserved_heroes": [
+      {
+        "article_id": "art_2790d5e5427b4862",
+        "path": "/assets/images/calibrated-disposition-drift.webp",
+        "sha256": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429"
+      },
+      {
+        "article_id": "art_43a5a6eafd6c005a",
+        "path": "/assets/images/context-sensitive-model-boundaries.webp",
+        "sha256": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641"
+      },
+      {
+        "article_id": "art_9692486eeb77934b",
+        "path": "/assets/images/materials-structure-ml.webp",
+        "sha256": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349"
+      },
+      {
+        "article_id": "art_825130cf8cb2d52f",
+        "path": "/assets/images/recoverable-agent-changes.webp",
+        "sha256": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2"
+      },
+      {
+        "article_id": "art_2a3e85161b6aae3f",
+        "path": "/assets/images/pew-task-level-adoption.webp",
+        "sha256": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105"
+      },
+      {
+        "article_id": "art_1353be402f8662ba",
+        "path": "/assets/images/citation-relevance-verification.webp",
+        "sha256": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49"
+      },
+      {
+        "article_id": "art_fc116d0cc59c1c4e",
+        "path": "/assets/images/catalog-field-grounding.webp",
+        "sha256": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c"
+      },
+      {
+        "article_id": "art_552b4e59bc6342ea",
+        "path": "/assets/images/litellm-release-authority.webp",
+        "sha256": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8"
+      },
+      {
+        "article_id": "art_5eb559e50fd7886d",
+        "path": "/assets/images/meta-terms-data-governance.webp",
+        "sha256": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09"
+      },
+      {
+        "article_id": "art_38ce8d74651308c9",
+        "path": "/assets/images/ai-recommendation-bias.webp",
+        "sha256": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275"
+      },
+      {
+        "article_id": "art_614a0336a7737e51",
+        "path": "/assets/images/mercury-diffusion-serving.webp",
+        "sha256": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8"
+      },
+      {
+        "article_id": "art_80b14f6a6fd391a6",
+        "path": "/assets/images/multiagent-review-tradeoffs.webp",
+        "sha256": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a"
+      },
+      {
+        "article_id": "art_313154ba192d9eb5",
+        "path": "/assets/images/llm-proxy-visibility.webp",
+        "sha256": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854"
+      },
+      {
+        "article_id": "art_55c3c0be518a12ff",
+        "path": "/assets/images/hidden-instructions-public-pages.webp",
+        "sha256": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877"
+      },
+      {
+        "article_id": "art_51ebab1d094c7d60",
+        "path": "/assets/images/authorization-agent-boundaries.webp",
+        "sha256": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c"
+      },
+      {
+        "article_id": "art_d26f3b9150349619",
+        "path": "/assets/images/google-agent-guidance-enforcement.webp",
+        "sha256": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6"
+      },
+      {
+        "article_id": "art_51c071c2515ec8fe",
+        "path": "/assets/images/kapitsa-local-inference-operations.webp",
+        "sha256": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3"
+      },
+      {
+        "article_id": "art_4c6292fc5ecba5f2",
+        "path": "/assets/images/voxtral-voice-workflow.webp",
+        "sha256": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+      },
+      {
+        "article_id": "art_b7505ce4183649e7",
+        "path": "/assets/images/agent-harness-state.webp",
+        "sha256": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e"
+      },
+      {
+        "article_id": "art_acf94d966a173a22",
+        "path": "/assets/images/cost-aware-ticket-routing.webp",
+        "sha256": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623"
+      },
+      {
+        "article_id": "art_b984a5c544e63137",
+        "path": "/assets/images/minimax-flash-task-economics.webp",
+        "sha256": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041"
+      },
+      {
+        "article_id": "art_178c37e603121edb",
+        "path": "/assets/images/typed-decisions.webp",
+        "sha256": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf"
+      },
+      {
+        "article_id": "art_26bdab7224d77ff2",
+        "path": "/assets/images/scope-executable-policy.webp",
+        "sha256": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f"
+      },
+      {
+        "article_id": "art_4714611be4537b33",
+        "path": "/assets/images/prompt-judge-evaluation.webp",
+        "sha256": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc"
+      },
+      {
+        "article_id": "art_648d3adba52ea716",
+        "path": "/assets/images/memory-needs-relevance.webp",
+        "sha256": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785"
+      }
+    ]
+  },
+  "preservation": {
+    "prior_file_count": 97,
+    "sha256_by_path": {
+      "_articles/agent-harness-state.md": "30fb339a827e6c42e5f7f1245593fd75443fe008cf97d8672627cbdf685c5701",
+      "_articles/agent-optimization-budget.md": "27b4411ffe01defe841eebc62fae948978d5ea4dbbbb08392e411350cf9bb9b7",
+      "_articles/agentic-web-access-control.md": "f53a87a583977be3ff38ca3c8a97b1386547de19bc04ee02173656cef3d27de5",
+      "_articles/ai-recommendation-bias.md": "dbd62847d98e55ccfb5b55260658fce0b156fedf3ed1f39e00dad8dc2fa5992d",
+      "_articles/anthropic-amended-filing-compute-commitments.md": "7a5e4fd9ef9f0ec8a180b78517e651d76199b8237bbbf586d2cc5e63eefacb9c",
+      "_articles/anthropic-s1-board-control.md": "938ab67c5c0ea41deca97b93c1df8314d86a958c0030ebebb66a5201955d2376",
+      "_articles/authorization-agent-boundaries.md": "49a169e1f567bf6b28c0aaf868ca0bee9011d5ba1e7cdb3e3e32eb5a107ccdac",
+      "_articles/calibrated-disposition-drift.md": "ff82bb66f379fd790053b83e12166e438b035b1d1651d99cb59209f17d5ffd6a",
+      "_articles/catalog-field-grounding.md": "928bf01d359aae346b3a94bab122640bd360ad69c3c14a3a1b17f70f99480e2c",
+      "_articles/ciso-survey-security-deployment.md": "17fdbecef7093dc753f039cadbe471fd63c5d72c0a36b43cb71a959af53d15e7",
+      "_articles/citation-relevance-verification.md": "3524ae8affa5631123894ef0e723147e261338fc7d8ef003590ea7bbfedb28b4",
+      "_articles/claude-batch-review-evidence.md": "ee6478365605b3fba2645df468ba2fe00c56a90a452b7ae5e69a879cb030eece",
+      "_articles/claude-watermark-rollout-detection-limits.md": "1b66aa06038d8ac43502a526b91b491e135c49cef867f9584a36d2248be7fd9f",
+      "_articles/cloudflare-cache-isolation-tests.md": "103e130e142fdf25760ee6384c07b6db8271739d5687e6e92aa82ce7c6b9a7f9",
+      "_articles/confidential-containers-gpu-attestation.md": "13f1fd6e1493436db35c86b8b07c04afcadc556c05e506f173f60af589adca1a",
+      "_articles/context-sensitive-model-boundaries.md": "61a33c99b9d6bb97a2df3116843a9ccda690d2d94badf5101fb6e28d58f1bcc7",
+      "_articles/coordination-agent-economics.md": "897cb1184b78f174f23f918c80685f38d57d614f85de35ba06f6399ae34da695",
+      "_articles/copilot-fusion-model-policy.md": "84ce2920168371cc5a37d6266e6aff80ebae73feb0ff4f58d1ef930580da523f",
+      "_articles/cost-aware-ticket-routing.md": "273bee341ab990d063b125447a0ecb0f545d5d06ce3f4139c5650e566cb7f18f",
+      "_articles/cursor-extension-persistence-recovery.md": "d0c655c67d0fcea41b4641949fdc1d11e57c2184d06bee1fdb681794e596e318",
+      "_articles/fowler-writing-and-understanding.md": "3c4bcb5fb74c386e0ea937b86d9b26e940b0b6310ee4cdb2170a98dbbbe170ce",
+      "_articles/gemini-carbon-restricted-rollout.md": "75d75afe6e53291feb93b9cc640ca5d1915fdd23745993f8b1ea21b485f70c1e",
+      "_articles/genie-4-preview-simulation.md": "f07e3526464194cf4866cd4748a5ca8d8ed9572e1ce962b2486004aa7918afa7",
+      "_articles/google-agent-guidance-enforcement.md": "70b526d0e477d81da0b2b342ffd67fb617b0ab7d4f304f240339043e793de733",
+      "_articles/gpt-6-1-terra-computer-use-trials.md": "586566f03844d89f9ff0fb38bb361be79a19c7db6394e03840e0b10914e63a61",
+      "_articles/hidden-instructions-public-pages.md": "f5cbe46502510c58f383644e29ebac496724382f6a19be2176b214b39c9b9280",
+      "_articles/kapitsa-local-inference-operations.md": "27d9b32d8e8b8d03b72259c8c3421628c2f230b0bca303e75e973c50decf73a0",
+      "_articles/litellm-release-authority.md": "7a427d3eb8193a51fe147cb87b4fb8f3908dfeed6cbe4001e2e6f83490a2ed71",
+      "_articles/llm-proxy-visibility.md": "b3e5a17a3965687f312208d6d300a7eb1a5ea6d4991b2ba0e714efcfcd4feced",
+      "_articles/materials-structure-ml.md": "23856de588f7e0b68251958597e3c568d8c0c7c9f768db6e3af72edf77c6f45d",
+      "_articles/memory-needs-relevance.md": "f40272eea4d7b78c4a5feb610d6c286d52191a8cc0704619eddfa272684326ee",
+      "_articles/mercury-diffusion-serving.md": "e9521d0add84a14d25d6c4f182c6ee8822f7098d683d8b97982696f2ff1c5265",
+      "_articles/meta-terms-data-governance.md": "703a04935248946af266b5d00e80a81d617fe842d2cc29b897244200a4617c05",
+      "_articles/microsoft-buyouts-ai-staffing.md": "62750e3b60c7588a7a8c166df04348b159ee77b658827e64b8c11dc5fee6c805",
+      "_articles/minimax-flash-task-economics.md": "06ca327617b83905b833af16202835b5a6144967387fe650a456be70e900f0c6",
+      "_articles/mistral-large-4-weights-license.md": "3301f4d548867a26beb21ae3eabd37161c5bea31481b09e3557410cbcfe01317",
+      "_articles/model-price-cuts-cache-accounting.md": "bb4e699116cbcbdd2a30acfcb8c2621a7b67dfac1d77f1c56d9b1fafa9782b92",
+      "_articles/multiagent-review-tradeoffs.md": "ff565d16b0cbc4f2cb2833b3414dbdb65de6e41016d6c403fb7faa5b4d51418b",
+      "_articles/multilingual-safety-template-evidence.md": "5500f0967a52b44dc965e688d02cf788aa3ab0537e685a2214291693cc995ce3",
+      "_articles/openai-funding-target-continuity.md": "620c2facc5db98fcc8b4c2e3331e2bf89020e60e9e5bca4c3b999b3f7797636c",
+      "_articles/openai-grid-protectors-demand-flexibility.md": "a1e743b2bca5cefb54672215eecaba7379c3cacb6003ab4c37b013e4cc7aaee0",
+      "_articles/pew-task-level-adoption.md": "94771fdb0b37e5f0a9a5184f5319b5e1f3c2bd6c87fb64a1ace593db00181a0c",
+      "_articles/php-old-flaws-operating-pressure.md": "8ba708edd9b993403d202198f98bf3214039b1c95cf2e5008febbad8492a3ed1",
+      "_articles/prompt-judge-evaluation.md": "f8ec436c28008de3d86e48b0e937d402863a3a0adc9bfbd9d817753ba42ecd28",
+      "_articles/proton-engineering-workflow-bottlenecks.md": "7fcbb3f41c4425442f2531f08492bf659751808bd0df7f8c43ad97e6ddd2ca0c",
+      "_articles/rao-ai-adoption-unserved-work.md": "7b71eab3a86b0453b9ab95e5c7787da7e6553d2118a56b49e80fe3302b5847b3",
+      "_articles/recoverable-agent-changes.md": "e796351f53a8bb8ff10e5c2738723107aaff2ade58798864514bd0f2c6d00619",
+      "_articles/ryanair-ai-productivity-cost-review.md": "a3bebf27c49ed4b1784cc8bafeebaf1e44220efcbd0b11e21b677150edb699e7",
+      "_articles/scope-executable-policy.md": "10669b500b510553c2a71c0bdafddb0310a796dc2e4b8c8422463f60925e39ad",
+      "_articles/suse-workforce-reduction-ai-rationale.md": "2a061d4a80454b13ceb8bb048db5a40f9486f01a5bb7463db16fa0160a3c9eeb",
+      "_articles/typed-decisions.md": "ef36d94a81f42c0d9f3ee96e926995bb8bbaedc6e7e2beb000bfe8f16e0c55ee",
+      "_articles/volta-infostealer-victim-profiling.md": "09c23f19f45d02778fd696ee5f80ec0c4f0f6a83637a87d650d3503ed4cd18e7",
+      "_articles/voxtral-voice-workflow.md": "822244e80bc80e114cc1c1458c06848e7b93e3a6febe55ed30d610f1c497cb50",
+      "_articles/xai-pollution-lawsuit-dismissal-denied.md": "83042a63920606544f33cc6fcb2d1f033b2f2f61e576ab385ca2372d5b5515cf",
+      "_editions/2026-10-18.md": "9c7f8a77f5f9f117c2fdb4d3f62183d99522fa474c8019a544326f626ae417fd",
+      "_editions/2026-10-19.md": "eadf0d2d77f8d7fda3003e8086398499e0c818d4d6f91522acbabbe3b50cb46c",
+      "_editions/2026-10-20.md": "171dcb97b2786d51fd0eee72228bbe933f8be7b5f197ea3ca2b5209705fac4a4",
+      "_editions/2026-10-21.md": "b343ec4a4071c4af34077d5ad08d1f98ffb3d38363aea711eb64829b8758325b",
+      "_editions/2026-10-22.md": "578f864a629021230ab37e23a392e38d42e286cf44111011ad394a2b9be532f6",
+      "_editions/2026-10-23.md": "b2c8a98d71902ebd1b04f6480b1d6a0ff56b3207f8b584c1722cbb766f6ee782",
+      "_editions/2026-10-24.md": "f377e552ba9653b4a0d9e8da11623700a7e90ec592453298c6183c654db4af4e",
+      "_editions/2026-10-25.md": "235fd2ef72c4ece0a07202cd5912a074aaae131ba7a6b776e81b62610aa969a1",
+      "_editions/2026-10-26.md": "c9bdb705a98b1406c948a228847ec3b1a8976beea1da0a64f3d1e41f4a96cbba",
+      "_editions/2026-10-27.md": "c0f7fddd7eabe330f201c73ed1effecc655e4c5caf6b6043517cc0172f1bdeba",
+      "_editions/2026-10-28.md": "14a1472cec757e791fd58b973f919cfc23a72dc668eaf73d97f9c15b1a4b20dd",
+      "_editions/2026-10-29.md": "279b947e4d3706f41e0d8b4b17e4b4bae477964b58d76801f36a7f6fd1dd6ae0",
+      "_editions/2026-10-30.md": "e6b1a4b850a9c8abd78682484ab8db7da07d51c7f57685ac7f70b406520cb54b",
+      "_editions/2026-10-31.md": "1ba507ecb20b4dc25fdc4acdfb52b3996c057e52c909a6ec48a2ffdacfc0e860",
+      "_editions/2026-11-01.md": "b19c432ef6519f0d46380b7ac0252e053a00c570559effa4520f4b3fbf10e563",
+      "_editions/2026-11-02.md": "0366e8fa3b0a317dd5a87b7d3ed0bd31840dc98ce0f01603aa256b10174b55d7",
+      "_editions/2026-11-03.md": "304889682ab93f82dbf2c7aa232d0acf40fb0eb41af600973312242046821354",
+      "assets/images/agent-harness-state.webp": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e",
+      "assets/images/ai-recommendation-bias.webp": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275",
+      "assets/images/authorization-agent-boundaries.webp": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c",
+      "assets/images/calibrated-disposition-drift.webp": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429",
+      "assets/images/catalog-field-grounding.webp": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c",
+      "assets/images/citation-relevance-verification.webp": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49",
+      "assets/images/context-sensitive-model-boundaries.webp": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641",
+      "assets/images/cost-aware-ticket-routing.webp": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623",
+      "assets/images/google-agent-guidance-enforcement.webp": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6",
+      "assets/images/hidden-instructions-public-pages.webp": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877",
+      "assets/images/kapitsa-local-inference-operations.webp": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+      "assets/images/litellm-release-authority.webp": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+      "assets/images/llm-proxy-visibility.webp": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854",
+      "assets/images/materials-structure-ml.webp": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349",
+      "assets/images/memory-needs-relevance.webp": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785",
+      "assets/images/mercury-diffusion-serving.webp": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8",
+      "assets/images/meta-terms-data-governance.webp": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09",
+      "assets/images/minimax-flash-task-economics.webp": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041",
+      "assets/images/multiagent-review-tradeoffs.webp": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a",
+      "assets/images/pew-task-level-adoption.webp": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105",
+      "assets/images/prompt-judge-evaluation.webp": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc",
+      "assets/images/publication-share.png": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610",
+      "assets/images/recoverable-agent-changes.webp": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2",
+      "assets/images/scope-executable-policy.webp": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f",
+      "assets/images/typed-decisions.webp": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf",
+      "assets/images/voxtral-voice-workflow.webp": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+    },
+    "observed_changed_files": []
+  },
+  "publication_urls": [
+    "https://yesterdai.tedt.org/editions/2026-11-04/",
+    "https://yesterdai.tedt.org/articles/menlo-enterprise-ai-spending-run-rate/",
+    "https://yesterdai.tedt.org/articles/openai-physical-engineering-manufacturing-review/",
+    "https://yesterdai.tedt.org/articles/google-school-search-ai-access-controls/"
+  ],
+  "preflight": {
+    "started_at": "2026-11-04T13:10:56.558821+00:00",
+    "stages": [
+      {
+        "command": [
+          ".venv/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests"
+        ],
+        "exit_code": 0,
+        "seconds": 0.482,
+        "output": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 0.354s\n\nOK\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T12:00:00Z\"}\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T13:00:00Z\"}\n"
+      },
+      {
+        "command": [
+          ".venv/bin/python",
+          "scripts/publish.py",
+          "validate"
+        ],
+        "exit_code": 0,
+        "seconds": 0.187,
+        "output": "Validated 18 editions and 57 complete researched stories.\n"
+      },
+      {
+        "command": [
+          "bundle",
+          "exec",
+          "jekyll",
+          "build",
+          "--strict_front_matter"
+        ],
+        "exit_code": 0,
+        "seconds": 0.942,
+        "output": "`/Users/tedtschopp` is not writable.\nBundler will use `/var/folders/rl/w92r_6tx4dx3m6mpp07y2tc00000gn/T/bundler20261104-74341-9zfx8q74341' as your home directory temporarily.\nConfiguration file: /Users/tedtschopp/Developer/yesterdai-daily-20261104/_config.yml\n            Source: /Users/tedtschopp/Developer/yesterdai-daily-20261104\n       Destination: /Users/tedtschopp/Developer/yesterdai-daily-20261104/_site\n Incremental build: disabled. Enable with --incremental\n      Generating... \n                    done in 0.493 seconds.\n Auto-regeneration: disabled. Use --watch to enable.\n"
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "index"
+        ],
+        "exit_code": 0,
+        "seconds": 0.647,
+        "output": "\n> index\n> pagefind --site _site --glob 'articles/**/index.html'\n\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"/Users/tedtschopp/Developer/yesterdai-daily-20261104\"\nSource:       \"_site\"\nOutput:       \"_site/pagefind\"\n\n[Walking source directory]\nFound 57 files matching articles/**/index.html\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n↳ Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 57 pages\n  Indexed 3092 words\n  Indexed 2 filters\n  Indexed 0 sorts\n\nFinished in 0.063 seconds\n"
+      },
+      {
+        "command": [
+          ".venv/bin/python",
+          "scripts/check_site.py"
+        ],
+        "exit_code": 0,
+        "seconds": 0.604,
+        "output": "Checked 88 HTML pages, internal links, accessibility metadata, feeds, and sitemap; 3.8 MB.\n"
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "test:smoke"
+        ],
+        "exit_code": 0,
+        "seconds": 0.41,
+        "output": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n✔ the current edition stays quiet and the prior one gets a grace period (19.812708ms)\n✔ the seven-am deadline follows both DST transitions (0.336208ms)\n✔ midnight does not warn about an edition that is not due yet (0.344833ms)\n✔ recent successful checks stay quiet even if the content was unchanged (0.090209ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 112.633667\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate.\n"
+      }
+    ],
+    "status": "passed",
+    "completed_at": "2026-11-04T13:10:59.832104+00:00",
+    "toolchain": {
+      "ruby": "ruby 3.2.9 (2025-07-24 revision 8f611e0c46) [arm64-darwin25]",
+      "python": "Python 3.14.10",
+      "node": "v26.12.1"
+    }
+  },
+  "publication": {
+    "status": "preflight_passed_awaiting_guarded_ship",
+    "required_action": "Finish preflight, commit, guarded ship and exact-commit/public verification automatically."
+  }
+}
