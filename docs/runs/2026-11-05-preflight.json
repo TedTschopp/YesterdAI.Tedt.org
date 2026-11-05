@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-11-05T14:21:51.080931+00:00",
+  "results": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.488,
+      "stdout": "{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T12:00:00Z\"}\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T13:00:00Z\"}\n",
+      "stderr": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 0.359s\n\nOK\n"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/publish.py",
+        "validate"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.196,
+      "stdout": "Validated 19 editions and 60 complete researched stories.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "bundle",
+        "exec",
+        "jekyll",
+        "build",
+        "--strict_front_matter"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.04,
+      "stdout": "Configuration file: /Users/tedtschopp/Developer/yesterdai-daily-20261105/_config.yml\n            Source: /Users/tedtschopp/Developer/yesterdai-daily-20261105\n       Destination: /Users/tedtschopp/Developer/yesterdai-daily-20261105/_site\n Incremental build: disabled. Enable with --incremental\n      Generating... \n                    done in 0.474 seconds.\n Auto-regeneration: disabled. Use --watch to enable.\n",
+      "stderr": "`/Users/tedtschopp` is not writable.\nBundler will use `/var/folders/rl/w92r_6tx4dx3m6mpp07y2tc00000gn/T/bundler20261105-8669-nlwce58669' as your home directory temporarily.\n"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "index"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.315,
+      "stdout": "\n> index\n> pagefind --site _site --glob 'articles/**/index.html'\n\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"/Users/tedtschopp/Developer/yesterdai-daily-20261105\"\nSource:       \"_site\"\nOutput:       \"_site/pagefind\"\n\n[Walking source directory]\nFound 60 files matching articles/**/index.html\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n\u21b3 Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 60 pages\n  Indexed 3171 words\n  Indexed 2 filters\n  Indexed 0 sorts\n\nFinished in 0.057 seconds\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_site.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.637,
+      "stdout": "Checked 92 HTML pages, internal links, accessibility metadata, feeds, and sitemap; 3.9 MB.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "test:smoke"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.429,
+      "stdout": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n\u2714 the current edition stays quiet and the prior one gets a grace period (20.635667ms)\n\u2714 the seven-am deadline follows both DST transitions (0.316375ms)\n\u2714 midnight does not warn about an edition that is not due yet (0.332541ms)\n\u2714 recent successful checks stay quiet even if the content was unchanged (0.086791ms)\n\u2139 tests 4\n\u2139 suites 0\n\u2139 pass 4\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 119.249\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate.\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true
+}

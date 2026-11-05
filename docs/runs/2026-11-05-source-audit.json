@@ -1,0 +1,777 @@
+{
+  "run_date": "2026-11-05",
+  "reader_contract_version": "2.0.3",
+  "article_contract": 2,
+  "writing_style": "ted-writing-style",
+  "writing_style_version": "1.0.0",
+  "mode": "technology/strategy",
+  "headline_decision": "Current explicit user instruction selects AP sentence-style publication headlines; policies and archives unchanged.",
+  "base_sha": "729685e1e769a6284a4602774d1cfc0ab8cf90d5",
+  "worktree": "/Users/tedtschopp/Developer/yesterdai-daily-20261105",
+  "cutoff": "2026-11-05T05:00:00-08:00",
+  "window_start": "2026-11-04T01:00:00Z",
+  "prepared_at": "2026-11-05T14:21:04.012887Z",
+  "actual_publication_at": null,
+  "discovery": {
+    "checked_at": "2026-11-05T14:16:19.253025Z",
+    "feeds": {
+      "curated": {
+        "usable_items": 235,
+        "ingestion_exclusions": [
+          {
+            "id": "2e6b008d7907924a9c4c56743403e3af",
+            "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+          }
+        ]
+      },
+      "top": {
+        "usable_items": 198,
+        "ingestion_exclusions": [
+          {
+            "id": "sty_fb2148d43883c823",
+            "reason": "malformed item fields"
+          },
+          {
+            "id": "sty_4d1a214f8b70e9d3",
+            "reason": "malformed item fields"
+          }
+        ]
+      }
+    }
+  },
+  "deduplication": {
+    "preceding_editions": [
+      {
+        "edition_date": "2026-10-29",
+        "articles": [
+          {
+            "article_id": "art_25fbc9537ce488a6",
+            "story_key": "https://www.a16z.news/p/the-new-security-agenda",
+            "source": "https://www.a16z.news/p/the-new-security-agenda"
+          },
+          {
+            "article_id": "art_af8e72e013cbe8cf",
+            "story_key": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+            "source": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
+          },
+          {
+            "article_id": "art_3e32bae570ff21ee",
+            "story_key": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+            "source": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/"
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-10-30",
+        "articles": [
+          {
+            "article_id": "art_5a25565ab71a8d06",
+            "story_key": "https://mistral.ai/news/mistral-large-4-oss",
+            "source": "https://mistral.ai/news/mistral-large-4-oss/"
+          },
+          {
+            "article_id": "art_815e9f76383a9012",
+            "story_key": "https://martinfowler.com/bliki/LLM-Voice.html",
+            "source": "https://martinfowler.com/bliki/LLM-Voice.html"
+          },
+          {
+            "article_id": "art_9119d7a196c48299",
+            "story_key": "https://institute.deepmind.com/essays/the-economics-of-intelligence",
+            "source": "https://institute.deepmind.com/essays/the-economics-of-intelligence/"
+          },
+          {
+            "article_id": "art_c3a6927a59480677",
+            "story_key": "https://arxiv.org/abs/2610.40516",
+            "source": "https://arxiv.org/abs/2610.40516"
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-10-31",
+        "articles": [
+          {
+            "article_id": "art_9fcef969c25d985d",
+            "story_key": "https://www.aol.com/articles/openai-cuts-funding-target-10-001717000.html",
+            "source": "https://www.aol.com/articles/openai-cuts-funding-target-10-001717000.html"
+          },
+          {
+            "article_id": "art_b11cb5d74cc4c058",
+            "story_key": "https://cursor.com/blog/claude-code-extension-security-notice",
+            "source": "https://cursor.com/blog/claude-code-extension-security-notice"
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-01",
+        "articles": [
+          {
+            "article_id": "art_c0588a787514ce74",
+            "story_key": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+            "source": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+          },
+          {
+            "article_id": "art_666d65fb5c8d82e4",
+            "story_key": "https://www.infoq.com/news/2026/10/k8s-confidential-containers",
+            "source": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/"
+          },
+          {
+            "article_id": "art_909c4a46811dca1c",
+            "story_key": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models",
+            "source": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/"
+          },
+          {
+            "article_id": "art_b57691e750415c60",
+            "story_key": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+            "source": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-02",
+        "articles": [
+          {
+            "article_id": "art_7ef52e0b08b2b23c",
+            "story_key": "https://proton.me/blog/ai-manifesto",
+            "source": "https://proton.me/blog/ai-manifesto"
+          },
+          {
+            "article_id": "art_3615c38e010c6fac",
+            "story_key": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here",
+            "source": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/"
+          },
+          {
+            "article_id": "art_9fae4a69c581cd5b",
+            "story_key": "https://corporate.ryanair.com/news/ryanair-h1-pat-falls-15-to-e2-15bn-as-unhedged-oil-doubles-traffic-grows-6-at-lower-fares",
+            "source": "https://corporate.ryanair.com/news/ryanair-h1-pat-falls-15-to-e2-15bn-as-unhedged-oil-doubles-traffic-grows-6-at-lower-fares/"
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-03",
+        "articles": [
+          {
+            "article_id": "art_5d33ed0c66ace544",
+            "story_key": "https://openai.com/index/grid-protectors-program",
+            "source": "https://openai.com/index/grid-protectors-program"
+          },
+          {
+            "article_id": "art_ab9f51c8b2c31abd",
+            "story_key": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+            "source": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950"
+          },
+          {
+            "article_id": "art_e7d80beac93a70b9",
+            "story_key": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+            "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-04",
+        "articles": [
+          {
+            "article_id": "art_25493a43cba550c7",
+            "story_key": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+            "source": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+          },
+          {
+            "article_id": "art_7aa60ae025d525c4",
+            "story_key": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai",
+            "source": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/"
+          },
+          {
+            "article_id": "art_f2497d2da3243c28",
+            "story_key": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026",
+            "source": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/"
+          }
+        ],
+        "quick_hits": []
+      }
+    ],
+    "article_count": 22
+  },
+  "candidate_records": [
+    {
+      "key": "curated-0",
+      "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+      "resolved_url": "https://stratechery.com/2026/ai-on-the-ballot/",
+      "status": "ok",
+      "bytes": 321456,
+      "sha256": "47c100b971ca47bf52240418675f52ff5bb67648522d03482e9dece995f5f40a",
+      "metadata": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-04T11:00:00+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-04T11:16:48+00:00"
+        }
+      ],
+      "disposition": "editorial-priority",
+      "reason": "Original article:published_time 2026-11-04T11:00:00+00:00 establishes an eligible original; selected operational primary accounts create more immediate reader decisions. No policy claim published from this candidate."
+    },
+    {
+      "key": "curated-1",
+      "url": "https://www.signalful.com/what-would-end-the-ai-funding-boom/",
+      "resolved_url": "https://www.signalful.com/what-would-end-the-ai-funding-boom/",
+      "status": "ok",
+      "bytes": 88113,
+      "sha256": "90751abee0957122e276c7802c9c570f60b342e958f2cafa2dfffde533285d2f",
+      "metadata": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-04T13:00:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-04T13:46:55.000Z"
+        }
+      ],
+      "disposition": "editorial-priority",
+      "reason": "Article JSON-LD and metadata agree on 2026-11-04T13:00:00Z. Eligible practitioner commentary; selected three primary developments for focused operational decisions."
+    },
+    {
+      "key": "curated-2",
+      "url": "https://openai.com/index/lifeval/",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "disposition": "outside-window",
+      "reason": "Official OpenAI RSS gives November 2 09:00Z and the web-reader original visibly gives November 2; direct 403 resolved by web-reader read."
+    },
+    {
+      "key": "curated-3",
+      "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/turning-executive-judgment-into-organizational-intelligence-leveraging-ai-in-ceo-leadership",
+      "status": "error",
+      "error": "The read operation timed out",
+      "disposition": "outside-window",
+      "reason": "Web-reader original visibly dates the article November 2. Direct retrieval timed out; no substantive update verified."
+    },
+    {
+      "key": "curated-4",
+      "url": "https://hbr.org/2026/10/team-dynamics-weaken-when-employees-turn-to-ai-instead-of-colleagues",
+      "resolved_url": "https://hbr.org/2026/10/team-dynamics-weaken-when-employees-turn-to-ai-instead-of-colleagues",
+      "status": "ok",
+      "bytes": 171771,
+      "sha256": "1696bc3641e1e7f68209240c8ae8d44f3ff6e6624a582bdbc3a022a2f750f3d6",
+      "metadata": [
+        {
+          "property": "article:publisher",
+          "content": "https://www.facebook.com/HBR",
+          "data-testid": "meta"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-10-15T12:15:51.000+00:00",
+          "data-testid": "meta"
+        },
+        {
+          "property": "article:modified_time",
+          "data-testid": "meta"
+        }
+      ],
+      "disposition": "outside-window",
+      "reason": "Original metadata and JSON-LD give October 15 12:15:51Z."
+    },
+    {
+      "key": "curated-5",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
+      "resolved_url": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
+      "status": "ok",
+      "bytes": 1460692,
+      "sha256": "cd98f913d03b7583608021cad2cbb37ca4a3ab0c764475d66487497f4f3e7d61",
+      "metadata": [
+        {
+          "property": "og:updated_time",
+          "content": "2026-11-04T08:23:33-08:00"
+        },
+        {
+          "property": "article:publisher",
+          "content": "https://www.facebook.com/amazonwebservices"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-11-04T08:23:33-08:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-04T08:23:33-08:00"
+        }
+      ],
+      "disposition": "selected",
+      "reason": "AWS original metadata 2026-11-04T08:23:33-08:00 and visible November 4; complete original read.",
+      "original_content_verified": true,
+      "content_access_method": "Complete direct original and web-reader original; article metadata verifies exact original time."
+    },
+    {
+      "key": "curated-6",
+      "url": "https://x.com/addyosmani/status/2117512471930167377",
+      "resolved_url": "https://x.com/addyosmani/status/2117512471930167377",
+      "status": "ok",
+      "bytes": 435446,
+      "sha256": "85f11de80e7753783cb6eb8e548fb0d3aeeee481ef8b7da0e343c90939c1052f",
+      "metadata": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-03T07:01:29.000Z"
+        }
+      ],
+      "disposition": "outside-window",
+      "reason": "Original article:published_time 2026-11-03T07:01:29Z, before window start."
+    },
+    {
+      "key": "curated-7",
+      "url": "https://seekingalpha.com/news/4662812-goldman-sachs-bans-traders-and-bankers-from-using-some-ai-tools-report",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "disposition": "access-failure",
+      "reason": "Original returned HTTP 403; no verified complete original used."
+    },
+    {
+      "key": "curated-8",
+      "url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+      "resolved_url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+      "status": "ok",
+      "bytes": 187910,
+      "sha256": "0828d10bba7d95e08592e802c8f6a95215a041b61a5ed906af9aaef37b003f1e",
+      "metadata": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-03T14:00:00+00:00"
+        },
+        {
+          "name": "twitter:label2",
+          "content": "Est. reading time"
+        }
+      ],
+      "disposition": "seven-day-duplicate",
+      "reason": "Same Menlo report retained in completed November 4 checkpoint; original date November 3 14:00Z is also outside today’s window."
+    },
+    {
+      "key": "curated-9",
+      "url": "https://commandline.microsoft.com/how-we-built-copilot-cowork-python-to-rust-migration/",
+      "resolved_url": "https://commandline.microsoft.com/how-we-built-copilot-cowork-python-to-rust-migration/",
+      "status": "ok",
+      "bytes": 204915,
+      "sha256": "25efbadc056c2380e7e47707e12d07b416c5b1974ad58d5d88f960da136832ca",
+      "metadata": [
+        {
+          "name": "description",
+          "content": "Plus a case study where we put everything together by moving our runtime from Python to Rust while live."
+        },
+        {
+          "property": "og:description",
+          "content": "Plus a case study where we put everything together by moving our runtime from Python to Rust while live."
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-11-02T15:13:56+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-02T15:13:58+00:00"
+        },
+        {
+          "name": "twitter:description",
+          "content": "Plus a case study where we put everything together by moving our runtime from Python to Rust while live."
+        },
+        {
+          "name": "twitter:label2",
+          "content": "Est. reading time"
+        }
+      ],
+      "disposition": "outside-window",
+      "reason": "Original JSON-LD and metadata November 2 15:13:56Z; visible date confirms November 2."
+    },
+    {
+      "key": "curated-10",
+      "url": "https://www.bcg.com/publications/2026/saas-pricing-must-change-agentic-ai",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "disposition": "access-failure",
+      "reason": "Original returned HTTP 403 in this run. No new substantive update verified; prior run’s older-date observation is not used as current date proof."
+    },
+    {
+      "key": "curated-11",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "resolved_url": "https://www.anthropic.com/research/provable-inference",
+      "status": "ok",
+      "bytes": 250294,
+      "sha256": "298fdb38a0330b5829ea287602f954d01e7206314663f08b4191273eb5f94a7a",
+      "metadata": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-02T00:00:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-03T19:10:19.000Z"
+        }
+      ],
+      "disposition": "outside-window",
+      "reason": "Original JSON-LD/metadata November 2; modified November 3 19:10:19Z is also outside current window. Same URL appears as ranked item 5."
+    },
+    {
+      "key": "top-0",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "disposition": "selected",
+      "reason": "Official OpenAI RSS exact original November 4 08:00Z; complete web-reader original read after direct 403.",
+      "original_content_verified": true,
+      "content_access_method": "Complete web-reader original after direct 403; publisher RSS verifies original time."
+    },
+    {
+      "key": "top-1",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "disposition": "outside-window",
+      "reason": "Official OpenAI RSS November 4 00:00Z is one hour before window start, despite ranked discovery November 4 23:35:44Z. Visible November 4 alone cannot override precise publisher timestamp."
+    },
+    {
+      "key": "top-3",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "resolved_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "status": "ok",
+      "bytes": 344313,
+      "sha256": "96c52a0f1c1665224febac0e803f5e55ff3d581bb5310d11a920d7be65a2e3e5",
+      "metadata": [],
+      "disposition": "unverified-original-date",
+      "reason": "Model card has no original timestamp in retrieved metadata. Feed time is not publication proof; no claim that first model release was established."
+    },
+    {
+      "key": "top-5",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "resolved_url": "https://www.anthropic.com/research/provable-inference",
+      "status": "ok",
+      "bytes": 250294,
+      "sha256": "298fdb38a0330b5829ea287602f954d01e7206314663f08b4191273eb5f94a7a",
+      "metadata": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-02T00:00:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-03T19:10:19.000Z"
+        }
+      ],
+      "disposition": "duplicate-candidate",
+      "reason": "Same Anthropic original as curated-11; count once as a development."
+    },
+    {
+      "key": "top-7",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "disposition": "selected",
+      "reason": "Official OpenAI RSS exact original November 4 14:30Z; complete web-reader announcement read after direct 403.",
+      "original_content_verified": true,
+      "content_access_method": "Complete web-reader original after direct 403; publisher RSS verifies original time."
+    },
+    {
+      "key": "top-12",
+      "url": "https://vllm.ai/blog/2026-11-04-introducing-kinference",
+      "resolved_url": "https://vllm.ai/blog/2026-11-04-introducing-kinference",
+      "status": "ok",
+      "bytes": 161278,
+      "sha256": "bbe93e292475a8f0d276ff31309f8c504ea0b8471999721e9b82d7e162a93770",
+      "metadata": [
+        {
+          "name": "publisher",
+          "content": "vLLM Project"
+        },
+        {
+          "property": "og:image",
+          "content": "https://vllm.ai/og?title=Introducing%20Kinference%3A%20An%20Open%20Source%20Inference%20Control%20Plane%20for%20vLLM%20and%20Kubernetes&authors=the%20Kinference%20Team&date=2026-11-04&path=/blog"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-11-04"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-04"
+        },
+        {
+          "name": "twitter:image",
+          "content": "https://vllm.ai/og?title=Introducing%20Kinference%3A%20An%20Open%20Source%20Inference%20Control%20Plane%20for%20vLLM%20and%20Kubernetes&authors=the%20Kinference%20Team&date=2026-11-04&path=/blog"
+        }
+      ],
+      "disposition": "unverified-original-date",
+      "reason": "Publisher JSON-LD and metadata only supply November 4 without an evidenced timezone. Date-only boundary requirements not met."
+    },
+    {
+      "key": "top-21",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "status": "error",
+      "error": "HTTP Error 403: Forbidden",
+      "disposition": "not-fully-verified",
+      "reason": "Official RSS supplies November 5 02:00Z, but original body was not verified in this run. Three stronger, distinct stories already supported; no claim of candidate exhaustion."
+    }
+  ],
+  "distinct_candidates": 18,
+  "candidate_dispositions": {
+    "editorial-priority": 2,
+    "outside-window": 7,
+    "selected": 3,
+    "access-failure": 2,
+    "seven-day-duplicate": 1,
+    "unverified-original-date": 2,
+    "not-fully-verified": 1
+  },
+  "candidate_exhaustion_claim": false,
+  "target_minimum": 3,
+  "target_maximum": 5,
+  "selected_count": 3,
+  "shortfall": 0,
+  "formats": [
+    {
+      "article_id": "art_fbaa86a829ad59fd",
+      "format": "brief",
+      "words": 282,
+      "hero": "omitted; focused brief selected before drafting",
+      "source_time": "2026-11-04T08:00:00Z",
+      "style_diagnostic": {
+        "exit_code": 0,
+        "stdout": "Ted writing-style diagnostic (guidance, not a score)\nWords: 283\nParagraphs: 6\nSentences: 18\nMean sentence length: 15.7 words\nMedian sentence length: 13 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 46 words\nFirst person: 0.0 per 1,000 words\nSecond person: 3.53 per 1,000 words\nSemicolons: 3.53 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+        "stderr": ""
+      }
+    },
+    {
+      "article_id": "art_83d7690781e8e88d",
+      "format": "brief",
+      "words": 288,
+      "hero": "omitted; focused brief selected before drafting",
+      "source_time": "2026-11-04T16:23:33Z",
+      "style_diagnostic": {
+        "exit_code": 0,
+        "stdout": "Ted writing-style diagnostic (guidance, not a score)\nWords: 300\nParagraphs: 6\nSentences: 20\nMean sentence length: 15.0 words\nMedian sentence length: 15 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 55 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+        "stderr": ""
+      }
+    },
+    {
+      "article_id": "art_1be4fdd8e6ca80f0",
+      "format": "brief",
+      "words": 268,
+      "hero": "omitted; focused brief selected before drafting",
+      "source_time": "2026-11-04T14:30:00Z",
+      "style_diagnostic": {
+        "exit_code": 0,
+        "stdout": "Ted writing-style diagnostic (guidance, not a score)\nWords: 278\nParagraphs: 6\nSentences: 17\nMean sentence length: 16.4 words\nMedian sentence length: 15 words\nQuestions: 5.88% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 53 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+        "stderr": ""
+      }
+    }
+  ],
+  "image_outcome": {
+    "new_heroes": 0,
+    "generation_attempts": 0,
+    "existing_hero_policy": "Preserve every attached hero and all prior images byte-for-byte."
+  },
+  "preserved_files": {
+    "_articles/openai-physical-engineering-manufacturing-review.md": "e17e455421b86ecbce6f23fd904297d69f35c4ccc627070e43fd93f50ec8a868",
+    "_articles/anthropic-s1-board-control.md": "938ab67c5c0ea41deca97b93c1df8314d86a958c0030ebebb66a5201955d2376",
+    "_articles/calibrated-disposition-drift.md": "ff82bb66f379fd790053b83e12166e438b035b1d1651d99cb59209f17d5ffd6a",
+    "_articles/context-sensitive-model-boundaries.md": "61a33c99b9d6bb97a2df3116843a9ccda690d2d94badf5101fb6e28d58f1bcc7",
+    "_articles/materials-structure-ml.md": "23856de588f7e0b68251958597e3c568d8c0c7c9f768db6e3af72edf77c6f45d",
+    "_articles/recoverable-agent-changes.md": "e796351f53a8bb8ff10e5c2738723107aaff2ade58798864514bd0f2c6d00619",
+    "_articles/proton-engineering-workflow-bottlenecks.md": "7fcbb3f41c4425442f2531f08492bf659751808bd0df7f8c43ad97e6ddd2ca0c",
+    "_articles/mistral-large-4-weights-license.md": "3301f4d548867a26beb21ae3eabd37161c5bea31481b09e3557410cbcfe01317",
+    "_articles/pew-task-level-adoption.md": "94771fdb0b37e5f0a9a5184f5319b5e1f3c2bd6c87fb64a1ace593db00181a0c",
+    "_articles/ciso-survey-security-deployment.md": "17fdbecef7093dc753f039cadbe471fd63c5d72c0a36b43cb71a959af53d15e7",
+    "_articles/citation-relevance-verification.md": "3524ae8affa5631123894ef0e723147e261338fc7d8ef003590ea7bbfedb28b4",
+    "_articles/fowler-writing-and-understanding.md": "3c4bcb5fb74c386e0ea937b86d9b26e940b0b6310ee4cdb2170a98dbbbe170ce",
+    "_articles/copilot-fusion-model-policy.md": "84ce2920168371cc5a37d6266e6aff80ebae73feb0ff4f58d1ef930580da523f",
+    "_articles/model-price-cuts-cache-accounting.md": "bb4e699116cbcbdd2a30acfcb8c2621a7b67dfac1d77f1c56d9b1fafa9782b92",
+    "_articles/catalog-field-grounding.md": "928bf01d359aae346b3a94bab122640bd360ad69c3c14a3a1b17f70f99480e2c",
+    "_articles/volta-infostealer-victim-profiling.md": "09c23f19f45d02778fd696ee5f80ec0c4f0f6a83637a87d650d3503ed4cd18e7",
+    "_articles/openai-grid-protectors-demand-flexibility.md": "a1e743b2bca5cefb54672215eecaba7379c3cacb6003ab4c37b013e4cc7aaee0",
+    "_articles/agentic-web-access-control.md": "f53a87a583977be3ff38ca3c8a97b1386547de19bc04ee02173656cef3d27de5",
+    "_articles/litellm-release-authority.md": "7a427d3eb8193a51fe147cb87b4fb8f3908dfeed6cbe4001e2e6f83490a2ed71",
+    "_articles/suse-workforce-reduction-ai-rationale.md": "2a061d4a80454b13ceb8bb048db5a40f9486f01a5bb7463db16fa0160a3c9eeb",
+    "_articles/coordination-agent-economics.md": "897cb1184b78f174f23f918c80685f38d57d614f85de35ba06f6399ae34da695",
+    "_articles/meta-terms-data-governance.md": "703a04935248946af266b5d00e80a81d617fe842d2cc29b897244200a4617c05",
+    "_articles/ai-recommendation-bias.md": "dbd62847d98e55ccfb5b55260658fce0b156fedf3ed1f39e00dad8dc2fa5992d",
+    "_articles/mercury-diffusion-serving.md": "e9521d0add84a14d25d6c4f182c6ee8822f7098d683d8b97982696f2ff1c5265",
+    "_articles/multiagent-review-tradeoffs.md": "ff565d16b0cbc4f2cb2833b3414dbdb65de6e41016d6c403fb7faa5b4d51418b",
+    "_articles/llm-proxy-visibility.md": "b3e5a17a3965687f312208d6d300a7eb1a5ea6d4991b2ba0e714efcfcd4feced",
+    "_articles/menlo-enterprise-ai-spending-run-rate.md": "39d3a6c2a16a49e0e682f3b8fe7db065dbec7201225189dfd86e759ff644463a",
+    "_articles/confidential-containers-gpu-attestation.md": "13f1fd6e1493436db35c86b8b07c04afcadc556c05e506f173f60af589adca1a",
+    "_articles/ryanair-ai-productivity-cost-review.md": "a3bebf27c49ed4b1784cc8bafeebaf1e44220efcbd0b11e21b677150edb699e7",
+    "_articles/hidden-instructions-public-pages.md": "f5cbe46502510c58f383644e29ebac496724382f6a19be2176b214b39c9b9280",
+    "_articles/anthropic-amended-filing-compute-commitments.md": "7a5e4fd9ef9f0ec8a180b78517e651d76199b8237bbbf586d2cc5e63eefacb9c",
+    "_articles/authorization-agent-boundaries.md": "49a169e1f567bf6b28c0aaf868ca0bee9011d5ba1e7cdb3e3e32eb5a107ccdac",
+    "_articles/claude-batch-review-evidence.md": "ee6478365605b3fba2645df468ba2fe00c56a90a452b7ae5e69a879cb030eece",
+    "_articles/google-agent-guidance-enforcement.md": "70b526d0e477d81da0b2b342ffd67fb617b0ab7d4f304f240339043e793de733",
+    "_articles/kapitsa-local-inference-operations.md": "27d9b32d8e8b8d03b72259c8c3421628c2f230b0bca303e75e973c50decf73a0",
+    "_articles/gemini-carbon-restricted-rollout.md": "75d75afe6e53291feb93b9cc640ca5d1915fdd23745993f8b1ea21b485f70c1e",
+    "_articles/openai-funding-target-continuity.md": "620c2facc5db98fcc8b4c2e3331e2bf89020e60e9e5bca4c3b999b3f7797636c",
+    "_articles/agent-optimization-budget.md": "27b4411ffe01defe841eebc62fae948978d5ea4dbbbb08392e411350cf9bb9b7",
+    "_articles/gpt-6-1-terra-computer-use-trials.md": "586566f03844d89f9ff0fb38bb361be79a19c7db6394e03840e0b10914e63a61",
+    "_articles/php-old-flaws-operating-pressure.md": "8ba708edd9b993403d202198f98bf3214039b1c95cf2e5008febbad8492a3ed1",
+    "_articles/voxtral-voice-workflow.md": "822244e80bc80e114cc1c1458c06848e7b93e3a6febe55ed30d610f1c497cb50",
+    "_articles/claude-watermark-rollout-detection-limits.md": "1b66aa06038d8ac43502a526b91b491e135c49cef867f9584a36d2248be7fd9f",
+    "_articles/cloudflare-cache-isolation-tests.md": "103e130e142fdf25760ee6384c07b6db8271739d5687e6e92aa82ce7c6b9a7f9",
+    "_articles/agent-harness-state.md": "30fb339a827e6c42e5f7f1245593fd75443fe008cf97d8672627cbdf685c5701",
+    "_articles/google-school-search-ai-access-controls.md": "ed0c467aff9254ba067b8d151093203a4ff851de09863970afc78dd732e71c88",
+    "_articles/multilingual-safety-template-evidence.md": "5500f0967a52b44dc965e688d02cf788aa3ab0537e685a2214291693cc995ce3",
+    "_articles/xai-pollution-lawsuit-dismissal-denied.md": "83042a63920606544f33cc6fcb2d1f033b2f2f61e576ab385ca2372d5b5515cf",
+    "_articles/cursor-extension-persistence-recovery.md": "d0c655c67d0fcea41b4641949fdc1d11e57c2184d06bee1fdb681794e596e318",
+    "_articles/cost-aware-ticket-routing.md": "273bee341ab990d063b125447a0ecb0f545d5d06ce3f4139c5650e566cb7f18f",
+    "_articles/microsoft-buyouts-ai-staffing.md": "62750e3b60c7588a7a8c166df04348b159ee77b658827e64b8c11dc5fee6c805",
+    "_articles/rao-ai-adoption-unserved-work.md": "7b71eab3a86b0453b9ab95e5c7787da7e6553d2118a56b49e80fe3302b5847b3",
+    "_articles/minimax-flash-task-economics.md": "06ca327617b83905b833af16202835b5a6144967387fe650a456be70e900f0c6",
+    "_articles/typed-decisions.md": "ef36d94a81f42c0d9f3ee96e926995bb8bbaedc6e7e2beb000bfe8f16e0c55ee",
+    "_articles/scope-executable-policy.md": "10669b500b510553c2a71c0bdafddb0310a796dc2e4b8c8422463f60925e39ad",
+    "_articles/prompt-judge-evaluation.md": "f8ec436c28008de3d86e48b0e937d402863a3a0adc9bfbd9d817753ba42ecd28",
+    "_articles/genie-4-preview-simulation.md": "f07e3526464194cf4866cd4748a5ca8d8ed9572e1ce962b2486004aa7918afa7",
+    "_articles/memory-needs-relevance.md": "f40272eea4d7b78c4a5feb610d6c286d52191a8cc0704619eddfa272684326ee",
+    "_editions/2026-10-24.md": "f377e552ba9653b4a0d9e8da11623700a7e90ec592453298c6183c654db4af4e",
+    "_editions/2026-10-30.md": "e6b1a4b850a9c8abd78682484ab8db7da07d51c7f57685ac7f70b406520cb54b",
+    "_editions/2026-10-20.md": "171dcb97b2786d51fd0eee72228bbe933f8be7b5f197ea3ca2b5209705fac4a4",
+    "_editions/2026-10-31.md": "1ba507ecb20b4dc25fdc4acdfb52b3996c057e52c909a6ec48a2ffdacfc0e860",
+    "_editions/2026-10-21.md": "b343ec4a4071c4af34077d5ad08d1f98ffb3d38363aea711eb64829b8758325b",
+    "_editions/2026-10-25.md": "235fd2ef72c4ece0a07202cd5912a074aaae131ba7a6b776e81b62610aa969a1",
+    "_editions/2026-11-04.md": "1f4f1b37965681db1218bcb7a38a624a47f2f942a1cb964cf3c998126f620c76",
+    "_editions/2026-11-01.md": "b19c432ef6519f0d46380b7ac0252e053a00c570559effa4520f4b3fbf10e563",
+    "_editions/2026-11-02.md": "0366e8fa3b0a317dd5a87b7d3ed0bd31840dc98ce0f01603aa256b10174b55d7",
+    "_editions/2026-10-28.md": "14a1472cec757e791fd58b973f919cfc23a72dc668eaf73d97f9c15b1a4b20dd",
+    "_editions/2026-10-18.md": "9c7f8a77f5f9f117c2fdb4d3f62183d99522fa474c8019a544326f626ae417fd",
+    "_editions/2026-10-19.md": "eadf0d2d77f8d7fda3003e8086398499e0c818d4d6f91522acbabbe3b50cb46c",
+    "_editions/2026-11-03.md": "304889682ab93f82dbf2c7aa232d0acf40fb0eb41af600973312242046821354",
+    "_editions/2026-10-29.md": "279b947e4d3706f41e0d8b4b17e4b4bae477964b58d76801f36a7f6fd1dd6ae0",
+    "_editions/2026-10-22.md": "578f864a629021230ab37e23a392e38d42e286cf44111011ad394a2b9be532f6",
+    "_editions/2026-10-26.md": "c9bdb705a98b1406c948a228847ec3b1a8976beea1da0a64f3d1e41f4a96cbba",
+    "_editions/2026-10-27.md": "c0f7fddd7eabe330f201c73ed1effecc655e4c5caf6b6043517cc0172f1bdeba",
+    "_editions/2026-10-23.md": "b2c8a98d71902ebd1b04f6480b1d6a0ff56b3207f8b584c1722cbb766f6ee782",
+    "assets/images/voxtral-voice-workflow.webp": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5",
+    "assets/images/calibrated-disposition-drift.webp": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429",
+    "assets/images/kapitsa-local-inference-operations.webp": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+    "assets/images/prompt-judge-evaluation.webp": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc",
+    "assets/images/scope-executable-policy.webp": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f",
+    "assets/images/typed-decisions.webp": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf",
+    "assets/images/materials-structure-ml.webp": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349",
+    "assets/images/publication-share.png": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610",
+    "assets/images/memory-needs-relevance.webp": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785",
+    "assets/images/cost-aware-ticket-routing.webp": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623",
+    "assets/images/pew-task-level-adoption.webp": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105",
+    "assets/images/minimax-flash-task-economics.webp": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041",
+    "assets/images/multiagent-review-tradeoffs.webp": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a",
+    "assets/images/authorization-agent-boundaries.webp": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c",
+    "assets/images/hidden-instructions-public-pages.webp": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877",
+    "assets/images/ai-recommendation-bias.webp": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275",
+    "assets/images/llm-proxy-visibility.webp": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854",
+    "assets/images/context-sensitive-model-boundaries.webp": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641",
+    "assets/images/citation-relevance-verification.webp": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49",
+    "assets/images/agent-harness-state.webp": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e",
+    "assets/images/catalog-field-grounding.webp": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c",
+    "assets/images/meta-terms-data-governance.webp": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09",
+    "assets/images/litellm-release-authority.webp": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+    "assets/images/google-agent-guidance-enforcement.webp": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6",
+    "assets/images/mercury-diffusion-serving.webp": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8",
+    "assets/images/recoverable-agent-changes.webp": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2"
+  },
+  "editing_pass": "Reviewed openings, factual attribution, original dates, units, scope, limitations, explicit inference, distinct practical consequences and continuous-prose rhythm; no invented Ted experience or review. Body-only style diagnostics supplement source review.",
+  "lead_article_id": "art_fbaa86a829ad59fd",
+  "urls": [
+    "https://yesterdai.tedt.org/editions/2026-11-05/",
+    "https://yesterdai.tedt.org/articles/openai-linux-patch-validation/",
+    "https://yesterdai.tedt.org/articles/u-mobile-agentcore-routing-review/",
+    "https://yesterdai.tedt.org/articles/openai-pierre-code-review-acquisition/"
+  ],
+  "outcome": "all six deterministic stages passed; complete editorial checkpoint ready for commit and guarded shipping",
+  "required_action": "Run all six deterministic stages, commit completed editorial work, ship through scripts/publish.py ship, verify exact-SHA hosted gates and public URLs; preserve last successful site if deployment fails.",
+  "preflight": {
+    "checked_at": "2026-11-05T14:21:51.080931+00:00",
+    "results": [
+      {
+        "command": [
+          ".venv/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.488,
+        "stdout": "{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T12:00:00Z\"}\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T13:00:00Z\"}\n",
+        "stderr": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 0.359s\n\nOK\n"
+      },
+      {
+        "command": [
+          ".venv/bin/python",
+          "scripts/publish.py",
+          "validate"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.196,
+        "stdout": "Validated 19 editions and 60 complete researched stories.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "bundle",
+          "exec",
+          "jekyll",
+          "build",
+          "--strict_front_matter"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 1.04,
+        "stdout": "Configuration file: /Users/tedtschopp/Developer/yesterdai-daily-20261105/_config.yml\n            Source: /Users/tedtschopp/Developer/yesterdai-daily-20261105\n       Destination: /Users/tedtschopp/Developer/yesterdai-daily-20261105/_site\n Incremental build: disabled. Enable with --incremental\n      Generating... \n                    done in 0.474 seconds.\n Auto-regeneration: disabled. Use --watch to enable.\n",
+        "stderr": "`/Users/tedtschopp` is not writable.\nBundler will use `/var/folders/rl/w92r_6tx4dx3m6mpp07y2tc00000gn/T/bundler20261105-8669-nlwce58669' as your home directory temporarily.\n"
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "index"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.315,
+        "stdout": "\n> index\n> pagefind --site _site --glob 'articles/**/index.html'\n\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"/Users/tedtschopp/Developer/yesterdai-daily-20261105\"\nSource:       \"_site\"\nOutput:       \"_site/pagefind\"\n\n[Walking source directory]\nFound 60 files matching articles/**/index.html\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n↳ Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 60 pages\n  Indexed 3171 words\n  Indexed 2 filters\n  Indexed 0 sorts\n\nFinished in 0.057 seconds\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          ".venv/bin/python",
+          "scripts/check_site.py"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.637,
+        "stdout": "Checked 92 HTML pages, internal links, accessibility metadata, feeds, and sitemap; 3.9 MB.\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "npm",
+          "run",
+          "test:smoke"
+        ],
+        "exit_code": 0,
+        "elapsed_seconds": 0.429,
+        "stdout": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n✔ the current edition stays quiet and the prior one gets a grace period (20.635667ms)\n✔ the seven-am deadline follows both DST transitions (0.316375ms)\n✔ midnight does not warn about an edition that is not due yet (0.332541ms)\n✔ recent successful checks stay quiet even if the content was unchanged (0.086791ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 119.249\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate.\n",
+        "stderr": ""
+      }
+    ],
+    "passed": true
+  },
+  "publisher_api_evidence": {
+    "url": "https://openai.com/news/rss.xml",
+    "sha256": "5bfc316ba8fd6e7eaf04632b20832c7b1e0211c37d318cd0cf2afa67d9c5c0f0",
+    "matched_items": {
+      "a-thousand-fewer-paths-to-root": "Wed, 04 Nov 2026 08:00:00 GMT",
+      "openai-to-acquire-pierre": "Wed, 04 Nov 2026 14:30:00 GMT",
+      "introducing-images-2-6": "Wed, 04 Nov 2026 00:00:00 GMT",
+      "lifeval": "Mon, 02 Nov 2026 09:00:00 GMT"
+    }
+  }
+}
