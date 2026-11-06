@@ -1,0 +1,653 @@
+{
+  "run_date": "2026-11-06",
+  "reader_contract_version": "2.0.3",
+  "article_contract": 2,
+  "writing_style": "ted-writing-style",
+  "writing_style_version": "1.0.0",
+  "mode": "technology/strategy",
+  "headline_decision": "Explicit current user instruction selects AP sentence-style publication headlines; checked-in policies and historical archives unchanged.",
+  "base_sha": "4788307cb1a2d6a6882d745faf14aef508f7358d",
+  "worktree": "/Users/tedtschopp/Developer/yesterdai-daily-20261106",
+  "cutoff": "2026-11-06T05:00:00-08:00",
+  "window_start": "2026-11-05T01:00:00Z",
+  "prepared_at": "2026-11-06T13:11:26.986982Z",
+  "actual_publication_at": null,
+  "discovery": {
+    "checked_at": "2026-11-06T13:06:44.318969Z",
+    "feeds": {
+      "curated": {
+        "usable_items": 241,
+        "ingestion_exclusions": [
+          {
+            "id": "2e6b008d7907924a9c4c56743403e3af",
+            "reason": "Public HTTPS URL required: google.com/url?q=https://muse.ai/&sa=D&source=editors&ust=1788935423605125&usg=AOvVaw2OS-vdGO6J1bs3HJPq9Hz1"
+          }
+        ]
+      },
+      "top": {
+        "usable_items": 198,
+        "ingestion_exclusions": [
+          {
+            "id": "sty_b23518a9cbceb576",
+            "reason": "malformed item fields"
+          },
+          {
+            "id": "sty_4d1a214f8b70e9d3",
+            "reason": "malformed item fields"
+          }
+        ]
+      }
+    }
+  },
+  "deduplication": {
+    "preceding_editions": [
+      {
+        "edition_date": "2026-10-30",
+        "articles": [
+          {
+            "article_id": "art_9119d7a196c48299",
+            "title": "DeepMind Institute argues agent coordination could reshape firms",
+            "story_key": "https://institute.deepmind.com/essays/the-economics-of-intelligence",
+            "eligibility": {
+              "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+              "published_at": "2026-10-29T14:50:50.427529Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "Original Article JSON-LD and article:published_time both give 2026-10-29T14:50:50.427529+00:00; modified 2026-10-29T15:38:29.163940+00:00. Visible date is October 29. HTTP-compressed source was decompressed before metadata extraction.",
+              "discovered_url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+              "verified_at": "2026-10-30T12:05:35.170940Z"
+            }
+          },
+          {
+            "article_id": "art_815e9f76383a9012",
+            "title": "Martin Fowler connects writing quality with the work of understanding",
+            "story_key": "https://martinfowler.com/bliki/LLM-Voice.html",
+            "eligibility": {
+              "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+              "published_at": "2026-10-29T00:00:00-04:00",
+              "precision": "day",
+              "verification": "visible",
+              "evidence": "Original page visibly dates the essay 29 October 2026. Its og:article:modified_time is 2026-10-29 10:28:00 -0400 and the publisher Atom entry has updated 2026-10-29T10:28:00-04:00. The evidenced publisher offset places the entire date-only original day within [2026-10-29T04:00:00Z, 2026-10-30T04:00:00Z], wholly inside the reporting window. Midnight normalizes a date, not a claimed precise publication instant; Atom updated is not relabeled as original publication.",
+              "discovered_url": "https://martinfowler.com/bliki/LLM-Voice.html",
+              "verified_at": "2026-10-30T12:05:35.170940Z"
+            }
+          },
+          {
+            "article_id": "art_5a25565ab71a8d06",
+            "title": "Mistral releases Large 4 weights with a model-service license condition",
+            "story_key": "https://mistral.ai/news/mistral-large-4-oss",
+            "eligibility": {
+              "url": "https://mistral.ai/news/mistral-large-4-oss/",
+              "published_at": "2026-10-29T12:00:07Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "Original BlogPosting JSON-LD gives datePublished 2026-10-29T12:00:07.000Z and dateModified 2026-10-29T17:33:42.728Z. The separately pinned initial model-repository release is 2026-10-29T14:11:16Z; its license matches the retrieved current license byte-for-byte.",
+              "discovered_url": "https://mistral.ai/news/mistral-large-4-oss/",
+              "verified_at": "2026-10-30T12:05:35.170940Z"
+            }
+          },
+          {
+            "article_id": "art_c3a6927a59480677",
+            "title": "MSafeTemp tests safety beyond English and simple translation",
+            "story_key": "https://arxiv.org/abs/2610.40516",
+            "eligibility": {
+              "url": "https://arxiv.org/abs/2610.40516",
+              "published_at": "2026-10-29T17:26:02Z",
+              "precision": "second",
+              "verification": "visible",
+              "evidence": "Original arXiv submission history gives v1 Thu, 29 Oct 2026 17:26:02 UTC. Citation metadata and the visible submitted-on date agree. The version-pinned full text was read for methods, model-specific results and limitations.",
+              "discovered_url": "https://arxiv.org/abs/2610.40516",
+              "verified_at": "2026-10-30T12:05:35.170940Z"
+            }
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-10-31",
+        "articles": [
+          {
+            "article_id": "art_b11cb5d74cc4c058",
+            "title": "Cursor’s extension warning puts host recovery beyond the marketplace",
+            "story_key": "https://cursor.com/blog/claude-code-extension-security-notice",
+            "eligibility": {
+              "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+              "published_at": "2026-10-30T18:30:00Z",
+              "precision": "second",
+              "verification": "visible",
+              "basis": "substantive_update",
+              "original_published_date": "2026-10-29",
+              "evidence": "The original notice visibly dates the incident and publication October 29. Its explicit update states Oct 30, 2026, 11:30 am PT and identifies the substantive change: updated indicators of compromise and clarified affected versions. PDT is UTC-07, so the update is 18:30Z and qualifies independently of the older original. Phorion discovery is not the date basis. Its October 31 date-only update is not assumed to precede cutoff; affected-version claims are supported by Cursor’s eligible October 30 update.",
+              "discovered_url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+              "verified_at": "2026-10-31T12:08:59.648271Z"
+            }
+          },
+          {
+            "article_id": "art_9fcef969c25d985d",
+            "title": "OpenAI reportedly cuts funding target as the round remains open",
+            "story_key": "https://www.aol.com/articles/openai-cuts-funding-target-10-001717000.html",
+            "eligibility": {
+              "url": "https://www.aol.com/articles/openai-cuts-funding-target-10-001717000.html",
+              "published_at": "2026-10-31T00:17:17Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "AOL’s Reuters NewsArticle JSON-LD gives datePublished 2026-10-31T00:17:17+00:00 and dateModified 02:35:34+00:00. Provider is Reuters and isBasedOn identifies Reuters’ original story. The full syndicated wire was read. Both original publication and observed revision are before cutoff. The inaccessible WSJ discovery story is not a source for the unverified $11 billion claim.",
+              "discovered_url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+              "verified_at": "2026-10-31T12:08:59.648271Z"
+            }
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-01",
+        "articles": [
+          {
+            "article_id": "art_909c4a46811dca1c",
+            "title": "Claude watermark expansion leaves deployment and detection questions",
+            "story_key": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models",
+            "eligibility": {
+              "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+              "published_at": "2026-10-31T19:20:55Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "Publisher NewsArticle JSON-LD and article:published_time agree on 2026-10-31T19:20:55+00:00, revised 19:21:51+00:00. The customer email was not independently obtained; rollout and sampling details remain explicitly attributed to THE DECODER. Anthropic’s older help article was last modified October 28 at 18:53:26Z.",
+              "discovered_url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+              "verified_at": "2026-11-01T13:08:11.450990Z"
+            }
+          },
+          {
+            "article_id": "art_666d65fb5c8d82e4",
+            "title": "Fortanix’s container controls make GPU attestation a configuration decision",
+            "story_key": "https://www.infoq.com/news/2026/10/k8s-confidential-containers",
+            "eligibility": {
+              "url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/",
+              "published_at": "2026-10-31T08:18:00Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "InfoQ NewsArticle JSON-LD datePublished and dateModified both equal 2026-10-31T08:18:00+0000. This new report, not the older product announcement, controls eligibility. Fortanix’s announcement is October 18; its deployment guide was first published September 18 and last published September 26.",
+              "discovered_url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/",
+              "verified_at": "2026-11-01T13:08:11.450990Z"
+            }
+          },
+          {
+            "article_id": "art_c0588a787514ce74",
+            "title": "VOLTA adds AI victim profiling after credential theft",
+            "story_key": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+            "eligibility": {
+              "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+              "published_at": "2026-10-31T12:00:00Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "Talos Article JSON-LD and article:published_time agree on 2026-10-31T12:00:00.000Z. WIRED’s original report independently gives the same publication instant. Talos’s modification value is one second earlier than publication and is not used as an update. The sample’s October 11 first-seen date is preserved as historical context, not eligibility.",
+              "discovered_url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+              "verified_at": "2026-11-01T13:08:11.450990Z"
+            }
+          },
+          {
+            "article_id": "art_b57691e750415c60",
+            "title": "xAI’s turbine lawsuit proceeds after dismissal bid fails",
+            "story_key": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+            "eligibility": {
+              "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+              "published_at": "2026-10-31T21:17:03Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "TechCrunch NewsArticle JSON-LD, article:published_time and the visible time element identify 2026-10-31T21:17:03+00:00. The underlying district-court order is filed and signed October 30; that original event date is retained. The new reporting controls eligibility, not the older date-only court filing or Earthjustice’s revised statement.",
+              "discovered_url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+              "verified_at": "2026-11-01T13:08:11.450990Z"
+            }
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-02",
+        "articles": [
+          {
+            "article_id": "art_3615c38e010c6fac",
+            "title": "The agentic web makes access a product decision",
+            "story_key": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here",
+            "eligibility": {
+              "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+              "published_at": "2026-11-02T09:35:19Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "MIT Technology Review Article JSON-LD gives dateCreated/datePublished=2026-11-02T04:35:19-05:00 and dateModified=04:35:20-05:00. The original publication instant is 09:35:19Z. Direct HTML retrieval supplied the full report after the web reader could not open it. The supporting position paper retains its June 12, 2025 original date and is not the eligibility event.",
+              "discovered_url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+              "verified_at": "2026-11-02T13:07:58.418108Z"
+            }
+          },
+          {
+            "article_id": "art_7ef52e0b08b2b23c",
+            "title": "Proton’s AI manifesto puts the bottleneck beyond writing code",
+            "story_key": "https://proton.me/blog/ai-manifesto",
+            "eligibility": {
+              "url": "https://proton.me/blog/ai-manifesto",
+              "published_at": "2026-11-01T22:10:17Z",
+              "precision": "second",
+              "verification": "meta",
+              "evidence": "Proton article:published_time gives 2026-11-01T22:10:17.000Z and visible text says November 1. JSON-LD repeats the clock time without a timezone; the explicitly UTC metadata controls. article:modified_time is 22:18:54Z and is not used for eligibility. The newly public article says its internal memo was written about a month earlier; no new internal rollout date is asserted.",
+              "discovered_url": "https://proton.me/blog/ai-manifesto",
+              "verified_at": "2026-11-02T13:07:58.418108Z"
+            }
+          },
+          {
+            "article_id": "art_9fae4a69c581cd5b",
+            "title": "Ryanair puts AI productivity inside a wider cost review",
+            "story_key": "https://corporate.ryanair.com/news/ryanair-h1-pat-falls-15-to-e2-15bn-as-unhedged-oil-doubles-traffic-grows-6-at-lower-fares",
+            "eligibility": {
+              "url": "https://corporate.ryanair.com/news/ryanair-h1-pat-falls-15-to-e2-15bn-as-unhedged-oil-doubles-traffic-grows-6-at-lower-fares/",
+              "published_at": "2026-11-02T08:24:43Z",
+              "precision": "second",
+              "verification": "visible",
+              "evidence": "The primary Ryanair release displays 2 Nov 2026 in a time element with datetime=2026-11-02T08:24:43+00:00. Its dated statement and AI cost-review paragraph were read directly. The discovered Guardian report has different original times in cached web and direct metadata; neither is needed to establish eligibility or supply the article’s facts.",
+              "discovered_url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
+              "verified_at": "2026-11-02T13:07:58.418108Z"
+            }
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-03",
+        "articles": [
+          {
+            "article_id": "art_e7d80beac93a70b9",
+            "title": "Anthropic’s amended filing puts compute commitments on a longer clock",
+            "story_key": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+            "eligibility": {
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+              "published_at": "2026-11-02T14:24:24Z",
+              "precision": "second",
+              "verification": "publisher_api",
+              "evidence": "SEC submissions API for CIK 0002130357 reports acceptanceDateTime 2026-11-02T14:24:24.000Z for S-1/A accession 0001628280-26-068676. EDGAR filing detail shows November 2 acceptance at 09:24:24 Eastern. This is a new amendment, adding September-quarter results and updated commitments after the October 27 edition.",
+              "evidence_url": "https://data.sec.gov/submissions/CIK0002130357.json",
+              "discovered_url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+              "verified_at": "2026-11-03T13:11:26.519546Z"
+            }
+          },
+          {
+            "article_id": "art_5d33ed0c66ace544",
+            "title": "OpenAI’s Grid Protectors Program makes flexibility a campus planning question",
+            "story_key": "https://openai.com/index/grid-protectors-program",
+            "eligibility": {
+              "url": "https://openai.com/index/grid-protectors-program",
+              "published_at": "2026-11-02T15:00:00Z",
+              "precision": "second",
+              "verification": "publisher_api",
+              "evidence": "OpenAI’s official news RSS at https://openai.com/news/rss.xml gives pubDate Mon, 02 Nov 2026 15:00:00 GMT for the exact Grid Protectors article URL. Its article visibly says November 2, 2026. Direct HTTP reads return 403, but the successful web reader supplied the complete announcement. The July 22 Georgia agreement is supporting history, not the new development.",
+              "evidence_url": "https://openai.com/news/rss.xml",
+              "discovered_url": "https://openai.com/index/grid-protectors-program",
+              "verified_at": "2026-11-03T13:11:26.519546Z"
+            }
+          },
+          {
+            "article_id": "art_ab9f51c8b2c31abd",
+            "title": "SUSE links planned job cuts to AI and automation",
+            "story_key": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+            "eligibility": {
+              "url": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+              "published_at": "2026-11-02T15:30:00Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "The Register JSON-LD datePublished, article:published_time and visible time datetime agree on 2026-11-02T15:30:00Z. The feed’s 16:48:14Z is not the original publication time. A 15:30:42Z modification is not used for eligibility.",
+              "discovered_url": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950",
+              "verified_at": "2026-11-03T13:11:26.519546Z"
+            }
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-04",
+        "articles": [
+          {
+            "article_id": "art_f2497d2da3243c28",
+            "title": "Google puts school Search access inside its new AI controls",
+            "story_key": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026",
+            "eligibility": {
+              "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+              "published_at": "2026-11-03T14:00:00Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "Google NewsArticle JSON-LD datePublished and published_time metadata agree on 2026-11-03T14:00:00+00:00; the visible article date is November 3. The later 20:09:14.577886Z modification is not needed for eligibility.",
+              "discovered_url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+              "verified_at": "2026-11-04T13:08:31.452921Z"
+            }
+          },
+          {
+            "article_id": "art_7aa60ae025d525c4",
+            "title": "Menlo puts enterprise AI deployment at a $177 billion run rate",
+            "story_key": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai",
+            "eligibility": {
+              "url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+              "published_at": "2026-11-03T14:00:00Z",
+              "precision": "second",
+              "verification": "jsonld",
+              "evidence": "Article and WebPage JSON-LD datePublished and article:published_time agree on 2026-11-03T14:00:00+00:00; the visible report date is November 3. The curated feed’s November 4 midnight is a discovery placeholder.",
+              "discovered_url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+              "verified_at": "2026-11-04T13:08:31.452921Z"
+            }
+          },
+          {
+            "article_id": "art_25493a43cba550c7",
+            "title": "OpenAI’s hardware work keeps manufacturing review in the loop",
+            "story_key": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+            "eligibility": {
+              "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+              "published_at": "2026-11-03T12:00:00Z",
+              "precision": "second",
+              "verification": "publisher_api",
+              "evidence": "OpenAI’s official news RSS item for this exact URL has pubDate Tue, 03 Nov 2026 12:00:00 GMT. The complete announcement was read through the web reader and visibly dated November 3. Direct HTTP returned 403, which is recorded separately from the successful content read.",
+              "discovered_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+              "verified_at": "2026-11-04T13:08:31.452921Z"
+            }
+          }
+        ],
+        "quick_hits": []
+      },
+      {
+        "edition_date": "2026-11-05",
+        "articles": [
+          {
+            "article_id": "art_fbaa86a829ad59fd",
+            "title": "OpenAI’s Linux scan puts patch validation under pressure",
+            "story_key": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+            "eligibility": {
+              "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+              "published_at": "2026-11-04T08:00:00Z",
+              "precision": "second",
+              "verification": "publisher_api",
+              "evidence": "The exact original URL appears in OpenAI’s official news RSS with pubDate Wed, 04 Nov 2026 08:00:00 GMT. The complete web-reader original displays November 4. Direct HTTP returned 403; the original was successfully read through the web reader.",
+              "discovered_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+              "verified_at": "2026-11-05T14:21:04.012887Z"
+            }
+          },
+          {
+            "article_id": "art_1be4fdd8e6ca80f0",
+            "title": "OpenAI’s Pierre deal targets the work around code",
+            "story_key": "https://openai.com/index/openai-to-acquire-pierre",
+            "eligibility": {
+              "url": "https://openai.com/index/openai-to-acquire-pierre",
+              "published_at": "2026-11-04T14:30:00Z",
+              "precision": "second",
+              "verification": "publisher_api",
+              "evidence": "OpenAI’s official news RSS lists the exact canonical original with pubDate Wed, 04 Nov 2026 14:30:00 GMT. The complete web-reader announcement displays November 4. Direct HTTP returned 403; the original was successfully read through the web reader.",
+              "discovered_url": "https://openai.com/index/openai-to-acquire-pierre/",
+              "verified_at": "2026-11-05T14:21:04.012887Z"
+            }
+          },
+          {
+            "article_id": "art_83d7690781e8e88d",
+            "title": "U Mobile routes routine requests around its AI orchestrator",
+            "story_key": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore",
+            "eligibility": {
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
+              "published_at": "2026-11-04T16:23:33Z",
+              "precision": "second",
+              "verification": "meta",
+              "evidence": "AWS article:published_time and article:modified_time both give 2026-11-04T08:23:33-08:00, equivalent to 16:23:33Z. The original visibly says 04 NOV 2026. The curated November 5 midnight is a discovery placeholder.",
+              "discovered_url": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
+              "verified_at": "2026-11-05T14:21:04.012887Z"
+            }
+          }
+        ],
+        "quick_hits": []
+      }
+    ],
+    "article_count": 22,
+    "quick_hit_count": 0,
+    "decision": "No selected source URL or development repeats the seven-day coverage. GPT-6 Cyber is a later model-release/access and scope-evaluation development; it does not recycle the prior Linux research count or patch narrative. November 4 and 5 source checkpoints are included even though undeployed."
+  },
+  "research": {
+    "distinct_candidates": 9,
+    "selected": 3,
+    "excluded": 6,
+    "outside_window": 4,
+    "unverified_date_or_incomplete_original": 2,
+    "target": "3–5",
+    "shortfall": 0,
+    "stopping_reason": "Continued research from both feeds until three distinct eligible articles had complete original evidence. Remaining records not all researched; no exhaustion or quiet-news claim."
+  },
+  "selected": [
+    {
+      "article_id": "art_14e90e72d3401ddf",
+      "slug": "gpt-6-cyber-scope-and-access",
+      "title": "GPT-6 Cyber pairs stronger exploit results with restricted access",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "source_published_at": "2026-11-05T09:00:00Z",
+      "verification": "publisher_api",
+      "date_evidence": "OpenAI official news RSS names this exact canonical original and gives pubDate Thu, 05 Nov 2026 09:00:00 GMT. The complete original web-reader page displays November 5, 2026. Direct HTTP returns 403; the web reader successfully supplies the original body.",
+      "format": "brief",
+      "words": 277,
+      "hero": null,
+      "feed": "curated",
+      "feed_id": "c0dc3cf4e6f56b82faa1fbf8549538ce",
+      "tldr": "GPT-6 Cyber improves OpenAI’s exploit and scope-following scores, while initial access remains restricted and organizations retain responsibility for authorized boundaries.",
+      "style_diagnostic": "Ted writing-style diagnostic (guidance, not a score)\nWords: 275\nParagraphs: 6\nSentences: 18\nMean sentence length: 15.3 words\nMedian sentence length: 17 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 50 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 7.27 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    },
+    {
+      "article_id": "art_b8acd5d605b0c189",
+      "slug": "agent-substrate-state-and-compute",
+      "title": "Google separates agent state from compute in Agent Substrate",
+      "url": "https://opensource.googleblog.com/2026/11/sandboxing-untrusted-ai-agents-at-scale.html",
+      "source_published_at": "2026-11-05T17:00:00Z",
+      "verification": "publisher_api",
+      "date_evidence": "Google Open Source Blog official RSS matches this exact original URL and gives pubDate Thu, 05 Nov 2026 17:00:00 +0000. The complete original displays Thursday, November 5, 2026. Publisher claims, including CNCF Sandbox status and performance, remain attributed.",
+      "format": "brief",
+      "words": 289,
+      "hero": null,
+      "feed": "top",
+      "feed_id": "sty_0d25a569660cb3e0",
+      "tldr": "Google’s Agent Substrate pools compute while preserving agent state; evaluate recovery and isolation alongside its reported fast resumes.",
+      "style_diagnostic": "Ted writing-style diagnostic (guidance, not a score)\nWords: 297\nParagraphs: 6\nSentences: 19\nMean sentence length: 15.6 words\nMedian sentence length: 16 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 62 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    },
+    {
+      "article_id": "art_485654c1f98a7cdc",
+      "slug": "gemini-omni-1-2-video-workflow",
+      "title": "Gemini Omni 1.2 Flash expands clips and lowers generation prices",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source_published_at": "2026-11-05T17:00:00Z",
+      "verification": "jsonld",
+      "date_evidence": "Original NewsArticle JSON-LD datePublished is 2026-11-05T17:00:00+00:00, corroborated by meta name=published_time. dateModified is 2026-11-05T17:03:44.791497+00:00; eligibility uses original publication. Complete original body and visible Nov 05, 2026 date read.",
+      "format": "brief",
+      "words": 285,
+      "hero": null,
+      "feed": "curated",
+      "feed_id": "d7977b13e92f9e9aa07a08b19302f25c",
+      "tldr": "Gemini Omni 1.2 Flash adds 15-second clips and conversational edits at a lower listed rate; judge savings by approved outputs and review effort.",
+      "style_diagnostic": "Ted writing-style diagnostic (guidance, not a score)\nWords: 288\nParagraphs: 6\nSentences: 18\nMean sentence length: 16.0 words\nMedian sentence length: 15 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 48 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://research.nvidia.com/labs/lpr/vflash/",
+      "feed": "curated",
+      "reason": "unverified_original_date",
+      "evidence": "HTTP 200, but retrieved text is a short decoding-types fragment with no original publication metadata, time element or evidenced timezone. Web reader cannot access it. Feed midnight is a date-only discovery placeholder."
+    },
+    {
+      "url": "https://www.perplexity.ai/hub/products/teammate",
+      "feed": "curated",
+      "reason": "unverified_original_date",
+      "evidence": "Complete product page read through direct HTTP 200, including availability and demonstration examples. No original publication date, time or verified substantive update appears in metadata or visible text. Web reader cannot open it. Demonstrations are not independently observed deployments."
+    },
+    {
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "feed": "curated",
+      "reason": "outside_window",
+      "published_at": "2026-11-04T00:00:00Z",
+      "evidence": "OpenAI official RSS pubDate Wed, 04 Nov 2026 00:00:00 GMT; later curated discovery does not refresh the original."
+    },
+    {
+      "url": "https://cognition.com/blog/swe-2-flash",
+      "feed": "curated",
+      "reason": "outside_window",
+      "published_at": "2026-11-04T10:00:00-08:00",
+      "evidence": "Original BlogPosting JSON-LD, article:published_time and time datetime all give November 4 10:00-08:00 (18:00Z); visible date is 2026.11.04. Complete original body available."
+    },
+    {
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "feed": "top",
+      "reason": "outside_window_no_verified_substantive_update",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "modified_at": "2026-11-06T03:05:46-08:00",
+      "evidence": "Original itemprop=datePublished is one hour before the window. A later dateModified alone does not demonstrate a substantive development; no such update verified in this run. Ranked discovery time is not original publication."
+    },
+    {
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "feed": "top",
+      "reason": "outside_window_no_verified_substantive_update",
+      "published_at": "2026-11-05T00:00:00.000Z",
+      "modified_at": "2026-11-05T16:54:05.000Z",
+      "evidence": "Original Article JSON-LD and article:published_time are one hour before the window. Visible date supplies no alternative evidenced timezone. Later modification metadata alone does not verify substantive new reporting."
+    }
+  ],
+  "format_and_heroes": {
+    "decision_before_drafting": "Three briefs for three focused developments. No analyses, new heroes or generation attempts. No format changed to evade image generation.",
+    "existing_heroes": "Preserve all attached assets, captions, alt text and provenance byte-for-byte."
+  },
+  "preservation_sha256": {
+    "_articles/agent-harness-state.md": "30fb339a827e6c42e5f7f1245593fd75443fe008cf97d8672627cbdf685c5701",
+    "_articles/agent-optimization-budget.md": "27b4411ffe01defe841eebc62fae948978d5ea4dbbbb08392e411350cf9bb9b7",
+    "_articles/agentic-web-access-control.md": "f53a87a583977be3ff38ca3c8a97b1386547de19bc04ee02173656cef3d27de5",
+    "_articles/ai-recommendation-bias.md": "dbd62847d98e55ccfb5b55260658fce0b156fedf3ed1f39e00dad8dc2fa5992d",
+    "_articles/anthropic-amended-filing-compute-commitments.md": "7a5e4fd9ef9f0ec8a180b78517e651d76199b8237bbbf586d2cc5e63eefacb9c",
+    "_articles/anthropic-s1-board-control.md": "938ab67c5c0ea41deca97b93c1df8314d86a958c0030ebebb66a5201955d2376",
+    "_articles/authorization-agent-boundaries.md": "49a169e1f567bf6b28c0aaf868ca0bee9011d5ba1e7cdb3e3e32eb5a107ccdac",
+    "_articles/calibrated-disposition-drift.md": "ff82bb66f379fd790053b83e12166e438b035b1d1651d99cb59209f17d5ffd6a",
+    "_articles/catalog-field-grounding.md": "928bf01d359aae346b3a94bab122640bd360ad69c3c14a3a1b17f70f99480e2c",
+    "_articles/ciso-survey-security-deployment.md": "17fdbecef7093dc753f039cadbe471fd63c5d72c0a36b43cb71a959af53d15e7",
+    "_articles/citation-relevance-verification.md": "3524ae8affa5631123894ef0e723147e261338fc7d8ef003590ea7bbfedb28b4",
+    "_articles/claude-batch-review-evidence.md": "ee6478365605b3fba2645df468ba2fe00c56a90a452b7ae5e69a879cb030eece",
+    "_articles/claude-watermark-rollout-detection-limits.md": "1b66aa06038d8ac43502a526b91b491e135c49cef867f9584a36d2248be7fd9f",
+    "_articles/cloudflare-cache-isolation-tests.md": "103e130e142fdf25760ee6384c07b6db8271739d5687e6e92aa82ce7c6b9a7f9",
+    "_articles/confidential-containers-gpu-attestation.md": "13f1fd6e1493436db35c86b8b07c04afcadc556c05e506f173f60af589adca1a",
+    "_articles/context-sensitive-model-boundaries.md": "61a33c99b9d6bb97a2df3116843a9ccda690d2d94badf5101fb6e28d58f1bcc7",
+    "_articles/coordination-agent-economics.md": "897cb1184b78f174f23f918c80685f38d57d614f85de35ba06f6399ae34da695",
+    "_articles/copilot-fusion-model-policy.md": "84ce2920168371cc5a37d6266e6aff80ebae73feb0ff4f58d1ef930580da523f",
+    "_articles/cost-aware-ticket-routing.md": "273bee341ab990d063b125447a0ecb0f545d5d06ce3f4139c5650e566cb7f18f",
+    "_articles/cursor-extension-persistence-recovery.md": "d0c655c67d0fcea41b4641949fdc1d11e57c2184d06bee1fdb681794e596e318",
+    "_articles/fowler-writing-and-understanding.md": "3c4bcb5fb74c386e0ea937b86d9b26e940b0b6310ee4cdb2170a98dbbbe170ce",
+    "_articles/gemini-carbon-restricted-rollout.md": "75d75afe6e53291feb93b9cc640ca5d1915fdd23745993f8b1ea21b485f70c1e",
+    "_articles/genie-4-preview-simulation.md": "f07e3526464194cf4866cd4748a5ca8d8ed9572e1ce962b2486004aa7918afa7",
+    "_articles/google-agent-guidance-enforcement.md": "70b526d0e477d81da0b2b342ffd67fb617b0ab7d4f304f240339043e793de733",
+    "_articles/google-school-search-ai-access-controls.md": "ed0c467aff9254ba067b8d151093203a4ff851de09863970afc78dd732e71c88",
+    "_articles/gpt-6-1-terra-computer-use-trials.md": "586566f03844d89f9ff0fb38bb361be79a19c7db6394e03840e0b10914e63a61",
+    "_articles/hidden-instructions-public-pages.md": "f5cbe46502510c58f383644e29ebac496724382f6a19be2176b214b39c9b9280",
+    "_articles/kapitsa-local-inference-operations.md": "27d9b32d8e8b8d03b72259c8c3421628c2f230b0bca303e75e973c50decf73a0",
+    "_articles/litellm-release-authority.md": "7a427d3eb8193a51fe147cb87b4fb8f3908dfeed6cbe4001e2e6f83490a2ed71",
+    "_articles/llm-proxy-visibility.md": "b3e5a17a3965687f312208d6d300a7eb1a5ea6d4991b2ba0e714efcfcd4feced",
+    "_articles/materials-structure-ml.md": "23856de588f7e0b68251958597e3c568d8c0c7c9f768db6e3af72edf77c6f45d",
+    "_articles/memory-needs-relevance.md": "f40272eea4d7b78c4a5feb610d6c286d52191a8cc0704619eddfa272684326ee",
+    "_articles/menlo-enterprise-ai-spending-run-rate.md": "39d3a6c2a16a49e0e682f3b8fe7db065dbec7201225189dfd86e759ff644463a",
+    "_articles/mercury-diffusion-serving.md": "e9521d0add84a14d25d6c4f182c6ee8822f7098d683d8b97982696f2ff1c5265",
+    "_articles/meta-terms-data-governance.md": "703a04935248946af266b5d00e80a81d617fe842d2cc29b897244200a4617c05",
+    "_articles/microsoft-buyouts-ai-staffing.md": "62750e3b60c7588a7a8c166df04348b159ee77b658827e64b8c11dc5fee6c805",
+    "_articles/minimax-flash-task-economics.md": "06ca327617b83905b833af16202835b5a6144967387fe650a456be70e900f0c6",
+    "_articles/mistral-large-4-weights-license.md": "3301f4d548867a26beb21ae3eabd37161c5bea31481b09e3557410cbcfe01317",
+    "_articles/model-price-cuts-cache-accounting.md": "bb4e699116cbcbdd2a30acfcb8c2621a7b67dfac1d77f1c56d9b1fafa9782b92",
+    "_articles/multiagent-review-tradeoffs.md": "ff565d16b0cbc4f2cb2833b3414dbdb65de6e41016d6c403fb7faa5b4d51418b",
+    "_articles/multilingual-safety-template-evidence.md": "5500f0967a52b44dc965e688d02cf788aa3ab0537e685a2214291693cc995ce3",
+    "_articles/openai-funding-target-continuity.md": "620c2facc5db98fcc8b4c2e3331e2bf89020e60e9e5bca4c3b999b3f7797636c",
+    "_articles/openai-grid-protectors-demand-flexibility.md": "a1e743b2bca5cefb54672215eecaba7379c3cacb6003ab4c37b013e4cc7aaee0",
+    "_articles/openai-linux-patch-validation.md": "a6d95da71984d0e9c3663821018c93cc2ccf81b3ca139f7ee1dfd5d79b4d7997",
+    "_articles/openai-physical-engineering-manufacturing-review.md": "e17e455421b86ecbce6f23fd904297d69f35c4ccc627070e43fd93f50ec8a868",
+    "_articles/openai-pierre-code-review-acquisition.md": "6832bab758b6a69fad113dfb458b9f54adde91e5a7e64499765c9bcd3082f975",
+    "_articles/pew-task-level-adoption.md": "94771fdb0b37e5f0a9a5184f5319b5e1f3c2bd6c87fb64a1ace593db00181a0c",
+    "_articles/php-old-flaws-operating-pressure.md": "8ba708edd9b993403d202198f98bf3214039b1c95cf2e5008febbad8492a3ed1",
+    "_articles/prompt-judge-evaluation.md": "f8ec436c28008de3d86e48b0e937d402863a3a0adc9bfbd9d817753ba42ecd28",
+    "_articles/proton-engineering-workflow-bottlenecks.md": "7fcbb3f41c4425442f2531f08492bf659751808bd0df7f8c43ad97e6ddd2ca0c",
+    "_articles/rao-ai-adoption-unserved-work.md": "7b71eab3a86b0453b9ab95e5c7787da7e6553d2118a56b49e80fe3302b5847b3",
+    "_articles/recoverable-agent-changes.md": "e796351f53a8bb8ff10e5c2738723107aaff2ade58798864514bd0f2c6d00619",
+    "_articles/ryanair-ai-productivity-cost-review.md": "a3bebf27c49ed4b1784cc8bafeebaf1e44220efcbd0b11e21b677150edb699e7",
+    "_articles/scope-executable-policy.md": "10669b500b510553c2a71c0bdafddb0310a796dc2e4b8c8422463f60925e39ad",
+    "_articles/suse-workforce-reduction-ai-rationale.md": "2a061d4a80454b13ceb8bb048db5a40f9486f01a5bb7463db16fa0160a3c9eeb",
+    "_articles/typed-decisions.md": "ef36d94a81f42c0d9f3ee96e926995bb8bbaedc6e7e2beb000bfe8f16e0c55ee",
+    "_articles/u-mobile-agentcore-routing-review.md": "11baa65b1a4eec5056408fdf7311ea167200a60b38c33086e5abe60b257bc710",
+    "_articles/volta-infostealer-victim-profiling.md": "09c23f19f45d02778fd696ee5f80ec0c4f0f6a83637a87d650d3503ed4cd18e7",
+    "_articles/voxtral-voice-workflow.md": "822244e80bc80e114cc1c1458c06848e7b93e3a6febe55ed30d610f1c497cb50",
+    "_articles/xai-pollution-lawsuit-dismissal-denied.md": "83042a63920606544f33cc6fcb2d1f033b2f2f61e576ab385ca2372d5b5515cf",
+    "_editions/2026-10-18.md": "9c7f8a77f5f9f117c2fdb4d3f62183d99522fa474c8019a544326f626ae417fd",
+    "_editions/2026-10-19.md": "eadf0d2d77f8d7fda3003e8086398499e0c818d4d6f91522acbabbe3b50cb46c",
+    "_editions/2026-10-20.md": "171dcb97b2786d51fd0eee72228bbe933f8be7b5f197ea3ca2b5209705fac4a4",
+    "_editions/2026-10-21.md": "b343ec4a4071c4af34077d5ad08d1f98ffb3d38363aea711eb64829b8758325b",
+    "_editions/2026-10-22.md": "578f864a629021230ab37e23a392e38d42e286cf44111011ad394a2b9be532f6",
+    "_editions/2026-10-23.md": "b2c8a98d71902ebd1b04f6480b1d6a0ff56b3207f8b584c1722cbb766f6ee782",
+    "_editions/2026-10-24.md": "f377e552ba9653b4a0d9e8da11623700a7e90ec592453298c6183c654db4af4e",
+    "_editions/2026-10-25.md": "235fd2ef72c4ece0a07202cd5912a074aaae131ba7a6b776e81b62610aa969a1",
+    "_editions/2026-10-26.md": "c9bdb705a98b1406c948a228847ec3b1a8976beea1da0a64f3d1e41f4a96cbba",
+    "_editions/2026-10-27.md": "c0f7fddd7eabe330f201c73ed1effecc655e4c5caf6b6043517cc0172f1bdeba",
+    "_editions/2026-10-28.md": "14a1472cec757e791fd58b973f919cfc23a72dc668eaf73d97f9c15b1a4b20dd",
+    "_editions/2026-10-29.md": "279b947e4d3706f41e0d8b4b17e4b4bae477964b58d76801f36a7f6fd1dd6ae0",
+    "_editions/2026-10-30.md": "e6b1a4b850a9c8abd78682484ab8db7da07d51c7f57685ac7f70b406520cb54b",
+    "_editions/2026-10-31.md": "1ba507ecb20b4dc25fdc4acdfb52b3996c057e52c909a6ec48a2ffdacfc0e860",
+    "_editions/2026-11-01.md": "b19c432ef6519f0d46380b7ac0252e053a00c570559effa4520f4b3fbf10e563",
+    "_editions/2026-11-02.md": "0366e8fa3b0a317dd5a87b7d3ed0bd31840dc98ce0f01603aa256b10174b55d7",
+    "_editions/2026-11-03.md": "304889682ab93f82dbf2c7aa232d0acf40fb0eb41af600973312242046821354",
+    "_editions/2026-11-04.md": "1f4f1b37965681db1218bcb7a38a624a47f2f942a1cb964cf3c998126f620c76",
+    "_editions/2026-11-05.md": "47adcf3d2cf69dc7ad4622602872dde5a2ba17a638f00ea64451cdd4576edf7f",
+    "assets/images/agent-harness-state.webp": "01f33bd223cecf2d8b7f65697077d2ebcf045ba52a0405747c8bb955c8c92e8e",
+    "assets/images/ai-recommendation-bias.webp": "0330e5f93ef8b3264243e93ae7927a1e29b62841a3fd3e7205f35d70455e4275",
+    "assets/images/authorization-agent-boundaries.webp": "bb93931f1b71df3f00926a43f2a485b35ea2d5e35deae6268bd283420fda5f6c",
+    "assets/images/calibrated-disposition-drift.webp": "df21d8cd80995e3abd76886530e517849b23f4aac6d855a4b6d33c8ec6f5f429",
+    "assets/images/catalog-field-grounding.webp": "f1e08e789daf9ba09aa19e7ad7e971a43cbc96241c9557d6e0b417d2b6bd444c",
+    "assets/images/citation-relevance-verification.webp": "e687d422fee1df642045b636707f177d18b594525de2f329604276698d4cfc49",
+    "assets/images/context-sensitive-model-boundaries.webp": "5117036f5ef059cffe4987548c6593021543954c4ed106c2e1c4c6c12bbd4641",
+    "assets/images/cost-aware-ticket-routing.webp": "b1f9163851f711cdb7f9238104e0c2ab12dd01abbc40afaa83cb6bb5dae9c623",
+    "assets/images/google-agent-guidance-enforcement.webp": "808fccc3a6a15f40f4b541b6eaf229b52b4cd7a2b4ab690e66db4923f9d87ef6",
+    "assets/images/hidden-instructions-public-pages.webp": "016b9b119ce5d731cc67cadf2b38dc26fd1590c662cad299ead11b2dc45f3877",
+    "assets/images/kapitsa-local-inference-operations.webp": "45b905c593a8e8c822174ecb6d3c1ff11214451ce9f2dbba8721b635a309e9e3",
+    "assets/images/litellm-release-authority.webp": "1491003f2bbfb855e732c16b2050f2261ab51c458340eac7e55101405c81b9b8",
+    "assets/images/llm-proxy-visibility.webp": "95fca92c613e59e7e542f0cf97a67f27d08c0b1ba281d790577269c332c5a854",
+    "assets/images/materials-structure-ml.webp": "2e4753999801b1201884cf398ca60ceea3f6960c849d9ecc6285e70da4a5f349",
+    "assets/images/memory-needs-relevance.webp": "2af6aeb1d6a6e1560fc588e172dbf26e7bc63ec7a3b649f02c40c0ac3ec22785",
+    "assets/images/mercury-diffusion-serving.webp": "01abeb13d3369f555670aa3d0c887aadb435c49df8bb85334cbe0e8808b729e8",
+    "assets/images/meta-terms-data-governance.webp": "19cf2ca1f5bbd305e72979a952e626ef27260b423c84e26ebc7f7658913f2a09",
+    "assets/images/minimax-flash-task-economics.webp": "c1b41276b71964cdcd0d4c6b1323b9e8f17a0113dbf3f3baa018e5ba12d65041",
+    "assets/images/multiagent-review-tradeoffs.webp": "5a13cd070dd0778a8042e9e7d5703b71561a03733e67e4fa32d3497b9197af1a",
+    "assets/images/pew-task-level-adoption.webp": "4cbc77641c9207738a8ca47f6c789c94dd97df411742f02a9e2bf428018ef105",
+    "assets/images/prompt-judge-evaluation.webp": "765639f144e74ee4b3fef1a2149487b0a6e676b9ea6dfc04fb86e5ffac64adbc",
+    "assets/images/publication-share.png": "017139d2962cae546fd63339351c583b1ca3692e447377a9877e6d3a66cac610",
+    "assets/images/recoverable-agent-changes.webp": "77139497bef5e6e3f097c7e99cc97aa4f230fbadd093d5339a2c80b03b33d1c2",
+    "assets/images/scope-executable-policy.webp": "0beccf5367405185c6157597050aa413b52da7d77c46b7c7db59fbea0338d46f",
+    "assets/images/typed-decisions.webp": "03c44008a2ae7b30813124e1d0a355019f8d36171a9cf846d7065338b07e9ebf",
+    "assets/images/voxtral-voice-workflow.webp": "26a880597e2f66da2c1b9aaa836a0d81dd45d4a6935f133a3cd3b2f003b1e9e5"
+  },
+  "editing_pass": {
+    "completed": true,
+    "checks": [
+      "concrete openings and visible reasoning",
+      "claims linked and vendor attribution retained",
+      "original dates and benchmark denominators preserved",
+      "scope evaluation distinguished from runtime enforcement",
+      "CNCF status and performance attributed to Google",
+      "price reduction distinguished from approved-output cost",
+      "AP sentence-style headlines with proper brand spelling",
+      "useful, distinct practical consequences",
+      "no invented Ted experience or review",
+      "publication byline and truthful footer/About disclosure preserved"
+    ]
+  },
+  "initial_hosted_blocker": {
+    "run_id": 42197515237,
+    "sha": "4788307cb1a2d6a6882d745faf14aef508f7358d",
+    "job_id": 127824363235,
+    "failed_step": "ruby/setup-ruby@v1",
+    "reason": "Locked Ruby 3.2.9 unavailable for Ubuntu 26.04; HTTP 404. Hosted build, browser/visual gates and deploy skipped.",
+    "action": "Workflow and toolchain changes excluded by this run. Retain checkpoint and verify exact pushed outcome."
+  },
+  "outcome": "All six deterministic checks passed; editorial source ready for guarded ship; known hosted Ruby compatibility blocker remains.",
+  "preflight": {
+    "result": "passed",
+    "record": "docs/runs/2026-11-06-preflight.json",
+    "python_tests": 44,
+    "editions": 20,
+    "articles": 63,
+    "indexed_articles": 63,
+    "html_pages": 96,
+    "javascript_tests": 4,
+    "completed_at": "2026-11-06T13:12:07.586806+00:00"
+  }
+}
