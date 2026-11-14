@@ -1,0 +1,133 @@
+{
+  "started_at": "2026-11-14T13:15:20.845165Z",
+  "cached_base": "c79ba1c2199de54abe052242916386754ea95f46",
+  "pinned_hosted_snapshot": {
+    "commit": "1a7825a6a0a4f1bf7e61dcf458cbf16e8cc0cb95",
+    "blobs": {
+      "discovery": "b8c8c569f6743a044ca89116eaac421890b2e3ad",
+      "wire": "700b1944c2fdb5faa3c57e9a24aca0fcdcfa7d3a"
+    }
+  },
+  "prior_file_git_matches": 109,
+  "prior_image_count": 26,
+  "stage_results": [
+    {
+      "stage": "unit",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "started_at": "2026-11-14T13:15:21.118653Z",
+      "completed_at": "2026-11-14T13:15:21.560593Z",
+      "exit_code": 0,
+      "output": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 0.342s\n\nOK\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T12:00:00Z\"}\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T13:00:00Z\"}"
+    },
+    {
+      "stage": "validation",
+      "command": [
+        ".venv/bin/python",
+        "scripts/publish.py",
+        "validate"
+      ],
+      "started_at": "2026-11-14T13:15:21.560608Z",
+      "completed_at": "2026-11-14T13:15:21.764250Z",
+      "exit_code": 0,
+      "output": "Validated 21 editions and 67 complete researched stories."
+    },
+    {
+      "stage": "strict_build",
+      "command": [
+        "bundle",
+        "exec",
+        "jekyll",
+        "build",
+        "--strict_front_matter"
+      ],
+      "started_at": "2026-11-14T13:15:21.764266Z",
+      "completed_at": "2026-11-14T13:15:22.336901Z",
+      "exit_code": 0,
+      "output": "`/Users/tedtschopp` is not writable.\nBundler will use `/var/folders/rl/w92r_6tx4dx3m6mpp07y2tc00000gn/T/bundler20261114-19354-a3xzmc19354' as your home directory temporarily.\nConfiguration file: /Users/tedtschopp/Developer/yesterdai-daily-20261114/_config.yml\n            Source: /Users/tedtschopp/Developer/yesterdai-daily-20261114\n       Destination: /Users/tedtschopp/Developer/yesterdai-daily-20261114/_site\n Incremental build: disabled. Enable with --incremental\n      Generating... \n                    done in 0.293 seconds.\n Auto-regeneration: disabled. Use --watch to enable."
+    },
+    {
+      "stage": "pagefind",
+      "command": [
+        "npm",
+        "run",
+        "index"
+      ],
+      "started_at": "2026-11-14T13:15:22.336921Z",
+      "completed_at": "2026-11-14T13:15:22.580854Z",
+      "exit_code": 0,
+      "output": "\n> index\n> pagefind --site _site --glob 'articles/**/index.html'\n\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"/Users/tedtschopp/Developer/yesterdai-daily-20261114\"\nSource:       \"_site\"\nOutput:       \"_site/pagefind\"\n\n[Walking source directory]\nFound 67 files matching articles/**/index.html\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n↳ Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 67 pages\n  Indexed 3344 words\n  Indexed 2 filters\n  Indexed 0 sorts\n\nFinished in 0.039 seconds"
+    },
+    {
+      "stage": "site_integrity",
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_site.py"
+      ],
+      "started_at": "2026-11-14T13:15:22.580880Z",
+      "completed_at": "2026-11-14T13:15:23.286991Z",
+      "exit_code": 0,
+      "output": "Checked 101 HTML pages, internal links, accessibility metadata, feeds, and sitemap; 4.0 MB."
+    },
+    {
+      "stage": "js_and_publication_smoke",
+      "command": [
+        "npm",
+        "run",
+        "test:smoke"
+      ],
+      "started_at": "2026-11-14T13:15:23.287030Z",
+      "completed_at": "2026-11-14T13:15:23.705563Z",
+      "exit_code": 0,
+      "output": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n✔ the current edition stays quiet and the prior one gets a grace period (8.712584ms)\n✔ the seven-am deadline follows both DST transitions (0.283125ms)\n✔ midnight does not warn about an edition that is not due yet (0.369667ms)\n✔ recent successful checks stay quiet even if the content was unchanged (0.130708ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 103.473125\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate."
+    }
+  ],
+  "status": "passed",
+  "runtimes": {
+    "ruby": "ruby 3.2.9 (2025-07-24 revision 8f611e0c46) [arm64-darwin25]",
+    "node": "v26.12.1",
+    "npm": "11.20.0",
+    "python": "Python 3.14.10"
+  },
+  "rendered_readback": {
+    "status": "passed",
+    "edition": "https://yesterdai.tedt.org/editions/2026-11-14/",
+    "article_urls": [
+      "https://yesterdai.tedt.org/articles/ai-reporting-lines-executive-incentives/",
+      "https://yesterdai.tedt.org/articles/coding-agents-first-correct-patch/",
+      "https://yesterdai.tedt.org/articles/synthcorp-tests-data-agents-business-rules/",
+      "https://yesterdai.tedt.org/articles/agent-handoffs-check-actual-state/"
+    ],
+    "hero_urls": [
+      "https://yesterdai.tedt.org/assets/images/ai-reporting-lines-executive-incentives.webp"
+    ],
+    "present_and_verified": 6,
+    "surfaces": [
+      "homepage",
+      "edition",
+      "article pages",
+      "About",
+      "RSS",
+      "JSON Feed",
+      "sitemap",
+      "status"
+    ],
+    "checks": [
+      "explicit lead, linked TL;DR and section order",
+      "article and publication metadata",
+      "byline and AI disclosure",
+      "source URLs and practitioner anchor",
+      "feed GUIDs, timestamps and matching article content",
+      "hero size, caption and bytes",
+      "prior image bytes"
+    ]
+  },
+  "restored_cached_snapshots": true,
+  "completed_at": "2026-11-14T13:15:23.828801Z"
+}

@@ -1,0 +1,872 @@
+{
+  "date": "2026-11-13",
+  "reader_contract": "2.0.3",
+  "article_contract": 2,
+  "cutoff": "2026-11-13T05:00:00-08:00",
+  "window_start": "2026-11-12T01:00:00Z",
+  "discovery": {
+    "local_refresh": "DNS failure. Separate curl probes for both feed URLs returned exit 6.",
+    "snapshot_commit": "0a410d89fd4c575ea5ea46e09b65b1fba1ea4619",
+    "snapshot_checked_at": "2026-11-13T08:44:58.051882Z",
+    "hosted_refresh_run": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/43395617862",
+    "feeds": {
+      "curated": {
+        "url": "https://rss.tedt.org/ai_rss_feed.json",
+        "usable_items": 242,
+        "ingestion_exclusions": []
+      },
+      "top": {
+        "url": "https://rss.tedt.org/feeds/top.json",
+        "usable_items": 75,
+        "ingestion_exclusions": [
+          {
+            "id": "sty_f5be606eedb82a60",
+            "reason": "malformed item fields"
+          },
+          {
+            "id": "sty_2f70b614fa0ea6c5",
+            "reason": "malformed item fields"
+          },
+          {
+            "id": "sty_12efeca7c9993fb9",
+            "reason": "malformed item fields"
+          },
+          {
+            "id": "sty_d3820567a7ab125d",
+            "reason": "malformed item fields"
+          },
+          {
+            "id": "sty_6239bbd916bbfd63",
+            "reason": "malformed item fields"
+          }
+        ]
+      }
+    }
+  },
+  "lookback": {
+    "from": "2026-11-06",
+    "through": "2026-11-12",
+    "coverage": [
+      {
+        "date": "2026-11-06",
+        "state": "committed on cached base",
+        "article_count": 3
+      },
+      {
+        "date": "2026-11-07",
+        "state": "no available edition"
+      },
+      {
+        "date": "2026-11-08",
+        "state": "no available edition"
+      },
+      {
+        "date": "2026-11-09",
+        "state": "retained checkpoint",
+        "article_count": 3
+      },
+      {
+        "date": "2026-11-10",
+        "state": "retained checkpoint",
+        "article_count": 3
+      },
+      {
+        "date": "2026-11-11",
+        "state": "retained checkpoint",
+        "article_count": 5
+      },
+      {
+        "date": "2026-11-12",
+        "state": "retained checkpoint",
+        "article_count": 4
+      }
+    ],
+    "article_count": 18,
+    "quick_hits": 0
+  },
+  "screening": {
+    "candidate_groups": 39,
+    "distinct_records": {
+      "curated": 13,
+      "top": 49
+    },
+    "selected": 5,
+    "excluded_or_alternates": 34,
+    "article_target": "3–5",
+    "shortfall": 0,
+    "quick_hits": 0,
+    "limits": "The latest hosted snapshot available during research predates the cutoff by about four hours. Only the recorded groups received disposition checks. Publisher times control admission."
+  },
+  "candidates": [
+    {
+      "development": "NVIDIA CEO transition",
+      "disposition": "selected",
+      "reason": "NVIDIA’s distribution shows November 12 at 08:48 Eastern. SEC 8-K confirms November 11 board actions. Roadmap and market reactions are grouped with the transition. Personal allegations and market attributions are excluded from the brief.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_5ad703e7bbeaed8c",
+          "feed_published_at": "2026-11-12T13:58:37Z",
+          "url": "https://www.theinformation.com/articles/nvidia-ceo-jensen-huang-resigns-creating-uncertainty-ai-sector"
+        },
+        {
+          "feed": "top",
+          "id": "sty_b93a4486ef9f2271",
+          "feed_published_at": "2026-11-12T16:12:15Z",
+          "url": "https://www.theinformation.com/articles/interim-nvidia-ceo-colette-kress-tried-tame-nvidias-riskiest-bets"
+        },
+        {
+          "feed": "top",
+          "id": "sty_585b183a5f2b0eed",
+          "feed_published_at": "2026-11-12T16:32:33Z",
+          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_fd23ae78ddbdfd7d",
+          "feed_published_at": "2026-11-12T14:14:33Z",
+          "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_3301c464d7e0d8a2",
+          "feed_published_at": "2026-11-12T14:11:40Z",
+          "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_22ebb111374ab53e",
+          "feed_published_at": "2026-11-12T18:39:23Z",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_b95637684d4855b6",
+          "feed_published_at": "2026-11-12T19:30:36Z",
+          "url": "https://www.theinformation.com/articles/nvidias-dealmaking-binge-faces-reckoning-jensen-huangs-exit"
+        },
+        {
+          "feed": "top",
+          "id": "sty_62d85c4ec4eb2b0b",
+          "feed_published_at": "2026-11-12T22:14:41Z",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huang-is-out-will-nvidias-rivals-cash-in/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_e878acb4511b269e",
+          "feed_published_at": "2026-11-12T17:36:40Z",
+          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_a197c791a726a864",
+          "feed_published_at": "2026-11-12T17:44:33Z",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
+        },
+        {
+          "feed": "top",
+          "id": "sty_e51f86f7af9ce0dc",
+          "feed_published_at": "2026-11-12T15:15:35Z",
+          "url": "https://www.theinformation.com/articles/jensen-huang-out-inference-providers-screwed"
+        }
+      ],
+      "evidence": [
+        "https://www.globenewswire.com/news-release/2026/11/12/3401635/0/en/nvidia-announces-ceo-transition.html",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/0001045810-26-000082-index.htm"
+      ],
+      "slug": "nvidia-kress-interim-ceo",
+      "primary_time": "2026-11-12T13:48:00Z",
+      "date_precision": "minute",
+      "format": "brief",
+      "hero": "omitted, optional for briefs"
+    },
+    {
+      "development": "Notion’s Fireworks AI disclosure",
+      "disposition": "selected",
+      "reason": "TechCrunch’s original reporting is visibly timed November 12 at 7:02 a.m. PST. It links Notion’s earlier disclosure. The November 12 first-party Security Advisories version corroborates scope. The November 13 entry about notifications to vendors has no verified pre-cutoff publication time and is omitted.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_a34ae9041ba30cdd",
+          "feed_published_at": "2026-11-13T02:49:47Z",
+          "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor"
+        },
+        {
+          "feed": "top",
+          "id": "sty_fbc1e4f88c45944a",
+          "feed_published_at": "2026-11-12T15:02:28Z",
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+        }
+      ],
+      "evidence": [
+        "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+        "https://www.notion.com/security/advisories/security-incident-involving-a-third-party-ai-vendor",
+        "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+      ],
+      "slug": "notion-fireworks-ai-chat-exposure",
+      "primary_time": "2026-11-12T15:02:00Z",
+      "date_precision": "minute",
+      "format": "brief",
+      "hero": "omitted, optional for briefs"
+    },
+    {
+      "development": "Gemini 4 Hydrogen and Antigravity routing",
+      "disposition": "selected",
+      "reason": "Both original Google posts show November 12. A published-source timestamp capture reports 18:00 UTC, and Google DeepMind’s official launch post ID yields 18:02:36 UTC. Search, Antigravity and model reporting are one development. The prior Gemini Decisions API story concerns a distinct endpoint and model.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_6417b4f858f3a464",
+          "feed_published_at": "2026-11-12T18:00:50Z",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_51fb41ca1f107edd",
+          "feed_published_at": "2026-11-12T18:52:01Z",
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_5e4a0e8334994c6c",
+          "feed_published_at": "2026-11-12T21:55:32Z",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+        },
+        {
+          "feed": "top",
+          "id": "sty_75aec5eb096be07b",
+          "feed_published_at": "2026-11-12T19:27:45Z",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_ee40337ba52c5db9",
+          "feed_published_at": "2026-11-12T18:00:00Z",
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_9a0f6ecd32de47b7",
+          "feed_published_at": "2026-11-12T18:00:00Z",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_64c114ce51ade742",
+          "feed_published_at": "2026-11-12T19:23:03Z",
+          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_cef75f7ca2f93131",
+          "feed_published_at": "2026-11-12T19:58:43Z",
+          "url": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/"
+        }
+      ],
+      "evidence": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+        "https://x.com/GoogleDeepMind/status/2120940338869055788",
+        "https://ai-buzz.com/changes/?announcementDate=published&company=google&from=2000-01-01&through=2026-11-13"
+      ],
+      "slug": "gemini-4-hydrogen-model-routing",
+      "primary_time": "2026-11-12T18:00:00Z",
+      "date_precision": "second",
+      "format": "brief",
+      "hero": "omitted, optional for briefs"
+    },
+    {
+      "development": "Claude Meetings beta",
+      "disposition": "selected",
+      "reason": "Anthropic’s original and release notes show November 12. The whole November 12 Pacific day is eligible. The linked official post ID yields 20:16:20.663 UTC and Advance Intelligence reproduces the post at 3:16 p.m. Eastern. Direct X returned 403. The product claims come from the readable original. Live Google Meet participation and transcript sharing are distinct from the earlier Sheets and Whiteboards launch.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_fdf6e135f15a2420",
+          "feed_published_at": "2026-11-12T20:26:50Z",
+          "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/"
+        }
+      ],
+      "evidence": [
+        "https://claude.com/resources/articles/claude-meetings",
+        "https://support.claude.com/en/articles/12138966-release-notes",
+        "https://x.com/claudeai/status/2120973994191094179",
+        "https://www.advanceintelligence.ai/2026-11-12/all"
+      ],
+      "slug": "claude-meetings-google-meet-beta",
+      "primary_time": "2026-11-12T00:00:00-08:00",
+      "date_precision": "day",
+      "format": "brief",
+      "hero": "omitted, optional for briefs"
+    },
+    {
+      "development": "Nebius capital spending, financing and capacity delays",
+      "disposition": "selected",
+      "reason": "SEC EDGAR accepted Nebius’s release and shareholder letter November 12 at 09:22:11 Eastern. The Amsterdam date alone starts at 23:00 UTC November 11, before the window. The spending plan and New Jersey delay are one disclosure, with forward-looking figures attributed.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_28c4d4dc47e11a63",
+          "feed_published_at": "2026-11-12T21:27:10Z",
+          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/"
+        }
+      ],
+      "evidence": [
+        "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/0001104659-26-126008-index.html",
+        "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm"
+      ],
+      "slug": "nebius-capacity-financing-delivery",
+      "primary_time": "2026-11-12T14:22:11Z",
+      "date_precision": "second",
+      "format": "brief",
+      "hero": "omitted, optional for briefs"
+    },
+    {
+      "development": "Business-to-agent market thesis",
+      "disposition": "outside_window",
+      "reason": "The Andreessen Horowitz original is dated November 10. The November 12 curated stamp reflects selection.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "35f34bb712f35329921b616a350ce987",
+          "feed_published_at": "2026-11-12T00:00:00+00:00",
+          "url": "https://x.com/omooretweets/status/2120554019177611668"
+        }
+      ],
+      "evidence": [
+        "https://a16z.com/ais-platform-shift-is-here/"
+      ]
+    },
+    {
+      "development": "Businesses in ChatGPT",
+      "disposition": "outside_window",
+      "reason": "The announcement and release notes date the launch November 10. November 12 forum activity does not establish a new launch.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "d59a0284b4a367b31dfb8a6431a09c83",
+          "feed_published_at": "2026-11-12T00:00:00+00:00",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt"
+        }
+      ],
+      "evidence": [
+        "https://openai.com/index/introducing-businesses-chatgpt/"
+      ]
+    },
+    {
+      "development": "Harvard Business Review accounting-firm AI study",
+      "disposition": "incomplete_primary_access",
+      "reason": "The publisher visibly dates the piece November 11. The original introduction and publisher description were accessible, but the full discussion and scope required for the study claims were unavailable. The reported figures were not used.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "0475be1ed8d87d4b4aa26c9ca420fc51",
+          "feed_published_at": "2026-11-12T00:00:00+00:00",
+          "url": "https://hbr.org/2026/11/the-hidden-costs-of-delegating-to-ai"
+        }
+      ],
+      "evidence": [
+        "https://hbr.org/2026/11/the-hidden-costs-of-delegating-to-ai",
+        "https://store.hbr.org/product/the-hidden-costs-of-delegating-to-ai/H09DFY?sku=H09DFY-PDF-ENG"
+      ]
+    },
+    {
+      "development": "Forbes agent coordination commentary",
+      "disposition": "incomplete_primary_access",
+      "reason": "The original was inaccessible. A nonpublisher mirror showed an apparently eligible time. It did not substitute for the original.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "242418bdd1f11af2c4729f8a44eeee8e",
+          "feed_published_at": "2026-11-12T00:00:00+00:00",
+          "url": "https://www.forbes.com/sites/johnsviokla/2026/11/11/do-you-suffer-from-ai-agentbabble--learn-from-uber-and-more/"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Gemini for healthcare",
+      "disposition": "outside_window",
+      "reason": "Google Cloud’s original is dated November 10.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "b428f44248ef13741a392caa945b8c6d",
+          "feed_published_at": "2026-11-12T00:00:00+00:00",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare"
+        }
+      ],
+      "evidence": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare"
+      ]
+    },
+    {
+      "development": "Trovata treasury agents",
+      "disposition": "outside_window",
+      "reason": "The original co-authored AWS implementation account is dated November 10.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "83963ec2b5a94be33b8b74cf5fdcb201",
+          "feed_published_at": "2026-11-12T00:00:00+00:00",
+          "url": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/"
+        }
+      ],
+      "evidence": [
+        "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/"
+      ]
+    },
+    {
+      "development": "NVIDIA GR00T 2",
+      "disposition": "outside_window",
+      "reason": "The research page lists November. NVIDIA’s first-party announcement supplies November 9.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "bac16726cc7dc1b160f00e43355ed69d",
+          "feed_published_at": "2026-11-11T00:00:00+00:00",
+          "url": "https://research.nvidia.com/labs/gear/gr00t-2/"
+        }
+      ],
+      "evidence": [
+        "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+      ]
+    },
+    {
+      "development": "OpenAI Control Room",
+      "disposition": "outside_window",
+      "reason": "The publisher original and prior RSS capture place the launch November 9. No substantive update was verified.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "22358141595d57898e7d47b79fd082c0",
+          "feed_published_at": "2026-11-11T00:00:00+00:00",
+          "url": "https://openai.com/index/control-room/"
+        }
+      ],
+      "evidence": [
+        "https://openai.com/index/control-room/"
+      ]
+    },
+    {
+      "development": "Workday’s agent platform case study",
+      "disposition": "outside_window",
+      "reason": "LangChain’s original is dated November 10.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "3a5c4d019aee99cf6d944aa5b3b9081b",
+          "feed_published_at": "2026-11-11T00:00:00+00:00",
+          "url": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith"
+        }
+      ],
+      "evidence": [
+        "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith"
+      ]
+    },
+    {
+      "development": "Cognitive scrap commentary",
+      "disposition": "outside_window",
+      "reason": "The original URL points to November 5. No later original or substantive update was established.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "2c502c39e5ae4bf3ad0cbba33e0d8a7c",
+          "feed_published_at": "2026-11-11T00:00:00+00:00",
+          "url": "https://www.forbes.com/sites/johnsviokla/2026/11/05/are-you-turning-your-cognitive-scrap-into-cognitive-capital/"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Claude Sheets, Whiteboards and interactive connectors",
+      "disposition": "seven_day_duplicate",
+      "reason": "Anthropic dates the product announcement November 10. The November 11 checkpoint covers it. Claude Meetings is a separate rollout.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "80f963b68f4ecea3ae088bb022a73520",
+          "feed_published_at": "2026-11-11T00:00:00+00:00",
+          "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Claude Fable 5.2 and Mythos 5.2",
+      "disposition": "seven_day_duplicate",
+      "reason": "The original is dated November 9. The November 10 checkpoint covers the Fable rollout.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "e84ca6d0ce67a030c3bbe755596e3755",
+          "feed_published_at": "2026-11-11T00:00:00+00:00",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        }
+      ],
+      "evidence": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      ]
+    },
+    {
+      "development": "Meta Muse Ember",
+      "disposition": "seven_day_duplicate",
+      "reason": "The release is covered in the November 10 checkpoint and predates this window.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "id": "ceeb53e436053a87c5ae6003328b56a4",
+          "feed_published_at": "2026-11-10T00:00:00+00:00",
+          "url": "https://research.meta.ai/blog/muse-ember"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Blackwell fingerprints in model weights",
+      "disposition": "editorial_priority",
+      "reason": "The November 12 researcher original reports hardware fingerprints in initialization with two physical confirmations. Use of Blackwell for full training is inferred. Location and legality were not established.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_cc2f3640fc2995c2",
+          "feed_published_at": "2026-11-12T21:56:11Z",
+          "url": "https://unemploymentlabs.com/checkpoint-forensics"
+        }
+      ],
+      "evidence": [
+        "https://unemploymentlabs.com/checkpoint-forensics"
+      ]
+    },
+    {
+      "development": "Apple app-review delays",
+      "disposition": "editorial_priority",
+      "reason": "The feed points to a narrow app category. Evidence that AI drove the review queue changes was not established during screening.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_9912376aa9bbcf4a",
+          "feed_published_at": "2026-11-12T21:09:49Z",
+          "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Edge0-145B release",
+      "disposition": "incomplete_primary_access",
+      "reason": "The project release page was unavailable to the web reader. The ranked summary does not establish release timing, device support or capability.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_cacd0b305aa550f6",
+          "feed_published_at": "2026-11-12T23:06:17Z",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Anthropic IPO site and proposed valuation",
+      "disposition": "outside_window_core_development",
+      "reason": "The U.S. preliminary prospectus with the offering range was filed November 10. Later site promotion and valuation reporting did not establish final pricing. The European prospectus is jurisdiction-specific and was not pursued after selection.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_dea52868a5d517bc",
+          "feed_published_at": "2026-11-12T11:46:41Z",
+          "url": "https://ipo.anthropic.com/us/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_48ddfd88a058ce46",
+          "feed_published_at": "2026-11-12T23:28:37Z",
+          "url": "https://www.theinformation.com/articles/anthropic-worth"
+        }
+      ],
+      "evidence": [
+        "https://ipo.anthropic.com/us/",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"
+      ]
+    },
+    {
+      "development": "Apple Foundation Models framework",
+      "disposition": "outside_window",
+      "reason": "Apple introduced the framework in June 2025. The ranked source is a living overview without a verified new release.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_40f11c11695e5b12",
+          "feed_published_at": "2026-11-12T21:13:26Z",
+          "url": "https://developer.apple.com/foundation-models-framework/"
+        }
+      ],
+      "evidence": [
+        "https://machinelearning.apple.com/research/apple-foundation-models-2025-updates"
+      ]
+    },
+    {
+      "development": "AI archaeology claim",
+      "disposition": "editorial_priority",
+      "reason": "The feed describes a disputed application. No claim of archaeological discovery was carried forward.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_98e22a5a3e7ca4bb",
+          "feed_published_at": "2026-11-12T19:42:40Z",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "NVIDIA personal allegations",
+      "disposition": "editorial_priority",
+      "reason": "Personal claims and conjecture were omitted. The leadership transition uses the company release and SEC filing.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_4a57ae86a04e785e",
+          "feed_published_at": "2026-11-13T05:24:11Z",
+          "url": "https://www.theinformation.com/articles/sex-lies-ai-chips-jensen-huangs-last-days-nvidia-ceo"
+        },
+        {
+          "feed": "top",
+          "id": "sty_7ee8e47fcf54c046",
+          "feed_published_at": "2026-11-12T21:35:00Z",
+          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_4d9276c99d2dba1e",
+          "feed_published_at": "2026-11-12T18:59:58Z",
+          "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/"
+        },
+        {
+          "feed": "top",
+          "id": "sty_951b640500c7b74a",
+          "feed_published_at": "2026-11-12T15:00:50Z",
+          "url": "https://www.theinformation.com/articles/alice-huangs-companies-invested-deepseek-promising-nvidia-chips"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Microsoft cloud services outage",
+      "disposition": "insufficient_original_evidence",
+      "reason": "The ranked item is a news brief. The incident record and exact service scope were not verified during screening.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_c855bbfaade978ba",
+          "feed_published_at": "2026-11-13T01:57:05Z",
+          "url": "https://www.theinformation.com/briefings/microsoft-labors-fix-long-outage-office-outlook-copilot"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "AI Security Wiki v2.60",
+      "disposition": "editorial_priority",
+      "reason": "Community compilation. No new official OWASP change was established during screening.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_3748be1594263bfa",
+          "feed_published_at": "2026-11-13T03:48:55Z",
+          "url": "https://nachi065.github.io/AI-Security-Wiki/"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Amplitude Wave",
+      "disposition": "editorial_priority",
+      "reason": "The readable November 12 OpenAI case study gives a customer account and metrics for particular examples. Kept as an alternative.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_a27cba2f22727fec",
+          "feed_published_at": "2026-11-12T20:00:00Z",
+          "url": "https://openai.com/business/customer-stories/amplitude"
+        }
+      ],
+      "evidence": [
+        "https://openai.com/business/customer-stories/amplitude/"
+      ]
+    },
+    {
+      "development": "Uber Michelangelo open-source milestone",
+      "disposition": "unverified_new_release",
+      "reason": "The project and repo show availability. November 11 keynote reporting notes earlier public code. A new dated release milestone was not verified during screening.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_a9471fde5bf014ec",
+          "feed_published_at": "2026-11-13T04:56:40Z",
+          "url": "https://michelangelo-ai.org/"
+        }
+      ],
+      "evidence": [
+        "https://michelangelo-ai.org/",
+        "https://github.com/michelangelo-ai/michelangelo/releases"
+      ]
+    },
+    {
+      "development": "Muse paid business calling",
+      "disposition": "editorial_priority",
+      "reason": "Consumer calling product coverage ranked below the five selected decisions. First-party availability terms were not verified.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_f415256fa1a60e25",
+          "feed_published_at": "2026-11-12T22:22:28Z",
+          "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "FAA congestion advice expansion",
+      "disposition": "incomplete_primary_access",
+      "reason": "The ranked article could not be read. The FAA daily report did not substantiate the claimed expansion.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_cc55e6501fe55fac",
+          "feed_published_at": "2026-11-12T22:28:47Z",
+          "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+        }
+      ],
+      "evidence": [
+        "https://www.faa.gov/newsroom/faa-daily-air-traffic-report"
+      ]
+    },
+    {
+      "development": "Chinese frontier model security coverage",
+      "disposition": "editorial_priority",
+      "reason": "This was screened as a separate report. No directly verified affected service or new supported defensive response was established.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_cf7d2f125c8212df",
+          "feed_published_at": "2026-11-12T18:31:33Z",
+          "url": "https://www.theinformation.com/articles/free-chinese-ai-can-hack-companies-frontier-developers-face-diminishing-returns"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "United agent booking restriction",
+      "disposition": "seven_day_duplicate",
+      "reason": "This is follow-on reporting about the restriction covered in the November 12 checkpoint.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_44f29b683e05ec9e",
+          "feed_published_at": "2026-11-12T17:17:58Z",
+          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Gondola Codex case study",
+      "disposition": "editorial_priority",
+      "reason": "The feed points to an individual vendor case study. The result was not needed for the edition and its metrics were not carried forward.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_5ec91c50370164f0",
+          "feed_published_at": "2026-11-12T12:00:00Z",
+          "url": "https://openai.com/business/customer-stories/gondola"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Holiday Extras Codex case study",
+      "disposition": "editorial_priority",
+      "reason": "The feed points to an individual vendor case study. The result was not needed for the edition and its metrics were not carried forward.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_42237d64003f5af3",
+          "feed_published_at": "2026-11-12T09:30:00Z",
+          "url": "https://openai.com/business/customer-stories/holidays-extras-codex"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Shopping search cites fake sites",
+      "disposition": "editorial_priority",
+      "reason": "Original research dataset and retailer sample were not validated during screening.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_9243ae04789d2135",
+          "feed_published_at": "2026-11-12T17:00:00Z",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "development": "Kiro adds Grok 4.7",
+      "disposition": "outside_window",
+      "reason": "Kiro’s changelog dates availability November 10. The November 12 explanatory article did not establish a second rollout.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_7dc825c6da6f29fb",
+          "feed_published_at": "2026-11-13T00:05:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBMRlRWSEhXeERSV0JxN0lPQjdESXVYcE5SVHctTlZ5Sk1ZUXhra2N5ald0a29JOTRaNDkzMkwyaVQ2UEpNdW9NTG9MTUdjRHdiNlJjdkVKcGJOSlk?oc=5"
+        },
+        {
+          "feed": "top",
+          "id": "sty_a73439f46c7a2fd1",
+          "feed_published_at": "2026-11-12T23:06:47Z",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JTEV2NFdFeVcwQ0RXalNma3BKbDQtNDNIMHZhYi02ZnNHUlhObEkzbnE1RVcxSWREb1VoWEtwejFoak9KQ0FPNVZJMWwwWXVWa0t1cEp4aTl6dElnLVloMTdtUFpzOFdV?oc=5"
+        }
+      ],
+      "evidence": [
+        "https://kiro.dev/changelog/models/grok-4-7-now-available-in-kiro/",
+        "https://kiro.dev/blog/grok-4-7/"
+      ]
+    },
+    {
+      "development": "Norwest fund 18",
+      "disposition": "editorial_priority",
+      "reason": "The November 12 company release confirms a general $4 billion fund without allocating that amount to AI.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_6aa5d8d82f3f5930",
+          "feed_published_at": "2026-11-12T15:18:14Z",
+          "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
+        }
+      ],
+      "evidence": [
+        "https://www.norwest.com/blog/norwest-18/"
+      ]
+    },
+    {
+      "development": "ElevenLabs Scribe v3 and Scribe v3 Live",
+      "disposition": "outside_window",
+      "reason": "The official changelog shows API availability November 9. The launch blog is dated November 10.",
+      "discovered": [
+        {
+          "feed": "top",
+          "id": "sty_31cc2e8c4e982605",
+          "feed_published_at": "2026-11-12T13:48:19Z",
+          "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/"
+        }
+      ],
+      "evidence": [
+        "https://elevenlabs.io/docs/changelog/2026/11/9",
+        "https://elevenlabs.io/blog/scribe-v3"
+      ]
+    }
+  ]
+}

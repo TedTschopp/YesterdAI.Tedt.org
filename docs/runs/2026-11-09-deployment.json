@@ -1,0 +1,47 @@
+{
+  "edition_date": "2026-11-09",
+  "status": "prepared_not_pushed",
+  "exact_pushed_commit": null,
+  "publication_run": null,
+  "actual_published_at": null,
+  "published_urls": [],
+  "git_fetch": {
+    "command": "git fetch origin main",
+    "attempts": 2,
+    "status": "failed",
+    "exit_code": 128,
+    "diagnostic": "Could not resolve host: github.com"
+  },
+  "ship": {
+    "status": "not_started",
+    "reason": "Required local direct feed refresh and current Git fetch failed. The last hosted build also has an unresolved deterministic runner/toolchain failure. No alternate push or workflow bypass."
+  },
+  "current_remote_failed_run": {
+    "id": 42594802004,
+    "url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/42594802004",
+    "commit": "962f1cf359d236f289efcd3b71c8d958d7b0d2a1",
+    "job_id": 129084742091,
+    "conclusion": "failure",
+    "failed_at": "2026-11-09T09:37:24.5706191Z",
+    "step": "ruby/setup-ruby@v1",
+    "runner": "Ubuntu 26.04",
+    "ruby": "3.2.9",
+    "artifact_http_status": 404,
+    "hosted_checks": "not reached",
+    "deploy_job": {
+      "id": 129084893416,
+      "conclusion": "skipped"
+    }
+  },
+  "last_successful_hosted_publication": {
+    "run_id": 41764356875,
+    "url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41764356875",
+    "commit": "fd98d5ca590a0a7fc6f0dc328e6fc6777c6816cd",
+    "deploy_job_id": 126359978649,
+    "deploy_job_completed_at": "2026-11-04T03:03:25Z",
+    "latest_edition_in_commit": "2026-11-03",
+    "edition_url": "https://yesterdai.tedt.org/editions/2026-11-03/",
+    "fresh_public_readback": false
+  },
+  "required_action": "Restore publication-runner network access; repair and verify Pages Ruby/runner compatibility separately. Reuse this editorial checkpoint, reconcile current main with the guarded ship command, then verify the exact pushed commit and public URLs."
+}

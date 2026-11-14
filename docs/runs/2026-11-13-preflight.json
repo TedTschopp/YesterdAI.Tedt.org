@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-13",
+  "started_at": "2026-11-13T13:26:33.290421Z",
+  "stages": [
+    {
+      "name": "Python unit tests",
+      "command": [
+        "/Users/tedtschopp/Developer/yesterdai-daily-20261113/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "started_at": "2026-11-13T13:26:33.290520Z",
+      "finished_at": "2026-11-13T13:26:33.860627Z",
+      "exit_code": 0,
+      "output": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 0.383s\n\nOK\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T12:00:00Z\"}\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T13:00:00Z\"}\n"
+    },
+    {
+      "name": "Editorial validation",
+      "command": [
+        "/Users/tedtschopp/Developer/yesterdai-daily-20261113/.venv/bin/python",
+        "scripts/publish.py",
+        "validate"
+      ],
+      "started_at": "2026-11-13T13:26:33.860653Z",
+      "finished_at": "2026-11-13T13:26:34.094857Z",
+      "exit_code": 0,
+      "output": "Validated 21 editions and 68 complete researched stories.\n"
+    },
+    {
+      "name": "Strict Jekyll build",
+      "command": [
+        "bundle",
+        "exec",
+        "jekyll",
+        "build",
+        "--strict_front_matter"
+      ],
+      "started_at": "2026-11-13T13:26:34.094872Z",
+      "finished_at": "2026-11-13T13:26:35.283457Z",
+      "exit_code": 0,
+      "output": "`/Users/tedtschopp` is not writable.\nBundler will use `/var/folders/rl/w92r_6tx4dx3m6mpp07y2tc00000gn/T/bundler20261113-44740-lqjsum44740' as your home directory temporarily.\nConfiguration file: /Users/tedtschopp/Developer/yesterdai-daily-20261113/_config.yml\n            Source: /Users/tedtschopp/Developer/yesterdai-daily-20261113\n       Destination: /Users/tedtschopp/Developer/yesterdai-daily-20261113/_site\n Incremental build: disabled. Enable with --incremental\n      Generating... \n                    done in 0.541 seconds.\n Auto-regeneration: disabled. Use --watch to enable.\n"
+    },
+    {
+      "name": "Pagefind index",
+      "command": [
+        "npm",
+        "run",
+        "index"
+      ],
+      "started_at": "2026-11-13T13:26:35.283473Z",
+      "finished_at": "2026-11-13T13:26:35.989202Z",
+      "exit_code": 0,
+      "output": "\n> index\n> pagefind --site _site --glob 'articles/**/index.html'\n\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"/Users/tedtschopp/Developer/yesterdai-daily-20261113\"\nSource:       \"_site\"\nOutput:       \"_site/pagefind\"\n\n[Walking source directory]\nFound 68 files matching articles/**/index.html\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n↳ Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 68 pages\n  Indexed 3354 words\n  Indexed 2 filters\n  Indexed 0 sorts\n\nFinished in 0.064 seconds\n"
+    },
+    {
+      "name": "Rendered site and feeds",
+      "command": [
+        "/Users/tedtschopp/Developer/yesterdai-daily-20261113/.venv/bin/python",
+        "scripts/check_site.py"
+      ],
+      "started_at": "2026-11-13T13:26:35.989233Z",
+      "finished_at": "2026-11-13T13:26:36.739833Z",
+      "exit_code": 0,
+      "output": "Checked 102 HTML pages, internal links, accessibility metadata, feeds, and sitemap; 4.0 MB.\n"
+    },
+    {
+      "name": "JavaScript and publication smoke",
+      "command": [
+        "npm",
+        "run",
+        "test:smoke"
+      ],
+      "started_at": "2026-11-13T13:26:36.739868Z",
+      "finished_at": "2026-11-13T13:26:37.177170Z",
+      "exit_code": 0,
+      "output": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n✔ the current edition stays quiet and the prior one gets a grace period (20.925875ms)\n✔ the seven-am deadline follows both DST transitions (0.28725ms)\n✔ midnight does not warn about an edition that is not due yet (0.356416ms)\n✔ recent successful checks stay quiet even if the content was unchanged (0.090209ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 120.208708\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate.\n"
+    }
+  ],
+  "finished_at": "2026-11-13T13:26:37.177206Z",
+  "outcome": "passed",
+  "local_readback": {
+    "state": "passed",
+    "lead": "art_8c027ed035af9125",
+    "article_count": 5,
+    "tldr_links_on_home_and_edition": 5,
+    "sections": [
+      "Big Moves",
+      "Enterprise Ops",
+      "Vendors",
+      "Security"
+    ],
+    "past_blobs_preserved": 109,
+    "prior_images_match_build": 26,
+    "verified": [
+      "headline and metadata",
+      "byline and AI disclosures",
+      "source links",
+      "feed content and GUIDs",
+      "sitemap",
+      "Pagefind"
+    ],
+    "local_edition_path": "_site/editions/2026-11-13/index.html",
+    "articles": [
+      {
+        "article_id": "art_8c027ed035af9125",
+        "slug": "nvidia-kress-interim-ceo",
+        "words": 232,
+        "candidate_url": "https://yesterdai.tedt.org/articles/nvidia-kress-interim-ceo/"
+      },
+      {
+        "article_id": "art_a3523f73e3129004",
+        "slug": "notion-fireworks-ai-chat-exposure",
+        "words": 244,
+        "candidate_url": "https://yesterdai.tedt.org/articles/notion-fireworks-ai-chat-exposure/"
+      },
+      {
+        "article_id": "art_d7c21c501eb23f12",
+        "slug": "gemini-4-hydrogen-model-routing",
+        "words": 242,
+        "candidate_url": "https://yesterdai.tedt.org/articles/gemini-4-hydrogen-model-routing/"
+      },
+      {
+        "article_id": "art_779abe288b1c01da",
+        "slug": "claude-meetings-google-meet-beta",
+        "words": 256,
+        "candidate_url": "https://yesterdai.tedt.org/articles/claude-meetings-google-meet-beta/"
+      },
+      {
+        "article_id": "art_26f7664759312f88",
+        "slug": "nebius-capacity-financing-delivery",
+        "words": 237,
+        "candidate_url": "https://yesterdai.tedt.org/articles/nebius-capacity-financing-delivery/"
+      }
+    ]
+  },
+  "style_diagnostics": [
+    {
+      "path": "_articles/nvidia-kress-interim-ceo.md",
+      "output": "Ted writing-style diagnostic (guidance, not a score)\nWords: 260\nParagraphs: 4\nSentences: 21\nMean sentence length: 12.4 words\nMedian sentence length: 12 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 67 words\nFirst person: 0.0 per 1,000 words\nSecond person: 11.54 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    },
+    {
+      "path": "_articles/notion-fireworks-ai-chat-exposure.md",
+      "output": "Ted writing-style diagnostic (guidance, not a score)\nWords: 297\nParagraphs: 4\nSentences: 19\nMean sentence length: 15.6 words\nMedian sentence length: 15 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 74 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    },
+    {
+      "path": "_articles/gemini-4-hydrogen-model-routing.md",
+      "output": "Ted writing-style diagnostic (guidance, not a score)\nWords: 289\nParagraphs: 4\nSentences: 15\nMean sentence length: 19.3 words\nMedian sentence length: 17 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 79 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    },
+    {
+      "path": "_articles/claude-meetings-google-meet-beta.md",
+      "output": "Ted writing-style diagnostic (guidance, not a score)\nWords: 277\nParagraphs: 4\nSentences: 16\nMean sentence length: 17.3 words\nMedian sentence length: 17 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 81 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    },
+    {
+      "path": "_articles/nebius-capacity-financing-delivery.md",
+      "output": "Ted writing-style diagnostic (guidance, not a score)\nWords: 255\nParagraphs: 3\nSentences: 13\nMean sentence length: 19.6 words\nMedian sentence length: 16 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 85 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    }
+  ],
+  "base": "c79ba1c2199de54abe052242916386754ea95f46"
+}

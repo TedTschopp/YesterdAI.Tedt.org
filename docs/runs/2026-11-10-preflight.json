@@ -1,0 +1,95 @@
+{
+  "started_at": "2026-11-10T13:11:01.952608Z",
+  "scope": "Isolated checkpoint on cached origin/main. GitHub's comparison showed only feed snapshot differences from the observed remote main.",
+  "initial_attempt": {
+    "finished_at": "2026-11-10T13:10:37.978689Z",
+    "failed_command": [
+      "bundle",
+      "exec",
+      "jekyll",
+      "build",
+      "--strict_front_matter"
+    ],
+    "reason": "The first invocation selected macOS system Ruby 2.6 and its Bundler could not find the locked gems.",
+    "resolution": "Prepended the installed rbenv shims, confirmed locked Ruby 3.2.9, and restarted all six checks."
+  },
+  "tool_versions": {
+    "ruby": "ruby 3.2.9 (2025-07-24 revision 8f611e0c46) [arm64-darwin25]",
+    "python": "Python 3.14.10",
+    "node": "v26.2.0"
+  },
+  "stages": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "started_at": "2026-11-10T13:11:02.060152Z",
+      "finished_at": "2026-11-10T13:11:02.538154Z",
+      "exit_code": 0,
+      "output": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 0.367s\n\nOK\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T12:00:00Z\"}\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T13:00:00Z\"}\n"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/publish.py",
+        "validate"
+      ],
+      "started_at": "2026-11-10T13:11:02.538202Z",
+      "finished_at": "2026-11-10T13:11:02.774013Z",
+      "exit_code": 0,
+      "output": "Validated 21 editions and 66 complete researched stories.\n"
+    },
+    {
+      "command": [
+        "bundle",
+        "exec",
+        "jekyll",
+        "build",
+        "--strict_front_matter"
+      ],
+      "started_at": "2026-11-10T13:11:02.774063Z",
+      "finished_at": "2026-11-10T13:11:03.942191Z",
+      "exit_code": 0,
+      "output": "`/Users/tedtschopp` is not writable.\nBundler will use `/var/folders/rl/w92r_6tx4dx3m6mpp07y2tc00000gn/T/bundler20261110-68824-rqwqh168824' as your home directory temporarily.\nConfiguration file: /Users/tedtschopp/Developer/yesterdai-daily-20261110/_config.yml\n            Source: /Users/tedtschopp/Developer/yesterdai-daily-20261110\n       Destination: /Users/tedtschopp/Developer/yesterdai-daily-20261110/_site\n Incremental build: disabled. Enable with --incremental\n      Generating... \n                    done in 0.609 seconds.\n Auto-regeneration: disabled. Use --watch to enable.\n"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "index"
+      ],
+      "started_at": "2026-11-10T13:11:03.942233Z",
+      "finished_at": "2026-11-10T13:11:04.144368Z",
+      "exit_code": 0,
+      "output": "\n> index\n> pagefind --site _site --glob 'articles/**/index.html'\n\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"/Users/tedtschopp/Developer/yesterdai-daily-20261110\"\nSource:       \"_site\"\nOutput:       \"_site/pagefind\"\n\n[Walking source directory]\nFound 66 files matching articles/**/index.html\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n↳ Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 66 pages\n  Indexed 3311 words\n  Indexed 2 filters\n  Indexed 0 sorts\n\nFinished in 0.052 seconds\n"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_site.py"
+      ],
+      "started_at": "2026-11-10T13:11:04.144411Z",
+      "finished_at": "2026-11-10T13:11:04.886364Z",
+      "exit_code": 0,
+      "output": "Checked 100 HTML pages, internal links, accessibility metadata, feeds, and sitemap; 4.0 MB.\n"
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "test:smoke"
+      ],
+      "started_at": "2026-11-10T13:11:04.886404Z",
+      "finished_at": "2026-11-10T13:11:05.068108Z",
+      "exit_code": 0,
+      "output": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n✔ the current edition stays quiet and the prior one gets a grace period (9.992875ms)\n✔ the seven-am deadline follows both DST transitions (0.297792ms)\n✔ midnight does not warn about an edition that is not due yet (0.079584ms)\n✔ recent successful checks stay quiet even if the content was unchanged (0.096541ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 49.227959\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate.\n"
+    }
+  ],
+  "finished_at": "2026-11-10T13:11:05.068155Z",
+  "passed": true
+}

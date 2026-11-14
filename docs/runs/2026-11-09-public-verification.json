@@ -1,0 +1,33 @@
+{
+  "edition_date": "2026-11-09",
+  "status": "not_deployed_or_publicly_verified",
+  "actual_published_at": null,
+  "published_urls": [],
+  "intended_urls": [
+    "https://yesterdai.tedt.org/editions/2026-11-09/",
+    "https://yesterdai.tedt.org/articles/memorydojo-cross-session-poisoning/",
+    "https://yesterdai.tedt.org/articles/copied-reports-ai-evidence/",
+    "https://yesterdai.tedt.org/articles/openmeter-local-ai-meter-queries/"
+  ],
+  "new_hero_urls": [],
+  "shell_public_health": {
+    "command": ".venv/bin/python scripts/health.py --public",
+    "exit_code": 1,
+    "diagnostic": "DNS failure: nodename nor servname provided, or not known"
+  },
+  "public_web_reader": "The candidate edition and all three candidate article URLs were unavailable to the reader tool; no HTTP status was established. Cached homepage/archive results are not fresh readback.",
+  "last_successful_pages_run": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41764356875",
+  "interpretation": "No new push or deployment occurred in this run. Last successful Pages job identifies the prior published build; a fresh readback of that build could not be completed.",
+  "local_artifact_verification": {
+    "checked_at": "2026-11-09T13:16:13.415416Z",
+    "scope": "local output only",
+    "edition_article_pages": 4,
+    "homepage": true,
+    "about": true,
+    "article_search_and_social_metadata": true,
+    "feed_identity_author_dates_and_sitemap": true,
+    "linked_tldr_and_explicit_lead": true,
+    "prior_content_and_image_files_hash_matched": 109,
+    "prior_images_hash_matched": 26
+  }
+}

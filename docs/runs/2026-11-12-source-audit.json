@@ -1,0 +1,640 @@
+{
+  "edition_date": "2026-11-12",
+  "reader_contract": "2.0.3",
+  "article_contract": 2,
+  "window_start_utc": "2026-11-11T01:00:00Z",
+  "cutoff_utc": "2026-11-12T13:00:00Z",
+  "headline_style": "AP sentence style per the saved task",
+  "discovery": {
+    "status": "ok_via_hosted_snapshot",
+    "direct_refresh": "Failed on DNS. Direct probes of both feed URLs reached no HTTP response.",
+    "snapshot_commit": "ddf5212bb94f123e637ffd350c1ea7a84d9d2728",
+    "refresh_run": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/43220401159",
+    "checked_at": "2026-11-12T12:42:50.809565Z",
+    "feeds": {
+      "curated": {
+        "url": "https://rss.tedt.org/ai_rss_feed.json",
+        "usable_items": 242,
+        "ingestion_exclusions": []
+      },
+      "top": {
+        "url": "https://rss.tedt.org/feeds/top.json",
+        "usable_items": 199,
+        "ingestion_exclusions": [
+          {
+            "id": "sty_954068c7f9437725",
+            "reason": "malformed item fields"
+          }
+        ]
+      }
+    },
+    "editorial_screen_counts": {
+      "curated": 18,
+      "top": 21
+    },
+    "limits": "Screened the newest curated items and selected priority records from the ranked feed. Exhaustive review of all 441 items was unnecessary once four distinct, verified briefs were selected. Feed dates and summaries were treated as discovery data."
+  },
+  "deduplication": {
+    "start_date": "2026-11-05",
+    "end_date": "2026-11-11",
+    "available_editions": [
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-09",
+      "2026-11-10",
+      "2026-11-11"
+    ],
+    "unavailable_dates": [
+      "2026-11-07",
+      "2026-11-08"
+    ],
+    "read_records": 17,
+    "quick_hits": 0,
+    "checkpoints": {
+      "2026-11-09": "2d1f6a14b5b30466aa6e6e75c089c99252434ea9",
+      "2026-11-10": "dde0424c6839a5a7ca5f413674979a5500c65e26",
+      "2026-11-11": "f372199062afd0ed07ae7b9ebeefc54f80df39d0"
+    },
+    "result": "Compared URLs and substantive developments. The four selected developments are distinct from prior coverage."
+  },
+  "editorial": {
+    "screened_candidate_groups": 34,
+    "selected": 4,
+    "excluded_or_alternative": 30,
+    "target": {
+      "minimum": 3,
+      "maximum": 5,
+      "shortfall": 0
+    },
+    "formats": {
+      "brief": 4,
+      "analysis": 0
+    },
+    "quick_hits": 0,
+    "new_heroes": 0,
+    "format_reason": "Each article answers one bounded reader question. Briefs omit optional heroes. Existing images are preserved."
+  },
+  "candidates": [
+    {
+      "development": "Google Gemini Decisions API",
+      "disposition": "selected",
+      "reason": "Google’s original visible release date is November 11. AGI Pulse reported the same-day 18:00 UTC Google Blog timestamp captured from RSS and AI Barometer independently lists the same timestamp. The web reader could not parse the raw XML. The technical announcement is the reporting source, and Google’s benchmark scope and Cloud availability are bounded in the brief.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_38f100496edac62f",
+          "feed_date": "2026-11-11T18:00:00Z",
+          "discovered_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+        "https://agipulse.org/e/1114",
+        "https://aibarometer.today/en/gemini-update/"
+      ]
+    },
+    {
+      "development": "United Airlines agent access",
+      "disposition": "selected",
+      "reason": "CBS MoneyWatch’s original reporting and interview visibly date to November 11 at 2:37 p.m. EST. United confirmed direct and indirect restrictions. Business Travel News obtained United’s separate communications to accredited agencies and corporate customers.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_d2ff8b21c839db34",
+          "feed_date": "2026-11-11T21:24:35Z",
+          "discovered_url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+        "https://united.mediaroom.com/news-releases?item=125496",
+        "https://www.businesstravelnews.com/transportation/air/united-restricts-unauthorized-third-party-ai-agent-access"
+      ]
+    },
+    {
+      "development": "Fractile Series C",
+      "disposition": "selected",
+      "reason": "The official company LinkedIn ugcPost ID dates to November 11 at 14:10:16.131 UTC. Fractile identifies the four co-leads and two UK public participants. The headline in the ranked feed incorrectly identifies Sovereign AI as the round lead. The CEO’s separately timed post gives the 2027 first-shipment plan, corroborated by Reuters and TechCrunch.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_46d939728280d5db",
+          "feed_date": "2026-11-11T19:34:55Z",
+          "discovered_url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://www.linkedin.com/posts/we-are-delighted-to-share-that-fractile-has-ugcPost-7526285169943625747-n5p9/",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7526304067573182464/",
+        "https://www.gov.uk/government/news/sovereign-ai-and-british-business-bank-invest-in-british-firm-developing-the-next-generation-of-ai-hardware",
+        "https://live.euronext.com/en/financial-news/uk-backed-ai-chip-startup-fractile-hits-7-billion-valuation-funding-round"
+      ]
+    },
+    {
+      "development": "Databricks Genie Ontology",
+      "disposition": "selected",
+      "reason": "Databricks’ November 11 San Francisco dateline establishes an eligible full Pacific day. The general-availability post and launch release agree on Genie Ontology and distinguish the upcoming always-on agent. The two pages give different Genie Search availability wording, which the brief omits.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_2323201bb5550097",
+          "feed_date": "2026-11-11T15:00:00Z",
+          "discovered_url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://www.databricks.com/blog/announcing-ga-genie-ontology",
+        "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex"
+      ]
+    },
+    {
+      "development": "a16z B2A essay",
+      "disposition": "original_time_unverified",
+      "reason": "The a16z original visibly dates to November 10. No exact time established eligibility across the November 11 01:00 UTC boundary. The author's linked social post at November 11 16:27:30.817 UTC publicizes the same essay.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "3ca44ef4197830bb0fbe6342b286f6cc",
+          "feed_date": "2026-11-12T00:00:00+00:00",
+          "discovered_url": "https://x.com/omooretweets/status/2120554019177611668"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://a16z.com/welcome-to-the-b2a-economy/"
+      ]
+    },
+    {
+      "development": "Businesses in ChatGPT",
+      "disposition": "outside_window",
+      "reason": "Publisher RSS timestamp transcribed by GPTMap is November 10 10:00 UTC, 15 hours before the window. The November 12 curated date is a discovery marker.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "375fd3b30e5ff84bc501050dddf729c5",
+          "feed_date": "2026-11-12T00:00:00+00:00",
+          "discovered_url": "https://openai.com/index/introducing-businesses-chatgpt"
+        },
+        {
+          "feed": "top",
+          "feed_id": "sty_6d2450c708aab4b6",
+          "feed_date": "2026-11-10T10:00:00Z",
+          "discovered_url": "https://openai.com/index/introducing-businesses-chatgpt"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://openai.com/index/introducing-businesses-chatgpt/",
+        "https://www.gptmap.org/en/posts/openai-models-release-notes"
+      ]
+    },
+    {
+      "development": "HBR accounting AI deployment",
+      "disposition": "source_body_incomplete",
+      "reason": "The original page is visibly dated November 11 and shows the opening, including figures attributed to Current. The available preview does not establish the underlying methods, costs or scope of the authors’ conclusions.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "47d838edb43a66559264f7f22f3cf12d",
+          "feed_date": "2026-11-12T00:00:00+00:00",
+          "discovered_url": "https://hbr.org/2026/11/the-hidden-costs-of-delegating-to-ai"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://hbr.org/2026/11/the-hidden-costs-of-delegating-to-ai"
+      ]
+    },
+    {
+      "development": "Forbes agent management article",
+      "disposition": "source_access_failure",
+      "reason": "The Forbes original could not be read through the available web channel. The curated summary and URL date were insufficient.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "242418bdd1f11af2c4729f8a44eeee8e",
+          "feed_date": "2026-11-12T00:00:00+00:00",
+          "discovered_url": "https://www.forbes.com/sites/johnsviokla/2026/11/11/do-you-suffer-from-ai-agentbabble--learn-from-uber-and-more/"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "Gemini for healthcare",
+      "disposition": "original_time_unverified",
+      "reason": "Google Cloud’s visible date is November 10. A Pacific November 10 day crosses the opening boundary, and an eligible exact timestamp or substantive update was not established.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "1c53195249263d7df841cf22cbba581b",
+          "feed_date": "2026-11-12T00:00:00+00:00",
+          "discovered_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare"
+      ]
+    },
+    {
+      "development": "AWS and Trovata treasury case",
+      "disposition": "original_time_unverified",
+      "reason": "AWS shows November 10. The time captured by a separate article archive, November 11 00:06 UTC, is 54 minutes before the window. The accessible AWS original does not establish a later substantive update.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "faaf7b0c04928a12bbe40c8439a5e2c5",
+          "feed_date": "2026-11-12T00:00:00+00:00",
+          "discovered_url": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+        "https://www.mech.app/articles/trovata-s-autonomous-treasury-agents-rbac-secured-multi-agent-architecture-for-corporate-cash/"
+      ]
+    },
+    {
+      "development": "NVIDIA GR00T 2",
+      "disposition": "original_time_unverified",
+      "reason": "The primary project page shows November 2026 without an evidenced original day or time in the window.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "bac16726cc7dc1b160f00e43355ed69d",
+          "feed_date": "2026-11-11T00:00:00+00:00",
+          "discovered_url": "https://research.nvidia.com/labs/gear/gr00t-2/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://research.nvidia.com/labs/gear/gr00t-2/"
+      ]
+    },
+    {
+      "development": "OpenAI Control Room",
+      "disposition": "outside_window",
+      "reason": "OpenAI's original body was readable. GPTMap’s November 10 readback recorded the official News RSS at November 9 13:00 UTC, before the coverage window. Later discussion does not establish a substantive update.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "22358141595d57898e7d47b79fd082c0",
+          "feed_date": "2026-11-11T00:00:00+00:00",
+          "discovered_url": "https://openai.com/index/control-room/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://openai.com/index/control-room/",
+        "https://www.gptmap.org/en/posts/openai-models-release-notes"
+      ]
+    },
+    {
+      "development": "Workday agent platform",
+      "disposition": "original_time_unverified",
+      "reason": "LangChain’s original case study displays November 10. It lacks an exact in-window time, and a local November 10 date spans the opening boundary.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "3a5c4d019aee99cf6d944aa5b3b9081b",
+          "feed_date": "2026-11-11T00:00:00+00:00",
+          "discovered_url": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith"
+      ]
+    },
+    {
+      "development": "Forbes cognitive capital",
+      "disposition": "older_candidate",
+      "reason": "The original URL dates to November 5. The November 11 checkpoint had already screened the same original with no later evidence. No new verified update was identified.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "2c502c39e5ae4bf3ad0cbba33e0d8a7c",
+          "feed_date": "2026-11-11T00:00:00+00:00",
+          "discovered_url": "https://www.forbes.com/sites/johnsviokla/2026/11/05/are-you-turning-your-cognitive-scrap-into-cognitive-capital/"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "Claude Sheets and Whiteboards",
+      "disposition": "seven_day_duplicate",
+      "reason": "Same workplace launch as art_39358eeccb703a66 in the saved November 11 edition. The follow-on ranked coverage adds no verified development for this edition.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "80f963b68f4ecea3ae088bb022a73520",
+          "feed_date": "2026-11-11T00:00:00+00:00",
+          "discovered_url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"
+        },
+        {
+          "feed": "top",
+          "feed_id": "sty_aca4ddc12b755695",
+          "feed_date": "2026-11-10T18:26:51Z",
+          "discovered_url": "https://www.theinformation.com/briefings/anthropic-launches-new-workplace-software-sending-microsoft-shares-tanking"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "Claude Fable 5.2 and Mythos 5.2",
+      "disposition": "seven_day_duplicate",
+      "reason": "Same model launch as art_a989f1582084d0cf in the saved November 10 edition. The later curated date does not change the original timing.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "e84ca6d0ce67a030c3bbe755596e3755",
+          "feed_date": "2026-11-11T00:00:00+00:00",
+          "discovered_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "Meta Muse Ember",
+      "disposition": "seven_day_duplicate",
+      "reason": "Same model release as art_86708699833d3a97 in the saved November 10 edition.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "ceeb53e436053a87c5ae6003328b56a4",
+          "feed_date": "2026-11-10T00:00:00+00:00",
+          "discovered_url": "https://research.meta.ai/blog/muse-ember"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "AI agent malpractice insurance",
+      "disposition": "older_candidate",
+      "reason": "The New York Times original path dates to November 7. No verified substantive update in this window.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "e6fec6f5905af1078909c3cc8b8ab35c",
+          "feed_date": "2026-11-10T00:00:00+00:00",
+          "discovered_url": "https://www.nytimes.com/2026/11/07/business/dealbook/crosby-ai-agent-liability-malpractice-insurance.html"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "McKinsey risk function",
+      "disposition": "screened_only",
+      "reason": "The curated entry is dated November 10. Prior audit screened the same report. No newer concrete development surfaced in this run.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "37470d6830b05a574ccdb7d2cc0fcfca",
+          "feed_date": "2026-11-10T00:00:00+00:00",
+          "discovered_url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-ai-enabled-risk-function-of-the-future?stcr=6250441221084CED96F0051149EEC648&cid=mgp_opr-eml-alt-rar-mgp-glb--&hlkid=6f1905fbf5574cb1837dc7aa614d9841&hctky=1595995&hdpid=d85ea310-a53e-4560-9366-27b9cddfab21"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "LangChain eval-driven development",
+      "disposition": "screened_only",
+      "reason": "General practitioner guidance ranked behind the eligible new launches. The curated placeholder is insufficient for eligibility.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "85fc0c376585a4cb457e2e1f9506ae86",
+          "feed_date": "2026-11-10T00:00:00+00:00",
+          "discovered_url": "https://www.langchain.com/blog/what-is-eval-driven-development"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "HBR AI oversight",
+      "disposition": "screened_only",
+      "reason": "General practitioner guidance ranked behind the eligible new developments. The curated placeholder is insufficient for eligibility.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "cc992c19f67b8f238fbb3ea3d996fcd7",
+          "feed_date": "2026-11-10T00:00:00+00:00",
+          "discovered_url": "https://hbr.org/2026/11/why-leaders-need-to-rethink-their-approach-to-ai-oversight?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "Taxbit Assist",
+      "disposition": "screened_only",
+      "reason": "The November 10 checkpoint examined this AWS case. No new substantive update surfaced.",
+      "discovered": [
+        {
+          "feed": "curated",
+          "feed_id": "10b37a4041cd29181ffb440181ac740a",
+          "feed_date": "2026-11-10T00:00:00+00:00",
+          "discovered_url": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "Apple faster retrieval",
+      "disposition": "outside_window",
+      "reason": "The Apple Machine Learning Research page shows original publication November 5, 2026. The new ranking does not establish an update.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_83758187693b8946",
+          "feed_date": "2026-11-11T16:57:45Z",
+          "discovered_url": "https://machinelearning.apple.com/research/faster-retrieval"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://machinelearning.apple.com/research/faster-retrieval"
+      ]
+    },
+    {
+      "development": "Holiday Extras and Codex",
+      "disposition": "original_time_unverified",
+      "reason": "The customer story shows November 12. The ranked item’s 09:30 UTC time could not be verified as publisher metadata. The full November 12 day extends beyond cutoff.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_42237d64003f5af3",
+          "feed_date": "2026-11-12T09:30:00Z",
+          "discovered_url": "https://openai.com/business/customer-stories/holidays-extras-codex"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://openai.com/business/customer-stories/holidays-extras-codex/"
+      ]
+    },
+    {
+      "development": "DeepL Aure",
+      "disposition": "original_time_unverified",
+      "reason": "DeepL's original release has a November 11 Cologne dateline. The start of that calendar day was November 10 23:00 UTC, before the window. Secondary coverage was in the window, with no verified exact first-party time for the launch.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_ac21fba505354ce4",
+          "feed_date": "2026-11-12T09:39:36Z",
+          "discovered_url": "https://www.deepl.com/en/press-release/aure-voice-ai-model"
+        },
+        {
+          "feed": "top",
+          "feed_id": "sty_978779f539defa92",
+          "feed_date": "2026-11-11T13:50:30Z",
+          "discovered_url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://www.deepl.com/en/press-release/aure-voice-ai-model"
+      ]
+    },
+    {
+      "development": "Remote Labor Index",
+      "disposition": "outside_window",
+      "reason": "The primary arXiv record is from 2025. The ranked record does not evidence a new research release.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_cfefc87a2b2ba059",
+          "feed_date": "2026-11-12T11:12:08Z",
+          "discovered_url": "https://arxiv.org/abs/2510.26787"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://arxiv.org/abs/2510.26787"
+      ]
+    },
+    {
+      "development": "Australia proposed frontier AI standards",
+      "disposition": "outside_window",
+      "reason": "The Australian prime minister announced the proposed standards November 10 in Australia. The later summary did not establish a bill filing or other substantive new action.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_b31da5e669beea1a",
+          "feed_date": "2026-11-12T10:09:56Z",
+          "discovered_url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections"
+      ]
+    },
+    {
+      "development": "CoreWeave prepayment terms",
+      "disposition": "outside_window",
+      "reason": "TechCrunch’s November 11 story analyzes financial results and management’s call from November 10. The company’s release and the scheduled Eastern call predate the window. No new customer agreement or financing development was established in the later coverage.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_291541b5e246990b",
+          "feed_date": "2026-11-11T19:54:00Z",
+          "discovered_url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+      ]
+    },
+    {
+      "development": "Gemini Decisions API follow-on coverage",
+      "disposition": "same_edition_duplicate",
+      "reason": "Coverage of the same Google release already selected from the primary source.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_cd7bd6e6500d8e48",
+          "feed_date": "2026-11-11T20:12:46Z",
+          "discovered_url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "Anthropic multi-user agent coordination",
+      "disposition": "no_verified_substantive_update",
+      "reason": "The November 11 blog describes results already in the September 30 preprint. The repository's only code-release commit is dated October 9, with no new release or code push shown. An original public-release event in this window could not be established.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_8bde35c6b339b08f",
+          "feed_date": "2026-11-11T16:43:59Z",
+          "discovered_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mZm01S0Via2g3cWczVVB5YlNSMlI1a2FKekVZY0liWmMzQndHSnIyNVd2RnlLUWFWb3ItWG1KZVZQY2Q3aUlGeGM2UzRDb0Qxc3dtWEFQZkN3TDdmMDJoam1R?oc=5"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://alignment.anthropic.com/2026/worse-together/",
+        "https://arxiv.org/abs/2610.00583",
+        "https://github.com/safety-research/MAMUBench/commit/b6c2f757133303d890a4b1fee508b3437cfb3617"
+      ]
+    },
+    {
+      "development": "GitHub Agentic Workflows GA",
+      "disposition": "outside_window",
+      "reason": "GitHub's original GA announcement is dated October 28. The November 11 InfoQ account recaps that release.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_01b8899b044d30a2",
+          "feed_date": "2026-11-11T17:00:00Z",
+          "discovered_url": "https://www.infoq.com/news/2026/11/github-agentic-workflows-ga/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/"
+      ]
+    },
+    {
+      "development": "AlphaProof Code and Signal",
+      "disposition": "seven_day_duplicate",
+      "reason": "Same work as art_0e9fb0eb84f13acf in the November 11 checkpoint. The later ranked reports cover the same verification result.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_954f9c17d83b94f1",
+          "feed_date": "2026-11-11T18:18:25Z",
+          "discovered_url": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/"
+        },
+        {
+          "feed": "top",
+          "feed_id": "sty_93fc0c7bcc989be7",
+          "feed_date": "2026-11-11T14:08:57Z",
+          "discovered_url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/"
+        },
+        {
+          "feed": "top",
+          "feed_id": "sty_3bdc7f8d34024408",
+          "feed_date": "2026-11-10T12:02:28Z",
+          "discovered_url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+        }
+      ],
+      "originals_and_corroboration": []
+    },
+    {
+      "development": "JioHotstar agent retrieval benchmark",
+      "disposition": "outside_window",
+      "reason": "The engineering team's original case is dated September 28. The November 11 InfoQ item reports the same benchmark.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_8e322c42d5c6e6cf",
+          "feed_date": "2026-11-11T14:28:00Z",
+          "discovered_url": "https://www.infoq.com/news/2026/11/jiohotstar-codingagent-retrieval/"
+        }
+      ],
+      "originals_and_corroboration": [
+        "https://blog.hotstar.com/what-we-learned-from-benchmarking-knowledge-bases-for-coding-agents-6bbdd9e53727"
+      ]
+    },
+    {
+      "development": "New York RAISE registration",
+      "disposition": "seven_day_duplicate",
+      "reason": "Same portal as art_84921d866b5ebf2f in the November 11 checkpoint.",
+      "discovered": [
+        {
+          "feed": "top",
+          "feed_id": "sty_db724fc3ea6965b6",
+          "feed_date": "2026-11-10T20:52:13Z",
+          "discovered_url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/"
+        }
+      ],
+      "originals_and_corroboration": []
+    }
+  ]
+}

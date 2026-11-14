@@ -1,0 +1,704 @@
+{
+  "date": "2026-11-14",
+  "reader_contract": "2.0.3",
+  "article_contract": 2,
+  "headline_style": "AP sentence style per scheduled instruction",
+  "cutoff": "2026-11-14T05:00:00-08:00",
+  "window_start": "2026-11-13T01:00:00Z",
+  "hosted_contract_files": [
+    {
+      "path": "AGENTS.md",
+      "sha": "21a3683ad3e0fc093d888c9175ff6a08b82a09d3",
+      "verifiedContent": true,
+      "matches": true
+    },
+    {
+      "path": "prompts/daily-edition.md",
+      "sha": "bdca13bb362b604cd63fa433e1804e823f075925",
+      "verifiedContent": true,
+      "matches": true
+    },
+    {
+      "path": "docs/reader-contract.md",
+      "sha": "330020239d020369830af8b42de43ba680be04ab",
+      "verifiedContent": true,
+      "matches": true
+    },
+    {
+      "path": "docs/ted-writing-style.md",
+      "sha": "f23760862fbac9afe3f3bff5f3cd3e132c2d2f5e",
+      "verifiedContent": true,
+      "matches": true
+    },
+    {
+      "path": "docs/brand.md",
+      "sha": "055360ebad32b0bf911283dd1433ced9f3cf3019",
+      "verifiedContent": true,
+      "matches": true
+    }
+  ],
+  "discovery": {
+    "local_refresh": {
+      "command": ".venv/bin/python scripts/publish.py refresh",
+      "exit_code": 1,
+      "error": "URL resolution failed; direct probes of both supplied URLs also failed before HTTP."
+    },
+    "snapshot_commit": "1a7825a6a0a4f1bf7e61dcf458cbf16e8cc0cb95",
+    "snapshot_checked_at": "2026-11-14T09:24:03.866116Z",
+    "hours_before_cutoff": 3.599,
+    "hosted_refresh": {
+      "run_id": 43580359769,
+      "job_id": 132403566320,
+      "url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/43580359769",
+      "result": "success"
+    },
+    "feeds": {
+      "curated": {
+        "url": "https://rss.tedt.org/ai_rss_feed.json",
+        "usable": 242,
+        "ingestion_exclusions": [],
+        "screened": 12
+      },
+      "top": {
+        "url": "https://rss.tedt.org/feeds/top.json",
+        "usable": 80,
+        "ingestion_exclusions": [],
+        "screened": 17
+      }
+    },
+    "pinned_blob_shas": {
+      "discovery": "b8c8c569f6743a044ca89116eaac421890b2e3ad",
+      "wire": "700b1944c2fdb5faa3c57e9a24aca0fcdcfa7d3a"
+    },
+    "disambiguation": "Both inputs were read from the latest successful pinned refresh observed through the GitHub connector. Snapshot ends before cutoff; original publisher availability controls selection. The snapshots were staged only for local verification and restored before the editorial commit."
+  },
+  "article_target": {
+    "minimum": 3,
+    "maximum": 5,
+    "selected": 4,
+    "shortfall": 0,
+    "quick_hits": 0,
+    "viable_pool_exhausted": false,
+    "stopping_reason": "Four distinct, source-supported developments provided useful decisions; remaining screened variants were less useful or lacked reliable original evidence."
+  },
+  "screened_groups": 29,
+  "excluded_or_not_selected": 25,
+  "exclusions_and_alternatives": [
+    {
+      "feed": "curated",
+      "position": 1,
+      "feed_id": "93b9489f32a4a45baaef4ea26f15f383",
+      "feed_title": "United Airlines Is Banning AI Bots From Booking Flights [ ! ]",
+      "discovered_url": "https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38?st=ytrzi1&utm_source=aiforwork&utm_medium=newsletter&utm_campaign=google-s-decision-model-shrinks-the-agent-tax&_bhlid=a09f1bc5e878cc3e65f6362964bead855d764871",
+      "discovered_at": "2026-11-13T00:00:00+00:00",
+      "outcome": "duplicate and outside window",
+      "reason": "United’s terms changed in the development already covered in the November 12 checkpoint. That briefing’s verified original report was November 11 at 19:37 UTC. No later substantive change established.",
+      "evidence_urls": [
+        "https://www.united.com/en/us/fly/contract-of-carriage.html"
+      ]
+    },
+    {
+      "feed": "curated",
+      "position": 2,
+      "feed_id": "23c416cf2239c6b65143688035bea725",
+      "feed_title": "Praxis-1: From Video Pretraining to Robot Control [ ~ ]",
+      "discovered_url": "https://runway.com/research/praxis-1-video-pretraining-to-robot-control",
+      "discovered_at": "2026-11-13T00:00:00+00:00",
+      "outcome": "outside window",
+      "reason": "Runway’s research index dates the technical report November 11. The official availability announcement is also dated November 11; the technical report itself only displays the month. No later substantive update established.",
+      "evidence_urls": [
+        "https://runway.com/news/research",
+        "https://runway.com/news/company-news/praxis-1-is-now-available"
+      ]
+    },
+    {
+      "feed": "curated",
+      "position": 3,
+      "feed_id": "6dc1686f03f9f26db03b7a4783e173b1",
+      "feed_title": "NVIDIA Announces CEO Transition [ ! ]",
+      "discovered_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "discovered_at": "2026-11-13T00:00:00+00:00",
+      "outcome": "duplicate and outside window",
+      "reason": "NVIDIA's November 12 CEO transition is the November 13 checkpoint lead. The earlier audit dates the distributed original release at 13:48 UTC November 12. No second transition announcement.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "curated",
+      "position": 4,
+      "feed_id": "0882a2fb6377c51a06718b61dccbb4c1",
+      "feed_title": "Is Your Incentive System (especially EBITDA) Blunting AI Transformation? [ ~ ] (Estimated)",
+      "discovered_url": "https://www.forbes.com/sites/johnsviokla/2026/11/03/is-your-incentive-system-especially-ebitda-blunting-ai-transformation/",
+      "discovered_at": "2026-11-13T00:00:00+00:00",
+      "outcome": "outside window",
+      "reason": "The author’s index and the dated syndication identify the original November 3. No later update established.",
+      "evidence_urls": [
+        "https://finance.yahoo.com/technology/ai/articles/incentive-system-especially-ebitda-blunting-140000626.html"
+      ]
+    },
+    {
+      "feed": "curated",
+      "position": 5,
+      "feed_id": "b7cdb4e8a4661e6d3044ab294a00c027",
+      "feed_title": "Gemini Decisions API: Fast, calibrated multimodal decisions [ * ]",
+      "discovered_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "discovered_at": "2026-11-13T00:00:00+00:00",
+      "outcome": "duplicate and outside window",
+      "reason": "Google’s release is covered by the November 12 checkpoint, with a verified original time of November 11 at 18:00 UTC. No later release established.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "curated",
+      "position": 6,
+      "feed_id": "395975cb178a73fe690cc9db6ecdc850",
+      "feed_title": "For Industrial Companies, Winning with AI Takes More Than Tech [ ~ ]",
+      "discovered_url": "https://www.bcg.com/publications/2026/how-industrial-companies-win-with-ai",
+      "discovered_at": "2026-11-13T00:00:00+00:00",
+      "outcome": "outside window",
+      "reason": "BCG’s article displays November 10, 2026. No later substantive update found.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "curated",
+      "position": 7,
+      "feed_id": "35f34bb712f35329921b616a350ce987",
+      "feed_title": "Welcome to the B2A Economy [ ! ]",
+      "discovered_url": "https://x.com/omooretweets/status/2120554019177611668",
+      "discovered_at": "2026-11-12T00:00:00+00:00",
+      "outcome": "outside window and incomplete original",
+      "reason": "The public X post ID encodes November 11 at 16:27:30.817 UTC. The direct original was unavailable to the reader. No later substantive update established.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "curated",
+      "position": 8,
+      "feed_id": "d59a0284b4a367b31dfb8a6431a09c83",
+      "feed_title": "Introducing Businesses in ChatGPT [ ! ]",
+      "discovered_url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "discovered_at": "2026-11-12T00:00:00+00:00",
+      "outcome": "outside window",
+      "reason": "OpenAI’s original displays November 10, 2026. No later substantive update found.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "curated",
+      "position": 9,
+      "feed_id": "0475be1ed8d87d4b4aa26c9ca420fc51",
+      "feed_title": "The Hidden Costs of Delegating to AI [ * ]",
+      "discovered_url": "https://hbr.org/2026/11/the-hidden-costs-of-delegating-to-ai",
+      "discovered_at": "2026-11-12T00:00:00+00:00",
+      "outcome": "outside window and partial original",
+      "reason": "Harvard Business Review displays November 11, 2026. Reader exposed the opening; no later substantive update established.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "curated",
+      "position": 10,
+      "feed_id": "242418bdd1f11af2c4729f8a44eeee8e",
+      "feed_title": "Do You Suffer From An Agentic Hairball? Learn How Uber And Others Untangled It! [ * ] (Estimated)",
+      "discovered_url": "https://www.forbes.com/sites/johnsviokla/2026/11/11/do-you-suffer-from-ai-agentbabble--learn-from-uber-and-more/",
+      "discovered_at": "2026-11-12T00:00:00+00:00",
+      "outcome": "date not independently verified and original inaccessible",
+      "reason": "Original Forbes page was unavailable. Its URL is dated November 11 and a mirror shows November 11 at 7:51 a.m. Eastern. No qualifying original or later update could be verified.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "curated",
+      "position": 11,
+      "feed_id": "b428f44248ef13741a392caa945b8c6d",
+      "feed_title": "Introducing Gemini for healthcare [ * ]",
+      "discovered_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare",
+      "discovered_at": "2026-11-12T00:00:00+00:00",
+      "outcome": "outside window",
+      "reason": "Google Cloud’s original displays November 10, 2026. No later substantive update found.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "curated",
+      "position": 12,
+      "feed_id": "83963ec2b5a94be33b8b74cf5fdcb201",
+      "feed_title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore [ ~ ]",
+      "discovered_url": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+      "discovered_at": "2026-11-12T00:00:00+00:00",
+      "outcome": "outside window",
+      "reason": "AWS’s article byline displays November 10, 2026. No later substantive update found.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "top",
+      "position": 1,
+      "feed_id": "sty_bdaca76a2479fde7",
+      "feed_title": "Report: Nvidia allegedly funded AI startups to purchase its GPUs, contributing to market scarcity",
+      "discovered_url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "discovered_at": "2026-11-14T02:52:59Z",
+      "outcome": "follow-on allegation, insufficient original evidence",
+      "reason": "TechPowerUp summarizes a secondary writeup. The accessible original Wall Street Journal material describes financing discussions and an August meeting; it does not establish engineered scarcity. The complete original and its exact time were not independently verified. Do not recycle the CEO transition.",
+      "evidence_urls": [
+        "https://www.wsj.com/tech/jensen-huang-colette-kress-nvidia-ceo-eb289097"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 2,
+      "feed_id": "sty_c077b60628fc4007",
+      "feed_title": "Researcher runs 600 experiments on JEPA world models, finds hierarchical planning and latent memory graphs significantly improve long-horizon task success [ ~ ] [ ◻ ]",
+      "discovered_url": "https://haddyalchaer.com/jepa",
+      "discovered_at": "2026-11-13T17:55:28Z",
+      "outcome": "original inaccessible and date not verified",
+      "reason": "Author’s site was unavailable to the reader. The apparent author’s November 13 Hacker News share does not establish original publication; secondary copies disagree between November 11 and November 13.",
+      "evidence_urls": [
+        "https://news.ycombinator.com/item?id=50487185"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 3,
+      "feed_id": "sty_fa72932100ee6d02",
+      "feed_title": "Jonathan Blow questions why software remains unchanged despite AI advances in coding in new video",
+      "discovered_url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "discovered_at": "2026-11-13T15:08:44Z",
+      "outcome": "original inaccessible and editorial priority",
+      "reason": "The original video was unavailable to the reader. Date and full argument were not independently established; the item was surfaced as commentary rather than a new enterprise development.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "top",
+      "position": 4,
+      "feed_id": "sty_c7226f309a9da116",
+      "feed_title": "Perplexity.ai releases Decider v1.3 with updates on training, evaluation, and use cases",
+      "discovered_url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "discovered_at": "2026-11-13T19:24:47Z",
+      "outcome": "uncertain first release time",
+      "reason": "Perplexity publishes a full release report and its official forum shows November 12 at 7:34 p.m., with no verified timezone for the displayed time. November 12 also appears in OpenRouter's listing, and the publisher's changelog shows only the month in the reader. The original blog time and a qualifying substantive change on November 13 were not established; the ranked November 13 discovery is not launch evidence.",
+      "evidence_urls": [
+        "https://community.perplexity.ai/t/were-rolling-out-pplx-decider-v1-3-and-pplx-decider-flash-v1-3-the-latest-version-of-our-open-weight-decision-models/6606",
+        "https://docs.perplexity.ai/docs/resources/changelog",
+        "https://openrouter.ai/perplexity/pplx-decider-v1.3:free"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 5,
+      "feed_id": "sty_dc17ae36bc8c374d",
+      "feed_title": "MathHelm launches forum for research mathematicians to discuss AI-generated papers with verified institutional access [ ~ ] [ ◻ ]",
+      "discovered_url": "https://mathhelm.org/",
+      "discovered_at": "2026-11-14T03:49:58Z",
+      "outcome": "uncertain date and original access",
+      "reason": "MathHelm's home was not available to the reader. The organizers' guest post shows November 13, but no publication timestamp or publisher timezone was established. The whole publisher day may not fit the cutoff; comments and the feed show later attention rather than first release.",
+      "evidence_urls": [
+        "https://terrytao.wordpress.com/2026/11/13/introducing-mathhelm-a-place-to-discuss-ai-generated-papers/comment-page-1/"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 6,
+      "feed_id": "sty_01d0792f45be8e60",
+      "feed_title": "Clowder launches a Mac status board for managing multiple Claude AI coding sessions with color-coded tiles indicating session states [ ~ ] [ ◻ ]",
+      "discovered_url": "https://clowder.sh",
+      "discovered_at": "2026-11-14T04:13:42Z",
+      "outcome": "original inaccessible and date unverified",
+      "reason": "The site could not be retrieved and no verifiable original dated release record was found.",
+      "evidence_urls": []
+    },
+    {
+      "feed": "top",
+      "position": 7,
+      "feed_id": "sty_28ec994f6b711b10",
+      "feed_title": "DeepSeek releases V4 Pro 0813 open weights model with 1M token context window, below-average intelligence, higher cost, and slower performance compared to similar models [ ~ ] [ ◻ ]",
+      "discovered_url": "https://artificialanalysis.ai/models/releases/deepseek-v4-pro",
+      "discovered_at": "2026-11-14T00:51:50Z",
+      "outcome": "outside window",
+      "reason": "Artificial Analysis records August 13 as the release date for the same 0813 model. DeepSeek’s release notes also place the general-availability change in August. The benchmark listing is not a November release.",
+      "evidence_urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 10,
+      "feed_id": "sty_e8b9ea342922d912",
+      "feed_title": "Together AI launches Together Compiler for continual optimization of AI inference workloads, achieving up to 2.6x throughput improvements across multiple language models and hardware platforms [ * ] [ ◼ ]",
+      "discovered_url": "https://arxiv.org/abs/2611.14681",
+      "discovered_at": "2026-11-14T05:00:00Z",
+      "outcome": "no verified new development",
+      "reason": "The Together AI original is dated November 4. The Friday arXiv release adds a citable preprint, but the compiler and headline throughput and production claims were already in the original; no sufficiently distinct new result was selected.",
+      "evidence_urls": [
+        "https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
+        "https://arxiv.org/list/cs.AI/new?show=2000&skip=0"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 39,
+      "feed_id": "sty_6f01d98e49d8ed0f",
+      "feed_title": "guardscope: Measuring Which Actions Runtime Controls Check in LLM Agent Systems [ ~ ] [ ◼ ]",
+      "discovered_url": "https://arxiv.org/abs/2611.15223",
+      "discovered_at": "2026-11-14T05:00:00Z",
+      "outcome": "eligible alternative not selected",
+      "reason": "Friday arXiv listing established; the runtime-control paper is useful to a narrower security readership than the selected operating and governance work.",
+      "evidence_urls": [
+        "https://arxiv.org/list/cs.AI/new?show=2000&skip=0"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 54,
+      "feed_id": "sty_00d75a62a8878a52",
+      "feed_title": "DISCERN: Preserve at Write, Resolve at Read for Persistent LLM-Agent Memory [ ~ ] [ ◼ ]",
+      "discovered_url": "https://arxiv.org/abs/2611.15729",
+      "discovered_at": "2026-11-14T05:00:00Z",
+      "outcome": "eligible alternative not selected",
+      "reason": "Friday arXiv listing established. DISCERN is a separate memory benchmark, but the chosen handoff study gives the edition a more distinct live-state decision alongside prior memory coverage.",
+      "evidence_urls": [
+        "https://arxiv.org/list/cs.AI/new?show=2000&skip=0"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 56,
+      "feed_id": "sty_6f6690a2438ec35a",
+      "feed_title": "Controlling the Probability of Unknown Unknowns in Pre-Deployment Testing of AI Systems [ ~ ] [ ◼ ]",
+      "discovered_url": "https://arxiv.org/abs/2611.15835",
+      "discovered_at": "2026-11-14T05:00:00Z",
+      "outcome": "eligible alternative not selected",
+      "reason": "Friday arXiv listing established. The probability-estimation paper is a more specialized methods result; it was not developed into an article.",
+      "evidence_urls": [
+        "https://arxiv.org/list/cs.AI/new?show=2000&skip=0"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 70,
+      "feed_id": "sty_ac544358fbf90121",
+      "feed_title": "Small Language Models for Inference-Capability Routing: Effects of Model Capacity and Prompt Optimization on Downstream Quality and Efficiency [ ~ ] [ ◼ ]",
+      "discovered_url": "https://arxiv.org/abs/2611.16414",
+      "discovered_at": "2026-11-14T05:00:00Z",
+      "outcome": "eligible alternative not selected",
+      "reason": "Friday arXiv listing established. The small routing model study would overlap the decision-model topic from November 12. It is a distinct paper rather than a duplicate event.",
+      "evidence_urls": [
+        "https://arxiv.org/list/cs.AI/new?show=2000&skip=0"
+      ]
+    },
+    {
+      "feed": "top",
+      "position": 79,
+      "feed_id": "sty_adfa17b7995379c8",
+      "feed_title": "ReA-Bench: Benchmarking Responsible Agent Auditing [ ~ ] [ ◼ ]",
+      "discovered_url": "https://arxiv.org/abs/2611.16493",
+      "discovered_at": "2026-11-14T05:00:00Z",
+      "outcome": "eligible alternative not selected",
+      "reason": "Friday arXiv listing established. ReA-Bench concerns the auditing of trajectories; the scope and placement of human and system checks in the selected cases make the more actionable package for this edition.",
+      "evidence_urls": [
+        "https://arxiv.org/list/cs.AI/new?show=2000&skip=0"
+      ]
+    }
+  ],
+  "lookback": {
+    "start": "2026-11-07",
+    "end": "2026-11-13",
+    "articles_compared": 20,
+    "quick_hits_compared": 0,
+    "coverage": {
+      "2026-11-07": {
+        "state": "no available edition",
+        "ref_checked": "c79ba1c2199de54abe052242916386754ea95f46",
+        "articles": [],
+        "quick_hits": 0
+      },
+      "2026-11-08": {
+        "state": "no available edition",
+        "ref_checked": "c79ba1c2199de54abe052242916386754ea95f46",
+        "articles": [],
+        "quick_hits": 0
+      },
+      "2026-11-09": {
+        "state": "retained checkpoint",
+        "ref_checked": "2d1f6a14b5b30466aa6e6e75c089c99252434ea9",
+        "articles": [
+          {
+            "article_id": "art_631a29fba65f0551",
+            "story_key": "https://arxiv.org/abs/2611.09203",
+            "title": "Copied reports can look like independent evidence to AI judges",
+            "source_url": "https://arxiv.org/abs/2611.09203v1"
+          },
+          {
+            "article_id": "art_fb361bac5ee689fe",
+            "story_key": "https://arxiv.org/abs/2611.09721",
+            "title": "MemoryDojo traces how a poisoned tool result reaches later tasks",
+            "source_url": "https://arxiv.org/abs/2611.09721v1"
+          },
+          {
+            "article_id": "art_990f9380e605fd05",
+            "story_key": "https://arxiv.org/abs/2611.09372",
+            "title": "OpenMeter tests local AI on industrial meter data",
+            "source_url": "https://arxiv.org/abs/2611.09372v1"
+          }
+        ],
+        "quick_hits": 0
+      },
+      "2026-11-10": {
+        "state": "retained checkpoint",
+        "ref_checked": "dde0424c6839a5a7ca5f413674979a5500c65e26",
+        "articles": [
+          {
+            "article_id": "art_ea813f828db1bd3b",
+            "story_key": "https://arxiv.org/abs/2611.09291",
+            "title": "AutoRefine tests what code judges can learn from merges",
+            "source_url": "https://arxiv.org/abs/2611.09291v1"
+          },
+          {
+            "article_id": "art_a989f1582084d0cf",
+            "story_key": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+            "title": "Claude Fable 5.2 gets a policy switch in GitHub Copilot",
+            "source_url": "https://x.com/claudeai/status/2119867114450268322"
+          },
+          {
+            "article_id": "art_86708699833d3a97",
+            "story_key": "https://research.meta.ai/blog/muse-ember",
+            "title": "Meta’s Muse Ember charges a higher rate for long prompts",
+            "source_url": "https://x.com/AIatMeta/status/2119853591703998787"
+          }
+        ],
+        "quick_hits": 0
+      },
+      "2026-11-11": {
+        "state": "retained checkpoint",
+        "ref_checked": "f372199062afd0ed07ae7b9ebeefc54f80df39d0",
+        "articles": [
+          {
+            "article_id": "art_0e9fb0eb84f13acf",
+            "story_key": "https://deepmind.google/blog/introducing-alphaproof-code/",
+            "title": "What DeepMind proved about Signal’s compiled code",
+            "source_url": "https://x.com/pushmeet/status/2120127611137634376"
+          },
+          {
+            "article_id": "art_39358eeccb703a66",
+            "story_key": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+            "title": "Claude adds Sheets and Whiteboards for teams",
+            "source_url": "https://x.com/claudeai/status/2120206365759094857"
+          },
+          {
+            "article_id": "art_a98392022b9f23fb",
+            "story_key": "https://www.mercor.com/blog/series-d/",
+            "title": "Mercor raises $750 million to build enterprise AI evaluations",
+            "source_url": "https://www.businesswire.com/news/home/20261110410031/en/Mercor-Raises-%24750-Million-Series-D-at-%2420-Billion-Valuation-to-Help-Enterprises-Own-Their-Intelligence"
+          },
+          {
+            "article_id": "art_a4978faa7e166cdb",
+            "story_key": "https://github.com/GoogleChrome/modern-web-guidance",
+            "title": "Modern Web Guidance gives coding agents cross-browser advice",
+            "source_url": "https://github.com/GoogleChrome/modern-web-guidance/releases/tag/v1.0.0"
+          },
+          {
+            "article_id": "art_84921d866b5ebf2f",
+            "story_key": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+            "title": "New York opens RAISE Act registration for large frontier AI developers",
+            "source_url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research"
+          }
+        ],
+        "quick_hits": 0
+      },
+      "2026-11-12": {
+        "state": "retained checkpoint",
+        "ref_checked": "83ee0b77b861c086095956b4d15888fb205dc4a3",
+        "articles": [
+          {
+            "article_id": "art_272019dad641131e",
+            "story_key": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex",
+            "title": "Databricks gives Genie a shared set of business definitions",
+            "source_url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex"
+          },
+          {
+            "article_id": "art_890cc8a3d504814b",
+            "story_key": "https://www.linkedin.com/posts/we-are-delighted-to-share-that-fractile-has-ugcPost-7526285169943625747-n5p9",
+            "title": "Fractile raises $720 million for its first inference systems",
+            "source_url": "https://www.linkedin.com/posts/we-are-delighted-to-share-that-fractile-has-ugcPost-7526285169943625747-n5p9/"
+          },
+          {
+            "article_id": "art_02bfed5e7aa817ea",
+            "story_key": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+            "title": "Google’s Gemini Decisions API scores choices in one pass",
+            "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+          },
+          {
+            "article_id": "art_1df6a00742e99b5a",
+            "story_key": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+            "title": "United restricts unauthorized AI agents from booking flights",
+            "source_url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+          }
+        ],
+        "quick_hits": 0
+      },
+      "2026-11-13": {
+        "state": "retained checkpoint",
+        "ref_checked": "c9d3aba466afec7267fd953db62cf51e64233b3d",
+        "articles": [
+          {
+            "article_id": "art_779abe288b1c01da",
+            "story_key": "https://claude.com/resources/articles/claude-meetings",
+            "title": "Claude joins Google Meet calls to draft work live",
+            "source_url": "https://claude.com/resources/articles/claude-meetings"
+          },
+          {
+            "article_id": "art_d7c21c501eb23f12",
+            "story_key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+            "title": "Google releases Gemini 4 Hydrogen for everyday coding",
+            "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+          },
+          {
+            "article_id": "art_26f7664759312f88",
+            "story_key": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
+            "title": "Nebius plans up to $45 billion in 2027 capital spending",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm"
+          },
+          {
+            "article_id": "art_a3523f73e3129004",
+            "story_key": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+            "title": "Fireworks AI breach exposes Notion AI chat transcripts",
+            "source_url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
+          },
+          {
+            "article_id": "art_8c027ed035af9125",
+            "story_key": "https://www.globenewswire.com/news-release/2026/11/12/3401635/0/en/nvidia-announces-ceo-transition.html",
+            "title": "NVIDIA names Colette Kress interim CEO",
+            "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401635/0/en/nvidia-announces-ceo-transition.html"
+          }
+        ],
+        "quick_hits": 0
+      }
+    },
+    "notes": "Dedupe compares URL, article ID, story key and underlying development across hosted main and retained checkpoints. No available editions for November 7–8. No selected story repeats an earlier event."
+  },
+  "edition": "https://yesterdai.tedt.org/editions/2026-11-14/",
+  "selected": [
+    {
+      "title": "Who an AI reports to can change its advice",
+      "article_id": "art_16a37ac64b6c8a2a",
+      "slug": "ai-reporting-lines-executive-incentives",
+      "words": 647,
+      "date_evidence": {
+        "url": "https://arxiv.org/abs/2611.15475",
+        "published_at": "2026-11-13T01:00:00Z",
+        "precision": "second",
+        "verification": "visible",
+        "evidence": "arXiv's Friday, November 13 New submissions list contains arXiv:2611.15475 v1. The official schedule places that batch at 8 p.m. Eastern on Thursday (November 13 at 01:00 UTC); November 11 was an arXiv holiday. The submission history records an earlier deposit at 2026-11-11T13:42:15Z, not first public availability. The publisher's batch time, not the discovery feed's 05:00 UTC, establishes eligibility.",
+        "discovered_url": "https://arxiv.org/abs/2611.15475",
+        "verified_at": "2026-11-14T13:11:11.430390Z",
+        "listing_url": "https://arxiv.org/list/cs.AI/new?show=2000&skip=0",
+        "schedule_url": "https://info.arxiv.org/help/availability.html#announcement-schedule",
+        "submitted_at": "2026-11-11T13:42:15Z"
+      },
+      "reading_minutes": 3,
+      "format": "analysis",
+      "section": "Big Moves",
+      "feed_id": "sty_d99546938ea21a2d",
+      "feed_date": "2026-11-14T05:00:00Z",
+      "rank": 1,
+      "url": "https://yesterdai.tedt.org/articles/ai-reporting-lines-executive-incentives/",
+      "hero_decision": "Required and generated for extended analysis."
+    },
+    {
+      "title": "Coding agents often keep working after finding a fix",
+      "article_id": "art_9e5328de36564d89",
+      "slug": "coding-agents-first-correct-patch",
+      "words": 252,
+      "date_evidence": {
+        "url": "https://arxiv.org/abs/2611.14960",
+        "published_at": "2026-11-13T01:00:00Z",
+        "precision": "second",
+        "verification": "visible",
+        "evidence": "arXiv's Friday, November 13 New submissions list contains arXiv:2611.14960 v1. The official schedule places that batch at 8 p.m. Eastern on Thursday (November 13 at 01:00 UTC); November 11 was an arXiv holiday. The submission history records an earlier deposit at 2026-11-11T03:11:00Z, not first public availability. The publisher's batch time, not the discovery feed's 05:00 UTC, establishes eligibility.",
+        "discovered_url": "https://arxiv.org/abs/2611.14960",
+        "verified_at": "2026-11-14T13:11:11.430390Z",
+        "listing_url": "https://arxiv.org/list/cs.AI/new?show=2000&skip=0",
+        "schedule_url": "https://info.arxiv.org/help/availability.html#announcement-schedule",
+        "submitted_at": "2026-11-11T03:11:00Z"
+      },
+      "reading_minutes": 2,
+      "format": "brief",
+      "section": "Enterprise Ops",
+      "feed_id": "sty_7c1bf978e8671ecb",
+      "feed_date": "2026-11-14T05:00:00Z",
+      "rank": 2,
+      "url": "https://yesterdai.tedt.org/articles/coding-agents-first-correct-patch/",
+      "hero_decision": "Optional hero omitted for focused brief."
+    },
+    {
+      "title": "SynthCorp tests data agents against changing business rules",
+      "article_id": "art_cd1f1a3b900c4624",
+      "slug": "synthcorp-tests-data-agents-business-rules",
+      "words": 274,
+      "date_evidence": {
+        "url": "https://arxiv.org/abs/2611.14765",
+        "published_at": "2026-11-13T01:00:00Z",
+        "precision": "second",
+        "verification": "visible",
+        "evidence": "arXiv's Friday, November 13 New submissions list contains arXiv:2611.14765 v1. The official schedule places that batch at 8 p.m. Eastern on Thursday (November 13 at 01:00 UTC); November 11 was an arXiv holiday. The submission history records an earlier deposit at 2026-11-10T21:43:12Z, not first public availability. The publisher's batch time, not the discovery feed's 05:00 UTC, establishes eligibility.",
+        "discovered_url": "https://arxiv.org/abs/2611.14765",
+        "verified_at": "2026-11-14T13:11:11.430390Z",
+        "listing_url": "https://arxiv.org/list/cs.AI/new?show=2000&skip=0",
+        "schedule_url": "https://info.arxiv.org/help/availability.html#announcement-schedule",
+        "submitted_at": "2026-11-10T21:43:12Z"
+      },
+      "reading_minutes": 2,
+      "format": "brief",
+      "section": "Enterprise Ops",
+      "feed_id": "sty_98305e2d2efe52bd",
+      "feed_date": "2026-11-14T05:00:00Z",
+      "rank": 3,
+      "url": "https://yesterdai.tedt.org/articles/synthcorp-tests-data-agents-business-rules/",
+      "hero_decision": "Optional hero omitted for focused brief."
+    },
+    {
+      "title": "A clean AI handoff can hide unfinished work",
+      "article_id": "art_c44ac57feedcf64a",
+      "slug": "agent-handoffs-check-actual-state",
+      "words": 247,
+      "date_evidence": {
+        "url": "https://arxiv.org/abs/2611.14654",
+        "published_at": "2026-11-13T01:00:00Z",
+        "precision": "second",
+        "verification": "visible",
+        "evidence": "arXiv's Friday, November 13 New submissions list contains arXiv:2611.14654 v1. The official schedule places that batch at 8 p.m. Eastern on Thursday (November 13 at 01:00 UTC); November 11 was an arXiv holiday. The submission history records an earlier deposit at 2026-11-10T19:06:36Z, not first public availability. The publisher's batch time, not the discovery feed's 05:00 UTC, establishes eligibility.",
+        "discovered_url": "https://arxiv.org/abs/2611.14654",
+        "verified_at": "2026-11-14T13:11:11.430390Z",
+        "listing_url": "https://arxiv.org/list/cs.AI/new?show=2000&skip=0",
+        "schedule_url": "https://info.arxiv.org/help/availability.html#announcement-schedule",
+        "submitted_at": "2026-11-10T19:06:36Z"
+      },
+      "reading_minutes": 2,
+      "format": "brief",
+      "section": "Enterprise Ops",
+      "feed_id": "sty_d69cecc04f6a89a8",
+      "feed_date": "2026-11-14T05:00:00Z",
+      "rank": 4,
+      "url": "https://yesterdai.tedt.org/articles/agent-handoffs-check-actual-state/",
+      "hero_decision": "Optional hero omitted for focused brief."
+    }
+  ],
+  "lead_article_id": "art_16a37ac64b6c8a2a",
+  "writing_style": {
+    "name": "ted-writing-style",
+    "version": "1.0.0",
+    "mode": "technology/strategy",
+    "pass": "Revised concrete openings, checked claims against the original methods and results, smoothed paragraph rhythm in a continuous read, and closed with distinct reader decisions. Four body-only diagnostics found no generic phrases. No invented Ted experience or review."
+  },
+  "hero": {
+    "status": "prepared and inspected",
+    "generation_attempts": 1,
+    "optimized_with": "scripts/prepare_hero.py (cwebp quality 82)",
+    "candidate_url": "https://yesterdai.tedt.org/assets/images/ai-reporting-lines-executive-incentives.webp",
+    "path": "/assets/images/ai-reporting-lines-executive-incentives.webp",
+    "alt": "A slate balance scale holds matching paper stacks and tilts toward a single orange disc resting on the right stack.",
+    "caption": "An orange disc tips a scale holding matching stacks of paper, just as an executive bonus shifted some model recommendations on the same investment evidence.",
+    "prompt": "Create a wide landscape editorial hero for Yesterday in AI. International Typographic Style translated into a crisp conceptual graphic: warm ivory paper (#F8F6F0), deep slate (#101820), restrained burnt-orange (#BF4714) signal, fine hairlines, precise geometry, ample negative space, flat matte finish. One clear visual relationship tied to the article. No text, letters, logos, gradients, photographic people, robots, watermarks, or decorative texture. Keep all essential forms comfortably inside the frame. Subject: the same investment evidence is weighed differently depending on who receives the recommendation. Center a bold, geometric side-view balance scale, with a thin visibly tilted slate beam and a crisp slate triangular fulcrum. The beam should tilt down toward the right. Suspend two simple flat slate pans at opposite ends by thin lines. On both pans sit identical small stacks of slate-outlined ivory sheets, with plain edges and no markings. On the right-hand stack alone, add one small, solid burnt-orange disc. The orange disc is the only accent, a visual stand-in for a private bonus adding weight to unchanged evidence. No additional scales, arrows, charts, labels or visual motifs. A single editorial composition with generous margins, legible at a small thumbnail size, 3:2 landscape.",
+    "tool": "image_gen",
+    "generated_at": "2026-11-14T13:02:53Z",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 24144,
+    "sha256": "4a3b8e0918295fd08ea32b7b6614ed21d0c63efc3d8b3133fcd0ccdd4153f3b2"
+  },
+  "preparation_ended_at": "2026-11-14T13:14:15.200836Z",
+  "published_at": null,
+  "published_urls": []
+}

@@ -1,0 +1,332 @@
+{
+  "edition_date": "2026-11-11",
+  "started_at": "2026-11-11T15:39:49.396864Z",
+  "base": "c79ba1c2199de54abe052242916386754ea95f46",
+  "execution": "isolated worktree on cached origin/main",
+  "prior_attempt": "Validation caught an analysis reading-time field that needed recalculation after the prose edit. Recomputed from the final body and reran all stages.",
+  "toolchain": {
+    "ruby": "ruby 3.2.9 (2025-07-24 revision 8f611e0c46) [arm64-darwin25]",
+    ".venv/bin/python": "Python 3.14.10",
+    "node": "v26.12.1"
+  },
+  "checks": [
+    {
+      "command": ".venv/bin/python -m unittest discover -s tests",
+      "started_at": "2026-11-11T15:39:49.601204Z",
+      "completed_at": "2026-11-11T15:39:50.077396Z",
+      "exit_code": 0,
+      "output": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 0.364s\n\nOK\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T12:00:00Z\"}\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T13:00:00Z\"}"
+    },
+    {
+      "command": ".venv/bin/python scripts/publish.py validate",
+      "started_at": "2026-11-11T15:39:50.077427Z",
+      "completed_at": "2026-11-11T15:39:50.298282Z",
+      "exit_code": 0,
+      "output": "Validated 21 editions and 68 complete researched stories."
+    },
+    {
+      "command": "bundle exec jekyll build --strict_front_matter",
+      "started_at": "2026-11-11T15:39:50.298318Z",
+      "completed_at": "2026-11-11T15:39:51.349727Z",
+      "exit_code": 0,
+      "output": "`/Users/tedtschopp` is not writable.\nBundler will use `/var/folders/rl/w92r_6tx4dx3m6mpp07y2tc00000gn/T/bundler20261111-80954-wrhu7z80954' as your home directory temporarily.\nConfiguration file: /Users/tedtschopp/Developer/yesterdai-daily-20261111/_config.yml\n            Source: /Users/tedtschopp/Developer/yesterdai-daily-20261111\n       Destination: /Users/tedtschopp/Developer/yesterdai-daily-20261111/_site\n Incremental build: disabled. Enable with --incremental\n      Generating... \n                    done in 0.542 seconds.\n Auto-regeneration: disabled. Use --watch to enable."
+    },
+    {
+      "command": "npm run index",
+      "started_at": "2026-11-11T15:39:51.349761Z",
+      "completed_at": "2026-11-11T15:39:51.656359Z",
+      "exit_code": 0,
+      "output": "\n> index\n> pagefind --site _site --glob 'articles/**/index.html'\n\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"/Users/tedtschopp/Developer/yesterdai-daily-20261111\"\nSource:       \"_site\"\nOutput:       \"_site/pagefind\"\n\n[Walking source directory]\nFound 68 files matching articles/**/index.html\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n↳ Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 68 pages\n  Indexed 3397 words\n  Indexed 2 filters\n  Indexed 0 sorts\n\nFinished in 0.055 seconds"
+    },
+    {
+      "command": ".venv/bin/python scripts/check_site.py",
+      "started_at": "2026-11-11T15:39:51.656397Z",
+      "completed_at": "2026-11-11T15:39:52.474089Z",
+      "exit_code": 0,
+      "output": "Checked 102 HTML pages, internal links, accessibility metadata, feeds, and sitemap; 4.1 MB."
+    },
+    {
+      "command": "npm run test:smoke",
+      "started_at": "2026-11-11T15:39:52.474125Z",
+      "completed_at": "2026-11-11T15:39:52.909042Z",
+      "exit_code": 0,
+      "output": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n✔ the current edition stays quiet and the prior one gets a grace period (9.805833ms)\n✔ the seven-am deadline follows both DST transitions (0.30825ms)\n✔ midnight does not warn about an edition that is not due yet (0.463458ms)\n✔ recent successful checks stay quiet even if the content was unchanged (0.089417ms)\nℹ tests 4\nℹ suites 0\nℹ pass 4\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 107.866917\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate."
+    }
+  ],
+  "completed_at": "2026-11-11T15:39:52.909076Z",
+  "passed": true,
+  "local_render_and_preservation": {
+    "checked_at": "2026-11-11T15:43:28.417356Z",
+    "selected": [
+      {
+        "article_id": "art_0e9fb0eb84f13acf",
+        "slug": "alphaproof-signal-binary-scope",
+        "title": "What DeepMind proved about Signal’s compiled code",
+        "section": "Security",
+        "lead": true,
+        "format": "analysis",
+        "word_count": 641,
+        "reading_minutes": 3,
+        "evidence_type": "research",
+        "source_records": [
+          {
+            "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+            "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+            "publisher": "Google DeepMind / Pushmeet Kohli and Swarat Chaudhuri",
+            "published_at": "2026-11-10T00:00:00Z",
+            "kind": "research",
+            "date_precision": "day"
+          },
+          {
+            "url": "https://google-deepmind.github.io/code-verification/",
+            "title": "AlphaProof Code: Verifying Signal’s Security at the Machine-Code Level",
+            "publisher": "Google DeepMind and Google / Swarat Chaudhuri et al.",
+            "published_at": "2026-11-10T00:00:00Z",
+            "kind": "research",
+            "date_precision": "day"
+          },
+          {
+            "url": "https://x.com/pushmeet/status/2120127611137634376",
+            "title": "AlphaProof Code announcement",
+            "publisher": "Google DeepMind / Pushmeet Kohli",
+            "published_at": "2026-11-10T12:13:07.218Z",
+            "kind": "research"
+          }
+        ],
+        "eligibility": {
+          "url": "https://x.com/pushmeet/status/2120127611137634376",
+          "published_at": "2026-11-10T12:13:07.218Z",
+          "precision": "second",
+          "verification": "meta",
+          "evidence": "Co-author Pushmeet Kohli’s public launch post ID encodes 12:13:07.218 UTC on November 10. CellCog identifies the same post and 12:13 UTC. The direct X reader returned 403. DeepMind’s original and technical report show November 10, and timestamped coverage in The Register and Axios establishes the public launch by 12:00 UTC. The post time belongs to the post alone.",
+          "discovered_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "verified_at": "2026-11-11T15:34:57.860831Z"
+        },
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_id": "sty_3bdc7f8d34024408",
+        "feed_published_at": "2026-11-10T12:02:28Z",
+        "hero_path": "/assets/images/alphaproof-signal-binary-scope.webp"
+      },
+      {
+        "article_id": "art_84921d866b5ebf2f",
+        "slug": "new-york-raise-act-registration",
+        "title": "New York opens RAISE Act registration for large frontier AI developers",
+        "section": "Policy",
+        "lead": false,
+        "format": "brief",
+        "word_count": 251,
+        "reading_minutes": 2,
+        "evidence_type": "reporting",
+        "source_records": [
+          {
+            "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+            "title": "Governor Hochul Declares NY Will Lead the Nation in AI Science and Safety; Launches New Research Institute",
+            "publisher": "Office of the Governor of New York",
+            "published_at": "2026-11-10T00:00:00-05:00",
+            "kind": "reporting",
+            "date_precision": "day"
+          },
+          {
+            "url": "https://www.dfs.ny.gov/digit/Frontier-Developers",
+            "title": "Information for Frontier Developers",
+            "publisher": "New York State Department of Financial Services / DIGIT",
+            "published_at": "2026-11-10T00:00:00-05:00",
+            "kind": "reporting",
+            "date_precision": "day"
+          },
+          {
+            "url": "https://www.nysenate.gov/legislation/bills/2025/S8828",
+            "title": "New York State Senate Bill S8828, Chapter 96",
+            "publisher": "New York State Senate",
+            "published_at": "2026-03-27T00:00:00-04:00",
+            "kind": "reporting",
+            "date_precision": "day"
+          }
+        ],
+        "eligibility": {
+          "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+          "published_at": "2026-11-10T00:00:00-05:00",
+          "precision": "day",
+          "verification": "visible",
+          "evidence": "The Governor’s original portal announcement visibly shows November 10, 2026, with an Albany, New York, dateline. The full local Eastern Standard Time day (05:00 UTC November 10 to 05:00 UTC November 11) falls within the window. TechCrunch independently reported the opening at 12:52 p.m. PST on November 10. The Governor’s announcement also identifies the new DIGIT guidance as published that day.",
+          "discovered_url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "verified_at": "2026-11-11T15:34:57.860831Z"
+        },
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_id": "sty_db724fc3ea6965b6",
+        "feed_published_at": "2026-11-10T20:52:13Z",
+        "hero_path": null
+      },
+      {
+        "article_id": "art_39358eeccb703a66",
+        "slug": "claude-shared-workspaces-data-access",
+        "title": "Claude adds Sheets and Whiteboards for teams",
+        "section": "Vendors",
+        "lead": false,
+        "format": "brief",
+        "word_count": 259,
+        "reading_minutes": 2,
+        "evidence_type": "vendor",
+        "source_records": [
+          {
+            "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+            "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors",
+            "publisher": "Anthropic",
+            "published_at": "2026-11-10T00:00:00Z",
+            "kind": "vendor",
+            "date_precision": "day"
+          },
+          {
+            "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+            "title": "Introducing Claude Whiteboards, Claude Sheets, and Claude Data",
+            "publisher": "Anthropic",
+            "published_at": "2026-11-10T00:00:00Z",
+            "kind": "vendor",
+            "date_precision": "day"
+          },
+          {
+            "url": "https://x.com/claudeai/status/2120206365759094857",
+            "title": "Claude Whiteboards, Claude Sheets and Claude Data rollout announcement",
+            "publisher": "Anthropic / Claude",
+            "published_at": "2026-11-10T17:26:03.783Z",
+            "kind": "vendor"
+          }
+        ],
+        "eligibility": {
+          "url": "https://x.com/claudeai/status/2120206365759094857",
+          "published_at": "2026-11-10T17:26:03.783Z",
+          "precision": "second",
+          "verification": "meta",
+          "evidence": "The official @claudeai rollout post ID encodes 17:26:03.783 UTC on November 10. TSN links that exact post and dates it to 17:26 UTC, and ArtificialWatch corroborates the launch time. The direct X reader returned 403. Both original product pages visibly carry November 10.",
+          "discovered_url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+          "verified_at": "2026-11-11T15:34:57.860831Z"
+        },
+        "feed_name": "Ted Tschopp's AI News",
+        "feed_id": "66acd1d956ffc6f403a53f637210eefc",
+        "feed_published_at": "2026-11-11T00:00:00+00:00",
+        "hero_path": null
+      },
+      {
+        "article_id": "art_a98392022b9f23fb",
+        "slug": "mercor-series-d-enterprise-evaluations",
+        "title": "Mercor raises $750 million to build enterprise AI evaluations",
+        "section": "Big Moves",
+        "lead": false,
+        "format": "brief",
+        "word_count": 243,
+        "reading_minutes": 2,
+        "evidence_type": "vendor",
+        "source_records": [
+          {
+            "url": "https://www.businesswire.com/news/home/20261110410031/en/Mercor-Raises-%24750-Million-Series-D-at-%2420-Billion-Valuation-to-Help-Enterprises-Own-Their-Intelligence",
+            "title": "Mercor Raises $750 Million Series D at $20 Billion Valuation to Help Enterprises Own Their Intelligence",
+            "publisher": "Mercor via Business Wire",
+            "published_at": "2026-11-10T08:15:00-05:00",
+            "kind": "vendor",
+            "date_precision": "minute"
+          },
+          {
+            "url": "https://www.mercor.com/blog/series-d/",
+            "title": "Organizing human intelligence for the entire economy",
+            "publisher": "Mercor / Brendan Foody",
+            "published_at": "2026-11-10T00:00:00Z",
+            "kind": "vendor",
+            "date_precision": "day"
+          }
+        ],
+        "eligibility": {
+          "url": "https://www.businesswire.com/news/home/20261110410031/en/Mercor-Raises-%24750-Million-Series-D-at-%2420-Billion-Valuation-to-Help-Enterprises-Own-Their-Intelligence",
+          "published_at": "2026-11-10T08:15:00-05:00",
+          "precision": "minute",
+          "verification": "visible",
+          "evidence": "Mercor’s original Business Wire release was read in full. The Business Wire release as syndicated by Yahoo Finance displays November 10 at 8:15 a.m. EST, or 13:15 UTC, at minute precision. Mercor’s CEO post corroborates the announcement date. The ranked item’s November 11 time refers to later coverage.",
+          "discovered_url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+          "verified_at": "2026-11-11T15:34:57.860831Z"
+        },
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_id": "sty_7cefed10d0cd62d9",
+        "feed_published_at": "2026-11-11T09:34:28Z",
+        "hero_path": null
+      },
+      {
+        "article_id": "art_a4978faa7e166cdb",
+        "slug": "modern-web-guidance-coding-agents",
+        "title": "Modern Web Guidance gives coding agents cross-browser advice",
+        "section": "Enterprise Ops",
+        "lead": false,
+        "format": "brief",
+        "word_count": 232,
+        "reading_minutes": 2,
+        "evidence_type": "practitioner",
+        "source_records": [
+          {
+            "url": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+            "title": "Modern Web Guidance 1.0: The web platform expertise your coding agent is missing",
+            "publisher": "Chrome for Developers",
+            "published_at": "2026-11-10T00:00:00Z",
+            "kind": "practitioner",
+            "date_precision": "day"
+          },
+          {
+            "url": "https://github.com/GoogleChrome/modern-web-guidance/releases/tag/v1.0.0",
+            "title": "Modern Web Guidance v1.0.0",
+            "publisher": "GoogleChrome / Modern Web Guidance",
+            "published_at": "2026-11-10T03:24:59Z",
+            "kind": "practitioner"
+          }
+        ],
+        "eligibility": {
+          "url": "https://github.com/GoogleChrome/modern-web-guidance/releases/tag/v1.0.0",
+          "published_at": "2026-11-10T03:24:59Z",
+          "precision": "second",
+          "verification": "publisher_api",
+          "evidence": "The official GoogleChrome repository’s GitHub release API for tag v1.0.0 gives published_at 2026-11-10T03:24:59Z. Chrome for Developers separately dates its stable-release announcement November 10.",
+          "discovered_url": "https://github.com/GoogleChrome/modern-web-guidance",
+          "verified_at": "2026-11-11T15:34:57.860831Z"
+        },
+        "feed_name": "TedTschopp News Graph - Top Stories",
+        "feed_id": "sty_6a88f4254febf0f5",
+        "feed_published_at": "2026-11-10T18:01:15Z",
+        "hero_path": null
+      }
+    ],
+    "hero": {
+      "path": "/assets/images/alphaproof-signal-binary-scope.webp",
+      "width": 1536,
+      "height": 1024,
+      "tool": "image_gen",
+      "generated_at": "2026-11-11T15:29:42Z",
+      "alt": "Fine vertical lines connect an upper row of slate bars to lower blocks, where an orange rectangle encloses the middle group.",
+      "caption": "The orange frame encloses only the blocks linked to the upper specification, illustrating the scope of the proof over the compiled code.",
+      "prompt": "Create a wide landscape editorial hero for Yesterday in AI, approximately 3:2 or wider. International Typographic Style translated into a crisp conceptual graphic: warm ivory paper (#F8F6F0), deep slate (#101820), restrained burnt-orange (#BF4714) signal, fine hairlines, precise geometry, ample negative space, flat matte finish. One visual relationship tied to formal verification of compiled Signal cryptographic code. Show two aligned, clearly separate horizontal layers on the paper. The upper layer is a short slate rule with a small set of precisely cut notches, standing for a human-approved formal specification. The lower layer is a dense, orderly field of slate rectangular modules, standing for the compiled binary. An ultra-thin slate alignment grid leads from the upper notches down to matching positions in the lower layer. A single narrow burnt-orange rectangular frame encloses only the modules covered by the proof, leaving visibly similar slate modules outside the frame on both sides. Let the orange frame convey proof scope, without a checkmark. Center the composition with generous margins. Use strong contrast and clean graphic geometry that survives thumbnail size. No text, digits, letters, logos, gradients, texture, photographic elements, people, padlocks, robots, watermarks, pseudo-code, decorative circuitry, or plotted data. Keep all essential forms comfortably inside the frame.",
+      "sha256": "e5a450f227eef193b61caa39138827f4323f8fe9ed6dd70de3416c0b831c492e",
+      "bytes": 14576
+    },
+    "preserved_editorial_files": 109,
+    "preserved_image_files": 26,
+    "previous_editions_checked": [
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06",
+      "2026-11-09",
+      "2026-11-10"
+    ],
+    "previous_missing_editions": [
+      "2026-11-07",
+      "2026-11-08"
+    ],
+    "previous_articles_checked": 15,
+    "previous_quick_hits_checked": 0,
+    "render_checks": [
+      "publication-level homepage title, description and image",
+      "edition canonical, headline and summary",
+      "explicit lead, five article-linked takeaways, and fixed edition section order",
+      "article canonical, headline, description and search and social metadata",
+      "publication byline, article datelines, and listed original sources",
+      "AI disclosure in footer and About",
+      "JSON Feed and RSS IDs match canonical article URLs, with matching titles, timestamps and full content",
+      "sitemap, practitioner anchor, descriptive caption, alt text, dimensions and matching hero bytes",
+      "absence of expandable feed summaries"
+    ]
+  }
+}

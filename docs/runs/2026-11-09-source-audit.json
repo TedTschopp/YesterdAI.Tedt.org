@@ -1,0 +1,324 @@
+{
+  "edition_date": "2026-11-09",
+  "reader_contract": "2.0.3",
+  "article_metadata_contract": 2,
+  "writing_style": {
+    "name": "ted-writing-style",
+    "version": "1.0.0",
+    "mode": "technology/strategy",
+    "manual_editing_pass": true,
+    "per_body_diagnostic": true
+  },
+  "window": {
+    "timezone": "America/Los_Angeles",
+    "elapsed_hours": 36,
+    "start": "2026-11-08T01:00:00Z",
+    "cutoff": "2026-11-09T05:00:00-08:00"
+  },
+  "checkout": {
+    "local_base": "c79ba1c2199de54abe052242916386754ea95f46",
+    "remote_main_observed": "962f1cf359d236f289efcd3b71c8d958d7b0d2a1",
+    "remote_ahead_commits": 26,
+    "remote_changed_paths": [
+      "_data/discovery.json",
+      "_data/wire.json"
+    ],
+    "remote_edition_exists": false
+  },
+  "discovery": {
+    "direct_local_refresh": {
+      "status": "failed",
+      "reason": "DNS resolution failure before replacing either tracked feed snapshot"
+    },
+    "browser_feed_origin": {
+      "status": "declined",
+      "reason": "Browser origin approval was declined for https://rss.tedt.org; no alternate browser access attempted."
+    },
+    "used": "Read-only GitHub snapshot from the last verified successful refresh before cutoff",
+    "refresh_checked_at": "2026-11-09T09:37:01.968369Z",
+    "refresh_run": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/42594767640",
+    "snapshot_commit": "962f1cf359d236f289efcd3b71c8d958d7b0d2a1",
+    "snapshot_path": "_data/discovery.json",
+    "discovery_git_blob": "97d24c66c02883c289734ffa34ae43720e1d08e5",
+    "wire_git_blob": "cf64cf6c77cc21dc3c42204d1d6f5c71c359314e",
+    "feeds": {
+      "curated": {
+        "url": "https://rss.tedt.org/ai_rss_feed.json",
+        "usable": 236,
+        "ingest_exclusions": []
+      },
+      "top": {
+        "url": "https://rss.tedt.org/feeds/top.json",
+        "usable": 79,
+        "ingest_exclusions": [
+          {
+            "id": "sty_1170752a27eb3ecb",
+            "reason": "malformed item fields"
+          }
+        ]
+      }
+    },
+    "limitation": "Snapshot predates the cutoff by 3 hours 23 minutes; a fresh local fetch after cutoff did not succeed. It provides discovery and a latest possible public-availability bound for the listed items, not independent original publication dates."
+  },
+  "deduplication": {
+    "start_date_inclusive": "2026-11-02",
+    "end_date_inclusive": "2026-11-08",
+    "available_editions": [
+      "2026-11-02",
+      "2026-11-03",
+      "2026-11-04",
+      "2026-11-05",
+      "2026-11-06"
+    ],
+    "missing_edition_dates": [
+      "2026-11-07",
+      "2026-11-08"
+    ],
+    "articles_reviewed": 15,
+    "quick_hits_reviewed": 0,
+    "method": "Compare primary URLs, titles and developments, including unpublished checkpoints already in main.",
+    "selected_development_duplicates": 0
+  },
+  "selection": {
+    "target": [
+      3,
+      5
+    ],
+    "complete_briefs": 3,
+    "complete_analyses": 0,
+    "quick_hits": 0,
+    "target_shortfall": 0,
+    "viable_candidates_exhausted": false,
+    "research_scope": "Six newest curated leads and 13 ranked candidates, including five abstract-level alternates. Stop after three supported distinct articles; no claim of a quiet day or exhaustive verification.",
+    "exclusions_by_status": {
+      "outside_window": 7,
+      "unverified_substantive_update": 1,
+      "original_unavailable": 3,
+      "screened_not_advanced": 5
+    },
+    "release_date_basis": {
+      "timezone": "America/New_York",
+      "scheduled_first_public_time": "2026-11-08T20:00:00-05:00",
+      "scheduled_first_public_time_utc": "2026-11-09T01:00:00Z",
+      "official_schedule": "https://info.arxiv.org/help/availability.html#announcement-schedule",
+      "caveat": "The papers were submitted Friday before 2 p.m. Eastern. arXiv's official Monday New submissions lists and availability schedule establish the public release batch; the exact first request time is unmeasured. The saved ranked records observed by the successful 09:37Z refresh independently bound availability before cutoff. Neither the 05:00Z ranked feed field nor the submission timestamp was used as first public release."
+    },
+    "selected": [
+      {
+        "url": "https://arxiv.org/abs/2611.09721v1",
+        "body_url": "https://arxiv.org/html/2611.09721v1",
+        "listing": "https://arxiv.org/list/cs.CR/new",
+        "feed": "top",
+        "feed_id": "sty_f3a4eeaa2dc3a9b4",
+        "feed_timestamp": "2026-11-09T05:00:00Z",
+        "source_submitted_at": "2026-11-06T17:00:09Z",
+        "source_public_release": "2026-11-09T01:00:00Z",
+        "slug": "memorydojo-cross-session-poisoning",
+        "article_id": "art_fb361bac5ee689fe",
+        "lead": true,
+        "section": "Security",
+        "format": "brief",
+        "reason": "One focused finding and a concrete reader decision from a single preprint; claims scoped to the tested settings.",
+        "hero": {
+          "required": false,
+          "generated": false
+        },
+        "intended_url": "https://yesterdai.tedt.org/articles/memorydojo-cross-session-poisoning/",
+        "body_words": 270
+      },
+      {
+        "url": "https://arxiv.org/abs/2611.09203v1",
+        "body_url": "https://arxiv.org/html/2611.09203v1",
+        "listing": "https://arxiv.org/list/cs.LG/new",
+        "feed": "top",
+        "feed_id": "sty_77746720f8168285",
+        "feed_timestamp": "2026-11-09T05:00:00Z",
+        "source_submitted_at": "2026-11-06T09:22:29Z",
+        "source_public_release": "2026-11-09T01:00:00Z",
+        "slug": "copied-reports-ai-evidence",
+        "article_id": "art_631a29fba65f0551",
+        "lead": false,
+        "section": "Enterprise Ops",
+        "format": "brief",
+        "reason": "One focused finding and a concrete reader decision from a single preprint; claims scoped to the tested settings.",
+        "hero": {
+          "required": false,
+          "generated": false
+        },
+        "intended_url": "https://yesterdai.tedt.org/articles/copied-reports-ai-evidence/",
+        "body_words": 254
+      },
+      {
+        "url": "https://arxiv.org/abs/2611.09372v1",
+        "body_url": "https://arxiv.org/html/2611.09372v1",
+        "listing": "https://arxiv.org/list/cs.AI/new",
+        "feed": "top",
+        "feed_id": "sty_d747d67804130faa",
+        "feed_timestamp": "2026-11-09T05:00:00Z",
+        "source_submitted_at": "2026-11-06T12:11:34Z",
+        "source_public_release": "2026-11-09T01:00:00Z",
+        "slug": "openmeter-local-ai-meter-queries",
+        "article_id": "art_990f9380e605fd05",
+        "lead": false,
+        "section": "Enterprise Ops",
+        "format": "brief",
+        "reason": "One focused finding and a concrete reader decision from a single preprint; claims scoped to the tested settings.",
+        "hero": {
+          "required": false,
+          "generated": false
+        },
+        "intended_url": "https://yesterdai.tedt.org/articles/openmeter-local-ai-meter-queries/",
+        "body_words": 280
+      }
+    ],
+    "excluded": [
+      {
+        "feed": "curated",
+        "feed_id": "de06360a145087cf2b1a4b42f902808b",
+        "feed_published_at": "2026-11-09T00:00:00+00:00",
+        "source_url": "https://www.uber.com/gb/en/blog/securing-ai-agents/",
+        "source_date": "2026-11-06",
+        "status": "outside_window",
+        "evidence": "Uber Engineering displays November 6 for the original post; the social link and November 9 curated placement do not date the original."
+      },
+      {
+        "feed": "curated",
+        "feed_id": "27a188a3ab5da8ef93f9407978e3dfc3",
+        "feed_published_at": "2026-11-09T00:00:00+00:00",
+        "source_url": "https://thinkingmachines.ai/news/inkling-2-small/",
+        "source_date": "2026-11-05",
+        "status": "outside_window",
+        "evidence": "Vendor page displays November 5. VentureBeat's original follow-up displays November 6 3:51 p.m. PT (23:51Z), also outside the window. No verified in-window substantive update."
+      },
+      {
+        "feed": "curated",
+        "feed_id": "322361ed72213bc616619c0dbae44f91",
+        "feed_published_at": "2026-11-09T00:00:00+00:00",
+        "source_url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+        "source_date": "2026-11-05",
+        "status": "outside_window",
+        "evidence": "METR's visible date is November 5. November 9 is the curated briefing date."
+      },
+      {
+        "feed": "curated",
+        "feed_id": "7658035dda6deddd852e3c7aa4637ec4",
+        "feed_published_at": "2026-11-09T00:00:00+00:00",
+        "source_url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/how-frontier-ai-is-rewriting-software-security-rules",
+        "source_date": "2026-11-03",
+        "status": "outside_window",
+        "evidence": "The original article displays November 3; tracking parameters were removed."
+      },
+      {
+        "feed": "curated",
+        "feed_id": "1e4067640f7f44766b967ad7ebef8dab",
+        "feed_published_at": "2026-11-09T00:00:00+00:00",
+        "source_url": "https://www.anthropic.com/research/components-of-agent-memory",
+        "source_date": "2026-11-06",
+        "status": "outside_window",
+        "evidence": "The original research page displays November 6; no later substantive update was established."
+      },
+      {
+        "feed": "curated",
+        "feed_id": "c486ad719c9e8e97754d5aedd91c111f",
+        "feed_published_at": "2026-11-09T00:00:00+00:00",
+        "source_url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+        "source_date": "2026-11-06",
+        "status": "outside_window",
+        "evidence": "Meta's original newsroom page displays November 6, well before the window."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_5053657ce4e2c631",
+        "feed_published_at": "2026-11-08T18:16:07Z",
+        "source_url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+        "source_date": "2026-11-02",
+        "status": "outside_window",
+        "evidence": "State of AI and Bloomberg's originating report both display November 2; the November 8 feed timestamp is not publication evidence."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_98a1c7d35c70576b",
+        "feed_published_at": "2026-11-08T14:42:38Z",
+        "source_url": "https://goldstein.lol/posts/deno-security/",
+        "source_date": "2024-08-31",
+        "status": "unverified_substantive_update",
+        "evidence": "The author dates the original to August 31, 2024. An inline reference to a 2026 issue closure does not date a substantive change to the article inside this window."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_40c4c827ad6b535b",
+        "feed_published_at": "2026-11-08T23:44:36Z",
+        "source_url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
+        "source_date": null,
+        "status": "original_unavailable",
+        "evidence": "The original was not available to the web reader. The feed or a repost could not establish both the source's complete content and publisher time."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_4073772663fa3aed",
+        "feed_published_at": "2026-11-08T19:37:42Z",
+        "source_url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+        "source_date": null,
+        "status": "original_unavailable",
+        "evidence": "The original was not available to the web reader. The feed or a repost could not establish both the source's complete content and publisher time."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_bc29fcacb2522651",
+        "feed_published_at": "2026-11-08T03:11:48Z",
+        "source_url": "https://caleb.software/posts/claude-to-pi.html",
+        "source_date": null,
+        "status": "original_unavailable",
+        "evidence": "The original was not available to the web reader. The feed or a repost could not establish both the source's complete content and publisher time."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_90ba1921a20673af",
+        "feed_published_at": "2026-11-09T05:00:00Z",
+        "source_url": "https://arxiv.org/abs/2611.09662",
+        "source_date": null,
+        "status": "screened_not_advanced",
+        "evidence": "Conversation budget and grading was considered; benchmark correctness was unresolved in the authors' abstract and the selected memory and evidence pieces each answered a clearer reader question. This is a selection decision; no conclusion about exact release eligibility."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_f8fc23676726d58a",
+        "feed_published_at": "2026-11-09T05:00:00Z",
+        "source_url": "https://arxiv.org/abs/2611.08714",
+        "source_date": null,
+        "status": "screened_not_advanced",
+        "evidence": "Reversible fraud rules were screened; the edition prioritized the clearer decision and deployment limits supported by the full OpenMeter paper. This is a selection decision; no conclusion about exact release eligibility."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_f8432be16e1a0141",
+        "feed_published_at": "2026-11-09T05:00:00Z",
+        "source_url": "https://arxiv.org/abs/2611.09147",
+        "source_date": null,
+        "status": "screened_not_advanced",
+        "evidence": "Model policy compliance metric was screened; no policy obligation changed and the two evaluation/operations decisions selected were more direct. This is a selection decision; no conclusion about exact release eligibility."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_00cce1fadb24dc39",
+        "feed_published_at": "2026-11-09T05:00:00Z",
+        "source_url": "https://arxiv.org/abs/2611.08780",
+        "source_date": null,
+        "status": "screened_not_advanced",
+        "evidence": "Biomedical abstention was screened; the clinical claims needed separate verification beyond the brief selected on this run. This is a selection decision; no conclusion about exact release eligibility."
+      },
+      {
+        "feed": "top",
+        "feed_id": "sty_7b73a007203c9fa5",
+        "feed_published_at": "2026-11-09T05:00:00Z",
+        "source_url": "https://arxiv.org/abs/2611.08995",
+        "source_date": null,
+        "status": "screened_not_advanced",
+        "evidence": "Adjudication profiling was screened; only the primary abstract was considered for editorial fit. This is a selection decision; no conclusion about exact release eligibility."
+      }
+    ]
+  },
+  "prepared_at": "2026-11-09T13:10:38.500275Z",
+  "published_at": null,
+  "published_urls": []
+}

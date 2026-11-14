@@ -1,0 +1,94 @@
+{
+  "edition_date": "2026-11-10",
+  "status": "validated_local_checkpoint_publication_blocked",
+  "prepared_at": "2026-11-10T13:08:53.559051Z",
+  "actual_published_at": null,
+  "exact_pushed_commit": null,
+  "published_urls": [],
+  "local_base": "c79ba1c2199de54abe052242916386754ea95f46",
+  "observed_remote_main": "b716e1efad14a412bdcc84097d7e5f3c45ae7bf9",
+  "remote_delta": {
+    "commits_ahead": 32,
+    "paths": [
+      "_data/discovery.json",
+      "_data/wire.json"
+    ]
+  },
+  "git_fetch": {
+    "command": "git fetch origin main",
+    "attempts": 2,
+    "exit_code": 128,
+    "reason": "Could not resolve host: github.com"
+  },
+  "direct_refresh": {
+    "attempts": 2,
+    "exit_code": 1,
+    "reason": "Could not resolve rss.tedt.org"
+  },
+  "ship": {
+    "status": "blocked_before_invocation",
+    "reason": "Required Git fetch and direct feed refresh failed. The current hosted Pages job independently failed at Ruby setup. The guarded ship path could not run to completion."
+  },
+  "current_hosted_failure": {
+    "run_id": 42803596890,
+    "url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/42803596890",
+    "commit": "b716e1efad14a412bdcc84097d7e5f3c45ae7bf9",
+    "build_job_id": 129787063738,
+    "failed_at": "2026-11-10T10:58:44.8593152Z",
+    "failed_step": "ruby/setup-ruby@v1",
+    "runner_image": "ubuntu-26.04",
+    "ruby_version": "3.2.9",
+    "error": "Unavailable version 3.2.9 for ruby on ubuntu-26.04",
+    "deploy_job_id": 129787215774,
+    "deploy_conclusion": "skipped"
+  },
+  "last_successful_pages_run": {
+    "run_id": 41764356875,
+    "url": "https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/41764356875",
+    "commit": "fd98d5ca590a0a7fc6f0dc328e6fc6777c6816cd",
+    "deploy_job_id": 126359978649,
+    "run_completed_at": "2026-11-04T03:03:26Z",
+    "newest_edition_in_deployed_source": "2026-11-03"
+  },
+  "public_verification": {
+    "status": "unverified",
+    "targets": [
+      "https://yesterdai.tedt.org/editions/2026-11-10/",
+      "https://yesterdai.tedt.org/articles/claude-fable-5-2-copilot-approval/",
+      "https://yesterdai.tedt.org/articles/autorefine-code-judge-workflow-outcomes/",
+      "https://yesterdai.tedt.org/articles/muse-ember-long-prompt-pricing/"
+    ],
+    "hero_targets": [],
+    "last_known_edition_probe": "https://yesterdai.tedt.org/editions/2026-11-03/",
+    "evidence": "Direct requests failed at DNS before any HTTP response. The web reader could not load the dated pages. Its cached homepage showed an older edition and did not establish current public state."
+  },
+  "local_render_verification": {
+    "checked_at": "2026-11-10T13:12:56.486227Z",
+    "local_paths": [
+      "/",
+      "/editions/2026-11-10/",
+      "/articles/claude-fable-5-2-copilot-approval/",
+      "/articles/autorefine-code-judge-workflow-outcomes/",
+      "/articles/muse-ember-long-prompt-pricing/",
+      "/about/"
+    ],
+    "verified": [
+      "section order and empty-section omission",
+      "lead and linked TL;DR",
+      "article and homepage metadata",
+      "byline and disclosure",
+      "JSON Feed and RSS IDs",
+      "sitemap",
+      "rendered sources"
+    ],
+    "existing_editorial_files_byte_identical": 109,
+    "existing_image_files_byte_identical": 26,
+    "final_body_word_counts": {
+      "claude-fable-5-2-copilot-approval": 250,
+      "autorefine-code-judge-workflow-outcomes": 284,
+      "muse-ember-long-prompt-pricing": 280
+    }
+  },
+  "required_action": "Restore checkout connectivity and separately repair Pages runner compatibility with the locked Ruby. Reuse the completed checkpoint, fetch and reconcile current main, rerun required preflight and guarded ship, then verify exact-commit deployment and public URLs.",
+  "recorded_at": "2026-11-10T13:14:49.034875Z"
+}
