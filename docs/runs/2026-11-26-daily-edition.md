@@ -22,12 +22,18 @@ Ted's writing style **1.0.0**, technology/strategy mode, was applied with concre
 
 Preparation and all six deterministic preflight stages completed successfully: 44 Python tests; 27 editions / 90 articles validated; strict production Jekyll build; 90 Pagefind pages; 130 HTML pages checked; four JavaScript tests and publication smoke. Local readback passed 542 checks, preserving 141 prior article/edition/image files and 28 rendered images. The remaining base tracked files also remain byte-identical, except the permitted wire check timestamps.
 
-Guarded ship, exact-commit Pages deployment and direct public readback are pending. No actual public publication time or published URLs is claimed at this checkpoint.
+The unmodified guarded ship command succeeded **2026-11-26T13:13:42.584786+00:00**, rerunning all six deterministic checks, reconciling current main and pushing **8eb9aa4811df428015b69a5bfa1e3eaa6dcace0f** without force. No rebase was needed.
 
-Intended edition: https://yesterdai.tedt.org/editions/2026-11-26/
+[Pages run 45827093224](https://github.com/TedTschopp/YesterdAI.Tedt.org/actions/runs/45827093224) deployed that exact commit successfully, completing **2026-11-26T13:18:05Z**. The build, reader-job/accessibility/responsive checks, fixed visual baselines and deployment passed. GitHub's `github-pages` deployment status independently reports success for the same SHA.
+
+Direct public readback at **2026-11-26T13:18:20.417697Z** passed **545 checks across 39 URLs**, including the edition, all three complete articles, homepage, feeds, search metadata, About/disclosure, archive and all **28 retained hero/share images**. No new hero URLs were required for the briefs. Article bodies and image bytes match the validated candidate; all prior tracked files except permitted wire timestamps remain unchanged.
+
+This edition is published, with **three complete briefs and zero shortfall**. Public deployment time is recorded separately from preparation and original source dates. This evidence is retained in `2026-11-26-publication.json`, `2026-11-26-deployment.json`, `2026-11-26-public-verification.json` and the ship record.
+
+Published edition: https://yesterdai.tedt.org/editions/2026-11-26/
 
 - An image comparison can succeed without comparing images: https://yesterdai.tedt.org/articles/asterism-multi-image-reasoning-shortcuts/ (299 words)
 - A confidence gate needs more than a reassuring score: https://yesterdai.tedt.org/articles/confidence-gates-automation-distribution-shift/ (290 words)
 - LEGOSpec separates better drafts from faster model serving: https://yesterdai.tedt.org/articles/legospec-draft-acceptance-and-serving-speed/ (306 words)
 
-Required action: complete all six deterministic checks, commit editorial files, run unchanged `scripts/publish.py ship`, and verify the exact deployed commit and public edition/article/retained-image URLs. Preserve this checkpoint and the last successful site if a required stage fails.
+Required action: **none**. Commit and ship the completed publication evidence through the same guarded command, then verify its exact resulting deployment without changing the published article text or images. No application or policy changes are required.
