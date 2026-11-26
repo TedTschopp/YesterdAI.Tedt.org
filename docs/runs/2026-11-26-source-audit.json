@@ -1,0 +1,3536 @@
+{
+  "recorded_at": "2026-11-26T13:10:34.864628Z",
+  "edition_date": "2026-11-26",
+  "base_commit": "2da86634f907dce2fa0ff46c12cd48ac2f56a147",
+  "reader_contract": "2.0.3",
+  "article_contract": 2,
+  "writing_style": {
+    "name": "ted-writing-style",
+    "version": "1.0.0",
+    "mode": "technology/strategy",
+    "editing_pass": true
+  },
+  "headline_rule": "Current user instruction: AP sentence-style; preserve branded spelling and historical titles. Checked-in title-case policy is unchanged.",
+  "window": {
+    "start": "2026-11-25T01:00:00Z",
+    "cutoff": "2026-11-26T13:00:00Z",
+    "timezone": "America/Los_Angeles"
+  },
+  "discovery": {
+    "checked_at": "2026-11-26T13:04:35.135574Z",
+    "curated": 238,
+    "top": 79,
+    "normalized_wire": 79,
+    "malformed_items": [
+      {
+        "id": "sty_a735900690c02212",
+        "reason": "malformed item fields"
+      }
+    ],
+    "feed_snapshot": "docs/runs/2026-11-26-feed-snapshot.json",
+    "feed_snapshot_sha256": "3d6cdaa9f13843cff413a1cc1b68634e6310127cf79271c1e5c7505953cad3a6"
+  },
+  "inventory": [
+    {
+      "feed": "curated",
+      "position": 0,
+      "feed_id": "5e27107ae861e8141dd340f7e10ef1d6",
+      "url": "https://x.com/UberEng/status/2125008806249930999?s=19",
+      "title": "How Uber Evals 1 Million Agent Skill Invocations a Month [ ! ]",
+      "discovery_timestamp": "2026-11-25T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 1,
+      "feed_id": "2b2bfc61a779d5ddb14b54c975692c5c",
+      "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420?mod=ai_more_article_pos4",
+      "title": "Cisco and OpenAI Launch Project to Safeguard Agentic AI [ * ] (Estimated)",
+      "discovery_timestamp": "2026-11-25T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 2,
+      "feed_id": "aabae0c335ebeef84f6c1a975cd207dd",
+      "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420?mod=ai_more_article_pos4",
+      "title": "Cisco, OpenAI Launch Project to Safeguard Agentic AI [ ~ ]",
+      "discovery_timestamp": "2026-11-25T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 3,
+      "feed_id": "40f1df1d6707b0f48af84418e7dde108",
+      "url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "title": "RL infrastructure at Microsoft AI [ * ]",
+      "discovery_timestamp": "2026-11-25T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 4,
+      "feed_id": "d5be96b5f82a15636dbaf37fc454b89e",
+      "url": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models",
+      "title": "Pushing the US Open-Weight Frontier [ ! ]",
+      "discovery_timestamp": "2026-11-25T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 5,
+      "feed_id": "7d0b7e96810ff90c107ebf2cd08f294e",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "title": "Introducing Claude Ship [ ! ]",
+      "discovery_timestamp": "2026-11-25T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 6,
+      "feed_id": "b3a7d6dd4583f149e8b5bc465eb8f842",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "title": "Working with AI [ ! ]",
+      "discovery_timestamp": "2026-11-25T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 7,
+      "feed_id": "ae237bf8f5fbdc9efcbf83cc9bf8dbba",
+      "url": "https://z.ai/blog/glm-5.4",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer [ ~ ]",
+      "discovery_timestamp": "2026-11-24T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 8,
+      "feed_id": "903e9f70f3a42816521fdaae8db56734",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director [ ! ]",
+      "discovery_timestamp": "2026-11-24T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 9,
+      "feed_id": "c2e47be103a436d83d4e5967cf6af302",
+      "url": "https://hbr.org/2026/11/the-case-for-small-ai",
+      "title": "The Case for Small AI [ ~ ]",
+      "discovery_timestamp": "2026-11-24T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 10,
+      "feed_id": "193d172fe488c9c46304826da1564e63",
+      "url": "https://blog.bytebytego.com/p/how-instacart-uses-llms-to-make-people",
+      "title": "How Instacart Uses LLMs to Make People Buy More [ * ]",
+      "discovery_timestamp": "2026-11-24T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 11,
+      "feed_id": "11b2433ae48b55dae008786aa74cb97b",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/",
+      "title": "How Airbnb uses cost per task to operate coding agents on Amazon Bedrock [ ! ]",
+      "discovery_timestamp": "2026-11-24T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 12,
+      "feed_id": "6905a332ca8307f2a3eb98165eec04af",
+      "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy-how-agents",
+      "title": "How to Win Bots and Influence Purchases [ * ]",
+      "discovery_timestamp": "2026-11-24T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 13,
+      "feed_id": "2497dd6c90b691d0089fdb02637f1bf3",
+      "url": "https://x.ai/news/grok-bot-accounting",
+      "title": "Building an accounting team with Grok Bot [ ~ ]",
+      "discovery_timestamp": "2026-11-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 14,
+      "feed_id": "30c090bd4ff6b449ae5eb6a6fb32e818",
+      "url": "https://www.perplexity.ai/hub/blog/self-improving-skills",
+      "title": "Self-improving skills [ ~ ]",
+      "discovery_timestamp": "2026-11-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 15,
+      "feed_id": "594744da53302f4d8110c85e356cb28a",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "title": "Perplexity and Intelligence [ ~ ]",
+      "discovery_timestamp": "2026-11-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 16,
+      "feed_id": "b242f2e4ef1bd6cd70d91b4a75a264d3",
+      "url": "https://frontier.replit.com/throwing-headcount-at-the-problem/",
+      "title": "Throwing Headcount at the Problem [ * ]",
+      "discovery_timestamp": "2026-11-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 17,
+      "feed_id": "771ff2b5a762673423aaa815517c7101",
+      "url": "https://www.forbes.com/sites/johnsviokla/2026/11/19/the-upside-of-getting-hacked-a-faster-clockspeed/",
+      "title": "The Upside of Getting Hacked: A Faster Clockspeed [ * ] (Estimated)",
+      "discovery_timestamp": "2026-11-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 18,
+      "feed_id": "431b8820dc2cfa72bc85662b2342967f",
+      "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-12000-employees-day-1",
+      "title": "How Databricks rolls out frontier models to 12,000 employees on Day 1 [ ~ ]",
+      "discovery_timestamp": "2026-11-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 19,
+      "feed_id": "762292d17bf2af12b9024a5c5a31ece4",
+      "url": "https://toloka.ai/blog/post-training-for-bank-support-the-agent-found-the-recipe-the-data-set-the-limit/",
+      "title": "Post-training for bank support: the agent found the recipe, the data set the limit [ ~ ]",
+      "discovery_timestamp": "2026-11-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 20,
+      "feed_id": "bdb8cf46e309e61a706ef6ea7c7a4103",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+      "title": "Research acceleration: The jagged frontier [ ~ ]",
+      "discovery_timestamp": "2026-11-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 21,
+      "feed_id": "15d97613e530b48a44c0790fb72865fb",
+      "url": "https://www.bridgewater.com/research-and-insights/current-efforts-arent-enough-to-slow-the-ai-cyber-virus",
+      "title": "Current Efforts Aren't Enough to Slow the AI Cyber Virus [ ! ]",
+      "discovery_timestamp": "2026-11-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 22,
+      "feed_id": "1d90d43dd875c0189b7226b584f9e778",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "title": "Introducing Gemini 4 Neon [ * ]",
+      "discovery_timestamp": "2026-11-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 23,
+      "feed_id": "0e244c39a2c07809a5eee94dc2f6127b",
+      "url": "https://www.bcg.com/publications/2026/agentic-ai-wholesale-credit-decisions",
+      "title": "Wholesale Credit, Always On [ ~ ]",
+      "discovery_timestamp": "2026-11-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 24,
+      "feed_id": "3c1d4ec63f5e7f4f111f081dc1920aab",
+      "url": "https://arxiv.org/abs/2611.18856",
+      "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement [ ~ ]",
+      "discovery_timestamp": "2026-11-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 25,
+      "feed_id": "dcab68b3a8373baa0c2090bb4852e481",
+      "url": "https://x.com/satyanadella/status/2122793040058442116",
+      "title": "Microsoft Ignite announcements [ ! ]",
+      "discovery_timestamp": "2026-11-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 26,
+      "feed_id": "18e78ac7c8c5c182cf6055d21e7ad763",
+      "url": "https://x.com/runwayml_labs/status/2122727083600380392?s=31",
+      "title": "Introducing Diffusion-UI [ ~ ]",
+      "discovery_timestamp": "2026-11-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 27,
+      "feed_id": "96dfd5d2d4f64341c44aa9a089dadfb5",
+      "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider [ * ]",
+      "discovery_timestamp": "2026-11-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 28,
+      "feed_id": "354b19211b0fe752154b7179f0235afd",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales/",
+      "title": "Introducing ChatGPT for Sales [ ~ ]",
+      "discovery_timestamp": "2026-11-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 29,
+      "feed_id": "d39689ad693e7838de6a4fa18da11590",
+      "url": "https://interact.inc/blog/interact-0/",
+      "title": "Interact-0 [ * ]",
+      "discovery_timestamp": "2026-11-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 30,
+      "feed_id": "67ab0657165054653e5d2955d9eb95cf",
+      "url": "https://devin.ai/bots",
+      "title": "Introducing Devin Bots [ ~ ]",
+      "discovery_timestamp": "2026-11-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 31,
+      "feed_id": "5e742687073ba951f078ae9407e4ef23",
+      "url": "https://world-2030.pages.dev/",
+      "title": "World 2030 [ ~ ]",
+      "discovery_timestamp": "2026-11-18T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 32,
+      "feed_id": "58b5d1c25a1e849fcbb33057d0d29768",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/",
+      "title": "More ways to move care forward with ChatGPT for Healthcare [ * ]",
+      "discovery_timestamp": "2026-11-18T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 33,
+      "feed_id": "8bed23ce0e32cb504af583ce2fcf2d48",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "title": "GPT 6.2 Astra and Sol [ * ]",
+      "discovery_timestamp": "2026-11-18T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 34,
+      "feed_id": "c2478834db9d86976a15151a0ed05ea3",
+      "url": "https://menlovc.com/perspective/2026-the-state-of-ai-in-healthcare/",
+      "title": "2026: The State of AI in Healthcare [ * ]",
+      "discovery_timestamp": "2026-11-18T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 35,
+      "feed_id": "d77fd8ee690f48fbdae78a3e12a1b063",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+      "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold [ ! ]",
+      "discovery_timestamp": "2026-11-18T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 36,
+      "feed_id": "e5276e83863234c1d7e0f39589a688b9",
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "title": "How the Claude Code Team Thinks About Verification [ * ] (Estimated)",
+      "discovery_timestamp": "2026-11-18T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 37,
+      "feed_id": "4bdc8fbd588857a7bcb158f93a646864",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/",
+      "title": "How LoanPro built an agentic AI loan servicing assistant with Amazon Bedrock AgentCore [ ! ]",
+      "discovery_timestamp": "2026-11-18T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 38,
+      "feed_id": "9d52606a3fa5bfa5f80458da850fc65a",
+      "url": "https://venturebeat.com/security/ai-agents-are-making-securitys-breakout-time-metric-obsolete-and-no-one-agrees-on-what-replaces-it",
+      "title": "AI agents are stealing credentials in minutes, and security's old response targets can't keep up [ ! ]",
+      "discovery_timestamp": "2026-11-17T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 39,
+      "feed_id": "2f9f200e5161f633229901201f49472b",
+      "url": "https://qwen.ai/blog?id=qwen4-max&utm_source=tldrai",
+      "title": "Qwen4-Max: Your New Teammate Has Arrived [ ~ ]",
+      "discovery_timestamp": "2026-11-17T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 40,
+      "feed_id": "966c29dc76be1d0f394beca4975705a2",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/?utm_source=tldrai",
+      "title": "Introducing ChatGPT Wallet [ * ]",
+      "discovery_timestamp": "2026-11-17T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 41,
+      "feed_id": "e5d7a3d2b829e8eca514ac7a1276a6bb",
+      "url": "https://openai.com/business/customer-stories/amplitude/",
+      "title": "How Amplitude ships product improvements in 1-2 days with OpenAI [ ~ ]",
+      "discovery_timestamp": "2026-11-17T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 42,
+      "feed_id": "57b72c1ecb63de98ebbcfb4e0b8e9f5e",
+      "url": "https://developers.databricks.com/ai-index",
+      "title": "Databricks AI Index [ ~ ]",
+      "discovery_timestamp": "2026-11-17T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 43,
+      "feed_id": "215ac6f0e1c1478b97a194fb47bc89a5",
+      "url": "https://cohere.com/blog/video-intelligence-preview",
+      "title": "Video intelligence: Make every moment in your video library searchable [ ~ ]",
+      "discovery_timestamp": "2026-11-17T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 44,
+      "feed_id": "fbb15a4fccd99d60d97116ba88586494",
+      "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/reinventing-business-planning-with-agentic-ai",
+      "title": "Reinventing business planning with agentic AI [ ~ ]",
+      "discovery_timestamp": "2026-11-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 45,
+      "feed_id": "72baf2d230e30950ece5d7c369238dfb",
+      "url": "https://hbr.org/2026/11/how-ai-erodes-peoples-sense-of-value-at-work?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_Active&deliveryName=NL_DailyAlert_20261113&lctg=651d8ffd99c3f452fa0b0d1e",
+      "title": "How AI Erodes People's Sense of Value at Work [ ~ ]",
+      "discovery_timestamp": "2026-11-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 46,
+      "feed_id": "c76f1fdc9d9110e2ce54bf2295df7b15",
+      "url": "https://claude.com/resources/articles/building-always-on-agents",
+      "title": "Building always-on agents [ * ]",
+      "discovery_timestamp": "2026-11-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 47,
+      "feed_id": "dfa683e345f9fa341c4531f99afb34ff",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?utm_source=x&utm_medium=social&utm_campaign=&utm_content=",
+      "title": "Introducing Gemini 4 Hydrogen [ * ]",
+      "discovery_timestamp": "2026-11-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 48,
+      "feed_id": "f6f0b05a57b92d692f12806a1b7766bc",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
+      "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore [ * ]",
+      "discovery_timestamp": "2026-11-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 49,
+      "feed_id": "653ce01183ca0cf30b1b3013d8abffcf",
+      "url": "https://assets.jpmprivatebank.com/content/dam/jpm-pb-aem/global/en/documents/eotm/the-icarus-files.pdf",
+      "title": "AI: Eye on the market [ ~ ]",
+      "discovery_timestamp": "2026-11-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 50,
+      "feed_id": "93b9489f32a4a45baaef4ea26f15f383",
+      "url": "https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38?st=ytrzi1&utm_source=aiforwork&utm_medium=newsletter&utm_campaign=google-s-decision-model-shrinks-the-agent-tax&_bhlid=a09f1bc5e878cc3e65f6362964bead855d764871",
+      "title": "United Airlines Is Banning AI Bots From Booking Flights [ ! ]",
+      "discovery_timestamp": "2026-11-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 51,
+      "feed_id": "23c416cf2239c6b65143688035bea725",
+      "url": "https://runway.com/research/praxis-1-video-pretraining-to-robot-control",
+      "title": "Praxis-1: From Video Pretraining to Robot Control [ ~ ]",
+      "discovery_timestamp": "2026-11-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 52,
+      "feed_id": "6dc1686f03f9f26db03b7a4783e173b1",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "title": "NVIDIA Announces CEO Transition [ ! ]",
+      "discovery_timestamp": "2026-11-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 53,
+      "feed_id": "0882a2fb6377c51a06718b61dccbb4c1",
+      "url": "https://www.forbes.com/sites/johnsviokla/2026/11/03/is-your-incentive-system-especially-ebitda-blunting-ai-transformation/",
+      "title": "Is Your Incentive System (especially EBITDA) Blunting AI Transformation? [ ~ ] (Estimated)",
+      "discovery_timestamp": "2026-11-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 54,
+      "feed_id": "b7cdb4e8a4661e6d3044ab294a00c027",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions [ * ]",
+      "discovery_timestamp": "2026-11-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 55,
+      "feed_id": "395975cb178a73fe690cc9db6ecdc850",
+      "url": "https://www.bcg.com/publications/2026/how-industrial-companies-win-with-ai",
+      "title": "For Industrial Companies, Winning with AI Takes More Than Tech [ ~ ]",
+      "discovery_timestamp": "2026-11-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 56,
+      "feed_id": "35f34bb712f35329921b616a350ce987",
+      "url": "https://x.com/omooretweets/status/2120554019177611668",
+      "title": "Welcome to the B2A Economy [ ! ]",
+      "discovery_timestamp": "2026-11-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 57,
+      "feed_id": "d59a0284b4a367b31dfb8a6431a09c83",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "title": "Introducing Businesses in ChatGPT [ ! ]",
+      "discovery_timestamp": "2026-11-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 58,
+      "feed_id": "0475be1ed8d87d4b4aa26c9ca420fc51",
+      "url": "https://hbr.org/2026/11/the-hidden-costs-of-delegating-to-ai",
+      "title": "The Hidden Costs of Delegating to AI [ * ]",
+      "discovery_timestamp": "2026-11-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 59,
+      "feed_id": "0f3ccd53977cbf2d958b69b62addc256",
+      "url": "https://www.forbes.com/sites/johnsviokla/2026/11/11/do-you-suffer-from-ai-agentbabble--learn-from-uber-and-more/",
+      "title": "Do You Suffer From An Agentic Hairball? Learn How Uber And Others Untangled It! [ ! ] (Estimated)",
+      "discovery_timestamp": "2026-11-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 60,
+      "feed_id": "b428f44248ef13741a392caa945b8c6d",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare",
+      "title": "Introducing Gemini for healthcare [ * ]",
+      "discovery_timestamp": "2026-11-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 61,
+      "feed_id": "83963ec2b5a94be33b8b74cf5fdcb201",
+      "url": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+      "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore [ ~ ]",
+      "discovery_timestamp": "2026-11-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 62,
+      "feed_id": "bac16726cc7dc1b160f00e43355ed69d",
+      "url": "https://research.nvidia.com/labs/gear/gr00t-2/",
+      "title": "GR00T 2 [ ~ ]",
+      "discovery_timestamp": "2026-11-11T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 63,
+      "feed_id": "22358141595d57898e7d47b79fd082c0",
+      "url": "https://openai.com/index/control-room/",
+      "title": "Control Room [ ~ ]",
+      "discovery_timestamp": "2026-11-11T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 64,
+      "feed_id": "3a5c4d019aee99cf6d944aa5b3b9081b",
+      "url": "https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith",
+      "title": "How Workday Built an Enterprise-Scale AI Agent Platform with LangGraph and LangSmith [ ~ ]",
+      "discovery_timestamp": "2026-11-11T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 65,
+      "feed_id": "2c502c39e5ae4bf3ad0cbba33e0d8a7c",
+      "url": "https://www.forbes.com/sites/johnsviokla/2026/11/05/are-you-turning-your-cognitive-scrap-into-cognitive-capital/",
+      "title": "Are You Turning Your Cognitive Scrap Into Cognitive Capital? [ * ]",
+      "discovery_timestamp": "2026-11-11T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 66,
+      "feed_id": "80f963b68f4ecea3ae088bb022a73520",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "title": "More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors [ * ]",
+      "discovery_timestamp": "2026-11-11T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 67,
+      "feed_id": "e84ca6d0ce67a030c3bbe755596e3755",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": "Claude Fable 5.2 and Mythos 5.2 [ ! ]",
+      "discovery_timestamp": "2026-11-11T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 68,
+      "feed_id": "ceeb53e436053a87c5ae6003328b56a4",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember [ ~ ]",
+      "discovery_timestamp": "2026-11-10T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 69,
+      "feed_id": "e6fec6f5905af1078909c3cc8b8ab35c",
+      "url": "https://www.nytimes.com/2026/11/07/business/dealbook/crosby-ai-agent-liability-malpractice-insurance.html",
+      "title": "Law Firms Have Malpractice Insurance. Should Their A.I. Agents? [ ~ ]",
+      "discovery_timestamp": "2026-11-10T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 70,
+      "feed_id": "37470d6830b05a574ccdb7d2cc0fcfca",
+      "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/the-ai-enabled-risk-function-of-the-future?stcr=6250441221084CED96F0051149EEC648&cid=mgp_opr-eml-alt-rar-mgp-glb--&hlkid=6f1905fbf5574cb1837dc7aa614d9841&hctky=1595995&hdpid=d85ea310-a53e-4560-9366-27b9cddfab21",
+      "title": "The AI-enabled risk function of the future [ * ]",
+      "discovery_timestamp": "2026-11-10T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 71,
+      "feed_id": "85fc0c376585a4cb457e2e1f9506ae86",
+      "url": "https://www.langchain.com/blog/what-is-eval-driven-development",
+      "title": "What Is Eval-Driven Development? How to Improve AI Agents [ ~ ]",
+      "discovery_timestamp": "2026-11-10T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 72,
+      "feed_id": "cc992c19f67b8f238fbb3ea3d996fcd7",
+      "url": "https://hbr.org/2026/11/why-leaders-need-to-rethink-their-approach-to-ai-oversight?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "title": "Why Leaders Need to Rethink Their Approach to AI Oversight [ ~ ]",
+      "discovery_timestamp": "2026-11-10T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 73,
+      "feed_id": "10b37a4041cd29181ffb440181ac740a",
+      "url": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/",
+      "title": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore [ * ]",
+      "discovery_timestamp": "2026-11-10T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 74,
+      "feed_id": "2c544fbb43e6f4dd293215538e573103",
+      "url": "https://x.com/UberEng/status/2118769501332463762?s=31",
+      "title": "Securing AI Agents: Lessons From Real-World Deployment [ ! ]",
+      "discovery_timestamp": "2026-11-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 75,
+      "feed_id": "4293eea82f12714658847871f8095e39",
+      "url": "https://venturebeat.com/technology/thinking-machines-launches-inkling-2-small-with-near-frontier-performance-on-enterprise-benchmarks",
+      "title": "Thinking Machines launches Inkling 2 Small with near-frontier performance on enterprise benchmarks [ ~ ]",
+      "discovery_timestamp": "2026-11-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 76,
+      "feed_id": "dbad9c4fdb74d16eac57a1b5b32e85cb",
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026 [ * ]",
+      "discovery_timestamp": "2026-11-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 77,
+      "feed_id": "a4fecb82852815ff94a44fb6ea7eef5c",
+      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/how-frontier-ai-is-rewriting-software-security-rules?stcr=9A928D8DD4A44454B6B953CE9B0D3B64&cid=mgp_opr-eml-alt-dmk-mgp-glb--&hlkid=140e7d826e714a16975494216878a732&hctky=1595995&hdpid=3a8c4e9e-9ddd-481d-9963-7aeb09c531b0",
+      "title": "How frontier AI is rewriting software security rules [ ! ]",
+      "discovery_timestamp": "2026-11-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 78,
+      "feed_id": "2933447be3d03184e62b4ceefd88f245",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "title": "The components of agent memory [ ! ]",
+      "discovery_timestamp": "2026-11-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 79,
+      "feed_id": "493705de3bc8d622c73f3d2d76bc5015",
+      "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+      "title": "Design the Muse App, Just for You [ ! ]",
+      "discovery_timestamp": "2026-11-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 80,
+      "feed_id": "057019075bdd1087cca1e27da3c330ea",
+      "url": "https://research.nvidia.com/labs/lpr/vflash/",
+      "title": "VFlash Enabling System-1 VLMs for Physical AI [ ~ ]",
+      "discovery_timestamp": "2026-11-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 81,
+      "feed_id": "13aff4ae59ff38b327903c901f6d557d",
+      "url": "https://www.perplexity.ai/hub/products/teammate",
+      "title": "Teammates work for you [ * ]",
+      "discovery_timestamp": "2026-11-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 82,
+      "feed_id": "ecc6af487f31d9347d2d6099c35902e7",
+      "url": "https://openai.com/index/introducing-images-2-6/",
+      "title": "Introducing Images 2.6 [ ~ ]",
+      "discovery_timestamp": "2026-11-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 83,
+      "feed_id": "129e08171b11fcc0d953f9fa31dfd99f",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "title": "GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents [ ! ]",
+      "discovery_timestamp": "2026-11-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 84,
+      "feed_id": "bdbd7962a48f501a8c1468079a160c6f",
+      "url": "https://cognition.com/blog/swe-2-flash?utm_source=tldrai",
+      "title": "Introducing SWE-2 Flash [ ~ ]",
+      "discovery_timestamp": "2026-11-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 85,
+      "feed_id": "db0bdd4fbbe1b3c21a5e80b81c224488",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips [ * ]",
+      "discovery_timestamp": "2026-11-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 86,
+      "feed_id": "6a5412a8498a761adf0d5bf9f72f4067",
+      "url": "https://stratechery.com/2026/ai-on-the-ballot/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FpLW9uLXRoZS1iYWxsb3QvIl19LCJleHAiOjE3OTY0MDYyNzUsImlhdCI6MTc5MzgxNDI3NSwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBhY2Nlc3M6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6ImQ4ZDMzYjcwLThmYjQtNGZhYi1iYjNmLWMxZThkNDIxNjgxMSIsInVzZSI6ImFjY2VzcyJ9.toGqCh6p1vhIX5RqZZma0FUt1VsHq52uC0se7C0rfWrzPZgp7wVjYgzN35VsQiAiFJ775PKd8T7LxGZA5xqFnA",
+      "title": "AI on the Ballot [ ~ ]",
+      "discovery_timestamp": "2026-11-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 87,
+      "feed_id": "1259d41261d1bb3b7fd2834b7875dedc",
+      "url": "https://www.signalful.com/what-would-end-the-ai-funding-boom/",
+      "title": "How It Ends [ ~ ]",
+      "discovery_timestamp": "2026-11-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 88,
+      "feed_id": "53436f7151e92a5d84a2b37f4060ae77",
+      "url": "https://openai.com/index/lifeval/",
+      "title": "LifeVal [ ~ ]",
+      "discovery_timestamp": "2026-11-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 89,
+      "feed_id": "93252d3753d1c25738db295e3988613f",
+      "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/turning-executive-judgment-into-organizational-intelligence-leveraging-ai-in-ceo-leadership?cid=mgp_opr-eml-alt-msc-mgp-glb--&hlkid=17c9e4712d774edfa4c40db6480e7af1&hctky=1595995&hdpid=8a4f76a5-c57a-46fc-bcad-684ef2a6b606",
+      "title": "Turning executive judgment into organizational intelligence: Leveraging AI in CEO leadership [ ! ]",
+      "discovery_timestamp": "2026-11-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 90,
+      "feed_id": "070f770161902df08989bce62f8f263f",
+      "url": "https://hbr.org/2026/10/team-dynamics-weaken-when-employees-turn-to-ai-instead-of-colleagues?utm_medium=email&utm_source=circ_other&utm_campaign=subbenemail&utm_content=mir&utm_term=Digital%2520%2526%2520Print&hideIntromercial=true&tpcc=subbenemail&deliveryName=SUB_Ben_Tuesday_MIR_20261103&lctg=651d8ffd99c3f452fa0b0d1e",
+      "title": "Team Dynamics Weaken When Employees Turn to AI Instead of Colleagues [ ~ ]",
+      "discovery_timestamp": "2026-11-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 91,
+      "feed_id": "6c6947295ea3853502172330e3fa1f31",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-mobile-built-agentic-telco-operations-with-amazon-bedrock-agentcore/",
+      "title": "How U Mobile built agentic telco operations with Amazon Bedrock AgentCore [ ! ]",
+      "discovery_timestamp": "2026-11-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 92,
+      "feed_id": "c9b7f9b7d6673f108317834b62825d10",
+      "url": "https://x.com/addyosmani/status/2117512471930167377",
+      "title": "Critical thinking when agents do the work [ ! ]",
+      "discovery_timestamp": "2026-11-04T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 93,
+      "feed_id": "1f2d23241cb7c7ae37ac3cd2ebbb3aa1",
+      "url": "https://seekingalpha.com/news/4662812-goldman-sachs-bans-traders-and-bankers-from-using-some-ai-tools-report?shem=aimgspe",
+      "title": "Goldman Sachs bans traders and bankers from using some AI tools - report [ * ]",
+      "discovery_timestamp": "2026-11-04T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 94,
+      "feed_id": "3a64fdb6accb7740b7b1f4c052b97a78",
+      "url": "https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/",
+      "title": "2026: The State of Enterprise AI [ ! ]",
+      "discovery_timestamp": "2026-11-04T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 95,
+      "feed_id": "9a2bbf44267ae903d2b41589a6956807",
+      "url": "https://commandline.microsoft.com/how-we-built-copilot-cowork-python-to-rust-migration/?utm_source=tldrai",
+      "title": "Nine engineers, 1,211 pull requests in a day: Lessons from building Copilot Cowork [ ! ]",
+      "discovery_timestamp": "2026-11-04T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 96,
+      "feed_id": "63197c0022a96e86d3a0c0023bccfa04",
+      "url": "https://www.bcg.com/publications/2026/saas-pricing-must-change-agentic-ai",
+      "title": "As AI Reshapes SaaS, Companies Need Pivot-Ready Pricing [ ~ ]",
+      "discovery_timestamp": "2026-11-04T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 97,
+      "feed_id": "98d5e312d63665dc26f08dfe013f2929",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "title": "Progress on provable inference for large language models [ ~ ]",
+      "discovery_timestamp": "2026-11-04T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 98,
+      "feed_id": "7cf7b2255bb57bada975551d7171f15c",
+      "url": "https://venturebeat.com/security/ai-agents-dont-have-to-break-security-controls-to-go-rogue-heres-how-to-keep-them-in-check",
+      "title": "AI agents don't have to break security controls to go rogue. Here's how to keep them in check [ ! ]",
+      "discovery_timestamp": "2026-11-03T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 99,
+      "feed_id": "7fddf37758139adba710346b8893e68e",
+      "url": "https://www.uber.com/gb/en/blog/building-ubers-redlining-agent/",
+      "title": "Scaling AI in Legal: Building Uber's Redlining Agent [ * ]",
+      "discovery_timestamp": "2026-11-03T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 100,
+      "feed_id": "9b240d96a3050aeced7d7c2caa267476",
+      "url": "https://hbr.org/2026/11/the-human-in-the-loop-fallacy?tpcc=orgsocial_edit&utm_campaign=hbr&utm_medium=social&utm_source=facebook,linkedin,twitter",
+      "title": "The \"Human-in-the-Loop\"  Fallacy [ ! ]",
+      "discovery_timestamp": "2026-11-03T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 101,
+      "feed_id": "37ba885a725f294fbdb48f085391762a",
+      "url": "https://commanding-heights.com/",
+      "title": "the COMMANDING HEIGHTS [ ~ ]",
+      "discovery_timestamp": "2026-11-03T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 102,
+      "feed_id": "925ef0c04d7d4ed1252d1ae004784350",
+      "url": "https://claude.com/customers/dxc",
+      "title": "DXC brings Claude to the insurance backbone running billions of policies [ * ]",
+      "discovery_timestamp": "2026-11-03T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 103,
+      "feed_id": "8347235e7d2b03b7cc340d8da8fb0134",
+      "url": "https://blog.deepprinciple.com/introducing-hydrogen-1.0/",
+      "title": "Introducing Hydrogen-1.0 [ * ]",
+      "discovery_timestamp": "2026-11-03T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 104,
+      "feed_id": "a1fc888769fe55506ae0357044ae8423",
+      "url": "https://x.com/jsnnsa/status/2115623382721126826?s=31",
+      "title": "How I Built the Most AI-Pilled Company in the World [ ! ]",
+      "discovery_timestamp": "2026-11-02T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 105,
+      "feed_id": "77cd4f7851b6f3e2bdee2293e65e0d9c",
+      "url": "https://x.com/DeepSeekHarness/status/2116857257245987236",
+      "title": "Exploring Super-agent Design: Towards a More Autonomous Agent System [ ~ ]",
+      "discovery_timestamp": "2026-11-02T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 106,
+      "feed_id": "2895354f1905126584a005d696fcc6c4",
+      "url": "https://www.wsj.com/tech/ai/ai-anthropic-rsi-recursive-self-improvement-bff4e815?mod=hp_lead_pos9",
+      "title": "The Smartest People in AI Believe This Is the World's Most Important Chart [ ! ]",
+      "discovery_timestamp": "2026-11-02T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 107,
+      "feed_id": "19c908b6da56001cb155fe1a387bba7f",
+      "url": "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-ai-how-a-new-operating-model-can-transform-distressed-credit-management",
+      "title": "Banking on AI: How a new operating model can transform distressed credit management [ * ]",
+      "discovery_timestamp": "2026-11-02T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 108,
+      "feed_id": "a5e367927bf8a66a2ce306a1c02eb786",
+      "url": "https://www.ft.com/content/7f27aa5f-5994-4f82-aed8-1cade18fb487?syn-25a6b1a6=1",
+      "title": "Is this the first clear evidence of AI's impact on the labour market? [ ~ ]",
+      "discovery_timestamp": "2026-11-02T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 109,
+      "feed_id": "9bd9c0e85da3c9f4c2a0cdf696bbd8da",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock/",
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock [ ! ]",
+      "discovery_timestamp": "2026-11-02T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 110,
+      "feed_id": "919ff8d04e543c0477341d999936bc78",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying [ * ]",
+      "discovery_timestamp": "2026-10-30T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 111,
+      "feed_id": "1307d1c0e7841c2ae3718e8bf208b6ca",
+      "url": "https://particle.ai/blog/introducing-particle-1",
+      "title": "Introducing Particle-1 [ * ]",
+      "discovery_timestamp": "2026-10-30T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 112,
+      "feed_id": "da9d028583aabd1e4da5f693c4339a8b",
+      "url": "https://openai.com/index/legora/",
+      "title": "Legora is building the agentic operating system for legal work [ ~ ]",
+      "discovery_timestamp": "2026-10-30T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 113,
+      "feed_id": "bacb3b99148c925ce2f34363f177311f",
+      "url": "https://institute.deepmind.com/essays/the-economics-of-intelligence/",
+      "title": "The Economics of Intelligence: How and when does AGI lead to economic transformation? [ ~ ]",
+      "discovery_timestamp": "2026-10-30T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 114,
+      "feed_id": "65a8e27576ec2a81b702d3a22404911e",
+      "url": "https://hbr.org/2026/10/your-companys-fraud-defenses-arent-ready-for-ai-threats?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_Active&deliveryName=NL_DailyAlert_20261029&lctg=651d8ffd99c3f452fa0b0d1e",
+      "title": "Your Company's Fraud Defenses Aren't Ready for AI Threats [ * ]",
+      "discovery_timestamp": "2026-10-30T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 115,
+      "feed_id": "4bc88a587c99baa2ca5f4833e1276031",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/?utm_source=tldrai",
+      "title": "Introducing the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work [ * ]",
+      "discovery_timestamp": "2026-10-30T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 116,
+      "feed_id": "3feb4d45d9467d8d2c3b3c440d36fe9a",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "title": "Route and orchestrate models with GitHub Copilot Fusion [ * ]",
+      "discovery_timestamp": "2026-10-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 117,
+      "feed_id": "5a190f4de8b9b5114886b93462c1585e",
+      "url": "https://claude.com/resources/articles/introducing-artifacts-for-legal-work",
+      "title": "Introducing artifacts for legal work [ ! ]",
+      "discovery_timestamp": "2026-10-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 118,
+      "feed_id": "d37e5ca7bc9d6aabbeff4b3c1f46dd31",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "title": "Gemini 4 Carbon: our next frontier model [ ! ]",
+      "discovery_timestamp": "2026-10-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 119,
+      "feed_id": "74ad6eff0f68cefe46ca7446a00bc7af",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/",
+      "title": "How Rescale built an AI triage agent with Strands Agents and AI-DLC [ ~ ]",
+      "discovery_timestamp": "2026-10-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 120,
+      "feed_id": "499554b18ec997ac251d375e00456744",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "title": "How AI agents shape experts' judgment calls [ ! ]",
+      "discovery_timestamp": "2026-10-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 121,
+      "feed_id": "bcb363aefdccc1b72392b9dd664ee630",
+      "url": "https://www.a16z.news/p/the-new-security-agenda?utm_source=post-email-title&publication_id=13145&post_id=219608200&utm_campaign=email-post-title&isFreemail=true&r=1v3zy&triedRedirect=true&utm_medium=email",
+      "title": "The New Security Agenda [ ! ]",
+      "discovery_timestamp": "2026-10-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 122,
+      "feed_id": "180df2d380f44582253e8832a0f7300a",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "title": "GPT 6.1 Terra [ * ]",
+      "discovery_timestamp": "2026-10-28T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 123,
+      "feed_id": "931dee2e2a81c979bdfcaa09543d2c46",
+      "url": "https://www.morganstanley.com/content/dam/im/assets/publication/thought-leadership/article/article_100xaicultures_ltr.pdf",
+      "title": "AI Beneficiaries: Investing in Second-Order Effects [ ! ]",
+      "discovery_timestamp": "2026-10-28T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 124,
+      "feed_id": "252224aeabf408116550c90c0c44ea8a",
+      "url": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-rise-of-the-agentic-coworker-a-banking-cios-guide-to-the-next-wave-of-ai?cid=mgp_opr-eml-alt-dmk-mgp-glb--&hlkid=0288752af26b48e0a4a392849b92ceeb&hctky=1595995&hdpid=269db117-bea1-45b2-9425-51e1ee5b6f94",
+      "title": "The rise of the agentic coworker: A banking CIO's guide to the next wave of AI [ * ]",
+      "discovery_timestamp": "2026-10-28T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 125,
+      "feed_id": "cf21f44c84cad706d049f9c856fb5940",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "title": "Introducing LFM3: Every Modality for Specialized Intelligence [ * ]",
+      "discovery_timestamp": "2026-10-28T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 126,
+      "feed_id": "ef2c7a2e5f12c081c63c6f5163665f84",
+      "url": "https://hbr.org/2026/10/3-paths-to-delivering-shareholder-returns-with-ai?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_Active&deliveryName=NL_DailyAlert_20261027&lctg=651d8ffd99c3f452fa0b0d1e",
+      "title": "3 Paths to Delivering Shareholder Returns with AI [ ~ ]",
+      "discovery_timestamp": "2026-10-28T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 127,
+      "feed_id": "d5d47474fa6a34cc6cd86914a8e1db46",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/?utm_source=x&utm_medium=social&utm_campaign=&utm_content=",
+      "title": "Genie 4: A new generation of world simulation [ * ]",
+      "discovery_timestamp": "2026-10-28T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 128,
+      "feed_id": "d2d4b88a12f72b417d10f39b369deb09",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm#ica694c859b8e458dbf6a73f56dde9d42_2986",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering [ ! ]",
+      "discovery_timestamp": "2026-10-27T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 129,
+      "feed_id": "f895790a5c05938723ca1fd50d839eb8",
+      "url": "https://replit.com/blog/rise-of-self-driving-company?utm_source=x&utm_medium=organic_social&utm_campaign=vision",
+      "title": "The Rise of the Self-Driving Company [ ~ ]",
+      "discovery_timestamp": "2026-10-27T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 130,
+      "feed_id": "29fd6fbc03845d90cb47eeaffe38368d",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "title": "Securing our frontier model training environment [ ~ ]",
+      "discovery_timestamp": "2026-10-27T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 131,
+      "feed_id": "2992e119968626381d6d8ba599419887",
+      "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+      "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push [ ! ]",
+      "discovery_timestamp": "2026-10-27T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 132,
+      "feed_id": "35c182508d8ed5fd7c302a2e275d2e12",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
+      "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations [ ! ]",
+      "discovery_timestamp": "2026-10-27T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 133,
+      "feed_id": "8163b5e2a7ae18cfd4736b904cc83d5e",
+      "url": "https://arxiv.org/abs/2610.29162v1",
+      "title": "Why is AI-generated language so hard to understand? [ ~ ]",
+      "discovery_timestamp": "2026-10-27T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 134,
+      "feed_id": "8cd2b920e26b1e6e94e94bb0af6509a9",
+      "url": "https://x.com/hwchase17/status/2114041443836903662",
+      "title": "The five components of building a \"company harness\" [ * ]",
+      "discovery_timestamp": "2026-10-26T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 135,
+      "feed_id": "ae85fd63fab24b8955c4a6947d053be0",
+      "url": "https://x.com/NVIDIARobotics/status/2113407332747293131",
+      "title": "Isaac Lab 3.0. [ ~ ]",
+      "discovery_timestamp": "2026-10-26T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 136,
+      "feed_id": "521d06273ec897783224a92c15752396",
+      "url": "https://openai.com/index/forward-deployed-engineering-means/",
+      "title": "What FDE means at OpenAI [ * ]",
+      "discovery_timestamp": "2026-10-26T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 137,
+      "feed_id": "52c4f6174e6df913baeedcd7a421b069",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "title": "Kimi K3.1 Pro [ ! ]",
+      "discovery_timestamp": "2026-10-26T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 138,
+      "feed_id": "d34bc81bf440bd61d201c95a8ba22b88",
+      "url": "https://hbr.org/2026/10/the-c-suite-behaviors-that-stall-ai-transformations?ab=HP-hero-featured-1",
+      "title": "The C-Suite Behaviors That Stall AI Transformations [ ~ ]",
+      "discovery_timestamp": "2026-10-26T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 139,
+      "feed_id": "93674c0abd906b76bec901f44751b2c2",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "title": "LLMs are making formal software verification feasible at a much larger scale [ ! ]",
+      "discovery_timestamp": "2026-10-26T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 140,
+      "feed_id": "d521497b55939ef3b682b1b4d5eb9b35",
+      "url": "https://openai.com/index/terminal-x/",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT\"'6.1 [ ~ ]",
+      "discovery_timestamp": "2026-10-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 141,
+      "feed_id": "ab9bc5be1a46f80e57d1497fcc710187",
+      "url": "https://www.nytimes.com/2026/10/21/us/politics/php-vulnerability-ai-openai-cybersecurity.html",
+      "title": "A.I. Discovered a Critical Security Flaw Underpinning Websites [ ! ]",
+      "discovery_timestamp": "2026-10-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 142,
+      "feed_id": "5766e22719c32fbc515a8042cd04b765",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "title": "Meta shakes up the frontiers, open and closed [ * ]",
+      "discovery_timestamp": "2026-10-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 143,
+      "feed_id": "9d21ef0455bc86b8d620fdbee27ef578",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "title": "Introducing Claude Duet [ ! ]",
+      "discovery_timestamp": "2026-10-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 144,
+      "feed_id": "1f22a76f501f400b6f5ab160a9fb0fe2",
+      "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+      "title": "Scoop: Unvetted AI agents are accessing U.S. bank accounts [ ! ]",
+      "discovery_timestamp": "2026-10-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 145,
+      "feed_id": "c27e7ad159e9a6d5e7f5dbee6f9ea297",
+      "url": "https://www.afterquery.com/blog/post-training-nemotron-on-credit-workflows-in-partnership-with-hebbia",
+      "title": "Post-Training NVIDIA Nemotron 3.5 Super VL for Finance: More Accurate, Cost-Efficient Financial Credit Analysis [ ! ]",
+      "discovery_timestamp": "2026-10-23T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 146,
+      "feed_id": "ecb45a47ecd43eb188afb8a7f31e2b7a",
+      "url": "https://x.com/UberEng/status/2112604623454470476",
+      "title": "Using AI to Delete Code: Agentic Tech Debt Cleanup at Uber [ ! ]",
+      "discovery_timestamp": "2026-10-22T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 147,
+      "feed_id": "8d3613b210e7c16dfede8ceb9c131394",
+      "url": "https://recursive.com/updates/introducing-recursive-flint",
+      "title": "Introducing Flint [ ~ ]",
+      "discovery_timestamp": "2026-10-22T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 148,
+      "feed_id": "99d6f845f4dd045d0eee7898e67453f9",
+      "url": "https://rabanser.dev/assets/papers/emerging-trends-paper.pdf",
+      "title": "Emerging Trends in AI Agent Evaluation [ ! ]",
+      "discovery_timestamp": "2026-10-22T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 149,
+      "feed_id": "c8b7556719581898a1869e67011eddb8",
+      "url": "https://medium.com/pinterest-engineering/from-activity-to-intent-generating-user-journeys-with-llms-9652b9417626",
+      "title": "From Activity to Intent: Generating User Journeys with LLMs [ * ]",
+      "discovery_timestamp": "2026-10-22T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 150,
+      "feed_id": "04eb689f4275610fd13b85df69f30c92",
+      "url": "https://hbr.org/2026/10/the-deployment-failure-holding-back-your-ai-investments?ab=HP-hero-latest-2",
+      "title": "The Deployment Failure Holding Back Your AI Investments [ ~ ]",
+      "discovery_timestamp": "2026-10-22T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 151,
+      "feed_id": "8d691616ed4607f2e33a548c1c2fc745",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/",
+      "title": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore [ * ]",
+      "discovery_timestamp": "2026-10-22T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 152,
+      "feed_id": "99110f3625384d71be12ef7f53b55a63",
+      "url": "https://x.com/HamelHusain/status/2112588257104216294",
+      "title": "How To Use Decision Models for Evals [ * ]",
+      "discovery_timestamp": "2026-10-21T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 153,
+      "feed_id": "2115019941e0a060a63582d7840d4654",
+      "url": "https://openai.com/index/itau-generative-ai/",
+      "title": "How Itaú is building generative AI for its entire customer base [ ~ ]",
+      "discovery_timestamp": "2026-10-21T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 154,
+      "feed_id": "47ba0a752fa7a0c0e594e1bc7f2e94a4",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "title": "Voxtral 3 [ ~ ]",
+      "discovery_timestamp": "2026-10-21T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 155,
+      "feed_id": "0ee75fc94045f61d5c8562f3f99416d5",
+      "url": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+      "title": "How Numan built an eval-first AI health coach with LangGraph and LangSmith [ * ]",
+      "discovery_timestamp": "2026-10-21T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 156,
+      "feed_id": "e7a3bd339a43df27963269bbad86b6e0",
+      "url": "https://exa.ai/blog/exa-3",
+      "title": "Introducing Exa 3.0 [ ~ ]",
+      "discovery_timestamp": "2026-10-21T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 157,
+      "feed_id": "d51b002857c832cea5daf373c99dcace",
+      "url": "https://www.bcg.com/publications/2026/countries-most-ready-for-ai?utm_source=twitter&utm_medium=social&utm_campaign=ai&utm_description=organic&utm_topic=ai&utm_geo=global&utm_content=matrix-static_oct-20&linkId=1024252022",
+      "title": "AI Is Transforming How Economies Develop and Compete [ ~ ]",
+      "discovery_timestamp": "2026-10-21T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 158,
+      "feed_id": "18c6a0dc04218164296799b7ed8d8fe4",
+      "url": "https://venturebeat.com/ai/decision-models-like-jev-handle-what-sql-rules-cannot-heres-how-data-teams-use-them",
+      "title": "Decision models like Jev handle what SQL rules cannot. Here's how data teams use them [ * ]",
+      "discovery_timestamp": "2026-10-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 159,
+      "feed_id": "58ab6f4adf080d0115b84690ca1fd607",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost [ * ]",
+      "discovery_timestamp": "2026-10-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 160,
+      "feed_id": "7a745289b8d5cd2301c6234bbfcacf4e",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "title": "Diffusion at Scale: Introducing Mercury 3 [ ~ ]",
+      "discovery_timestamp": "2026-10-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 161,
+      "feed_id": "2bf2cba6a6fdb2aea83461d7cf541d03",
+      "url": "https://hbr.org/2026/10/turn-vibe-coded-prototypes-into-tools-your-company-can-actually-use?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_Active&deliveryName=NL_DailyAlert_20261019&lctg=651d8ffd99c3f452fa0b0d1e",
+      "title": "Turn Vibe-Coded Prototypes Into Tools Your Company Can Actually Use [ ! ]",
+      "discovery_timestamp": "2026-10-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 162,
+      "feed_id": "790c8c8594c3a6ab169843d146a042fb",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "title": "How the Claude Code team does code review [ ! ]",
+      "discovery_timestamp": "2026-10-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 163,
+      "feed_id": "557889559eecd07315c100adcb1273d2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
+      "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore [ ~ ] (Estimated)",
+      "discovery_timestamp": "2026-10-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 164,
+      "feed_id": "dce127dfdb4ce30322fee210ec6c93bb",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
+      "title": "How a shipping software platform built an AI IT help desk on Amazon Bedrock AgentCore [ * ]",
+      "discovery_timestamp": "2026-10-20T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 165,
+      "feed_id": "b6743c2b3c5623734350e6a909c89f63",
+      "url": "https://x.com/JayaGup10/status/2111223952609870085",
+      "title": "From Inference to Execution: AI's Next Economy [ * ]",
+      "discovery_timestamp": "2026-10-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 166,
+      "feed_id": "3a53d403879d9b80e0a36e4d799fec73",
+      "url": "https://www.normaltech.ai/p/steering-ai-beyond-automation",
+      "title": "Steering AI Beyond Automation [ ~ ]",
+      "discovery_timestamp": "2026-10-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 167,
+      "feed_id": "f8c2ba06f71a9993b5f6ba457c32cdac",
+      "url": "https://knowledge.wharton.upenn.edu/special-report/2026-ai-adoption-report/?utm_medium=organic-social&utm_source=katw-social",
+      "title": "The Adaptive Advantage: Who's Winning With AI and How [ ! ]",
+      "discovery_timestamp": "2026-10-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 168,
+      "feed_id": "dd70595d3a181ffb418511b63cd38f93",
+      "url": "https://kevinkelly.substack.com/p/swarm-intelligence",
+      "title": "Swarm Intelligence [ ~ ]",
+      "discovery_timestamp": "2026-10-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 169,
+      "feed_id": "1abebbae34e4814b658965fff4755b10",
+      "url": "https://arxiv.org/abs/2610.22319",
+      "title": "A team of Gemini 4 Argon agents beats Minecraft [ * ]",
+      "discovery_timestamp": "2026-10-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 170,
+      "feed_id": "6b10979d2abbf70d30a531dcc631914b",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "title": "How employment is changing at Anthropic [ * ]",
+      "discovery_timestamp": "2026-10-19T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 171,
+      "feed_id": "9fff3cd198d8c99a769cbe7b7483788d",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "title": "Introducing Muse Spark Open, The Most Capable US Open\"'Weight Model to Date [ ! ]",
+      "discovery_timestamp": "2026-10-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 172,
+      "feed_id": "82985d11aeb23bd00002bdac23a2ba19",
+      "url": "https://replit.com/blog/free-the-models",
+      "title": "Free the models: Harness design at the frontier [ ! ]",
+      "discovery_timestamp": "2026-10-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 173,
+      "feed_id": "3d5fba7bf78bf14c5d528f54290bd230",
+      "url": "https://pub.sakana.ai/agentic-scientist/",
+      "title": "The Agentic Scientist [ * ]",
+      "discovery_timestamp": "2026-10-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 174,
+      "feed_id": "0a2fb1c413c4567cbb28333f4adc4ed7",
+      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
+      "title": "Frontier Pre-training at Microsoft AI [ * ]",
+      "discovery_timestamp": "2026-10-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 175,
+      "feed_id": "9b3760ad2e180b7852bbf976568ba50c",
+      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/?ncid=so-twit-170075",
+      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning [ * ]",
+      "discovery_timestamp": "2026-10-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 176,
+      "feed_id": "939c5589789295bb28ba1370aac26acd",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
+      "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock [ ! ]",
+      "discovery_timestamp": "2026-10-16T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 177,
+      "feed_id": "a97044f56f1c128252669ace86dd2a0a",
+      "url": "https://x.ai/news/grok-voice-3",
+      "title": "Introducing Grok Voice 3.0 [ ~ ]",
+      "discovery_timestamp": "2026-10-15T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 178,
+      "feed_id": "90cebd993497a1463c71f0e17e675aea",
+      "url": "https://www.pi.website/blog/api-beta",
+      "title": "Frontier Models for Every Robot [ ~ ]",
+      "discovery_timestamp": "2026-10-15T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 179,
+      "feed_id": "61e482c8242394a07a019bbfb25a7b27",
+      "url": "https://www.paperinstruments.com/blog/ultramarine",
+      "title": "Ultramarine 1 Flash: Scaling Non-Verifiable RL [ ~ ]",
+      "discovery_timestamp": "2026-10-15T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 180,
+      "feed_id": "c5ad67fcb5810a440e60e45cabf76815",
+      "url": "https://www.nytimes.com/2026/10/14/technology/chinese-ai-agents-rogue.html?unlocked_article_code=1.IlE.erJu.faoEkTQvmp6t&smid=nytcore-ios-share",
+      "title": "Chinese A.I. Agents Joined the Rogue A.I. Agent Party. I Chatted With Them. [ * ]",
+      "discovery_timestamp": "2026-10-15T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 181,
+      "feed_id": "da869811400d9d3d3fae3055562c120d",
+      "url": "https://www.harvey.ai/blog/building-harveys-mcp-policy-engine",
+      "title": "Building Harvey's MCP Policy Engine [ * ]",
+      "discovery_timestamp": "2026-10-15T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 182,
+      "feed_id": "0cda6aedac631a745073904d2fc9a238",
+      "url": "https://www.a16z.news/p/winning-the-relay-race-long-running",
+      "title": "Winning the Relay Race: Long-Running Agents in High-Value Customer Journeys [ ~ ]",
+      "discovery_timestamp": "2026-10-15T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 183,
+      "feed_id": "c2dda8ff3dbe91ac40c8835d3811083d",
+      "url": "https://openai.com/index/asana-browser-agent/",
+      "title": "Asana cuts model costs 76x in browser tests with GPT\"'6.1 Sol [ * ]",
+      "discovery_timestamp": "2026-10-14T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 184,
+      "feed_id": "727c165ae4ef8676c01aa4100de52fed",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "title": "LFM2.5-24B-A2B: Built for Fast On-Device Agents [ * ]",
+      "discovery_timestamp": "2026-10-14T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 185,
+      "feed_id": "cc17c7ad278236e8ba0b5741a1bdce3f",
+      "url": "https://www.forbes.com/sites/johnsviokla/2026/10/09/can-cognitive-capital-close-private-equitys-growth-gap/",
+      "title": "Can Cognitive Capital Close Private Equity's Growth Gap? [ * ] (Estimated)",
+      "discovery_timestamp": "2026-10-14T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 186,
+      "feed_id": "6b75bfa6ccda55560f8b4a8992b1f2f6",
+      "url": "https://www.forbes.com/sites/johnsviokla/2026/10/09/can-cognitive-capital-close-private-equity's-growth-gap/",
+      "title": "Can Cognitive Capital Close Private Equitys Growth Gap? [ * ]",
+      "discovery_timestamp": "2026-10-14T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 187,
+      "feed_id": "31b50544984678316d2c31ff1d16169f",
+      "url": "https://blog.bytebytego.com/p/how-uber-built-a-genie-to-answer",
+      "title": "How Netflix Taught an LLM to Recommend Movies So That You Keep Watching [ ~ ]",
+      "discovery_timestamp": "2026-10-14T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 188,
+      "feed_id": "9d06c0dc8449627b344b5ad616661fed",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
+      "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore [ ~ ]",
+      "discovery_timestamp": "2026-10-14T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 189,
+      "feed_id": "360f090a18374aa7c7db02b9d1879c4b",
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "title": "AI models may be capable of self-replicating without access to a datacenter [ ! ]",
+      "discovery_timestamp": "2026-10-14T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 190,
+      "feed_id": "f968ef9251b2faa040a639e8c635ac82",
+      "url": "https://z.ai/blog/glm-legal",
+      "title": "GLM-Legal: Advancing Agentic Legal Intelligence [ * ]",
+      "discovery_timestamp": "2026-10-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 191,
+      "feed_id": "ff593092444330304a3b0dc3eb14d5e7",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "title": "Muse Wonder [ ! ]",
+      "discovery_timestamp": "2026-10-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 192,
+      "feed_id": "b97b477a32649b06e10a31465e161722",
+      "url": "https://hbr.org/2026/10/who-owns-the-customer-in-the-age-of-ai-agents?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_Active&deliveryName=NL_DailyAlert_CurrentTemplate_20261012&lctg=651d8ffd99c3f452fa0b0d1e",
+      "title": "Who Owns the Customer in the Age of AI Agents? [ ! ]",
+      "discovery_timestamp": "2026-10-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 193,
+      "feed_id": "d126e216bf7aa8937c48faedac892a49",
+      "url": "https://www.coinbase.com/en-in/blog/part-one-how-coinbase-built-evaluated-and-post-trained-a-fraud-agent",
+      "title": "How Coinbase Built, Evaluated, and Post-Trained a Fraud Agent [ * ]",
+      "discovery_timestamp": "2026-10-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 194,
+      "feed_id": "7f27472066203390dea321eb51de7b68",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+      "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock [ ~ ]",
+      "discovery_timestamp": "2026-10-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 195,
+      "feed_id": "8d0ef62326d8c3d3799b00bd3b050dcb",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions?utm_source=tldrai",
+      "title": "Investigating unintended model actions in our evaluations and internal use [ * ]",
+      "discovery_timestamp": "2026-10-13T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 196,
+      "feed_id": "af9933da2eb0ff43e65332b8ff3e2c29",
+      "url": "https://x.com/satyanadella/status/2108931348857827686",
+      "title": "Models as Insider Risks in the Super Intelligence Era [ ! ]",
+      "discovery_timestamp": "2026-10-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 197,
+      "feed_id": "8bf09f456e3eee614ec77bccf1ae63ab",
+      "url": "https://www.stateof.ai/?utm_source=substack&utm_medium=email",
+      "title": "STATE OF AI REPORT 2026 [ ! ]",
+      "discovery_timestamp": "2026-10-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 198,
+      "feed_id": "07fe6c1ef35818000ffc35c8408620b9",
+      "url": "https://hbr.org/2026/10/what-top-performers-do-differently-with-ai-and-why-they-see-the-biggest-benefits?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_Active&deliveryName=NL_DailyAlert_NewTemplate_20261009&lctg=651d8ffd99c3f452fa0b0d1e",
+      "title": "What Top Performers Do Differently with AI\"\"and Why They See the Biggest Benefits [ ! ]",
+      "discovery_timestamp": "2026-10-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 199,
+      "feed_id": "999df1de30ee5329ef8aa639bbe378c4",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "title": "Introducing Microsoft-Decision-1, our model for fast decision-making [ * ]",
+      "discovery_timestamp": "2026-10-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 200,
+      "feed_id": "012c8c4a7a0e02c524d0f232f9632f94",
+      "url": "https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests",
+      "title": "How Block orchestrates Claude Fable across thousands of pull requests [ * ]",
+      "discovery_timestamp": "2026-10-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 201,
+      "feed_id": "c3f7c85137c2251cb30d5a5740edef19",
+      "url": "https://claude.com/resources/articles/dashboards-and-motion",
+      "title": "Build live dashboards and animate explainers with Claude [ * ]",
+      "discovery_timestamp": "2026-10-12T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 202,
+      "feed_id": "3fca02e5fec6cc8fbd266821a186b054",
+      "url": "https://x.com/satyanadella/status/2108213283144810958",
+      "title": "The Infinite SaaS Factory [ ! ]",
+      "discovery_timestamp": "2026-10-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 203,
+      "feed_id": "ad938af9659ab22ca4dd264b3f711704",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "title": "GPT'6 and Intelligent UI for everyone [ ! ]",
+      "discovery_timestamp": "2026-10-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 204,
+      "feed_id": "0f219b6b728ea295e13dd273fbb8bb3f",
+      "url": "https://drive.google.com/file/d/1z9VdvbG0FzbhS3tmlIluXChFaawnpMZq/view",
+      "title": "Coatue Public Market Update [ * ]",
+      "discovery_timestamp": "2026-10-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 205,
+      "feed_id": "868043ef18fe072fbbf4c850110d1e71",
+      "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/",
+      "title": "Bringing local models and sandboxed tools to Windows and GitHub Copilot [ ! ]",
+      "discovery_timestamp": "2026-10-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 206,
+      "feed_id": "9d6ae8df3626c65610cb80985e7ca180",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "title": "Welcome to Gemini at Work 2026: Introducing the Gemini agent [ ! ]",
+      "discovery_timestamp": "2026-10-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 207,
+      "feed_id": "d692160ab6b21ed0154848d9be0cdaa1",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "title": "Claude Haiku 5.5 [ * ]",
+      "discovery_timestamp": "2026-10-09T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 208,
+      "feed_id": "d6f57d48d2d60bad015c24d20e8ffb83",
+      "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+      "title": "Introducing Personal Agent Protocol [ ~ ]",
+      "discovery_timestamp": "2026-10-08T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 209,
+      "feed_id": "0ec28112c8fe33c4721b3943731b2008",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "title": "Sharing AI progress in mathematics [ * ]",
+      "discovery_timestamp": "2026-10-08T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 210,
+      "feed_id": "d8e586d9fe45118fcef4e7743e579b4f",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "title": "Introducing Mistral Large 4 [ * ]",
+      "discovery_timestamp": "2026-10-08T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 211,
+      "feed_id": "eeb6923c76f190a4e7e6ec7f1a6f31dc",
+      "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/ai-is-changing-work-now-it-has-to-change-the-organization",
+      "title": "AI is changing work. Now it has to change the organization [ * ]",
+      "discovery_timestamp": "2026-10-08T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 212,
+      "feed_id": "a034db4c7288e0d59ba0b0d3217ab01e",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "title": "The Cyber Risk Discourse is Broken [ * ]",
+      "discovery_timestamp": "2026-10-08T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 213,
+      "feed_id": "a57a64e08c06c03fca923f4bcb78f6d6",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+      "title": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock [ ! ]",
+      "discovery_timestamp": "2026-10-08T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 214,
+      "feed_id": "107fb5790181f1c4a5ae6ef5e90b84ae",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "title": "Introducing Beam: Reflection's 501B open-weight model [ * ]",
+      "discovery_timestamp": "2026-10-07T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 215,
+      "feed_id": "712ebe9038096adff2749c730ce69b30",
+      "url": "https://www.nytimes.com/2026/10/05/opinion/ada-lovelace-ai.html?unlocked_article_code=1.GVE.QZ6I.i_3bN9fRaJ2V&smid=nytcore-ios-share",
+      "title": "Ada Lovelace Already Answered the Big Questions About A.I. [ ~ ]",
+      "discovery_timestamp": "2026-10-07T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 216,
+      "feed_id": "97b4563c15e6dd801be9270d374dedd0",
+      "url": "https://hbr.org/2026/10/theres-no-such-thing-as-an-ai-ready-culture",
+      "title": "There's No Such Thing as an AI-Ready Culture [ ~ ]",
+      "discovery_timestamp": "2026-10-07T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 217,
+      "feed_id": "f8b850a468f47c57bafa3fd44fbbe422",
+      "url": "https://cohere.com/blog/introducing-north-2",
+      "title": "North 2: Enterprise AI without compromises [ ~ ]",
+      "discovery_timestamp": "2026-10-07T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 218,
+      "feed_id": "72a8029683410465babf270419bb7db8",
+      "url": "https://claude.com/resources/articles/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+      "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK [ * ]",
+      "discovery_timestamp": "2026-10-07T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 219,
+      "feed_id": "f9767cf3fab3bfea3bebc531facd29a2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-conde-nast-built-multimodal-video-discovery-with-amazon-bedrock/",
+      "title": "How Condé Nast built multimodal video discovery with Amazon Bedrock [ * ]",
+      "discovery_timestamp": "2026-10-07T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 220,
+      "feed_id": "1b53265bcc13661526adeb216fc827ba",
+      "url": "https://runway.com/research/introducing-praxis-1",
+      "title": "Introducing Praxis-1 [ ~ ]",
+      "discovery_timestamp": "2026-10-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 221,
+      "feed_id": "df469374561fd9d5dbffb83ef58ad7a8",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/",
+      "title": "Helping small businesses put AI to work [ ~ ]",
+      "discovery_timestamp": "2026-10-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 222,
+      "feed_id": "2d9ac929983efa0ade6a2a6c02cd6f48",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html?smid=nytcore-ios-share",
+      "title": "Religious Scholars Met With Anthropic. What They Heard Stunned Them. [ ~ ]",
+      "discovery_timestamp": "2026-10-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 223,
+      "feed_id": "9955265dfbb86e192e4c3993a07875c5",
+      "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
+      "title": "Our first streaming transcription model debuts at no. 1 on Artificial Analysis [ ~ ]",
+      "discovery_timestamp": "2026-10-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 224,
+      "feed_id": "6640332e952005f06614170b21e0266f",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence [ * ]",
+      "discovery_timestamp": "2026-10-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 225,
+      "feed_id": "46632fe53c70d772b1048d79ef1ce38a",
+      "url": "https://aleph-alpha.com/downloads/tech-report.pdf",
+      "title": "Kolibri: A Sovereign European Model on the Pareto Frontier [ ~ ]",
+      "discovery_timestamp": "2026-10-06T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 226,
+      "feed_id": "f5bb377cb7fd39d1ea3c8964ca2e0c3c",
+      "url": "https://openclaw.ai/blog/openclaw-enterprise",
+      "title": "OpenClaw Enterprise - The Open Agent Platform [ ! ]",
+      "discovery_timestamp": "2026-10-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 227,
+      "feed_id": "3fd9c0197d24287f2a54da4768b1c033",
+      "url": "https://openai.com/index/devday-2026-recap/",
+      "title": "DevDay 2026 Recap [ ! ]",
+      "discovery_timestamp": "2026-10-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 228,
+      "feed_id": "2a36478bac63b4b5e3fe481a27cdd337",
+      "url": "https://www.mercor.com/blog/human-baselines-for-benchmarks-ai-now-outperforms-junior-accountants/",
+      "title": "Human Baselines for Benchmarks: AI Now Outperforms Junior Accountants [ ! ]",
+      "discovery_timestamp": "2026-10-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 229,
+      "feed_id": "ede74a8dfbbf0f3819ccc0bee9baa649",
+      "url": "https://hbr.org/2026/10/the-mindsets-leaders-need-as-ai-accelerates-the-pace-of-business?ab=HP-hero-featured-1",
+      "title": "The Mindsets Leaders Need as AI Accelerates the Pace of Business [ ~ ]",
+      "discovery_timestamp": "2026-10-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 230,
+      "feed_id": "d6cfae9a9e1606d6454c3814e12a3abb",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment/",
+      "title": "How uniopen customized Amazon Nova to their retail moderation policies for production deployment [ ~ ]",
+      "discovery_timestamp": "2026-10-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 231,
+      "feed_id": "fed6d15e3bdff74256e725e985a3fbfa",
+      "url": "https://www.a16z.news/p/state-of-markets-ii",
+      "title": "State of Markets II [ * ]",
+      "discovery_timestamp": "2026-10-05T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 232,
+      "feed_id": "79310c61bc754ca4200538f5080cfc5f",
+      "url": "https://www.wsj.com/tech/ai/openai-chatgpt-model-release-cancel-safety-5a2f9f42?mod=djemalertNEWS",
+      "title": "OpenAI Scraps Release of New AI Model Over Safety Concerns [ ! ] (Estimated)",
+      "discovery_timestamp": "2026-09-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 233,
+      "feed_id": "c7d1b13ec178c95b1d4f5b46ca104056",
+      "url": "https://manus.im/blog/introducing-manus-2-0",
+      "title": "Introducing Manus 2.0 [ * ] (Estimated)",
+      "discovery_timestamp": "2026-09-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 234,
+      "feed_id": "e5f533a8e37e3850cfcb4b043f32badf",
+      "url": "https://hbr.org/2026/11/why-even-your-best-employees-override-ai-systems-that-work?ab=HP-hero-featured-1",
+      "title": "Why Even Your Best Employees Override AI Systems That Work [ ! ] (Estimated)",
+      "discovery_timestamp": "2026-09-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 235,
+      "feed_id": "1fe84904a960681b43d17242d751a7ed",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
+      "title": "From portal-hopping to instant answers: HEMA's journey with MCP and Amazon Bedrock [ ! ] (Estimated)",
+      "discovery_timestamp": "2026-09-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 236,
+      "feed_id": "c4d2b678a89539a4bc419badc7e83377",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "title": "Claude Sonnet 5.5 [ ! ] (Estimated)",
+      "discovery_timestamp": "2026-09-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "curated",
+      "position": 237,
+      "feed_id": "154393ace79951e300dc1d05e4679793",
+      "url": "https://www.a16z.news/p/openai-understands-something-important",
+      "title": "OpenAI Understands Something Important and Rare [ ~ ] (Estimated)",
+      "discovery_timestamp": "2026-09-29T00:00:00+00:00",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 0,
+      "feed_id": "sty_f7635bc516c1e761",
+      "url": "https://github.com/lsernau/grh-lean",
+      "title": "Anthropic releases a shorter Lean 4 formal verification of the Generalized Riemann Hypothesis for Dirichlet L-functions based on Claude's proof",
+      "discovery_timestamp": "2026-11-25T21:48:10Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 1,
+      "feed_id": "sty_65694e6e0a70cf06",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "title": "OpenAI corrects GPT-6.2 billing error, increasing Astra usage limits by 40% and Sol by 25%, adds banked reset for affected users [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T03:36:58Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 2,
+      "feed_id": "sty_c892400c7fdc41ed",
+      "url": "https://arxiv.org/abs/2611.32316",
+      "title": "Researchers build ASTERISM, a large multi-image benchmark revealing multimodal LLMs often rely on single-image shortcuts, and propose cross-image credit assignment to improve training [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 3,
+      "feed_id": "sty_c0c2580b4e0ae6c2",
+      "url": "https://arxiv.org/abs/2611.31249",
+      "title": "Researchers introduce Actionwave, a benchmark for waveform-centric clinical prediction across ICU, operating room, and emergency settings, comparing models on 20 tasks with 1.4 million labeled windows [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 4,
+      "feed_id": "sty_7b90e058c4b1ed90",
+      "url": "https://arxiv.org/abs/2611.33004",
+      "title": "LEGOSpec framework decomposes and optimizes speculative draft models for large language model acceleration, improving acceptance length by up to 34.7% on long-context workloads [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 5,
+      "feed_id": "sty_ec36cfa79ad6c2cd",
+      "url": "https://arxiv.org/abs/2611.33158",
+      "title": "Researchers introduce OmniAct, a cross-embodiment manipulation policy trained on one million robot designs to adapt behavior to diverse robot kinematics and achieve high task success [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 6,
+      "feed_id": "sty_91ccd9d4f90048e0",
+      "url": "https://arxiv.org/abs/2611.33197",
+      "title": "Researchers introduce CogLoadBench to measure extraneous cognitive load effects on large language models across reasoning tasks and propose Extraneous Load Score to estimate and mitigate load impact [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 7,
+      "feed_id": "sty_59d985806d624782",
+      "url": "https://arxiv.org/abs/2611.33823",
+      "title": "Researchers analyze dependency-ready decoding in masked diffusion language models, finding limited benefits beyond left-to-right decoding and questioning reliance on attention mechanisms [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 8,
+      "feed_id": "sty_3a9f43b1f4a9a9c3",
+      "url": "https://arxiv.org/abs/2611.33972",
+      "title": "Researchers present closed-form weight-space programming using LLM-written classifiers on a frozen RoBERTa-large encoder, matching or exceeding gradient fine-tuning on multiple datasets without updating encoder weights [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 9,
+      "feed_id": "sty_be5dc7c0db6f7965",
+      "url": "https://arxiv.org/abs/2611.34331",
+      "title": "Researchers introduce Puzzling-Bench, a benchmark of 23,777 human-written puzzles with community-verified answers from Puzzling Stack Exchange, to evaluate nine language models including GPT-6.1 [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 10,
+      "feed_id": "sty_e377d74f42678d5d",
+      "url": "https://arxiv.org/abs/2611.34756",
+      "title": "Researchers introduce CARE-OPD to improve on-policy distillation efficiency for long-horizon agents, boosting task success by 59.5% and cutting training time by 45% [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 11,
+      "feed_id": "sty_3023043363900d41",
+      "url": "https://arxiv.org/abs/2611.34785",
+      "title": "PersonaFactory generates over 740,000 synthetic user personas and 1.24 million persona-styled conversations in 85 languages to augment AI training prompts with stylistic diversity [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 12,
+      "feed_id": "sty_337d42c8764bd487",
+      "url": "https://arxiv.org/abs/2611.34928",
+      "title": "Researchers propose DART method to generate diverse alternative reasoning traces for hard math problems, improving problem recovery by 37% over Monte Carlo sampling [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 13,
+      "feed_id": "sty_99dabf33c6021d26",
+      "url": "https://arxiv.org/abs/2611.33184",
+      "title": "Researchers find semantic density metrics do not predict memory collapse in LLM agents across multiple task environments",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 14,
+      "feed_id": "sty_494649a5bf09375d",
+      "url": "https://arxiv.org/abs/2611.33394",
+      "title": "Researchers develop supervised learning confidence scores to improve gating of large language model automation, outperforming baselines on a 2B-parameter model [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 15,
+      "feed_id": "sty_d95b5733e05fa53e",
+      "url": "https://arxiv.org/abs/2611.33452",
+      "title": "Researchers introduce HumblePRM to improve Vision Language Models' abstention in ambiguous cases by independently scoring perception and calibration stages [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 16,
+      "feed_id": "sty_d6836134ef459a29",
+      "url": "https://arxiv.org/abs/2611.34440",
+      "title": "Researchers present vSFT framework to verbally fine-tune language model agents at test time, improving success rates on ALFWorld and WebShop tasks [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 17,
+      "feed_id": "sty_e7eb7f3e6c5a4a5e",
+      "url": "https://arxiv.org/abs/2611.34707",
+      "title": "Researchers propose mismatch-corrected bandits to improve adaptive data sampling by modeling proxy-target model discrepancies, reducing training regret and enhancing worst-group accuracy [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 18,
+      "feed_id": "sty_9f882798c69f9662",
+      "url": "https://arxiv.org/abs/2611.34708",
+      "title": "Researchers propose INSPIRE, a two-stage reasoning framework for forecasting emerging entities in temporal knowledge graphs, improving prediction accuracy across ICEWS and GDELT benchmarks [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 19,
+      "feed_id": "sty_e9c181a08e275fd6",
+      "url": "https://arxiv.org/abs/2611.34758",
+      "title": "Researchers introduce token readout-based scoring system and J-lens methods to improve model diffing for backdoor detection in fine-tuned models [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 20,
+      "feed_id": "sty_daceb0ece399a299",
+      "url": "https://arxiv.org/abs/2611.34760",
+      "title": "One Model, Many Modes: Evolving System Prompt Ensembles for Creative Generation [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 21,
+      "feed_id": "sty_ca969c4316c48544",
+      "url": "https://arxiv.org/abs/2611.34777",
+      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 22,
+      "feed_id": "sty_8f91e680ddae8a21",
+      "url": "https://arxiv.org/abs/2610.23166",
+      "title": "Explaining Chess and Go with Discovered Motifs [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 23,
+      "feed_id": "sty_53c980756fa54529",
+      "url": "https://arxiv.org/abs/2611.15735",
+      "title": "Where Is Uncertainty Observed? A Mechanistic Understanding of Uncertainty Quantification in LLMs [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 24,
+      "feed_id": "sty_50db2d61f4fd3e51",
+      "url": "https://arxiv.org/abs/2611.26809",
+      "title": "Search From the Start: Search-Native Pretraining for Language Models [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 25,
+      "feed_id": "sty_efda182701f10121",
+      "url": "https://arxiv.org/abs/2508.20637",
+      "title": "GDS Agent for Graph Algorithmic Reasoning [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 26,
+      "feed_id": "sty_d1c7f706d023e175",
+      "url": "https://arxiv.org/abs/2512.04198",
+      "title": "Network of Theseus (like the ship) [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 27,
+      "feed_id": "sty_48e936ddfe8690a8",
+      "url": "https://arxiv.org/abs/2601.12095",
+      "title": "Neural Isomorphic Fields: A Transformer-based Algebraic Numerical Embedding [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 28,
+      "feed_id": "sty_69fa7e3f93f599c0",
+      "url": "https://arxiv.org/abs/2603.21676",
+      "title": "Thinking Deeper, Not Longer: Memory-Efficient Latent Chain-of-Thought with Depth-Recurrent Transformers for Compositional Generalization [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 29,
+      "feed_id": "sty_d2944cdf919aa75f",
+      "url": "https://arxiv.org/abs/2604.10604",
+      "title": "NSFL: A Post-Training Neuro-Symbolic Fuzzy Logic Framework for Boolean Operators in Neural Embeddings [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 30,
+      "feed_id": "sty_9a2eb27b665ee413",
+      "url": "https://arxiv.org/abs/2607.02781",
+      "title": "Safe Inference-Time Alignment via Lagrangian Reward Augmentation [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 31,
+      "feed_id": "sty_d8edb5f9975b9ae3",
+      "url": "https://arxiv.org/abs/2610.06621",
+      "title": "Frozen Factor or Spectral Band? In LoRA, the Factor Matters More at Low Rank [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 32,
+      "feed_id": "sty_f11284fcf314ea72",
+      "url": "https://arxiv.org/abs/2610.21240",
+      "title": "Representation Redistribution in Sparse Autoencoders [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 33,
+      "feed_id": "sty_fff9f8f63a6a5023",
+      "url": "https://arxiv.org/abs/2610.21261",
+      "title": "Behavioral Compositionality of Sparse Autoencoder Representations [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 34,
+      "feed_id": "sty_325a3cdcac16da2f",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-24T16:09:23Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 35,
+      "feed_id": "sty_619c27bf0574410f",
+      "url": "https://arxiv.org/abs/2611.31301",
+      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 36,
+      "feed_id": "sty_0887c77853c403cd",
+      "url": "https://arxiv.org/abs/2611.31823",
+      "title": "GaokaoMathGen: Chinese Gaokao Mathematics Finale Problem Generation Controlled by Latent Reasoning Structures [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 37,
+      "feed_id": "sty_92c94d4c1c063fe0",
+      "url": "https://arxiv.org/abs/2611.31990",
+      "title": "How Much Dependency Can a Marginal Rule See? Total Correlation in Diffusion LM Parallel Decoding [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 38,
+      "feed_id": "sty_ac1bb47424a14442",
+      "url": "https://arxiv.org/abs/2611.32053",
+      "title": "EffectWAM: Learning Action-Grounded Effects for Robot Manipulation [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 39,
+      "feed_id": "sty_dd122ac974320234",
+      "url": "https://arxiv.org/abs/2611.32776",
+      "title": "Learning World Models through Contrastive Identification of Actions [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 40,
+      "feed_id": "sty_12cfb7f85d8ada63",
+      "url": "https://arxiv.org/abs/2611.32931",
+      "title": "Reading Decisions Before Spans: Efficient Generative Verification [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 41,
+      "feed_id": "sty_8e2770a3da457f04",
+      "url": "https://arxiv.org/abs/2611.32084",
+      "title": "The algorithmic behavioral sink: Modeling the transition to irreversible demographic collapse [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 42,
+      "feed_id": "sty_a4d0463136adbd8c",
+      "url": "https://arxiv.org/abs/2611.32780",
+      "title": "C3H: Compression-to-Consensus Criteria Hijacking in Multimodal LLM Recommender Systems [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 43,
+      "feed_id": "sty_a5c863b43f8f78b3",
+      "url": "https://arxiv.org/abs/2611.33175",
+      "title": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 44,
+      "feed_id": "sty_61548d298c60766c",
+      "url": "https://arxiv.org/abs/2611.33176",
+      "title": "Psychophysics of Duration Perception in Multimodal Large Language Models [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 45,
+      "feed_id": "sty_c0238c4f821b2dfb",
+      "url": "https://arxiv.org/abs/2611.33195",
+      "title": "Verified experience improves materials prediction with large language models [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 46,
+      "feed_id": "sty_bf13bffb771ecdc7",
+      "url": "https://arxiv.org/abs/2611.33428",
+      "title": "When the Knowledge Runs Out: A Part-Level Pilot Evaluation of How Language Models Handle Partially Covered Questions [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 47,
+      "feed_id": "sty_dc9b392e7bb09eb0",
+      "url": "https://arxiv.org/abs/2611.33468",
+      "title": "Learning from Recurrence: Internalizing Depth-Induced Preferences in Looped Language Models [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 48,
+      "feed_id": "sty_295b1c8cd0bc8563",
+      "url": "https://arxiv.org/abs/2611.33668",
+      "title": "Verifiable but Not Predictable: What Sentence Embeddings Know About Propositional Decomposition [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 49,
+      "feed_id": "sty_fe0f1324d112a0be",
+      "url": "https://arxiv.org/abs/2611.33692",
+      "title": "Rethinking Sequential Locate-Then-Edit: Optimality and Stability [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 50,
+      "feed_id": "sty_813dae6efe48ac69",
+      "url": "https://arxiv.org/abs/2611.33700",
+      "title": "Sports Agent: A Self-Evolving System for Conversational Data Analytics [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 51,
+      "feed_id": "sty_431ec28ca3675448",
+      "url": "https://arxiv.org/abs/2611.33844",
+      "title": "When Rerankers Work Together: Better and Faster Reranking without Joint Training [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 52,
+      "feed_id": "sty_589662e3594f57f8",
+      "url": "https://arxiv.org/abs/2611.33848",
+      "title": "ChemDeduce: Benchmarking LLMs for Unknown Chemical Identification through Interactive Simulated Experiments [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 53,
+      "feed_id": "sty_2a0de3559d1e2819",
+      "url": "https://arxiv.org/abs/2611.33919",
+      "title": "DiCALM: Converting Autoregressive Convolution-Attention Language Models into Discrete Diffusion Language Models [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 54,
+      "feed_id": "sty_aad0c85ac02644e6",
+      "url": "https://arxiv.org/abs/2611.34015",
+      "title": "Residual Cross-Model Narrative Convergence under Shared Prompts: Auditing Prompt Controls and Narrative Measurement [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 55,
+      "feed_id": "sty_763d316911a6c610",
+      "url": "https://arxiv.org/abs/2611.34016",
+      "title": "Evaluating Ukrainian Grammatical Competence in Language Models: Probability Versus Prompting [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 56,
+      "feed_id": "sty_966ebc6bbad5b124",
+      "url": "https://arxiv.org/abs/2611.34051",
+      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 57,
+      "feed_id": "sty_d9f7b742dc0a66ff",
+      "url": "https://arxiv.org/abs/2611.34188",
+      "title": "MINE: A Training-Free Defense against Indirect Prompt Injection via Mutual Information and Embedding Variance [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 58,
+      "feed_id": "sty_abc700e4960f00b1",
+      "url": "https://arxiv.org/abs/2611.34373",
+      "title": "Under the Influence -- of What? A Controlled Evaluation of Influence Functions [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 59,
+      "feed_id": "sty_14432613eeac3f57",
+      "url": "https://arxiv.org/abs/2611.34398",
+      "title": "When Skills Fail to Compose: Compatibility and Retention in Language Models [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 60,
+      "feed_id": "sty_89aef94a2fbd3cab",
+      "url": "https://arxiv.org/abs/2611.34492",
+      "title": "FlyingStart: Learned Cross-Token Warm Starts for Fixed-Point Decoding in Recurrent-Depth Language Models [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 61,
+      "feed_id": "sty_a1031cb3a896fee6",
+      "url": "https://arxiv.org/abs/2611.34529",
+      "title": "AliceAI-Foundation-80B-A3B-Base [ * ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 62,
+      "feed_id": "sty_8a7de620a3bd98dd",
+      "url": "https://arxiv.org/abs/2611.34539",
+      "title": "EPPC-CARE: Staged Hierarchical Annotation of Communication Behaviors in Secure Patient-Provider Messages [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 63,
+      "feed_id": "sty_7768340cf24204fb",
+      "url": "https://arxiv.org/abs/2611.34725",
+      "title": "Bigger Model or Bigger Table? How Much Backbone a Chorus N-gram Module Replaces [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 64,
+      "feed_id": "sty_bb40f08f46e64d07",
+      "url": "https://arxiv.org/abs/2611.34831",
+      "title": "Repairing the Trustworthiness of Distilled Language Models [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 65,
+      "feed_id": "sty_c202e23eeec8f484",
+      "url": "https://arxiv.org/abs/2611.34852",
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 66,
+      "feed_id": "sty_796f93f390465e0a",
+      "url": "https://arxiv.org/abs/2611.34920",
+      "title": "$\\mu$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 67,
+      "feed_id": "sty_98f0638bdfe090fd",
+      "url": "https://arxiv.org/abs/2611.34938",
+      "title": "Tokenisation is not in APX",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 68,
+      "feed_id": "sty_5420b66a586cf86c",
+      "url": "https://arxiv.org/abs/2611.33242",
+      "title": "CypherMAS: Benchmarking Routing Reliability in LLM-Based Multi-Agent Systems [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 69,
+      "feed_id": "sty_04893d5803a0ce0b",
+      "url": "https://arxiv.org/abs/2611.33259",
+      "title": "Fast and Scalable Abstract Interpretation for Deep Neural Networks [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 70,
+      "feed_id": "sty_77b2ce9c0133ea33",
+      "url": "https://arxiv.org/abs/2611.33302",
+      "title": "Two Timescales of Forgetting in Fine-tuning of Language Models: Fast Behavioral Suppression and Slow Representational Drift [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 71,
+      "feed_id": "sty_680a3d3b32658a8d",
+      "url": "https://arxiv.org/abs/2611.33303",
+      "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 72,
+      "feed_id": "sty_743c9a9165fd27f8",
+      "url": "https://arxiv.org/abs/2611.33304",
+      "title": "The Platonic Representation Hypothesis in Jacobian-Space: Language and Vision Models Agree Approximately Up to a Rotation [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 73,
+      "feed_id": "sty_461dc5c55c824bf0",
+      "url": "https://arxiv.org/abs/2611.33314",
+      "title": "Building a Unified Inline Code Editing Model for GitHub Copilot [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 74,
+      "feed_id": "sty_55899a5229224c84",
+      "url": "https://arxiv.org/abs/2611.33402",
+      "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows [ ~ ] [ ◼ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 75,
+      "feed_id": "sty_8257721546d77ce5",
+      "url": "https://arxiv.org/abs/2611.33409",
+      "title": "A Semantics-First Approach to Multimodal Video Captioning with Frozen Encoders and Stabilized Reinforcement Learning [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 76,
+      "feed_id": "sty_2491def46649b078",
+      "url": "https://arxiv.org/abs/2611.33464",
+      "title": "PAC Learning to Sample: On Computational Aspects of Language Generation [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 77,
+      "feed_id": "sty_395809d41dff0620",
+      "url": "https://arxiv.org/abs/2611.33497",
+      "title": "CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    },
+    {
+      "feed": "top",
+      "position": 78,
+      "feed_id": "sty_e48281d61d65c763",
+      "url": "https://arxiv.org/abs/2611.33555",
+      "title": "PeerReveal: Learning to Generalize in AI Peer Review Detection [ ~ ] [ ◻ ]",
+      "discovery_timestamp": "2026-11-26T05:00:00Z",
+      "status": "snapshot inventory; detailed development decision only where listed in decisions"
+    }
+  ],
+  "decisions": [
+    {
+      "key": "uber-skills",
+      "decision": "outside_window",
+      "reason": "Primary article:published_time is 2026-11-23T23:29:14Z; the November 25 curated placeholder is not the original date.",
+      "url": "https://x.com/UberEng/status/2125008806249930999?s=19"
+    },
+    {
+      "key": "claude-ship",
+      "decision": "outside_window",
+      "reason": "Original visible date and article:published_time both say November 23. No later substantive update established.",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship"
+    },
+    {
+      "key": "working-with-ai",
+      "decision": "outside_window",
+      "reason": "Original article:published_time is 2026-11-23T00:00:00Z and modified time is November 23 22:13:27.525Z.",
+      "url": "https://www.anthropic.com/research/working-with-ai"
+    },
+    {
+      "key": "rocket",
+      "decision": "outside_window",
+      "reason": "Original WebPage JSON-LD datePublished is 2026-11-23T17:24:32Z; dateModified is 2026-11-24T14:25:56Z. Both precede this reporting window.",
+      "url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/"
+    },
+    {
+      "key": "harvey-tenet",
+      "decision": "outside_window",
+      "reason": "BlogPosting JSON-LD datePublished and dateModified are 2026-11-24T15:58:00Z. The feed date is later.",
+      "url": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models"
+    },
+    {
+      "key": "cisco-openai",
+      "decision": "source_unavailable",
+      "reason": "Both attempts to read the original WSJ report returned HTTP 401/Forbidden. Duplicate curated records are one development. Feed summaries cannot substitute for original evidence.",
+      "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420"
+    },
+    {
+      "key": "memory-density",
+      "decision": "reserve",
+      "reason": "Read abstract and preliminary methods. Old October 28 deposit and November 26 primary listing are distinct; delayed public announcement is possible. Not excluded as old merely from deposit time, and not selected after three other stories were supported.",
+      "url": "https://arxiv.org/abs/2611.33184"
+    },
+    {
+      "key": "2611.32316",
+      "decision": "selected",
+      "reason": "Distinct focused finding, eligible original announcement and linked methods/results/limitations verified.",
+      "article_id": "art_07faf2fc1a583cf3",
+      "url": "https://arxiv.org/abs/2611.32316",
+      "original_announcement": "2026-11-25T01:00:00Z",
+      "submitted_at": "2026-11-24T10:12:44Z",
+      "version_used": 2,
+      "listing": {
+        "url": "https://arxiv.org/list/cs.CV/pastweek?show=2000",
+        "group": "Wed, 25 Nov 2026 (showing 302 of 302 entries )",
+        "entry": "[420] arXiv:2611.32316 [ pdf , html , other ]",
+        "record": "Title: ASTERISM: Do Multimodal LLMs Actually Look at All the Images? Chanseul Cho , Dongwoo Kim , Noori Bae , Seungjae Moon , Seongsu Lee , Youngmin Ro Comments: Code and datasets: this https URL Subjects: Computer Vision and Pattern Recognition (cs.CV) ; Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Machine Learning (cs.LG)"
+      },
+      "format": "brief",
+      "words": 299,
+      "hero": "omitted for new brief"
+    },
+    {
+      "key": "2611.33394",
+      "decision": "selected",
+      "reason": "Distinct focused finding, eligible original announcement and linked methods/results/limitations verified.",
+      "article_id": "art_77b97ec96375532d",
+      "url": "https://arxiv.org/abs/2611.33394",
+      "original_announcement": "2026-11-26T01:00:00Z",
+      "submitted_at": "2026-11-24T20:17:43Z",
+      "version_used": 1,
+      "listing": {
+        "url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+        "group": "Thu, 26 Nov 2026 (showing 248 of 248 entries )",
+        "entry": "[69] arXiv:2611.33394 [ pdf , html , other ]",
+        "record": "Title: Confidence scores for gated automation of large language models Luiz G. A. Alves , Aaron Vermeersch Subjects: Artificial Intelligence (cs.AI) ; Computation and Language (cs.CL); Machine Learning (cs.LG)"
+      },
+      "format": "brief",
+      "words": 290,
+      "hero": "omitted for new brief"
+    },
+    {
+      "key": "2611.33004",
+      "decision": "selected",
+      "reason": "Distinct focused finding, eligible original announcement and linked methods/results/limitations verified.",
+      "article_id": "art_26ec0c2b091305ef",
+      "url": "https://arxiv.org/abs/2611.33004",
+      "original_announcement": "2026-11-25T01:00:00Z",
+      "submitted_at": "2026-11-24T17:29:40Z",
+      "version_used": 2,
+      "listing": {
+        "url": "https://arxiv.org/list/cs.LG/pastweek?show=2000",
+        "group": "Wed, 25 Nov 2026 (showing 233 of 233 entries )",
+        "entry": "[286] arXiv:2611.33004 [ pdf , html , other ]",
+        "record": "Title: LEGOSpec: A Composable and Efficient Framework for Speculative Draft Design and Training Hanzhen Wang , Jiaming Xu , Guohao Dai Comments: 11 pages. Code and weights are available at the URL in the paper Subjects: Machine Learning (cs.LG) ; Artificial Intelligence (cs.AI)"
+      },
+      "format": "brief",
+      "words": 306,
+      "hero": "omitted for new brief"
+    }
+  ],
+  "prior_seven_editions": [
+    {
+      "edition_date": "2026-11-19",
+      "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261119/_editions/2026-11-19.md",
+      "sha256": "8aa04b8e36a7c28fcd0c2e1d0b8d21f59030713a8559bcfb56417147cf932d56",
+      "articles": [
+        {
+          "article_id": "art_2ed14be0407b03d6",
+          "title": "Anthropic prices its IPO at $83 a share",
+          "story_key": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074937/anthropicpbc-fwppricing.htm",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261119/_articles/anthropic-ipo-pricing-primary-proceeds.md",
+          "sha256": "4b8a4a2905c8751f1344f2a995bdfe3b6a188d38a0d86f728ceaa36b1e4196cb",
+          "words": 260
+        },
+        {
+          "article_id": "art_017489cfad28fbfe",
+          "title": "AnyS1 moves routine agent choices to a smaller model",
+          "story_key": "https://arxiv.org/abs/2611.23751",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261119/_articles/anys1-routine-agent-decisions-small-model.md",
+          "sha256": "5c8705c3e083602818853f4e0723205c625c35e6bd7970480c53422b684806aa",
+          "words": 255
+        },
+        {
+          "article_id": "art_0307cdf8282ed5e5",
+          "title": "A CV sorter’s audit exposes misleading scores and extra work",
+          "story_key": "https://arxiv.org/abs/2611.23359",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261119/_articles/cv-sorter-audit-synthetic-shortcuts-reviewer-work.md",
+          "sha256": "72782129afbd8343cc36f18cc25d3b76e64b70729be16efb2190c6d5d5158249",
+          "words": 258
+        },
+        {
+          "article_id": "art_bbb6b57abc690f4d",
+          "title": "NGINX fixes HTTP/2 flaws found with help from AI",
+          "story_key": "https://github.com/nginx/nginx/releases/tag/release-1.31.9",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261119/_articles/nginx-http-two-security-fixes.md",
+          "sha256": "42c0f051ca5c15214e9168c008b9e0fba37326c5aa1ef767c7cdd6ab33ba76c6",
+          "words": 252
+        },
+        {
+          "article_id": "art_963e8469574d2b6b",
+          "title": "Polite user feedback can teach an agent to repeat failure",
+          "story_key": "https://arxiv.org/abs/2611.23716",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261119/_articles/user-feedback-agent-learning-thanked-failures.md",
+          "sha256": "4296681fc5fc50672ba36aa8d1fe72c6f28d20167bb4a63128046207177ff15e",
+          "words": 269
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-11-20",
+      "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_editions/2026-11-20.md",
+      "sha256": "f649b3bf6f92aa7d8d2477923c04a3c4e252456502f53ceae26d7fc2c43e7b73",
+      "articles": [
+        {
+          "article_id": "art_fa5917e879d29a8b",
+          "title": "Anthropic ends its first trading day above the IPO price",
+          "story_key": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/anthropic-first-trading-day-close.md",
+          "sha256": "1adcaa495f617c57927ae99b3d89ab059e8fc6bc61074930a30ee397e1a0cb87",
+          "words": 267
+        },
+        {
+          "article_id": "art_9e4af9d275e6eeca",
+          "title": "CANDID challenges desktop agents before they declare work finished",
+          "story_key": "https://arxiv.org/abs/2611.24977",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/candid-local-desktop-agent-completion-gate.md",
+          "sha256": "d5f1675e9f281d9393bac86b37c32176b6d42d2d7d83f094c6e70cc6daa82771",
+          "words": 264
+        },
+        {
+          "article_id": "art_9b679c847be9d578",
+          "title": "Token scores help identify which AI labels need review",
+          "story_key": "https://arxiv.org/abs/2611.25289",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/classifier-confidence-token-scores-review-routing.md",
+          "sha256": "f1946b2a0ad7ef7facf70ea9249956d5dc87ccfcb1a5ae426172e70405a1766a",
+          "words": 264
+        },
+        {
+          "article_id": "art_5ffc351eba205ee2",
+          "title": "A financial agent can verify numbers for the wrong company",
+          "story_key": "https://arxiv.org/abs/2611.25071",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/finveriqa-independent-evidence-company-checks.md",
+          "sha256": "c38d501bb1c7d10b096342b4d465aeaebf949a3cacd3a9f67982f4aba27d0ad4",
+          "words": 254
+        },
+        {
+          "article_id": "art_7b5522d641a8a9e9",
+          "title": "HireWatch tests how workplace pressure changes AI interview questions",
+          "story_key": "https://arxiv.org/abs/2611.24970",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/hirewatch-interview-questions-organizational-pressure.md",
+          "sha256": "179a3de2f0a096dbc2544d3056d3afa98a6dc67c8fa304d6ba33beac70da1ad7",
+          "words": 270
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-11-21",
+      "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261121/_editions/2026-11-21.md",
+      "sha256": "6313a3dc5a9604b4988cc62541059ab22083946530abb8b969adb92f86c323a9",
+      "articles": [
+        {
+          "article_id": "art_a922c12b8689a6b2",
+          "title": "Assistant memories need a way to expire",
+          "story_key": "https://arxiv.org/abs/2611.25235",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261121/_articles/assistant-memory-expiration-learned-controller.md",
+          "sha256": "3eb7a3a8088203779777a44904bfbe23ab76c634674ee5f7b3764ad73ea6bd47",
+          "words": 275
+        },
+        {
+          "article_id": "art_bbbd5dc4f59caab2",
+          "title": "An event reader can leave state tracking to a register",
+          "story_key": "https://arxiv.org/abs/2611.25211",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261121/_articles/event-readers-exact-state-register.md",
+          "sha256": "a7b1485b065084376feb42e8ca2d419b4d1cab3eb54475f402253a4f75b3ec72",
+          "words": 266
+        },
+        {
+          "article_id": "art_2b317a62d713570d",
+          "title": "NextUnit-Bench tests model builders on equipment they have not seen",
+          "story_key": "https://arxiv.org/abs/2611.25252",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261121/_articles/nextunit-bench-maintenance-model-builders.md",
+          "sha256": "aa7654054162c8a427bb41be24933e54788faf614ed6f9029108efff585659bc",
+          "words": 271
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-11-22",
+      "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261122/_editions/2026-11-22.md",
+      "sha256": "f5eaece66b82e32e5d02cb6b3ff7c5b1de1e49d8b07df2147163a1541d7cc325",
+      "articles": [
+        {
+          "article_id": "art_adc69365bcb6d7ff",
+          "title": "AiDotNet replaces temporary vectors in a costly training loop",
+          "story_key": "https://github.com/ooples/AiDotNet/pull/2612",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261122/_articles/aidotnet-histogram-training-allocation-fix.md",
+          "sha256": "fa3ca2557607b47a441a5a88639f6a9a086611abc3e26ff848a6fce050e19f7c",
+          "words": 286
+        },
+        {
+          "article_id": "art_ecfc027c8d3ea97c",
+          "title": "Muru’s new alpha changes how served files are opened",
+          "story_key": "https://github.com/muruhq/muru/releases/tag/v0.1.0-alpha.34",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261122/_articles/muru-alpha-file-serving-boundary.md",
+          "sha256": "c2b379951c4efd4e8eb5c3efcaa85e66e8354a74bb8e3430ba7cce9ad373af86",
+          "words": 275
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-11-23",
+      "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261123/_editions/2026-11-23.md",
+      "sha256": "9edc5f2bc434dba5c18cee849f38083642f812109b7fa4087783cf565b2a753d",
+      "articles": [
+        {
+          "article_id": "art_df4811993c7b853f",
+          "title": "A correct approval can mislead an agent’s next decision",
+          "story_key": "https://arxiv.org/abs/2611.27216",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261123/_articles/correct-precedents-agent-permission-carryover.md",
+          "sha256": "801c478fa21f705bc5ace292f5c84fe1112018fa9742d9bf43a2a076d06bb056",
+          "words": 289
+        },
+        {
+          "article_id": "art_b3dd5830b7fd0237",
+          "title": "Financial drafts can copy the numbers and invent the explanation",
+          "story_key": "https://arxiv.org/abs/2611.26968",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261123/_articles/framecheck-financial-drafts-unsupported-causes.md",
+          "sha256": "7cbfed183a719662a9a244295217b35eb5cc529706c1baf908bbd1dbe09b91d5",
+          "words": 277
+        },
+        {
+          "article_id": "art_14dcac9f333a385d",
+          "title": "ToRA shares model computation with a streaming safety checker",
+          "story_key": "https://arxiv.org/abs/2611.26975",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261123/_articles/tora-shared-model-streaming-safety.md",
+          "sha256": "b9d6c77fdfe47f04baa7db092a7bc2bba41de065616e9c0e264118c95f0a4c49",
+          "words": 284
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-11-24",
+      "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261124/_editions/2026-11-24.md",
+      "sha256": "3ad8d7c48e2bfa8ce0b2bba133b1f71a2c32c615b0cf9c62b069659815166351",
+      "articles": [
+        {
+          "article_id": "art_3c6568122962981f",
+          "title": "PULSE tests whether an agent knows what work remains open",
+          "story_key": "https://arxiv.org/abs/2611.28374",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261124/_articles/pulse-enterprise-project-state-benchmark.md",
+          "sha256": "fa231b96804e05ade60761fa40d16ba21e2f70c4fdd4afae197b7c091a84b73f",
+          "words": 275
+        },
+        {
+          "article_id": "art_4f81071420d385cd",
+          "title": "Coding-agent training needs tests that reward the right fix",
+          "story_key": "https://arxiv.org/abs/2611.30207",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261124/_articles/swe-gym-audit-coding-agent-reward-labels.md",
+          "sha256": "ce4e0836e00517287519d06bd50ffd83ccfc1e5d410e25d6e58b4d690aadc862",
+          "words": 265
+        },
+        {
+          "article_id": "art_9936cfef39212e87",
+          "title": "AI judges can choose winners their rubrics do not support",
+          "story_key": "https://arxiv.org/abs/2611.28940",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261124/_articles/tradeoffbench-llm-judges-unstated-rules.md",
+          "sha256": "c52da62a9ae830912400544d04b51f6103e1800ee8c27e3e3dad8e723fb61058",
+          "words": 262
+        }
+      ]
+    },
+    {
+      "edition_date": "2026-11-25",
+      "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261125/_editions/2026-11-25.md",
+      "sha256": "719920d845c62df22cfcc8f1c5df327d263baf40d547aa08793efdd4bf021bae",
+      "articles": [
+        {
+          "article_id": "art_9186f9efe7b3fd4b",
+          "title": "CivilTime-Bench separates a valid timestamp from a correct answer",
+          "story_key": "https://arxiv.org/abs/2611.29972",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261125/_articles/civiltime-bench-calendar-answer-correctness.md",
+          "sha256": "337168ae21c1194b0cf19f033ff583282e5b8fb43e11004afd45d1fb60744ad7",
+          "words": 287
+        },
+        {
+          "article_id": "art_571d403a33bb8b92",
+          "title": "Chat adaptation can preserve an attacker’s influence between turns",
+          "story_key": "https://arxiv.org/abs/2611.29532",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261125/_articles/conversational-learning-session-adapter-poisoning.md",
+          "sha256": "1d04270de7edf6bf6091192efdac581f8f1aff76370d2c2226277a2562f3ad1b",
+          "words": 292
+        },
+        {
+          "article_id": "art_3c8e329cde91a369",
+          "title": "NoeVera keeps serving experiments tied to their tested conditions",
+          "story_key": "https://arxiv.org/abs/2611.29255",
+          "file": "/Users/tedtschopp/Developer/yesterdai-daily-20261125/_articles/noevera-serving-experiments-scoped-evidence.md",
+          "sha256": "4dcf37daa9c59a2bf72465ef8d699902565a7eb7d4d1df42782d99069d2c7963",
+          "words": 268
+        }
+      ]
+    }
+  ],
+  "deduplication": {
+    "complete_editions_read": 7,
+    "complete_articles_read": 24,
+    "result": "No repeated URL or development selected. Confidence head training and transfer are distinct from November 20 token-confidence classification. LEGOSpec draft composition differs from November 25 evidence-guided serving search."
+  },
+  "research_stop": "Three distinct supported articles reached; remaining candidates were not exhausted. Inventory is not a claim that every original was researched.",
+  "target": {
+    "minimum": 3,
+    "maximum": 5,
+    "selected": 3,
+    "shortfall": 0,
+    "quick_hits": 0,
+    "analyses": 0,
+    "briefs": 3
+  },
+  "format_decision": "All three were chosen as focused briefs before drafting. Each explains a narrow mechanism with an explicit experimental boundary and practical consequence.",
+  "hero_decision": "No new heroes required for new briefs; no generation attempted. Existing images and article attachments preserved.",
+  "scope": "Editorial paths only; no application, design fixture, approved screenshot, policy, DNS, workflow, schedule or model changes.",
+  "source_fetches": [
+    {
+      "key": "claude-ship",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "final": "https://claude.com/resources/articles/introducing-claude-ship",
+      "status": 200,
+      "chars": 7978,
+      "date_meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-23"
+        }
+      ],
+      "dates": [
+        "irst repository. Learn more in documentation . Article Nov 24, 2026 Turn artifacts into Mac and Windows apps Open the artifacts you use ",
+        " let them do more on your computer Claude apps Article Nov 24, 2026 MCP servers can now ship skills, run tasks, and more with Claude Cla",
+        "ude apps Claude Platform Article Nov 23, 2026 Zero data retention with Enterprise Frontier Safeguards is now in be",
+        "ta Claude Platform Article Nov 17, 2026 Linked billing on the Claude Platform Claude Platform Transform how "
+      ]
+    },
+    {
+      "key": "working-ai",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "final": "https://www.anthropic.com/research/working-with-ai",
+      "status": 200,
+      "chars": 52103,
+      "date_meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-23T00:00:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-23T22:13:27.525Z"
+        }
+      ],
+      "dates": []
+    },
+    {
+      "key": "rocket",
+      "url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "final": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "status": 200,
+      "chars": 28639,
+      "date_meta": [
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-24T14:25:56+00:00"
+        }
+      ],
+      "dates": [
+        "am, “RL infrastructure at Microsoft AI,” Microsoft AI, Nov 2026. Or use the BibTeX citation: @misc{mai_rl_infrastructure,\r",
+        "  urldate={2026-11-23},\r"
+      ]
+    },
+    {
+      "key": "harvey",
+      "url": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models",
+      "final": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models",
+      "status": 200,
+      "chars": 25593,
+      "date_meta": [],
+      "dates": [
+        " recipe to US open-weight models. by Harvey Research • Nov 24, 2026 Since we launched Harvey Tenet in August, there has been a surge of "
+      ]
+    },
+    {
+      "key": "uber",
+      "url": "https://x.com/UberEng/status/2125008806249930999?s=19",
+      "final": "https://x.com/UberEng/status/2125008806249930999?s=19",
+      "status": 200,
+      "chars": 23251,
+      "date_meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-23T23:29:14.000Z"
+        }
+      ],
+      "dates": [
+        "er.com ✨ More Articles Join 82.2K followers 11:29 PM · Nov 23, 2026 · 2.3M Views 134 1.1K 7K 21K _k11i_ @_k11i_ Nov 24 GitHub or it didn",
+        "’t happen 1 70 18K Gautam Dhameja @gautamdhameja Nov 24 How do you find and manage duplicates? 3 20 16K Gerard Sans | Axiom 🇬🇧 @ge",
+        "rardsans Nov 24 No wonder Uber run out of tokens for the whole year back in May. Iterating"
+      ]
+    },
+    {
+      "key": "cisco-wsj",
+      "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420",
+      "error": "HTTP Error 401: HTTP Forbidden"
+    },
+    {
+      "key": "gating-abs",
+      "url": "https://arxiv.org/abs/2611.33394",
+      "final": "https://arxiv.org/abs/2611.33394",
+      "status": 200,
+      "chars": 4631,
+      "date_meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/11/24"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/11/24"
+        }
+      ],
+      "dates": [
+        "al Intelligence arXiv:2611.33394 (cs) [Submitted on 24 Nov 2026] Title: Confidence scores for gated automation of large language models ",
+        "ory From: Luiz Gustavo De Andrade Alves [ view email ] [v1] Tue, 24 Nov 2026 20:17:43 UTC (481 KB) Full-text links: Access Paper: View"
+      ]
+    },
+    {
+      "key": "gating-full",
+      "url": "https://arxiv.org/html/2611.33394v1",
+      "final": "https://arxiv.org/html/2611.33394v1",
+      "status": 200,
+      "chars": 93987,
+      "date_meta": [],
+      "dates": [
+        "tion: License: CC BY 4.0 arXiv:2611.33394v1 [cs.AI] 24 Nov 2026 Confidence scores for gated automation of large language models Luiz G. "
+      ]
+    },
+    {
+      "key": "memory-abs",
+      "url": "https://arxiv.org/abs/2611.33184",
+      "final": "https://arxiv.org/abs/2611.33184",
+      "status": 200,
+      "chars": 4649,
+      "date_meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/10/28"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/10/28"
+        }
+      ],
+      "dates": [
+        "Submission history From: Yash Choudhary [ view email ] [v1] Wed, 28 Oct 2026 09:00:24 UTC (41 KB) Full-text links: Access Paper: View "
+      ]
+    },
+    {
+      "key": "memory-full",
+      "url": "https://arxiv.org/html/2611.33184v1",
+      "final": "https://arxiv.org/html/2611.33184v1",
+      "status": 200,
+      "chars": 47711,
+      "date_meta": [],
+      "dates": []
+    },
+    {
+      "key": "asterism-abs",
+      "url": "https://arxiv.org/abs/2611.32316",
+      "final": "https://arxiv.org/abs/2611.32316",
+      "status": 200,
+      "chars": 5246,
+      "date_meta": [
+        {
+          "name": "citation_date",
+          "content": "2026/11/24"
+        },
+        {
+          "name": "citation_online_date",
+          "content": "2026/11/25"
+        }
+      ],
+      "dates": [
+        "ern Recognition arXiv:2611.32316 (cs) [Submitted on 24 Nov 2026 ( v1 ), last revised 25 Nov 2026 (this version, v2)] Title: ASTERISM: Do",
+        "e Submission history From: Chanseul Cho [ view email ] [v1] Tue, 24 Nov 2026 10:12:44 UTC (9,750 KB) [v2] Wed, 25 Nov 2026 17:26:17 UT"
+      ]
+    },
+    {
+      "key": "asterism-full",
+      "url": "https://arxiv.org/html/2611.32316v1",
+      "final": "https://arxiv.org/html/2611.32316v1",
+      "status": 200,
+      "chars": 187018,
+      "date_meta": [],
+      "dates": [
+        "al non-exclusive license arXiv:2611.32316v1 [cs.CV] 24 Nov 2026 ASTERISM: Do Multimodal LLMs Actually Look at All the Images? Chanseul C",
+        "go, CA, USA, December 2-7, 2025 / Mexico City, Mexico, November 30 -",
+        "November 2024 , pages 11198–11201. ACM, 2024. [26] Bradley Efron. Bootstrap methods: A",
+        "l Language Processing, Brussels, Belgium, October 31 - November 4,",
+        "ICCV 2019, Seoul, Korea (South), October 27 - November 2, 2019 , pages",
+        "go, CA, USA, December 2-7, 2025 / Mexico City, Mexico, November 30 -",
+        "go, CA, USA, December 2-7, 2025 / Mexico City, Mexico, November 30 -",
+        "Online, November 16-20, 2020 , pages 38–45. Association for Computational",
+        "Accessed November 9, 2026. [146] Tong Xiao, Xin Xu, Zhenya Huang, Hongyu Gao, Quan Liu, Qi Liu",
+        "go, CA, USA, December 2-7, 2025 / Mexico City, Mexico, November 30 -",
+        "go, CA, USA, December 2-7, 2025 / Mexico City, Mexico, November 30 -"
+      ]
+    },
+    {
+      "key": "cs-ai",
+      "url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+      "final": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+      "status": 200,
+      "chars": 537761,
+      "date_meta": [],
+      "dates": [
+        "ence Authors and titles for recent submissions Thu, 26 Nov 2026 Wed, 25 Nov 2026 Tue, 24 Nov 2026 Mon, 23 Nov 2026 Fri, 20 Nov 2026 See ",
+        "p to 2000 entries per page: fewer | more | all Thu, 26 Nov 2026 (showing 248 of 248 entries ) [1] arXiv:2611.34841 [ pdf , html , other ",
+        "ation Technologies in Industry 4.0 (Ternopil, Ukraine, November 4-6, 2026); to appear in CEUR Workshop Proceedings. Data and code: this http",
+        "onal Engineering, Finance, and Science (cs.CE) Wed, 25 Nov 2026 (showing 300 of 300 entries ) [249] arXiv:2611.33119 [ pdf , html , othe",
+        "(cs.LG); Audio and Speech Processing (eess.AS) Tue, 24 Nov 2026 (showing 485 of 485 entries ) [549] arXiv:2611.31228 [ pdf , html , othe",
+        "tion (cs.HC) ; Artificial Intelligence (cs.AI) Mon, 23 Nov 2026 (showing 214 of 214 entries ) [1034] arXiv:2611.27924 [ pdf , html , oth",
+        "he Google Gemma 4 Developer Agent Paper Track (Kaggle, November 2026). Benchmark, code and results: this https URL Subjects: Software Enginee",
+        "AI); Neural and Evolutionary Computing (cs.NE) Fri, 20 Nov 2026 (showing 252 of 252 entries ) [1248] arXiv:2611.26624 [ pdf , html , oth"
+      ]
+    },
+    {
+      "key": "cs-lg",
+      "url": "https://arxiv.org/list/cs.LG/pastweek?show=2000",
+      "final": "https://arxiv.org/list/cs.LG/pastweek?show=2000",
+      "status": 200,
+      "chars": 445476,
+      "date_meta": [],
+      "dates": [
+        "ning Authors and titles for recent submissions Thu, 26 Nov 2026 Wed, 25 Nov 2026 Tue, 24 Nov 2026 Mon, 23 Nov 2026 Fri, 20 Nov 2026 See ",
+        "p to 2000 entries per page: fewer | more | all Thu, 26 Nov 2026 (showing 271 of 271 entries ) [1] arXiv:2611.34935 [ pdf , html , other ",
+        "- Lattice (hep-lat) ; Machine Learning (cs.LG) Wed, 25 Nov 2026 (showing 233 of 233 entries ) [272] arXiv:2611.33133 [ pdf , html , othe",
+        "(cs.LG); Audio and Speech Processing (eess.AS) Tue, 24 Nov 2026 (showing 431 of 431 entries ) [505] arXiv:2611.31227 [ pdf , html , othe",
+        "ter Science and Data Engineering (IEEE CSDE 2026), 1-3 November 2026, Cox's Bazar, Bangladesh Subjects: Machine Learning (cs.LG) ; Quantitati",
+        "tinuum (ECHO), co-located with SC26, Chicago, IL, USA, November 20, 2026. To appear in the SC26 Workshop Proceedings Journal-ref: SC26-W: Wor",
+        "ng (cs.LG); Optimization and Control (math.OC) Mon, 23 Nov 2026 (showing 171 of 171 entries ) [936] arXiv:2611.27978 [ pdf , html , othe",
+        "s (cond-mat.dis-nn) ; Machine Learning (cs.LG) Fri, 20 Nov 2026 (showing 213 of 213 entries ) [1107] arXiv:2611.26607 [ pdf , html , oth"
+      ]
+    },
+    {
+      "key": "cs-cv",
+      "url": "https://arxiv.org/list/cs.CV/pastweek?show=2000",
+      "final": "https://arxiv.org/list/cs.CV/pastweek?show=2000",
+      "status": 200,
+      "chars": 495350,
+      "date_meta": [],
+      "dates": [
+        "tion Authors and titles for recent submissions Thu, 26 Nov 2026 Wed, 25 Nov 2026 Tue, 24 Nov 2026 Mon, 23 Nov 2026 Fri, 20 Nov 2026 See ",
+        "p to 2000 entries per page: fewer | more | all Thu, 26 Nov 2026 (showing 288 of 288 entries ) [1] arXiv:2611.34944 [ pdf , html , other ",
+        "omputer Vision and Pattern Recognition (cs.CV) Wed, 25 Nov 2026 (showing 302 of 302 entries ) [289] arXiv:2611.33157 [ pdf , html , othe",
+        "omputer Vision and Pattern Recognition (cs.CV) Tue, 24 Nov 2026 (showing 494 of 494 entries ) [591] arXiv:2611.31240 [ pdf , html , othe",
+        "M International Conference on Multimedia (ACM MM '26), November 10--14, 2026, Rio de Janeiro, Brazil Journal-ref: Proceedings of the 34th ACM",
+        "omputer Vision and Pattern Recognition (cs.CV) Mon, 23 Nov 2026 (showing 171 of 171 entries ) [1085] arXiv:2611.27963 [ pdf , html , oth",
+        "ition (cs.CV); Quantitative Methods (q-bio.QM) Fri, 20 Nov 2026 (showing 213 of 213 entries ) [1256] arXiv:2611.26629 [ pdf , html , oth"
+      ]
+    },
+    {
+      "key": "schedule",
+      "url": "https://info.arxiv.org/help/availability.html",
+      "final": "https://info.arxiv.org/help/availability.html",
+      "status": 200,
+      "chars": 2767,
+      "date_meta": [],
+      "dates": [
+        "26-07-03 Monday 2026-09-07 Monday 2026-10-12 Wednesday 2026-11-11 Thursday 2026-11-26 Friday 2026-12-25 2027 Holidays Friday 2027-01-01 Mond"
+      ]
+    },
+    {
+      "key": "lego-abs",
+      "status": 200,
+      "chars": 43177
+    },
+    {
+      "key": "lego-full",
+      "status": 200,
+      "chars": 420405
+    },
+    {
+      "key": "lego-v2",
+      "status": 200,
+      "chars": 420759
+    },
+    {
+      "key": "asterism-v2",
+      "status": 200,
+      "chars": 1243326
+    },
+    {
+      "key": "cisco-wsj-retry",
+      "error": "HTTP Error 401: HTTP Forbidden"
+    }
+  ],
+  "version_notes": {
+    "asterism": "Version two changes availability wording, with the numerical reporting unchanged.",
+    "legospec": "Version two corrects regular-benchmark headline gains from 13.7% to 19.7%, author contribution and checkpoint spelling. Article uses version two and reports the unchanged 34.7% long-context result; no silent use of the stale feed percentage.",
+    "schedule": "November 26 holiday does not affect the preceding Wednesday 20:00 Eastern release, at November 26 01:00 UTC."
+  }
+}

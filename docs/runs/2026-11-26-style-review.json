@@ -1,0 +1,31 @@
+{
+  "mode": "technology/strategy",
+  "version": "1.0.0",
+  "editing_pass": "Concrete openings, factual attribution, example status, scope, numerical measures, prose cadence and endings reviewed. Three model configurations replaces inaccurate three model families; Gemma 2 version made explicit. No invented testimony or personal review.",
+  "diagnostics": [
+    {
+      "file": "_articles/asterism-multi-image-reasoning-shortcuts.md",
+      "words": 299,
+      "reading_minutes": 2,
+      "returncode": 0,
+      "diagnostic": "Ted writing-style diagnostic (guidance, not a score)\nWords: 298\nParagraphs: 7\nSentences: 19\nMean sentence length: 15.7 words\nMedian sentence length: 14 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 43 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 3.36 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+      "stderr": ""
+    },
+    {
+      "file": "_articles/confidence-gates-automation-distribution-shift.md",
+      "words": 290,
+      "reading_minutes": 2,
+      "returncode": 0,
+      "diagnostic": "Ted writing-style diagnostic (guidance, not a score)\nWords: 289\nParagraphs: 7\nSentences: 23\nMean sentence length: 12.6 words\nMedian sentence length: 13 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 44 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+      "stderr": ""
+    },
+    {
+      "file": "_articles/legospec-draft-acceptance-and-serving-speed.md",
+      "words": 306,
+      "reading_minutes": 2,
+      "returncode": 0,
+      "diagnostic": "Ted writing-style diagnostic (guidance, not a score)\nWords: 309\nParagraphs: 7\nSentences: 20\nMean sentence length: 15.4 words\nMedian sentence length: 14 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 47 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n",
+      "stderr": ""
+    }
+  ]
+}

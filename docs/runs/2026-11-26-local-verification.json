@@ -1,0 +1,2221 @@
+{
+  "mode": "local",
+  "verified_at": "2026-11-26T13:12:55.496416Z",
+  "checked_commit": "2da86634f907dce2fa0ff46c12cd48ac2f56a147",
+  "passed": true,
+  "total_checks": 542,
+  "retained_images": 28,
+  "protected_article_edition_image_blobs": 141,
+  "urls": [
+    "/",
+    "/editions/2026-11-26/",
+    "/feed.json",
+    "/feed.xml",
+    "/search-index.json",
+    "/about/",
+    "/live/",
+    "/archive/",
+    "/articles/asterism-multi-image-reasoning-shortcuts/",
+    "/articles/confidence-gates-automation-distribution-shift/",
+    "/articles/legospec-draft-acceptance-and-serving-speed/",
+    "/assets/images/agent-harness-state.webp",
+    "/assets/images/ai-recommendation-bias.webp",
+    "/assets/images/ai-reporting-lines-executive-incentives.webp",
+    "/assets/images/alphaproof-signal-binary-scope.webp",
+    "/assets/images/authorization-agent-boundaries.webp",
+    "/assets/images/calibrated-disposition-drift.webp",
+    "/assets/images/catalog-field-grounding.webp",
+    "/assets/images/citation-relevance-verification.webp",
+    "/assets/images/context-sensitive-model-boundaries.webp",
+    "/assets/images/cost-aware-ticket-routing.webp",
+    "/assets/images/google-agent-guidance-enforcement.webp",
+    "/assets/images/hidden-instructions-public-pages.webp",
+    "/assets/images/kapitsa-local-inference-operations.webp",
+    "/assets/images/litellm-release-authority.webp",
+    "/assets/images/llm-proxy-visibility.webp",
+    "/assets/images/materials-structure-ml.webp",
+    "/assets/images/memory-needs-relevance.webp",
+    "/assets/images/mercury-diffusion-serving.webp",
+    "/assets/images/meta-terms-data-governance.webp",
+    "/assets/images/minimax-flash-task-economics.webp",
+    "/assets/images/multiagent-review-tradeoffs.webp",
+    "/assets/images/pew-task-level-adoption.webp",
+    "/assets/images/prompt-judge-evaluation.webp",
+    "/assets/images/publication-share.png",
+    "/assets/images/recoverable-agent-changes.webp",
+    "/assets/images/scope-executable-policy.webp",
+    "/assets/images/typed-decisions.webp",
+    "/assets/images/voxtral-voice-workflow.webp"
+  ],
+  "probes": [],
+  "checks": [
+    {
+      "name": "URL available: /",
+      "passed": true
+    },
+    {
+      "name": "URL available: /editions/2026-11-26/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /feed.json",
+      "passed": true
+    },
+    {
+      "name": "URL available: /feed.xml",
+      "passed": true
+    },
+    {
+      "name": "URL available: /search-index.json",
+      "passed": true
+    },
+    {
+      "name": "URL available: /about/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /live/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /archive/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /articles/asterism-multi-image-reasoning-shortcuts/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /articles/confidence-gates-automation-distribution-shift/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /articles/legospec-draft-acceptance-and-serving-speed/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/ai-reporting-lines-executive-incentives.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/alphaproof-signal-binary-scope.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/publication-share.png",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    },
+    {
+      "name": "Homepage publication title",
+      "passed": true
+    },
+    {
+      "name": "Homepage publication description",
+      "passed": true
+    },
+    {
+      "name": "Homepage current edition link",
+      "passed": true
+    },
+    {
+      "name": "Edition headline",
+      "passed": true
+    },
+    {
+      "name": "Edition metadata",
+      "passed": true
+    },
+    {
+      "name": "Exactly three articles in edition contract",
+      "passed": true
+    },
+    {
+      "name": "home explicit editorial lead",
+      "passed": true
+    },
+    {
+      "name": "home three linked takeaways",
+      "passed": true
+    },
+    {
+      "name": "home no public production sections",
+      "passed": true
+    },
+    {
+      "name": "edition explicit editorial lead",
+      "passed": true
+    },
+    {
+      "name": "edition three linked takeaways",
+      "passed": true
+    },
+    {
+      "name": "edition no public production sections",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts exact headline",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts meta[name=\"description\"]",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts meta[property=\"og:title\"]",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts meta[property=\"og:description\"]",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts meta[name=\"twitter:title\"]",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts meta[name=\"twitter:description\"]",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts meta[property=\"article:published_time\"]",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts publication byline",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts stable ID",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts brief has no manufactured hero",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts original date eligible",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts original dates preserved",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts final word count",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts source link https://arxiv.org/abs/2611.32316",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts source link https://arxiv.org/html/2611.32316v2",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts JSON feed body",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts JSON feed identity and authorship",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts JSON feed title and original timestamp",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts search metadata",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts RSS title and GUID",
+      "passed": true
+    },
+    {
+      "name": "asterism-multi-image-reasoning-shortcuts RSS full body",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift exact headline",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift meta[name=\"description\"]",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift meta[property=\"og:title\"]",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift meta[property=\"og:description\"]",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift meta[name=\"twitter:title\"]",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift meta[name=\"twitter:description\"]",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift meta[property=\"article:published_time\"]",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift publication byline",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift stable ID",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift brief has no manufactured hero",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift original date eligible",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift original dates preserved",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift final word count",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift source link https://arxiv.org/abs/2611.33394",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift source link https://arxiv.org/html/2611.33394v1",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift JSON feed body",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift JSON feed identity and authorship",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift JSON feed title and original timestamp",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift search metadata",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift RSS title and GUID",
+      "passed": true
+    },
+    {
+      "name": "confidence-gates-automation-distribution-shift RSS full body",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed exact headline",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed meta[name=\"description\"]",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed meta[property=\"og:title\"]",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed meta[property=\"og:description\"]",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed meta[name=\"twitter:title\"]",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed meta[name=\"twitter:description\"]",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed meta[property=\"article:published_time\"]",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed publication byline",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed stable ID",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed brief has no manufactured hero",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed original date eligible",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed original dates preserved",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed final word count",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed source link https://arxiv.org/abs/2611.33004",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed source link https://arxiv.org/html/2611.33004v2",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed JSON feed body",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed JSON feed identity and authorship",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed JSON feed title and original timestamp",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed search metadata",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed RSS title and GUID",
+      "passed": true
+    },
+    {
+      "name": "legospec-draft-acceptance-and-serving-speed RSS full body",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/ai-reporting-lines-executive-incentives.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/alphaproof-signal-binary-scope.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/publication-share.png",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /editions/2026-11-26/",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /articles/asterism-multi-image-reasoning-shortcuts/",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /articles/confidence-gates-automation-distribution-shift/",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /articles/legospec-draft-acceptance-and-serving-speed/",
+      "passed": true
+    },
+    {
+      "name": "About Codex disclosure",
+      "passed": true
+    },
+    {
+      "name": "Edition archived",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: .github/workflows/deploy.yml",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: .github/workflows/health.yml",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: .github/workflows/performance.yml",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: .github/workflows/refresh-wire.yml",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: .gitignore",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: .ruby-version",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: 404.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: AGENTS.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: CNAME",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: Gemfile",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: Gemfile.lock",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: Makefile",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: README.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agent-handoffs-check-actual-state.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agent-harness-state.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agent-optimization-budget.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agent-substrate-state-and-compute.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agentic-web-access-control.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/ai-recommendation-bias.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/ai-reporting-lines-executive-incentives.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/alphaproof-signal-binary-scope.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/anthropic-amended-filing-compute-commitments.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/anthropic-s1-board-control.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/authorization-agent-boundaries.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/autorefine-code-judge-workflow-outcomes.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/calibrated-disposition-drift.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/catalog-field-grounding.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/ciso-survey-security-deployment.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/citation-relevance-verification.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-batch-review-evidence.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-fable-5-2-copilot-approval.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-meetings-google-meet-beta.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-shared-workspaces-data-access.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-watermark-rollout-detection-limits.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/cloudflare-cache-isolation-tests.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/coding-agents-first-correct-patch.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/confidential-containers-gpu-attestation.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/context-sensitive-model-boundaries.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/coordination-agent-economics.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/copied-reports-ai-evidence.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/copilot-fusion-model-policy.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/cost-aware-ticket-routing.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/cursor-extension-persistence-recovery.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/databricks-genie-ontology-business-definitions.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/fowler-writing-and-understanding.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/fractile-series-c-inference-chips.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gemini-4-hydrogen-model-routing.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gemini-carbon-restricted-rollout.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gemini-decisions-api-bounded-choices.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gemini-omni-1-2-video-workflow.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/genie-4-preview-simulation.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/google-agent-guidance-enforcement.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/google-school-search-ai-access-controls.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gpt-6-1-terra-computer-use-trials.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gpt-6-cyber-scope-and-access.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/hidden-instructions-public-pages.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/kapitsa-local-inference-operations.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/litellm-release-authority.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/llm-proxy-visibility.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/materials-structure-ml.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/memory-needs-relevance.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/memorydojo-cross-session-poisoning.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/menlo-enterprise-ai-spending-run-rate.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/mercor-series-d-enterprise-evaluations.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/mercury-diffusion-serving.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/meta-terms-data-governance.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/microsoft-buyouts-ai-staffing.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/minimax-flash-task-economics.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/mistral-large-4-weights-license.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/model-price-cuts-cache-accounting.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/modern-web-guidance-coding-agents.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/multiagent-review-tradeoffs.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/multilingual-safety-template-evidence.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/muse-ember-long-prompt-pricing.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/nebius-capacity-financing-delivery.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/new-york-raise-act-registration.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/notion-fireworks-ai-chat-exposure.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/nvidia-kress-interim-ceo.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-funding-target-continuity.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-grid-protectors-demand-flexibility.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-linux-patch-validation.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-physical-engineering-manufacturing-review.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-pierre-code-review-acquisition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openmeter-local-ai-meter-queries.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/pew-task-level-adoption.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/php-old-flaws-operating-pressure.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/prompt-judge-evaluation.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/proton-engineering-workflow-bottlenecks.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/rao-ai-adoption-unserved-work.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/recoverable-agent-changes.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/ryanair-ai-productivity-cost-review.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/scope-executable-policy.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/suse-workforce-reduction-ai-rationale.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/synthcorp-tests-data-agents-business-rules.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/typed-decisions.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/u-mobile-agentcore-routing-review.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/united-ai-agent-booking-restrictions.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/volta-infostealer-victim-profiling.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/voxtral-voice-workflow.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/xai-pollution-lawsuit-dismissal-denied.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _config.yml",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _data/discovery.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _data/topics.yml",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-18.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-19.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-20.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-21.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-22.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-23.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-24.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-25.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-26.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-27.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-28.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-29.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-30.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-31.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-01.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-02.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-03.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-04.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-05.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-06.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-09.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-10.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-11.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-12.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-13.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-14.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _includes/briefing.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _includes/compact-story.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _includes/edition.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _includes/global-header.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _includes/lead-story.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _includes/story-row.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _includes/theme-init.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _includes/tldr.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _layouts/article.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _layouts/base.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _layouts/edition.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _layouts/page.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _layouts/topic.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _plugins/reader_helpers.rb",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: about.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: archive.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/css/brand.css",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/css/fonts.css",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/css/publication.css",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/css/site.css",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/css/tedt-header-embed.css",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/css/tokens.css",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/cal-sans-OFL.txt",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/cal-sans-normal-latin-cc7be70f8ec4.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/cal-sans-normal-latin-ext-cbfc071b0b52.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/fira-code-OFL.txt",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/fira-code-normal-latin-d32d5b5a7c97.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/fira-code-normal-latin-ext-e08f04687410.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/inter-OFL.txt",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/inter-italic-latin-124b693f9bb5.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/inter-italic-latin-ext-7d263a256b58.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/inter-normal-latin-dd8a4575be98.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/inter-normal-latin-ext-8bc9dee39dea.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/titillium-web-OFL.txt",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/titillium-web-normal-latin-ext-b4bb9daaf656.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/fonts/titillium-web-normal-latin-f93ddc83566b.woff2",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/ai-reporting-lines-executive-incentives.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/alphaproof-signal-binary-scope.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/publication-share.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/js/reader-state.js",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/js/site.js",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/js/tedt-theme-init.js",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/logos/logo-wordmark-inverse.svg",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/logos/logo-wordmark.svg",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/logos/monogram.svg",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/logos/publication-share.svg",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/brand.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/operations.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/reader-contract.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-archive-voice-preservation.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-archive-voice-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-archive-voice-revision.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-cutover.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-editorial-path.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-full-publication-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-full-publication.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-kapitsa-evidence.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-kapitsa-hero-prompt.txt",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-launch.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-performance-baseline.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-public-performance.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-reader-contract-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-reader-contract-publication-test.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-reader-contract-publication-test.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-reader-experience.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-title-capitalization.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-24-visual-baseline-review.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-25-agent-controls-hero-prompt.txt",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-25-article-target.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-25-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-25-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-25-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-25-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-25-title-case-publication.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-26-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-26-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-27-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-27-deployment-attempt-1.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-27-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-27-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-27-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-28-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-28-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-28-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-28-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-29-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-29-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-29-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-29-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-30-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-30-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-30-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-30-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-31-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-31-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-31-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-10-31-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-01-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-01-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-01-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-01-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-02-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-02-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-02-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-02-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-03-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-03-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-03-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-03-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-04-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-04-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-05-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-05-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-05-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-06-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-06-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-06-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-09-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-09-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-09-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-09-public-verification.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-09-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-10-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-10-deployment.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-10-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-10-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-11-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-11-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-11-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-12-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-12-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-13-daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-13-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-13-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-14-preflight.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/2026-11-14-source-audit.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/runs/requests/2026-10-24-full-publication.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/ted-writing-style.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: docs/title-capitalization.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: feed.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: feed.xml",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: index.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: live.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: package-lock.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: package.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: playwright.config.js",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: prompts/daily-edition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: robots.txt",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/build_fixtures.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/check_site.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/health.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/lab_server.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/performance.mjs",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/prepare_hero.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/publication-smoke.mjs",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/publish.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/recover_refresh.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/research.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: scripts/site_analytics.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: search-index.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: search.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: sitemap.xml",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: status.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-1024-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-1024-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-1280-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-1280-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-1440-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-1440-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-320-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-320-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-390-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-390-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-768-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/article-768-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-1024-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-1024-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-1280-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-1280-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-1440-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-1440-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-320-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-320-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-390-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-390-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-768-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/edition-768-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-1024-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-1024-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-1280-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-1280-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-1440-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-1440-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-320-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-320-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-390-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-390-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-768-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/home-768-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-1024-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-1024-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-1280-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-1280-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-1440-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-1440-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-320-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-320-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-390-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-390-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-768-dark.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/__screenshots__/story-768-light.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/reader.spec.js",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/browser/visual.spec.js",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/README.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/caption-migration.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/preservation-baseline.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/section-migration.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_articles/authorization-agent-boundaries.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_articles/cost-aware-ticket-routing.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_articles/kapitsa-local-inference-operations.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_articles/materials-structure-ml.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_articles/memory-needs-relevance.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_articles/mercury-diffusion-serving.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_articles/pew-task-level-adoption.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_articles/prompt-judge-evaluation.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_data/wire.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_editions/2026-10-23.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/_editions/2026-10-24.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/site/quiet-home.html",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/fixtures/title-case-migration.json",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/js/reader-state.test.mjs",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/shared-header.mjs",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/test_publication_failures.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/test_publish.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/test_reader_contracts.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: tests/test_recover_refresh.py",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: topics.html",
+      "passed": true
+    }
+  ]
+}
