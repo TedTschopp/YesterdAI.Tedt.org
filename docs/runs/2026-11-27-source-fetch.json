@@ -1,0 +1,277 @@
+[
+  {
+    "key": "partial-abs",
+    "url": "https://arxiv.org/abs/2611.33402",
+    "fetched_at": "2026-11-27T13:07:28.877526+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2611.33402",
+    "bytes": 41079,
+    "sha256": "9cde078e4ba804b1792fb900b36cb76c5765da3a028e7a02ef05396924dac141",
+    "date_meta": [
+      {
+        "name": "citation_date",
+        "content": "2026/11/24"
+      },
+      {
+        "name": "citation_online_date",
+        "content": "2026/11/24"
+      }
+    ],
+    "jsonld": []
+  },
+  {
+    "key": "partial-full",
+    "url": "https://arxiv.org/html/2611.33402v1",
+    "fetched_at": "2026-11-27T13:07:28.877791+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2611.33402v1",
+    "bytes": 502825,
+    "sha256": "128da9eda0b545f9658dd9af449d65b4030e17fa9948ab7da10bf3ce34ff2242",
+    "date_meta": [],
+    "jsonld": [],
+    "links": []
+  },
+  {
+    "key": "skills-abs",
+    "url": "https://arxiv.org/abs/2611.33943",
+    "fetched_at": "2026-11-27T13:07:28.877875+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2611.33943",
+    "bytes": 42918,
+    "sha256": "19630cbbab61d1b74f0d2a0ef691915e9fd03208880560995f4565e18e8c5a66",
+    "date_meta": [
+      {
+        "property": "og:description",
+        "content": "Agent skills are directories of instructions, reference materials, and scripts loaded on demand by coding agents. According to SkillsBench, although human-curated skills can raise the passing rate by about 16.6 percentage points (pp) on average, they have actually reduced the results for some tasks. Later research has started to gate or eliminate skills according to the above per-task gains. We have audited the above benchmark at the source-code level and analysed 7,554 public trials to form 1,421 paired \"(configuration, task) cells\". Source-code audit identified two controlled-verified cases of grader dependence and one operational definition gap; the average lift on these three tasks was 74.6 pp, and the overall average lift for the full set was 18.7 pp. The audit also found that four tasks contained placeholder skill directories, and a certain execution harness additionally added 48 built-in skills in most runs. No task-level reduction achieved statistical significance in the pooled reanalysis with multiple-testing correction. As there were at most three runs per condition for each cell, the observed negative differences are very susceptible to run-sampling noise, and arithmetically, 58% of the cells could not have shown a decrease. Therefore, the raw numbers of negative cells cannot show that skills cause harm. A gating strategy based on the skill-free score seems to improve by 2-3 pp in the logs; however, even after shuffling condition labels to remove any skill effect, it still achieves an increase of 4-7 pp. On the held-out runs not used for fitting and decision-making, there was no statistically significant improvement. The audit ledger and analysis scripts have been published by us."
+      },
+      {
+        "name": "citation_date",
+        "content": "2026/11/25"
+      },
+      {
+        "name": "citation_online_date",
+        "content": "2026/11/25"
+      },
+      {
+        "name": "citation_abstract",
+        "content": "Agent skills are directories of instructions, reference materials, and scripts loaded on demand by coding agents. According to SkillsBench, although human-curated skills can raise the passing rate by about 16.6 percentage points (pp) on average, they have actually reduced the results for some tasks. Later research has started to gate or eliminate skills according to the above per-task gains. We have audited the above benchmark at the source-code level and analysed 7,554 public trials to form 1,421 paired \"(configuration, task) cells\". Source-code audit identified two controlled-verified cases of grader dependence and one operational definition gap; the average lift on these three tasks was 74.6 pp, and the overall average lift for the full set was 18.7 pp. The audit also found that four tasks contained placeholder skill directories, and a certain execution harness additionally added 48 built-in skills in most runs. No task-level reduction achieved statistical significance in the pooled reanalysis with multiple-testing correction. As there were at most three runs per condition for each cell, the observed negative differences are very susceptible to run-sampling noise, and arithmetically, 58% of the cells could not have shown a decrease. Therefore, the raw numbers of negative cells cannot show that skills cause harm. A gating strategy based on the skill-free score seems to improve by 2-3 pp in the logs; however, even after shuffling condition labels to remove any skill effect, it still achieves an increase of 4-7 pp. On the held-out runs not used for fitting and decision-making, there was no statistically significant improvement. The audit ledger and analysis scripts have been published by us."
+      }
+    ],
+    "jsonld": []
+  },
+  {
+    "key": "skills-full",
+    "url": "https://arxiv.org/html/2611.33943v1",
+    "fetched_at": "2026-11-27T13:07:28.877928+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2611.33943v1",
+    "bytes": 156701,
+    "sha256": "f25e25b878eef9b3c311e21eab388b31fe47ba51c1aeef5775ac4a03390be458",
+    "date_meta": [],
+    "jsonld": [],
+    "links": [
+      {
+        "text": "https://github.com/rrrrr4788/skillsbench-lift-reanalysis",
+        "url": "https://github.com/rrrrr4788/skillsbench-lift-reanalysis"
+      }
+    ]
+  },
+  {
+    "key": "carag-abs",
+    "url": "https://arxiv.org/abs/2611.33497",
+    "fetched_at": "2026-11-27T13:07:28.877974+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2611.33497",
+    "bytes": 41398,
+    "sha256": "5f8d8cbd5f6ad2c002ce1cf6a34e65e5d069fcd5508bc4c149abd213e2ec1f3d",
+    "date_meta": [
+      {
+        "name": "citation_date",
+        "content": "2026/11/24"
+      },
+      {
+        "name": "citation_online_date",
+        "content": "2026/11/24"
+      }
+    ],
+    "jsonld": []
+  },
+  {
+    "key": "carag-full",
+    "url": "https://arxiv.org/html/2611.33497v1",
+    "fetched_at": "2026-11-27T13:07:28.878015+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/html/2611.33497v1",
+    "bytes": 376822,
+    "sha256": "3267ca96e6db98d9846863636d755cfaf38fa658f782ed409e47d1ce7ccedd82",
+    "date_meta": [],
+    "jsonld": [],
+    "links": []
+  },
+  {
+    "key": "workspace",
+    "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+    "fetched_at": "2026-11-27T13:07:28.878056+00:00",
+    "status": 200,
+    "final_url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+    "bytes": 60268,
+    "sha256": "ece5d66fb5aef54174b6c942844da6ad96735116cbe5a52c06ed322e486f9535",
+    "date_meta": [
+      {
+        "data-rh": "true",
+        "property": "article:published_time",
+        "content": "2026-11-26T00:00:00.000Z"
+      }
+    ],
+    "jsonld": [
+      "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://techstackups.com/articles/google-workspace-ai-agents-mcp\",\"mainEntityOfPage\":\"https://techstackups.com/articles/google-workspace-ai-agents-mcp\",\"url\":\"https://techstackups.com/articles/google-workspace-ai-agents-mcp\",\"headline\":\"Google Will Make AI Agents Use Its Workspace MCP Servers. The Gmail One Can't Send Email\",\"name\":\"Google Will Make AI Agents Use Its Workspace MCP Servers. The Gmail One Can't Send Email\",\"description\":\"From February 2027, Google's terms require AI agents to reach Gmail, Drive and the rest of Workspace through Google's own MCP servers. What the rule says, what the servers can and can't do, and what to change before the deadline.\",\"datePublished\":\"2026-11-26T00:00:00.000Z\",\"dateModified\":\"2026-11-26T09:35:52.000Z\",\"author\":{\"@type\":\"Person\",\"name\":\"Al Smith\",\"description\":\"AI agent writer at Ritza\",\"url\":\"/authors/alsmith/\",\"image\":\"/img/authors/alsmith.jpg\"},\"image\":{\"@type\":\"ImageObject\",\"@id\":\"https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg\",\"url\":\"https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg\",\"contentUrl\":\"https://techstackups.com/img/articles/google-workspace-agent-api/cover.jpg\",\"caption\":\"title image for the blog post: Google Will Make AI Agents Use Its Workspace MCP Servers. The Gmail One Can't Send Email\"},\"keywords\":[\"Google Workspace MCP\",\"Gmail MCP\",\"Drive MCP\",\"Workspace AI Tools Addendum\",\"Gmail API\",\"AI agents\",\"MCP\",\"gwscli\",\"agentic OAuth client\",\"Google API terms\"],\"isPartOf\":{\"@type\":\"Blog\",\"@id\":\"https://techstackups.com/articles\",\"name\":\"Articles\"}}",
+      "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://techstackups.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Articles\",\"item\":\"https://techstackups.com/articles/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Google Will Make AI Agents Use Its Workspace MCP Servers. The Gmail One Can't Send Email\",\"item\":\"https://techstackups.com/articles/google-workspace-ai-agents-mcp\"}]}"
+    ],
+    "links": [
+      {
+        "text": "quota page",
+        "url": "https://developers.google.com/workspace/gmail/api/guides/quotas"
+      },
+      {
+        "text": "Workspace AI Tools Addendum",
+        "url": "https://workspace.google.com/terms/ai-tools"
+      },
+      {
+        "text": "held to Standard-tier quotas",
+        "url": "https://developers.google.com/workspace/tools-safety"
+      }
+    ]
+  },
+  {
+    "key": "uber",
+    "url": "https://www.uber.com/blog/how-uber-evals-1-million-agent-skill-invocations-a-month/",
+    "fetched_at": "2026-11-27T13:07:28.878096+00:00",
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "key": "rocket",
+    "url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+    "fetched_at": "2026-11-27T13:07:29.062483+00:00",
+    "status": 200,
+    "final_url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+    "bytes": 846468,
+    "sha256": "eb8efb098bb6f384505cd11742f0b45055f7b7c75f898eac8b9796ef9def2fbf",
+    "date_meta": [
+      {
+        "property": "article:modified_time",
+        "content": "2026-11-24T14:25:56+00:00"
+      }
+    ],
+    "jsonld": [
+      "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/\",\"url\":\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/\",\"name\":\"RL infrastructure at Microsoft AI | Microsoft AI\",\"isPartOf\":{\"@id\":\"https:\\/\\/microsoft.ai\\/#website\"},\"datePublished\":\"2026-11-23T17:24:32+00:00\",\"dateModified\":\"2026-11-24T14:25:56+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/microsoft.ai\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"RL infrastructure at Microsoft AI\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/microsoft.ai\\/#website\",\"url\":\"https:\\/\\/microsoft.ai\\/\",\"name\":\"Microsoft AI\",\"description\":\"We make responsible AI to empower people&#039;s lives.\",\"publisher\":{\"@id\":\"https:\\/\\/microsoft.ai\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/microsoft.ai\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/microsoft.ai\\/#organization\",\"name\":\"Microsoft AI\",\"url\":\"https:\\/\\/microsoft.ai\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/microsoft.ai\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/microsoft.ai\\/wp-content\\/uploads\\/2025\\/10\\/image-1.jpeg\",\"contentUrl\":\"https:\\/\\/microsoft.ai\\/wp-content\\/uploads\\/2025\\/10\\/image-1.jpeg\",\"width\":1201,\"height\":628,\"caption\":\"Microsoft AI\"},\"image\":{\"@id\":\"https:\\/\\/microsoft.ai\\/#\\/schema\\/logo\\/image\\/\"}}]}"
+    ]
+  },
+  {
+    "key": "harvey",
+    "url": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models",
+    "fetched_at": "2026-11-27T13:07:29.062636+00:00",
+    "status": 200,
+    "final_url": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models",
+    "bytes": 615493,
+    "sha256": "8027a1536cd6dda61520707c98710b9847f25057d8072d0fadd1853ddddb1ee4",
+    "date_meta": [],
+    "jsonld": [
+      "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Corporation\",\"@id\":\"https://www.harvey.ai/#organization\",\"name\":\"Harvey\",\"legalName\":\"Harvey AI Corporation\",\"url\":\"https://www.harvey.ai/\",\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://www.harvey.ai/#logo\",\"url\":\"https://www.harvey.ai/downloadable/press/harvey_logo.svg\",\"contentUrl\":\"https://www.harvey.ai/downloadable/press/harvey_logo.svg\",\"caption\":\"Harvey\"},\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"201 3rd St, Suite 600\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94103\",\"addressCountry\":\"US\"},\"foundingDate\":\"2022\",\"sameAs\":[\"https://x.com/harvey\",\"https://www.linkedin.com/company/harvey-ai/\",\"https://www.youtube.com/@harvey-ai\",\"https://www.instagram.com/askharvey/\",\"https://en.wikipedia.org/wiki/Harvey_(software)\",\"https://www.wikidata.org/wiki/Q132249659\"]},{\"@type\":\"WebSite\",\"@id\":\"https://www.harvey.ai/#website\",\"url\":\"https://www.harvey.ai/\",\"name\":\"Harvey\",\"publisher\":{\"@id\":\"https://www.harvey.ai/#organization\"},\"inLanguage\":\"en-US\"}]}",
+      "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#webpage\",\"url\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models\",\"name\":\"Pushing the US Open-Weight Frontier\",\"description\":\"Applying the Harvey Tenet training recipe to US open-weight models.\",\"isPartOf\":{\"@id\":\"https://www.harvey.ai/#website\"},\"breadcrumb\":{\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.harvey.ai/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.harvey.ai/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Pushing the US Open-Weight Frontier\"}]},{\"@type\":\"BlogPosting\",\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#post\",\"headline\":\"Pushing the US Open-Weight Frontier\",\"author\":[{\"@type\":\"Organization\",\"name\":\"Harvey Research\",\"url\":\"https://www.harvey.ai/\"}],\"articleSection\":[\"Technical\"],\"isPartOf\":{\"@id\":\"https://www.harvey.ai/blog#blog\"},\"datePublished\":\"2026-11-24T15:58:00.000Z\",\"dateModified\":\"2026-11-24T15:58:00.000Z\",\"image\":[\"https://cdn.sanity.io/images/07s0r5r6/production/c80fa581bc151e884532795b38ae556f380392d0-2400x1350.png?w=1200&h=675&fm=jpg&q=95&fit=crop\",\"https://cdn.sanity.io/images/07s0r5r6/production/c80fa581bc151e884532795b38ae556f380392d0-2400x1350.png?rect=300,0,1800,1350&w=1200&h=900&fm=jpg&q=95&fit=crop\",\"https://cdn.sanity.io/images/07s0r5r6/production/c80fa581bc151e884532795b38ae556f380392d0-2400x1350.png?rect=525,0,1350,1350&w=1200&h=1200&fm=jpg&q=95&fit=crop\"],\"description\":\"Applying the Harvey Tenet training recipe to US open-weight models.\",\"url\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models\",\"publisher\":{\"@id\":\"https://www.harvey.ai/#organization\"},\"mainEntityOfPage\":{\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#webpage\"}}]}"
+    ]
+  },
+  {
+    "key": "claude",
+    "url": "https://claude.com/resources/articles/introducing-claude-ship",
+    "fetched_at": "2026-11-27T13:07:29.062703+00:00",
+    "status": 200,
+    "final_url": "https://claude.com/resources/articles/introducing-claude-ship",
+    "bytes": 562838,
+    "sha256": "f1d3862199a367bb70f588d1b70c0e6b3fd1021b9766b217ca12e9d3d786a550",
+    "date_meta": [
+      {
+        "property": "article:published_time",
+        "content": "2026-11-23"
+      }
+    ],
+    "jsonld": [
+      "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"@id\":\"https://claude.com/#website\",\"name\":\"Claude\",\"url\":\"https://claude.com\",\"publisher\":{\"@id\":\"https://www.anthropic.com/#organization\"}},{\"@type\":\"Organization\",\"@id\":\"https://www.anthropic.com/#organization\",\"name\":\"Anthropic\",\"legalName\":\"Anthropic PBC\",\"url\":\"https://www.anthropic.com\",\"logo\":\"https://claude.com/icon.png\",\"sameAs\":[\"https://www.anthropic.com\",\"https://en.wikipedia.org/wiki/Anthropic\",\"https://www.linkedin.com/company/anthropicresearch\",\"https://x.com/AnthropicAI\",\"https://github.com/anthropics\",\"https://www.youtube.com/@anthropic-ai\"]},{\"@type\":\"Brand\",\"@id\":\"https://claude.com/#brand\",\"name\":\"Claude\",\"url\":\"https://claude.com\",\"sameAs\":[\"https://x.com/claudeai\",\"https://www.linkedin.com/showcase/claude/\",\"https://www.instagram.com/claudeai\",\"https://www.youtube.com/@claude\"]}]}",
+      "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Introducing Claude Ship\",\"description\":\"Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.\",\"datePublished\":\"2026-11-23\",\"url\":\"https://claude.com/resources/articles/introducing-claude-ship\",\"mainEntityOfPage\":\"https://claude.com/resources/articles/introducing-claude-ship\",\"inLanguage\":\"en\",\"publisher\":{\"@type\":\"Organization\",\"@id\":\"https://www.anthropic.com/#organization\",\"name\":\"Anthropic\"}}",
+      "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Resources\",\"item\":\"https://claude.com/resources\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Articles\",\"item\":\"https://claude.com/resources/articles\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Introducing Claude Ship\"}]}"
+    ]
+  },
+  {
+    "key": "working",
+    "url": "https://www.anthropic.com/research/working-with-ai",
+    "fetched_at": "2026-11-27T13:07:29.088260+00:00",
+    "status": 200,
+    "final_url": "https://www.anthropic.com/research/working-with-ai",
+    "bytes": 287072,
+    "sha256": "046e543b2a42e1773a41e55f442b7054e90e040b7ee224aa0768ca087f205b13",
+    "date_meta": [
+      {
+        "property": "article:published_time",
+        "content": "2026-11-23T00:00:00.000Z"
+      },
+      {
+        "property": "article:modified_time",
+        "content": "2026-11-23T22:13:27.525Z"
+      }
+    ],
+    "jsonld": [
+      "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Working with AI\",\"description\":\"We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.\",\"image\":[\"https://assets.claude.com/cd30ce2e82eb423476801098073b39e025839018.jpg\"],\"datePublished\":\"2026-11-23T00:00:00.000Z\",\"dateModified\":\"2026-11-23T22:13:27.525Z\",\"author\":{\"@type\":\"Organization\",\"name\":\"Anthropic\",\"url\":\"https://www.anthropic.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Anthropic\",\"url\":\"https://www.anthropic.com\"},\"mainEntityOfPage\":\"https://www.anthropic.com/research/working-with-ai\",\"url\":\"https://www.anthropic.com/research/working-with-ai\"}"
+    ]
+  },
+  {
+    "key": "wsj",
+    "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420",
+    "fetched_at": "2026-11-27T13:07:29.206745+00:00",
+    "error": "HTTP Error 401: HTTP Forbidden"
+  },
+  {
+    "key": "cs-ai",
+    "url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+    "fetched_at": "2026-11-27T13:07:29.223891+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+    "bytes": 2549694,
+    "sha256": "5ca0960c2b41b42c463c6a95d779359550e3af4fc700d25ec1a5bb960437659d",
+    "date_meta": [],
+    "jsonld": []
+  },
+  {
+    "key": "cs-cl",
+    "url": "https://arxiv.org/list/cs.CL/pastweek?show=2000",
+    "fetched_at": "2026-11-27T13:07:29.265926+00:00",
+    "status": 200,
+    "final_url": "https://arxiv.org/list/cs.CL/pastweek?show=2000",
+    "bytes": 1066310,
+    "sha256": "521bdbb3686586853214ad0847fd2842f403cd19579529e1b2df4af5b050d389",
+    "date_meta": [],
+    "jsonld": []
+  },
+  {
+    "key": "schedule",
+    "url": "https://info.arxiv.org/help/availability.html",
+    "fetched_at": "2026-11-27T13:07:29.397455+00:00",
+    "status": 200,
+    "final_url": "https://info.arxiv.org/help/availability.html",
+    "bytes": 90929,
+    "sha256": "e054afc2f04462318839cc5eca7d42843dbb5161ce7a791dde2e1f586d29a990",
+    "date_meta": [],
+    "jsonld": []
+  },
+  {
+    "key": "uber-linked",
+    "url": "https://x.com/UberEng/status/2125008806249930999?s=19",
+    "checked_at": "2026-11-27T13:10:13.845463+00:00",
+    "status": 200,
+    "sha256": "6acdf872088b0b6f4f260483f5f14bf29e80397099ab9681821e1dc65fb43032"
+  },
+  {
+    "key": "wsj-retry",
+    "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420",
+    "checked_at": "2026-11-27T13:10:14.330211+00:00",
+    "error": "HTTP Error 401: HTTP Forbidden"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "command": [
+      ".venv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests"
+    ],
+    "started_at": "2026-11-27T13:12:07.514171+00:00",
+    "finished_at": "2026-11-27T13:12:07.975802+00:00",
+    "exit_code": 0,
+    "stdout": "{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T12:00:00Z\"}\n{\"curated\": 1, \"top\": 1, \"wire\": 1, \"checked_at\": \"2026-10-24T13:00:00Z\"}\n",
+    "stderr": "............................................\n----------------------------------------------------------------------\nRan 44 tests in 0.348s\n\nOK\n"
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "scripts/publish.py",
+      "validate"
+    ],
+    "started_at": "2026-11-27T13:12:07.976057+00:00",
+    "finished_at": "2026-11-27T13:12:08.221618+00:00",
+    "exit_code": 0,
+    "stdout": "Validated 28 editions and 93 complete researched stories.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "bundle",
+      "exec",
+      "jekyll",
+      "build",
+      "--strict_front_matter"
+    ],
+    "started_at": "2026-11-27T13:12:08.228548+00:00",
+    "finished_at": "2026-11-27T13:12:09.257343+00:00",
+    "exit_code": 0,
+    "stdout": "Configuration file: /Users/tedtschopp/Developer/yesterdai-daily-20261127/_config.yml\n            Source: /Users/tedtschopp/Developer/yesterdai-daily-20261127\n       Destination: /Users/tedtschopp/Developer/yesterdai-daily-20261127/_site\n Incremental build: disabled. Enable with --incremental\n      Generating... \n                    done in 0.552 seconds.\n Auto-regeneration: disabled. Use --watch to enable.\n",
+    "stderr": "`/Users/tedtschopp` is not writable.\nBundler will use `/var/folders/rl/w92r_6tx4dx3m6mpp07y2tc00000gn/T/bundler20261127-28575-u8jn1e28575' as your home directory temporarily.\n"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "index"
+    ],
+    "started_at": "2026-11-27T13:12:09.257567+00:00",
+    "finished_at": "2026-11-27T13:12:09.585114+00:00",
+    "exit_code": 0,
+    "stdout": "\n> index\n> pagefind --site _site --glob 'articles/**/index.html'\n\n\nRunning Pagefind v1.5.2 (Extended)\nRunning from: \"/Users/tedtschopp/Developer/yesterdai-daily-20261127\"\nSource:       \"_site\"\nOutput:       \"_site/pagefind\"\n\n[Walking source directory]\nFound 93 files matching articles/**/index.html\n\n[Parsing files]\nFound a data-pagefind-body element on the site.\n\u21b3 Ignoring pages without this tag.\n\n[Reading languages]\nDiscovered 1 language: en\n\n[Building search indexes]\nTotal: \n  Indexed 1 language\n  Indexed 93 pages\n  Indexed 3987 words\n  Indexed 2 filters\n  Indexed 0 sorts\n\nFinished in 0.060 seconds\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv/bin/python",
+      "scripts/check_site.py"
+    ],
+    "started_at": "2026-11-27T13:12:09.585332+00:00",
+    "finished_at": "2026-11-27T13:12:10.404607+00:00",
+    "exit_code": 0,
+    "stdout": "Checked 134 HTML pages, internal links, accessibility metadata, feeds, and sitemap; 4.6 MB.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "test:smoke"
+    ],
+    "started_at": "2026-11-27T13:12:10.404909+00:00",
+    "finished_at": "2026-11-27T13:12:10.811501+00:00",
+    "exit_code": 0,
+    "stdout": "\n> test:smoke\n> node --test tests/js/*.test.mjs && node scripts/publication-smoke.mjs\n\n\u2714 the current edition stays quiet and the prior one gets a grace period (10.206084ms)\n\u2714 the seven-am deadline follows both DST transitions (0.338125ms)\n\u2714 midnight does not warn about an edition that is not due yet (0.407334ms)\n\u2714 recent successful checks stay quiet even if the content was unchanged (0.141792ms)\n\u2139 tests 4\n\u2139 suites 0\n\u2139 pass 4\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 105.762792\nStatic publication smoke passed: client syntax, stable search identities, Pagefind bundle, and pinned fonts.\nInteractive browser, accessibility, and visual checks run as the GitHub deployment gate.\n",
+    "stderr": ""
+  }
+]

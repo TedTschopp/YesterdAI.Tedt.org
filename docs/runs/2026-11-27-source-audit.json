@@ -1,0 +1,438 @@
+{
+  "recorded_at": "2026-11-27T13:12:07.383856Z",
+  "reader_contract_version": "2.0.3",
+  "article_contract": 2,
+  "writing_style": {
+    "name": "ted-writing-style",
+    "version": "1.0.0",
+    "mode": "technology/strategy",
+    "editing_pass_completed": true
+  },
+  "headline_rule": "Current explicit user instruction: AP sentence-style capitalization. Checked-in title-case policy and historical titles preserved.",
+  "cutoff": "2026-11-27T05:00:00-08:00",
+  "window_start": "2026-11-26T01:00:00Z",
+  "prepared_at": "2026-11-27T13:12:07.383856Z",
+  "base_sha": "51d5ca9a15fbd60373a45c61433e6cf1d90d381f",
+  "worktree": "/Users/tedtschopp/Developer/yesterdai-daily-20261127",
+  "branch": "codex/daily-2026-11-27",
+  "feeds": {
+    "checked_at": "2026-11-27T13:06:17.075891Z",
+    "usable_counts": {
+      "curated": 238,
+      "top": 80
+    },
+    "ingestion_exclusions": {
+      "curated": [],
+      "top": []
+    },
+    "snapshot": "docs/runs/2026-11-27-feed-snapshot.json"
+  },
+  "inventory": {
+    "total_records": 318,
+    "detailed_developments_reviewed": 11,
+    "decisions": {
+      "excluded_outside_window": 6,
+      "excluded_seven_day_duplicate": 1,
+      "excluded_source_unavailable": 1,
+      "selected": 3
+    }
+  },
+  "deduplication": {
+    "preceding_editions": 7,
+    "dates": [
+      "2026-11-20",
+      "2026-11-21",
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-24",
+      "2026-11-25",
+      "2026-11-26"
+    ],
+    "complete_article_records_read": 22,
+    "includes_unpublished_checkpoints": true,
+    "prior_records": [
+      {
+        "article_id": "art_fa5917e879d29a8b",
+        "title": "Anthropic ends its first trading day above the IPO price",
+        "edition_date": "2026-11-20",
+        "story_key": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/anthropic-first-trading-day-close.md"
+      },
+      {
+        "article_id": "art_9e4af9d275e6eeca",
+        "title": "CANDID challenges desktop agents before they declare work finished",
+        "edition_date": "2026-11-20",
+        "story_key": "https://arxiv.org/abs/2611.24977",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/candid-local-desktop-agent-completion-gate.md"
+      },
+      {
+        "article_id": "art_9b679c847be9d578",
+        "title": "Token scores help identify which AI labels need review",
+        "edition_date": "2026-11-20",
+        "story_key": "https://arxiv.org/abs/2611.25289",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/classifier-confidence-token-scores-review-routing.md"
+      },
+      {
+        "article_id": "art_5ffc351eba205ee2",
+        "title": "A financial agent can verify numbers for the wrong company",
+        "edition_date": "2026-11-20",
+        "story_key": "https://arxiv.org/abs/2611.25071",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/finveriqa-independent-evidence-company-checks.md"
+      },
+      {
+        "article_id": "art_7b5522d641a8a9e9",
+        "title": "HireWatch tests how workplace pressure changes AI interview questions",
+        "edition_date": "2026-11-20",
+        "story_key": "https://arxiv.org/abs/2611.24970",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261120/_articles/hirewatch-interview-questions-organizational-pressure.md"
+      },
+      {
+        "article_id": "art_a922c12b8689a6b2",
+        "title": "Assistant memories need a way to expire",
+        "edition_date": "2026-11-21",
+        "story_key": "https://arxiv.org/abs/2611.25235",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261121/_articles/assistant-memory-expiration-learned-controller.md"
+      },
+      {
+        "article_id": "art_bbbd5dc4f59caab2",
+        "title": "An event reader can leave state tracking to a register",
+        "edition_date": "2026-11-21",
+        "story_key": "https://arxiv.org/abs/2611.25211",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261121/_articles/event-readers-exact-state-register.md"
+      },
+      {
+        "article_id": "art_2b317a62d713570d",
+        "title": "NextUnit-Bench tests model builders on equipment they have not seen",
+        "edition_date": "2026-11-21",
+        "story_key": "https://arxiv.org/abs/2611.25252",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261121/_articles/nextunit-bench-maintenance-model-builders.md"
+      },
+      {
+        "article_id": "art_adc69365bcb6d7ff",
+        "title": "AiDotNet replaces temporary vectors in a costly training loop",
+        "edition_date": "2026-11-22",
+        "story_key": "https://github.com/ooples/AiDotNet/pull/2612",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261122/_articles/aidotnet-histogram-training-allocation-fix.md"
+      },
+      {
+        "article_id": "art_ecfc027c8d3ea97c",
+        "title": "Muru’s new alpha changes how served files are opened",
+        "edition_date": "2026-11-22",
+        "story_key": "https://github.com/muruhq/muru/releases/tag/v0.1.0-alpha.34",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261122/_articles/muru-alpha-file-serving-boundary.md"
+      },
+      {
+        "article_id": "art_df4811993c7b853f",
+        "title": "A correct approval can mislead an agent’s next decision",
+        "edition_date": "2026-11-23",
+        "story_key": "https://arxiv.org/abs/2611.27216",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261123/_articles/correct-precedents-agent-permission-carryover.md"
+      },
+      {
+        "article_id": "art_b3dd5830b7fd0237",
+        "title": "Financial drafts can copy the numbers and invent the explanation",
+        "edition_date": "2026-11-23",
+        "story_key": "https://arxiv.org/abs/2611.26968",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261123/_articles/framecheck-financial-drafts-unsupported-causes.md"
+      },
+      {
+        "article_id": "art_14dcac9f333a385d",
+        "title": "ToRA shares model computation with a streaming safety checker",
+        "edition_date": "2026-11-23",
+        "story_key": "https://arxiv.org/abs/2611.26975",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261123/_articles/tora-shared-model-streaming-safety.md"
+      },
+      {
+        "article_id": "art_3c6568122962981f",
+        "title": "PULSE tests whether an agent knows what work remains open",
+        "edition_date": "2026-11-24",
+        "story_key": "https://arxiv.org/abs/2611.28374",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261124/_articles/pulse-enterprise-project-state-benchmark.md"
+      },
+      {
+        "article_id": "art_4f81071420d385cd",
+        "title": "Coding-agent training needs tests that reward the right fix",
+        "edition_date": "2026-11-24",
+        "story_key": "https://arxiv.org/abs/2611.30207",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261124/_articles/swe-gym-audit-coding-agent-reward-labels.md"
+      },
+      {
+        "article_id": "art_9936cfef39212e87",
+        "title": "AI judges can choose winners their rubrics do not support",
+        "edition_date": "2026-11-24",
+        "story_key": "https://arxiv.org/abs/2611.28940",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261124/_articles/tradeoffbench-llm-judges-unstated-rules.md"
+      },
+      {
+        "article_id": "art_9186f9efe7b3fd4b",
+        "title": "CivilTime-Bench separates a valid timestamp from a correct answer",
+        "edition_date": "2026-11-25",
+        "story_key": "https://arxiv.org/abs/2611.29972",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261125/_articles/civiltime-bench-calendar-answer-correctness.md"
+      },
+      {
+        "article_id": "art_571d403a33bb8b92",
+        "title": "Chat adaptation can preserve an attacker’s influence between turns",
+        "edition_date": "2026-11-25",
+        "story_key": "https://arxiv.org/abs/2611.29532",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261125/_articles/conversational-learning-session-adapter-poisoning.md"
+      },
+      {
+        "article_id": "art_3c8e329cde91a369",
+        "title": "NoeVera keeps serving experiments tied to their tested conditions",
+        "edition_date": "2026-11-25",
+        "story_key": "https://arxiv.org/abs/2611.29255",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261125/_articles/noevera-serving-experiments-scoped-evidence.md"
+      },
+      {
+        "article_id": "art_07faf2fc1a583cf3",
+        "title": "An image comparison can succeed without comparing images",
+        "edition_date": "2026-11-26",
+        "story_key": "https://arxiv.org/abs/2611.32316",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261126/_articles/asterism-multi-image-reasoning-shortcuts.md"
+      },
+      {
+        "article_id": "art_77b97ec96375532d",
+        "title": "A confidence gate needs more than a reassuring score",
+        "edition_date": "2026-11-26",
+        "story_key": "https://arxiv.org/abs/2611.33394",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261126/_articles/confidence-gates-automation-distribution-shift.md"
+      },
+      {
+        "article_id": "art_26ec0c2b091305ef",
+        "title": "LEGOSpec separates better drafts from faster model serving",
+        "edition_date": "2026-11-26",
+        "story_key": "https://arxiv.org/abs/2611.33004",
+        "path": "/Users/tedtschopp/Developer/yesterdai-daily-20261126/_articles/legospec-draft-acceptance-and-serving-speed.md"
+      }
+    ]
+  },
+  "target": {
+    "minimum": 3,
+    "maximum": 5,
+    "selected": 3,
+    "shortfall": 0,
+    "quick_hits_count": 0,
+    "stop_reason": "Three distinct supported articles reached after research in both feeds; viable candidates not exhausted. Remaining inventory is unreviewed, not verified eligible or excluded."
+  },
+  "reviews": [
+    {
+      "status": "selected",
+      "url": "https://arxiv.org/abs/2611.33402",
+      "reason": "Distinct supported research development; initial public announcement verified at the inclusive window start.",
+      "article_id": "art_67c9e709c0576805"
+    },
+    {
+      "status": "selected",
+      "url": "https://arxiv.org/abs/2611.33943",
+      "reason": "Distinct supported research development; initial public announcement verified at the inclusive window start.",
+      "article_id": "art_f5160be78c9a6a70"
+    },
+    {
+      "status": "selected",
+      "url": "https://arxiv.org/abs/2611.33497",
+      "reason": "Distinct supported research development; initial public announcement verified at the inclusive window start.",
+      "article_id": "art_8b957f41f9e04790"
+    },
+    {
+      "status": "excluded_outside_window",
+      "url": "https://x.com/UberEng/status/2125008806249930999?s=19",
+      "original_published_at": "2026-11-23T23:29:14.000Z",
+      "modified_at": null,
+      "reason": "Original publication and any verified update precede the reporting window.",
+      "evidence_file": "2026-11-27-source-fetch.json",
+      "source_key": "uber-linked"
+    },
+    {
+      "status": "excluded_outside_window",
+      "url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "original_published_at": "2026-11-23T17:24:32+00:00",
+      "modified_at": "2026-11-24T14:25:56+00:00",
+      "reason": "Original publication and any verified update precede the reporting window.",
+      "evidence_file": "2026-11-27-source-fetch.json",
+      "source_key": "rocket"
+    },
+    {
+      "status": "excluded_outside_window",
+      "url": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models",
+      "original_published_at": "2026-11-24T15:58:00.000Z",
+      "modified_at": "2026-11-24T15:58:00.000Z",
+      "reason": "Original publication and any verified update precede the reporting window.",
+      "evidence_file": "2026-11-27-source-fetch.json",
+      "source_key": "harvey"
+    },
+    {
+      "status": "excluded_outside_window",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "original_published_at": "2026-11-23",
+      "modified_at": null,
+      "reason": "Original publication and any verified update precede the reporting window.",
+      "evidence_file": "2026-11-27-source-fetch.json",
+      "source_key": "claude"
+    },
+    {
+      "status": "excluded_outside_window",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "original_published_at": "2026-11-23T00:00:00.000Z",
+      "modified_at": "2026-11-23T22:13:27.525Z",
+      "reason": "Original publication and any verified update precede the reporting window.",
+      "evidence_file": "2026-11-27-source-fetch.json",
+      "source_key": "working"
+    },
+    {
+      "status": "excluded_outside_window",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "original_published_at": "2026-11-26T00:00:00.000Z",
+      "modified_at": "2026-11-26T09:35:52.000Z",
+      "reason": "Original publication metadata is one hour before the window; a modification timestamp without a verified substantive change cannot establish eligibility.",
+      "evidence_file": "2026-11-27-source-fetch.json",
+      "source_key": "workspace"
+    },
+    {
+      "status": "excluded_source_unavailable",
+      "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420",
+      "reason": "Two original-source attempts returned HTTP 401/Forbidden. Two curated records coalesced to one development; feed summaries do not replace source access."
+    },
+    {
+      "status": "excluded_seven_day_duplicate",
+      "url": "https://arxiv.org/abs/2611.33394",
+      "reason": "Confidence gates were covered in the completed November 26 edition; a later ranked-feed timestamp is not a new development.",
+      "prior_article_id": "art_77b97ec96375532d"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "partial-routing-cost-and-waiting",
+      "article_id": "art_67c9e709c0576805",
+      "title": "Partial routing changes the cost of agent handoffs",
+      "words": 308,
+      "reading_minutes": 2,
+      "format": "brief",
+      "hero_decision": "No new image: focused brief selected before drafting; no generation attempted",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.33402",
+          "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "submitted_at": "2026-11-24T20:23:53Z",
+          "kind": "preprint"
+        },
+        {
+          "url": "https://arxiv.org/html/2611.33402v1",
+          "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows — full paper, version 1",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "kind": "preprint"
+        }
+      ],
+      "eligibility": {
+        "url": "https://arxiv.org/abs/2611.33402",
+        "published_at": "2026-11-26T01:00:00Z",
+        "submitted_at": "2026-11-24T20:23:53Z",
+        "precision": "second",
+        "verification": "visible",
+        "timestamp_url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+        "evidence": "The Thu, 26 Nov 2026 (showing 248 of 248 entries ) primary cs.AI listing includes 2611.33402 as entry 68, with no cross-list or replacement marker. The official availability schedule at https://info.arxiv.org/help/availability.html establishes Wednesday 20:00 America/New_York announcement, equivalent to 2026-11-26T01:00:00Z. This is the inclusive start of this edition’s window. The Thursday Thanksgiving holiday does not move the preceding Wednesday announcement. Earlier deposit and later feed timestamps are recorded separately and are not used as publication evidence.",
+        "verified_at": "2026-11-27T13:12:07.383856Z",
+        "event": "public_announcement"
+      },
+      "tldr": "Partial Routing improved agent scores, but one test took 69 minutes instead of 14. Compare token spending with the time to acceptable completion."
+    },
+    {
+      "slug": "skillsbench-gating-and-test-noise",
+      "article_id": "art_f5160be78c9a6a70",
+      "title": "A skill-loading gate can score its own good luck",
+      "words": 305,
+      "reading_minutes": 2,
+      "format": "brief",
+      "hero_decision": "No new image: focused brief selected before drafting; no generation attempted",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.33943",
+          "title": "What Does Skill Lift Actually Measure? A Source-Code-Level Audit and Noise-Aware Reanalysis of SkillsBench",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "submitted_at": "2026-11-25T08:02:04Z",
+          "kind": "preprint"
+        },
+        {
+          "url": "https://arxiv.org/html/2611.33943v1",
+          "title": "What Does Skill Lift Actually Measure? A Source-Code-Level Audit and Noise-Aware Reanalysis of SkillsBench — full paper, version 1",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "kind": "preprint"
+        }
+      ],
+      "eligibility": {
+        "url": "https://arxiv.org/abs/2611.33943",
+        "published_at": "2026-11-26T01:00:00Z",
+        "submitted_at": "2026-11-25T08:02:04Z",
+        "precision": "second",
+        "verification": "visible",
+        "timestamp_url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+        "evidence": "The Thu, 26 Nov 2026 (showing 248 of 248 entries ) primary cs.AI listing includes 2611.33943 as entry 32, with no cross-list or replacement marker. The official availability schedule at https://info.arxiv.org/help/availability.html establishes Wednesday 20:00 America/New_York announcement, equivalent to 2026-11-26T01:00:00Z. This is the inclusive start of this edition’s window. The Thursday Thanksgiving holiday does not move the preceding Wednesday announcement. Earlier deposit and later feed timestamps are recorded separately and are not used as publication evidence.",
+        "verified_at": "2026-11-27T13:12:07.383856Z",
+        "event": "public_announcement"
+      },
+      "tldr": "Skill-loading rules appeared useful even with shuffled labels. Keep the runs used to choose a policy separate from the work used to score it."
+    },
+    {
+      "slug": "carag-required-clause-evidence",
+      "article_id": "art_8b957f41f9e04790",
+      "title": "CA-RAG links evidence retrieval to a document’s required clauses",
+      "words": 312,
+      "reading_minutes": 2,
+      "format": "brief",
+      "hero_decision": "No new image: focused brief selected before drafting; no generation attempted",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.33497",
+          "title": "CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "submitted_at": "2026-11-24T22:18:26Z",
+          "kind": "preprint"
+        },
+        {
+          "url": "https://arxiv.org/html/2611.33497v1",
+          "title": "CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation — full paper, version 1",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "kind": "preprint"
+        }
+      ],
+      "eligibility": {
+        "url": "https://arxiv.org/abs/2611.33497",
+        "published_at": "2026-11-26T01:00:00Z",
+        "submitted_at": "2026-11-24T22:18:26Z",
+        "precision": "second",
+        "verification": "visible",
+        "timestamp_url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+        "evidence": "The Thu, 26 Nov 2026 (showing 248 of 248 entries ) primary cs.AI listing includes 2611.33497 as entry 65, with no cross-list or replacement marker. The official availability schedule at https://info.arxiv.org/help/availability.html establishes Wednesday 20:00 America/New_York announcement, equivalent to 2026-11-26T01:00:00Z. This is the inclusive start of this edition’s window. The Thursday Thanksgiving holiday does not move the preceding Wednesday announcement. Earlier deposit and later feed timestamps are recorded separately and are not used as publication evidence.",
+        "verified_at": "2026-11-27T13:12:07.383856Z",
+        "event": "public_announcement"
+      },
+      "tldr": "CA-RAG improved relevance while missing some clause evidence. Check support for each required clause before judging the finished prose."
+    }
+  ],
+  "format_decision": "Three focused briefs chosen before drafting. No analysis quota, new heroes or image-generation attempts. Existing heroes and published edition membership are preserved.",
+  "publication": {
+    "status": "All six deterministic stages and local readback passed; committed checkpoint and guarded ship pending",
+    "published_urls": [],
+    "required_action": "Complete deterministic preflight, commit editorial work, ship with the unmodified publisher and verify the exact pushed deployment and public URLs."
+  },
+  "preflight": {
+    "stages": 6,
+    "passed": true,
+    "python_tests": 44,
+    "editions": 28,
+    "articles": 93,
+    "pagefind_articles": 93,
+    "html_pages": 134,
+    "javascript_tests": 4,
+    "local_readback_checks": 556,
+    "protected_article_edition_image_blobs": 145,
+    "retained_images": 28
+  }
+}

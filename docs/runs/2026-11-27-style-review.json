@@ -1,0 +1,151 @@
+{
+  "reviewed_at": "2026-11-27T13:12:07.383856Z",
+  "skill": "/Users/tedtschopp/.agents/skills/ted-writing-style/SKILL.md",
+  "version": "1.0.0",
+  "mode": "technology/strategy",
+  "references": [
+    "style-profile.md",
+    "calibration-examples.md"
+  ],
+  "editing_pass": [
+    "Concrete openings connect each finding to a decision.",
+    "Delegation separates token charges, quality, plan-only effects and waiting time.",
+    "Skill-gating copy distinguishes noisy replay, retrospective held-out checks and a prospective experiment.",
+    "CA-RAG preserves adverse finance evidence, stronger generation-only clause coverage and a nonsignificant aggregate comparison.",
+    "Removed two unnecessary semicolons; read complete bodies for rhythm, attribution and earned practical endings.",
+    "AP sentence-style titles reviewed manually. No invented Ted testimony, review, reproduction or deployment; existing publication byline and footer/About disclosure preserved."
+  ],
+  "articles": [
+    {
+      "slug": "partial-routing-cost-and-waiting",
+      "article_id": "art_67c9e709c0576805",
+      "title": "Partial routing changes the cost of agent handoffs",
+      "words": 308,
+      "reading_minutes": 2,
+      "format": "brief",
+      "hero_decision": "No new image: focused brief selected before drafting; no generation attempted",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.33402",
+          "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "submitted_at": "2026-11-24T20:23:53Z",
+          "kind": "preprint"
+        },
+        {
+          "url": "https://arxiv.org/html/2611.33402v1",
+          "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows — full paper, version 1",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "kind": "preprint"
+        }
+      ],
+      "eligibility": {
+        "url": "https://arxiv.org/abs/2611.33402",
+        "published_at": "2026-11-26T01:00:00Z",
+        "submitted_at": "2026-11-24T20:23:53Z",
+        "precision": "second",
+        "verification": "visible",
+        "timestamp_url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+        "evidence": "The Thu, 26 Nov 2026 (showing 248 of 248 entries ) primary cs.AI listing includes 2611.33402 as entry 68, with no cross-list or replacement marker. The official availability schedule at https://info.arxiv.org/help/availability.html establishes Wednesday 20:00 America/New_York announcement, equivalent to 2026-11-26T01:00:00Z. This is the inclusive start of this edition’s window. The Thursday Thanksgiving holiday does not move the preceding Wednesday announcement. Earlier deposit and later feed timestamps are recorded separately and are not used as publication evidence.",
+        "verified_at": "2026-11-27T13:12:07.383856Z",
+        "event": "public_announcement"
+      },
+      "tldr": "Partial Routing improved agent scores, but one test took 69 minutes instead of 14. Compare token spending with the time to acceptable completion."
+    },
+    {
+      "slug": "skillsbench-gating-and-test-noise",
+      "article_id": "art_f5160be78c9a6a70",
+      "title": "A skill-loading gate can score its own good luck",
+      "words": 305,
+      "reading_minutes": 2,
+      "format": "brief",
+      "hero_decision": "No new image: focused brief selected before drafting; no generation attempted",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.33943",
+          "title": "What Does Skill Lift Actually Measure? A Source-Code-Level Audit and Noise-Aware Reanalysis of SkillsBench",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "submitted_at": "2026-11-25T08:02:04Z",
+          "kind": "preprint"
+        },
+        {
+          "url": "https://arxiv.org/html/2611.33943v1",
+          "title": "What Does Skill Lift Actually Measure? A Source-Code-Level Audit and Noise-Aware Reanalysis of SkillsBench — full paper, version 1",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "kind": "preprint"
+        }
+      ],
+      "eligibility": {
+        "url": "https://arxiv.org/abs/2611.33943",
+        "published_at": "2026-11-26T01:00:00Z",
+        "submitted_at": "2026-11-25T08:02:04Z",
+        "precision": "second",
+        "verification": "visible",
+        "timestamp_url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+        "evidence": "The Thu, 26 Nov 2026 (showing 248 of 248 entries ) primary cs.AI listing includes 2611.33943 as entry 32, with no cross-list or replacement marker. The official availability schedule at https://info.arxiv.org/help/availability.html establishes Wednesday 20:00 America/New_York announcement, equivalent to 2026-11-26T01:00:00Z. This is the inclusive start of this edition’s window. The Thursday Thanksgiving holiday does not move the preceding Wednesday announcement. Earlier deposit and later feed timestamps are recorded separately and are not used as publication evidence.",
+        "verified_at": "2026-11-27T13:12:07.383856Z",
+        "event": "public_announcement"
+      },
+      "tldr": "Skill-loading rules appeared useful even with shuffled labels. Keep the runs used to choose a policy separate from the work used to score it."
+    },
+    {
+      "slug": "carag-required-clause-evidence",
+      "article_id": "art_8b957f41f9e04790",
+      "title": "CA-RAG links evidence retrieval to a document’s required clauses",
+      "words": 312,
+      "reading_minutes": 2,
+      "format": "brief",
+      "hero_decision": "No new image: focused brief selected before drafting; no generation attempted",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2611.33497",
+          "title": "CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "submitted_at": "2026-11-24T22:18:26Z",
+          "kind": "preprint"
+        },
+        {
+          "url": "https://arxiv.org/html/2611.33497v1",
+          "title": "CA-RAG: Constraint-Aligned Retrieval for Structurally Faithful Long-Form Generation — full paper, version 1",
+          "publisher": "arXiv",
+          "published_at": "2026-11-26T01:00:00Z",
+          "kind": "preprint"
+        }
+      ],
+      "eligibility": {
+        "url": "https://arxiv.org/abs/2611.33497",
+        "published_at": "2026-11-26T01:00:00Z",
+        "submitted_at": "2026-11-24T22:18:26Z",
+        "precision": "second",
+        "verification": "visible",
+        "timestamp_url": "https://arxiv.org/list/cs.AI/pastweek?show=2000",
+        "evidence": "The Thu, 26 Nov 2026 (showing 248 of 248 entries ) primary cs.AI listing includes 2611.33497 as entry 65, with no cross-list or replacement marker. The official availability schedule at https://info.arxiv.org/help/availability.html establishes Wednesday 20:00 America/New_York announcement, equivalent to 2026-11-26T01:00:00Z. This is the inclusive start of this edition’s window. The Thursday Thanksgiving holiday does not move the preceding Wednesday announcement. Earlier deposit and later feed timestamps are recorded separately and are not used as publication evidence.",
+        "verified_at": "2026-11-27T13:12:07.383856Z",
+        "event": "public_announcement"
+      },
+      "tldr": "CA-RAG improved relevance while missing some clause evidence. Check support for each required clause before judging the finished prose."
+    }
+  ],
+  "diagnostics": [
+    {
+      "slug": "partial-routing-cost-and-waiting",
+      "exit_code": 0,
+      "output": "Ted writing-style diagnostic (guidance, not a score)\nWords: 313\nParagraphs: 7\nSentences: 21\nMean sentence length: 14.9 words\nMedian sentence length: 13 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 47 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    },
+    {
+      "slug": "skillsbench-gating-and-test-noise",
+      "exit_code": 0,
+      "output": "Ted writing-style diagnostic (guidance, not a score)\nWords: 315\nParagraphs: 7\nSentences: 22\nMean sentence length: 14.3 words\nMedian sentence length: 15 words\nQuestions: 4.55% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 48 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    },
+    {
+      "slug": "carag-required-clause-evidence",
+      "exit_code": 0,
+      "output": "Ted writing-style diagnostic (guidance, not a score)\nWords: 324\nParagraphs: 7\nSentences: 21\nMean sentence length: 15.4 words\nMedian sentence length: 15 words\nQuestions: 0.0% of sentences\nExclamations: 0.0% of sentences\nMedian paragraph length: 49 words\nFirst person: 0.0 per 1,000 words\nSecond person: 0.0 per 1,000 words\nSemicolons: 0.0 per 1,000 words\nEm dashes: 0.0 per 1,000 words\nGeneric phrase check: none found\nManual checks:\n- Does the opening give the reader a scene, claim, comparison, or real question?\n- Is the reasoning visible from observation to consequence?\n- Do analogies explain a mechanism?\n- Does the ending land on a challenge, consequence, hope, or image?\n- Are all first-person experiences and beliefs true and supplied?\n"
+    }
+  ]
+}
