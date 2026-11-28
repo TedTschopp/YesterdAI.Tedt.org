@@ -1,0 +1,61 @@
+{
+  "reviewed_at": "2026-11-28T13:08:08.433591Z",
+  "skill": "ted-writing-style",
+  "version": "1.0.0",
+  "mode": "technology/strategy",
+  "editing_pass_completed": true,
+  "checks": [
+    "Read the skill, technology/strategy profile, calibration examples and portable project policy.",
+    "Checked the complete drafts against source text and dates, including simulation versus hardware, acknowledgment versus screen effect and commentary versus measurement.",
+    "Retained concrete openings, visible causal reasoning and practical consequences; used no invented personal experience, opinion, quotation, hands-on test or Ted review.",
+    "Read each draft as continuous prose; removed repeated scaffold, generic conclusions and unnecessary benchmark claims.",
+    "Kept authorship/disclosure templates unchanged; used article-specific summaries and sentence-style publication titles."
+  ],
+  "articles": [
+    {
+      "article_id": "art_8a7bedc20d3b6ed3",
+      "slug": "qant-photonic-energy-hardware",
+      "title": "Q.ANT’s photonic energy savings still need a hardware demonstration",
+      "words": 289,
+      "format": "brief",
+      "hero": "omitted; focused brief chosen before drafting",
+      "url": "https://yesterdai.tedt.org/articles/qant-photonic-energy-hardware/"
+    },
+    {
+      "article_id": "art_f3acd91c9b1ccd5f",
+      "slug": "turbotap-confirmed-phone-actions",
+      "title": "A turbotap update makes phone actions and limits more explicit",
+      "words": 297,
+      "format": "brief",
+      "hero": "omitted; focused brief chosen before drafting",
+      "url": "https://yesterdai.tedt.org/articles/turbotap-confirmed-phone-actions/"
+    },
+    {
+      "article_id": "art_6e7f3043173d1a0e",
+      "slug": "doctorow-ai-control-at-work",
+      "title": "Doctorow asks who gains control when a company adopts AI",
+      "words": 291,
+      "format": "brief",
+      "hero": "omitted; focused brief chosen before drafting",
+      "url": "https://yesterdai.tedt.org/articles/doctorow-ai-control-at-work/"
+    }
+  ],
+  "final_rendered_readback_at": "2026-11-28T13:09:10.959415Z",
+  "diagnostics": {
+    "generic_phrases_found": 0,
+    "first_person_invented_claims": 0,
+    "qant": {
+      "body_words_contract": 289,
+      "mean_sentence_words_diagnostic": 15.1
+    },
+    "turbotap": {
+      "body_words_contract": 297,
+      "mean_sentence_words_diagnostic": 15.6
+    },
+    "doctorow": {
+      "body_words_contract": 291,
+      "mean_sentence_words_diagnostic": 15.6
+    },
+    "note": "Style audit tokenization differs from the publication word counter; lengths and reading time use scripts/publish.py."
+  }
+}

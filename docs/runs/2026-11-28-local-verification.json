@@ -1,0 +1,1237 @@
+{
+  "mode": "local",
+  "verified_at": "2026-11-28T13:08:43.959879Z",
+  "checked_commit": "ba0c4606972f8fc4a831a18ee42aee278bbe1ddd",
+  "passed": true,
+  "total_checks": 296,
+  "retained_images": 28,
+  "protected_article_edition_image_blobs": 149,
+  "urls": [
+    "/",
+    "/editions/2026-11-28/",
+    "/feed.json",
+    "/feed.xml",
+    "/search-index.json",
+    "/about/",
+    "/live/",
+    "/archive/",
+    "/articles/qant-photonic-energy-hardware/",
+    "/articles/turbotap-confirmed-phone-actions/",
+    "/articles/doctorow-ai-control-at-work/",
+    "/assets/images/agent-harness-state.webp",
+    "/assets/images/ai-recommendation-bias.webp",
+    "/assets/images/ai-reporting-lines-executive-incentives.webp",
+    "/assets/images/alphaproof-signal-binary-scope.webp",
+    "/assets/images/authorization-agent-boundaries.webp",
+    "/assets/images/calibrated-disposition-drift.webp",
+    "/assets/images/catalog-field-grounding.webp",
+    "/assets/images/citation-relevance-verification.webp",
+    "/assets/images/context-sensitive-model-boundaries.webp",
+    "/assets/images/cost-aware-ticket-routing.webp",
+    "/assets/images/google-agent-guidance-enforcement.webp",
+    "/assets/images/hidden-instructions-public-pages.webp",
+    "/assets/images/kapitsa-local-inference-operations.webp",
+    "/assets/images/litellm-release-authority.webp",
+    "/assets/images/llm-proxy-visibility.webp",
+    "/assets/images/materials-structure-ml.webp",
+    "/assets/images/memory-needs-relevance.webp",
+    "/assets/images/mercury-diffusion-serving.webp",
+    "/assets/images/meta-terms-data-governance.webp",
+    "/assets/images/minimax-flash-task-economics.webp",
+    "/assets/images/multiagent-review-tradeoffs.webp",
+    "/assets/images/pew-task-level-adoption.webp",
+    "/assets/images/prompt-judge-evaluation.webp",
+    "/assets/images/publication-share.png",
+    "/assets/images/recoverable-agent-changes.webp",
+    "/assets/images/scope-executable-policy.webp",
+    "/assets/images/typed-decisions.webp",
+    "/assets/images/voxtral-voice-workflow.webp"
+  ],
+  "probes": [],
+  "checks": [
+    {
+      "name": "URL available: /",
+      "passed": true
+    },
+    {
+      "name": "URL available: /editions/2026-11-28/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /feed.json",
+      "passed": true
+    },
+    {
+      "name": "URL available: /feed.xml",
+      "passed": true
+    },
+    {
+      "name": "URL available: /search-index.json",
+      "passed": true
+    },
+    {
+      "name": "URL available: /about/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /live/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /archive/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /articles/qant-photonic-energy-hardware/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /articles/turbotap-confirmed-phone-actions/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /articles/doctorow-ai-control-at-work/",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/ai-reporting-lines-executive-incentives.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/alphaproof-signal-binary-scope.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/publication-share.png",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "name": "URL available: /assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    },
+    {
+      "name": "Homepage publication title",
+      "passed": true
+    },
+    {
+      "name": "Homepage publication description",
+      "passed": true
+    },
+    {
+      "name": "Homepage current edition link",
+      "passed": true
+    },
+    {
+      "name": "Edition headline",
+      "passed": true
+    },
+    {
+      "name": "Edition metadata",
+      "passed": true
+    },
+    {
+      "name": "Exactly three articles in edition contract",
+      "passed": true
+    },
+    {
+      "name": "home explicit editorial lead",
+      "passed": true
+    },
+    {
+      "name": "home three linked takeaways",
+      "passed": true
+    },
+    {
+      "name": "home no public production sections",
+      "passed": true
+    },
+    {
+      "name": "edition explicit editorial lead",
+      "passed": true
+    },
+    {
+      "name": "edition three linked takeaways",
+      "passed": true
+    },
+    {
+      "name": "edition no public production sections",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware exact headline",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware meta[name=\"description\"]",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware meta[property=\"og:title\"]",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware meta[property=\"og:description\"]",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware meta[name=\"twitter:title\"]",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware meta[name=\"twitter:description\"]",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware meta[property=\"article:published_time\"]",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware publication byline",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware stable ID",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware brief has no manufactured hero",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware original date eligible",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware original dates preserved",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware final word count",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware source link https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware JSON feed body",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware JSON feed identity and authorship",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware JSON feed title and original timestamp",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware search metadata",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware RSS title and GUID",
+      "passed": true
+    },
+    {
+      "name": "qant-photonic-energy-hardware RSS full body",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions exact headline",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions meta[name=\"description\"]",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions meta[property=\"og:title\"]",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions meta[property=\"og:description\"]",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions meta[name=\"twitter:title\"]",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions meta[name=\"twitter:description\"]",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions meta[property=\"article:published_time\"]",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions publication byline",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions stable ID",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions brief has no manufactured hero",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions original date eligible",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions original dates preserved",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions final word count",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions source link https://github.com/Maxteabag/turbotap/releases/tag/v1.6.7",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions source link https://github.com/Maxteabag/turbotap/blob/v1.6.7/README.md",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions JSON feed body",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions JSON feed identity and authorship",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions JSON feed title and original timestamp",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions search metadata",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions RSS title and GUID",
+      "passed": true
+    },
+    {
+      "name": "turbotap-confirmed-phone-actions RSS full body",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work exact headline",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work meta[name=\"description\"]",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work meta[property=\"og:title\"]",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work meta[property=\"og:description\"]",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work meta[name=\"twitter:title\"]",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work meta[name=\"twitter:description\"]",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work meta[property=\"article:published_time\"]",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work publication byline",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work stable ID",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work brief has no manufactured hero",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work original date eligible",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work original dates preserved",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work final word count",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work source link https://pluralistic.net/2026/11/27/taylor-made/",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work JSON feed body",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work JSON feed identity and authorship",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work JSON feed title and original timestamp",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work search metadata",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work RSS title and GUID",
+      "passed": true
+    },
+    {
+      "name": "doctorow-ai-control-at-work RSS full body",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/ai-reporting-lines-executive-incentives.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/alphaproof-signal-binary-scope.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/publication-share.png",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "name": "Retained image bytes: /assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /editions/2026-11-28/",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /articles/qant-photonic-energy-hardware/",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /articles/turbotap-confirmed-phone-actions/",
+      "passed": true
+    },
+    {
+      "name": "Truthful footer disclosure: /articles/doctorow-ai-control-at-work/",
+      "passed": true
+    },
+    {
+      "name": "About Codex disclosure",
+      "passed": true
+    },
+    {
+      "name": "Edition archived",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-physical-engineering-manufacturing-review.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/anthropic-s1-board-control.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-pierre-code-review-acquisition.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/calibrated-disposition-drift.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/mercor-series-d-enterprise-evaluations.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/u-mobile-agentcore-routing-review.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/context-sensitive-model-boundaries.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/carag-required-clause-evidence.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/materials-structure-ml.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/recoverable-agent-changes.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/proton-engineering-workflow-bottlenecks.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/mistral-large-4-weights-license.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/pew-task-level-adoption.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/ciso-survey-security-deployment.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agent-handoffs-check-actual-state.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/citation-relevance-verification.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/fowler-writing-and-understanding.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/skillsbench-gating-and-test-noise.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/copilot-fusion-model-policy.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/model-price-cuts-cache-accounting.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/copied-reports-ai-evidence.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/confidence-gates-automation-distribution-shift.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/catalog-field-grounding.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openmeter-local-ai-meter-queries.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/volta-infostealer-victim-profiling.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-grid-protectors-demand-flexibility.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agentic-web-access-control.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/ai-reporting-lines-executive-incentives.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/litellm-release-authority.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/suse-workforce-reduction-ai-rationale.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/coordination-agent-economics.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/meta-terms-data-governance.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/ai-recommendation-bias.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/mercury-diffusion-serving.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/databricks-genie-ontology-business-definitions.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/multiagent-review-tradeoffs.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/llm-proxy-visibility.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/menlo-enterprise-ai-spending-run-rate.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/confidential-containers-gpu-attestation.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/ryanair-ai-productivity-cost-review.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/hidden-instructions-public-pages.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/anthropic-amended-filing-compute-commitments.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/authorization-agent-boundaries.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-batch-review-evidence.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/autorefine-code-judge-workflow-outcomes.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/muse-ember-long-prompt-pricing.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/google-agent-guidance-enforcement.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/kapitsa-local-inference-operations.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gemini-carbon-restricted-rollout.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/fractile-series-c-inference-chips.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/nvidia-kress-interim-ceo.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-funding-target-continuity.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agent-optimization-budget.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gpt-6-1-terra-computer-use-trials.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gpt-6-cyber-scope-and-access.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/legospec-draft-acceptance-and-serving-speed.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/php-old-flaws-operating-pressure.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gemini-omni-1-2-video-workflow.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gemini-4-hydrogen-model-routing.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-meetings-google-meet-beta.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/voxtral-voice-workflow.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-watermark-rollout-detection-limits.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/partial-routing-cost-and-waiting.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/cloudflare-cache-isolation-tests.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/modern-web-guidance-coding-agents.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agent-harness-state.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/google-school-search-ai-access-controls.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/gemini-decisions-api-bounded-choices.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/synthcorp-tests-data-agents-business-rules.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/multilingual-safety-template-evidence.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/alphaproof-signal-binary-scope.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/coding-agents-first-correct-patch.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/xai-pollution-lawsuit-dismissal-denied.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/cursor-extension-persistence-recovery.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/openai-linux-patch-validation.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/notion-fireworks-ai-chat-exposure.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/cost-aware-ticket-routing.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-fable-5-2-copilot-approval.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/microsoft-buyouts-ai-staffing.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/rao-ai-adoption-unserved-work.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/minimax-flash-task-economics.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/typed-decisions.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/scope-executable-policy.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/prompt-judge-evaluation.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/nebius-capacity-financing-delivery.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/memorydojo-cross-session-poisoning.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/claude-shared-workspaces-data-access.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/united-ai-agent-booking-restrictions.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/asterism-multi-image-reasoning-shortcuts.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/agent-substrate-state-and-compute.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/new-york-raise-act-registration.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/genie-4-preview-simulation.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _articles/memory-needs-relevance.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-24.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-30.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-20.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-31.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-21.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-25.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-04.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-14.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-10.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-01.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-11.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-05.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-02.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-12.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-26.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-28.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-06.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-18.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-19.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-03.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-13.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-27.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-29.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-22.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-26.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-27.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-11-09.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: _editions/2026-10-23.md",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/voxtral-voice-workflow.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/calibrated-disposition-drift.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/kapitsa-local-inference-operations.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/prompt-judge-evaluation.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/alphaproof-signal-binary-scope.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/scope-executable-policy.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/typed-decisions.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/materials-structure-ml.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/publication-share.png",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/memory-needs-relevance.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/cost-aware-ticket-routing.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/pew-task-level-adoption.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/minimax-flash-task-economics.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/multiagent-review-tradeoffs.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/authorization-agent-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/hidden-instructions-public-pages.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/ai-recommendation-bias.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/llm-proxy-visibility.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/context-sensitive-model-boundaries.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/citation-relevance-verification.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/ai-reporting-lines-executive-incentives.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/agent-harness-state.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/catalog-field-grounding.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/meta-terms-data-governance.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/litellm-release-authority.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/google-agent-guidance-enforcement.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/mercury-diffusion-serving.webp",
+      "passed": true
+    },
+    {
+      "name": "Prior tracked blob preserved: assets/images/recoverable-agent-changes.webp",
+      "passed": true
+    }
+  ]
+}

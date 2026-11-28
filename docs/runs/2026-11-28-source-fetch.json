@@ -1,0 +1,1390 @@
+{
+  "fetches": [
+    {
+      "key": "dca",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "fetched_at": "2026-11-28T13:03:03.573016+00:00",
+      "status": 200,
+      "final_url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "bytes": 181882,
+      "sha256": "fd4efef2e3a0be2b81c068ce3f8d20ce5939b86f2c0c4b4305a45d7acf91e01b",
+      "date_meta": [],
+      "jsonld": [],
+      "links": [
+        {
+          "text": "Paper",
+          "url": "https://arxiv.org/abs/2502.06785"
+        },
+        {
+          "text": "residual connections",
+          "url": "https://arxiv.org/abs/1512.03385"
+        },
+        {
+          "text": "\"DeepCrossAttention: Supercharging Transformer Residual Connections",
+          "url": "https://arxiv.org/abs/2502.06785"
+        },
+        {
+          "text": "attention residuals",
+          "url": "https://arxiv.org/pdf/2603.15031"
+        },
+        {
+          "text": "manifold-constrained hyper-connections",
+          "url": "https://arxiv.org/abs/2512.24880"
+        },
+        {
+          "text": "Paper",
+          "url": "https://arxiv.org/abs/2502.06785"
+        }
+      ]
+    },
+    {
+      "key": "vast",
+      "url": "https://8rank.ai/game/vast-cloud-sync-host-write",
+      "fetched_at": "2026-11-28T13:03:03.573346+00:00",
+      "status": 200,
+      "final_url": "https://8rank.ai/game/vast-cloud-sync-host-write",
+      "bytes": 161007,
+      "sha256": "69f09d13962454d3bef250aa38f3fa3c646370768b5a805e7645b96a578be552",
+      "date_meta": [],
+      "jsonld": [],
+      "links": [
+        {
+          "text": "rclone",
+          "url": "https://github.com/rclone/rclone"
+        },
+        {
+          "text": "rclone",
+          "url": "https://github.com/rclone/rclone"
+        }
+      ]
+    },
+    {
+      "key": "hfe",
+      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+      "fetched_at": "2026-11-28T13:03:03.573432+00:00",
+      "status": 200,
+      "final_url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+      "bytes": 146383,
+      "sha256": "a8954872c2ec02e9c35fd9b3de92a4bdc5bdec57df67563f321e07c3cac3bf72",
+      "date_meta": [
+        {
+          "property": "article:publisher",
+          "content": "https://www.facebook.com/TheDecoderDE/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-11-28T11:12:30+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-28T11:14:17+00:00"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"NewsArticle\",\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/#article\",\"isPartOf\":{\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/\"},\"author\":{\"name\":\"Matthias Bastian\",\"@id\":\"https://the-decoder.com/#/schema/person/f5278ecf79b4566467d86133ece0857c\"},\"headline\":\"Google Deepmind's \\\"Humanity's First Exam\\\" shows top AI models still fail simple everyday tasks under repeated runs\",\"datePublished\":\"2026-11-28T11:12:30+00:00\",\"dateModified\":\"2026-11-28T11:14:17+00:00\",\"mainEntityOfPage\":{\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/\"},\"wordCount\":950,\"commentCount\":0,\"publisher\":{\"@id\":\"https://the-decoder.com/#organization\"},\"image\":{\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/#primaryimage\"},\"thumbnailUrl\":\"https://the-decoder.com/wp-content/uploads/2026/11/neural_network_coffee.png\",\"keywords\":[\"Benchmark\",\"Benchmarks\",\"Google\",\"Google Deepmind\"],\"articleSection\":[\"AI research\",\"Artificial Intelligence\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/#respond\"]}],\"copyrightYear\":\"2026\",\"copyrightHolder\":{\"@id\":\"https://the-decoder.com/#organization\"},\"isAccessibleForFree\":false,\"hasPart\":{\"@type\":\"WebPageElement\",\"isAccessibleForFree\":false,\"cssSelector\":\".paywall-hidden-content\"}},{\"@type\":\"WebPage\",\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/\",\"url\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/\",\"name\":\"Google Deepmind's \\\"Humanity's First Exam\\\" shows top AI models still fail simple everyday tasks under repeated runs\",\"isPartOf\":{\"@id\":\"https://the-decoder.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/#primaryimage\"},\"image\":{\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/#primaryimage\"},\"thumbnailUrl\":\"https://the-decoder.com/wp-content/uploads/2026/11/neural_network_coffee.png\",\"datePublished\":\"2026-11-28T11:12:30+00:00\",\"dateModified\":\"2026-11-28T11:14:17+00:00\",\"description\":\"Google Deepmind tests the reliability of 18 AI models with \\\"Humanity's First Exam.\\\" Top models solve nearly every task family at least once, but even leaders like OpenAI's GPT-6.2 Astra stumble when asked for 16 straight correct answers. Visual perception accounts for 73 percent of errors, and more compute time doesn't fix the problem.\",\"breadcrumb\":{\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/#primaryimage\",\"url\":\"https://the-decoder.com/wp-content/uploads/2026/11/neural_network_coffee.png\",\"contentUrl\":\"https://the-decoder.com/wp-content/uploads/2026/11/neural_network_coffee.png\",\"width\":1376,\"height\":768},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Startseite\",\"item\":\"https://the-decoder.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Google Deepmind's \\\"Humanity's First Exam\\\" shows top AI models still fail simple everyday tasks under repeated runs\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://the-decoder.com/#website\",\"url\":\"https://the-decoder.com/\",\"name\":\"The Decoder\",\"description\":\"AI, Menschen, Wirtschaft\",\"publisher\":{\"@id\":\"https://the-decoder.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://the-decoder.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://the-decoder.com/#organization\",\"name\":\"THE-DECODER.com\",\"url\":\"https://the-decoder.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/#/schema/logo/image/\",\"url\":\"https://the-decoder.com/wp-content/uploads/2022/09/The-Decoder_Schema_Logo.png\",\"contentUrl\":\"https://the-decoder.com/wp-content/uploads/2022/09/The-Decoder_Schema_Logo.png\",\"width\":600,\"height\":180,\"caption\":\"THE-DECODER.com\"},\"image\":{\"@id\":\"https://the-decoder.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/TheDecoderDE/\",\"https://x.com/TheDecoderEN\",\"https://www.reddit.com/r/TheDecoder/\",\"https://discord.gg/8VKkHAacn8\",\"https://www.linkedin.com/company/the-decoder-en/\"]},{\"@type\":\"Person\",\"@id\":\"https://the-decoder.com/#/schema/person/f5278ecf79b4566467d86133ece0857c\",\"name\":\"Matthias Bastian\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/#/schema/person/image/\",\"url\":\"/resources/images/avatar_matthias_bastian.jpg\",\"contentUrl\":\"/resources/images/avatar_matthias_bastian.jpg\",\"caption\":\"Matthias Bastian\"},\"description\":\"Matthias is the co-founder and publisher of THE DECODER, exploring how AI is fundamentally changing the relationship between humans and computers.\",\"sameAs\":[\"https://www.linkedin.com/in/matthias-bastian-128b71b1/\"],\"url\":\"https://the-decoder.com/author/matthias-bastian/\"}]}"
+      ],
+      "links": []
+    },
+    {
+      "key": "gateway",
+      "url": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/",
+      "fetched_at": "2026-11-28T13:03:03.573487+00:00",
+      "status": 200,
+      "final_url": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/",
+      "bytes": 1049488,
+      "sha256": "e60512a7c27710e958b449bd29752a4506693d3d06023398b226908ff0ba235b",
+      "date_meta": [
+        {
+          "http-equiv": "cache-control",
+          "content": "private,no-cache,no-store,must-revalidate"
+        }
+      ],
+      "jsonld": [
+        "\n{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/\"\n    },\n  \"headline\": \"Azure AI Gateway Reaches General Availability as a Standalone Service\",\n  \"image\": [\"http://assets.infoq.com/resources/en/infoQ-logo-big.jpg\"\n   ],\n  \"datePublished\": \"2026-11-28T06:47:00+0000\",\n  \"dateModified\": \"2026-11-28T06:47:00+0000\",\n  \"author\": [\n    {\n    \"@type\": \"Person\",\n    \"name\": \"Steef-Jan Wiggers\",\n    \"url\": \"https://www.infoq.com/profile/Steef~Jan-Wiggers/\"\n    }\n  ],\n   \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"InfoQ\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://assets.infoq.com/resources/en/infoQ-logo-big.jpg\"\n    }\n  },\n\n  \"description\": \"Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway p\"\n}\n"
+      ],
+      "links": [
+        {
+          "text": "Azure AI Gateway generally available",
+          "url": "https://techcommunity.microsoft.com/blog/integrationsonazureblog/azure-ai-gateway-is-now-generally-available-ship-faster-stay-in-control/4572644"
+        },
+        {
+          "text": "Microsoft Learn overview",
+          "url": "https://learn.microsoft.com/en-us/azure/ai-gateway/overview"
+        },
+        {
+          "text": "Microsoft Tech Community",
+          "url": "https://techcommunity.microsoft.com/blog/integrationsonazureblog/azure-ai-gateway-is-now-generally-available-ship-faster-stay-in-control/4572644"
+        },
+        {
+          "text": "Azure/aigateway repository",
+          "url": "https://github.com/Azure/aigateway"
+        },
+        {
+          "text": "Azure/aigateway repository",
+          "url": "https://github.com/Azure/aigateway"
+        },
+        {
+          "text": "documentation",
+          "url": "https://learn.microsoft.com/en-us/azure/ai-gateway/"
+        }
+      ]
+    },
+    {
+      "key": "apple",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "fetched_at": "2026-11-28T13:03:03.573534+00:00",
+      "status": 200,
+      "final_url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "bytes": 149735,
+      "sha256": "96105a23af91c23e8fdf074a8ace947a302a9ceffbd846a78e2d694282f21968",
+      "date_meta": [
+        {
+          "property": "article:publisher",
+          "content": "https://www.facebook.com/TheDecoderDE/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-11-27T19:38:37+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-27T19:39:16+00:00"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"NewsArticle\",\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/#article\",\"isPartOf\":{\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/\"},\"author\":{\"name\":\"Matthias Bastian\",\"@id\":\"https://the-decoder.com/#/schema/person/f5278ecf79b4566467d86133ece0857c\"},\"headline\":\"OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers\",\"datePublished\":\"2026-11-27T19:38:37+00:00\",\"dateModified\":\"2026-11-27T19:39:16+00:00\",\"mainEntityOfPage\":{\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/\"},\"wordCount\":176,\"commentCount\":0,\"publisher\":{\"@id\":\"https://the-decoder.com/#organization\"},\"image\":{\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/#primaryimage\"},\"thumbnailUrl\":\"https://the-decoder.com/wp-content/uploads/2026/11/openai_apple.png\",\"keywords\":[\"Apple\",\"OpenAI\"],\"articleSection\":[\"AI in practice\",\"Artificial Intelligence\",\"Short News\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/#respond\"]}],\"copyrightYear\":\"2026\",\"copyrightHolder\":{\"@id\":\"https://the-decoder.com/#organization\"}},{\"@type\":\"WebPage\",\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/\",\"url\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/\",\"name\":\"OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers\",\"isPartOf\":{\"@id\":\"https://the-decoder.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/#primaryimage\"},\"image\":{\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/#primaryimage\"},\"thumbnailUrl\":\"https://the-decoder.com/wp-content/uploads/2026/11/openai_apple.png\",\"datePublished\":\"2026-11-27T19:38:37+00:00\",\"dateModified\":\"2026-11-27T19:39:16+00:00\",\"description\":\"OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Apple.\",\"breadcrumb\":{\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/#primaryimage\",\"url\":\"https://the-decoder.com/wp-content/uploads/2026/11/openai_apple.png\",\"contentUrl\":\"https://the-decoder.com/wp-content/uploads/2026/11/openai_apple.png\",\"width\":1376,\"height\":768},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Startseite\",\"item\":\"https://the-decoder.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://the-decoder.com/#website\",\"url\":\"https://the-decoder.com/\",\"name\":\"The Decoder\",\"description\":\"AI, Menschen, Wirtschaft\",\"publisher\":{\"@id\":\"https://the-decoder.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://the-decoder.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://the-decoder.com/#organization\",\"name\":\"THE-DECODER.com\",\"url\":\"https://the-decoder.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/#/schema/logo/image/\",\"url\":\"https://the-decoder.com/wp-content/uploads/2022/09/The-Decoder_Schema_Logo.png\",\"contentUrl\":\"https://the-decoder.com/wp-content/uploads/2022/09/The-Decoder_Schema_Logo.png\",\"width\":600,\"height\":180,\"caption\":\"THE-DECODER.com\"},\"image\":{\"@id\":\"https://the-decoder.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/TheDecoderDE/\",\"https://x.com/TheDecoderEN\",\"https://www.reddit.com/r/TheDecoder/\",\"https://discord.gg/8VKkHAacn8\",\"https://www.linkedin.com/company/the-decoder-en/\"]},{\"@type\":\"Person\",\"@id\":\"https://the-decoder.com/#/schema/person/f5278ecf79b4566467d86133ece0857c\",\"name\":\"Matthias Bastian\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/#/schema/person/image/\",\"url\":\"/resources/images/avatar_matthias_bastian.jpg\",\"contentUrl\":\"/resources/images/avatar_matthias_bastian.jpg\",\"caption\":\"Matthias Bastian\"},\"description\":\"Matthias is the co-founder and publisher of THE DECODER, exploring how AI is fundamentally changing the relationship between humans and computers.\",\"sameAs\":[\"https://www.linkedin.com/in/matthias-bastian-128b71b1/\"],\"url\":\"https://the-decoder.com/author/matthias-bastian/\"}]}"
+      ],
+      "links": []
+    },
+    {
+      "key": "athena",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "fetched_at": "2026-11-28T13:03:03.573575+00:00",
+      "status": 200,
+      "final_url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "bytes": 147142,
+      "sha256": "cdd806765da8faafbcb309ad7fa87f0366990a65f90f39de948d98545d6aeb64",
+      "date_meta": [
+        {
+          "property": "article:publisher",
+          "content": "https://www.facebook.com/TheDecoderDE/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-11-27T16:05:23+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-27T16:19:02+00:00"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"NewsArticle\",\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/#article\",\"isPartOf\":{\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/\"},\"author\":{\"name\":\"Matthias Bastian\",\"@id\":\"https://the-decoder.com/#/schema/person/f5278ecf79b4566467d86133ece0857c\"},\"headline\":\"OpenAI is building \\\"Athena\\\" data platform to cut down on AI agent guesswork\",\"datePublished\":\"2026-11-27T16:05:23+00:00\",\"dateModified\":\"2026-11-27T16:19:02+00:00\",\"mainEntityOfPage\":{\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/\"},\"wordCount\":182,\"commentCount\":0,\"publisher\":{\"@id\":\"https://the-decoder.com/#organization\"},\"image\":{\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/#primaryimage\"},\"thumbnailUrl\":\"https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png\",\"keywords\":[\"OpenAI\"],\"articleSection\":[\"AI in practice\",\"Artificial Intelligence\",\"Short News\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/#respond\"]}],\"copyrightYear\":\"2026\",\"copyrightHolder\":{\"@id\":\"https://the-decoder.com/#organization\"}},{\"@type\":\"WebPage\",\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/\",\"url\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/\",\"name\":\"OpenAI is building \\\"Athena\\\" data platform to cut down on AI agent guesswork\",\"isPartOf\":{\"@id\":\"https://the-decoder.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/#primaryimage\"},\"image\":{\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/#primaryimage\"},\"thumbnailUrl\":\"https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png\",\"datePublished\":\"2026-11-27T16:05:23+00:00\",\"dateModified\":\"2026-11-27T16:19:02+00:00\",\"description\":\"OpenAI's data agent in ChatGPT Work still isn't accurate enough. Under the codename \\\"Athena,\\\" the company is building a semantic layer that gives agents standardized definitions for business metrics. The tool could also put OpenAI in direct competition with Snowflake and Databricks.\",\"breadcrumb\":{\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/#primaryimage\",\"url\":\"https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png\",\"contentUrl\":\"https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png\",\"width\":1376,\"height\":768,\"caption\":\"OpenAI's GPT-6 Astra performed significantly worse on AI safety tasks than on comparable other tasks. Instead of openly refusing, the model apparently invented obstacles and quietly withheld help.\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Startseite\",\"item\":\"https://the-decoder.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"OpenAI is building \\\"Athena\\\" data platform to cut down on AI agent guesswork\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://the-decoder.com/#website\",\"url\":\"https://the-decoder.com/\",\"name\":\"The Decoder\",\"description\":\"AI, Menschen, Wirtschaft\",\"publisher\":{\"@id\":\"https://the-decoder.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://the-decoder.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://the-decoder.com/#organization\",\"name\":\"THE-DECODER.com\",\"url\":\"https://the-decoder.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/#/schema/logo/image/\",\"url\":\"https://the-decoder.com/wp-content/uploads/2022/09/The-Decoder_Schema_Logo.png\",\"contentUrl\":\"https://the-decoder.com/wp-content/uploads/2022/09/The-Decoder_Schema_Logo.png\",\"width\":600,\"height\":180,\"caption\":\"THE-DECODER.com\"},\"image\":{\"@id\":\"https://the-decoder.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/TheDecoderDE/\",\"https://x.com/TheDecoderEN\",\"https://www.reddit.com/r/TheDecoder/\",\"https://discord.gg/8VKkHAacn8\",\"https://www.linkedin.com/company/the-decoder-en/\"]},{\"@type\":\"Person\",\"@id\":\"https://the-decoder.com/#/schema/person/f5278ecf79b4566467d86133ece0857c\",\"name\":\"Matthias Bastian\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/#/schema/person/image/\",\"url\":\"/resources/images/avatar_matthias_bastian.jpg\",\"contentUrl\":\"/resources/images/avatar_matthias_bastian.jpg\",\"caption\":\"Matthias Bastian\"},\"description\":\"Matthias is the co-founder and publisher of THE DECODER, exploring how AI is fundamentally changing the relationship between humans and computers.\",\"sameAs\":[\"https://www.linkedin.com/in/matthias-bastian-128b71b1/\"],\"url\":\"https://the-decoder.com/author/matthias-bastian/\"}]}"
+      ],
+      "links": []
+    },
+    {
+      "key": "sap",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "fetched_at": "2026-11-28T13:03:03.573615+00:00",
+      "status": 200,
+      "final_url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "bytes": 148649,
+      "sha256": "08046539fd76907f38d92a420c26732ca43eb5aeda65383b7d9019e40cafa836",
+      "date_meta": [
+        {
+          "property": "article:publisher",
+          "content": "https://www.facebook.com/TheDecoderDE/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-11-27T14:57:25+00:00"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-27T14:57:26+00:00"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"NewsArticle\",\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/#article\",\"isPartOf\":{\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/\"},\"author\":{\"name\":\"Maximilian Schreiner\",\"@id\":\"https://the-decoder.com/#/schema/person/bc14faae9fac44da9c56c47ac4b83657\"},\"headline\":\"SAP plans to cut at least 10,000 jobs as it pivots to AI\",\"datePublished\":\"2026-11-27T14:57:25+00:00\",\"dateModified\":\"2026-11-27T14:57:26+00:00\",\"mainEntityOfPage\":{\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/\"},\"wordCount\":174,\"commentCount\":0,\"publisher\":{\"@id\":\"https://the-decoder.com/#organization\"},\"image\":{\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/#primaryimage\"},\"thumbnailUrl\":\"https://the-decoder.com/wp-content/uploads/2026/05/SAP-Logo-Silouette.png\",\"keywords\":[\"SAP\"],\"articleSection\":[\"AI and society\",\"Artificial Intelligence\",\"Short News\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/#respond\"]}],\"copyrightYear\":\"2026\",\"copyrightHolder\":{\"@id\":\"https://the-decoder.com/#organization\"}},{\"@type\":\"WebPage\",\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/\",\"url\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/\",\"name\":\"SAP plans to cut at least 10,000 jobs as it pivots to AI\",\"isPartOf\":{\"@id\":\"https://the-decoder.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/#primaryimage\"},\"image\":{\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/#primaryimage\"},\"thumbnailUrl\":\"https://the-decoder.com/wp-content/uploads/2026/05/SAP-Logo-Silouette.png\",\"datePublished\":\"2026-11-27T14:57:25+00:00\",\"dateModified\":\"2026-11-27T14:57:26+00:00\",\"description\":\"SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter.\",\"breadcrumb\":{\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/#primaryimage\",\"url\":\"https://the-decoder.com/wp-content/uploads/2026/05/SAP-Logo-Silouette.png\",\"contentUrl\":\"https://the-decoder.com/wp-content/uploads/2026/05/SAP-Logo-Silouette.png\",\"width\":1376,\"height\":768,\"caption\":\"SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter.\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Startseite\",\"item\":\"https://the-decoder.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"SAP plans to cut at least 10,000 jobs as it pivots to AI\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://the-decoder.com/#website\",\"url\":\"https://the-decoder.com/\",\"name\":\"The Decoder\",\"description\":\"AI, Menschen, Wirtschaft\",\"publisher\":{\"@id\":\"https://the-decoder.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://the-decoder.com/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://the-decoder.com/#organization\",\"name\":\"THE-DECODER.com\",\"url\":\"https://the-decoder.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/#/schema/logo/image/\",\"url\":\"https://the-decoder.com/wp-content/uploads/2022/09/The-Decoder_Schema_Logo.png\",\"contentUrl\":\"https://the-decoder.com/wp-content/uploads/2022/09/The-Decoder_Schema_Logo.png\",\"width\":600,\"height\":180,\"caption\":\"THE-DECODER.com\"},\"image\":{\"@id\":\"https://the-decoder.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/TheDecoderDE/\",\"https://x.com/TheDecoderEN\",\"https://www.reddit.com/r/TheDecoder/\",\"https://discord.gg/8VKkHAacn8\",\"https://www.linkedin.com/company/the-decoder-en/\"]},{\"@type\":\"Person\",\"@id\":\"https://the-decoder.com/#/schema/person/bc14faae9fac44da9c56c47ac4b83657\",\"name\":\"Maximilian Schreiner\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://the-decoder.com/#/schema/person/image/\",\"url\":\"/resources/images/avatar_maximilian_schreiner.jpg\",\"contentUrl\":\"/resources/images/avatar_maximilian_schreiner.jpg\",\"caption\":\"Maximilian Schreiner\"},\"description\":\"Maximilian Schreiner is Managing Editor at THE DECODER and has covered artificial intelligence for close to a decade, from new models and tools to their impact on businesses, media, and society. He brings that expertise to heise KI PRO, where he makes AI accessible for professionals in the DACH region - clear, critical, and practical. With a background in philosophy, one question keeps driving him: whether machines can truly think, or are just getting better at faking it.\",\"sameAs\":[\"https://www.linkedin.com/in/maximilian-schreiner-b6a5171aa/\"],\"url\":\"https://the-decoder.com/author/maximilian-schreiner/\"}]}"
+      ],
+      "links": []
+    },
+    {
+      "key": "uber",
+      "url": "https://x.com/UberEng/status/2125008806249930999?s=19",
+      "fetched_at": "2026-11-28T13:03:03.573651+00:00",
+      "status": 200,
+      "final_url": "https://x.com/UberEng/status/2125008806249930999?s=19",
+      "bytes": 385573,
+      "sha256": "785390ab2a366866687d1e2c322f1f8251b2d58addc6802bd97d8bb4e76cea6b",
+      "date_meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-23T23:29:14.000Z"
+        }
+      ],
+      "jsonld": [],
+      "links": []
+    },
+    {
+      "key": "wsj",
+      "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420?mod=ai_more_article_pos4",
+      "fetched_at": "2026-11-28T13:03:03.980616+00:00",
+      "error": "HTTP Error 401: HTTP Forbidden"
+    },
+    {
+      "key": "rocket",
+      "url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "fetched_at": "2026-11-28T13:03:04.080713+00:00",
+      "status": 200,
+      "final_url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "bytes": 846468,
+      "sha256": "eb8efb098bb6f384505cd11742f0b45055f7b7c75f898eac8b9796ef9def2fbf",
+      "date_meta": [
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-24T14:25:56+00:00"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/\",\"url\":\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/\",\"name\":\"RL infrastructure at Microsoft AI | Microsoft AI\",\"isPartOf\":{\"@id\":\"https:\\/\\/microsoft.ai\\/#website\"},\"datePublished\":\"2026-11-23T17:24:32+00:00\",\"dateModified\":\"2026-11-24T14:25:56+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/microsoft.ai\\/news\\/rl-infrastructure-at-microsoft-ai\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/microsoft.ai\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"RL infrastructure at Microsoft AI\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/microsoft.ai\\/#website\",\"url\":\"https:\\/\\/microsoft.ai\\/\",\"name\":\"Microsoft AI\",\"description\":\"We make responsible AI to empower people&#039;s lives.\",\"publisher\":{\"@id\":\"https:\\/\\/microsoft.ai\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/microsoft.ai\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/microsoft.ai\\/#organization\",\"name\":\"Microsoft AI\",\"url\":\"https:\\/\\/microsoft.ai\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/microsoft.ai\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/microsoft.ai\\/wp-content\\/uploads\\/2025\\/10\\/image-1.jpeg\",\"contentUrl\":\"https:\\/\\/microsoft.ai\\/wp-content\\/uploads\\/2025\\/10\\/image-1.jpeg\",\"width\":1201,\"height\":628,\"caption\":\"Microsoft AI\"},\"image\":{\"@id\":\"https:\\/\\/microsoft.ai\\/#\\/schema\\/logo\\/image\\/\"}}]}"
+      ],
+      "links": [
+        {
+          "text": "",
+          "url": "https://www.microsoft.com"
+        },
+        {
+          "text": "Source",
+          "url": "https://news.microsoft.com/source"
+        },
+        {
+          "text": "Signal magazine",
+          "url": "https://news.microsoft.com/microsoft-signal/magazine/"
+        },
+        {
+          "text": "AI in Action",
+          "url": "https://news.microsoft.com/ai-in-action/"
+        },
+        {
+          "text": "Official Microsoft Blog",
+          "url": "https://blogs.microsoft.com"
+        },
+        {
+          "text": "Command Line",
+          "url": "https://commandline.microsoft.com/"
+        },
+        {
+          "text": "Microsoft On The Issues",
+          "url": "https://blogs.microsoft.com/on-the-issues/"
+        },
+        {
+          "text": "Asia",
+          "url": "https://news.microsoft.com/apac/"
+        },
+        {
+          "text": "Canada",
+          "url": "https://news.microsoft.com/source/canada/"
+        },
+        {
+          "text": "Europe, Middle East and Africa",
+          "url": "https://news.microsoft.com/europe/"
+        },
+        {
+          "text": "Latin America",
+          "url": "https://news.microsoft.com/es-xl/"
+        },
+        {
+          "text": "The Code of Us",
+          "url": "https://news.microsoft.com/codeofus"
+        },
+        {
+          "text": "What's new",
+          "url": "https://news.microsoft.com/signal/"
+        },
+        {
+          "text": "AI",
+          "url": "https://news.microsoft.com/source/topics/ai/"
+        },
+        {
+          "text": "Innovation",
+          "url": "https://news.microsoft.com/source/topics/innovation/"
+        },
+        {
+          "text": "Digital Transformation",
+          "url": "https://news.microsoft.com/source/topics/digital-transformation/"
+        },
+        {
+          "text": "Sustainability",
+          "url": "https://news.microsoft.com/source/topics/sustainability/"
+        },
+        {
+          "text": "Security",
+          "url": "https://news.microsoft.com/source/topics/security/"
+        },
+        {
+          "text": "Work & Life",
+          "url": "https://news.microsoft.com/source/topics/work-life/"
+        },
+        {
+          "text": "Diversity & Inclusion",
+          "url": "https://news.microsoft.com/source/topics/diversity-inclusion/"
+        },
+        {
+          "text": "Unlocked",
+          "url": "https://unlocked.microsoft.com/"
+        },
+        {
+          "text": "Microsoft 365",
+          "url": "https://www.microsoft.com/microsoft-365"
+        },
+        {
+          "text": "Azure",
+          "url": "https://azure.microsoft.com/en-us?ocid=cmm4r4ppnhp"
+        },
+        {
+          "text": "Windows",
+          "url": "https://www.microsoft.com/en-us/windows/"
+        },
+        {
+          "text": "Surface",
+          "url": "https://www.microsoft.com/surface"
+        },
+        {
+          "text": "Deals",
+          "url": "https://www.microsoft.com/en-us/store/b/sale?icid=DSM_TopNavDeals"
+        },
+        {
+          "text": "Small Business",
+          "url": "https://www.microsoft.com/en-us/store/b/business"
+        },
+        {
+          "text": "Support",
+          "url": "https://support.microsoft.com/en-us"
+        },
+        {
+          "text": "Windows Apps",
+          "url": "https://apps.microsoft.com/home"
+        },
+        {
+          "text": "Outlook",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+        },
+        {
+          "text": "OneDrive",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage"
+        },
+        {
+          "text": "Microsoft Teams",
+          "url": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+        },
+        {
+          "text": "OneNote",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app"
+        },
+        {
+          "text": "Microsoft Edge",
+          "url": "https://www.microsoft.com/edge"
+        },
+        {
+          "text": "Moving from Skype to Teams",
+          "url": "https://support.microsoft.com/en-us/office/moving-from-skype-to-microsoft-teams-free-3c0caa26-d9db-4179-bcb3-930ae2c87570?icid=DSM_All_Skype"
+        },
+        {
+          "text": "Computers",
+          "url": "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC"
+        },
+        {
+          "text": "Shop XBOX",
+          "url": "https://www.microsoft.com/en-us/store/b/xbox?icid=DSM_All_ShopXbox"
+        },
+        {
+          "text": "Accessories",
+          "url": "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories"
+        },
+        {
+          "text": "VR & mixed reality",
+          "url": "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality"
+        },
+        {
+          "text": "Certified Refurbished",
+          "url": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+        },
+        {
+          "text": "Trade-in for cash",
+          "url": "https://www.microsoft.com/en-us/store/b/microsoft-trade-in"
+        },
+        {
+          "text": "XBOX games",
+          "url": "https://www.microsoft.com/en-us/store/b/xboxgames?icid=DSM_All_XboxGames"
+        },
+        {
+          "text": "PC games",
+          "url": "https://apps.microsoft.com/games"
+        },
+        {
+          "text": "Microsoft AI",
+          "url": "https://www.microsoft.com/en-us/ai?icid=DSM_All_AI"
+        },
+        {
+          "text": "Microsoft Security",
+          "url": "https://www.microsoft.com/en-us/security"
+        },
+        {
+          "text": "Dynamics 365",
+          "url": "https://www.microsoft.com/en-us/dynamics-365"
+        },
+        {
+          "text": "Microsoft 365 for business",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/business"
+        },
+        {
+          "text": "Microsoft Power Platform",
+          "url": "https://www.microsoft.com/en-us/power-platform"
+        },
+        {
+          "text": "Windows 365",
+          "url": "https://www.microsoft.com/en-us/windows-365"
+        },
+        {
+          "text": "Small Business",
+          "url": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+        },
+        {
+          "text": "Digital Sovereignty",
+          "url": "https://www.microsoft.com/en-us/sovereignty?icid=DSM_More_Sovereignty"
+        },
+        {
+          "text": "Azure",
+          "url": "https://azure.microsoft.com/en-us/"
+        },
+        {
+          "text": "Microsoft Developer",
+          "url": "https://developer.microsoft.com/en-us/"
+        },
+        {
+          "text": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/"
+        },
+        {
+          "text": "Support for AI marketplace apps",
+          "url": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_All_SupportAIMarketplace&ocid=cmm3atxvn98"
+        },
+        {
+          "text": "Microsoft Tech Community",
+          "url": "https://techcommunity.microsoft.com/"
+        },
+        {
+          "text": "Microsoft Marketplace",
+          "url": "https://marketplace.microsoft.com?icid=DSM_All_Marketplace&ocid=cmm3atxvn98"
+        },
+        {
+          "text": "Software companies",
+          "url": "https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies&ocid=cmm3atxvn98"
+        },
+        {
+          "text": "Visual Studio",
+          "url": "https://visualstudio.microsoft.com/"
+        },
+        {
+          "text": "Microsoft Rewards",
+          "url": "https://www.microsoft.com/rewards"
+        },
+        {
+          "text": "Free downloads & security",
+          "url": "https://www.microsoft.com/en-us/download"
+        },
+        {
+          "text": "Education",
+          "url": "https://www.microsoft.com/en-us/education"
+        },
+        {
+          "text": "Gift cards",
+          "url": "https://www.microsoft.com/en-us/store/b/gift-cards?icid=DSM_All_GiftCards"
+        },
+        {
+          "text": "Licensing",
+          "url": "https://www.microsoft.com/licensing/"
+        },
+        {
+          "text": "Unlocked stories",
+          "url": "https://unlocked.microsoft.com/"
+        },
+        {
+          "text": "View Sitemap",
+          "url": "https://www.microsoft.com/en-us/sitemap"
+        },
+        {
+          "text": "verl",
+          "url": "https://github.com/verl-project/verl"
+        },
+        {
+          "text": "slime",
+          "url": "https://github.com/THUDM/slime"
+        },
+        {
+          "text": "DeepSeek",
+          "url": "https://arxiv.org/abs/2606.19348"
+        },
+        {
+          "text": "NeMo RL",
+          "url": "https://github.com/NVIDIA-NeMo/RL/blob/main/docs/guides/automodel-tp-accuracy.md"
+        },
+        {
+          "text": "Is Flash Attention Stable?",
+          "url": "https://arxiv.org/abs/2405.02803"
+        },
+        {
+          "text": "Surface Laptop Ultra",
+          "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?icid=DSM_Footer_WhatsNew_SurfaceLaptopUltra"
+        },
+        {
+          "text": "Surface Pro",
+          "url": "https://www.microsoft.com/surface/devices/surface-pro"
+        },
+        {
+          "text": "Surface Laptop",
+          "url": "https://www.microsoft.com/surface/devices/surface-laptop"
+        },
+        {
+          "text": "Surface RTX Spark Dev Box",
+          "url": "https://www.microsoft.com/en-us/surface/devices/surface-rtx-spark-dev-box?icid=DSM_Footer_WhatsNew_SurfaceRTXSparkDevBox"
+        },
+        {
+          "text": "Explore Copilot",
+          "url": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_WhatsNew_Copilot"
+        },
+        {
+          "text": "Explore Microsoft products",
+          "url": "https://www.microsoft.com/en-us/microsoft-products-and-apps"
+        },
+        {
+          "text": "Windows 11 apps",
+          "url": "https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps"
+        },
+        {
+          "text": "Account profile",
+          "url": "https://account.microsoft.com/"
+        },
+        {
+          "text": "Download Center",
+          "url": "https://www.microsoft.com/en-us/download"
+        },
+        {
+          "text": "Microsoft Store support",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2139749"
+        },
+        {
+          "text": "Returns",
+          "url": "https://www.microsoft.com/en-us/store/b/returns"
+        },
+        {
+          "text": "Order tracking",
+          "url": "https://www.microsoft.com/en-us/store/b/order-tracking"
+        },
+        {
+          "text": "Certified Refurbished",
+          "url": "https://www.microsoft.com/en-us/store/b/certified-refurbished-products"
+        },
+        {
+          "text": "Why buy from Microsoft Store",
+          "url": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store?icid=DSM_Footer_MicrosoftStore_WhyBuy"
+        },
+        {
+          "text": "Flexible Payments",
+          "url": "https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc"
+        },
+        {
+          "text": "Microsoft in education",
+          "url": "https://www.microsoft.com/en-us/education"
+        },
+        {
+          "text": "Devices for education",
+          "url": "https://www.microsoft.com/en-us/education/devices/overview"
+        },
+        {
+          "text": "Microsoft Teams for Education",
+          "url": "https://www.microsoft.com/en-us/education/products/teams"
+        },
+        {
+          "text": "Microsoft 365 Education",
+          "url": "https://www.microsoft.com/en-us/education/products/microsoft-365"
+        },
+        {
+          "text": "How to buy for your school",
+          "url": "https://www.microsoft.com/education/how-to-buy"
+        },
+        {
+          "text": "Educator training and development",
+          "url": "https://education.microsoft.com/"
+        },
+        {
+          "text": "Deals for students and parents",
+          "url": "https://www.microsoft.com/en-us/store/b/education"
+        },
+        {
+          "text": "AI for education",
+          "url": "https://www.microsoft.com/en-us/education/ai-in-education"
+        },
+        {
+          "text": "Microsoft AI",
+          "url": "https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI"
+        },
+        {
+          "text": "Microsoft Security",
+          "url": "https://www.microsoft.com/en-us/security"
+        },
+        {
+          "text": "Dynamics 365",
+          "url": "https://www.microsoft.com/en-us/dynamics-365"
+        },
+        {
+          "text": "Microsoft 365",
+          "url": "https://www.microsoft.com/en-us/microsoft-365/business"
+        },
+        {
+          "text": "Microsoft Power Platform",
+          "url": "https://www.microsoft.com/en-us/power-platform"
+        },
+        {
+          "text": "Microsoft Teams",
+          "url": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+        },
+        {
+          "text": "Microsoft Copilot",
+          "url": "https://www.microsoft.com/en-us/copilot?icid=DSM_Footer_Business_Copilot"
+        },
+        {
+          "text": "Small Business",
+          "url": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore"
+        },
+        {
+          "text": "Azure",
+          "url": "https://azure.microsoft.com/en-us/"
+        },
+        {
+          "text": "Microsoft Developer",
+          "url": "https://developer.microsoft.com/en-us/"
+        },
+        {
+          "text": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/"
+        },
+        {
+          "text": "Support for AI marketplace apps",
+          "url": "https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98"
+        },
+        {
+          "text": "Microsoft Tech Community",
+          "url": "https://techcommunity.microsoft.com/"
+        },
+        {
+          "text": "Microsoft Marketplace",
+          "url": "https://marketplace.microsoft.com?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98"
+        },
+        {
+          "text": "Software companies",
+          "url": "https://www.microsoft.com/software-development-companies?icid=DSM_Footer_SoftwareCompanies&ocid=cmm3atxvn98"
+        },
+        {
+          "text": "Visual Studio",
+          "url": "https://visualstudio.microsoft.com/"
+        },
+        {
+          "text": "Careers",
+          "url": "https://careers.microsoft.com/"
+        },
+        {
+          "text": "About Microsoft",
+          "url": "https://www.microsoft.com/about"
+        },
+        {
+          "text": "Company news",
+          "url": "https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews"
+        },
+        {
+          "text": "Privacy at Microsoft",
+          "url": "https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy"
+        },
+        {
+          "text": "Investors",
+          "url": "https://www.microsoft.com/investor/default.aspx"
+        },
+        {
+          "text": "Diversity and inclusion",
+          "url": "https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity"
+        },
+        {
+          "text": "Accessibility",
+          "url": "https://www.microsoft.com/en-us/accessibility"
+        },
+        {
+          "text": "Sustainability",
+          "url": "https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability"
+        },
+        {
+          "text": "English (United States)",
+          "url": "https://www.microsoft.com/en-us/locale"
+        },
+        {
+          "text": "Consumer Health Privacy",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2259814"
+        },
+        {
+          "text": "Sitemap",
+          "url": "https://www.microsoft.com/en-us/sitemap1.aspx"
+        },
+        {
+          "text": "Contact Microsoft",
+          "url": "https://support.microsoft.com/contactus"
+        },
+        {
+          "text": "Privacy",
+          "url": "https://go.microsoft.com/fwlink/?LinkId=521839"
+        },
+        {
+          "text": "Terms of use",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=206977"
+        },
+        {
+          "text": "Trademarks",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2196228"
+        },
+        {
+          "text": "Safety & eco",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2196227"
+        },
+        {
+          "text": "Recycling",
+          "url": "https://www.microsoft.com/en-us/legal/compliance/recycling"
+        },
+        {
+          "text": "About our ads",
+          "url": "https://choice.microsoft.com"
+        }
+      ]
+    },
+    {
+      "key": "harvey",
+      "url": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models",
+      "fetched_at": "2026-11-28T13:03:04.081439+00:00",
+      "status": 200,
+      "final_url": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models",
+      "bytes": 615493,
+      "sha256": "5efeb771c94f4c4dd1c7055e4b8fa55e8b54261e4cbdce3aedbec3449894fadc",
+      "date_meta": [],
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Corporation\",\"@id\":\"https://www.harvey.ai/#organization\",\"name\":\"Harvey\",\"legalName\":\"Harvey AI Corporation\",\"url\":\"https://www.harvey.ai/\",\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://www.harvey.ai/#logo\",\"url\":\"https://www.harvey.ai/downloadable/press/harvey_logo.svg\",\"contentUrl\":\"https://www.harvey.ai/downloadable/press/harvey_logo.svg\",\"caption\":\"Harvey\"},\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"201 3rd St, Suite 600\",\"addressLocality\":\"San Francisco\",\"addressRegion\":\"CA\",\"postalCode\":\"94103\",\"addressCountry\":\"US\"},\"foundingDate\":\"2022\",\"sameAs\":[\"https://x.com/harvey\",\"https://www.linkedin.com/company/harvey-ai/\",\"https://www.youtube.com/@harvey-ai\",\"https://www.instagram.com/askharvey/\",\"https://en.wikipedia.org/wiki/Harvey_(software)\",\"https://www.wikidata.org/wiki/Q132249659\"]},{\"@type\":\"WebSite\",\"@id\":\"https://www.harvey.ai/#website\",\"url\":\"https://www.harvey.ai/\",\"name\":\"Harvey\",\"publisher\":{\"@id\":\"https://www.harvey.ai/#organization\"},\"inLanguage\":\"en-US\"}]}",
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#webpage\",\"url\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models\",\"name\":\"Pushing the US Open-Weight Frontier\",\"description\":\"Applying the Harvey Tenet training recipe to US open-weight models.\",\"isPartOf\":{\"@id\":\"https://www.harvey.ai/#website\"},\"breadcrumb\":{\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://www.harvey.ai/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\",\"item\":\"https://www.harvey.ai/blog\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Pushing the US Open-Weight Frontier\"}]},{\"@type\":\"BlogPosting\",\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#post\",\"headline\":\"Pushing the US Open-Weight Frontier\",\"author\":[{\"@type\":\"Organization\",\"name\":\"Harvey Research\",\"url\":\"https://www.harvey.ai/\"}],\"articleSection\":[\"Technical\"],\"isPartOf\":{\"@id\":\"https://www.harvey.ai/blog#blog\"},\"datePublished\":\"2026-11-24T15:58:00.000Z\",\"dateModified\":\"2026-11-24T15:58:00.000Z\",\"image\":[\"https://cdn.sanity.io/images/07s0r5r6/production/c80fa581bc151e884532795b38ae556f380392d0-2400x1350.png?w=1200&h=675&fm=jpg&q=95&fit=crop\",\"https://cdn.sanity.io/images/07s0r5r6/production/c80fa581bc151e884532795b38ae556f380392d0-2400x1350.png?rect=300,0,1800,1350&w=1200&h=900&fm=jpg&q=95&fit=crop\",\"https://cdn.sanity.io/images/07s0r5r6/production/c80fa581bc151e884532795b38ae556f380392d0-2400x1350.png?rect=525,0,1350,1350&w=1200&h=1200&fm=jpg&q=95&fit=crop\"],\"description\":\"Applying the Harvey Tenet training recipe to US open-weight models.\",\"url\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models\",\"publisher\":{\"@id\":\"https://www.harvey.ai/#organization\"},\"mainEntityOfPage\":{\"@id\":\"https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models#webpage\"}}]}"
+      ],
+      "links": [
+        {
+          "text": "LoRA",
+          "url": "https://arxiv.org/abs/2106.09685"
+        },
+        {
+          "text": "CISPO",
+          "url": "https://arxiv.org/abs/2506.13585"
+        },
+        {
+          "text": "Dr. GRPO",
+          "url": "https://arxiv.org/abs/2503.20783"
+        },
+        {
+          "text": "SWE-Bench Pro",
+          "url": "https://arxiv.org/abs/2610.24206"
+        },
+        {
+          "text": "AutomationBench",
+          "url": "https://arxiv.org/abs/2604.18934"
+        },
+        {
+          "text": "GDPVal",
+          "url": "https://arxiv.org/abs/2510.04374"
+        }
+      ]
+    },
+    {
+      "key": "claude",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "fetched_at": "2026-11-28T13:03:04.210621+00:00",
+      "status": 200,
+      "final_url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "bytes": 562838,
+      "sha256": "52179c28704f9ea1b9ecfe000c2a605d6ece8b70e45b551d287e01ccea696be6",
+      "date_meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-23"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"@id\":\"https://claude.com/#website\",\"name\":\"Claude\",\"url\":\"https://claude.com\",\"publisher\":{\"@id\":\"https://www.anthropic.com/#organization\"}},{\"@type\":\"Organization\",\"@id\":\"https://www.anthropic.com/#organization\",\"name\":\"Anthropic\",\"legalName\":\"Anthropic PBC\",\"url\":\"https://www.anthropic.com\",\"logo\":\"https://claude.com/icon.png\",\"sameAs\":[\"https://www.anthropic.com\",\"https://en.wikipedia.org/wiki/Anthropic\",\"https://www.linkedin.com/company/anthropicresearch\",\"https://x.com/AnthropicAI\",\"https://github.com/anthropics\",\"https://www.youtube.com/@anthropic-ai\"]},{\"@type\":\"Brand\",\"@id\":\"https://claude.com/#brand\",\"name\":\"Claude\",\"url\":\"https://claude.com\",\"sameAs\":[\"https://x.com/claudeai\",\"https://www.linkedin.com/showcase/claude/\",\"https://www.instagram.com/claudeai\",\"https://www.youtube.com/@claude\"]}]}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Introducing Claude Ship\",\"description\":\"Open a pull request and get back to building. Claude can now review pull requests, fix them, and approve the ones that a team's policy allows.\",\"datePublished\":\"2026-11-23\",\"url\":\"https://claude.com/resources/articles/introducing-claude-ship\",\"mainEntityOfPage\":\"https://claude.com/resources/articles/introducing-claude-ship\",\"inLanguage\":\"en\",\"publisher\":{\"@type\":\"Organization\",\"@id\":\"https://www.anthropic.com/#organization\",\"name\":\"Anthropic\"}}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Resources\",\"item\":\"https://claude.com/resources\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Articles\",\"item\":\"https://claude.com/resources/articles\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Introducing Claude Ship\"}]}"
+      ],
+      "links": []
+    },
+    {
+      "key": "working",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "fetched_at": "2026-11-28T13:03:04.435526+00:00",
+      "status": 200,
+      "final_url": "https://www.anthropic.com/research/working-with-ai",
+      "bytes": 287102,
+      "sha256": "a8412ca486f1396148b9559bb5d48c59edd24b4ebb4dfdc3e71f3cc6cc4fc92a",
+      "date_meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-23T00:00:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-23T22:13:27.525Z"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Working with AI\",\"description\":\"We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.\",\"image\":[\"https://assets.claude.com/cd30ce2e82eb423476801098073b39e025839018.jpg\"],\"datePublished\":\"2026-11-23T00:00:00.000Z\",\"dateModified\":\"2026-11-23T22:13:27.525Z\",\"author\":{\"@type\":\"Organization\",\"name\":\"Anthropic\",\"url\":\"https://www.anthropic.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Anthropic\",\"url\":\"https://www.anthropic.com\"},\"mainEntityOfPage\":\"https://www.anthropic.com/research/working-with-ai\",\"url\":\"https://www.anthropic.com/research/working-with-ai\"}"
+      ],
+      "links": []
+    },
+    {
+      "key": "gateway-primary",
+      "url": "https://techcommunity.microsoft.com/blog/integrationsonazureblog/azure-ai-gateway-is-now-generally-available-ship-faster-stay-in-control/4572644",
+      "fetched_at": "2026-11-28T13:04:16.751431+00:00",
+      "status": 200,
+      "final_url": "https://techcommunity.microsoft.com/blog/integrationsonazureblog/azure-ai-gateway-is-now-generally-available-ship-faster-stay-in-control/4572644",
+      "bytes": 620480,
+      "sha256": "18a38501336827cf12c9007c94beb9cbbb2a20dd8a8027ccc20c6a77627a5e9f",
+      "date_meta": [
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-17T08:31:09.173-08:00",
+          "data-next-head": ""
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":\"https://techcommunity.microsoft.com\",\"name\":\"Microsoft Community Hub\"},{\"@type\":\"ListItem\",\"position\":2,\"item\":\"https://techcommunity.microsoft.com/category/communities\",\"name\":\"Communities\"},{\"@type\":\"ListItem\",\"position\":3,\"item\":\"https://techcommunity.microsoft.com/category/products-services\",\"name\":\"Products\"},{\"@type\":\"ListItem\",\"position\":4,\"item\":\"https://techcommunity.microsoft.com/category/Azure\",\"name\":\"Azure\"},{\"@type\":\"ListItem\",\"position\":5,\"item\":\"https://techcommunity.microsoft.com/category/Azure/blog/IntegrationsonAzureBlog\",\"name\":\"Azure Integration Services Blog\"}]}",
+        "{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"datePublished\":\"11/17/2026, 6:38:47 PM\",\"description\":\"Today at Microsoft Ignite 2026, we&apos;re announcing the general availability of Azure AI Gateway, a fully managed Azure service that lets you set up a single, controlled path from your AI applications and agents to models and tools across providers. Developers build with the models and tools they choose, and platform teams manage access, enforce policies, control costs, and monitor usage from one place, without operating gateway infrastructure.&amp;nbsp;\\nAzure AI Gateway, previously in public preview as the AI Gateway tier of Azure API Management, is now a standalone product optimized for governing access to AI models and tools, with a roadmap focused entirely on AI. You can use it by itself with any app or agent, or together with Microsoft Foundry, where you build and run agents, and Microsoft Agent 365, where you manage them.&amp;nbsp;\\nAzure AI Gateway is available today in 17 Azure regions. To make it easy to get started, it offers a freemium, per-use pricing model with 10,000 free requests per gateway each month. Paid billing begins January 1, 2027. See the Regions and pricing section below for details.\\nWhy enterprise AI needs a unified governance layer&amp;nbsp;\\nEnterprise AI has moved beyond one app calling one model. Organizations use models from several providers, build agents that act through enterprise tools, and scale AI across teams.&amp;nbsp;\\nWhen each app manages its own credentials, routing, safety, and usage limits, governance becomes fragmented. Developers struggle to find approved models and tools, and platform teams can&apos;t see who is using what, what it costs, or which policies apply. Azure AI Gateway lets you move those controls out of individual apps and into one place, where they apply consistently to every app and agent you connect.\\nHow Azure AI Gateway works&amp;nbsp;\\nApps and agents you connect call the gateway instead of calling each model or tool directly. On every request, the gateway authenticates the caller with Microsoft Entra ID or a gateway access key, enforces access rules and your policies, routes the request to the right model or tool, and records telemetry.\\n\\nFigure 1. Azure AI Gateway sits between callers and backends, governing every request that passes through it.\\n\\nWhat you can do with Azure AI Gateway&amp;nbsp;&amp;nbsp;\\nBuild with models and tools across providers&amp;nbsp;\\n\\nAny model, one name:&amp;nbsp;Use models from Microsoft Foundry, Azure OpenAI, OpenAI, Anthropic, Amazon Bedrock, Google Vertex AI, or any OpenAI-compatible endpoint. Apps call each model by an alias you define, so you can switch models without changing app code.&amp;nbsp;\\nRouting and failover:&amp;nbsp;Route by priority, weight, or custom conditions, with configurable failover, or let Model Router (preview) choose by cost or quality.&amp;nbsp;\\nConsolidated tools:&amp;nbsp;Federate MCP servers and turn OpenAPI specs, connectors, and API Management APIs into MCP tools. Multiple MCP spec versions are supported, including the latest (July 2026).&amp;nbsp;\\nThe APIs you know:&amp;nbsp;Call models through an OpenAI-compatible API or the Anthropic Messages API and connect agents to tools from any MCP client.&amp;nbsp;\\n\\nGovern and observe AI interactions&amp;nbsp;\\n\\nAccess with Entra ID: Built-in roles control who can use models and tools. Provider keys and tool credentials never reach app code.&amp;nbsp;\\nSafety on every prompt: Screen prompts and responses with Azure AI Content Safety.&amp;nbsp;\\nOnly approved tools: Curate and block tools at the gateway, or through Microsoft Agent 365 policies.&amp;nbsp;\\nProtection from poisoned tools (preview): Through the Microsoft Agent 365 integration, Microsoft Defender and Microsoft Purview inspect tool calls and results and block threats before an agent acts.&amp;nbsp;\\nDelegated identity:&amp;nbsp;With on-behalf-of (OBO) authentication, tools act with the signed-in user’s own permissions.&amp;nbsp;\\nEvery call on record: Record the caller, target, tokens, and outcome of each model and tool call, trace each call to its agent, and export the data over OpenTelemetry to Application Insights, Datadog, Splunk, Grafana Cloud, or any OTLP endpoint.&amp;nbsp;\\nPrivate by design: Private Link (preview) for inbound calls, VNet integration (preview) for private backends, IP filtering, and managed identity.&amp;nbsp;\\n\\nControl AI spend as adoption scales&amp;nbsp;\\n\\nSee who spends what: Track tokens and estimated cost by user, team, app, agent,&amp;nbsp;provider.&amp;nbsp;\\nEnforced budgets: Cost limits stop new requests once estimated spend reaches a budget.&amp;nbsp;\\nFair sharing: Token and request limits keep one caller from crowding out the rest.&amp;nbsp;\\n\\nDiscover, build, and operate in your existing workflow&amp;nbsp;\\n\\nCoding agent plugin:&amp;nbsp;Developers find approved models and tools and connect their apps from their coding agent.&amp;nbsp;\\nPortal, CLI, Bicep, and REST API:&amp;nbsp;Configure in the portal or with the CLI, then deploy the same setup as code from your CI/CD pipelines with Bicep or the REST API.\\n\\nSee Azure AI Gateway in action\\nFrom connecting models and MCP tools to securing access, controlling costs, and monitoring AI traffic, this demo shows how Azure AI Gateway helps you run AI applications with confidence.\\n\\n&amp;nbsp;\\nExtend AI governance across your Microsoft ecosystem&amp;nbsp;\\nAlready using Microsoft Foundry, Microsoft Agent 365, or Azure API Management? Azure AI Gateway works with all three.&amp;nbsp;\\nMicrosoft Foundry: Foundry has governance built in for its resources and projects. When AI spreads across teams, Foundry resources, subscriptions, and other providers, the gateway adds a shared layer on top. In a hub-and-spoke model, the gateway is the hub: a central platform team sets the rules once, and developers keep building in their Foundry projects, the spokes, using approved models and tools without managing credentials. Projects can share one deployment, including PTU, and fail over to another Foundry resource or provider. Foundry prompt agents can use gateway models through a model connection (preview), without code changes.&amp;nbsp;\\nMicrosoft Agent 365: Agent 365 discovers the gateway’s MCP servers and lets you set tool policies. The gateway enforces those policies, alongside its own, on every tool call, with added threat protection (preview) from Defender and Purview.&amp;nbsp;\\nRegions and pricing&amp;nbsp;\\nAzure AI Gateway is available today in 17 Azure regions: East US, East US 2, East US 2 EUAP, West US, West US 2, Central US, North Central US, South Central US, Canada East, West Europe, North Europe, UK South, France Central, Sweden Central, Australia East, Japan East, and Southeast Asia.&amp;nbsp;\\nAzure AI Gateway offers a freemium, per-use pricing model with 10,000 free requests per gateway each month. Paid billing begins January 1, 2027.\\n\\nMonthly gateway requests&amp;nbsp;\\n\\nService fee&amp;nbsp;\\n\\nAdditional request charges&amp;nbsp;\\n\\nUp to 10,000&amp;nbsp;\\n\\nFree&amp;nbsp;\\n\\nNone&amp;nbsp;\\n\\nMore than 10,000, up to 10 million&amp;nbsp;\\n\\n$500 per month, per gateway, billed hourly&amp;nbsp;\\n\\nNone (includes 10 million requests)&amp;nbsp;\\n\\nMore than 10 million&amp;nbsp;\\n\\n$500 per month, per gateway, billed hourly&amp;nbsp;\\n\\n$20 per additional million requests, billed in increments of 10,000 requests&amp;nbsp;\\n\\nPrices are in US dollars and may vary by region. Exact regional prices will be available when billing begins.&amp;nbsp;\\nGet started with Azure AI Gateway&amp;nbsp;\\nCreate a gateway at ai.gateway.azure.com. It’s ready in about a minute and free to start. Then:&amp;nbsp;\\n\\nConnect an existing model and give it an alias.&amp;nbsp;\\nExpose the MCP tools your agents need.&amp;nbsp;\\nGive your team access with an AI Gateway role.&amp;nbsp;\\nSet a cost limit.&amp;nbsp;\\nPoint your app o"
+      ],
+      "links": [
+        {
+          "text": "Azure AI Gateway plugin",
+          "url": "https://github.com/Azure/aigateway#coding-agent-plugin"
+        }
+      ]
+    },
+    {
+      "key": "hfe-primary",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "fetched_at": "2026-11-28T13:04:16.751836+00:00",
+      "status": 200,
+      "final_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "bytes": 380731,
+      "sha256": "fd02f46bf5070250f8bb002407fbb3cd0c3d888e3cfcc713ae3c28c3f4f4845b",
+      "date_meta": [
+        {
+          "property": "og:image",
+          "content": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-1440x810.png"
+        },
+        {
+          "property": "article:publisher",
+          "content": "https://www.facebook.com/Google/"
+        },
+        {
+          "property": "article:published_time",
+          "content": "2026-11-24"
+        },
+        {
+          "name": "twitter:image:src",
+          "content": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-1440x810.png"
+        },
+        {
+          "name": "published_time",
+          "content": "2026-11-24T19:30:00+00:00"
+        }
+      ],
+      "jsonld": [
+        "\n  {\n      \"@context\": \"https://schema.org\",\n      \"@type\": \"NewsArticle\",\n      \"mainEntityOfPage\": \"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/\",\n        \"headline\": \"We’re launching Humanity’s First Exam and a Kaggle hackathon to test LLM reliability.\",\n        \"datePublished\": \"2026-11-24T19:30:00+00:00\",\n        \"dateModified\": \"2026-11-24T19:30:00.265911+00:00\",\n        \"description\": \"Google launches Humanity’s First Exam to test LLM reliability across 544 prompts.\",\n        \"author\": {\n            \"@type\": \"Person\",\n            \"name\": \"Oran Kelly\"\n        },\n        \"publisher\": {\n            \"@type\": \"Organization\",\n            \"name\": \"Google\",\n            \"logo\": {\n                \"@type\": \"ImageObject\",\n                \"url\": \"https://blog.google/static/blogv2/images/google-1440x754.jpg?version=pr20261117-1738\",\n                \"width\": \"200\",\n                \"height\": \"200\"\n            }\n        },\n        \"image\": {\n            \"@type\": \"ImageObject\",\n            \"url\": \"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Neon_Sign.max-1440x810.png\",\n            \"width\": \"1440\",\n            \"height\": \"810\"\n        }\n  }\n"
+      ],
+      "links": []
+    },
+    {
+      "key": "ft",
+      "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4",
+      "fetched_at": "2026-11-28T13:04:16.751921+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "athena-original",
+      "url": "https://www.theinformation.com/newsletters/applied-ai/openai-preps-athena-data-tool-make-agents-accurate",
+      "fetched_at": "2026-11-28T13:04:16.751986+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "nielsen",
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "fetched_at": "2026-11-28T13:04:16.752081+00:00",
+      "status": 200,
+      "final_url": "https://neuralnetworksanddeeplearning.com/",
+      "bytes": 22243,
+      "sha256": "88bf3fac49f6d982cc3805ca75b6f0bf84c017d1800990874e1198c4c6ff7468",
+      "date_meta": [],
+      "jsonld": [],
+      "links": []
+    },
+    {
+      "key": "fleet",
+      "url": "https://fleetlayer.ai/",
+      "fetched_at": "2026-11-28T13:04:16.752150+00:00",
+      "status": 200,
+      "final_url": "https://fleetlayer.ai/",
+      "bytes": 27056,
+      "sha256": "d038878ca7eab91510a5ef7a7cd1daac4382f4878d1042c663709ae0833a23b9",
+      "date_meta": [],
+      "jsonld": [],
+      "links": [
+        {
+          "text": "Read the source on GitHub",
+          "url": "https://github.com/fleetlayer/fleetlayer"
+        },
+        {
+          "text": "Claude Code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "text": "Codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "text": "Gemini",
+          "url": "https://github.com/google-gemini/gemini-cli"
+        },
+        {
+          "text": "Playwright MCP",
+          "url": "https://github.com/microsoft/playwright-mcp"
+        },
+        {
+          "text": "Obsidian LiveSync",
+          "url": "https://github.com/vrtmrz/obsidian-livesync"
+        },
+        {
+          "text": "herdr-mobile-relay",
+          "url": "https://github.com/0cv/herdr-mobile-relay"
+        }
+      ]
+    },
+    {
+      "key": "voice",
+      "url": "https://voicehook.ai/",
+      "fetched_at": "2026-11-28T13:04:16.752216+00:00",
+      "status": 200,
+      "final_url": "https://voicehook.ai/",
+      "bytes": 1295114,
+      "sha256": "480a93894e3170d58e79fe524ed0dec2fad82ea610433a8a686786f16e0b23ed",
+      "date_meta": [],
+      "jsonld": [
+        "{\"@context\":\"https://schema.org\",\"@type\":\"WebApplication\",\"name\":\"voicehook.ai\",\"url\":\"https://voicehook.ai/\",\"description\":\"Sprich mit deiner KI wie am Telefon. Sie hört zu und antwortet dir per Stimme.\",\"applicationCategory\":\"CommunicationApplication\",\"operatingSystem\":\"Web\",\"inLanguage\":\"de\",\"offers\":{\"@type\":\"Offer\",\"price\":\"0\",\"priceCurrency\":\"EUR\",\"description\":\"Täglich Gratis-Minuten, danach Prepaid-Guthaben ab 10 EUR, kein Abo.\"}}"
+      ],
+      "links": [
+        {
+          "text": "GitHub ↗",
+          "url": "https://github.com/voicehook-ai"
+        }
+      ]
+    },
+    {
+      "key": "doctorow",
+      "url": "https://pluralistic.net/2026/11/27/taylor-made/",
+      "fetched_at": "2026-11-28T13:04:16.752273+00:00",
+      "status": 200,
+      "final_url": "https://pluralistic.net/2026/11/27/taylor-made/",
+      "bytes": 84312,
+      "sha256": "a7a4449d3960f46e82c03a9d0c0c4e69120c384f50e44f2bf11f205ffc0e2aca",
+      "date_meta": [
+        {
+          "name": "msvalidate.01",
+          "content": "A22C593F7D08BD82DFE872FF45B207D2"
+        }
+      ],
+      "jsonld": [],
+      "links": []
+    },
+    {
+      "key": "quasar",
+      "url": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/",
+      "fetched_at": "2026-11-28T13:04:16.852640+00:00",
+      "status": 200,
+      "final_url": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/",
+      "bytes": 201009,
+      "sha256": "92c4a7f1c456476738cafc1cdedbb0ddd68eb66f6ef8121a0344c7d0c5ae0db6",
+      "date_meta": [
+        {
+          "http-equiv": "cache-control",
+          "content": "private,no-cache,no-store,must-revalidate"
+        }
+      ],
+      "jsonld": [
+        "\n{\n  \"@context\": \"http://schema.org\",\n  \"@type\": \"NewsArticle\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/\"\n    },\n  \"headline\": \"Netflix Builds Quasar to Measure the Blast Radius of Library API Changes\",\n  \"image\": [\"http://assets.infoq.com/resources/en/infoQ-logo-big.jpg\"\n   ],\n  \"datePublished\": \"2026-11-27T14:35:00+0000\",\n  \"dateModified\": \"2026-11-27T14:35:00+0000\",\n  \"author\": [\n    {\n    \"@type\": \"Person\",\n    \"name\": \"Leela Kumili\",\n    \"url\": \"https://www.infoq.com/profile/Leela-Kumili/\"\n    }\n  ],\n   \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"InfoQ\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://assets.infoq.com/resources/en/infoQ-logo-big.jpg\"\n    }\n  },\n\n  \"description\": \"Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it \"\n}\n"
+      ],
+      "links": [
+        {
+          "text": "Quasar, an internal tool",
+          "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90"
+        },
+        {
+          "text": "Netflix Blog Post",
+          "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90"
+        },
+        {
+          "text": "Netflix Blog Post",
+          "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90"
+        }
+      ]
+    },
+    {
+      "key": "meta",
+      "url": "https://futurism.com/artificial-intelligence/meta-content-moderation-broken-ai",
+      "fetched_at": "2026-11-28T13:04:16.921199+00:00",
+      "status": 200,
+      "final_url": "https://futurism.com/artificial-intelligence/meta-content-moderation-broken-ai",
+      "bytes": 132336,
+      "sha256": "c43194bcf6676d9854c18ed8f19d976bc88fbae006f3578390a22562b488ae3b",
+      "date_meta": [
+        {
+          "property": "article:publisher",
+          "content": "https://www.facebook.com/futurism"
+        },
+        {
+          "name": "article:published_time",
+          "content": "2026-11-27T14:51:00-05:00"
+        },
+        {
+          "name": "article:modified_time",
+          "content": "2026-11-27T14:51:00-05:00"
+        },
+        {
+          "name": "parsely-pub-date",
+          "content": "2026-11-27T19:51:00Z"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"NewsArticle\",\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai#article\",\"isPartOf\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai\"},\"author\":[{\"@type\":\"Person\",\"@id\":\"https:\\/\\/futurism.com#\\/schema\\/person\\/569180626a04a54b4116ed3097fcc7c9\",\"name\":\"Maggie Harrison Dupré\",\"description\":\"At Futurism, I've reported extensively on the rise of AI as a cultural and business force shaping the media industry, and more broadly how those dynamics are changing how we all consume and share information and relate to one another. I'm also fascinated by public health policy and ethics, the role of emerging tech in politics and governance — and the powerful people and forces at those intersections — climate change, and the environment.\\r\\n\\r\\nMy investigation on Sports Illustrated's use of AI-generated authors with fictional biographies won a 2024 Mirror Award for \\\"Best Story on Media Coverage of Artificial Intelligence in Journalism and the Media\\\" from Syracuse University's SI Newhouse School, I contributed to Niemen Lab's 2025 Predictions for Journalism series, and I've discussed my work for Futurism during appearances on NPR, CNN, the BBC, the CBC, and more. \\r\\n\\r\\nI grew up in rural Pennsylvania and attended the University of Massachusetts Amherst, where I played Division I field hockey for the Minutewomen as a midfielder. Since then, I've lived in New Orleans, Louisiana and Manhattan, New York. I spend my free time running, reading, perusing archival fashion, and searching for the world’s best negroni. I also have a debonair tuxedo cat, Westley, who's named after \\\"The Princess Bride.\\\"\",\"url\":\"https:\\/\\/futurism.com\\/authors\\/mharrison\",\"image\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2025\\/06\\/avatar_user_156168_1741024548.jpg\",\"sameAs\":[\"https:\\/\\/bsky.app\\/profile\\/mharrisondupre.bsky.social\"]}],\"headline\":\"Meta&#8217;s Content Moderation Said to Be Severely Broken After Moving to Human Reviewers to AI\",\"datePublished\":\"2026-11-27T14:51:00-05:00\",\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai\"},\"wordCount\":547,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\\/\\/futurism.com\\/#organization\"},\"image\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2026\\/11\\/meta-moderation-broken-human-ai.jpg?w=2048\",\"keywords\":[\"content moderation\"],\"articleSection\":[\"Artificial Intelligence\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai#respond\"]}],\"dateModified\":\"2026-11-27T14:51:00-05:00\"},{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai\",\"url\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai\",\"name\":\"Meta's Content Moderation Said to Be Severely Broken After Moving to Human Reviewers to AI\",\"isPartOf\":{\"@id\":\"https:\\/\\/futurism.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2026\\/11\\/meta-moderation-broken-human-ai.jpg?w=2048\",\"datePublished\":\"2026-11-27T14:51:00-05:00\",\"description\":\"Meta staffers tell the Guardian that Meta's move to replace human moderators with AI systems has been a \\\"mess.\\\"\",\"breadcrumb\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai\"]}],\"dateModified\":\"2026-11-27T14:51:00-05:00\"},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai#primaryimage\",\"url\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2026\\/11\\/meta-moderation-broken-human-ai.jpg?quality=85&w=2048\",\"contentUrl\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2026\\/11\\/meta-moderation-broken-human-ai.jpg?w=2048\",\"width\":2048,\"height\":1075,\"caption\":\"Shutterstock \\/ Futurism\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/meta-content-moderation-broken-ai#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":\"https:\\/\\/futurism.com\\/category\\/artificial-intelligence\",\"description\":\"\",\"name\":\"Artificial Intelligence\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Meta's Content Moderation Said to Be Severely Broken After Moving to Human Reviewers to AI\"}],\"numberOfItems\":2,\"itemListOrder\":\"Ascending\",\"@context\":\"https:\\/\\/schema.org\"},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/futurism.com\\/#website\",\"url\":\"https:\\/\\/futurism.com\\/\",\"name\":\"Futurism\",\"description\":\"Building the future together\",\"publisher\":{\"@id\":\"https:\\/\\/futurism.com\\/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/futurism.com\\/#organization\",\"name\":\"Futurism\",\"url\":\"https:\\/\\/futurism.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/futurism.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2025\\/09\\/futurism_sq.png?quality=85\",\"contentUrl\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2025\\/09\\/futurism_sq.png\",\"width\":696,\"height\":696,\"caption\":\"Futurism\"},\"image\":{\"@id\":\"https:\\/\\/futurism.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/futurism\",\"https:\\/\\/www.instagram.com\\/futurism\\/\",\"https:\\/\\/bsky.app\\/profile\\/futurism.com\\/\"],\"publishingPrinciples\":\"https:\\/\\/futurism.com\\/editorial-standards\",\"correctionsPolicy\":\"https:\\/\\/futurism.com\\/dmca-policy\"},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/futurism.com#\\/schema\\/person\\/569180626a04a54b4116ed3097fcc7c9\",\"name\":\"Maggie Harrison Dupré\",\"description\":\"At Futurism, I've reported extensively on the rise of AI as a cultural and business force shaping the media industry, and more broadly how those dynamics are changing how we all consume and share information and relate to one another. I'm also fascinated by public health policy and ethics, the role of emerging tech in politics and governance — and the powerful people and forces at those intersections — climate change, and the environment.\\r\\n\\r\\nMy investigation on Sports Illustrated's use of AI-generated authors with fictional biographies won a 2024 Mirror Award for \\\"Best Story on Media Coverage of Artificial Intelligence in Journalism and the Media\\\" from Syracuse University's SI Newhouse School, I contributed to Niemen Lab's 2025 Predictions for Journalism series, and I've discussed my work for Futurism during appearances on NPR, CNN, the BBC, the CBC, and more. \\r\\n\\r\\nI grew up in rural Pennsylvania and attended the University of Massachusetts Amherst, where I played Division I field hockey for the Minutewomen as a midfielder. Since then, I've lived in New Orleans, Louisiana and Manhattan, New York. I spend my free time running, reading, perusing archival fashion, and searching for the world’s best negroni. I also have a debonair tuxedo cat, Westley, who's named after \\\"The Princess Bride.\\\"\",\"url\":\"https:\\/\\/futurism.com\\/authors\\/mharrison\",\"image\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2025\\/06\\/avatar_user_156168_1741024548.jpg\",\"sameAs\":[\"https:\\/\\/bsky.app\\/profile\\/mharrisondupre.bsky.social\"]}]}"
+      ],
+      "links": []
+    },
+    {
+      "key": "hospital",
+      "url": "https://futurism.com/artificial-intelligence/healthcare-telemetry-workers-hospital-automation-ai",
+      "fetched_at": "2026-11-28T13:04:16.931522+00:00",
+      "status": 200,
+      "final_url": "https://futurism.com/artificial-intelligence/healthcare-telemetry-workers-hospital-automation-ai",
+      "bytes": 135610,
+      "sha256": "29ab7104d44fb2eade54a75877d228b2825056b67005aa63c2289e7655e8a392",
+      "date_meta": [
+        {
+          "property": "article:publisher",
+          "content": "https://www.facebook.com/futurism"
+        },
+        {
+          "name": "article:published_time",
+          "content": "2026-11-27T11:52:00-05:00"
+        },
+        {
+          "name": "article:modified_time",
+          "content": "2026-11-27T11:52:00-05:00"
+        },
+        {
+          "name": "parsely-pub-date",
+          "content": "2026-11-27T16:52:00Z"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"NewsArticle\",\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai#article\",\"isPartOf\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai\"},\"author\":[{\"@type\":\"Person\",\"@id\":\"https:\\/\\/futurism.com#\\/schema\\/person\\/918452100674576e0124e532b4ab9d79\",\"name\":\"Joe Wilkins\",\"description\":\"At Futurism, I focus on the intersection of technology and power — examining the economics, history, and politics behind today’s dystopian headlines. As a writer, I’m interested in topics ranging from AI’s impact on labor to startups nobody asked for.\\r\\n\\r\\nMy prior work includes bylines in Jacobin, Verso, and Blue Labyrinths. My work for Futurism has been cited by publications including Forbes, The Guardian, MIT Technology Review, Time, The Nation, Mother Jones, The Verge, and Wired.\\r\\n\\r\\nI grew up in Michigan, attending Central Michigan University as well as Ball State University, where I earned a master of music. I now live in Brooklyn with my girlfriend and our cat Ziti. On weekends, you can find me hunched over a cold pint arguing geopolitics with the other transplants.\",\"url\":\"https:\\/\\/futurism.com\\/authors\\/jwilkins\",\"image\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2025\\/06\\/avatar_user_162598_1741024628.jpg\",\"sameAs\":[\"https:\\/\\/bsky.app\\/profile\\/joeonhere.bsky.social\"]}],\"headline\":\"Community Outraged When Hospital Moves to Automate Healthcare Jobs With AI\",\"datePublished\":\"2026-11-27T11:52:00-05:00\",\"mainEntityOfPage\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai\"},\"wordCount\":287,\"commentCount\":0,\"publisher\":{\"@id\":\"https:\\/\\/futurism.com\\/#organization\"},\"image\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2026\\/11\\/healthcare-specialists-automate-jobs-ai.jpg?w=2048\",\"articleSection\":[\"Artificial Intelligence\",\"Computing\",\"Devices\",\"Ethics\",\"Health &amp; Medicine\",\"Medical\",\"Prosthetics and Devices\",\"Robots and Machines\"],\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"CommentAction\",\"name\":\"Comment\",\"target\":[\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai#respond\"]}],\"dateModified\":\"2026-11-27T11:52:00-05:00\"},{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai\",\"url\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai\",\"name\":\"Community Outraged When Hospital Moves to Automate Healthcare Jobs With AI\",\"isPartOf\":{\"@id\":\"https:\\/\\/futurism.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2026\\/11\\/healthcare-specialists-automate-jobs-ai.jpg?w=2048\",\"datePublished\":\"2026-11-27T11:52:00-05:00\",\"description\":\"A large Ohio hospital is replacing dozens of telemetry techs with AI tools, a move which has outraged members of the local community.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai\"]}],\"dateModified\":\"2026-11-27T11:52:00-05:00\"},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai#primaryimage\",\"url\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2026\\/11\\/healthcare-specialists-automate-jobs-ai.jpg?quality=85&w=2048\",\"contentUrl\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2026\\/11\\/healthcare-specialists-automate-jobs-ai.jpg?w=2048\",\"width\":2048,\"height\":1075,\"caption\":\"Shutterstock \\/ PeopleImages\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/futurism.com\\/artificial-intelligence\\/healthcare-telemetry-workers-hospital-automation-ai#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":\"https:\\/\\/futurism.com\\/category\\/artificial-intelligence\",\"description\":\"\",\"name\":\"Artificial Intelligence\"},{\"@type\":\"ListItem\",\"position\":2,\"item\":\"https:\\/\\/futurism.com\\/category\\/ethics\",\"description\":\"\",\"name\":\"Ethics\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Community Outraged When Hospital Moves to Automate Healthcare Jobs With AI\"}],\"numberOfItems\":3,\"itemListOrder\":\"Ascending\",\"@context\":\"https:\\/\\/schema.org\"},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/futurism.com\\/#website\",\"url\":\"https:\\/\\/futurism.com\\/\",\"name\":\"Futurism\",\"description\":\"Building the future together\",\"publisher\":{\"@id\":\"https:\\/\\/futurism.com\\/#organization\"},\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/futurism.com\\/#organization\",\"name\":\"Futurism\",\"url\":\"https:\\/\\/futurism.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/futurism.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2025\\/09\\/futurism_sq.png?quality=85\",\"contentUrl\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2025\\/09\\/futurism_sq.png\",\"width\":696,\"height\":696,\"caption\":\"Futurism\"},\"image\":{\"@id\":\"https:\\/\\/futurism.com\\/#\\/schema\\/logo\\/image\\/\"},\"sameAs\":[\"https:\\/\\/www.facebook.com\\/futurism\",\"https:\\/\\/www.instagram.com\\/futurism\\/\",\"https:\\/\\/bsky.app\\/profile\\/futurism.com\\/\"],\"publishingPrinciples\":\"https:\\/\\/futurism.com\\/editorial-standards\",\"correctionsPolicy\":\"https:\\/\\/futurism.com\\/dmca-policy\"},{\"@type\":\"Person\",\"@id\":\"https:\\/\\/futurism.com#\\/schema\\/person\\/918452100674576e0124e532b4ab9d79\",\"name\":\"Joe Wilkins\",\"description\":\"At Futurism, I focus on the intersection of technology and power — examining the economics, history, and politics behind today’s dystopian headlines. As a writer, I’m interested in topics ranging from AI’s impact on labor to startups nobody asked for.\\r\\n\\r\\nMy prior work includes bylines in Jacobin, Verso, and Blue Labyrinths. My work for Futurism has been cited by publications including Forbes, The Guardian, MIT Technology Review, Time, The Nation, Mother Jones, The Verge, and Wired.\\r\\n\\r\\nI grew up in Michigan, attending Central Michigan University as well as Ball State University, where I earned a master of music. I now live in Brooklyn with my girlfriend and our cat Ziti. On weekends, you can find me hunched over a cold pint arguing geopolitics with the other transplants.\",\"url\":\"https:\\/\\/futurism.com\\/authors\\/jwilkins\",\"image\":\"https:\\/\\/futurism.com\\/wp-content\\/uploads\\/2025\\/06\\/avatar_user_162598_1741024628.jpg\",\"sameAs\":[\"https:\\/\\/bsky.app\\/profile\\/joeonhere.bsky.social\"]}]}"
+      ],
+      "links": []
+    },
+    {
+      "key": "qant",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "fetched_at": "2026-11-28T13:04:16.971176+00:00",
+      "status": 200,
+      "final_url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "bytes": 1284742,
+      "sha256": "c4c74e34132db9c3b336ea6f8ddc9070defe74cabd8c876c8cd391a91b2d5ad5",
+      "date_meta": [
+        {
+          "property": "article:published_time",
+          "content": "2026-11-27T07:00:00.000Z"
+        },
+        {
+          "property": "article:modified_time",
+          "content": "2026-11-27T07:00:00.000Z"
+        }
+      ],
+      "jsonld": [
+        "{\"@context\":\"http://schema.org\",\"@type\":\"NewsArticle\",\"articleBody\":\"As artificial intelligence becomes an unavoidable part of everyday life and models become ever more sophisticated, the cost of the energy required to run the technology is ballooning.\\nTo rein in runaway costs, AI labs and cloud providers are trying to build new data centers in places with cheap and plentiful renewable energy—like Scandinavia. But logistical challenges, a scarcity of key components, and a swell of anti-data center protests are getting in the way.\\nAn expanding field of hardware startups, among them German company Q.ANT, is coming at the problem from a different direction: by developing a new breed of chip—photonic processors—meant to minimize the amount of energy that AI models consume.\\nWhereas regular GPUs transmit and process data by shuffling electrons around, photonic processors use waves of light. Because light doesn’t generate heat as it travels and allows more data to be processed simultaneously, photonic processors supposedly consume less energy and require minimal cooling—one of the largest sources of cost for data centers.\\nThe aim isn’t to replace GPUs with photonic processors, but to run them side-by-side. Whilst GPUs excel at grinding through masses of additions and multiplications—linear math—photonic processors are best suited to complex, nonlinear calculations.\\nFew photonic processors are running inside data centers today. But Q.ANT recently rolled out its chips to facilities operated by cloud company IONOS as part of a pilot program. It says that more than 30 teams of engineers are now developing AI models optimized for photonic computing.\\nEarlier this month, WIRED spoke with Michael Förtsch, founder and CEO of Q.ANT. We discussed the energy bottlenecks constraining AI development, how photonic processors differ from regular chips, and the challenges Q.ANT faces in trying to popularize a new class of hardware.\\nThis conversation has been edited for length and clarity.\\nWIRED: Michael, could you start by outlining the problem Q.ANT is aiming to solve? Why does the world need photonic processors to run AI models?\\nMichael Förtsch: The overall problem is the cost generated by the huge amount of energy consumption.\\nIf you compute the way we think light should be used—not as a direct replacement for a GPU, but as a coprocessor—you basically have a new processor that takes care of the heavy math.\\nThe cost driver today is the access to the memory. The less data you need in order to complete a job, the more efficient and better your system. We execute complicated math in a single step, where [regular chips] need thousands of steps. This saves a bunch of data—or memory access points.\\nHow would you explain to the layperson how photonic computing works? How can light be used to perform mathematical computations?\\nLight is a wave. What is a wave? A sine function. [The sine function is a mathematical rule that, when plotted to a graph, produces a smooth repeating wave. —Editor] If I want to model something that’s round in shape with only linear functions, I need an infinite amount of data points and lines in order to describe something very simple: a circle. If I have the sine function at hand, because light is a wave, I need two points and I have already described the circle in all its beauty.\\nLight is very, very gifted to operate on complicated equations.\\nWhat distinguishes the type of problem best left to regular chips from problems that should be delegated to photonic processors?\\nThe Nvidia H200 GPU is a masterpiece of technology. It’s art. It’s truly hard to attack it in its homeground. But light has strengths where the GPU is weak—and vice versa.\\nLinear math? Please route it to the GPU. Non-linear and complex stuff? Please route it to us.\\nWe believe we will be much stronger in everything related to pictures and videos: image recognition, segmentation, and generation. Then, everything that’s related to robotics and physical AI.\\nWhat is the estimated gain in energy efficiency tied to using photonic processors alongside GPUs for AI tasks?\\nI’m not saying photonic computing will come for free. But I see that photonic computing, in combination with [CPUs and GPUs], can bring you a lot more artificial intelligence at a fraction of the energy.\\nUnder simulation, we are ending up at around four or five times energy reduction. But in real hardware we are not yet demonstrating it.\\nCan any task run on photonic hardware by default, or do they need to be configured in a certain way?\\nThere’s no need to learn a different language than C++ or Python. And you can already execute [preexisting] code on our machines.\\nBut if you take something that has been optimized for a GPU only, you should not expect that automatically things will run faster. You have to do some adaptations.\\nIt’s a chicken and egg problem, right? Until developers are building models to run on this type of processor, it’s going to be difficult to sell them to cloud providers. Equally, until photonic processors are available for people to use, it’s going to be tough to convince developers to design for them.\\nYou’re right.\\nWhether it’s photonic or any other processor technology, it will need time to get the credibility and trust that’s needed for a company like Google to build data center infrastructure around it.\\nThat’s the reason we chose to go into data centers with proof of concept systems, to validate that photonic computing is robust enough to withstand that environment.\\nWe want to invite the world to compute on our systems. We are building a new chicken, so you can start producing eggs. Let’s find out together whether they’re tasty or not.\\nWhat else should I understand about why photonic processors are not already widely in use?\\nIf hypothetically we received an order of 100,000 [photonic processors], we at Q.ANT are ready, but I’m not sure about the suppliers.\\nHardware is not software. On the assembly side, it will need [time] before we have the same robust supply chain as the semiconductor world.\\nDo you expect to suffer from the same problem as other hardware challengers in securing capacity with the big chip manufacturers?\\n[To produce Q.ANT chips] you only need 90 nanometer node technology, from the 2000s. A lot of foundries already use this capability to produce chips that are super cheap. With this technology, you can use the same line to produce high-performance chips with a much higher street price, without massive upfront investment in your assets.\\nThat resonates well with the industry.\\nAre Q.ANT processors built to function alongside a particular brand of GPUs—say, Nvidia or AMD—or are they totally agnostic?\\nThere’s no need to go single-sided with a particular GPU. We want to have the freedom to cooperate with any of them.\\nEither way, we are not competitive to GPUs, we complete their function set.\\nCan you imagine a future in which AI models run entirely on photonic processors, or will they always be a sidekick?\\nIf we see an opportunity in five years to attack the GPU as well, we would not be shy about taking it. But at the same time, I do not know what workloads in five years are going to be like.\\nIt depends on the architecture of future AI models, you mean?\\nAbsolutely.\\nCould the chance to perform certain calculations more cheaply with photonic processors change the way that AI engineers design future models?\\nThe core message is that we need to do something to fight the energy cost in the AI stack.\\nThat’s where we see the future of AI: very data-optimized models that allow for tasks of the same quality, but at a fraction of the energy—and therefore a fraction of the operating cost.\",\"isBasedOn\":\"https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/\",\"articleSection\":\"business\",\"author\":[{\"@type\":\"Person\",\"name\":\"Joel Khalili\",\"sameAs\":\"https://www.wired.com/author/joel-khalili/\"}],\"dateModified\":\"2026-11-27T02:00:00.000-05:00\"",
+        "{\"@context\":\"https://schema.org/\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Business\",\"item\":\"https://www.wired.com/business/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"data centers\",\"item\":\"https://www.wired.com/tag/data-centers/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"A New Breed of Chip Runs AI Models Using Waves of Light\"}]}"
+      ],
+      "links": []
+    }
+  ],
+  "github": {
+    "turbotap_release": {
+      "url": "https://api.github.com/repos/Maxteabag/turbotap/releases/460338957",
+      "assets_url": "https://api.github.com/repos/Maxteabag/turbotap/releases/460338957/assets",
+      "upload_url": "https://uploads.github.com/repos/Maxteabag/turbotap/releases/460338957/assets{?name,label}",
+      "html_url": "https://github.com/Maxteabag/turbotap/releases/tag/v1.6.7",
+      "id": 460338957,
+      "author": {
+        "login": "Maxteabag",
+        "id": 18162810,
+        "node_id": "MDQ6VXNlcjE4MTYyODEw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/18162810?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Maxteabag",
+        "html_url": "https://github.com/Maxteabag",
+        "followers_url": "https://api.github.com/users/Maxteabag/followers",
+        "following_url": "https://api.github.com/users/Maxteabag/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Maxteabag/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Maxteabag/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Maxteabag/subscriptions",
+        "organizations_url": "https://api.github.com/users/Maxteabag/orgs",
+        "repos_url": "https://api.github.com/users/Maxteabag/repos",
+        "events_url": "https://api.github.com/users/Maxteabag/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Maxteabag/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOV48vJc4bcDcN",
+      "tag_name": "v1.6.7",
+      "target_commitish": "2b23bc2287641d361e177b52689dce39ed9d952a",
+      "name": "Turbotap v1.6.7",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2026-11-27T08:36:40Z",
+      "updated_at": "2026-11-28T04:18:05Z",
+      "published_at": "2026-11-27T08:37:00Z",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Maxteabag/turbotap/releases/assets/799661514",
+          "id": 799661514,
+          "node_id": "RA_kwDOV48vJc4vqd3K",
+          "name": "SHA256SUMS",
+          "label": "",
+          "uploader": {
+            "login": "Maxteabag",
+            "id": 18162810,
+            "node_id": "MDQ6VXNlcjE4MTYyODEw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18162810?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maxteabag",
+            "html_url": "https://github.com/Maxteabag",
+            "followers_url": "https://api.github.com/users/Maxteabag/followers",
+            "following_url": "https://api.github.com/users/Maxteabag/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maxteabag/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maxteabag/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maxteabag/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maxteabag/orgs",
+            "repos_url": "https://api.github.com/users/Maxteabag/repos",
+            "events_url": "https://api.github.com/users/Maxteabag/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maxteabag/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "content_type": "application/octet-stream",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:58ec195f340e1cd1f93f469a87afe24b2dbaeb970030cf00e50bbe3b83a9c7b9",
+          "download_count": 4,
+          "created_at": "2026-11-27T08:36:57Z",
+          "updated_at": "2026-11-27T08:36:58Z",
+          "browser_download_url": "https://github.com/Maxteabag/turbotap/releases/download/v1.6.7/SHA256SUMS"
+        },
+        {
+          "url": "https://api.github.com/repos/Maxteabag/turbotap/releases/assets/799661513",
+          "id": 799661513,
+          "node_id": "RA_kwDOV48vJc4vqd3J",
+          "name": "turbotap-linux-x86_64",
+          "label": "",
+          "uploader": {
+            "login": "Maxteabag",
+            "id": 18162810,
+            "node_id": "MDQ6VXNlcjE4MTYyODEw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18162810?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maxteabag",
+            "html_url": "https://github.com/Maxteabag",
+            "followers_url": "https://api.github.com/users/Maxteabag/followers",
+            "following_url": "https://api.github.com/users/Maxteabag/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maxteabag/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maxteabag/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maxteabag/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maxteabag/orgs",
+            "repos_url": "https://api.github.com/users/Maxteabag/repos",
+            "events_url": "https://api.github.com/users/Maxteabag/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maxteabag/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "content_type": "application/octet-stream",
+          "state": "uploaded",
+          "size": 5471448,
+          "digest": "sha256:cc5dadb46585cea74549f2f3c9e77dc8bb1d74261ce15e7a7031589fc95e6bee",
+          "download_count": 7,
+          "created_at": "2026-11-27T08:36:57Z",
+          "updated_at": "2026-11-27T08:36:59Z",
+          "browser_download_url": "https://github.com/Maxteabag/turbotap/releases/download/v1.6.7/turbotap-linux-x86_64"
+        },
+        {
+          "url": "https://api.github.com/repos/Maxteabag/turbotap/releases/assets/803191228",
+          "id": 803191228,
+          "node_id": "RA_kwDOV48vJc4v37m8",
+          "name": "turbotap-linux-x86_64.SHA256SUMS",
+          "label": "",
+          "uploader": {
+            "login": "Maxteabag",
+            "id": 18162810,
+            "node_id": "MDQ6VXNlcjE4MTYyODEw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18162810?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maxteabag",
+            "html_url": "https://github.com/Maxteabag",
+            "followers_url": "https://api.github.com/users/Maxteabag/followers",
+            "following_url": "https://api.github.com/users/Maxteabag/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maxteabag/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maxteabag/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maxteabag/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maxteabag/orgs",
+            "repos_url": "https://api.github.com/users/Maxteabag/repos",
+            "events_url": "https://api.github.com/users/Maxteabag/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maxteabag/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "content_type": "application/octet-stream",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:58ec195f340e1cd1f93f469a87afe24b2dbaeb970030cf00e50bbe3b83a9c7b9",
+          "download_count": 1,
+          "created_at": "2026-11-28T04:18:05Z",
+          "updated_at": "2026-11-28T04:18:05Z",
+          "browser_download_url": "https://github.com/Maxteabag/turbotap/releases/download/v1.6.7/turbotap-linux-x86_64.SHA256SUMS"
+        },
+        {
+          "url": "https://api.github.com/repos/Maxteabag/turbotap/releases/assets/803189662",
+          "id": 803189662,
+          "node_id": "RA_kwDOV48vJc4v37Oe",
+          "name": "turbotap-macos-arm64",
+          "label": "",
+          "uploader": {
+            "login": "Maxteabag",
+            "id": 18162810,
+            "node_id": "MDQ6VXNlcjE4MTYyODEw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18162810?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maxteabag",
+            "html_url": "https://github.com/Maxteabag",
+            "followers_url": "https://api.github.com/users/Maxteabag/followers",
+            "following_url": "https://api.github.com/users/Maxteabag/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maxteabag/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maxteabag/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maxteabag/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maxteabag/orgs",
+            "repos_url": "https://api.github.com/users/Maxteabag/repos",
+            "events_url": "https://api.github.com/users/Maxteabag/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maxteabag/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "content_type": "application/octet-stream",
+          "state": "uploaded",
+          "size": 4542080,
+          "digest": "sha256:493c7a34cfcd6950bd899a3d264edb93fdd3e41bbf24e3c89dc00e123ca56113",
+          "download_count": 5,
+          "created_at": "2026-11-28T04:17:26Z",
+          "updated_at": "2026-11-28T04:17:27Z",
+          "browser_download_url": "https://github.com/Maxteabag/turbotap/releases/download/v1.6.7/turbotap-macos-arm64"
+        },
+        {
+          "url": "https://api.github.com/repos/Maxteabag/turbotap/releases/assets/803191235",
+          "id": 803191235,
+          "node_id": "RA_kwDOV48vJc4v37nD",
+          "name": "turbotap-macos-arm64.SHA256SUMS",
+          "label": "",
+          "uploader": {
+            "login": "Maxteabag",
+            "id": 18162810,
+            "node_id": "MDQ6VXNlcjE4MTYyODEw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/18162810?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maxteabag",
+            "html_url": "https://github.com/Maxteabag",
+            "followers_url": "https://api.github.com/users/Maxteabag/followers",
+            "following_url": "https://api.github.com/users/Maxteabag/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maxteabag/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maxteabag/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maxteabag/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maxteabag/orgs",
+            "repos_url": "https://api.github.com/users/Maxteabag/repos",
+            "events_url": "https://api.github.com/users/Maxteabag/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maxteabag/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "content_type": "application/octet-stream",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:8ebe65cf8707982456527ac30a5a02690e3018aaf7c994ab5a65be74827c19ba",
+          "download_count": 2,
+          "created_at": "2026-11-28T04:18:05Z",
+          "updated_at": "2026-11-28T04:18:05Z",
+          "browser_download_url": "https://github.com/Maxteabag/turbotap/releases/download/v1.6.7/turbotap-macos-arm64.SHA256SUMS"
+        }
+      ],
+      "tarball_url": "https://api.github.com/repos/Maxteabag/turbotap/tarball/v1.6.7",
+      "zipball_url": "https://api.github.com/repos/Maxteabag/turbotap/zipball/v1.6.7",
+      "body": "## Changes\n\n- Add exact accessibility waits and an observed control-change wait. Keep native search, alert and keyboard conveniences with explicit targeting where needed.\n- Improve field matching and readback, add optional run-scoped secret redaction, and report when a tap is acknowledged but the screen reaction is unconfirmed.\n- Allow banner dismissal from caller-selected text when SpringBoard is confirmed at dispatch. Keep the app allowlist and STOP checks.\n- Label filtering now requires caller-supplied deny patterns. See the README migration guidance.\n\n## Verification\n\n- Reviewed candidate: `ebe1edd834252a1582db19b158efde9e9d0c124a` (tree `7a5a4f1c8537ea5eb73f6fa7e29200cd38fb6a31`), merged in #41.\n- ai-swarm: 384 tests passed and the locked release build succeeded.\n- Three loopback runs reduced CLI invocations from 7 to 1, with median elapsed time of 5.027 s and 5.007 s respectively. This measures a simulated download wait.\n"
+    },
+    "turbotap_pr": {
+      "html_url": "https://github.com/Maxteabag/turbotap/pull/41",
+      "merged_at": "2026-11-27T08:36:40Z",
+      "merge_commit_sha": "2b23bc2287641d361e177b52689dce39ed9d952a",
+      "title": "Turbotap v1.6.7 with explicit caller-selected controls"
+    },
+    "cowork_releases": [
+      {
+        "html_url": "https://github.com/slashman413/cowork/releases/tag/v1.0.3",
+        "tag_name": "v1.0.3",
+        "published_at": "2026-11-24T17:52:45Z",
+        "created_at": "2026-11-24T17:42:07Z"
+      },
+      {
+        "html_url": "https://github.com/slashman413/cowork/releases/tag/v1.0.2",
+        "tag_name": "v1.0.2",
+        "published_at": "2026-11-24T09:30:12Z",
+        "created_at": "2026-11-15T04:27:35Z"
+      },
+      {
+        "html_url": "https://github.com/slashman413/cowork/releases/tag/v1.0.1",
+        "tag_name": "v1.0.1",
+        "published_at": "2026-11-24T09:30:11Z",
+        "created_at": "2026-10-18T13:08:05Z"
+      },
+      {
+        "html_url": "https://github.com/slashman413/cowork/releases/tag/v1.0.0",
+        "tag_name": "v1.0.0",
+        "published_at": "2026-11-24T09:30:10Z",
+        "created_at": "2026-10-17T18:57:09Z"
+      }
+    ]
+  }
+}

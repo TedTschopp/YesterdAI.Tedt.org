@@ -1,0 +1,228 @@
+{
+  "recorded_at": "2026-11-28T13:08:08.433591Z",
+  "reader_contract_version": "2.0.3",
+  "article_contract": 2,
+  "cutoff": "2026-11-28T05:00:00-08:00",
+  "window_start": "2026-11-27T01:00:00Z",
+  "discovery": {
+    "curated": 238,
+    "ranked": 193,
+    "total_usable_feed_records": 431,
+    "ingestion_exclusions": [],
+    "checked_at": "2026-11-28T13:02:02.764063Z"
+  },
+  "prior_review": {
+    "edition_dates": [
+      "2026-11-27",
+      "2026-11-26",
+      "2026-11-25",
+      "2026-11-24",
+      "2026-11-23",
+      "2026-11-22",
+      "2026-11-21"
+    ],
+    "complete_articles_read": 20,
+    "includes_unpublished_checkpoints": true,
+    "deduplication": "URL and development-level comparison; none of the three selected developments repeats the preceding seven days. Existing unpublished checkpoints remain unchanged."
+  },
+  "detailed_developments_reviewed": 23,
+  "outcome_counts": {
+    "excluded_date": 10,
+    "excluded_date_unverified": 3,
+    "excluded_original_unavailable": 3,
+    "not_selected_verification_incomplete": 4,
+    "selected": 3
+  },
+  "reviews": [
+    {
+      "development": "qant",
+      "outcome": "selected",
+      "reason": "The original WIRED interview has article:published_time and article:modified_time both 2026-11-27T07:00:00.000Z; JSON-LD agrees at 2026-11-27T02:00:00.000-05:00. Read the complete Joel Khalili interview, including the CEO’s explicit distinction between simulated savings and hardware demonstration.",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "source_published_at": "2026-11-27T07:00:00Z"
+    },
+    {
+      "development": "turbotap",
+      "outcome": "selected",
+      "reason": "GitHub’s release API reports published_at 2026-11-27T08:37:00Z for v1.6.7, separately from created_at 08:36:40Z and later asset upload times. Pull request 41 merged at 08:36:40Z. Read the release notes, the merged PR record and the v1.6.7 README, including filter migration and limits. The development is this release, not the feed’s later suggestion of a new project launch.",
+      "url": "https://github.com/Maxteabag/turbotap/releases/tag/v1.6.7",
+      "source_published_at": "2026-11-27T08:37:00Z"
+    },
+    {
+      "development": "doctorow",
+      "outcome": "selected",
+      "reason": "The original Pluralistic article’s time.entry-date.published datetime is 2026-11-27T05:38:29-08:00, equivalent to 13:38:29Z. The separate updated element is 08:20:49-08:00 and is not used to renew eligibility. Read the complete main essay before its supplementary links; treat claims about history and managerial motives as the author’s argument, not independently established measurements.",
+      "url": "https://pluralistic.net/2026/11/27/taylor-made/",
+      "source_published_at": "2026-11-27T13:38:29Z"
+    },
+    {
+      "development": "dca",
+      "outcome": "excluded_date",
+      "reason": "Google Research’s visible original date is November 23; the ranked feed’s November 27 timestamp does not renew the development.",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "source_published_at": "2026-11-23"
+    },
+    {
+      "development": "vast",
+      "outcome": "excluded_date",
+      "reason": "Disclosure’s visible original date is November 19, with fixes dated November 4. The later feed entry supplies no verified new development.",
+      "url": "https://8rank.ai/game/vast-cloud-sync-host-write",
+      "source_published_at": "2026-11-19"
+    },
+    {
+      "development": "hfe",
+      "outcome": "excluded_date",
+      "reason": "The complete original Google announcement predates the window. The November 28 Decoder story is paywalled beyond its introduction and supplies no verified new study result.",
+      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+      "source_published_at": "2026-11-24T19:30:00Z"
+    },
+    {
+      "development": "gateway",
+      "outcome": "excluded_date",
+      "reason": "Microsoft’s original GA announcement is dated November 17. InfoQ’s November 28 explanation does not establish a new release.",
+      "url": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/",
+      "source_published_at": "2026-11-17"
+    },
+    {
+      "development": "uber",
+      "outcome": "excluded_date",
+      "reason": "Actual feed-linked X original has article:published_time November 23; curated midnight is a placeholder.",
+      "url": "https://x.com/UberEng/status/2125008806249930999?s=19",
+      "source_published_at": "2026-11-23T23:29:14Z"
+    },
+    {
+      "development": "rocket",
+      "outcome": "excluded_date",
+      "reason": "Original JSON-LD date and November 24 modification both precede the window.",
+      "url": "https://microsoft.ai/news/rl-infrastructure-at-microsoft-ai/",
+      "source_published_at": "2026-11-23T17:24:32Z"
+    },
+    {
+      "development": "harvey",
+      "outcome": "excluded_date",
+      "reason": "BlogPosting JSON-LD publication and modification agree, both outside the window.",
+      "url": "https://www.harvey.ai/blog/applying-the-harvey-tenet-training-recipe-to-us-open-weight-models",
+      "source_published_at": "2026-11-24T15:58:00Z"
+    },
+    {
+      "development": "claude",
+      "outcome": "excluded_date",
+      "reason": "Original visible/meta/BlogPosting date is November 23, safely outside all plausible November 27 boundaries.",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "source_published_at": "2026-11-23"
+    },
+    {
+      "development": "working",
+      "outcome": "excluded_date",
+      "reason": "Original publication and November 23 modification are outside the window.",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "source_published_at": "2026-11-23T00:00:00Z"
+    },
+    {
+      "development": "cowork",
+      "outcome": "excluded_date",
+      "reason": "Newest GitHub release v1.0.3 predates the window; the feed’s launch description does not establish a new release.",
+      "url": "https://github.com/slashman413/cowork/releases/tag/v1.0.3",
+      "source_published_at": "2026-11-24T17:52:45Z"
+    },
+    {
+      "development": "wsj",
+      "outcome": "excluded_original_unavailable",
+      "reason": "Feed-linked original returned HTTP 401; two curated entries are one development and neither summary verifies it.",
+      "url": "https://www.wsj.com/tech/cisco-openai-launch-project-to-safeguard-agentic-ai-f48e6420?mod=ai_more_article_pos4"
+    },
+    {
+      "development": "apple",
+      "outcome": "excluded_original_unavailable",
+      "reason": "The Decoder attributes the allegations to the Financial Times. The actual linked original returned HTTP 403; the derivative summary was not promoted to verified original reporting.",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/"
+    },
+    {
+      "development": "athena",
+      "outcome": "excluded_original_unavailable",
+      "reason": "The Decoder attributes the plans to The Information; that linked original returned HTTP 403. No launch or timeline was inferred.",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/"
+    },
+    {
+      "development": "nielsen",
+      "outcome": "excluded_date_unverified",
+      "reason": "The original notice states only November 2026; no day or time verifies this 36-hour window.",
+      "url": "https://neuralnetworksanddeeplearning.com/"
+    },
+    {
+      "development": "fleet",
+      "outcome": "excluded_date_unverified",
+      "reason": "Undated product homepage describes an early source-available system. No original publication or substantive-update time was verified.",
+      "url": "https://fleetlayer.ai/"
+    },
+    {
+      "development": "voice",
+      "outcome": "excluded_date_unverified",
+      "reason": "Undated product homepage provides no verified original launch timestamp; later discovery time is insufficient.",
+      "url": "https://voicehook.ai/"
+    },
+    {
+      "development": "sap",
+      "outcome": "not_selected_verification_incomplete",
+      "reason": "Accessible short derivative report points to November 26 Bloomberg reporting. Not selected; the original date and detailed evidence were not further verified after three stronger supported articles were available.",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/"
+    },
+    {
+      "development": "quasar",
+      "outcome": "not_selected_verification_incomplete",
+      "reason": "InfoQ report read with technical limits and original Netflix link identified. Original blog and novelty were not fully verified; reserved after three supported articles, without claiming exhaustion.",
+      "url": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/"
+    },
+    {
+      "development": "meta",
+      "outcome": "not_selected_verification_incomplete",
+      "reason": "A dated Futurism page was fetched; original reported evidence was not fully reviewed. Reserved without treating its feed summary as verified reporting.",
+      "url": "https://futurism.com/artificial-intelligence/meta-content-moderation-broken-ai"
+    },
+    {
+      "development": "hospital",
+      "outcome": "not_selected_verification_incomplete",
+      "reason": "A dated Futurism page was fetched; original local reporting and clinical claims were not fully reviewed. Reserved, not promoted from a feed summary.",
+      "url": "https://futurism.com/artificial-intelligence/healthcare-telemetry-workers-hospital-automation-ai"
+    }
+  ],
+  "stopping_rule": "Stopped with three distinct supported articles; viable candidates were not exhausted. No evidence-based shortfall.",
+  "article_count": 3,
+  "shortfall": 0,
+  "formats": {
+    "brief": 3,
+    "analysis": 0
+  },
+  "quick_hits": 0,
+  "hero_decision": "Three focused briefs selected before drafting; no new heroes, generation attempts or reclassification. All 28 existing hero/share images retained.",
+  "headline_policy": "Current user AP sentence-style instruction overrides unchanged checked-in title-case policy for new publication titles; branded spelling and historical titles preserved.",
+  "articles": [
+    {
+      "article_id": "art_8a7bedc20d3b6ed3",
+      "slug": "qant-photonic-energy-hardware",
+      "title": "Q.ANT’s photonic energy savings still need a hardware demonstration",
+      "words": 289,
+      "format": "brief",
+      "hero": "omitted; focused brief chosen before drafting",
+      "url": "https://yesterdai.tedt.org/articles/qant-photonic-energy-hardware/"
+    },
+    {
+      "article_id": "art_f3acd91c9b1ccd5f",
+      "slug": "turbotap-confirmed-phone-actions",
+      "title": "A turbotap update makes phone actions and limits more explicit",
+      "words": 297,
+      "format": "brief",
+      "hero": "omitted; focused brief chosen before drafting",
+      "url": "https://yesterdai.tedt.org/articles/turbotap-confirmed-phone-actions/"
+    },
+    {
+      "article_id": "art_6e7f3043173d1a0e",
+      "slug": "doctorow-ai-control-at-work",
+      "title": "Doctorow asks who gains control when a company adopts AI",
+      "words": 291,
+      "format": "brief",
+      "hero": "omitted; focused brief chosen before drafting",
+      "url": "https://yesterdai.tedt.org/articles/doctorow-ai-control-at-work/"
+    }
+  ]
+}
